@@ -154,30 +154,3 @@ Updated 2022-02-28
  }
 ```
 
-
-### Nomenclaturas
-`_ ! @ % + =`
-
-! - MOCs de maior nível ou  DASHBOARDS
-@ - NOTAS DE CONTROLE E DATAVIEW
-% - TEMPLATES
-evitar uso de espaços e acentos,
-##### Modelos de Nomenclatura
-
-
-Notas de Estudo
-   - `[topic]-[subtopic]-[description]`
-     - Exemplo: `python-fundamentals-introduction`
-   - `[tool]-[method]-[description]`
-      - Exemplo : `pandas-loc-iloc-method-selection`
-
-Notas Sobre Livros
-   - `[book-title]-[autor]-[ano]`
-     - Exemplo: `introducao-estatistica-12edicao-mario-f-triola-2017`
- - `[book-title]-[chapter/topic]-[description]-`
-
-Planejamento e Relatórios de Projetos e Ideias
-   - `[project-name]-[task/idea]-[description]-[inicio]-[fim]`
-
-https://github.com/DuskWasHere/dusk-obsidian-vault
-https://fortelabs.com/blog/para/
