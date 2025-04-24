@@ -25,6 +25,13 @@
 	- ASSETS
 	- MEDIA
 
+# CONTENT OVERVIEW AND PYTHON CODES
+
+### [Notas](https://github.com/NonakaVal/MyVaultOverview/blob/main/_index_notas2.md)
+
+### [MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts)
+
+## 
 
 # Propriedades das Notas
 ### TAG
