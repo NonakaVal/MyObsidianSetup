@@ -1518,5 +1518,4 @@
 
 **Total nesta pasta**: 1345 palavras
 
----
-## 📊 Total geral: 292663 palavras
+
