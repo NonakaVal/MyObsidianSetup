@@ -8,7 +8,6 @@
 **Total nesta pasta**: 3922 palavras
 
 ## 📁 Atlas\ATLAS — 512 notas
-- [[62-frases-friedrich-nietzsche]] — 1434 palavras
 - [[Extraindo tipos de dados]] — 178 palavras
 - [[Produtos-notaveis]] — 32 palavras
 - [[Scope and user-defined functions]] — 103 palavras
