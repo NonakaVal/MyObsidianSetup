@@ -139,6 +139,3 @@ hub-philosophy           ...
 }
 ```
 
----
-
-Would you like this exported as a Markdown file or added directly to your vault?
