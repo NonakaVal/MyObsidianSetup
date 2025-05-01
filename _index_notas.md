@@ -1466,13 +1466,7 @@
 **Total nesta pasta**: 1810 palavras
 
 ### Social\PEOPLE — 7 notas
-- [Duda] — 478 palavras
-- [HenriqueAssis] — 51 palavras
-- [Jhee] — 212 palavras
-- [ME] — 431 palavras
-- [Mae] — 12 palavras
-- [Pai] — 82 palavras
-- [bbHarry] — 142 palavras
+- 
 
 **Total nesta pasta**: 1408 palavras
 
