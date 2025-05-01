@@ -22,15 +22,15 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 
 - **📂 <font color = 00bbfff>Atlas</font> — Notas de estudo e literárias**  
-	- **00 DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
-	- **01 INDEX** — Mapas e índices para navegar e interconectar as notas  
-	- **02 CONCEPT** — Conceitos teóricos, definições e modelos explicativos  
-	- **03 SNIPPETS** — Trechos de código reutilizáveis e exemplos práticos  
-	- **04 COMPONENT** — Blocos reutilizáveis, funções, algoritmos e padrões  
-	- **05 DOC** — Documentações explicativas ou tutoriais  
-	- **06 WORKFLOW** — Passo a passo de processos práticos ou pipelines  
-	- **07 RESOURCES** — Links, artigos, livros, PDFs, vídeos e materiais externos  
-	- **08 MAPS** — Mapas mentais e representações visuais de temas  
+	- **00_DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
+	- **01_INDEX** — Mapas e índices para navegar e interconectar as notas  
+	- **02_CONCEPT** — Conceitos teóricos, definições e modelos explicativos  
+	- **03_SNIPPETS** — Trechos de código reutilizáveis e exemplos práticos  
+	- **04_COMPONENT** — Blocos reutilizáveis, funções, algoritmos e padrões  
+	- **05_DOC** — Documentações explicativas ou tutoriais  
+	- **06_WORKFLOW** — Passo a passo de processos práticos ou pipelines  
+	- **07 _RESOURCES** — Links, artigos, livros, PDFs, vídeos e materiais externos  
+	- **08_MAPS** — Mapas mentais e representações visuais de temas  
 
 - **📂 <font color = 00bbfff>Calendar</font> — Calendários e notas diárias ou periódicas**  
 	- **DAILY** — Anotações diárias, diário de bordo, tarefas e insights  
