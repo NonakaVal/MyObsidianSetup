@@ -1,0 +1,37 @@
+{
+  "callouts": {
+    "custom": [
+      "line"
+    ],
+    "settings": {
+      "line": [
+        {
+          "changes": {
+            "icon": "lucide-audio-lines"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

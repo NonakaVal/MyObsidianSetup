@@ -1,0 +1,32 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "",
+    "template": "SYSTEM/TEMPLATE/FORMAT/template_daily_note.md",
+    "folder": "Calendar/DAILY",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "SYSTEM/TEMPLATE/FORMAT/template_weekly_note.md",
+    "folder": "Calendar/WEEKLY",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

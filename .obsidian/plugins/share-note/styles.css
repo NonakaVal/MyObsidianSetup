@@ -1,0 +1,24 @@
+.share-note-status-error.notice {
+    background: #c10000;
+    color: white
+}
+
+.share-note-status-info.notice {
+    background: hsl(204, 86%, 53%);
+    color: white
+}
+
+.share-note-status-success.notice {
+    background: #629762;
+    color: white
+}
+
+.share-note-icons {
+    display: flex;
+}
+
+.share-note-icons > span {
+    display: flex;
+    margin-left: 6px;
+    cursor: pointer;
+}

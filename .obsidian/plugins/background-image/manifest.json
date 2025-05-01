@@ -1,0 +1,10 @@
+{
+	"id": "background-image",
+	"name": "Background Image",
+	"version": "1.2.0",
+	"minAppVersion": "0.15.0",
+	"description": "This allows you to specify a remote URL as the background image, and a few settings to tweak the experience.",
+	"author": "shmolf",
+	"authorUrl": "https://github.com/shmolf",
+	"isDesktopOnly": false
+}

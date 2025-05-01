@@ -1,0 +1,343 @@
+{
+  "main": {
+    "id": "6eb43f14d14adae7",
+    "type": "split",
+    "children": [
+      {
+        "id": "51b8e961a0d2c1ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bb6bd27f1ba36d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entertainment/MUSIC/Tranquility Base Hotel & Casino.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tranquility Base Hotel & Casino"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e02aa2834727acf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5f08a43bc527e4e",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "2f6a96c9b9349bb1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5ce0654c249174fb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"connections\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6c96efa4d8610b79",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Atlas/MAPS/+_CANVAS_AOC.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of +_CANVAS_AOC"
+            }
+          },
+          {
+            "id": "adff3751cddcc2c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "c2167ef6d5af32cf",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "095ae27067725026",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "baed9ae28cbb2619",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5110321044922
+  },
+  "right": {
+    "id": "525d3f7d713c45a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "df4425b7a63651b8",
+        "type": "tabs",
+        "dimension": 49.778956675508404,
+        "children": [
+          {
+            "id": "47a1f085b8ae4fd8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1272f0432e2980ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bc2ee51c313fba4d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PARA/AREAS/collectorsGuardian/conteudos semana leilao - 03-25.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for conteudos semana leilao - 03-25"
+            }
+          },
+          {
+            "id": "d2cb3440838e2578",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Efforts/AREAS/test/test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from test"
+            }
+          },
+          {
+            "id": "bae92b00a0a6c5f6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ac4e1c1394a0e138",
+        "type": "tabs",
+        "dimension": 50.221043324491596,
+        "children": [
+          {
+            "id": "52d150d277a0f66c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/sistema_de_classificacao.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1.36084939329051,
+                  "lineSizeMultiplier": 0.66134903640257,
+                  "collapse-forces": false,
+                  "centerStrength": 0.599928622412563,
+                  "repelStrength": 16.6809421841542,
+                  "linkStrength": 0.251605995717345,
+                  "linkDistance": 500,
+                  "scale": 0.13348388284756735,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of sistema_de_classificacao"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 388.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": true,
+      "homepage:Open homepage": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "obsidian-kanban:Create new board": false,
+      "daily-notes:Open today's daily note": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "switcher:Open quick switcher": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-projects:Open projects": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "workspaces:Manage workspace layouts": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "c2167ef6d5af32cf",
+  "lastOpenFiles": [
+    "Entertainment/MUSIC/Trench - Twenty One Pilots.md",
+    "Entertainment/MUSIC/Clancy -  Twenty One Pilots.md",
+    "Entertainment/MUSIC/Tranquility Base Hotel & Casino.md",
+    "Calendar/DAILY/2025-04-29.md",
+    "System/TEMPLATE/FORMAT/template-album-music.md",
+    "HOMEPAGE.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/GATILHOS e Exemplos Registrados.md",
+    "Drafts/doc-conteudo-collectors.md",
+    "Drafts/tutoriais-e-protocolos-collectors.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/sistema_de_classificacao.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/produtos.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/moc-collectors.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/Persona_review.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/grid de publico.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/Expectativas em Relação ao ProdutoServiço.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/Características Chave do Cliente Ideal.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/roteiros-mensagens-stories-collectors.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/roteitos-reels-collectors-2024.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/modelos-de-conteudos-collectors.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/3. Exemplo Prático de Aplicação.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/Ideias de Conteudo collectors.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/2. Ferramentas para Gestão.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/1. Categorias de Conteúdo.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/checklist-de-recebimento-organizacao-e-envio.md",
+    "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/checklist-recebimento-de-lote-e-inspecao.md",
+    "Atlas/ATLAS/sql-overview.md",
+    "Drafts/CollectorsEditorialCalendar",
+    "Efforts/ARCHIVES/collectorsGuardian/CollectorsEditorialCalendar/desktop.ini",
+    "Untitled",
+    "Efforts/AREAS/test_area",
+    "Efforts/PROJECTS/test2",
+    "Efforts/PROJECTS/test",
+    "Efforts/PROJECTS/teste2",
+    "Efforts/AREAS/test",
+    "Efforts/PROJECTS/new",
+    "Efforts/AREAS/test2",
+    "Atlas/MAPS/+_CANVAS_AOC.canvas",
+    "System/MEDIA/IMAGENS/PRINTS/Pasted image 20250424175728.png",
+    "System/MEDIA/IMAGENS/PRINTS/PDCA.png",
+    "Efforts/ARCHIVES/Mentorias/producao PLR.canvas",
+    "Drafts/Untitled.canvas",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005297-PHOTO-2025-01-30-14-16-56.jpg",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005296-PHOTO-2025-01-30-14-16-55.jpg",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005294-STICKER-2025-01-30-14-16-01.webp",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005293-STICKER-2025-01-30-14-14-01.webp",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005290-STICKER-2025-01-30-14-10-00.webp",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005289-STICKER-2025-01-30-14-06-58.webp",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005281-PHOTO-2025-01-30-13-31-48.jpg",
+    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005280-PHOTO-2025-01-30-13-31-45.jpg",
+    "Untitled.canvas",
+    "STICKY/Untitled.canvas"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "debounceTimeout": 0,
+  "ignoreOpenFiles": true,
+  "ignoreForceViewAll": true,
+  "folders": [
+    {
+      "folder": "PARA",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "ZETA",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "DAILY",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "STICKY",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "HUB",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "PARA/ARCHIVES",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "SYSTEM/GETTING STARTED",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "SYSTEM/MEDIA",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "SYSTEM/TEMPLATE",
+      "viewMode": "obsidianEditingMode: source"
+    },
+    {
+      "folder": "SYSTEM/DESIGN",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "SYSTEM/MOBILE HUB",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "ZETA/PERMANENT",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ],
+  "files": [
+    {
+      "filePattern": "HUB/Homepage",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "HUB/Map of Content",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "HUB/Mail Box",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "SYSTEM/MOBILE HUB/Mobile Homepage",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "SYSTEM/MOBILE HUB/Mobile Map of Content",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "SYSTEM/MOBILE HUB/Mobile Mail Box",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ]
+}

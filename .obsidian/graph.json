@@ -1,0 +1,142 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[\"hub\":aoc",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "[\"hub\":siste",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "[\"hub\":data",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
+    },
+    {
+      "query": "[\"hub\":ml",
+      "color": {
+        "a": 1,
+        "rgb": 16776960
+      }
+    },
+    {
+      "query": "[\"hub\":hy",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    },
+    {
+      "query": "[\"hub\":tra",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "[\"hub\":mat",
+      "color": {
+        "a": 1,
+        "rgb": 8388608
+      }
+    },
+    {
+      "query": "[\"hub\":sta",
+      "color": {
+        "a": 1,
+        "rgb": 32768
+      }
+    },
+    {
+      "query": "[\"hub\":logic",
+      "color": {
+        "a": 1,
+        "rgb": 128
+      }
+    },
+    {
+      "query": "[\"hub\":coll",
+      "color": {
+        "a": 1,
+        "rgb": 8421376
+      }
+    },
+    {
+      "query": "[\"hub\":ect",
+      "color": {
+        "a": 1,
+        "rgb": 32896
+      }
+    },
+    {
+      "query": "[\"hub\":mkt",
+      "color": {
+        "a": 1,
+        "rgb": 16753920
+      }
+    },
+    {
+      "query": "[\"hub\":sql",
+      "color": {
+        "a": 1,
+        "rgb": 16738560
+      }
+    },
+    {
+      "query": "[\"hub\":gc",
+      "color": {
+        "a": 1,
+        "rgb": 16718260
+      }
+    },
+    {
+      "query": "[\"hub\":tec",
+      "color": {
+        "a": 1,
+        "rgb": 12632256
+      }
+    },
+    {
+      "query": "[\"hub\":wr",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "[\"hub\":py",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 2.42408993576017,
+  "lineSizeMultiplier": 0.66134903640257,
+  "collapse-forces": false,
+  "centerStrength": 0.222565278757939,
+  "repelStrength": 12.5811573747354,
+  "linkStrength": 0.414520112914608,
+  "linkDistance": 193,
+  "scale": 0.03883216087350251,
+  "close": true
+}

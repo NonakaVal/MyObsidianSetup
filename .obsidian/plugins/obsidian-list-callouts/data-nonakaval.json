@@ -1,0 +1,78 @@
+[
+  {
+    "color": "255, 214, 0",
+    "char": "&"
+  },
+  {
+    "color": "255, 145, 0",
+    "char": "?"
+  },
+  {
+    "color": "255, 23, 68",
+    "char": "!"
+  },
+  {
+    "color": "124, 77, 255",
+    "char": "~"
+  },
+  {
+    "color": "0, 184, 212",
+    "char": "@"
+  },
+  {
+    "color": "0, 200, 83",
+    "char": "$"
+  },
+  {
+    "color": "158, 158, 158",
+    "char": "%"
+  },
+  {
+    "char": "map",
+    "color": "63, 231, 253",
+    "icon": "lucide-locate-fixed",
+    "custom": true
+  },
+  {
+    "char": "fire",
+    "color": "254, 220, 52",
+    "icon": "lucide-flame",
+    "custom": true
+  },
+  {
+    "char": "book",
+    "color": "255, 122, 122",
+    "icon": "lucide-album",
+    "custom": true
+  },
+  {
+    "char": "pen",
+    "color": "59, 195, 222",
+    "icon": "lucide-edit",
+    "custom": true
+  },
+  {
+    "char": "info",
+    "color": "102, 217, 240",
+    "icon": "lucide-info",
+    "custom": true
+  },
+  {
+    "char": "list",
+    "color": "78, 191, 228",
+    "icon": "lucide-list",
+    "custom": true
+  },
+  {
+    "char": "yes",
+    "color": "88, 243, 176",
+    "icon": "lucide-check-circle",
+    "custom": true
+  },
+  {
+    "char": "no",
+    "color": "238, 43, 43",
+    "icon": "lucide-circle-slash",
+    "custom": true
+  }
+]

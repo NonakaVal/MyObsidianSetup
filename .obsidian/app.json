@@ -1,0 +1,15 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 72
+  },
+  "attachmentFolderPath": "System/MEDIA/IMAGENS/PRINTS",
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": false
+}

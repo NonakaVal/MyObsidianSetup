@@ -1,0 +1,555 @@
+{
+  "choices": [
+    {
+      "id": "a019f4b7-7f8e-4937-8069-7a9ad8c4b10e",
+      "name": "Multi - Select Note Type",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "1d743cd7-f1bc-44f1-be65-bda74e4f3640",
+          "name": "Create Fleeting Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "SYSTEM/TEMPLATE/FORMAT/template_fleeting_note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Atlas/FLEETING"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "9a4a8c3c-5e7a-4261-bd7f-85f2891948a7",
+          "name": "Create New Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/TEMPLATE/FORMAT/template_new_note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Drafts"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "2633d17f-253a-4781-81aa-d5a6a884becf",
+      "name": "Multi - Area",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "d9e990bb-6ec2-40ce-97e7-536a2dbc8bd2",
+          "name": "New Area Family",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/TEMPLATE/FORMAT/template_area.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Efforts/AREAS/{{VALUE}}"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "2007de3a-6e66-4c31-b749-ea2232af1ebc",
+          "name": "New Area Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/TEMPLATE/FORMAT/template_area_note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "1810c5a2-31d7-4cad-be4d-0b67acda5b6d",
+      "name": "Macro - Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "93517512-1198-42f7-8580-0e9106da01bd"
+    },
+    {
+      "id": "4aab0e52-b2ef-4027-ab42-ee9187fab029",
+      "name": "Capture - Add to Daily Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "DAILY/DAILY/{{DATE:YYYY-MM-DD}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "SYSTEM/TEMPLATE/FORMAT/template_daily_note.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "#task {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# New Tasks",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c8c7588f-71bc-4aef-97d4-6c34a9e5d554",
+      "name": "Hider (Focus Mode)",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a8439f00-249b-4092-8b97-bf677f2bb4be"
+    },
+    {
+      "id": "fe2b64be-77df-4bda-9bb7-7aa764ee1446",
+      "name": "Enable/Disable Sidebars",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8526f4f6-fddc-4013-92f7-1cd7f0d03245"
+    },
+    {
+      "id": "19c0da20-ef04-44e5-acbf-06fd4bac1d8c",
+      "name": "Macro - Startup",
+      "type": "Macro",
+      "command": true,
+      "macroId": "6e7baf31-df5f-4214-beef-15a955b855a2"
+    },
+    {
+      "id": "ce23ba95-e436-4241-b0c4-3bc6417a7b4e",
+      "name": "Create Fleeting Note (copy)",
+      "type": "Template",
+      "command": true,
+      "templatePath": "SYSTEM/TEMPLATE/FORMAT/template_fleeting_note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "ZETA/FLEETING"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "e2f1011b-3515-4b59-89e0-baa79d15e34d",
+      "name": "Collectors-Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "SYSTEM/TEMPLATE/FORMAT/template-collectors-note.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "PARA/AREAS/collectorsGuardian"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "ce660e35-2cef-4ccb-a69a-41aee464f9f2",
+      "name": "nota pessoa",
+      "type": "Template",
+      "command": true,
+      "templatePath": "System/TEMPLATE/FORMAT/template-nota-pessoa.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Social/People"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "df89c9fb-9ac5-4406-b630-82ebb74bdcd3",
+      "name": "PROJECT",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "3cfdb766-38dc-4495-935d-08cacc92e0ed",
+          "name": "New Project Idea",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/TEMPLATE/FORMAT/template_project.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Efforts/PROJECTS/{{VALUE}}"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "6ccbee6e-f9c3-459f-ac44-2559dcc0fbd6",
+          "name": "New Project Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/TEMPLATE/FORMAT/template_project_note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        }
+      ]
+    },
+    {
+      "id": "b96348e7-4258-41a9-ba19-a4ba90dcc97f",
+      "name": "snippet-note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "System/TEMPLATE/SNIPTETS/template-snippet.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "snip-{{VALUE}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Atlas/03_SNIPPETS"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "Macro - Project",
+      "id": "93517512-1198-42f7-8580-0e9106da01bd",
+      "commands": [
+        {
+          "name": "Projects: Show projects",
+          "type": "Obsidian",
+          "id": "2e75e364-4365-4bf7-9393-4a34385f13f8",
+          "commandId": "obsidian-projects:show-projects"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "5b4401f4-0518-4753-96b1-4b0c13adf9e2",
+          "time": 200
+        },
+        {
+          "name": "QuickAdd: New Project Family",
+          "type": "Obsidian",
+          "id": "2dafba1d-36b9-4cdd-8497-69656ab5aee9",
+          "commandId": "quickadd:choice:ff153bd3-6ae3-4098-bcd7-52fe4a558a34"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro - Startup",
+      "id": "6e7baf31-df5f-4214-beef-15a955b855a2",
+      "commands": [
+        {
+          "name": "Custom File Explorer sorting: Enable and apply the custom sorting, (re)parsing the sorting configuration first. Sort-on.",
+          "type": "Obsidian",
+          "id": "204f3206-b202-467e-96c2-311f62df3fb0",
+          "commandId": "custom-sort:enable-custom-sorting"
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "Hider (Focus Mode)",
+      "id": "a8439f00-249b-4092-8b97-bf677f2bb4be",
+      "commands": [
+        {
+          "name": "Hider: Toggle status bar",
+          "type": "Obsidian",
+          "id": "d046fdee-f9e6-4fe1-bcc4-223e4a143774",
+          "commandId": "obsidian-hider:toggle-hider-status"
+        },
+        {
+          "name": "Toggle left sidebar",
+          "type": "Obsidian",
+          "id": "d064de31-0d50-45de-954d-30cfcb7e69e2",
+          "commandId": "app:toggle-left-sidebar"
+        },
+        {
+          "name": "Toggle right sidebar",
+          "type": "Obsidian",
+          "id": "b42f103d-abe0-49a6-9453-f8919a564feb",
+          "commandId": "app:toggle-right-sidebar"
+        },
+        {
+          "name": "Toggle ribbon",
+          "type": "Obsidian",
+          "id": "3db19c04-2fe4-4a6b-ac16-f65f07b467d6",
+          "commandId": "app:toggle-ribbon"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Enable/Disable Sidebars",
+      "id": "8526f4f6-fddc-4013-92f7-1cd7f0d03245",
+      "commands": [
+        {
+          "name": "Toggle left sidebar",
+          "type": "Obsidian",
+          "id": "f1c1becd-59ba-44d2-b72b-7aa92fa1b8b4",
+          "commandId": "app:toggle-left-sidebar"
+        },
+        {
+          "name": "Toggle right sidebar",
+          "type": "Obsidian",
+          "id": "6946f898-8894-4e2a-bf41-c27cb71b532b",
+          "commandId": "app:toggle-right-sidebar"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "zettel",
+      "id": "df56492a-56f3-4540-92da-03ebab03b6e6",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": false,
+  "version": "1.13.2",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

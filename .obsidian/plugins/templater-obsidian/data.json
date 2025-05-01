@@ -1,0 +1,48 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "System/TEMPLATE/FORMAT",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Calendar/DAILY",
+      "template": "SYSTEM/TEMPLATE/FORMAT/template_daily_note.md"
+    },
+    {
+      "folder": "Drafts",
+      "template": "SYSTEM/TEMPLATE/FORMAT/template_new_note.md"
+    },
+    {
+      "folder": "Entertainment/MUSIC",
+      "template": "System/TEMPLATE/FORMAT/template-album-music.md"
+    },
+    {
+      "folder": "sni",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "SYSTEM/TEMPLATE/CODE/toggle_todo.md"
+  ],
+  "startup_templates": [],
+  "intellisense_render": 1
+}

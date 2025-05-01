@@ -1,0 +1,20 @@
+{
+  "todoPageName": "task\ntodo\ntodo-now\ntodo-schedule \ntodo-inbox\ninlog\ntodo-doing\ntodo-schedule",
+  "showChecked": false,
+  "showAllTodos": false,
+  "showOnlyActiveFile": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "tag",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "new->old",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "compact",
+  "_collapsedSections": [
+    "#todo-inbox",
+    "#inlog",
+    "#todo-schedule"
+  ],
+  "_hiddenTags": []
+}
