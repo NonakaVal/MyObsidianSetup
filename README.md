@@ -17,7 +17,7 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 ## Códigos 
 
-### [Repo - MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts) - `.ipynb` Diversos códigos Python que uso
+### [Repo - MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts) - Diversos códigos Python que uso
 
 - [GetVoutInfo](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/GetVoutInfo.ipynb) - `.ipynb` Jupyter notebook para obter informações
 - [EditNotes](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/EditNotes.ipynb) - `.ipynb` Editor de notas em massa
