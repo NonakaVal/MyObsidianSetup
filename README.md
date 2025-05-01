@@ -4,13 +4,13 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 ## Prints
 
+![Imgur](https://i.imgur.com/ocWzsWr.png)
+
 ![Imgur](https://i.imgur.com/0MeTEQY.png)
 
 ![Imgur](https://i.imgur.com/ihS8vDf.png)
 
 ![Imgur](https://i.imgur.com/Ls1ltAD.png)
-
-![Imgur](https://i.imgur.com/ocWzsWr.png)
 
 
 # 📂 Estrutura da Vault
