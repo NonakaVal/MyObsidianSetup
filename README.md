@@ -20,7 +20,7 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 # 📂 Estrutura da Vault
 
-```
+
 - **📂 <font color = 00bbfff>Atlas</font> — Notas de estudo e literárias**  
 	- **00 DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
 	- **01 INDEX** — Mapas e índices para navegar e interconectar as notas  
@@ -58,7 +58,7 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 	- **ASSETS** — Templates, ícones, imagens, estilos e componentes visuais  
 	- **MEDIA** — Repositório de arquivos multimídia utilizados nas notas  
 	- **TEMPLATE** — Meus Templates  
-```
+
 
 # Modelos de Nomenclatura
 
