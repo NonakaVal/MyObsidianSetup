@@ -58,6 +58,34 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 	- **MEDIA** — Repositório de arquivos multimídia utilizados nas notas  
 	- **TEMPLATE** — Meus Templates  
 
+# Modelos de Nomenclatura
+
+`[tema]-[subtema]-[descricao]`  
+- Conceito ou tópico de estudo. Ex: `python-fundamentals-introducao`
+
+`snip-[biblioteca]-[acao]-[descricao]`  
+- Snippet de código. Ex: `snip-pandas-loc-selecao-colunas`
+
+`cmp-[dominio]-[acao]-[descricao]`  
+- Componente ou função. Ex: `cmp-database-query-join`
+
+`doc-[ferramenta]-[modulo/metodo]-[descricao]`  
+- Documentação de ferramenta/método. Ex: `doc-python-pandas-groupby-agrupamento-dados`
+
+`flow-[tipo]-[descricao-curta]`  
+- Workflow ou fluxo de trabalho. Ex: `flow-marketing-campanha-email`
+
+`[livro]-[autor]-[ano] | [livro]-[capitulo]-[descricao]`  
+- Livro e capítulos. Ex: `introducao-estatistica-mario-triola-2017 | introducao-estatistica-capitulo-1-fundamentos`
+
+`[projeto]-[tipo]-[descricao]-[data-inicio]-[data-fim]`  
+- Projeto com data. Ex: `projeto-web-aplicacao-desenv-web-2023-01-01-2023-12-31`
+
+`maz-[tema]-[descricao-curta]`  
+- Nota ou tópico específico. Ex: `maz-python-estrutura-dados`
+
+
+
 # Propriedades Notas
 
 
@@ -135,31 +163,6 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 
 
-# Modelos de Nomenclatura
-
-`[tema]-[subtema]-[descricao]`  
-- Conceito ou tópico de estudo. Ex: `python-fundamentals-introducao`
-
-`snip-[biblioteca]-[acao]-[descricao]`  
-- Snippet de código. Ex: `snip-pandas-loc-selecao-colunas`
-
-`cmp-[dominio]-[acao]-[descricao]`  
-- Componente ou função. Ex: `cmp-database-query-join`
-
-`doc-[ferramenta]-[modulo/metodo]-[descricao]`  
-- Documentação de ferramenta/método. Ex: `doc-python-pandas-groupby-agrupamento-dados`
-
-`flow-[tipo]-[descricao-curta]`  
-- Workflow ou fluxo de trabalho. Ex: `flow-marketing-campanha-email`
-
-`[livro]-[autor]-[ano] | [livro]-[capitulo]-[descricao]`  
-- Livro e capítulos. Ex: `introducao-estatistica-mario-triola-2017 | introducao-estatistica-capitulo-1-fundamentos`
-
-`[projeto]-[tipo]-[descricao]-[data-inicio]-[data-fim]`  
-- Projeto com data. Ex: `projeto-web-aplicacao-desenv-web-2023-01-01-2023-12-31`
-
-`maz-[tema]-[descricao-curta]`  
-- Nota ou tópico específico. Ex: `maz-python-estrutura-dados`
 
 # CORE SNIPPETS
 - [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
