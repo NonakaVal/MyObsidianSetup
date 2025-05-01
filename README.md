@@ -164,7 +164,7 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 
 
-# CORE SNIPPETS
+# CSS SNIPPETS
 - [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
 - [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
 - [Modular CSS Layout for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)
