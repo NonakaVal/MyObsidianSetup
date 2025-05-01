@@ -3,6 +3,7 @@
 Subi esse repo para compartilhar minha organização no [Obsidian](https://obsidian.md/) - Estive usando como minha principal ferramenta de gestão de conhecimento por aproximadamente 2 anos. No início apenas para estudo e revisão, porém hoje em dia para muito além disso.
 
 ## Prints
+![Imgur](https://i.imgur.com/ocWzsWr.png)
 
 ![Imgur](https://i.imgur.com/0MeTEQY.png)
 
