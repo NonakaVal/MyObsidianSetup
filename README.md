@@ -16,7 +16,17 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 
 ## Códigos 
-[Repo - MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts) - Diversos códigos Python que uso 
+
+### [Repo - MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts) - `.ipynb` Diversos códigos Python que uso
+
+- [GetVoutInfo](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/GetVoutInfo.ipynb) - `.ipynb` Jupyter notebook para obter informações
+- [EditNotes](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/EditNotes.ipynb) - `.ipynb` Editor de notas em massa
+- [GetAllnotesList](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/GetAllnotesList.ipynb) - `.ipynb` Cria o arquivo [_index_notas.md](https://github.com/NonakaVal/MyObsidianStructure/blob/main/_index_notas.md)
+- [Zettelizer](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/Zettelizer.ipynb) - `.ipynb` Automaticamente atomiza notas com base no header
+- [ipynbToMarkdownFile](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/ipynbToMarkdownFile.ipynb) - `.ipynb` para converter notebooks em notas `.md`
+- [LLM-Explore-TESTS](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/LLM-Explore-TESTS.ipynb) - `.ipynb` Testes com LLMs
+
+
 
 # 📂 Estrutura da Vault
 
