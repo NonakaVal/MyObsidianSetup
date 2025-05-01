@@ -162,61 +162,9 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 - Nota ou tópico específico. Ex: `maz-python-estrutura-dados`
 
 # CORE SNIPPETS
-#### Dashboard ++
-```CSS
-/* Updated 2022-02-28 */
-
-.dashboard {
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    padding-top: 25px !important;
-}
-
-.dashboard .markdown-preview-section {
-    max-width: 100%;
-}
-
-/* Title at top of the document */
-.dashboard .markdown-preview-section .title {
-    top: 40px;
-    position: absolute;
-    font-size: 24pt !important;
-    font-weight: bolder;
-    letter-spacing: 10px;
-}
-
-.dashboard h1 {
-    border-bottom-style: dotted !important;
-    border-width: 1px !important;
-    padding-bottom: 3px !important;
-}
-
-.dashboard div > ul {
-    list-style: none;
-    display: flex;
-    column-gap: 50px;
-    flex-flow: row wrap;
-}
-
-.dashboard div > ul > li {
-    min-width: 250px;
-    width: 15%;
-}
-```
-
-```css
-/* 
-Optional css that can be added to make dashboards use wide margin 
-if "Readable line length" is enabled in Editor
- 
-Updated 2022-02-28
-*/
-
-.dashboard .markdown-preview-section {
-    width: 100% !important;
-    max-width: 100% !important;
- }
-```
+- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
+- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
+- [Modular CSS Layout for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)
 
 # Inspirações 
 
