@@ -21,7 +21,7 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 # 📂 Estrutura da Vault
 
 
-- **📂 <font color = 00bbfff>Atlas</font> — Notas de estudo e literárias**  
+- **📂 <font color = 00bbfff>Atlas</font>** — Notas de estudo e literárias  
 	- **00_DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
 	- **01_INDEX** — Mapas e índices para navegar e interconectar as notas  
 	- **02_CONCEPT** — Conceitos teóricos, definições e modelos explicativos  
@@ -32,7 +32,7 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 	- **07 _RESOURCES** — Links, artigos, livros, PDFs, vídeos e materiais externos  
 	- **08_MAPS** — Mapas mentais e representações visuais de temas  
 
-- **📂 <font color = 00bbfff>Calendar</font> — Calendários e notas diárias ou periódicas**  
+- **📂 <font color = 00bbfff>Calendar</font>** — Calendários e notas diárias ou periódicas  
 	- **DAILY** — Anotações diárias, diário de bordo, tarefas e insights  
 	- **MONTHLY** — Planejamento e reflexões mensais  
 	- **WEEKLY** — Planejamento e revisão semanal  
@@ -40,21 +40,21 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 - **📂 <font color = 00bbfff>Drafts</font> — Rascunhos avulsos e notas não categorizadas**
 
-- **📂 <font color = 00bbfff>Efforts</font> — Direcionamento de esforços e projetos ativos**  
+- **📂 <font color = 00bbfff>Efforts</font>** — Direcionamento de esforços e projetos ativos 
 	- **ARCHIVES** — Projetos concluídos ou pausados  
 	- **AREAS** — Áreas de foco contínuo (saúde, finanças, carreira, etc.)  
 	- **PROJECTS** — Projetos com começo, meio e fim definidos  
 	- **RESOURCES** — Materiais de apoio e referência específica para projetos  
 	- **WORKSTATION** — Anotações operacionais do dia a dia de execução  
 
-- **📂 <font color = 00bbfff>Entertainment</font> — Conteúdos de lazer, cultura e hobbies**  
+- **📂 <font color = 00bbfff>Entertainment</font>** — Conteúdos de lazer, cultura e hobbies
 	- **MUSIC** — Músicas, playlists, artistas favoritos e estudos musicais  
 
-- **📂 <font color = 00bbfff>Social</font> — Reflexões pessoais e interações humanas**  
+- **📂 <font color = 00bbfff>Social</font>** — Reflexões pessoais e interações humanas
 	- **PEOPLE** — Notas sobre pessoas, contatos, redes ou perfis importantes  
 	- **THINKING** — Pensamentos, filosofia pessoal, crenças e reflexões internas  
 
-- **📂 <font color = 00bbfff>System</font> — Sistema de organização e infraestrutura da base**  
+- **📂 <font color = 00bbfff>System</font>** — Sistema de organização e infraestrutura da base 
 	- **ASSETS** — Templates, ícones, imagens, estilos e componentes visuais  
 	- **MEDIA** — Repositório de arquivos multimídia utilizados nas notas  
 	- **TEMPLATE** — Meus Templates  
