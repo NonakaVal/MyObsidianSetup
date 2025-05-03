@@ -1,19 +1,11 @@
 {
   "enabledCssSnippets": [
-    "MCL Multi Column",
-    "Gradient Callouts",
+    "base",
     "dash",
     "dashboard",
-    "MCL Wide Views",
-    "base"
-  ],
-  "baseFontSizeAction": true,
-  "baseFontSize": 16,
-  "theme": "obsidian",
-  "cssTheme": "Blue Topaz",
-  "accentColor": "",
-  "nativeMenus": false,
-  "interfaceFontFamily": "Noteworthy",
-  "textFontFamily": "Noteworthy",
-  "monospaceFontFamily": "Noteworthy"
+    "datacore-classes",
+    "file-explorer-wrap",
+    "show-hover-title",
+    "MCL Wide Views"
+  ]
 }

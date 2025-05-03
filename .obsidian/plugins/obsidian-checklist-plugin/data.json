@@ -12,9 +12,8 @@
   "includeFiles": "",
   "lookAndFeel": "compact",
   "_collapsedSections": [
-    "#todo-inbox",
-    "#inlog",
-    "#todo-schedule"
+    "#todo-schedule",
+    "#inlog"
   ],
   "_hiddenTags": []
 }

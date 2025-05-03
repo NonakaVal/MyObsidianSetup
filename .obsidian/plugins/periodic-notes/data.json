@@ -4,15 +4,15 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "SYSTEM/TEMPLATE/FORMAT/template_daily_note.md",
+    "template": "SYSTEM/TEMPLATE/template_daily_note.md",
     "folder": "Calendar/DAILY",
     "enabled": true
   },
   "weekly": {
     "format": "",
-    "template": "SYSTEM/TEMPLATE/FORMAT/template_weekly_note.md",
+    "template": "",
     "folder": "Calendar/WEEKLY",
-    "enabled": true
+    "enabled": false
   },
   "monthly": {
     "format": "",

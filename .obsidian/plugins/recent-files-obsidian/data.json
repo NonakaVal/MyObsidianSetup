@@ -5,196 +5,200 @@
       "path": "README.md"
     },
     {
-      "basename": "2025-05-01",
-      "path": "Calendar/DAILY/2025-05-01.md"
-    },
-    {
-      "basename": "cmp-pandas-data-cleaning-methods",
-      "path": "Atlas/04_COMPONENT/cmp-pandas-data-cleaning-methods.md"
-    },
-    {
-      "basename": "moc-datascience",
-      "path": "Atlas/08_MAPS/moc-datascience.md"
-    },
-    {
-      "basename": "2025-04-06",
-      "path": "Calendar/DAILY/2025-04-06.md"
-    },
-    {
-      "basename": "ebook-carlos",
-      "path": "Efforts/ARCHIVES/ebooks/ebook-carlos.md"
-    },
-    {
-      "basename": "2025-04-30",
-      "path": "Calendar/DAILY/2025-04-30.md"
-    },
-    {
-      "basename": "2025-04-24",
-      "path": "Calendar/DAILY/2025-04-24.md"
-    },
-    {
-      "basename": "2025-04-19",
-      "path": "Calendar/DAILY/2025-04-19.md"
-    },
-    {
-      "basename": "2025-04-18",
-      "path": "Calendar/DAILY/2025-04-18.md"
-    },
-    {
-      "basename": "2025-04-12",
-      "path": "Calendar/DAILY/2025-04-12.md"
-    },
-    {
-      "basename": "2025-04-26",
-      "path": "Calendar/DAILY/2025-04-26.md"
-    },
-    {
-      "basename": "2025-04-13",
-      "path": "Calendar/DAILY/2025-04-13.md"
-    },
-    {
-      "basename": "2025-04-11",
-      "path": "Calendar/DAILY/2025-04-11.md"
-    },
-    {
-      "basename": "2025-04-10",
-      "path": "Calendar/DAILY/2025-04-10.md"
-    },
-    {
-      "basename": "2025-04-07",
-      "path": "Calendar/DAILY/2025-04-07.md"
-    },
-    {
-      "basename": "2025-04-14",
-      "path": "Calendar/DAILY/2025-04-14.md"
-    },
-    {
-      "basename": "2025-04-15",
-      "path": "Calendar/DAILY/2025-04-15.md"
-    },
-    {
-      "basename": "2025-04-17",
-      "path": "Calendar/DAILY/2025-04-17.md"
-    },
-    {
-      "basename": "distribuicao-normal-(gaussiana)",
-      "path": "Atlas/02_CONCEPT/distribuicao-normal-(gaussiana).md"
-    },
-    {
-      "basename": "distribuicao-de-probabilidade",
-      "path": "Atlas/02_CONCEPT/distribuicao-de-probabilidade.md"
-    },
-    {
-      "basename": "moc-estatistica",
-      "path": "Atlas/08_MAPS/moc-estatistica.md"
-    },
-    {
-      "basename": "flow-pandas-basic-data-manipulation",
-      "path": "Atlas/06_WORKFLOW/flow-pandas-basic-data-manipulation.md"
-    },
-    {
-      "basename": "cmp-EditNotes",
-      "path": "Atlas/04_COMPONENT/cmp-EditNotes.md"
-    },
-    {
-      "basename": "aniversário sony playstation",
-      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/aniversário sony playstation.md"
-    },
-    {
-      "basename": "doc-pandas-methods",
-      "path": "Atlas/05_DOC/doc-pandas-methods.md"
-    },
-    {
-      "basename": "flow-OlistProductUpdate",
-      "path": "Atlas/06_WORKFLOW/flow-OlistProductUpdate.md"
-    },
-    {
-      "basename": "snip-andas-groupby-function",
-      "path": "Atlas/03_SNIPPETS/snip-andas-groupby-function.md"
-    },
-    {
-      "basename": "2025-04-28",
-      "path": "Calendar/DAILY/2025-04-28.md"
-    },
-    {
-      "basename": "videos-olist",
-      "path": "Drafts/videos-olist.md"
-    },
-    {
-      "basename": "tutoriais-e-protocolos-collectors",
-      "path": "Drafts/tutoriais-e-protocolos-collectors.md"
-    },
-    {
-      "basename": "estudo-exemplo-de-cronograma",
-      "path": "Drafts/estudo-exemplo-de-cronograma.md"
-    },
-    {
-      "basename": "Engenharia de prompts",
-      "path": "Drafts/Engenharia de prompts.md"
-    },
-    {
-      "basename": "doc-conteudo-collectors",
-      "path": "Drafts/doc-conteudo-collectors.md"
-    },
-    {
-      "basename": "2025-04-29",
-      "path": "Calendar/DAILY/2025-04-29.md"
-    },
-    {
-      "basename": "2025-04-27",
-      "path": "Calendar/DAILY/2025-04-27.md"
-    },
-    {
-      "basename": "letters-to-myself",
-      "path": "Social/Thinking/letters-to-myself.md"
-    },
-    {
-      "basename": "just_music_lines",
-      "path": "Entertainment/MUSIC/just_music_lines.md"
-    },
-    {
-      "basename": "ME",
-      "path": "Social/PEOPLE/ME.md"
-    },
-    {
-      "basename": "Pai",
-      "path": "Social/PEOPLE/Pai.md"
-    },
-    {
-      "basename": "HenriqueAssis",
-      "path": "Social/PEOPLE/HenriqueAssis.md"
-    },
-    {
-      "basename": "Mae",
-      "path": "Social/PEOPLE/Mae.md"
-    },
-    {
-      "basename": "Duda",
-      "path": "Social/PEOPLE/Duda.md"
-    },
-    {
-      "basename": "moc-matematica-e-logica",
-      "path": "Atlas/08_MAPS/moc-matematica-e-logica.md"
-    },
-    {
       "basename": "moc-mkt-menagement",
       "path": "Atlas/08_MAPS/moc-mkt-menagement.md"
-    },
-    {
-      "basename": "moc-tec",
-      "path": "Atlas/08_MAPS/moc-tec.md"
     },
     {
       "basename": "moc-programacao",
       "path": "Atlas/08_MAPS/moc-programacao.md"
     },
     {
-      "basename": "+_CANVAS_GROWTH",
-      "path": "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas"
+      "basename": "moc-tec",
+      "path": "Atlas/08_MAPS/moc-tec.md"
+    },
+    {
+      "basename": "moc-estatistica",
+      "path": "Atlas/08_MAPS/moc-estatistica.md"
+    },
+    {
+      "basename": "moc-datascience",
+      "path": "Atlas/08_MAPS/moc-datascience.md"
     },
     {
       "basename": "+_CANVAS_AOC",
       "path": "Atlas/08_MAPS/+_CANVAS_AOC.canvas"
+    },
+    {
+      "basename": "2025-05-03",
+      "path": "Calendar/DAILY/2025-05-03.md"
+    },
+    {
+      "basename": "62-frases-friedrich-nietzsche",
+      "path": "SOCIAL/Thinking/62-frases-friedrich-nietzsche.md"
+    },
+    {
+      "basename": "solidao",
+      "path": "SOCIAL/Writing/solidao.md"
+    },
+    {
+      "basename": "paradoxo-onipotencia",
+      "path": "SOCIAL/Writing/paradoxo-onipotencia.md"
+    },
+    {
+      "basename": "o-poder-do-coletivo",
+      "path": "SOCIAL/Writing/o-poder-do-coletivo.md"
+    },
+    {
+      "basename": "limite-individualidade",
+      "path": "SOCIAL/Writing/limite-individualidade.md"
+    },
+    {
+      "basename": "humanidade",
+      "path": "SOCIAL/Writing/humanidade.md"
+    },
+    {
+      "basename": "eu-nos",
+      "path": "SOCIAL/Writing/eu-nos.md"
+    },
+    {
+      "basename": "conhecimento",
+      "path": "SOCIAL/Writing/conhecimento.md"
+    },
+    {
+      "basename": "carbono",
+      "path": "SOCIAL/Writing/carbono.md"
+    },
+    {
+      "basename": "a-morte",
+      "path": "SOCIAL/Writing/a-morte.md"
+    },
+    {
+      "basename": "3-definicoes-ciencia-logica-coginicao",
+      "path": "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md"
+    },
+    {
+      "basename": "2-conceitos-ordem",
+      "path": "SOCIAL/Writing/2-conceitos-ordem.md"
+    },
+    {
+      "basename": "doc-pandas-methods",
+      "path": "Atlas/05_DOC/doc-pandas-methods.md"
+    },
+    {
+      "basename": "2025-05-02",
+      "path": "Calendar/DAILY/2025-05-02.md"
+    },
+    {
+      "basename": "snip-andas-groupby-function",
+      "path": "Atlas/03_SNIPPETS/snip-andas-groupby-function.md"
+    },
+    {
+      "basename": "serie-playlist-entendendo-pkm",
+      "path": "Efforts/ARCHIVES/PKM-Youtube-Videos/serie-playlist-entendendo-pkm.md"
+    },
+    {
+      "basename": "Tutoriais-olist",
+      "path": "Efforts/PROJECTS/collectors-tutorials/Tutoriais-olist.md"
+    },
+    {
+      "basename": "collectors-tutorials",
+      "path": "Efforts/PROJECTS/collectors-tutorials/collectors-tutorials.md"
+    },
+    {
+      "basename": "bbHarry",
+      "path": "Efforts/AREAS/bbHarry/bbHarry.md"
+    },
+    {
+      "basename": "AprendizadoDobb",
+      "path": "Efforts/AREAS/bbHarry/AprendizadoDobb.md"
+    },
+    {
+      "basename": "Atividades-para-FAZER-com-bb",
+      "path": "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md"
+    },
+    {
+      "basename": "template_area",
+      "path": "System/TEMPLATE/FORMAT/template_area.md"
+    },
+    {
+      "basename": "snip-openai-agent-llm-classificacao-v-df-pandas",
+      "path": "Atlas/03_SNIPPETS/snip-openai-agent-llm-classificacao-v-df-pandas.md"
+    },
+    {
+      "basename": "snip-obter-percentual-valores-df",
+      "path": "Atlas/03_SNIPPETS/snip-obter-percentual-valores-df.md"
+    },
+    {
+      "basename": "snip-get-dataframe-info",
+      "path": "Atlas/03_SNIPPETS/snip-get-dataframe-info.md"
+    },
+    {
+      "basename": "2025-05-01",
+      "path": "Calendar/DAILY/2025-05-01.md"
+    },
+    {
+      "basename": "template_daily_note",
+      "path": "System/TEMPLATE/FORMAT/template_daily_note.md"
+    },
+    {
+      "basename": "2025-04-29",
+      "path": "Calendar/DAILY/2025-04-29.md"
+    },
+    {
+      "basename": "pandas-groupby-method",
+      "path": "Atlas/02_CONCEPT/pandas-groupby-method.md"
+    },
+    {
+      "basename": "snip-listar-diretorios-os",
+      "path": "Atlas/03_SNIPPETS/snip-listar-diretorios-os.md"
+    },
+    {
+      "basename": "template-snippet",
+      "path": "System/TEMPLATE/FORMAT/SNIPTETS/template-snippet.md"
+    },
+    {
+      "basename": "2025-04-30",
+      "path": "Calendar/DAILY/2025-04-30.md"
+    },
+    {
+      "basename": "clientes-collectors",
+      "path": "Drafts/clientes-collectors.md"
+    },
+    {
+      "basename": "memorize os templates abaixo",
+      "path": "Drafts/memorize os templates abaixo.md"
+    },
+    {
+      "basename": "conceitos-fundamentais",
+      "path": "Efforts/AREAS/pkm-videos/conceitos-fundamentais.md"
+    },
+    {
+      "basename": "2025-04-01",
+      "path": "Calendar/DAILY/2025-04-01.md"
+    },
+    {
+      "basename": "2025-04-02",
+      "path": "Calendar/DAILY/2025-04-02.md"
+    },
+    {
+      "basename": "PKM-Youtube-Videos",
+      "path": "Efforts/ARCHIVES/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
+    },
+    {
+      "basename": "2023-06-26",
+      "path": "Calendar/DAILY/2023-06-26.md"
+    },
+    {
+      "basename": "2023-06-23",
+      "path": "Calendar/DAILY/2023-06-23.md"
+    },
+    {
+      "basename": "2023-06-22",
+      "path": "Calendar/DAILY/2023-06-22.md"
+    },
+    {
+      "basename": "2023-06-21",
+      "path": "Calendar/DAILY/2023-06-21.md"
     }
   ],
   "omittedPaths": [],

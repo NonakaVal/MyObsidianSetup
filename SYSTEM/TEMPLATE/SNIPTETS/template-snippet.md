@@ -1,13 +1,20 @@
 ---
-created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
-tags:
-  - snippet
+created: "[[2025-05-03]]"
+tags: project/SNIPTETS
 HUB: 
-connections:
+connections: 
 ---
 
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 
 
-{propósito}
+# {propósito}
 
-{código}
+# {código}
+
+## PRIMEIRA FUNÇÃO - {date}
+
+```python
+
+
+
+```

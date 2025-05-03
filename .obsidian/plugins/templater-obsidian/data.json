@@ -27,8 +27,12 @@
       "template": "System/TEMPLATE/FORMAT/template-album-music.md"
     },
     {
-      "folder": "sni",
-      "template": ""
+      "folder": "Efforts/PROJECTS",
+      "template": "System/TEMPLATE/FORMAT/template_project_note.md"
+    },
+    {
+      "folder": "Atlas/03_SNIPPETS",
+      "template": "System/TEMPLATE/FORMAT/SNIPTETS/template-snippet.md"
     }
   ],
   "enable_file_templates": false,

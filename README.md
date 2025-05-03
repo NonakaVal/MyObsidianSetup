@@ -2,18 +2,14 @@
 
 Subi esse repo para compartilhar minha organização no [Obsidian](https://obsidian.md/) - Estive usando como minha principal ferramenta de gestão de conhecimento por aproximadamente 2 anos. No início apenas para estudo e revisão, porém hoje em dia para muito além disso.
 
-## Prints
-![Imgur](https://i.imgur.com/ocWzsWr.png)
+Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 
-![Imgur](https://i.imgur.com/0MeTEQY.png)
+# Vault 
 
-![Imgur](https://i.imgur.com/ihS8vDf.png)
-
-![Imgur](https://i.imgur.com/Ls1ltAD.png)
+![gif](https://i.imgur.com/CMrB7Wk.gif)
 
 
 # 📂 Estrutura da Vault
-
 
 - **📂 <font color = 00bbfff>Atlas</font>** — Notas de estudo e literárias  
 	- **00_DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
@@ -131,15 +127,14 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 # Community Plugins
 
-- [Background Image](https://github.com/obsidian-community/obsidian-background-image)
+- [Background Image](https://github.com/shmolf/obsidian-editor-background)
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
-- [Callout Manager](https://github.com/obsidian-community/obsidian-callout-manager)
+- [Callout Manager](https://github.com/eth-p/obsidian-callout-manager)
 - [Checklist](https://github.com/delashum/obsidian-checklist-plugin)
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 - [Force note view mode](https://github.com/bwydoogh/obsidian-force-view-mode-of-note)
 - [Homepage](https://github.com/mirnovov/obsidian-homepage)
 - [Hotkeys for specific files](https://github.com/Vinzent03/obsidian-hotkeys-for-specific-files)
-- [Journey](https://github.com/obsidian-community/obsidian-journey-plugin)
 - [Kanban](https://github.com/mgmeyers/obsidian-kanban)
 - [List Callouts](https://github.com/mgmeyers/obsidian-list-callouts)
 - [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)

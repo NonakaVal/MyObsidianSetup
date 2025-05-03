@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "6eb43f14d14adae7",
+    "id": "e068c2f2c5ab9a4e",
     "type": "split",
     "children": [
       {
-        "id": "5028df495eb9f08c",
+        "id": "f8131fa3d3dc47e9",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb3fb503821a890",
+            "id": "b9fb9faccc872ea7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,23 +31,21 @@
               "title": "README"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6e02aa2834727acf",
+    "id": "77d54f791abf57a3",
     "type": "split",
     "children": [
       {
-        "id": "d5f08a43bc527e4e",
+        "id": "e40ca5803e6ca4de",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "2f6a96c9b9349bb1",
+            "id": "a2bc94ab67cbe8fe",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -60,12 +58,12 @@
             }
           },
           {
-            "id": "5ce0654c249174fb",
+            "id": "ecef1731e17d67bc",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"connections\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,22 +75,7 @@
             }
           },
           {
-            "id": "6c96efa4d8610b79",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "README.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of README"
-            }
-          },
-          {
-            "id": "adff3751cddcc2c2",
+            "id": "1e1776493984f924",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -102,7 +85,7 @@
             }
           },
           {
-            "id": "bc719a1648dd97ff",
+            "id": "a840df0a227860be",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -110,16 +93,9 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
-          }
-        ]
-      },
-      {
-        "id": "095ae27067725026",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
+          },
           {
-            "id": "baed9ae28cbb2619",
+            "id": "3ccef4ffadaa78ab",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -132,19 +108,61 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5110321044922
+    "width": 300
   },
   "right": {
-    "id": "525d3f7d713c45a2",
+    "id": "a2051fa6b37fc1fa",
     "type": "split",
     "children": [
       {
-        "id": "df4425b7a63651b8",
+        "id": "b5c479625de67b72",
         "type": "tabs",
-        "dimension": 49.778956675508404,
         "children": [
           {
-            "id": "1272f0432e2980ef",
+            "id": "08f8f5660175c4cd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "8ebd1a1d630f1a06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SYSTEM/TEMPLATE/template_area.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for template_area"
+            }
+          },
+          {
+            "id": "a4ed9ed1ec70d426",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SYSTEM/TEMPLATE/template_area.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from template_area"
+            }
+          },
+          {
+            "id": "9653a626ec4d221b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -159,94 +177,22 @@
             }
           },
           {
-            "id": "bc2ee51c313fba4d",
+            "id": "1ac39eb58a91ed90",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "README.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
+                "file": "SYSTEM/TEMPLATE/template_area.md",
+                "followCursor": false,
                 "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "searchQuery": ""
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "icon": "lucide-list",
+              "title": "Outline of template_area"
             }
           },
           {
-            "id": "d2cb3440838e2578",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from README"
-            }
-          },
-          {
-            "id": "613a17eb64f5cfd5",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ac4e1c1394a0e138",
-        "type": "tabs",
-        "dimension": 50.221043324491596,
-        "children": [
-          {
-            "id": "52d150d277a0f66c",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "README.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": true,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": -3,
-                  "nodeSizeMultiplier": 1.36084939329051,
-                  "lineSizeMultiplier": 0.66134903640257,
-                  "collapse-forces": false,
-                  "centerStrength": 0.599928622412563,
-                  "repelStrength": 16.6809421841542,
-                  "linkStrength": 0.251605995717345,
-                  "linkDistance": 500,
-                  "scale": 0.0921892416341789,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of README"
-            }
-          },
-          {
-            "id": "bae92b00a0a6c5f6",
+            "id": "c140dcd46152917f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -263,83 +209,64 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
-    "collapsed": true
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": true,
-      "command-palette:Open command palette": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
       "switcher:Open quick switcher": false,
-      "workspaces:Manage workspace layouts": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-projects:Open projects": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-journey-plugin:Find Journey": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "cdb3fb503821a890",
+  "active": "b9fb9faccc872ea7",
   "lastOpenFiles": [
-    "Calendar/DAILY/2025-05-01.md",
-    "_index_notas.md",
+    "Atlas/08_MAPS/moc-mkt-menagement.md",
     "README.md",
-    "Atlas/04_COMPONENT/cmp-pandas-data-cleaning-methods.md",
+    "Atlas/08_MAPS/moc-programacao.md",
+    "Atlas/08_MAPS/moc-tec.md",
+    "Atlas/08_MAPS/moc-estatistica.md",
     "Atlas/08_MAPS/moc-datascience.md",
-    "pandas-agg.md",
-    "Calendar/DAILY/2025-04-06.md",
-    "Efforts/ARCHIVES/ebooks/ebook-carlos.md",
-    "Calendar/DAILY/2025-04-30.md",
-    "Calendar/DAILY/2025-04-24.md",
-    "Calendar/DAILY/2025-04-19.md",
-    "Calendar/DAILY/2025-04-18.md",
-    "Calendar/DAILY/2025-04-12.md",
-    "Calendar/DAILY/2025-04-26.md",
-    "Calendar/DAILY/2025-04-13.md",
-    "Calendar/DAILY/2025-04-11.md",
-    "Calendar/DAILY/2025-04-10.md",
-    "Calendar/DAILY/2025-04-07.md",
-    "Calendar/DAILY/2025-04-14.md",
-    "Calendar/DAILY/2025-04-15.md",
-    "Calendar/DAILY/2025-04-17.md",
-    "Untitled.md",
-    "moc-social.md",
-    "HOMEPAGE.md",
-    "Drafts/tes.md",
-    "Atlas/02_CONCEPT/distribuicao-normal-(gaussiana).md",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/SO",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/ECT",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/GCTI",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/eng. software",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/HTML",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/+_CANVAS_AOC.canvas",
-    "Atlas/02_CONCEPT/FirstVault/marketing/outbound-marketing",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/neurociência",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev",
-    "Atlas/02_CONCEPT/FirstVault/marketing",
-    "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS 1.canvas",
-    "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas",
     "Atlas/08_MAPS/+_CANVAS_AOC.canvas",
-    "System/MEDIA/IMAGENS/PRINTS/Pasted image 20250424175728.png",
-    "System/MEDIA/IMAGENS/PRINTS/PDCA.png",
-    "Efforts/ARCHIVES/Mentorias/producao PLR.canvas",
-    "Drafts/Untitled.canvas",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005297-PHOTO-2025-01-30-14-16-56.jpg",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005296-PHOTO-2025-01-30-14-16-55.jpg",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005294-STICKER-2025-01-30-14-16-01.webp",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005293-STICKER-2025-01-30-14-14-01.webp",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005290-STICKER-2025-01-30-14-10-00.webp",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005289-STICKER-2025-01-30-14-06-58.webp",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005281-PHOTO-2025-01-30-13-31-48.jpg",
-    "System/MEDIA/IMAGENS/WhatsApp Chat - ARENA Collector’s/00005280-PHOTO-2025-01-30-13-31-45.jpg",
-    "Untitled.canvas",
-    "STICKY/Untitled.canvas"
+    "Calendar/DAILY/2025-05-03.md",
+    "SOCIAL/Thinking/62-frases-friedrich-nietzsche.md",
+    "SYSTEM/ASSETS/meta-voult-info.md",
+    "SOCIAL/Writing/solidao.md",
+    "SOCIAL/Untitled.md",
+    "SOCIAL/Writing/paradoxo-onipotencia.md",
+    "SOCIAL/Writing/o-poder-do-coletivo.md",
+    "SOCIAL/Writing/limite-individualidade.md",
+    "SOCIAL/Writing/livre-arbitrio-nietzsche.md",
+    "SOCIAL/Writing/humanidade.md",
+    "SOCIAL/Writing/eu-nos.md",
+    "SOCIAL/Writing/conhecimento.md",
+    "SOCIAL/Writing/carbono.md",
+    "SOCIAL/Writing/a-morte.md",
+    "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md",
+    "SOCIAL/Writing/2-conceitos-ordem.md",
+    "SOCIAL/Writing/1-resumo-ideia-base.md",
+    "Untitled.md",
+    "Efforts/AREAS/test/new.md",
+    "Efforts/AREAS/test/test.md",
+    "Drafts",
+    "Efforts/AREAS/test",
+    "Atlas/02_CONCEPT/+_CANVAS_AOC.canvas",
+    "Atlas/02_CONCEPT/SO",
+    "Atlas/02_CONCEPT/GCTI",
+    "Atlas/02_CONCEPT/ECT",
+    "Atlas/02_CONCEPT/AOC",
+    "Efforts/ARCHIVES/PKM-Youtube-Videos/desktop.ini",
+    "Efforts/ARCHIVES/PKM-Youtube-Videos",
+    "SOCIAL/Writing/desktop.ini",
+    "SOCIAL/Writing",
+    "Atlas/08_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas",
+    "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "Atlas/08_MAPS/+_CANVAS-DATASCIENCE.canvas"
   ]
 }
