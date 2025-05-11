@@ -1,0 +1,21 @@
+---
+tags:
+  - learning
+HUB:
+  - "[[hub-python]]"
+  - "[[hub-tratamento-de-dados]]"
+---
+2024-01-09  11:06
+
+### **Converting and analyzing categorical data**
+
+`print(saleries.select_dtypes('object').head())` 
+
+`print(salaries['designation'].nunique())`
+
+`salaries['Designation'].str.contains('Scientist')` 
+
+
+### ![[finding-multiple-phrases-in-strings]]
+
+

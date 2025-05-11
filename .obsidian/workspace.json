@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "SYSTEM/TEMPLATE/template_area.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "template_area"
             }
           }
         ]
@@ -226,8 +226,12 @@
   },
   "active": "b9fb9faccc872ea7",
   "lastOpenFiles": [
-    "Atlas/08_MAPS/moc-mkt-menagement.md",
+    "SYSTEM/TEMPLATE/template_area_note.md",
+    "SYSTEM/TEMPLATE/template_area.md",
+    "SYSTEM/TEMPLATE/template_project.md",
+    "SYSTEM/TEMPLATE/template_new_note.md",
     "README.md",
+    "Atlas/08_MAPS/moc-mkt-menagement.md",
     "Atlas/08_MAPS/moc-programacao.md",
     "Atlas/08_MAPS/moc-tec.md",
     "Atlas/08_MAPS/moc-estatistica.md",
@@ -249,10 +253,6 @@
     "SOCIAL/Writing/a-morte.md",
     "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md",
     "SOCIAL/Writing/2-conceitos-ordem.md",
-    "SOCIAL/Writing/1-resumo-ideia-base.md",
-    "Untitled.md",
-    "Efforts/AREAS/test/new.md",
-    "Efforts/AREAS/test/test.md",
     "Drafts",
     "Efforts/AREAS/test",
     "Atlas/02_CONCEPT/+_CANVAS_AOC.canvas",

@@ -5,6 +5,8 @@ HUB:
   - "[[hub-jupyterNotebook]]"
   - "[[hub-collectors]]"
 created: "[[2025-05-03]]"
+share_link: https://share.note.sx/d01qiii9#fd0tXc6kt8c2tl3KvOucKm/Wn4LM3oghTxk467eTblY
+share_updated: 2025-05-09T20:53:53-03:00
 ---
 # Análise de Leilões
 ## Processamento e análise de dados exportados diretamente do chat de leilões do whatsapp

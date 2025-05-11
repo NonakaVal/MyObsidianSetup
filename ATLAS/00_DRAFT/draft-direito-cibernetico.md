@@ -1,0 +1,300 @@
+---
+tags:
+  - learning
+  - 
+HUB:
+  - "[[hub-tec]]"
+---
+
+## Direito cibernético resumo aula 1
+
+
+- legislações do direito e tecnologias
+	- direito e o dever
+		- prescrição de condutas para proteger bens e evitar conflitos
+		- paz social
+	- tecnologia
+		- busca por soluções aos problemas enfrentados
+		- inovações para facilitar a vida humana
+			- roda, agricultura, industria e a internet
+
+- direito 
+	- direito está ligado a tecnologia quanto a parte da inovação, sempre que há uma inovação é preciso uma adequação a mudança,
+	- os avanços tecnológicos exigem uma resposta do direito
+	- é necessário o contexto normativo a nova tecnologia(casos uber e taxi)
+		- leis 
+			- código de defesa do consumidor
+				- pensado para proteger o consumidor
+			- marco civil da internet
+				- principios, garantias, direitos e deveres para o uso da internet
+			- LGPD - Lei geral de proteção de dados
+			- segurança da informação
+				- é um conjunto de dados que quando processados que ganham um significado, se tornam um ativo empresárial, esse ativo é essencial para que o negócio se desenvolva, por isso deve ser protegida de forma adequada e segura
+					- dados da empresa: dados que podem comprometer a segurança dos negocios
+					- apropriação de dados de propriedade intelectual
+					- dados pessoais
+					- propriedade intelectual
+		- liberdade de expressão
+			- deve servir como um prolongamento da personalidade, deve ser acessível a todos, verdadeiramente democrático que favoreça a apetitividade individuais e coletivas sempre a luz da boa fé e dignidade humana 
+				- está prevista na constinuição artigo 5
+					- ela não é absoluta, ela colide com outros direitos
+						- a falsa sensação de impunidadade no meio digital, fake news, crimes de calunia, difamação e discurso de ódio
+	- -direito ao esquecimento
+		- ter o direito de ter fatos fexaminasos ser esquecido depois de um determinado tempo
+			- a internet causa toda informação perpetua
+				- tuteda da dignidadade da pessoa humana, inclue o direito do esquecimento
+					- stf determinou que não existe de fato esse direito, mas deve ser considerado caso caso.
+	- concorrência desleal 
+		- torna necessário boas praticas 
+			-  sempre que eu estava abusando do uso de informações ou do uso de ferramentas para tirar vantagens competitivas
+				- compliance
+				- governança corporativa
+
+- tecnlogia 
+	- está ligado a resolução de um poblema
+	- utilizar do conhecimento para produzir algo mais útil
+	- digitalização 
+		- bigdata
+			- refere-se as situações nas quais as tecnologias digitais são utilizadas para lidas com grandes e diveras quantidadeas de dados e as varias possibilidades de processamentos desses dados
+	- blockchain
+			- encadeamento em bloco de dados como uma corrente que recebem codigos de validação criptografados, os quais assseguram confiabilidade dos dados trafegados seja com finalidade financeira ou informacional.
+				- inovação comparada ao surgimento da internet
+					- redução de custo, assimetria da informação
+					- permite transações diretas entre as partes, dispensando intermediarios
+					- confiança pela tecnologia não pelo estado
+						- dados digitais
+						- algoritmos
+						- ele é imutável
+				- surgiu em 2008 - estava associada ao bitcoin
+					- descentralizaão da confiança
+					- ao inves do estado lastrando a confiança, é a tecnologia
+					- rastreabilidade
+					- hash(função matemática que gera um código único)
+						- informação criptografada
+						- ela fica armazenada no cloundcomputing
+				- internet das coisas - visa integrar os varios tipos de dispositivos
+					- dispositivos que se comunicam entre si sem manuseio humano ou minina
+						- fase1 - computacioanal
+						- fase 2 - consolidação da internet como maior meio de comunicão da história
+						- fase 3 - bitcoin e blockchain
+						- fase 4 ?
+				-  cripto ativos
+					- começou com bitcoin e é a primeira moeda sem correspondente fisico
+						- só depende da confiança a tecnologia
+							- moedas convencionais dependem do estado da emissão
+
+
+## Direito cibernético aula 2
+
+- Lei geral de proteção de dados
+	- 13/709/2018 - lei voltada aos fluxos de informações de caráter pessoal
+		- por que dados são utilizados
+			- interesses mercantis, cientificos academicos entre outros
+				- é errado usar dados pessoais
+					- não, é comum e sempre aconteceu
+				- então porque a LGPD é necessária
+					- contexto e consentimento
+						- contexto pois na fase mais recente o big data amplificaram o potencial de utilização dos dados pessoais
+						- consentimento pois para permitir a utilização dos dados sem violar a intimidade, privacidade é necessário o concentimento do usuário
+	- as relações juridicas dadas no contexto do diretio digital geram direitos e obrigações, bem como violaçoes em bens juridicamente tutelados, ocasionando a necessidade de regulamentação
+		- privacidade digital é uma recende demanda da sociedade
+			- LGPT existe extamente para que seus dados são sejam usados sem seu consentimento
+				- surgiu em 1990 diratamente relacionado ao medelo de negocios da economia digital, passou a ter uma dependencia maior dos fluxos internacionais de bases de dados permitindo os avanços tecnologicos
+- fundamentos do LGPD
+	- privadidade
+	- autodeterminação informativa
+	- liberdade de expressão, informação, comunicação
+	- inviolabilidade de honra, intimidade e imagem
+	- desenvolvimento economico
+- dados pessoais
+	- é a informação relacionada a pessoa identificada ou identificadavel 
+		- dados pessoais sensíveis 
+			- é o dado que releve a reaca ou etnia, religião, posição politica, orientação sexual, entre varias..
+	- tratamento de dados pessoais
+		- operações realizadas com dados pessoais
+			- coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissçao, distrinuição, processamento, arquivamento, aliminação, avaliação, controle, modificação
+				- controlador 
+					- pessoa natural ou juridica, publica ou privado, que detem competência para tomada de decisõpes relativas ao tratamento de dados pessoais
+						- operador 
+							- realliza em nome do eperador o tratamento de dados pessoais
+								- encarregado
+									- encaregado 
+										- pessoa indicada pelo controlador e pelo operador para atuar como um canal de comunicação entre aquele controlador e os titulares dos dados ea autoridade nacional de proteção de dados (ANPD)
+		-  requisitos para tratamento de dados
+			- consentimento do titular
+				- manifestação livre, informada e inequivoca para uma finalidade determinada
+				- não pode ser uma autorização genérica
+			- não podem ser tratados sem um bom motivo
+				- obrigação legal
+					- pela administração publica
+						- orgãos de pesquisa
+							- proteção de crédito
+			- direitos do titular
+				- findade especifica do tratamento
+					- forma e da duração do tratamento
+						- da identificação do controlador 
+						- das informaçõe ssobre eventeualuso e da finalidade do compartilhamento
+- segunrança é sigilo dos dados
+	- informação
+		- é o conuutno de dados organizado que pode lhefornecer o conhecimento sobre determinada coisa, p
+	- direito digital
+		- lida com informações no ambiente digital
+	- segunrança da informação
+		- conjunto de orientações e politicas que tem por objetivos por proteger o recurso infomação
+- LGPD art 46 - os agentes de tratamento devem adotar medidas de segurança, tecnicas e administrativa aptas a proteger os dados pessoais
+	- garantia da integridade, confidenciencia e disponibiliadde dos dados que estão em tratamento
+		- quando houver incidende de segurança todos devem ser comunicados
+- privacy by design 
+	- elaborar regras de boas praticas para boa organização
+		- art 50, espebelece que os colaboradores e operadores poderão estabecer regras de boas praticas, adequandoas as especificidades dos dados tratados, para mitigar responsabilidada
+- Sansoes ANPD
+	- Advertencia, com prazo para correção
+		- multa simples de 2%
+			- multa diária
+				- publicização
+					- bloquear utilização de dados
+						- iliminação dos dados
+							- suspenção parcial do funcionamento dos banco de dados por até 6 meses
+								- proibir total ou parcialmente o uso do mesmo
+									- 
+- direito do arrependimento
+	- possibilidade do consumidor de desistir da compra em 7 dias úteis
+		-  deve acontecer fora do estabelecimento
+- marco civil da internet 12.965/2014
+	- 12.965/2014 - precípuo é o de regular as relações sociais entre os usuários de internet 
+		- inexistencia da lei anterior que regulasse o tema
+	- estabelece principios e garantias, direitos e deveres para o uso da internet no brasil e deternmina como os problemas devem ser tratados
+		- valoriza dos direitos humanos o desenvolvimento da personalidade, o adequado  exercicio da soberania do smeios digitais
+	- responsabilidade dos provedores de internet 
+		- quando houver interesse relevante, fornecer dados e registro de conexão as autoridades
+			- coaching(armazenamento), hosting (hospedagem) e linking;
+	- direito de expressão
+		- falsa sensasão de permissibilidade e impunidade
+			- nenhum direito é absoluto
+				- é preciso conciliar o direito de expressão com os demais direitos contitucionalmente garantidos, como a intimidade
+					- nenhum direito é absoluto
+						- é preciso cosciliar o direito de expressão com os demais direitos constitucionalmente garantidos, como intimidade, o que gera um conflito constante;
+	- herança digital
+		- herança
+			- acervo patrimonial deixado por uma pessoa com o advento de sua morte
+				- direito civil
+					- devem possuir valor economico
+						- portanto , direitos personalissimos, que não possuem valor economico, não integram o acervo hereditário
+		- separar conteúdo de património, tudo que se encaixa no primeiro caso, 
+			- não deveria virar erança
+				- dados pessoais e sensíveis não deveriam em princípios , ser suscetível a sucessão
+		- bens digitais
+			- compreendidos como digitais, 
+				- redes, sociais, emaisl, milhas, livros
+				- que possuem valor economicos
+- neutralidade da rede
+	- todas as informações que trafegam na rede devem ter o mesmo regime, para que haja tratamento igualitario de informações
+
+
+
+## Direito cibernético aula 3
+
+- propriedade intectual
+	- refere-se aos direitos relacionados as criações musicais, artisticas literárias cientificas, invenções etc
+		- este ramo do direito visa proteger as criações intectuais que não possuem representações fisicas
+			- a proteção parte da constituição federal artigo 5 inciso xxvii
+				- XXIX - A lei assegurara aos autores de inventos industriais pivilégios temporario para sua utilização
+					- a propriedade de marca
+						- nome de empresa
+	- direito industrial 
+	- direito autoral
+- definição
+	- trabalho intelectual
+		- bens incorpóreos
+			- bens móveis - bens consedios por licenca
+				- lei da propriedade industrial
+					- invenção de modelo de utilidade
+					- invenção de modelo por patente
+- marcas patentes ou modelo de utilidade
+	- patante-  art 6 da lei 9279/1996
+		- o autor de invenção ou modelo de utilidade sera assegurado o direito de obter a parente que lhe garanta a propriedade, nas condições estabelecidas nesta lei
+			- invenção
+				- uma novidade que tenha aplicação industrial
+				- é um termo mais abrangente deoi que um modelo de utilidade 
+					- modelo de utilidade é mais uma inovação mais voltada a um processo fabril
+	- novidade
+		- algo não conhecido
+	- atividade inventiva
+		- não basta a ideia em si, mas tecnica, maneira de execução
+	- apricação industiral
+	- patente
+- o que não é considerado uma invenção
+	- teorias cientificas e metodos matemáticos
+		- cocepções puramente abstratas
+			- esquemas, planos, principios ou metodos comerciais contábeis, educaticos, publicitário,
+				- obras literárias, arquitetônicas, artisticas e cientificas ou qualquer criação estética
+					- programas de computador em si
+				- o que for contrário a moral , aos bons construmes, a segurança , a ordem e a saude publica
+			- as substrancias, materias mistruras, elementos ou produtos de qualquer espécie, bem como a modificação de suas propriedades fisico, quimicas
+				- a não ser que resulte em alguma aplicação industrial
+			- os seres vivos 
+- como é feito o pedido da parente
+	- o pedido é direcionado ao instituto nacional de propriedade industrial e deve conter
+		- requerimento
+			- relatorio descritivo
+				- reinvidicações
+					- desenhos, se for o caso
+						- resumo
+							- comprovante do pagamento da retribuição relativa ao deposito
+	- a patente de invenção tem prazno de 20 ou minimo 10 anos
+		- já o modelo de utilidade tem max de 15 e minimo de 7
+	- parente de modelo de utilidade
+		- objeto de uso pratico ou parde desde, sescetilve de aplicação industrial
+- marca
+	- LPI art 122 são suscetiveis de registro como marca os sinais distintivos visualmente perceptiveis, não compreendidos nas proibições legais
+		- tem por finaldiade identificar determinado produto ou serviço do empresário, para distingui-lo
+			- usada para distinguir um produto de outro identico, semelhanto o afim
+	- marca de certificação 
+		- atestar conformidade de um produto com determinadas normas
+	- marcas de alto renome
+		- coca cola, bom bril
+	- dominio
+		- nome do site de uma empresa
+			- registo br
+				- comite gestor de internet
+- Direitos autorais
+	- direito de autor a regencia das relações juridicas decorrente da criação e utilização de obras intelectuais estéticas, integrantes da literatura das artes e das ciencias
+
+
+## direito cibernético aula 4
+
+- direito contratual
+	- contrato para o direito 
+		- é um negócio juridico por maio do qual as partes declarantes , limitadas peos principios do função social e da boa fé, autodisciplinam os objetivo que pretendem atingir
+			- negócio juridico é um ato praticado pelas pessoas em que o direito permite escolher os resultados
+	- requisitos
+		- existência 
+			- validade
+				- eficácia
+	- função contratual
+		- função social
+		- desenvolvimento economico
+		- segurança juridica
+		- pacificação social
+		- dignidade humana
+	- principios contratuais
+		- os princípiops são ditames superiores que fundam e informam o conjunto de regras do direito positivo, conferindo a validade e a integridade da legislação
+			- boa fé
+- princípios e normas positivadas
+	- pacta sunt servanda 
+		- equilibrio contratual
+- etapas contrato
+	- oferta, propostas até o consenso 
+	- aceitação e conclusão
+- contratos digitais
+	- é equivalente
+		- são celebrados no meio digital
+			- por serem por msg não encarretam nenhuma invalalidade
+	- contrato tipo
+		- pre formatado
+	- contrato especifico
+		- feito caso a caso
+	- assinatura digitais
+- responsabilidade dos provedores:
+- relações de consumo no mundo digital
+	- 

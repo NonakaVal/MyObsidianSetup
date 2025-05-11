@@ -12,10 +12,10 @@ created: "[[08-02-2024]]"
 
  ### **Manipulação de Dados**
  
-- **[[pandas-loc-iloc-method-selection]]**: Acesso a dados com rótulos (`loc`) ou índices (`iloc`).
+- **[[concept-python-pandas-loc-iloc-method-selection]]**: Acesso a dados com rótulos (`loc`) ou índices (`iloc`).
 - **[[pandas-astype-method]]**: Conversão de tipos de dados em colunas.
-- **[[pandas-drop_duplicates-method]]**: Remoção de duplicatas em um DataFrame.
-- **[[pandas-groupby-method]]**: Agrupamento de dados e aplicação de funções agregadas.
+- **[[concept-pandas-drop_duplicates-method]]**: Remoção de duplicatas em um DataFrame.
+- **[[cmp-pandas-groupby-method]]**: Agrupamento de dados e aplicação de funções agregadas.
 - **[[pandas-crosstab-method]]**: Criação de tabelas cruzadas para analisar relações entre categorias.
 - **[[pandas-query-method]]**: Filtragem de dados usando expressões de consulta.
 - **[[pandas-isin-method]]**: Verificação de presença de valores em listas.
@@ -25,16 +25,16 @@ created: "[[08-02-2024]]"
 - **[[finding-multiple-phrases-in-strings]]**: Pesquisa de múltiplas frases dentro de strings.
 
 ### **Manipulação de Datas**
-- **[[date-methods]]**: Métodos para trabalhar com datas, como extração de componentes e conversões.
+- **[[cmp-python-datetime(datas)-methods]]**: Métodos para trabalhar com datas, como extração de componentes e conversões.
 
  ### **Combinação e Comparação de Dados**
 - **[[pandas-merging-methods]]**: Métodos gerais para combinar DataFrames.
 - **[[pandas-merge-method]]**: Combinação de DataFrames usando junções (joins).
 - **[[pandas-merge_ordered-method]]**: Junção ordenada de DataFrames.
-- **[[comparando-multiplas-variaveis]]**: Técnicas para comparar múltiplas variáveis em DataFrames.
+- **[[concept-python-crosstab-comparando-multiplas-variaveis]]**: Técnicas para comparar múltiplas variáveis em DataFrames.
 
  ### **Criação e Manipulação de Séries Categóricas**
-- **[[creating-categorical-series]]**: Criação de séries categóricas em um DataFrame.
+- **[[concept-python-creating-categorical-series]]**: Criação de séries categóricas em um DataFrame.
 
 
 

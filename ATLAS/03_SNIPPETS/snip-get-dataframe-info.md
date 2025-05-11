@@ -5,7 +5,7 @@ HUB:
   - "[[hub-tratamento-de-dados]]"
   - "[[hub-jupyterNotebook]]"
 connections:
-  - "[[Extraindo informacoes dados]]"
+  - "[[concept-python-pandas-obtendo-informacoes-dados]]"
 ---
 {propósito}
 

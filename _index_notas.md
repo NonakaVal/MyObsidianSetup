@@ -1,232 +1,288 @@
 # Índice de Notas Markdown
 
 ### [raiz] — 1 notas
-- [README] — 805 palavras
+- [README] — 835 palavras
 
-**Total nesta pasta**: 805 palavras
+**Total nesta pasta**: 835 palavras
 
-### Atlas\02_CONCEPT — 507 notas
-- [Extraindo informacoes dados] — 169 palavras
-- [Produtos-notaveis] — 34 palavras
-- [Scope and user-defined functions] — 105 palavras
-- [Tabela e variavel padronizada] — 121 palavras
-- [Untitled] — 0 palavras
-- [Using-PairGrid-and-pairplot] — 104 palavras
-- [V4.11.trafego] — 429 palavras
-- [Variaveis quantitativas e populacao finita] — 61 palavras
-- [Verify-DataTypes] — 64 palavras
-- [Video curto  - 5 min] — 36 palavras
-- [Video longo - 8 min] — 82 palavras
-- [Visualizing-Two-Quantitative-variables] — 119 palavras
-- [What-is-Missing-Data] — 99 palavras
-- [Writng-Functlons-In-Python] — 285 palavras
-- [adding-title-and-labels] — 96 palavras
-- [advanced-functions] — 169 palavras
-- [agrupamentos] — 88 palavras
-- [ajustando-o-experimento-com-um-modelo-estatistico] — 46 palavras
-- [algebra-booleana] — 140 palavras
-- [algebra-de-conjuntos] — 32 palavras
-- [algoritmo-e-logica] — 228 palavras
-- [algoritmos-de-ordenacao] — 34 palavras
-- [ambientes-anaconda] — 156 palavras
-- [amostragem] — 309 palavras
-- [anotacoes-em-histogramas] — 91 palavras
-- [antes-de-escrever] — 142 palavras
-- [anuncios-de-imagem] — 252 palavras
-- [anuncios-em-videos] — 84 palavras
-- [aoc-memoria] — 328 palavras
-- [aplicabilidade-de-algoritmos] — 122 palavras
-- [apresentacao-de-precos] — 236 palavras
-- [argumentos] — 118 palavras
-- [arrays] — 657 palavras
-- [artigo-coleta-dados-mettzer] — 218 palavras
-- [assert-method] — 49 palavras
-- [avancando-em-importacao-de-dados-com-python] — 449 palavras
-- [axiomas-adicao-e-subtracao] — 87 palavras
-- [axiomas-da-aritmetica] — 17 palavras
-- [axiomas-da-multiplicacao-e-divisao] — 238 palavras
-- [banco-dados-conceitual] — 13 palavras
-- [banco-dados-logico] — 13 palavras
-- [barplot-com-matplotlib] — 91 palavras
-- [basico-de-estatistica] — 33 palavras
-- [bi-exploration] — 402 palavras
-- [boas-praticas-storytelling] — 34 palavras
-- [bonus] — 35 palavras
+### Atlas\00_DRAFT — 8 notas
+- [draft-direito-cibernetico] — 2222 palavras
+- [draft-empreendedorismo-e-inovacao] — 1238 palavras
+- [draft-introduction-to-error-handling] — 233 palavras
+- [draft-introduction-to-generator-expressions] — 224 palavras
+- [draft-introduction-to-iterators] — 400 palavras
+- [draft-personalizando-graficos] — 110 palavras
+- [draft-python-date-wagling] — 522 palavras
+- [planejamento-banco-de-dados] — 35 palavras
+
+**Total nesta pasta**: 4984 palavras
+
+### Atlas\01_INDEX — 12 notas
+- [index-Verify-DataTypes] — 88 palavras
+- [index-advanced-functions] — 169 palavras
+- [index-datascience] — 148 palavras
+- [index-estatistica] — 68 palavras
+- [index-matematica-e-logica] — 76 palavras
+- [index-metodos-de-testes-hipoteses] — 253 palavras
+- [index-mkt-menagement] — 45 palavras
+- [index-programacao] — 79 palavras
+- [index-python-defined-functions] — 288 palavras
+- [index-seaborn-matplotlib-charts] — 83 palavras
+- [index-sklearn-simple-linear-regression-model] — 88 palavras
+- [index-tec] — 63 palavras
+
+**Total nesta pasta**: 1448 palavras
+
+### Atlas\02_CONCEPT — 483 notas
 - [book-introducao-estatistica-12edicao-mario-f-triola-2017] — 241 palavras
-- [box-plot] — 16 palavras
-- [boxplot] — 48 palavras
-- [bubble-sort] — 168 palavras
-- [bullet-poits] — 121 palavras
-- [calculo-tamanho-amostra-com-python] — 250 palavras
-- [calculo-tamanho-da-amostra] — 14 palavras
-- [caracteristicas-essenciais-cloud-computing] — 131 palavras
-- [categorical-and-numerical-wrangling] — 22 palavras
-- [categorical-plot-types] — 59 palavras
-- [changing-plot-style-and-color] — 115 palavras
-- [checklist-produto-e-objecoes] — 256 palavras
-- [cleaning-text-data] — 77 palavras
-- [cloud-computing] — 10 palavras
-- [cms-conceitos-basicos] — 220 palavras
-- [cms-tipos] — 22 palavras
-- [collapsing-categories-setup] — 11 palavras
-- [collapsing-data-into-categories] — 110 palavras
-- [comparando-distribuicoes-assimetricas] — 59 palavras
-- [comparando-intervalos-de-confianca] — 59 palavras
-- [comparando-multiplas-variaveis] — 101 palavras
-- [comparing-strings] — 234 palavras
-- [computacao-em-nuvem-historia] — 92 palavras
 - [computacao-nuvem-modelos-implantacao] — 103 palavras
 - [computacao-nuvem-monitoramento] — 204 palavras
 - [computacao-nuvem-plataforma-de-computacao] — 156 palavras
 - [computacao-nuvem-vantagens] — 113 palavras
 - [concat] — 58 palavras
-- [conceito-distribuicao-normal] — 199 palavras
 - [conceitos-influencia-modelos-regressao-linear] — 93 palavras
-- [condicionais] — 121 palavras
-- [conjuntos] — 375 palavras
-- [conjuntos-aritmeticos] — 61 palavras
-- [conjuntos-numericos] — 224 palavras
-- [contador-e-acumulador] — 49 palavras
-- [contando-os-valores] — 105 palavras
-- [conteiner-de-aplicacao] — 62 palavras
-- [conteudo-definicao] — 44 palavras
-- [context-in-dax-formulas] — 84 palavras
-- [contexto-e-principios-de-gestalt] — 41 palavras
-- [controle-de-repeticao] — 67 palavras
-- [conversao-de-unidades] — 122 palavras
+- [concept- Data Exploration-dashboard-desing-guide] — 333 palavras
+- [concept-.growth-fundamentos] — 249 palavras
+- [concept-Scope and user-defined functions] — 104 palavras
+- [concept-Tabela e variavel padronizada] — 120 palavras
+- [concept-What-is-Missing-Data] — 100 palavras
+- [concept-Writng-Functlons-In-Python] — 104 palavras
+- [concept-algoritmo-e-logica] — 233 palavras
+- [concept-aoc-memoria] — 183 palavras
+- [concept-aoc-memoria-1. Registradores] — 34 palavras
+- [concept-aoc-memoria-2. Memória Cache] — 46 palavras
+- [concept-aoc-memoria-3. Memória Principal (RAM)] — 42 palavras
+- [concept-aoc-memoria-4. Memória ROM] — 50 palavras
+- [concept-aoc-memoria-5. Memória Secundária] — 31 palavras
+- [concept-aplicabilidade-de-algoritmos] — 126 palavras
+- [concept-artigo-coleta-dados-mettzer] — 217 palavras
+- [concept-basico-de-estatistica] — 90 palavras
+- [concept-bi-dax-(dataanalysisxpressions)] — 58 palavras
+- [concept-bi-introduction-to-dax-in-power-bi] — 73 palavras
+- [concept-boas-praticas-storytelling] — 117 palavras
+- [concept-boxplot] — 48 palavras
+- [concept-changing-plot-style-and-color] — 116 palavras
+- [concept-cloud-computing] — 11 palavras
+- [concept-cms-conceitos-basicos] — 220 palavras
+- [concept-cms-tipos] — 22 palavras
+- [concept-computacao-em-nuvem-historia] — 92 palavras
+- [concept-conteudo-definicao] — 44 palavras
+- [concept-copy-antes-de-escrever] — 141 palavras
+- [concept-copy-anuncios-de-imagem] — 252 palavras
+- [concept-copy-anuncios-em-videos] — 84 palavras
+- [concept-copy-apresentacao-de-precos] — 237 palavras
+- [concept-copy-bonus] — 36 palavras
+- [concept-copy-bullet-poits] — 160 palavras
+- [concept-copy-cta] — 63 palavras
+- [concept-copy-depoimentos] — 124 palavras
+- [concept-copy-duvidas-objecoes] — 75 palavras
+- [concept-copy-forcar-a-dor] — 66 palavras
+- [concept-copy-future-pacing] — 94 palavras
+- [concept-copy-garantia] — 50 palavras
+- [concept-copy-quebra-de-padrao] — 100 palavras
+- [concept-correlacao-plots] — 86 palavras
+- [concept-correlation-with-datetime] — 74 palavras
+- [concept-csm-partes-principais] — 31 palavras
+- [concept-csm-vantagens] — 53 palavras
+- [concept-data-snooping] — 280 palavras
+- [concept-data-visualization-contexto-e-principios-de-gestalt] — 41 palavras
+- [concept-dataframe-para-csv] — 68 palavras
+- [concept-dax-bi-creating-dax-measures] — 126 palavras
+- [concept-dax-formulas-context] — 340 palavras
+- [concept-distribuicao-normal] — 199 palavras
+- [concept-estatistica-media-mediana-moda] — 54 palavras
+- [concept-estruturas-de-dados] — 356 palavras
+- [concept-fundamentals-of-storytelling] — 325 palavras
+- [concept-fundamentos-cloud-computing] — 118 palavras
+- [concept-fundamentos-matematica] — 105 palavras
+- [concept-grafico-de-dispersao-para-regressao-linear] — 82 palavras
+- [concept-growth-ecommerce-steps-&-tempo-de-aplicabilidade] — 249 palavras
+- [concept-growth-fundamentos.planejamento] — 225 palavras
+- [concept-growth-perspctiva-do-marketing] — 455 palavras
+- [concept-growth-pilar-engajamento.copy] — 256 palavras
+- [concept-growth-pilar-engajamento.design] — 137 palavras
+- [concept-growth-pilar-engajamento.triade] — 651 palavras
+- [concept-growth-pilar-trafego] — 430 palavras
+- [concept-histograma-pandas] — 106 palavras
+- [concept-instancias-maquinas-virtual] — 34 palavras
+- [concept-introduction-seaborn] — 101 palavras
+- [concept-introduction-to-line-plots] — 121 palavras
+- [concept-lambda] — 68 palavras
+- [concept-linear-regression] — 117 palavras
+- [concept-logic-dicas-para-solucoes-de-problemas] — 404 palavras
+- [concept-logic-formalizacao-de-um-algoritmo] — 146 palavras
+- [concept-math-Produtos-notaveis] — 33 palavras
+- [concept-math-algebra-booleana] — 141 palavras
+- [concept-math-algebra-de-conjuntos] — 33 palavras
+- [concept-math-axiomas-adicao-e-subtracao] — 135 palavras
+- [concept-math-axiomas-da-aritmetica] — 124 palavras
+- [concept-math-axiomas-da-multiplicacao-e-divisao] — 186 palavras
+- [concept-math-conjuntos-aritmeticos] — 62 palavras
+- [concept-math-conjuntos-numericos] — 224 palavras
+- [concept-math-conversao-de-unidades] — 123 palavras
+- [concept-math-decimais-e-porcentagem] — 132 palavras
+- [concept-math-diagrama-venn] — 142 palavras
+- [concept-math-diferenca-de-conjuntos] — 51 palavras
+- [concept-math-diferenca-dos-quadrados] — 32 palavras
+- [concept-math-diferenca-simetrica-de-conjuntos] — 82 palavras
+- [concept-math-entendendo-as-regras-dos-sinais] — 84 palavras
+- [concept-math-exemplo-axiomas-euclides] — 83 palavras
+- [concept-math-exemplos-fracoes] — 133 palavras
+- [concept-math-exemplos-matematica] — 11 palavras
+- [concept-math-exemplos-produtos-notaveis] — 111 palavras
+- [concept-math-fatoracao] — 112 palavras
+- [concept-math-fracoes] — 52 palavras
+- [concept-math-funcao-primeiro-grau] — 168 palavras
+- [concept-math-funcao-segundo-grau] — 45 palavras
+- [concept-math-funcoes-aritimeticas] — 79 palavras
+- [concept-math-funcoes-em-conjuntos-numericos] — 70 palavras
+- [concept-math-intersecao-de-conjuntos] — 80 palavras
+- [concept-math-quadrado-de-um-binomio] — 40 palavras
+- [concept-math-radiciacao] — 59 palavras
+- [concept-math-regras-potenciacao] — 67 palavras
+- [concept-matplot-scatterplot] — 80 palavras
+- [concept-mkt-criativos-facebook-ads] — 279 palavras
+- [concept-ml-dados-experimentais] — 110 palavras
+- [concept-ml-parametros-de-analise] — 399 palavras
+- [concept-ml-python-correlacao] — 114 palavras
+- [concept-mysql-create-trigger] — 47 palavras
+- [concept-paas-plataform-as-a-service] — 169 palavras
+- [concept-pandas-criando-agrupamentos] — 38 palavras
+- [concept-pandas-drop_duplicates-method] — 98 palavras
+- [concept-pandas-dropna-isnull-fillna] — 236 palavras
+- [concept-pandas-isin] — 120 palavras
+- [concept-percentis] — 81 palavras
+- [concept-principios-de-gestalt] — 168 palavras
+- [concept-python-algoritmos-de-ordenacao] — 34 palavras
+- [concept-python-arrays] — 658 palavras
+- [concept-python-assert-method] — 50 palavras
+- [concept-python-avancando-em-importacao-de-dados] — 450 palavras
+- [concept-python-barplot-com-matplotlib] — 92 palavras
+- [concept-python-box-plot] — 17 palavras
+- [concept-python-bubble-sort] — 171 palavras
+- [concept-python-calculo-tamanho-amostra-com] — 250 palavras
+- [concept-python-chamar-funcao] — 47 palavras
+- [concept-python-cleaning-text-data] — 78 palavras
+- [concept-python-comparando-distribuicoes-assimetricas] — 60 palavras
+- [concept-python-condicionais] — 121 palavras
+- [concept-python-conjuntos] — 375 palavras
+- [concept-python-contador-e-acumulador] — 50 palavras
+- [concept-python-controle-de-repeticao] — 67 palavras
+- [concept-python-creating-categorical-series] — 157 palavras
+- [concept-python-cross-field-validation] — 149 palavras
+- [concept-python-crosstab-comparando-multiplas-variaveis] — 102 palavras
+- [concept-python-customizing-with-matplotlib] — 281 palavras
+- [concept-python-decorators-functions] — 249 palavras
+- [concept-python-describe] — 92 palavras
+- [concept-python-dicionarios] — 248 palavras
+- [concept-python-display-para-previsoes] — 142 palavras
+- [concept-python-for.in] — 129 palavras
+- [concept-python-funcoes] — 10 palavras
+- [concept-python-function-DRY and Do One Thing] — 137 palavras
+- [concept-python-function-Pass by assignment] — 34 palavras
+- [concept-python-function-Writing context managers functions] — 34 palavras
+- [concept-python-function-bd-connect-with-context manager] — 53 palavras
+- [concept-python-function-docstring] — 17 palavras
+- [concept-python-function-return] — 181 palavras
+- [concept-python-function-the yield keyword] — 50 palavras
+- [concept-python-functions-argumentos] — 191 palavras
+- [concept-python-functions-with-variable-length-arguments] — 282 palavras
+- [concept-python-grafico-em-barra-com-seaborn] — 128 palavras
+- [concept-python-insertion-sort] — 193 palavras
+- [concept-python-lambda-functions] — 116 palavras
+- [concept-python-matplot-criando-grafico-de-temperatura] — 126 palavras
+- [concept-python-pandas-agrupamentos] — 89 palavras
+- [concept-python-pandas-analysis-method-frequencia-e-percentuais] — 292 palavras
+- [concept-python-pandas-collapsing-data-into-categories] — 111 palavras
+- [concept-python-pandas-cut] — 74 palavras
+- [concept-python-pandas-dataframe] — 68 palavras
+- [concept-python-pandas-dataframe-variables] — 141 palavras
+- [concept-python-pandas-dicionario-para-dataframe] — 82 palavras
+- [concept-python-pandas-formas-de-selecao] — 305 palavras
+- [concept-python-pandas-linking-dataframes] — 52 palavras
+- [concept-python-pandas-loc-iloc-method-selection] — 275 palavras
+- [concept-python-pandas-obtendo-informacoes-dados] — 170 palavras
+- [concept-python-pandas-pop-drop-excluindo-variaveis(colunas)] — 66 palavras
+- [concept-python-pandas-series-and-dataframe] — 55 palavras
+- [concept-python-pandas-value-counts-contando-os-valores] — 105 palavras
+- [concept-python-pickle-exportando-importando-modelos] — 60 palavras
+- [concept-python-recebendo-input] — 104 palavras
+- [concept-python-scipy-comparando-intervalos-de-confianca] — 59 palavras
+- [concept-python-seaborn-catplot] — 50 palavras
+- [concept-python-seaborn-factor-relationships-and-distributions] — 106 palavras
+- [concept-python-seaborn-introduction-to-categorical-plot-using-seaborn] — 102 palavras
+- [concept-python-sklearn-criando-modelo-preditivo] — 64 palavras
+- [concept-python-statsmodel-estimando-o-modelo] — 36 palavras
+- [concept-python-statsmodels-ajustando-o-experimento-com-um-modelo-estatistico] — 46 palavras
+- [concept-python-thefuzz-comparing-strings] — 234 palavras
+- [concept-regressao-linear-residuos] — 90 palavras
+- [concept-seaborn-Visualizing-Two-Quantitative-variables] — 119 palavras
+- [concept-seaborn-adding-title-and-labels] — 96 palavras
+- [concept-seaborn-anotacoes-em-histogramas] — 91 palavras
+- [concept-seaborn-categorical-plot-types] — 60 palavras
+- [concept-seaborn-count-plots-and-bar-plots] — 81 palavras
+- [concept-so-conteiner-de-aplicacao] — 63 palavras
+- [concept-sql-criando-relacoes-entre-as-tabelas] — 91 palavras
+- [concept-sql-criando-tabelas] — 192 palavras
+- [concept-sql-inserindo-dados] — 157 palavras
+- [concept-statistic-Variaveis quantitativas e populacao finita] — 62 palavras
+- [concept-statistic-amostragem] — 310 palavras
+- [concept-statistic-calculo-tamanho-da-amostra] — 19 palavras
+- [concept-statistic-caracteristica-dados] — 74 palavras
+- [concept-statistic-descritivas] — 79 palavras
+- [concept-statistic-desvio-do-padrao] — 107 palavras
+- [concept-statistic-desvio-medio-absoluto] — 106 palavras
+- [concept-statistic-distribuicao-binomial] — 221 palavras
+- [concept-statistic-distribuicao-de-probabilidade] — 87 palavras
+- [concept-statistic-distribuicao-frequencia] — 178 palavras
+- [concept-statistic-distribuicao-normal] — 226 palavras
+- [concept-statistic-distribuicao-normal-(gaussiana)] — 26 palavras
+- [concept-statistic-distribuicao-poisson] — 138 palavras
+- [concept-statistic-distribuicoes-probabilidade] — 64 palavras
+- [concept-statistic-estatistica] — 266 palavras
+- [concept-statistic-estimacao] — 187 palavras
+- [concept-statistic-fundamentos] — 35 palavras
+- [concept-statistic-fundamentos-analise] — 32 palavras
+- [concept-statistic-fundamentos-conclusao] — 77 palavras
+- [concept-statistic-fundamentos-preparacao] — 102 palavras
+- [concept-statistic-letramento-estatistico] — 70 palavras
+- [concept-statistic-media-aritmetica] — 59 palavras
+- [concept-statistic-media-mediana-moda-de-dos-valores-de-uma-coluna] — 92 palavras
+- [concept-statistic-mediana] — 123 palavras
+- [concept-statistic-medidas-de-centro] — 31 palavras
+- [concept-statistic-medidas-dispersao] — 55 palavras
+- [concept-statistic-medidas-separatrizes] — 108 palavras
+- [concept-statistic-pensamento-critico-aplicado-estatistica] — 62 palavras
+- [concept-statistic-processo-construcao-distbruicao-frequencia] — 80 palavras
+- [concept-statistic-python-pandas-outliers] — 138 palavras
+- [concept-statistic-regra-de-sturges] — 47 palavras
+- [concept-statistic-variaveis-quantitativas-e-populacao-infinita] — 42 palavras
+- [concept-storytelling-report-awareness] — 145 palavras
+- [concept-tec-banco-dados-conceitual] — 13 palavras
+- [concept-tec-banco-dados-logico] — 13 palavras
+- [concept-tec-caracteristicas-essenciais-cloud-computing] — 132 palavras
+- [concept-variaveis-no-dataframe-(colunas)] — 15 palavras
 - [copy-afeicao] — 169 palavras
 - [copy-autoridade] — 76 palavras
 - [copy-blocos-coringa] — 18 palavras
 - [copy-blocos-de-persuasao] — 76 palavras
 - [copy-cadeia-do-_sim_] — 64 palavras
 - [copy-citacoes] — 47 palavras
+- [copy-eu-vou-provar] — 50 palavras
 - [copy-historias] — 50 palavras
-- [copy-st] — 13 palavras
-- [correlacao] — 114 palavras
-- [correlacao-plots] — 86 palavras
-- [correlation-with-datetime] — 73 palavras
-- [count-plots-and-bar-plots] — 81 palavras
-- [create-trigger] — 46 palavras
-- [creating-categorical-series] — 157 palavras
-- [creating-dax-measures] — 125 palavras
-- [criando-agrupamentos] — 38 palavras
-- [criando-estrutura-de-dados] — 54 palavras
-- [criando-grafico-de-temperatura] — 126 palavras
-- [criando-modelo-preditivo] — 64 palavras
-- [criando-relacoes-entre-as-tabelas] — 91 palavras
-- [criando-tabelas-com-sql] — 192 palavras
-- [criando-variaveis-(colunas)-em-um-dataframe] — 141 palavras
-- [criar-schema] — 158 palavras
-- [criativos-facebook-ads] — 278 palavras
-- [cross-field-validation] — 148 palavras
-- [csm-partes-principais] — 30 palavras
-- [csm-vantagens] — 52 palavras
-- [cta] — 62 palavras
-- [customizing-with-matplotlib] — 126 palavras
-- [cut] — 73 palavras
-- [dados-experimentais] — 109 palavras
-- [data-snooping] — 214 palavras
-- [dataframe] — 67 palavras
-- [dataframe-para-csv] — 69 palavras
-- [date-methods] — 112 palavras
-- [dates-python] — 136 palavras
-- [dax-(dataanalysisxpressions)] — 58 palavras
-- [decimais-e-porcentagem] — 131 palavras
-- [declacao-chamada] — 47 palavras
-- [decorators-functions] — 268 palavras
-- [defined.functions] — 175 palavras
-- [definicoes-estatistica] — 265 palavras
-- [demand-search-app-stremlit-2024-2024] — 990 palavras
-- [depoimentos] — 123 palavras
-- [describe] — 92 palavras
-- [desvio-do-padrao] — 107 palavras
-- [desvio-medio-absoluto] — 106 palavras
-- [diagrama-venn] — 142 palavras
-- [dicas-para-solucoes-de-problemas] — 400 palavras
-- [dicionario-para-dataframe] — 82 palavras
-- [dicionarios] — 249 palavras
-- [diferenca-de-conjuntos] — 51 palavras
-- [diferenca-dos-quadrados] — 32 palavras
-- [diferenca-simetrica-de-conjuntos] — 82 palavras
-- [direito-cibernetico] — 2221 palavras
-- [display-para-previsoes] — 142 palavras
-- [distribuicao-binomial] — 221 palavras
-- [distribuicao-de-probabilidade] — 87 palavras
-- [distribuicao-normal] — 226 palavras
-- [distribuicao-normal-(gaussiana)] — 26 palavras
-- [distribuicao-poisson] — 138 palavras
-- [distribuicoes-probabilidade] — 64 palavras
-- [dropna-isnull-fillna] — 235 palavras
-- [duvidas-objecoes] — 75 palavras
-- [ecommerce-steps-&-tempo-de-aplicabilidade] — 249 palavras
-- [empreendedorismo-e-inovacao] — 1238 palavras
-- [engajamento.copy] — 256 palavras
-- [engajamento.design] — 137 palavras
-- [engajamento.triade] — 651 palavras
-- [entendendo-as-regras-dos-sinais] — 84 palavras
-- [estatistica-caracteristica-dados] — 74 palavras
-- [estatistica-distribuicao-frequencia] — 178 palavras
-- [estatistica-fundamentos] — 35 palavras
-- [estatistica-fundamentos-analise] — 32 palavras
-- [estatistica-fundamentos-conclusao] — 77 palavras
-- [estatistica-fundamentos-preparacao] — 102 palavras
-- [estatistica-media-aritmetica] — 59 palavras
-- [estatistica-media-mediana-moda] — 50 palavras
-- [estatistica-media-mediana-moda-de-dos-valores-de-uma-coluna] — 92 palavras
-- [estatistica-mediana] — 123 palavras
-- [estatistica-medidas-de-centro] — 31 palavras
-- [estatistica-medidas-dispersao] — 55 palavras
-- [estatistica-medidas-separatrizes] — 108 palavras
-- [estatistica-processo-construcao-distbruicao-frequencia] — 80 palavras
-- [estatisticas-descritivas] — 79 palavras
-- [estimacao] — 187 palavras
-- [estimando-o-modelo-com-statsmodels] — 36 palavras
-- [estruturas-de-dados] — 163 palavras
-- [eu-vou-provar] — 50 palavras
-- [excluindo-variaveis(colunas)] — 66 palavras
-- [exemplo-axiomas-euclides] — 83 palavras
-- [exemplos-fracoes] — 133 palavras
-- [exemplos-matematica] — 11 palavras
-- [exemplos-produtos-notaveis] — 111 palavras
-- [exercicios-1] — 35 palavras
-- [exportando-importando-modelos] — 60 palavras
-- [factor-relationships-and-distributions] — 106 palavras
-- [fatoracao] — 112 palavras
+- [copy-modelo-Video curto  - 5 min] — 26 palavras
+- [copy-modelo-Video longo - 8 min] — 82 palavras
+- [copy-pista-de-tempo] — 36 palavras
 - [finding-inconsistent-categories] — 32 palavras
 - [finding-multiple-phrases-in-strings] — 187 palavras
-- [for.in] — 129 palavras
-- [forcar-a-dor] — 66 palavras
-- [formalizacao-de-um-algoritmo] — 144 palavras
-- [formas-de-selecao] — 314 palavras
-- [fracoes] — 52 palavras
-- [frequencia-e-percentuais] — 74 palavras
-- [funcao-primeiro-grau] — 168 palavras
-- [funcao-segundo-grau] — 45 palavras
-- [funcoes] — 10 palavras
-- [funcoes-aritimeticas] — 79 palavras
-- [funcoes-em-conjuntos-numericos] — 70 palavras
-- [functions-with-variable-length-arguments] — 282 palavras
-- [fundamentals-of-storytelling] — 53 palavras
-- [fundamentos-cloud-computing] — 118 palavras
-- [fundamentos-cloud-computing-] — 11 palavras
 - [fundamentos-copy] — 143 palavras
-- [fundamentos-matematica] — 35 palavras
-- [fundamentos.growth] — 249 palavras
-- [fundamentos.planejamento] — 130 palavras
-- [future-pacing] — 94 palavras
-- [garantia] — 50 palavras
 - [generating-hypotheses] — 65 palavras
 - [generating-pairs] — 103 palavras
 - [gestao-do-conhecimento-e-ti] — 1963 palavras
 - [gestao.time.vendas] — 286 palavras
-- [git-branches] — 295 palavras
 - [github] — 149 palavras
-- [grafico-de-dispersao-para-regressao-linear] — 81 palavras
-- [grafico-dispersao-matplotlib] — 80 palavras
-- [grafico-em-barra-com-seaborn] — 127 palavras
 - [green-it-introducao] — 335 palavras
 - [grouping-data-by-category-in-pandas] — 312 palavras
-- [histograma-pandas] — 107 palavras
 - [how-to-deal-with-missing-data] — 111 palavras
 - [how-to-deal-with-out-of-range-data] — 145 palavras
 - [hypervisor] — 71 palavras
@@ -235,30 +291,9 @@
 - [iiiq-interquartil-method] — 61 palavras
 - [importando-outros-tipos-de-arquivos] — 36 palavras
 - [informacoes-de-um-dataframe] — 105 palavras
-- [inserindo-dados] — 157 palavras
-- [insertion-sort] — 193 palavras
-- [instancias-maquinas-virtual] — 34 palavras
-- [intermediate-seaborn] — 9 palavras
-- [interpolacao-com-fillna()] — 132 palavras
-- [intersecao-de-conjuntos] — 80 palavras
 - [introducao-a-computacao-em-nuvem] — 611 palavras
 - [introducao-a-matematica-discreta] — 155 palavras
 - [introducao-a-orientacao-a-objetos-com-python] — 319 palavras
-- [introduction-seaborn] — 101 palavras
-- [introduction-to-categorical-plot-using-seaborn] — 102 palavras
-- [introduction-to-dax-in-power-bi] — 73 palavras
-- [introduction-to-error-handling] — 233 palavras
-- [introduction-to-generator-expressions] — 224 palavras
-- [introduction-to-iterators] — 400 palavras
-- [introduction-to-line-plots] — 122 palavras
-- [isin] — 119 palavras
-- [lambda] — 67 palavras
-- [lambda-functions] — 116 palavras
-- [letramento-estatistico] — 70 palavras
-- [linear-regression] — 119 palavras
-- [linking-dataframes] — 52 palavras
-- [lista-tratamento-dados-1] — 16 palavras
-- [lista-tratamento-dados-2] — 30 palavras
 - [logica-definicoes] — 127 palavras
 - [logica-formal] — 77 palavras
 - [logica-na-programacao] — 52 palavras
@@ -276,7 +311,6 @@
 - [merging-ordered-and-time-series-data] — 58 palavras
 - [mesclando-diversas-tabelas] — 48 palavras
 - [metodo.] — 150 palavras
-- [metodos-de-testes-hipoteses] — 70 palavras
 - [metricas-da-regressao] — 166 palavras
 - [metricas-em-marketing-digital] — 385 palavras
 - [migracao-aplicacoes-nuvem] — 78 palavras
@@ -303,13 +337,11 @@
 - [operadores-logicos] — 110 palavras
 - [operadores-relacionais] — 250 palavras
 - [organizando-dataframe] — 59 palavras
-- [outliers] — 138 palavras
-- [paas-plataform-as-a-service] — 169 palavras
 - [pagina-de-vendas] — 279 palavras
 - [pandas-agg] — 69 palavras
 - [pandas-ai-start] — 72 palavras
-- [pandas-apply] — 124 palavras
-- [pandas-astype-method] — 46 palavras
+- [pandas-apply] — 122 palavras
+- [pandas-astype-method] — 47 palavras
 - [pandas-at] — 37 palavras
 - [pandas-concat] — 165 palavras
 - [pandas-converting-and-analyzing-categorical-data] — 23 palavras
@@ -319,14 +351,11 @@
 - [pandas-cut] — 148 palavras
 - [pandas-dataframe] — 93 palavras
 - [pandas-div] — 61 palavras
-- [pandas-drop_duplicates-method] — 97 palavras
 - [pandas-factorize] — 96 palavras
 - [pandas-general-functions] — 68 palavras
 - [pandas-get] — 27 palavras
 - [pandas-get-dummies] — 231 palavras
-- [pandas-groupby-method] — 193 palavras
-- [pandas-importing-data] — 129 palavras
-- [pandas-index] — 132 palavras
+- [pandas-index] — 131 palavras
 - [pandas-info] — 96 palavras
 - [pandas-insert] — 73 palavras
 - [pandas-isin-method] — 168 palavras
@@ -336,7 +365,6 @@
 - [pandas-iter] — 32 palavras
 - [pandas-iterrow] — 33 palavras
 - [pandas-itertuples] — 59 palavras
-- [pandas-loc-iloc-method-selection] — 276 palavras
 - [pandas-manipulando-variaveis-dataframe] — 60 palavras
 - [pandas-map] — 60 palavras
 - [pandas-mask] — 63 palavras
@@ -345,7 +373,6 @@
 - [pandas-merge-method] — 127 palavras
 - [pandas-merge_ordered-method] — 68 palavras
 - [pandas-merging-methods] — 15 palavras
-- [pandas-null-values] — 62 palavras
 - [pandas-pipe] — 72 palavras
 - [pandas-pivot] — 81 palavras
 - [pandas-pivot-table] — 176 palavras
@@ -360,18 +387,11 @@
 - [pandas-to-numeric] — 90 palavras
 - [pandas-unique] — 41 palavras
 - [pandas-wide-to-long] — 85 palavras
-- [pandas-with.query] — 99 palavras
+- [pandas-with.query] — 100 palavras
 - [pandas-working-with-numeric-data] — 154 palavras
 - [pandas-xs] — 69 palavras
 - [pandas_lista-1] — 79 palavras
-- [parametros-de-analise] — 111 palavras
-- [pensamento-critico-aplicado-estatistica] — 62 palavras
-- [percentis] — 80 palavras
-- [personalizando-graficos] — 110 palavras
 - [personalizando-um-grafico-de-linha] — 86 palavras
-- [perspctiva] — 454 palavras
-- [pista-de-tempo] — 36 palavras
-- [planejamento-banco-de-dados] — 33 palavras
 - [planejamento-de-experimentos] — 156 palavras
 - [planejamento-fatorial] — 60 palavras
 - [plano-ensino-computer-science-anhanguera] — 12 palavras
@@ -382,11 +402,10 @@
 - [pontos-de-atencao-anti-bloqueios] — 287 palavras
 - [possible-issues-w-categorical-data] — 92 palavras
 - [potenciacao] — 60 palavras
-- [power_bi] — 10 palavras
+- [power_bi] — 12 palavras
 - [pre-tratamento] — 45 palavras
 - [prevendo.o.futuro.metricas] — 220 palavras
 - [principais-erros-estatisticos] — 157 palavras
-- [principios-de-gestalt] — 168 palavras
 - [probabilidade] — 24 palavras
 - [probabilidade-com-scipy] — 115 palavras
 - [probabilidade-comb-binom] — 45 palavras
@@ -404,33 +423,27 @@
 - [python] — 23 palavras
 - [python-build-in-functions] — 60 palavras
 - [python-determinando-selecoes] — 183 palavras
-- [python-flow-control] — 71 palavras
+- [python-flow-control] — 70 palavras
 - [python-functions] — 64 palavras
 - [python-list-comprehensions] — 221 palavras
 - [python-operacoes] — 13 palavras
 - [python-quicksort] — 168 palavras
+- [python-searborn-Using-PairGrid-and-pairplot] — 104 palavras
 - [python-selection-sort] — 147 palavras
 - [python-unique-value_counts-method] — 82 palavras
 - [python-variable-types] — 146 palavras
+- [python-while] — 186 palavras
 - [python.advanced] — 18 palavras
 - [python.libs] — 117 palavras
-- [quadrado-de-um-binomio] — 40 palavras
-- [quebra-de-padrao] — 100 palavras
-- [radiciacao] — 59 palavras
-- [recebendo-input] — 104 palavras
-- [regra-de-sturges] — 47 palavras
-- [regras-potenciacao] — 67 palavras
-- [regressao-linear-residuos] — 90 palavras
 - [regression-plots] — 45 palavras
 - [relacao-de-intervalos-de-confiancas-com-z-test-e-t-test] — 77 palavras
 - [removendo-outliers] — 109 palavras
-- [removendo-valores-nulos] — 263 palavras
+- [removendo-valores-nulos] — 262 palavras
 - [rename-colluns-dataframe] — 74 palavras
 - [report-structure] — 90 palavras
 - [representacao-banco-dados-definicoes] — 44 palavras
 - [resolvendo-um-problema] — 87 palavras
 - [retencao] — 125 palavras
-- [return] — 181 palavras
 - [saas-software-as-a-service] — 109 palavras
 - [scipy-comb] — 215 palavras
 - [scipy-norm.cdf-method] — 284 palavras
@@ -445,25 +458,21 @@
 - [scisync-post-ideas] — 1035 palavras
 - [scisync-visao] — 388 palavras
 - [scope-of-a-function] — 233 palavras
-- [seaborn] — 106 palavras
 - [seaborn-box-plot(diagrama-de-caixa)] — 173 palavras
-- [seaborn-catplot] — 51 palavras
 - [seaborn-facegrit-catplot-lmplot] — 102 palavras
-- [seaborn-matplotlib-charts] — 50 palavras
-- [seaborn-plots] — 68 palavras
-- [seaborn-selecting-plots] — 69 palavras
+- [seaborn-selecting-plots] — 70 palavras
 - [search-assistents-ecommerce-crew-2024] — 19 palavras
 - [selecao-frequencia-1] — 281 palavras
 - [selecao-frequencia-2] — 223 palavras
 - [series-para-dataframe] — 113 palavras
 - [servicos-nuvem-tipos] — 23 palavras
 - [sklearn-criando-modelos] — 185 palavras
-- [sklearn-principal-component-analysis-pca] — 480 palavras
-- [sklearn-simple-linear-regression-model] — 88 palavras
+- [snip-verificar-normalidade-amostra-dataframe] — 146 palavras
 - [soma-e-subtracao-de-fracoes] — 61 palavras
 - [split] — 58 palavras
 - [sql] — 42 palavras
 - [sql-CASE] — 98 palavras
+- [sql-criar-schema] — 158 palavras
 - [sql-distinct] — 49 palavras
 - [sql-estrutura-basica-consulta] — 65 palavras
 - [sql-inner-join] — 75 palavras
@@ -474,7 +483,6 @@
 - [sql-union] — 130 palavras
 - [sql-where] — 264 palavras
 - [start-langchain] — 98 palavras
-- [storytelling-report-awareness] — 145 palavras
 - [streamlit] — 214 palavras
 - [streamlit-chache-system] — 117 palavras
 - [streamlit-forms] — 299 palavras
@@ -491,7 +499,7 @@
 - [tipos-analises] — 90 palavras
 - [tipos-de-comandos-mysql] — 228 palavras
 - [tipos-de-compradores] — 87 palavras
-- [tipos-de-variaveis] — 151 palavras
+- [tipos-de-variaveis] — 149 palavras
 - [tuplas] — 123 palavras
 - [ucp] — 145 palavras
 - [uniao-de-conjuntos] — 98 palavras
@@ -507,14 +515,10 @@
 - [v4.9.customer.experience] — 450 palavras
 - [valor-padrao] — 82 palavras
 - [variancia] — 106 palavras
-- [variaveis-no-dataframe-(colunas)] — 14 palavras
-- [variaveis-quantitativas--e-populacao-infinita] — 42 palavras
-- [verificar-normalidade-dataframe] — 78 palavras
 - [virtualizacao] — 34 palavras
 - [visualizing-a-categorical-and-a-quantitative-variable] — 15 palavras
-- [while] — 186 palavras
 
-**Total nesta pasta**: 76435 palavras
+**Total nesta pasta**: 70292 palavras
 
 ### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\HTML — 5 notas
 - [html-attributes] — 409 palavras
@@ -525,117 +529,115 @@
 
 **Total nesta pasta**: 1036 palavras
 
-### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\AOC — 106 notas
-- [1.1-elementos-do-sistema-computacional] — 160 palavras
-- [1.1-elementos-do-sistema-computacional-nonakaval] — 162 palavras
-- [1.10-organizacao-da-memoria-principal] — 15 palavras
-- [1.11-memoria-rom] — 569 palavras
-- [1.12-memoria-secundaria] — 13 palavras
-- [1.13-organizacao-do-processador] — 320 palavras
-- [1.14-unidade-logica-e-aritmetica-(ula)] — 16 palavras
-- [1.15-unidade-funcional-de-controle] — 15 palavras
-- [1.16-(rdm)-(rem)] — 23 palavras
-- [1.17-(ci)---(ri)] — 15 palavras
-- [1.18-decodificador-de-instrucoes] — 14 palavras
-- [1.19-relogio-(clock)] — 13 palavras
-- [1.2-modelo-de-von-neumann] — 20 palavras
-- [1.2-modelo-de-von-neumann-nonakaval] — 15 palavras
-- [1.20-barramentos] — 12 palavras
-- [1.21-barramento-de-dados] — 14 palavras
-- [1.22-barramento-de-enderecos] — 14 palavras
-- [1.23-barramento-de-controle] — 14 palavras
-- [1.24-instrucoes-de-maquina] — 14 palavras
-- [1.25-formato-das-instrucoes] — 14 palavras
-- [1.26-ciclo-de-instrucao] — 14 palavras
-- [1.27-arquiteturas-risc-e-cisc] — 169 palavras
-- [1.28-representacao.de.dados] — 193 palavras
-- [1.29-tipo-caractere] — 13 palavras
-- [1.3-evolucao-tecnologica] — 105 palavras
-- [1.3.1 Geração zero computadores mecânicos (1642-1945)] — 71 palavras
-- [1.3.2 Primeira geração válvulas (1945-1955)] — 383 palavras
-- [1.3.2.1 Modelo de Von Neumann] — 493 palavras
-- [1.3.3 Segunda geração transistores (1955-1965)] — 204 palavras
-- [1.3.4 Terceira geração circuitos integrados (1965-1980)] — 168 palavras
-- [1.3.5 Quarta geração microprocessadores (1970 - atual)] — 354 palavras
-- [1.3.6 O futuro] — 176 palavras
-- [1.30-tipo-logico] — 13 palavras
-- [1.31-tipo-numerico] — 13 palavras
-- [1.32-dispositivos-de-entrada-e-saida] — 18 palavras
-- [1.32-dispositivos-de-entrada-e-saida-nonakaval] — 26 palavras
-- [1.33-historia-algebra-de-boole] — 429 palavras
-- [1.34-ucp-e-dispositivos-de-es] — 20 palavras
-- [1.35-intro-algebra-de-boole] — 220 palavras
-- [1.36-tabela-verdade-and] — 121 palavras
-- [1.37-tabela-verdade-not] — 52 palavras
-- [1.38-tabela-verdade-or] — 107 palavras
-- [1.39-porta-logica-nand.] — 30 palavras
-- [1.4 Componentes básicos de um sistema computacional] — 439 palavras
-- [1.4-conversao-de-bases] — 48 palavras
-- [1.40-porta-logica-xor] — 54 palavras
-- [1.41-porta-logica-xnor] — 38 palavras
-- [1.42-expressoes-logicas.] — 62 palavras
-- [1.43-leis-e-regras-da-algebra-booleana] — 33 palavras
-- [1.44-12-regras-basicas-da-algebra-de-boole] — 231 palavras
-- [1.45-pipeline-e-multithreading] — 408 palavras
-- [1.5-funcoes-e-portas-logicas] — 515 palavras
-- [1.6-sistema-de-memoria-e-suas-caracteristicas] — 472 palavras
-- [1.6-sistema-de-memoria-e-suas-caracteristicas-nonakaval] — 472 palavras
-- [1.7-registradores] — 11 palavras
-- [1.8-memoria-cache] — 13 palavras
-- [1.9-memoria-principal] — 13 palavras
-- [2.1.1 Notação posicional] — 144 palavras
-- [3.1.1 Porta AND] — 143 palavras
-- [3.1.2 Porta OR] — 127 palavras
-- [3.1.3 Porta NOT] — 135 palavras
-- [3.1.4 Porta XOR] — 157 palavras
-- [3.1.5 Outras portas lógicas e circuitos combinatórios] — 320 palavras
-- [4.2 Registradores] — 398 palavras
-- [4.2-registradores] — 12 palavras
-- [4.2.1 Adição booleana] — 90 palavras
-- [4.2.2 Multiplicação booleana] — 68 palavras
-- [4.3 Memória cache] — 445 palavras
-- [4.4 Memória principal] — 573 palavras
-- [4.4.1 Organização da memória principal] — 314 palavras
-- [4.5 Memória secundária] — 74 palavras
-- [5.2 Unidade funcional de processamento] — 86 palavras
-- [5.2.1 Unidade lógica e aritmética (ULA)] — 147 palavras
-- [5.3 Unidade funcional de controle] — 212 palavras
-- [5.3.1 Registrador de dados de memória (RDM) e de endereços de memória (REM)] — 150 palavras
-- [5.3.2 Contador de instruções (CI)] — 169 palavras
-- [5.3.4 Decodificador de instruções] — 278 palavras
-- [5.3.6 Relógio (clock)] — 142 palavras
-- [5.3.7 Barramentos] — 1346 palavras
-- [5.4 Instruções de máquina] — 397 palavras
-- [5.4.1 Formato das instruções] — 366 palavras
-- [6.2 Formas de representação] — 82 palavras
-- [6.3 Tipos de dados] — 178 palavras
-- [6.3.1 Tipo caractere] — 246 palavras
-- [6.3.2 Tipo lógico] — 44 palavras
-- [6.3.3 Tipo numérico] — 368 palavras
-- [6.4.2 Ciclo de instrução] — 639 palavras
-- [7.1 Introdução a dispositivos de entrada e saída] — 655 palavras
-- [7.1.1 Metodologias de comunicação entre UCP e dispositivos de ES] — 417 palavras
-- [As leis comutativas afirmam que a ordem dos termos não altera o resultado da operação.] — 124 palavras
-- [O Quadro 2.1 mostra a equivalência entre as bases decimal, binária, octal e hexadecimal.] — 326 palavras
-- [Objetivo] — 34 palavras
-- [Objetivos] — 27 palavras
-- [a) Barramento de dados] — 114 palavras
-- [aoc.1.evolucao.da.arquitetura.de.computadores] — 19 palavras
-- [aoc.10.classificacao.de.flynn] — 1159 palavras
-- [aoc.2.sistemas.de.numeracao] — 16 palavras
-- [aoc.3.portas.logicas.e.suas.funcoes] — 31 palavras
-- [aoc.4.subsistema.de.memoria] — 12 palavras
-- [aoc.5.oprocessador.organizacao.e.arquitetura] — 15 palavras
-- [aoc.6.representacao.de.dados] — 12 palavras
-- [aoc.7.dispositivos.de.entrada.e.saida] — 20 palavras
-- [aoc.8.pipeline] — 11 palavras
-- [b) Barramento de endereços] — 186 palavras
-- [c) Barramento de controle] — 209 palavras
-- [geracao-zero] — 16 palavras
+### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\AOC — 104 notas
+- [concept-aoc-1.1-elementos-do-sistema-computacional] — 160 palavras
+- [concept-aoc-1.1-elementos-do-sistema-computacional-nonakaval] — 162 palavras
+- [concept-aoc-1.10-organizacao-da-memoria-principal] — 15 palavras
+- [concept-aoc-1.11-memoria-rom] — 569 palavras
+- [concept-aoc-1.12-memoria-secundaria] — 13 palavras
+- [concept-aoc-1.13-organizacao-do-processador] — 320 palavras
+- [concept-aoc-1.14-unidade-logica-e-aritmetica-(ula)] — 16 palavras
+- [concept-aoc-1.15-unidade-funcional-de-controle] — 15 palavras
+- [concept-aoc-1.16-(rdm)-(rem)] — 23 palavras
+- [concept-aoc-1.17-(ci)---(ri)] — 15 palavras
+- [concept-aoc-1.18-decodificador-de-instrucoes] — 14 palavras
+- [concept-aoc-1.19-relogio-(clock)] — 13 palavras
+- [concept-aoc-1.2-modelo-de-von-neumann] — 16 palavras
+- [concept-aoc-1.2-modelo-de-von-neumann-nonakaval] — 15 palavras
+- [concept-aoc-1.20-barramentos] — 12 palavras
+- [concept-aoc-1.21-barramento-de-dados] — 14 palavras
+- [concept-aoc-1.22-barramento-de-enderecos] — 14 palavras
+- [concept-aoc-1.23-barramento-de-controle] — 14 palavras
+- [concept-aoc-1.24-instrucoes-de-maquina] — 14 palavras
+- [concept-aoc-1.25-formato-das-instrucoes] — 14 palavras
+- [concept-aoc-1.26-ciclo-de-instrucao] — 14 palavras
+- [concept-aoc-1.27-arquiteturas-risc-e-cisc] — 169 palavras
+- [concept-aoc-1.28-representacao.de.dados] — 193 palavras
+- [concept-aoc-1.29-tipo-caractere] — 13 palavras
+- [concept-aoc-1.3-evolucao-tecnologica] — 105 palavras
+- [concept-aoc-1.3.1 Geração zero computadores mecânicos (1642-1945)] — 71 palavras
+- [concept-aoc-1.3.2 Primeira geração válvulas (1945-1955)] — 383 palavras
+- [concept-aoc-1.3.2.1 Modelo de Von Neumann] — 496 palavras
+- [concept-aoc-1.3.3 Segunda geração transistores (1955-1965)] — 204 palavras
+- [concept-aoc-1.3.4 Terceira geração circuitos integrados (1965-1980)] — 168 palavras
+- [concept-aoc-1.3.5 Quarta geração microprocessadores (1970 - atual)] — 354 palavras
+- [concept-aoc-1.3.6 O futuro] — 176 palavras
+- [concept-aoc-1.30-tipo-logico] — 13 palavras
+- [concept-aoc-1.31-tipo-numerico] — 13 palavras
+- [concept-aoc-1.32-dispositivos-de-entrada-e-saida] — 18 palavras
+- [concept-aoc-1.32-dispositivos-de-entrada-e-saida-nonakaval] — 26 palavras
+- [concept-aoc-1.33-historia-algebra-de-boole] — 429 palavras
+- [concept-aoc-1.34-ucp-e-dispositivos-de-es] — 20 palavras
+- [concept-aoc-1.35-intro-algebra-de-boole] — 220 palavras
+- [concept-aoc-1.36-tabela-verdade-and] — 121 palavras
+- [concept-aoc-1.37-tabela-verdade-not] — 52 palavras
+- [concept-aoc-1.38-tabela-verdade-or] — 107 palavras
+- [concept-aoc-1.39-porta-logica-nand.] — 30 palavras
+- [concept-aoc-1.4 Componentes básicos de um sistema computacional] — 439 palavras
+- [concept-aoc-1.4-conversao-de-bases] — 48 palavras
+- [concept-aoc-1.40-porta-logica-xor] — 54 palavras
+- [concept-aoc-1.41-porta-logica-xnor] — 38 palavras
+- [concept-aoc-1.42-expressoes-logicas.] — 62 palavras
+- [concept-aoc-1.43-leis-e-regras-da-algebra-booleana] — 33 palavras
+- [concept-aoc-1.44-12-regras-basicas-da-algebra-de-boole] — 231 palavras
+- [concept-aoc-1.45-pipeline-e-multithreading] — 408 palavras
+- [concept-aoc-1.5-funcoes-e-portas-logicas] — 515 palavras
+- [concept-aoc-1.6-sistema-de-memoria-e-suas-caracteristicas] — 472 palavras
+- [concept-aoc-1.6-sistema-de-memoria-e-suas-caracteristicas-nonakaval] — 472 palavras
+- [concept-aoc-1.7-registradores] — 11 palavras
+- [concept-aoc-1.8-memoria-cache] — 13 palavras
+- [concept-aoc-1.9-memoria-principal] — 13 palavras
+- [concept-aoc-2.1.1 Notação posicional] — 144 palavras
+- [concept-aoc-3.1.1 Porta AND] — 143 palavras
+- [concept-aoc-3.1.2 Porta OR] — 127 palavras
+- [concept-aoc-3.1.3 Porta NOT] — 135 palavras
+- [concept-aoc-3.1.4 Porta XOR] — 157 palavras
+- [concept-aoc-3.1.5 Outras portas lógicas e circuitos combinatórios] — 320 palavras
+- [concept-aoc-4.2 Registradores] — 398 palavras
+- [concept-aoc-4.2-registradores] — 12 palavras
+- [concept-aoc-4.2.1 Adição booleana] — 90 palavras
+- [concept-aoc-4.2.2 Multiplicação booleana] — 68 palavras
+- [concept-aoc-4.3 Memória cache] — 445 palavras
+- [concept-aoc-4.4 Memória principal] — 573 palavras
+- [concept-aoc-4.4.1 Organização da memória principal] — 314 palavras
+- [concept-aoc-4.5 Memória secundária] — 74 palavras
+- [concept-aoc-5.2 Unidade funcional de processamento] — 86 palavras
+- [concept-aoc-5.2.1 Unidade lógica e aritmética (ULA)] — 147 palavras
+- [concept-aoc-5.3 Unidade funcional de controle] — 212 palavras
+- [concept-aoc-5.3.1 Registrador de dados de memória (RDM) e de endereços de memória (REM)] — 150 palavras
+- [concept-aoc-5.3.2 Contador de instruções (CI)] — 169 palavras
+- [concept-aoc-5.3.4 Decodificador de instruções] — 278 palavras
+- [concept-aoc-5.3.6 Relógio (clock)] — 142 palavras
+- [concept-aoc-5.3.7 Barramentos] — 1346 palavras
+- [concept-aoc-5.4 Instruções de máquina] — 397 palavras
+- [concept-aoc-5.4.1 Formato das instruções] — 366 palavras
+- [concept-aoc-6.2 Formas de representação] — 82 palavras
+- [concept-aoc-6.3 Tipos de dados] — 178 palavras
+- [concept-aoc-6.3.1 Tipo caractere] — 246 palavras
+- [concept-aoc-6.3.2 Tipo lógico] — 44 palavras
+- [concept-aoc-6.3.3 Tipo numérico] — 368 palavras
+- [concept-aoc-6.4.2 Ciclo de instrução] — 639 palavras
+- [concept-aoc-7.1 Introdução a dispositivos de entrada e saída] — 655 palavras
+- [concept-aoc-7.1.1 Metodologias de comunicação entre UCP e dispositivos de ES] — 417 palavras
+- [concept-aoc-As leis comutativas afirmam que a ordem dos termos não altera o resultado da operação.] — 124 palavras
+- [concept-aoc-O Quadro 2.1 mostra a equivalência entre as bases decimal, binária, octal e hexadecimal.] — 326 palavras
+- [concept-aoc-Objetivos] — 27 palavras
+- [concept-aoc-a) Barramento de dados] — 114 palavras
+- [concept-aoc-aoc.1.evolucao.da.arquitetura.de.computadores] — 19 palavras
+- [concept-aoc-aoc.10.classificacao.de.flynn] — 1159 palavras
+- [concept-aoc-aoc.2.sistemas.de.numeracao] — 16 palavras
+- [concept-aoc-aoc.3.portas.logicas.e.suas.funcoes] — 31 palavras
+- [concept-aoc-aoc.4.subsistema.de.memoria] — 12 palavras
+- [concept-aoc-aoc.5.oprocessador.organizacao.e.arquitetura] — 15 palavras
+- [concept-aoc-aoc.6.representacao.de.dados] — 12 palavras
+- [concept-aoc-aoc.7.dispositivos.de.entrada.e.saida] — 20 palavras
+- [concept-aoc-aoc.8.pipeline] — 11 palavras
+- [concept-aoc-b) Barramento de endereços] — 186 palavras
+- [concept-aoc-c) Barramento de controle] — 209 palavras
 
-**Total nesta pasta**: 18906 palavras
+**Total nesta pasta**: 18855 palavras
 
-### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\ECT — 33 notas
+### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\ECT — 32 notas
 - [1.1--introducao-a-engenharia-secao] — 14 palavras
 - [1.2--responsabilidades-legais-e-sociais-secao] — 12 palavras
 - [1.3--etica-da-profissao] — 198 palavras
@@ -667,12 +669,11 @@
 - [desenho-universal] — 24 palavras
 - [obrigacoes-e-responsabilidades] — 312 palavras
 - [organizacao-all] — 18 palavras
-- [plano-de-estudo---ect] — 127 palavras
 - [procel,-leed,-hqe] — 13 palavras
 
-**Total nesta pasta**: 2662 palavras
+**Total nesta pasta**: 2535 palavras
 
-### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\GCTI — 15 notas
+### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\GCTI — 14 notas
 - [1.1--dados,-informacao,-conhecimento-e-inteligencia-secao] — 311 palavras
 - [1.2--dimensoes-da-qualidade-da-informacao-secao] — 35 palavras
 - [1.3--introducao-aos-sistemas-de-informacao] — 40 palavras
@@ -687,9 +688,8 @@
 - [ineditismo,-contextalizacao,-precisao] — 247 palavras
 - [niveis-organizacionais] — 158 palavras
 - [pertinencia,-audiencia] — 163 palavras
-- [unidade-1---dimensoes-da-qualidade-da-informacao-e-os-sistemas-de-informacao-secao] — 13 palavras
 
-**Total nesta pasta**: 2480 palavras
+**Total nesta pasta**: 2467 palavras
 
 ### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\eng. software\SO — 73 notas
 - [2.1-definicao-so] — 286 palavras
@@ -784,41 +784,56 @@
 
 **Total nesta pasta**: 1895 palavras
 
-### Atlas\03_SNIPPETS — 3 notas
-- [snip-andas-groupby-function] — 34 palavras
-- [snip-get-dataframe-info] — 162 palavras
-- [snip-obter-percentual-valores-df] — 143 palavras
+### Atlas\03_SNIPPETS — 10 notas
+- [snip-andas-groupby-function] — 40 palavras
+- [snip-convert-currency-string-to-numeric] — 96 palavras
+- [snip-convert-pandas-df-var-to-numeric] — 63 palavras
+- [snip-get-dataframe-info] — 168 palavras
+- [snip-listar-diretorios-os] — 159 palavras
+- [snip-null-Checker] — 103 palavras
+- [snip-obter-percentual-valores-df] — 150 palavras
+- [snip-openai-agent-llm-classificacao-v-df-pandas] — 428 palavras
+- [snip-pandas-convert-to-categorical] — 70 palavras
+- [snip-validate-series-datatype-in-dataframe] — 87 palavras
 
-**Total nesta pasta**: 339 palavras
+**Total nesta pasta**: 1364 palavras
 
-### Atlas\04_COMPONENT — 2 notas
+### Atlas\04_COMPONENT — 10 notas
 - [cmp-EditNotes] — 194 palavras
-- [cmp-pandas-data-cleaning-methods] — 142 palavras
+- [cmp-ambientes-anaconda] — 156 palavras
+- [cmp-categorical-and-numerical-wrangling] — 96 palavras
+- [cmp-git-branches] — 294 palavras
+- [cmp-pandas-fillna-nullvalues-wrangling] — 134 palavras
+- [cmp-pandas-groupby-method] — 193 palavras
+- [cmp-pandas-importing-data] — 129 palavras
+- [cmp-python-datetime(datas)-methods] — 128 palavras
+- [cmp-seaborn-plots] — 64 palavras
+- [cmp-streamlit-crewai-market-research-app] — 567 palavras
 
-**Total nesta pasta**: 336 palavras
+**Total nesta pasta**: 1955 palavras
 
-### Atlas\05_DOC — 1 notas
+### Atlas\05_DOC — 2 notas
 - [doc-pandas-methods] — 189 palavras
+- [doc-seaborn] — 106 palavras
 
-**Total nesta pasta**: 189 palavras
+**Total nesta pasta**: 295 palavras
 
-### Atlas\06_WORKFLOW — 2 notas
+### Atlas\06_WORKFLOW — 6 notas
 - [flow-OlistProductUpdate] — 1038 palavras
 - [flow-pandas-basic-data-manipulation] — 216 palavras
+- [flow-pandas-data-cleaning-methods] — 142 palavras
+- [flow-pandas-null-values-wrangling] — 62 palavras
+- [flow-sklearn-principal-component-analysis-pca] — 480 palavras
+- [flow-whatsApp-arena-report] — 1438 palavras
 
-**Total nesta pasta**: 1254 palavras
+**Total nesta pasta**: 3376 palavras
 
-### Atlas\08_MAPS — 6 notas
-- [moc-datascience] — 148 palavras
-- [moc-estatistica] — 68 palavras
-- [moc-matematica-e-logica] — 76 palavras
-- [moc-mkt-menagement] — 47 palavras
-- [moc-programacao] — 79 palavras
-- [moc-tec] — 67 palavras
+### Atlas\07_RESOURCES — 1 notas
+- [res-checklist-produto-e-objecoes] — 256 palavras
 
-**Total nesta pasta**: 485 palavras
+**Total nesta pasta**: 256 palavras
 
-### Calendar\DAILY — 247 notas
+### Calendar\DAILY — 251 notas
 - [2023-05-14] — 53 palavras
 - [2023-05-15] — 50 palavras
 - [2023-05-16] — 46 palavras
@@ -892,7 +907,7 @@
 - [2023-12-08] — 90 palavras
 - [2023-12-09] — 90 palavras
 - [2023-12-11] — 91 palavras
-- [2023-12-16] — 99 palavras
+- [2023-12-16] — 98 palavras
 - [2023-12-25] — 116 palavras
 - [2024-01-09] — 53 palavras
 - [2024-01-10] — 58 palavras
@@ -948,7 +963,6 @@
 - [2024-07-18] — 30 palavras
 - [2024-07-27] — 28 palavras
 - [2024-08-03] — 533 palavras
-- [2024-08-07] — 33 palavras
 - [2024-08-10] — 23 palavras
 - [2024-08-11] — 494 palavras
 - [2024-08-14] — 32 palavras
@@ -985,10 +999,10 @@
 - [2024-12-27] — 223 palavras
 - [2024-12-30] — 245 palavras
 - [2024-12-31] — 455 palavras
-- [2025-01-02] — 248 palavras
+- [2025-01-02] — 236 palavras
 - [2025-01-03] — 231 palavras
 - [2025-01-04] — 607 palavras
-- [2025-01-06] — 492 palavras
+- [2025-01-06] — 271 palavras
 - [2025-01-07] — 238 palavras
 - [2025-01-08] — 240 palavras
 - [2025-01-10] — 246 palavras
@@ -1042,7 +1056,7 @@
 - [2025-03-27] — 245 palavras
 - [2025-03-30] — 227 palavras
 - [2025-04-01] — 332 palavras
-- [2025-04-02] — 506 palavras
+- [2025-04-02] — 477 palavras
 - [2025-04-03] — 692 palavras
 - [2025-04-05] — 225 palavras
 - [2025-04-06] — 552 palavras
@@ -1065,9 +1079,14 @@
 - [2025-04-28] — 427 palavras
 - [2025-04-29] — 105 palavras
 - [2025-04-30] — 231 palavras
-- [2025-05-01] — 108 palavras
+- [2025-05-01] — 186 palavras
+- [2025-05-02] — 107 palavras
+- [2025-05-03] — 105 palavras
+- [2025-05-09] — 114 palavras
+- [2025-05-10] — 137 palavras
+- [2025-05-11] — 138 palavras
 
-**Total nesta pasta**: 45527 palavras
+**Total nesta pasta**: 45910 palavras
 
 ### Calendar\YEARLY — 2 notas
 - [year-2024] — 132 palavras
@@ -1075,22 +1094,18 @@
 
 **Total nesta pasta**: 153 palavras
 
-### Drafts — 13 notas
+### Drafts — 9 notas
 - [Conteudos-sobre-atividades-infantis] — 22 palavras
 - [Engenharia de prompts] — 2071 palavras
 - [Ideias-de-atividades-harry] — 436 palavras
 - [_GAMES-ANNIVERSARY-LIST] — 308 palavras
-- [_chat filtered] — 19668 palavras
 - [clientes-collectors] — 91 palavras
-- [doc-conteudo-collectors] — 31 palavras
 - [estudo-exemplo-de-cronograma] — 436 palavras
 - [memorize os templates abaixo] — 114 palavras
 - [resumo arena] — 829 palavras
 - [test] — 12 palavras
-- [tutoriais-e-protocolos-collectors] — 357 palavras
-- [videos-olist] — 45 palavras
 
-**Total nesta pasta**: 24420 palavras
+**Total nesta pasta**: 4319 palavras
 
 ### Drafts\LLM-searches — 5 notas
 - [data_science_projetc-complete-ptbr] — 1209 palavras
@@ -1148,11 +1163,11 @@
 **Total nesta pasta**: 1943 palavras
 
 ### Efforts\ARCHIVES\PKM-Youtube-Videos — 3 notas
-- [PKM-Youtube-Videos] — 93 palavras
+- [PKM-Youtube-Videos] — 91 palavras
 - [importancia-nota-diaria] — 40 palavras
 - [serie-playlist-entendendo-pkm] — 598 palavras
 
-**Total nesta pasta**: 731 palavras
+**Total nesta pasta**: 729 palavras
 
 ### Efforts\ARCHIVES\Saúde e bem estar — 2 notas
 - [2. Saúde e bem estar] — 151 palavras
@@ -1160,7 +1175,7 @@
 
 **Total nesta pasta**: 358 palavras
 
-### Efforts\ARCHIVES\collectorsGuardian\collectors-notes — 190 notas
+### Efforts\ARCHIVES\collectorsGuardian\collectors-notes — 189 notas
 - [!_guia-de-formatos] — 484 palavras
 - [1. Categorias de Conteúdo] — 167 palavras
 - [1. Desafios e Concursos] — 81 palavras
@@ -1217,16 +1232,16 @@
 - [Gêneros Preferidos] — 15 palavras
 - [Ideias de Conteudo collectors] — 125 palavras
 - [Instagram Stories (Interação Rápida)] — 117 palavras
-- [Itens preparados para envio] — 72 palavras
-- [Itens preparados para envio 2] — 117 palavras
-- [Kaique na frente manhã] — 71 palavras
+- [Itens preparados para envio] — 74 palavras
+- [Itens preparados para envio 2] — 118 palavras
+- [Kaique na frente manhã] — 73 palavras
 - [LIGHT] — 52 palavras
 - [LIGHT-exemples] — 52 palavras
 - [Lista Completa de Estratégias conteúdo] — 45 palavras
 - [Lista Itens Leilões] — 145 palavras
 - [Lista de Compras Recentes] — 13 palavras
 - [Marketing e Vendas] — 49 palavras
-- [Megadrive] — 125 palavras
+- [Megadrive] — 127 palavras
 - [PLANEXEMPLE] — 328 palavras
 - [PRIME-05-02-2025] — 440 palavras
 - [PROMTP-formatacao-mensagens-whats] — 249 palavras
@@ -1253,13 +1268,13 @@
 - [Perfil_Cliente_Rodolfo_Rosario_Lopes] — 59 palavras
 - [Perfil_Cliente_Rodrigo_Moraes] — 57 palavras
 - [Perfil_Cliente_Vanessa_De_Oliveira] — 145 palavras
-- [Perfil_Cliente_pedro-henrique] — 181 palavras
+- [Perfil_Cliente_pedro-henrique] — 135 palavras
 - [Persona_review] — 113 palavras
 - [Planejamento de conteúdos arena collecotrs 1] — 18 palavras
 - [Planejamento estrategico arena 1] — 1028 palavras
 - [Plataformas Preferidas] — 15 palavras
 - [Portateis] — 199 palavras
-- [Preparando envios] — 104 palavras
+- [Preparando envios] — 106 palavras
 - [Principais Franquias Compradas] — 18 palavras
 - [Prompts-chatGPT] — 564 palavras
 - [Quando algo se perde] — 82 palavras
@@ -1284,13 +1299,12 @@
 - [decidi começar com qual vocês já conhecem,] — 148 palavras
 - [dá uma olhada no leilão que vai rolar daqui a pouco] — 71 palavras
 - [dá uma olhada nos itens que vamos sortear pra nossa comunidade] — 102 palavras
-- [estudo de publico 1] — 47 palavras
 - [eu sei que muitos de vocês queriam que essa edição fosse a leilao já na semana passada] — 93 palavras
 - [exemplo-modelos-de-descricoes] — 184 palavras
 - [ghost acende no escuro e fala] — 397 palavras
 - [grid de publico] — 320 palavras
 - [ideias-de-bordoes] — 154 palavras
-- [ideias-de-conteudo-para-engajamento-com-checklists] — 57 palavras
+- [ideias-de-conteudo-para-engajamento-com-checklists] — 55 palavras
 - [iluminicao-pesquisa1] — 130 palavras
 - [info] — 15 palavras
 - [item que já foi confirmado foi essa edição lacrada do resident evil] — 104 palavras
@@ -1300,7 +1314,7 @@
 - [mensagem-Boas Praticas e Templates de Atendimento] — 27 palavras
 - [mensagem-agradecimentos] — 51 palavras
 - [mensagem-atendimento-vendas-collectors] — 12 palavras
-- [mensagem-boas-vindas+5_-representante] — 89 palavras
+- [mensagem-boas-vindas+5_-representante] — 87 palavras
 - [mensagem-boas-vindas-equipe] — 61 palavras
 - [mensagem-boas-vindas-modelos-de-mensagens-collecors] — 11 palavras
 - [mensagem-boas-vindas-representante] — 61 palavras
@@ -1330,7 +1344,7 @@
 - [roteiros-mensagens-stories-collectors] — 141 palavras
 - [roteitos-reels-collectors-2024] — 34 palavras
 - [rt-ps4-Persona] — 109 palavras
-- [se vocês acharam que hoje não teria leilões,] — 139 palavras
+- [se vocês acharam que hoje não teria leilões,] — 141 palavras
 - [selection1] — 31 palavras
 - [selection2] — 8 palavras
 - [semana acabando e mas seguimos com tudo nos leilões] — 93 palavras
@@ -1352,7 +1366,7 @@
 - [📌 2️⃣ Lista de Produtos Adquiridos por Luka Araujo] — 457 palavras
 - [🛒 Preferências de Plataforma] — 71 palavras
 
-**Total nesta pasta**: 31799 palavras
+**Total nesta pasta**: 31713 palavras
 
 ### Efforts\ARCHIVES\ebooks — 3 notas
 - [ebook-carlos] — 4602 palavras
@@ -1450,25 +1464,38 @@
 
 **Total nesta pasta**: 213 palavras
 
-### Efforts\AREAS\pkm-videos — 2 notas
+### Efforts\AREAS\pkm-videos — 3 notas
 - [2025-pkm-videos] — 83 palavras
-- [videos de introducao] — 28 palavras
+- [Exemples] — 49 palavras
+- [conceitos-fundamentais] — 49 palavras
 
-**Total nesta pasta**: 111 palavras
+**Total nesta pasta**: 181 palavras
+
+### Efforts\PROJECTS\collectors-tutorials — 2 notas
+- [Tutoriais-olist] — 77 palavras
+- [collectors-tutorials] — 114 palavras
+
+**Total nesta pasta**: 191 palavras
 
 ### Entertainment\MUSIC — 5 notas
 - [Clancy -  Twenty One Pilots] — 1009 palavras
-- [Tranquility Base Hotel & Casino] — 596 palavras
+- [Tranquility Base Hotel & Casino - INCOMPLETO] — 597 palavras
 - [Trench - Twenty One Pilots] — 36 palavras
 - [just_music_lines] — 130 palavras
-- [moc-albuns] — 39 palavras
+- [moc-albuns] — 41 palavras
 
-**Total nesta pasta**: 1810 palavras
+**Total nesta pasta**: 1813 palavras
 
 ### Social\PEOPLE — 7 notas
-- 
+- [Duda] — 805 palavras
+- [HenriqueAssis] — 51 palavras
+- [Jhee] — 212 palavras
+- [ME] — 431 palavras
+- [Mae] — 12 palavras
+- [Pai] — 82 palavras
+- [bbHarry] — 142 palavras
 
-**Total nesta pasta**: 1408 palavras
+**Total nesta pasta**: 1735 palavras
 
 ### Social\Thinking — 2 notas
 - [62-frases-friedrich-nietzsche] — 1434 palavras
@@ -1496,18 +1523,18 @@
 - [template-nota-pessoa] — 34 palavras
 - [template_area] — 128 palavras
 - [template_area_note] — 57 palavras
-- [template_daily_note] — 80 palavras
+- [template_daily_note] — 98 palavras
 - [template_data_project_checklist] — 125 palavras
 - [template_new_note] — 11 palavras
 - [template_project] — 148 palavras
 - [template_project_note] — 50 palavras
 
-**Total nesta pasta**: 674 palavras
+**Total nesta pasta**: 692 palavras
 
-### System\TEMPLATE\SNIPTETS — 1 notas
-- [template-snippet] — 17 palavras
+### System\TEMPLATE\FORMAT\SNIPTETS — 1 notas
+- [template-snippet] — 26 palavras
 
-**Total nesta pasta**: 17 palavras
+**Total nesta pasta**: 26 palavras
 
 ---
-## 📊 Total geral: 287906 palavras
+## 📊 Total geral: 273489 palavras

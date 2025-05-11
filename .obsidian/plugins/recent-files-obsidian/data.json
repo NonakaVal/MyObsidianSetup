@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "template_area",
+      "path": "SYSTEM/TEMPLATE/template_area.md"
+    },
+    {
+      "basename": "template_area_note",
+      "path": "SYSTEM/TEMPLATE/template_area_note.md"
+    },
+    {
+      "basename": "template_project",
+      "path": "SYSTEM/TEMPLATE/template_project.md"
+    },
+    {
+      "basename": "template_new_note",
+      "path": "SYSTEM/TEMPLATE/template_new_note.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "PKM-Youtube-Videos",
       "path": "Efforts/ARCHIVES/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
-    },
-    {
-      "basename": "2023-06-26",
-      "path": "Calendar/DAILY/2023-06-26.md"
-    },
-    {
-      "basename": "2023-06-23",
-      "path": "Calendar/DAILY/2023-06-23.md"
-    },
-    {
-      "basename": "2023-06-22",
-      "path": "Calendar/DAILY/2023-06-22.md"
-    },
-    {
-      "basename": "2023-06-21",
-      "path": "Calendar/DAILY/2023-06-21.md"
     }
   ],
   "omittedPaths": [],

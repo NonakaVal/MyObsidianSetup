@@ -51,34 +51,74 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 
 
 # Modelos de Nomenclatura
+## Atlas
 
-`[tema]-[subtema]-[descricao]`  
-- Conceito ou tópico de estudo. Ex: `python-fundamentals-introducao`
+- `draft-[tema]-[descricao]`  
+	- Ex: `draft-matematica-conjuntos-iniciais`
+- `index-[tema]-[tipo-mapa]`  
+	- Ex: `index-python-mapa-conceitual`
+- `concept-[tema]-[descricao-teorica]`  
+	- Ex: `concept-estatistica-distribuicao-normal`
+- `snip-[biblioteca]-[acao]-[descricao]`  
+	- Ex: `snip-seaborn-plot-grafico-barras`
+- `cmp-[dominio]-[acao]-[descricao]`  
+	- Ex: `cmp-string-utils-remocao-acentos`
+- `doc-[ferramenta]-[modulo/metodo]-[descricao]`  
+	- Ex: `doc-pandas-merge-combinacao-tabelas`
+- `flow-[tipo]-[descricao-curta]`  
+	- Ex: `flow-datascience-limpeza-dados`
+- `res-[tipo]-[origem]-[descricao]`  
+	- Ex: `res-pdf-artigo-random-forest`
+- `map-[tema]-[forma-representacao]`  
+	- Ex: `map-ml-deep-learning-esquema-vis`
 
-`snip-[biblioteca]-[acao]-[descricao]`  
-- Snippet de código. Ex: `snip-pandas-loc-selecao-colunas`
+## Calendar
 
-`cmp-[dominio]-[acao]-[descricao]`  
-- Componente ou função. Ex: `cmp-database-query-join`
+- `YYYY-MM-DD`  
+	- Ex: `2025-05-11`
+- `YYYY-[W]ww`  
+	- Ex: `2025-W19`
+- `YYYY-MM`  
+	- Ex: `2025-05`
+- `YYYY`  
+	- Ex: `2025`
 
-`doc-[ferramenta]-[modulo/metodo]-[descricao]`  
-- Documentação de ferramenta/método. Ex: `doc-python-pandas-groupby-agrupamento-dados`
+## Drafts
+- `note-[tema]-[descricao-breve]`  
+	- Ex: `note-ai-etica-uso-cotidiano`
 
-`flow-[tipo]-[descricao-curta]`  
-- Workflow ou fluxo de trabalho. Ex: `flow-marketing-campanha-email`
+## Efforts
+- `project-[nome]-[data-inicio]-[data-fim]`  
+	- Ex: `project-app-organizador-2025-01-01-2025-06-30`
+- `area-[dominio]-[descricao]`  
+	- Ex: `area-financas-controle-pessoal`
+- `res-proj-[nome]-[tipo-material]`  
+	- Ex: `res-proj-curso-dados-slides`
+- `wrk-[contexto]-[acao/descricao]`  
+	- Ex: `wrk-ecommerce-processo-envio`
+- `archive-[nome-projeto]-[ano]`  
+	- Ex: `archive-reestrutura-site-2024`
 
-`[livro]-[autor]-[ano] | [livro]-[capitulo]-[descricao]`  
-- Livro e capítulos. Ex: `introducao-estatistica-mario-triola-2017 | introducao-estatistica-capitulo-1-fundamentos`
+## Entertainment
 
-`[projeto]-[tipo]-[descricao]-[data-inicio]-[data-fim]`  
-- Projeto com data. Ex: `projeto-web-aplicacao-desenv-web-2023-01-01-2023-12-31`
+- `ent-music-[artista]-[descricao]`  
+	- Ex: `ent-music-ludovico-einaudi-playlist-calma`
+## Social
+- `soc-people-[nome]-[contexto]`  
+	- Ex: `soc-people-carlos-rede-linkedin`
+- `soc-thinking-[tema]-[reflexao]`  
+	- Ex: `soc-thinking-autenticidade-criativa`
 
-`maz-[tema]-[descricao-curta]`  
-- Nota ou tópico específico. Ex: `maz-python-estrutura-dados`
+## System
+- `asset-[tipo]-[descricao]`  
+	- Ex: `asset-icone-folder-gaming`
+- `media-[tipo]-[descricao]`  
+	- Ex: `media-video-tutorial-git`
+- `template-[tipo]-[uso]`  
+	- Ex: `template-projeto-pesquisa-cientifica`
 
 
-
-# Propriedades Notas
+# Principais Propriedades das Notas `tag` e `Hubs`
 
 
 ### TAG
@@ -177,6 +217,6 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 
 https://github.com/DuskWasHere/dusk-obsidian-vault
 https://fortelabs.com/blog/para/
-
+https://github.com/NonakaVal/Obsidian-CSS-Snippets
 
 

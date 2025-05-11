@@ -1,0 +1,63 @@
+---
+cssclasses:
+  - dashboard
+  - dash
+HUB:
+  - "[[hub-python]]"
+  - "[[hub-data-visualization]]"
+  - "[[hub-descriptive-analysis]]"
+  - "[[hub-hypothesis-testing]]"
+  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-ml-models]]"
+---
+- book  **3.1 Manipulação de Dados**
+    - **Estruturas de Dados**
+        - [[concept-dataframe-para-csv|Estruturas-DataFrame]]
+        - [[concept-python-dicionarios|Dicionarios-no-Python]]
+        - [[pandas-index|Indices-em-Pandas]]
+    - **Manipulação de Dados**
+        - [[concept-dataframe-para-csv|Conversao-de-DataFrame-para-CSV]]
+        - [[flow-pandas-null-values-wrangling|Valores-Nulos-no-Pandas]]
+        - [[pandas-unique|Valores-Unicos-com-Pandas]]
+        - [[pandas-working-with-numeric-data|Trabalhando-com-Dados-Numericos-no-Pandas]]
+        - [[flow-pandas-basic-data-manipulation|Manipulacao-Basica-de-Dados-com-Pandas]]
+        - [[cmp-pandas-groupby-method|Metodo-GroupBy-no-Pandas]]
+        - [[pandas-criando-intervalos|Criando-Intervalos-com-Pandas]]
+        - [[pandas-concat|Concatenando-Dados-com-Pandas]]
+- map **Funções e Métodos Avançados**
+    - [[pandas-agg|Funcao-Aggregation-no-Pandas]]
+    - [[pandas-apply]]
+    - [[doc-pandas-methods|Metodos-do-Pandas]]
+    - [[concept-python-pandas-loc-iloc-method-selection|Selecoes-Loc-e-iLoc-no-Pandas]]
+- book  **3.2 Visualização de Dados**
+    - **Visualizações Básicas**
+        - [[concept-seaborn-anotacoes-em-histogramas|Anotacoes-em-Histogramas]]
+        - [[concept-python-barplot-com-matplotlib|Grafico-de-Barras-com-Matplotlib]]
+        - [[concept-python-box-plot|Grafico-Box-Plot]]
+        - [[concept-boxplot|Diagrama-de-Caixa]]
+    - **Gráficos Avançados**
+        - [[concept-seaborn-categorical-plot-types|Tipos-de-Graficos-Categoricos]]
+        - [[concept-correlacao-plots|Graficos-de-Correlacao]]
+    - **Personalização e Estilo**
+        - [[concept-changing-plot-style-and-color|Alterando-Estilo-e-Cores-de-Graficos]]
+        - [[concept-python-customizing-with-matplotlib|Personalizando-Graficos-com-Matplotlib]]
+- book   **Walkthroughs**
+	- [[flow-pandas-basic-data-manipulation|Basico-Manipulacao]] ★★★★
+	- [[flow-pandas-data-cleaning-methods|Data-Cleaning]] ★★★
+	- [[pandas-converting-and-analyzing-categorical-data|Categorical-Data]]
+	- [[pandas-working-with-numeric-data|Numerical-Data]]
+	- [[index-sklearn-simple-linear-regression-model|Linear-Regression-sklearn-Model]]
+	- [[flow-sklearn-principal-component-analysis-pca|PCA]]
+	- [[generating-hypotheses]]
+	- [[planejamento-de-experimentos]]
+- map **Bibliotecas e Ferramentas**
+    - **Matplotlib**
+        - [[matplotlib|Biblioteca-Matplotlib]]
+        - [[matplotlib-charts|Graficos-com-Matplotlib]]
+    - **Seaborn**
+        - [[seaborn-box-plot(diagrama-de-caixa)|Box-Plot-com-Seaborn]]
+        - [[concept-python-seaborn-catplot|Graficos-Categoricos-com-Seaborn]]
+        - [[seaborn-facegrit-catplot-lmplot|Graficos-com-Seaborn-FaceGrid-e-Catplot]]
+        - [[index-seaborn-matplotlib-charts|Graficos-com-Seaborn-e-Matplotlib]]
+        - [[cmp-seaborn-plots|Graficos-no-Seaborn]]
+        - [[seaborn-selecting-plots]]

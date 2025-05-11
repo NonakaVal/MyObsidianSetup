@@ -6,7 +6,9 @@ HUB:
   - "[[hub-llm]]"
   - "[[hub-python]]"
 connections:
-  - "[[Atlas/02_CONCEPT/criando-variaveis-(colunas)-em-um-dataframe.md|criando-variaveis-(colunas)-em-um-dataframe]]"
+  - "[[concept-python-pandas-dataframe-variables|concept-python-pandas-dataframe-variables]]"
+share_link: https://share.note.sx/8m5lqgco#QVtEAQOlvL5ArAPVoRvT/8so7jV20j1NP03iDjLWZXI
+share_updated: 2025-05-09T21:18:09-03:00
 ---
 
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 
