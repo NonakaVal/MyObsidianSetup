@@ -234,15 +234,6 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - [YTranscript](https://github.com/obsidian-community/obsidian-ytranscript)
 
 
-
-
-# CSS SNIPPETS
-- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
-- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
-- [Modular CSS Layout for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)
-
-
-
 # Códigos 
 
 ### [Repo - MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts) - Diversos códigos Python que uso
@@ -254,10 +245,11 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - [ipynbToMarkdownFile](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/ipynbToMarkdownFile.ipynb) - `.ipynb` para converter notebooks em notas `.md`
 - [LLM-Explore-TESTS](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/LLM-Explore-TESTS.ipynb) - `.ipynb` Testes com LLMs
 
-# Inspirações 
+# Inspirações e Recursos
 
-https://github.com/DuskWasHere/dusk-obsidian-vault
-https://fortelabs.com/blog/para/
-https://github.com/NonakaVal/Obsidian-CSS-Snippets
-
-
+- https://github.com/DuskWasHere/dusk-obsidian-vault
+- https://fortelabs.com/blog/para/
+- https://github.com/NonakaVal/Obsidian-CSS-Snippets
+- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
+- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
+- [Modular CSS Layout for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)
