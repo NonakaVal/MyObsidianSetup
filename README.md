@@ -49,6 +49,8 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 
 ![gif](https://i.imgur.com/CMrB7Wk.gif)
 
+## Folder System
+
 - **📂 <font color = 00bbfff>Atlas</font>** — Notas de estudo e literárias  
 	- **00_DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
 	- **01_INDEX** — Mapas e índices para navegar e interconectar as notas  
@@ -87,6 +89,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 	- **MEDIA** — Repositório de arquivos multimídia utilizados nas notas  
 	- **TEMPLATE** — Meus Templates  
 
+---
 
 # Modelos de Nomenclatura
 ## Atlas
