@@ -4,6 +4,8 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 
+Fique à vontade para clonar esse repo caso queira explorar minhas anotações de estudo, estarei atualizando periódicamente e também tenho um digital garden nos planos futuros. vlww
+
 # Vault 
 
 ![gif](https://i.imgur.com/CMrB7Wk.gif)
@@ -215,8 +217,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 
 # Inspirações 
 
-https://github.com/DuskWasHere/dusk-obsidian-vault
-https://fortelabs.com/blog/para/
-https://github.com/NonakaVal/Obsidian-CSS-Snippets
-
+- https://github.com/DuskWasHere/dusk-obsidian-vault
+- https://fortelabs.com/blog/para/
+- https://github.com/NonakaVal/Obsidian-CSS-Snippets
 
