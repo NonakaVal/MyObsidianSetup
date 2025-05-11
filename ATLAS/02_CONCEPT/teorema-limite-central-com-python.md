@@ -8,7 +8,7 @@ HUB:
 ---
 
 
-Criando dataFrame com amostras para estudo do  [[teorema-do-limite-central]]
+Criando dataFrame com amostras para estudo do  [[concept-teorema-do-limite-central]]
 
 > Importando dados
 ```css

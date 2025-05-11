@@ -39,7 +39,7 @@ imoveis
 selecao = (imoveis['Tipo'] == 'Apartamento') & (imoveis['Condominio'].isnull())
 imoveis = imoveis[~selecao]
 ```
-- seleção criada por [[selecao-frequencia-1]] e método [isnull()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.isnull.html)
+- seleção criada por [[concept-python-Pandas-DataFrame-Selection-Methods]] e método [isnull()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.isnull.html)
 
 
 4) Substitui os valores faltantes que restam nas variáveis Condominio e IPTU por zero

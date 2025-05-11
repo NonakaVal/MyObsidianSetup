@@ -5,7 +5,7 @@ tags:
 HUB:
   - "[[hub-tec]]"
 ---
-![[fundamentos-cloud-computing-]]
+![[concept-fundamentos-cloud-computing-]]
 
 [[modelos-e-plataformas-para-implementacao]]
 

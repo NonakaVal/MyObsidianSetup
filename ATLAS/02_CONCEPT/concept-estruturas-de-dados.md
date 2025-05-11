@@ -27,7 +27,7 @@ s.count(x)    # Occurrences
 ```
 
 ## 📝 Text Sequences
-[[strings|String Manipulation]]
+[[concept-python-strings|String Manipulation]]
 ```python
 "Hello".lower()       # 'hello'
 "text".upper()        # 'TEXT'
@@ -45,7 +45,7 @@ list(map(lambda x: x*2, [1,2,3]))  # [2,4,6]
 ```
 
 ## 🔒 Immutable Sequences
-[[tuplas|Tuples]]
+[[concept-python-tuplas|Tuples]]
 ```python
 # Tuple unpacking
 person = ("Gabriel", 27, True)

@@ -69,7 +69,7 @@ HUB:
 	  - [[concept-python-statsmodel-estimando-o-modelo|com Statsmodels]]
 	  - [[concept-statistic-distribuicao-frequencia|Distribuição de Frequência]]
 	  - [[t-teste-de-significancia|Teste T]]
-	  - [[teorema-do-limite-central|Teorema do Limite Central]]
+	  - [[concept-teorema-do-limite-central|Teorema do Limite Central]]
 	  - [[teorema-limite-central-com-python|com Python]]
 
 
@@ -135,7 +135,7 @@ HUB:
 - [[pandas-working-with-numeric-data|Dados Numéricos]]
 - [[index-sklearn-simple-linear-regression-model|Regressão Linear - Sklearn]]
 - [[flow-sklearn-principal-component-analysis-pca|PCA]]
-- [[generating-hypotheses|Geração de Hipóteses]]
+- [[concept-generating-hypotheses|Geração de Hipóteses]]
 - [[planejamento-de-experimentos|Planejamento Experimental]]
 
 ---

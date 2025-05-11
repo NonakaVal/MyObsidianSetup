@@ -5,7 +5,7 @@ hub:
   - "[[hub-tec]]"
 created: "[[2024-03-20]]"
 ---
-### [[computacao-nuvem-plataforma-de-computacao]]
+### [[concept-computacao-nuvem-plataforma-de-computacao]]
 
 
 - info Plataforma de computação em nuvem

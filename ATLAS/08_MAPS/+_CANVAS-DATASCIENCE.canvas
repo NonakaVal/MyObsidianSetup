@@ -34,7 +34,7 @@
 		{"id":"ad6e3410a492be98","type":"text","text":"## Limpeza de Dados","x":317,"y":87,"width":250,"height":60},
 		{"id":"7390e22a1e32bcc6","type":"text","text":"[[concept-python-pandas-series-and-dataframe]]\n`pd.DataFrame()`  `to_frame`","x":567,"y":-37,"width":318,"height":119},
 		{"id":"e2db46aa915fc82c","type":"text","text":"[[index-Verify-DataTypes]]\n `astype`  `difference`","x":197,"y":-104,"width":321,"height":59},
-		{"id":"365b28d227a382d9","type":"text","text":"[[Make-Sure-of-Value-is- Consistent]]\n`df[column].str.upper()`\n`df[column].str.lower()`\n`df[column].str.strip()`\n`.str.replace`\n[[how-to-deal-with-missing-data]]\n[[how-to-deal-with-out-of-range-data]]","x":361,"y":-401,"width":351,"height":253},
+		{"id":"365b28d227a382d9","type":"text","text":"[[Make-Sure-of-Value-is- Consistent]]\n`df[column].str.upper()`\n`df[column].str.lower()`\n`df[column].str.strip()`\n`.str.replace`\n[[concept-how-to-deal-with-missing-data]]\n[[how-to-deal-with-out-of-range-data]]","x":361,"y":-401,"width":351,"height":253},
 		{"id":"617d08acd0009f97","type":"text","text":"[[organizando dataframe]] : \n`sort_index()`  `sort_values()` `.index()`   `reset_index()` `pd.concat()` `split()` `loc[]`  `iloc[]` `isin()` `query()` `strip` `groupby()` `to_datetime` `append`","x":-241,"y":31,"width":411,"height":172}
 	],
 	"edges":[]

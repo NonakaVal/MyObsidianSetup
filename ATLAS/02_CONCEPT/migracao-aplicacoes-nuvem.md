@@ -12,7 +12,7 @@ created: "[[2024-03-23]]"
 
 
 
-![[computacao-nuvem-vantagens]]
+![[concept-computacao-nuvem-vantagens]]
 
 
 

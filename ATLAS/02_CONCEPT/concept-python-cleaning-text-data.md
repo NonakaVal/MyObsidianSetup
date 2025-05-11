@@ -7,7 +7,7 @@ HUB:
   - "[[hub-tratamento-de-dados]]"
 ---
 Fixing the phone number column
-[[strings]] | [[concept-python-thefuzz-comparing-strings]]
+[[concept-python-strings]] | [[concept-python-thefuzz-comparing-strings]]
 ```python
 # replace '+' with '00'
 phones['phone_number'] = phones['phone_number'].str.replace('+', '00')

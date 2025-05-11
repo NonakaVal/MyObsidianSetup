@@ -16,6 +16,6 @@ HUB:
 `salaries['Designation'].str.contains('Scientist')` 
 
 
-### ![[finding-multiple-phrases-in-strings]]
+### ![[draft-finding-multiple-phrases-in-strings]]
 
 

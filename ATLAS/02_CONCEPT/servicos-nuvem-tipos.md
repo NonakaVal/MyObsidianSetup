@@ -11,9 +11,9 @@ created: "[[2024-03-20]]"
 
 ![modelos-com-nuvem](https://i.imgur.com/YllHEMq.png)
 
-[[computacao-nuvem-monitoramento]]
+[[concept-computacao-nuvem-monitoramento]]
 
-![[iaas-infraestructure-as-a-service]]
+![[concept-iaas-infraestructure-as-a-service]]
 
 ![[concept-paas-plataform-as-a-service]]
 

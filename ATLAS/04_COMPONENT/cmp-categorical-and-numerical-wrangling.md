@@ -16,7 +16,7 @@ HUB:
   *Essential techniques for quantitative data manipulation*
 
 #### 2. Text Processing
-- [[finding-multiple-phrases-in-strings|Multi-Phrase String Search]]  
+- [[draft-finding-multiple-phrases-in-strings|Multi-Phrase String Search]]  
   *Advanced methods for text pattern matching in datasets*
 
 #### 3. Statistical Analysis

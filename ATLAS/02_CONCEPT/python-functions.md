@@ -14,7 +14,7 @@ HUB:
 		- [[concept-python-functions-argumentos]]
 			- `def boas_vindas(nome, sobrenome, curso):`
 			- `boas_vindas("rodrigo","saldanha", "python")`
-	- [[valor-padrao]]
+	- [[concept-python-valor-padrao]]
 	- [[concept-python-function-return]]
 - [[concept-lambda]]
 

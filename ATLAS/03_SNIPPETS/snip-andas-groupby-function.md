@@ -7,7 +7,7 @@ hub:
   - "[[hub-python]]"
 origin: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
 connections:
-  - "[[grouping-data-by-category-in-pandas]]"
+  - "[[draft-python-pandasgrouping-data-by-category]]"
 ---
 Criar um agrupamento de variaveis de um dataframe
 

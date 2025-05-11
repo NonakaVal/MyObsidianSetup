@@ -10,7 +10,7 @@ HUB:
 > [[medidas-separatrizes]].
 > método 1.5 IIQ com [[seaborn-box-plot(diagrama-de-caixa)]].
 
-### ![[iiiq-interquartil-method]]
+### ![[snip-iiiq-interquartil-method]]
 
 # Exemplo
 

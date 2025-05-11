@@ -11,7 +11,7 @@ created: "[[07-02-2024]]"
 ---
 [Pandas](https://pandas.pydata.org/docs/reference/index.html)
 ##### Start
-### [[importando-outros-tipos-de-arquivos]]
+### [[cpmcept-importando-outros-tipos-de-arquivos]]
 - `import as pd` , `pd.read_` , `to_csv`
 
 ### [[concept-python-pandas-series-and-dataframe]]
@@ -21,8 +21,8 @@ created: "[[07-02-2024]]"
 ### <font color = 00bfff> Manipulação e Organização de Dados</font>
 - [[organizando-dataframe]] : `sort_index` , `sort_values`
 -  : `.index`   `reset_index`
-- [[concat]] : `pd.concat()`
-- [[split]] : `palavras = frase.split()`
+- [[concept-python-pandas-concat]] : `pd.concat()`
+- [[concept-python-split]] : `palavras = frase.split()`
 - [[concept-python-pandas-loc-iloc-method-selection]] :  `loc[]` , `iloc[]`
 - [[concept-pandas-isin]] : `selecao  = dados.Bairro.isin(bairros)` , bairros = lista de itens
 - [[pandas-query-method]] : `resultado = df.query('idade > 30 and sexo == "Feminino"')`

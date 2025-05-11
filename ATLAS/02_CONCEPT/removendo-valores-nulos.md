@@ -44,7 +44,7 @@ A - B
 	- método na estrutura para ver a diferença da alteração
 
 
-criando uma [[selecao-frequencia-1]] com [isnull()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.isnull.html) para remover dados específicos:
+criando uma [[concept-python-Pandas-DataFrame-Selection-Methods]] com [isnull()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.isnull.html) para remover dados específicos:
 ```css
 selecao = (dados.Tipo == 'Apartamento') & (dados.Condominio.isnull())
 ```

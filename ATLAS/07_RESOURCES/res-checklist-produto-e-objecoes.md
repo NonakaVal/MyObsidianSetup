@@ -69,4 +69,4 @@ E SE EU NÃO GOSTAR
 BLOQUEIO MENTAL
 
 
-[[fundamentos-copy]]
+[[concept-fundamentos-copy]]

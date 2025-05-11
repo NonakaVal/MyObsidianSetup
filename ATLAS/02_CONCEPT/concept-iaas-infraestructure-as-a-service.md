@@ -5,7 +5,7 @@ hub:
   - "[[hub-tec]]"
 created: "[[2024-03-23]]"
 ---
-### [[iaas-infraestructure-as-a-service]]
+### [[concept-iaas-infraestructure-as-a-service]]
 
 - ~ *Iaas(infraestructure as a service)*
 	- Clientes podem alocar dinamicamente recursos computacionais como armazenamento, capacidade de armazenamento ou rede, esse modelo permite que os clientes possam alocar [[maquinas-virtuais]] construindo uma infraestrutura de TI completa

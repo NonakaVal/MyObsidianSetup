@@ -12,7 +12,7 @@ HUB:
 		- par de colchetes []
 		- usando um construtor tipo list()
 - list comprehension
-	- listas criadas a partir de objetos por algum crit�rio exemplo: [[split]]
+	- listas criadas a partir de objetos por algum crit�rio exemplo: [[concept-python-split]]
 
 ``` css
 notas = [8, 1, 9]
@@ -37,7 +37,7 @@ for i, item in enumerate(lista):
 
 
 ### map() e lambda: 
-- permite aplicar uma fun��o em  cada elemento de uma ou mais iter�veis: [[concept-python-conjuntos]], [[tuplas]] , [[concept-python-arrays]]
+- permite aplicar uma fun��o em  cada elemento de uma ou mais iter�veis: [[concept-python-conjuntos]], [[concept-python-tuplas]] , [[concept-python-arrays]]
 
 ```css
 linguagens = "pyhton java js c c# c++".split()
@@ -46,7 +46,7 @@ nova_lista = map(lambda x: x.upper(), linguagens)
 
 nova_lista = list(nova_lista)
 ```
-- [[split]] divide a string
+- [[concept-python-split]] divide a string
 	- map � o metodo que atribui a fun��o sobre cada elemento da lista criada
 		- [[concept-lambda]] cria a fun��o que vai ser atribu�da
 

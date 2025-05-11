@@ -5,7 +5,7 @@ hub:
   - "[[hub-tec]]"
 created: "[[2024-05-10]]"
 ---
-### [[green-it-introducao]]
+### [[draft-green-it-introducao]]
 
 
 - O que é green it

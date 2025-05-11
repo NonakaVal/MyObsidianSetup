@@ -5,7 +5,7 @@ hub:
   - "[[hub-tec]]"
 created: "[[2024-03-19]]"
 ---
-### [[computacao-nuvem-vantagens]]
+### [[concept-computacao-nuvem-vantagens]]
 
 Todos os detalhes de infraestrutura são responsabilidade do provedor, 
 ocultando a complexidade dos recursos computacionais, tais como processo de desenvolvimento, implementação, instalação, configuração e atualização dos serviços.

@@ -22,7 +22,7 @@ created: "[[08-02-2024]]"
 - **[[python-unique-value_counts-method]]**: Identificação de valores únicos e contagem de frequências.
 
  ### **Manipulação de Strings e Pesquisa**
-- **[[finding-multiple-phrases-in-strings]]**: Pesquisa de múltiplas frases dentro de strings.
+- **[[draft-finding-multiple-phrases-in-strings]]**: Pesquisa de múltiplas frases dentro de strings.
 
 ### **Manipulação de Datas**
 - **[[cmp-python-datetime(datas)-methods]]**: Métodos para trabalhar com datas, como extração de componentes e conversões.

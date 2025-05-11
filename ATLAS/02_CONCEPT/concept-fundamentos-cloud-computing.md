@@ -24,7 +24,7 @@ created: "[[2024-03-19]]"
 
 ![[concept-tec-caracteristicas-essenciais-cloud-computing]]
 
-![[computacao-nuvem-vantagens]]
+![[concept-computacao-nuvem-vantagens]]
 
 
 

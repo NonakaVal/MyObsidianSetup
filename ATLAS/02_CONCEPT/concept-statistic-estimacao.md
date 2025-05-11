@@ -13,7 +13,7 @@ Estimação: é a forma de fazer suposições generalizadas sobre parâmetros  d
 - Parâmetros: são atributos numéricos de uma população, tal como [[media-aritmetica]] e [[concept-statistic-desvio-do-padrao]].
 - Estimativa: é o valor obtido para determinado parâmetro a partir dos dados e uma amostra
 
-#### [[teorema-do-limite-central]]
+#### [[concept-teorema-do-limite-central]]
 <font color = 00bbfff>Desvio padrão e a média na população</font> $$\sigma_\bar{x} = \frac{\sigma}{\sqrt{n}}$$
 
 ### [[nivel-de-confianca-e-significancia]]

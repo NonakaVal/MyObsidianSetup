@@ -19,13 +19,13 @@ created: "[[10-02-2024]]"
 	- `movies.loc[movies{'avg_rating'} > 5, ' avg_rating'] = 5`
 	- `pd.to_datetime(user_signup['subscription_date']).dt.date`
 
-### 🔍 [[finding-inconsistent-categories]]
+### 🔍 [[concept-finding-inconsistent-categories]]
 - `inconsistent_categories = set(df[column]).difference(df[column])`
 	- `inconsistent_rows = df[column].isin(inconsistent_categories)`
 		- `consistent_data = df[~inconsistent_rows]`
 
 ### [[make-sure-of-value-is--consistent]]
-- [[concept-estruturas-de-dados]] | [[strings]]
+- [[concept-estruturas-de-dados]] | [[concept-python-strings]]
 	- `df[column].str.upper()`
 	- `df[column].str.lower()`
 	- `df[column].str.strip()`  # removendo espaços vazios
@@ -36,7 +36,7 @@ created: "[[10-02-2024]]"
 	- `pd.cut(df[column], bins=ranges, labels=group_names)`
 
 ### [[concept-python-cleaning-text-data]]
-- [[strings]]
+- [[concept-python-strings]]
 	- `df[column].str.replace('+', '00')`
 	- `df[column].str.replace('_', '')`
 
@@ -51,13 +51,13 @@ created: "[[10-02-2024]]"
 	- `isna()`
 	- `import missingno as msno`, `msno.matrix(df)`
 
-### [[how-to-deal-with-missing-data]]
+### [[concept-how-to-deal-with-missing-data]]
 - [[cmp-pandas-fillna-nullvalues-wrangling]]
 
 ### [[concept-python-thefuzz-comparing-strings]]
 - `from thefuzz import fuzz`, `fuzz.WRatio('reeding', 'reading')`
 - `from thefuzz import process`, `process.extract(string, choices, limit=2)`
 
-### [[generating-pairs]]
+### [[concept-record-linkage]]
 
 ### [[concept-python-pandas-linking-dataframes]]

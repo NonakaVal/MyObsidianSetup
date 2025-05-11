@@ -16,7 +16,7 @@ HUB:
 ### Desvio padrão amostral
 > quando se tem apenas uma amostra do total
 # $$S = \sqrt{\frac 1{n-1}\sum_{i=1}^{n}(X_i-\bar{X})^2} \Longrightarrow S = \sqrt{S^2}$$
-desvio do padrão com numpy: a partir do valor da [[variancia]]
+desvio do padrão com numpy: a partir do valor da [[concept-statistic-variancia]]
 ```css
 import numpy as np
 np.sqrt(variancia)

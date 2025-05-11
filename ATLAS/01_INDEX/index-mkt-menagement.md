@@ -9,8 +9,8 @@ HUB:
 
 
 - book  **5.1 Estratégia e Gestão**
-    - [[gestao-do-conhecimento-e-ti|Gestao-do-Conhecimento-e-TI]]
-    - [[gestao.time.vendas|Gestao-de-Times-de-Vendas]]
+    - [[draft-gestao-do-conhecimento-e-ti|Gestao-do-Conhecimento-e-TI]]
+    - [[concept-gestao.time.vendas|Gestao-de-Times-de-Vendas]]
     - [[principais-erros-estatisticos|Principais-Erros-Estatisticos]]
 - book  **5.2 Marketing Digital**
     

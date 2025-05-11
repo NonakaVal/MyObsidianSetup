@@ -14,11 +14,11 @@ HUB:
     
     - [[concept-tec-caracteristicas-essenciais-cloud-computing|Caracteristicas-Essenciais-do-Cloud-Computing]]
     - [[concept-computacao-em-nuvem-historia|Historia-da-Computacao-em-Nuvem]]
-    - [[computacao-nuvem-modelos-implantacao|Modelos-de-Implantacao-de-Computacao-em-Nuvem]]
-    - [[computacao-nuvem-monitoramento|Monitoramento-na-Computacao-em-Nuvem]]
-    - [[computacao-nuvem-plataforma-de-computacao|Plataformas-de-Computacao-em-Nuvem]]
-    - [[computacao-nuvem-vantagens|Vantagens-da-Computacao-em-Nuvem]]
-    - [[iaas-infraestructure-as-a-service|Infraestrutura-como-Servico-(IaaS)]]
+    - [[concept-computacao-nuvem-modelos-implantacao|Modelos-de-Implantacao-de-Computacao-em-Nuvem]]
+    - [[concept-computacao-nuvem-monitoramento|Monitoramento-na-Computacao-em-Nuvem]]
+    - [[concept-computacao-nuvem-plataforma-de-computacao|Plataformas-de-Computacao-em-Nuvem]]
+    - [[concept-computacao-nuvem-vantagens|Vantagens-da-Computacao-em-Nuvem]]
+    - [[concept-iaas-infraestructure-as-a-service|Infraestrutura-como-Servico-(IaaS)]]
     - [[concept-paas-plataform-as-a-service|Plataforma-como-Servico-(PaaS)]]
     - [[saas-software-as-a-service|Software-como-Servico-(SaaS)]]
 - book  **4.2 Sistemas Operacionais**

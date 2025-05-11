@@ -25,7 +25,7 @@ dados = pd.read_csv("aluguel.csv", sep";")
 ```
 -  o arquivo passa a separar as colunas por ";"
 
-![[importando-outros-tipos-de-arquivos]]
+![[cpmcept-importando-outros-tipos-de-arquivos]]
 
 
 ![[concept-dataframe-para-csv]]

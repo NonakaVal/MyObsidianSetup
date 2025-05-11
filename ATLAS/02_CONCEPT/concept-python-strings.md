@@ -28,4 +28,4 @@ print(texto.replace("o", "X"))
 # AprendendX pythXn na disciplina de linguagem de prXgramaçãX
 
 ```
-![[split]]
+![[concept-python-split]]

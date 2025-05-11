@@ -5,7 +5,7 @@ hub:
   - "[[hub-tec]]"
 created: "[[2024-03-20]]"
 ---
-### [[computacao-nuvem-modelos-implantacao]]
+### [[concept-computacao-nuvem-modelos-implantacao]]
 
 ![Imgur](https://i.imgur.com/hozoHCL.png)
 

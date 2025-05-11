@@ -5,7 +5,7 @@ hub:
   - "[[hub-tec]]"
 created: "[[2024-03-23]]"
 ---
-### [[computacao-nuvem-monitoramento]]
+### [[concept-computacao-nuvem-monitoramento]]
 
 - info Mecanismos de monitoramentos
 - % Os provedores precisam implementar mecanismos de monitoramento de uso dos serviços em nuvem, a fim de contabilizar de forma minuciosa as requisições e tempo de alocação de recursos pelos clientes, resultando nas informações necessárias para determinar os valores que serão cobrados, geralmente por sistemas de assinaturas

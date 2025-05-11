@@ -13,9 +13,9 @@ HUB:
 
 [[pandas-index]]
 
-[[concat]] : [pandas.cancat](https://pandas.pydata.org/docs/reference/api/pandas.concat.html)
+[[concept-python-pandas-concat]] : [pandas.cancat](https://pandas.pydata.org/docs/reference/api/pandas.concat.html)
 
-[[split]]: w3schools.com/python/ref_string_split.asp
+[[concept-python-split]]: w3schools.com/python/ref_string_split.asp
 
 [[concept-python-pandas-loc-iloc-method-selection]] :  [panda.DataFrame.loc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html), [pandas.DataFrame.iloc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html)
 

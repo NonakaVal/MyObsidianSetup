@@ -22,7 +22,7 @@ HUB:
 - `df_filtered = df[~(df['C1'] == 5)]` - *boole*
 - `notas_por_filme = notas.query("filmeid==1").nota.mean()`
 
-### [[selecao-frequencia-1]]
+### [[concept-python-Pandas-DataFrame-Selection-Methods]]
 - `selecao = alunos['Aprovado'] == True`
 - `selecao = (alunos['Aprovado'] == True) & (alunos['Sexo'] == 'F')`
 - `selecao = (alunos.Idade > 10) & (alunos.Idade < 20 ) | (alunos.Idade >= 40)`
@@ -31,7 +31,7 @@ HUB:
             - `selecao = alunos.Aprovado == False`
             - `reprovados = alunos.loc[selecao, ['Nome', 'Sexo', 'Idade']]`
 
-### [[selecao-frequencia-2]]
+### [[concept-python-Pandas-DataFrame-Selection-Methods-2]]
 - `selecao = dados['Tipo'] == 'Apartamento'`
 - `selecao = (dados.Tipo == 'Casa') | (dados.Tipo == 'Casa de Condomínio')`
 - `selecao = (dados.Area >= 60) & (dados.Area <= 100)`
