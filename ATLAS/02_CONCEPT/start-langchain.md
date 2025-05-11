@@ -22,7 +22,7 @@ from langchain_openai import ChatOpenAI
 
 
 def _chat(df_path):
-    openai_api_key = "sk-proj-aLxyqg5fseG03n94GbuwT3BlbkFJu2XzPiQi4oRvkUu5Q5vK"
+    openai_api_key = ""
     df = df_path
     llm = ChatOpenAI(model = "gpt-3.5-turbo", openai_api_key=openai_api_key)
     agent_prefix = "O df importado é\n"
