@@ -12,7 +12,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 > [!multi-column]
 >
 >> [!blank|center]
-> [![brain icon|150](https://img.icons8.com/?size=100&id=RCfiyznNROTb&format=png&color=000000) <br/> **Data Science MOC**](index-datascience.md)
+> [![brain icon|150](https://img.icons8.com/?size=100&id=RCfiyznNROTb&format=png&color=000000) <br/> **Data Science MOC**](https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/01_INDEX/index-datascience.md)
 
 > [!multi-column]
 >
