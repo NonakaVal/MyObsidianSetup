@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SYSTEM/TEMPLATE/template_area.md",
-                "mode": "source",
-                "source": true,
+                "file": "Atlas/01_INDEX/index-datascience.md",
+                "mode": "preview",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "template_area"
+              "title": "index-datascience"
             }
           }
         ]
@@ -224,13 +224,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b9fb9faccc872ea7",
+  "active": "a2bc94ab67cbe8fe",
   "lastOpenFiles": [
+    "Atlas/01_INDEX/index-Verify-DataTypes.md",
+    "Atlas/01_INDEX/index-mkt-menagement.md",
+    "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md",
+    "Atlas/01_INDEX/index-matematica-e-logica.md",
+    "Atlas/01_INDEX/index-estatistica.md",
+    "Atlas/00_DRAFT/draft-introduction-to-iterators.md",
+    "Atlas/01_INDEX/index-advanced-functions.md",
+    "Atlas/00_DRAFT/draft-direito-cibernetico.md",
+    "README.md",
     "SYSTEM/TEMPLATE/template_area_note.md",
     "SYSTEM/TEMPLATE/template_area.md",
     "SYSTEM/TEMPLATE/template_project.md",
     "SYSTEM/TEMPLATE/template_new_note.md",
-    "README.md",
     "Atlas/08_MAPS/moc-mkt-menagement.md",
     "Atlas/08_MAPS/moc-programacao.md",
     "Atlas/08_MAPS/moc-tec.md",
@@ -245,14 +253,6 @@
     "SOCIAL/Writing/paradoxo-onipotencia.md",
     "SOCIAL/Writing/o-poder-do-coletivo.md",
     "SOCIAL/Writing/limite-individualidade.md",
-    "SOCIAL/Writing/livre-arbitrio-nietzsche.md",
-    "SOCIAL/Writing/humanidade.md",
-    "SOCIAL/Writing/eu-nos.md",
-    "SOCIAL/Writing/conhecimento.md",
-    "SOCIAL/Writing/carbono.md",
-    "SOCIAL/Writing/a-morte.md",
-    "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md",
-    "SOCIAL/Writing/2-conceitos-ordem.md",
     "Drafts",
     "Efforts/AREAS/test",
     "Atlas/02_CONCEPT/+_CANVAS_AOC.canvas",

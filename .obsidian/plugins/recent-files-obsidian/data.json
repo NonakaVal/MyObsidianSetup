@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "index-datascience",
+      "path": "Atlas/01_INDEX/index-datascience.md"
+    },
+    {
+      "basename": "index-Verify-DataTypes",
+      "path": "Atlas/01_INDEX/index-Verify-DataTypes.md"
+    },
+    {
+      "basename": "index-mkt-menagement",
+      "path": "Atlas/01_INDEX/index-mkt-menagement.md"
+    },
+    {
+      "basename": "index-metodos-de-testes-hipoteses",
+      "path": "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md"
+    },
+    {
+      "basename": "index-matematica-e-logica",
+      "path": "Atlas/01_INDEX/index-matematica-e-logica.md"
+    },
+    {
+      "basename": "index-estatistica",
+      "path": "Atlas/01_INDEX/index-estatistica.md"
+    },
+    {
+      "basename": "draft-introduction-to-iterators",
+      "path": "Atlas/00_DRAFT/draft-introduction-to-iterators.md"
+    },
+    {
+      "basename": "index-advanced-functions",
+      "path": "Atlas/01_INDEX/index-advanced-functions.md"
+    },
+    {
+      "basename": "draft-direito-cibernetico",
+      "path": "Atlas/00_DRAFT/draft-direito-cibernetico.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "template_area",
       "path": "SYSTEM/TEMPLATE/template_area.md"
     },
@@ -15,10 +55,6 @@
     {
       "basename": "template_new_note",
       "path": "SYSTEM/TEMPLATE/template_new_note.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "moc-mkt-menagement",
@@ -163,42 +199,6 @@
     {
       "basename": "pandas-groupby-method",
       "path": "Atlas/02_CONCEPT/pandas-groupby-method.md"
-    },
-    {
-      "basename": "snip-listar-diretorios-os",
-      "path": "Atlas/03_SNIPPETS/snip-listar-diretorios-os.md"
-    },
-    {
-      "basename": "template-snippet",
-      "path": "System/TEMPLATE/FORMAT/SNIPTETS/template-snippet.md"
-    },
-    {
-      "basename": "2025-04-30",
-      "path": "Calendar/DAILY/2025-04-30.md"
-    },
-    {
-      "basename": "clientes-collectors",
-      "path": "Drafts/clientes-collectors.md"
-    },
-    {
-      "basename": "memorize os templates abaixo",
-      "path": "Drafts/memorize os templates abaixo.md"
-    },
-    {
-      "basename": "conceitos-fundamentais",
-      "path": "Efforts/AREAS/pkm-videos/conceitos-fundamentais.md"
-    },
-    {
-      "basename": "2025-04-01",
-      "path": "Calendar/DAILY/2025-04-01.md"
-    },
-    {
-      "basename": "2025-04-02",
-      "path": "Calendar/DAILY/2025-04-02.md"
-    },
-    {
-      "basename": "PKM-Youtube-Videos",
-      "path": "Efforts/ARCHIVES/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
     }
   ],
   "omittedPaths": [],

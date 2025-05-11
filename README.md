@@ -4,11 +4,29 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 
-Fique à vontade para clonar esse repo caso queira explorar minhas anotações de estudo, estarei atualizando periódicamente e também tenho um digital garden nos planos futuros. vlww
-
-# Vault 
-
 ![gif](https://i.imgur.com/CMrB7Wk.gif)
+
+
+# Mapas de Conteúdo
+
+> [!multi-column]
+>
+>> [!blank|center]
+> [![brain icon|150](https://img.icons8.com/?size=100&id=RCfiyznNROTb&format=png&color=000000) <br/> **Data Science MOC**](index-datascience.md)
+
+> [!multi-column]
+>
+>> [!blank|center]
+> [![brain icon|70](https://img.icons8.com/?size=100&id=13441&format=png&color=000000) <br/> **Python Pandas Basic Data Manipulation** ](flow-pandas-data-cleaning-methods.md)
+>
+>> [!blank|center]
+> [![briefcase icon|70](https://img.icons8.com/?size=100&id=dyxMyWfboNxb&format=png&color=000000) <br/> **Python Pandas Basic Data Cleaning**](flow-pandas-data-cleaning-methods)
+>
+>> [!blank|center]
+> [![home icon|70](https://img.icons8.com/?size=100&id=64513&format=png&color=000000) <br/> **Null Values Wrangling**](flow-pandas-null-values-wrangling)
+
+
+
 
 
 # 📂 Estrutura da Vault
@@ -217,7 +235,8 @@ Fique à vontade para clonar esse repo caso queira explorar minhas anotações d
 
 # Inspirações 
 
-- https://github.com/DuskWasHere/dusk-obsidian-vault
-- https://fortelabs.com/blog/para/
-- https://github.com/NonakaVal/Obsidian-CSS-Snippets
+https://github.com/DuskWasHere/dusk-obsidian-vault
+https://fortelabs.com/blog/para/
+https://github.com/NonakaVal/Obsidian-CSS-Snippets
+
 
