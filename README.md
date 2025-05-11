@@ -42,10 +42,12 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 </table>
 
 
-![gif](https://i.imgur.com/CMrB7Wk.gif)
+
 
 
 # 📂 Estrutura da Vault
+
+![gif](https://i.imgur.com/CMrB7Wk.gif)
 
 - **📂 <font color = 00bbfff>Atlas</font>** — Notas de estudo e literárias  
 	- **00_DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
