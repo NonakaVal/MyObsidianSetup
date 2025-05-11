@@ -4,29 +4,45 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 
+
+# Meus Mapas de Conteúdo
+
+<!-- Bloco central do MOC -->
+<p align="center">
+  <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/01_INDEX/index-datascience.md" target="_blank">
+    <img src="https://img.icons8.com/?size=100&id=RCfiyznNROTb&format=png&color=000000" alt="Data Science MOC" />
+    <br/><b>Data Science MOC</b>
+  </a>
+</p>
+
+---
+
+<!-- Linha com os três ícones centralizados usando tabela -->
+<table align="center">
+  <tr align="center">
+    <td>
+      <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/06_WORKFLOW/flow-pandas-basic-data-manipulation.md" target="_blank">
+        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" width="70"/><br/>
+        <b>Basic Data Manipulation</b>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/06_WORKFLOW/flow-pandas-data-cleaning-methods.md" target="_blank">
+        <img src="https://img.icons8.com/?size=100&id=dyxMyWfboNxb&format=png&color=000000" width="70"/><br/>
+        <b>Basic Data Cleaning</b>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/06_WORKFLOW/flow-pandas-null-values-wrangling.md" target="_blank">
+        <img src="https://img.icons8.com/?size=100&id=64513&format=png&color=000000" width="70"/><br/>
+        <b>Null Values Wrangling</b>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 ![gif](https://i.imgur.com/CMrB7Wk.gif)
-
-
-# Mapas de Conteúdo
-
-> [!multi-column]
->
->> [!blank|center]
-> [![brain icon|150](https://img.icons8.com/?size=100&id=RCfiyznNROTb&format=png&color=000000) <br/> **Data Science MOC**](https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/01_INDEX/index-datascience.md)
-
-> [!multi-column]
->
->> [!blank|center]
-> [![brain icon|70](https://img.icons8.com/?size=100&id=13441&format=png&color=000000) <br/> **Python Pandas Basic Data Manipulation** ](flow-pandas-data-cleaning-methods.md)
->
->> [!blank|center]
-> [![briefcase icon|70](https://img.icons8.com/?size=100&id=dyxMyWfboNxb&format=png&color=000000) <br/> **Python Pandas Basic Data Cleaning**](flow-pandas-data-cleaning-methods)
->
->> [!blank|center]
-> [![home icon|70](https://img.icons8.com/?size=100&id=64513&format=png&color=000000) <br/> **Null Values Wrangling**](flow-pandas-null-values-wrangling)
-
-
-
 
 
 # 📂 Estrutura da Vault
