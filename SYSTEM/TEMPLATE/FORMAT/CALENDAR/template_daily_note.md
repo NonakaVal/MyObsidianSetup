@@ -1,14 +1,13 @@
 ---
 tags:
   - calendar/daily
-created: 2025-05-03 07:07
+created: <% tp.file.creation_date()%>
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
 
-> [!quote] If you're walking down the right path and you're willing to keep walking, eventually you'll make progress.
-> — Barack Obama
+<% tp.web.daily_quote() %>
 
 # How am'I feeling Today ?
 

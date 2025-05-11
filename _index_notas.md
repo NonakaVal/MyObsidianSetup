@@ -1,9 +1,10 @@
 # Índice de Notas Markdown
 
-### [raiz] — 1 notas
+### [raiz] — 2 notas
 - [README] — 835 palavras
+- [_index_notas] — 7932 palavras
 
-**Total nesta pasta**: 835 palavras
+**Total nesta pasta**: 8767 palavras
 
 ### Atlas\00_DRAFT — 8 notas
 - [draft-direito-cibernetico] — 2222 palavras
@@ -33,7 +34,7 @@
 
 **Total nesta pasta**: 1448 palavras
 
-### Atlas\02_CONCEPT — 483 notas
+### Atlas\02_CONCEPT — 482 notas
 - [book-introducao-estatistica-12edicao-mario-f-triola-2017] — 241 palavras
 - [computacao-nuvem-modelos-implantacao] — 103 palavras
 - [computacao-nuvem-monitoramento] — 204 palavras
@@ -482,7 +483,6 @@
 - [sql-tipos-de-dados] — 71 palavras
 - [sql-union] — 130 palavras
 - [sql-where] — 264 palavras
-- [start-langchain] — 98 palavras
 - [streamlit] — 214 palavras
 - [streamlit-chache-system] — 117 palavras
 - [streamlit-forms] — 299 palavras
@@ -518,7 +518,7 @@
 - [virtualizacao] — 34 palavras
 - [visualizing-a-categorical-and-a-quantitative-variable] — 15 palavras
 
-**Total nesta pasta**: 70292 palavras
+**Total nesta pasta**: 70194 palavras
 
 ### Atlas\02_CONCEPT\FirstVault\knowledge\Dev\HTML — 5 notas
 - [html-attributes] — 409 palavras
@@ -833,281 +833,17 @@
 
 **Total nesta pasta**: 256 palavras
 
-### Calendar\DAILY — 251 notas
-- [2023-05-14] — 53 palavras
-- [2023-05-15] — 50 palavras
-- [2023-05-16] — 46 palavras
-- [2023-05-17] — 47 palavras
-- [2023-05-18] — 53 palavras
-- [2023-05-20] — 52 palavras
-- [2023-05-21] — 50 palavras
-- [2023-05-22] — 44 palavras
-- [2023-05-23] — 45 palavras
-- [2023-05-25] — 39 palavras
-- [2023-05-26] — 40 palavras
-- [2023-05-27] — 50 palavras
-- [2023-05-28] — 52 palavras
-- [2023-05-29] — 52 palavras
-- [2023-05-31] — 44 palavras
-- [2023-06-01] — 48 palavras
-- [2023-06-02] — 46 palavras
-- [2023-06-03] — 45 palavras
-- [2023-06-04] — 39 palavras
-- [2023-06-05] — 40 palavras
-- [2023-06-08] — 44 palavras
-- [2023-06-09] — 44 palavras
-- [2023-06-10] — 144 palavras
-- [2023-06-11] — 46 palavras
-- [2023-06-15] — 36 palavras
-- [2023-06-17] — 43 palavras
-- [2023-06-18] — 44 palavras
-- [2023-06-19] — 46 palavras
-- [2023-06-21] — 42 palavras
-- [2023-06-22] — 42 palavras
-- [2023-06-23] — 42 palavras
-- [2023-06-24] — 51 palavras
-- [2023-06-25] — 36 palavras
-- [2023-06-26] — 44 palavras
-- [2023-06-27] — 51 palavras
-- [2023-06-28] — 32 palavras
-- [2023-07-12] — 43 palavras
-- [2023-07-14] — 40 palavras
-- [2023-07-15] — 37 palavras
-- [2023-07-16] — 43 palavras
-- [2023-07-19] — 39 palavras
-- [2023-07-21] — 42 palavras
-- [2023-07-22] — 42 palavras
-- [2023-07-24] — 42 palavras
-- [2023-07-25] — 45 palavras
-- [2023-07-26] — 91 palavras
-- [2023-07-27] — 64 palavras
-- [2023-07-28] — 43 palavras
-- [2023-07-31] — 69 palavras
-- [2023-08-01] — 46 palavras
-- [2023-08-03] — 41 palavras
-- [2023-08-08] — 990 palavras
-- [2023-10-26] — 90 palavras
-- [2023-10-31] — 49 palavras
-- [2023-11-02] — 56 palavras
-- [2023-11-07] — 91 palavras
-- [2023-11-08] — 72 palavras
-- [2023-11-10] — 53 palavras
-- [2023-11-11] — 94 palavras
-- [2023-11-14] — 78 palavras
-- [2023-11-16] — 68 palavras
-- [2023-11-18] — 88 palavras
-- [2023-11-19] — 80 palavras
-- [2023-11-27] — 90 palavras
-- [2023-11-28] — 80 palavras
-- [2023-11-29] — 244 palavras
-- [2023-12-03] — 87 palavras
-- [2023-12-04] — 85 palavras
-- [2023-12-06] — 92 palavras
-- [2023-12-07] — 95 palavras
-- [2023-12-08] — 90 palavras
-- [2023-12-09] — 90 palavras
-- [2023-12-11] — 91 palavras
-- [2023-12-16] — 98 palavras
-- [2023-12-25] — 116 palavras
-- [2024-01-09] — 53 palavras
-- [2024-01-10] — 58 palavras
-- [2024-01-11] — 62 palavras
-- [2024-01-12] — 62 palavras
-- [2024-01-14] — 390 palavras
-- [2024-01-17] — 74 palavras
-- [2024-01-18] — 76 palavras
-- [2024-01-21] — 248 palavras
-- [2024-01-22] — 70 palavras
-- [2024-01-23] — 70 palavras
-- [2024-01-30] — 61 palavras
-- [2024-01-31] — 68 palavras
-- [2024-02-07] — 241 palavras
-- [2024-02-08] — 61 palavras
-- [2024-02-09] — 56 palavras
-- [2024-02-10] — 56 palavras
-- [2024-02-12] — 513 palavras
-- [2024-02-13] — 63 palavras
-- [2024-02-22] — 123 palavras
-- [2024-02-27] — 63 palavras
-- [2024-02-28] — 63 palavras
-- [2024-03-01] — 79 palavras
-- [2024-03-18] — 40 palavras
-- [2024-03-19] — 83 palavras
-- [2024-03-20] — 139 palavras
-- [2024-03-21] — 25 palavras
-- [2024-03-23] — 54 palavras
-- [2024-03-24] — 74 palavras
-- [2024-03-29] — 30 palavras
-- [2024-03-30] — 36 palavras
-- [2024-04-01] — 43 palavras
-- [2024-04-06] — 26 palavras
-- [2024-04-07] — 23 palavras
-- [2024-04-09] — 25 palavras
-- [2024-04-11] — 48 palavras
-- [2024-04-13] — 172 palavras
-- [2024-04-22] — 93 palavras
-- [2024-04-24] — 273 palavras
-- [2024-04-27] — 26 palavras
-- [2024-05-03] — 29 palavras
-- [2024-05-06] — 31 palavras
-- [2024-05-07] — 155 palavras
-- [2024-05-08] — 29 palavras
-- [2024-05-10] — 31 palavras
-- [2024-05-15] — 228 palavras
-- [2024-06-03] — 30 palavras
-- [2024-06-04] — 39 palavras
-- [2024-06-07] — 281 palavras
-- [2024-06-08] — 413 palavras
-- [2024-06-09] — 163 palavras
-- [2024-07-04] — 346 palavras
-- [2024-07-18] — 30 palavras
-- [2024-07-27] — 28 palavras
-- [2024-08-03] — 533 palavras
-- [2024-08-10] — 23 palavras
-- [2024-08-11] — 494 palavras
-- [2024-08-14] — 32 palavras
-- [2024-08-15] — 83 palavras
-- [2024-08-17] — 36 palavras
-- [2024-08-22] — 85 palavras
-- [2024-08-24] — 25 palavras
-- [2024-08-27] — 167 palavras
-- [2024-08-28] — 26 palavras
-- [2024-09-13] — 802 palavras
-- [2024-09-26] — 222 palavras
-- [2024-09-28] — 51 palavras
-- [2024-09-30] — 892 palavras
-- [2024-10-24] — 12 palavras
-- [2024-10-28] — 57 palavras
-- [2024-10-29] — 70 palavras
-- [2024-10-31] — 55 palavras
-- [2024-11-04] — 41 palavras
-- [2024-11-07] — 67 palavras
-- [2024-11-19] — 86 palavras
-- [2024-11-23] — 83 palavras
-- [2024-11-25] — 157 palavras
-- [2024-11-26] — 52 palavras
-- [2024-11-27] — 34 palavras
-- [2024-11-28] — 42 palavras
-- [2024-12-03] — 556 palavras
-- [2024-12-04] — 38 palavras
-- [2024-12-05] — 35 palavras
-- [2024-12-07] — 70 palavras
-- [2024-12-09] — 118 palavras
-- [2024-12-19] — 51 palavras
-- [2024-12-22] — 90 palavras
-- [2024-12-25] — 46 palavras
-- [2024-12-27] — 223 palavras
-- [2024-12-30] — 245 palavras
-- [2024-12-31] — 455 palavras
-- [2025-01-02] — 236 palavras
-- [2025-01-03] — 231 palavras
-- [2025-01-04] — 607 palavras
-- [2025-01-06] — 271 palavras
-- [2025-01-07] — 238 palavras
-- [2025-01-08] — 240 palavras
-- [2025-01-10] — 246 palavras
-- [2025-01-11] — 794 palavras
-- [2025-01-13] — 256 palavras
-- [2025-01-17] — 236 palavras
-- [2025-01-20] — 245 palavras
-- [2025-01-21] — 306 palavras
-- [2025-01-22] — 711 palavras
-- [2025-01-23] — 223 palavras
-- [2025-01-24] — 236 palavras
-- [2025-01-27] — 229 palavras
-- [2025-01-28] — 254 palavras
-- [2025-01-29] — 354 palavras
-- [2025-01-30] — 348 palavras
-- [2025-01-31] — 456 palavras
-- [2025-02-01] — 225 palavras
-- [2025-02-02] — 577 palavras
-- [2025-02-04] — 232 palavras
-- [2025-02-05] — 317 palavras
-- [2025-02-06] — 890 palavras
-- [2025-02-08] — 388 palavras
-- [2025-02-09] — 223 palavras
-- [2025-02-10] — 238 palavras
-- [2025-02-11] — 373 palavras
-- [2025-02-12] — 245 palavras
-- [2025-02-13] — 636 palavras
-- [2025-02-14] — 856 palavras
-- [2025-02-15] — 414 palavras
-- [2025-02-16] — 235 palavras
-- [2025-02-17] — 260 palavras
-- [2025-02-18] — 322 palavras
-- [2025-02-19] — 419 palavras
-- [2025-02-25] — 237 palavras
-- [2025-02-26] — 307 palavras
-- [2025-02-27] — 326 palavras
-- [2025-02-28] — 244 palavras
-- [2025-03-01] — 244 palavras
-- [2025-03-03] — 238 palavras
-- [2025-03-04] — 295 palavras
-- [2025-03-06] — 279 palavras
-- [2025-03-07] — 237 palavras
-- [2025-03-11] — 387 palavras
-- [2025-03-12] — 376 palavras
-- [2025-03-13] — 260 palavras
-- [2025-03-14] — 229 palavras
-- [2025-03-15] — 223 palavras
-- [2025-03-17] — 284 palavras
-- [2025-03-18] — 232 palavras
-- [2025-03-19] — 269 palavras
-- [2025-03-27] — 245 palavras
-- [2025-03-30] — 227 palavras
-- [2025-04-01] — 332 palavras
-- [2025-04-02] — 477 palavras
-- [2025-04-03] — 692 palavras
-- [2025-04-05] — 225 palavras
-- [2025-04-06] — 552 palavras
-- [2025-04-07] — 240 palavras
-- [2025-04-08] — 591 palavras
-- [2025-04-09] — 466 palavras
-- [2025-04-10] — 276 palavras
-- [2025-04-11] — 338 palavras
-- [2025-04-12] — 509 palavras
-- [2025-04-13] — 272 palavras
-- [2025-04-14] — 241 palavras
-- [2025-04-15] — 240 palavras
-- [2025-04-16] — 324 palavras
-- [2025-04-17] — 327 palavras
-- [2025-04-18] — 1172 palavras
-- [2025-04-19] — 226 palavras
-- [2025-04-24] — 235 palavras
-- [2025-04-26] — 256 palavras
-- [2025-04-27] — 340 palavras
-- [2025-04-28] — 427 palavras
-- [2025-04-29] — 105 palavras
-- [2025-04-30] — 231 palavras
-- [2025-05-01] — 186 palavras
-- [2025-05-02] — 107 palavras
-- [2025-05-03] — 105 palavras
-- [2025-05-09] — 114 palavras
-- [2025-05-10] — 137 palavras
-- [2025-05-11] — 138 palavras
+### Calendar\DAILY — 1 notas
+- [2025-05-03] — 118 palavras
 
-**Total nesta pasta**: 45910 palavras
+**Total nesta pasta**: 118 palavras
 
-### Calendar\YEARLY — 2 notas
-- [year-2024] — 132 palavras
-- [year-2025] — 21 palavras
+### Calendar\MONTHLY — 1 notas
+- [2025-05] — 56 palavras
 
-**Total nesta pasta**: 153 palavras
+**Total nesta pasta**: 56 palavras
 
-### Drafts — 9 notas
-- [Conteudos-sobre-atividades-infantis] — 22 palavras
-- [Engenharia de prompts] — 2071 palavras
-- [Ideias-de-atividades-harry] — 436 palavras
-- [_GAMES-ANNIVERSARY-LIST] — 308 palavras
-- [clientes-collectors] — 91 palavras
-- [estudo-exemplo-de-cronograma] — 436 palavras
-- [memorize os templates abaixo] — 114 palavras
-- [resumo arena] — 829 palavras
-- [test] — 12 palavras
-
-**Total nesta pasta**: 4319 palavras
-
-### Drafts\LLM-searches — 5 notas
+### Draft\LLM-searches — 5 notas
 - [data_science_projetc-complete-ptbr] — 1209 palavras
 - [datascience-complete-ptbr] — 1062 palavras
 - [datascience_content_ideas-complete-ptbr] — 1525 palavras
@@ -1116,51 +852,12 @@
 
 **Total nesta pasta**: 7170 palavras
 
-### Efforts\ARCHIVES — 5 notas
-- [aceXpara-method-video] — 746 palavras
-- [aceXpara-method-video 1] — 746 palavras
-- [ecological-thinking-video] — 447 palavras
-- [pkm-introduction-video] — 982 palavras
-- [plugins-obrigatorio-video] — 531 palavras
+### ENTERTAINMENT\MUSIC — 3 notas
+- [Clancy -  Twenty One Pilots] — 1009 palavras
+- [Tranquility Base Hotel & Casino] — 596 palavras
+- [Trench - Twenty One Pilots] — 36 palavras
 
-**Total nesta pasta**: 3452 palavras
-
-### Efforts\ARCHIVES\HarryLearning — 2 notas
-- [2. HarryLearning] — 137 palavras
-- [fundamentos alfabetização] — 306 palavras
-
-**Total nesta pasta**: 443 palavras
-
-### Efforts\ARCHIVES\MEUS-INFOS — 5 notas
-- [e-commerce] — 1483 palavras
-- [inside-sales] — 43 palavras
-- [insights] — 1155 palavras
-- [playbook---checklist---infoproduto] — 3141 palavras
-- [playbook---infoprodutos] — 3178 palavras
-
-**Total nesta pasta**: 9000 palavras
-
-### Efforts\ARCHIVES\Mentorias — 1 notas
-- [mentoria.prl] — 997 palavras
-
-**Total nesta pasta**: 997 palavras
-
-### Efforts\ARCHIVES\MyFirstBook\Writing — 13 notas
-- [1-resumo-ideia-base] — 558 palavras
-- [2-conceitos-ordem] — 73 palavras
-- [3-definicoes-ciencia-logica-coginicao] — 75 palavras
-- [a-morte] — 93 palavras
-- [carbono] — 68 palavras
-- [conhecimento] — 76 palavras
-- [eu-nos] — 264 palavras
-- [humanidade] — 97 palavras
-- [limite-individualidade] — 126 palavras
-- [livre-arbitrio-nietzsche] — 174 palavras
-- [o-poder-do-coletivo] — 80 palavras
-- [paradoxo-onipotencia] — 71 palavras
-- [solidao] — 188 palavras
-
-**Total nesta pasta**: 1943 palavras
+**Total nesta pasta**: 1641 palavras
 
 ### Efforts\ARCHIVES\PKM-Youtube-Videos — 3 notas
 - [PKM-Youtube-Videos] — 91 palavras
@@ -1169,346 +866,27 @@
 
 **Total nesta pasta**: 729 palavras
 
-### Efforts\ARCHIVES\Saúde e bem estar — 2 notas
-- [2. Saúde e bem estar] — 151 palavras
-- [rotina de treino] — 207 palavras
-
-**Total nesta pasta**: 358 palavras
-
-### Efforts\ARCHIVES\collectorsGuardian\collectors-notes — 189 notas
-- [!_guia-de-formatos] — 484 palavras
-- [1. Categorias de Conteúdo] — 167 palavras
-- [1. Desafios e Concursos] — 81 palavras
-- [1. Gestão de Produtos] — 37 palavras
-- [1. Luz Principal (Key Light)] — 39 palavras
-- [10. Notificação de Atualização de Status de Pedido] — 70 palavras
-- [10. Séries de Conteúdo] — 113 palavras
-- [11. Notificação de Pedido Pronto para Retirada] — 72 palavras
-- [12. Confirmar Informações sobre um Pedido] — 80 palavras
-- [2. Atendimento ao Cliente] — 63 palavras
-- [2. Enquetes e Perguntas] — 99 palavras
-- [2. Ferramentas para Gestão] — 53 palavras
-- [2. Luz de Contorno (Back Light)] — 72 palavras
-- [2. Reposição de Estoque e Gestão de Dados] — 66 palavras
-- [25-09-24-price-search] — 755 palavras
-- [3. Exemplo Prático de Aplicação] — 104 palavras
-- [3. Interações com Comentários] — 89 palavras
-- [3. Luz de Preenchimento (Fill Light)] — 52 palavras
-- [3. Organização e Rotina Operacional] — 123 palavras
-- [4. Logística e Operações] — 78 palavras
-- [4. Luz de Fundo (Background Light)] — 66 palavras
-- [4. Postagens de Bastidores] — 98 palavras
-- [5. Boas-vindas ao Club Collector’s Guardian] — 99 palavras
-- [5. Repostagens de Conteúdo da Comunidade] — 97 palavras
-- [5. Tarefas Simples e Suporte] — 75 palavras
-- [6. Entrando em Contato para Dúvida] — 63 palavras
-- [6. Lives e QA ao Vivo] — 102 palavras
-- [7. Entre em Contato para Dúvida] — 93 palavras
-- [7. Postagens de Opiniões da Comunidade] — 89 palavras
-- [8. Conteúdo Exclusivo para Engajamento] — 93 palavras
-- [8. Notificação de Confirmação de Pedido] — 70 palavras
-- [9. Notificação de Envio de Pedido] — 67 palavras
-- [9. Postagens de Emoções e Sentimentos] — 97 palavras
-- [Acompanhamento Pós-venda (Estamos Buscando Sempre Melhorar)] — 91 palavras
-- [Atendimento ao Cliente] — 12 palavras
-- [Basico operacional] — 26 palavras
-- [Bloodborne] — 269 palavras
-- [Boas Vindas básico] — 151 palavras
-- [Boas vindas e Convite à comunidade] — 259 palavras
-- [Borderlands] — 76 palavras
-- [Características Chave do Cliente Ideal] — 62 palavras
-- [Categorias de Compras] — 16 palavras
-- [Checklist de Precificação com Base na Pesquisa de Mercado] — 113 palavras
-- [Checklist para seleção itens Leilões] — 174 palavras
-- [Clientes] — 34 palavras
-- [Comportamento de Compra] — 116 palavras
-- [Desafios e Frustrações] — 88 palavras
-- [Destiny 2 - beyond Light Collecto] — 429 palavras
-- [Diagnóstico e Identificação] — 62 palavras
-- [Estratégias Extras (Gamificação  Engajamento)] — 683 palavras
-- [Expectativas em Relação ao ProdutoServiço] — 109 palavras
-- [GATILHOS e Exemplos Registrados] — 306 palavras
-- [Guia Atendimento de Vendas] — 338 palavras
-- [Gêneros Preferidos] — 15 palavras
-- [Ideias de Conteudo collectors] — 125 palavras
-- [Instagram Stories (Interação Rápida)] — 117 palavras
-- [Itens preparados para envio] — 74 palavras
-- [Itens preparados para envio 2] — 118 palavras
-- [Kaique na frente manhã] — 73 palavras
-- [LIGHT] — 52 palavras
-- [LIGHT-exemples] — 52 palavras
-- [Lista Completa de Estratégias conteúdo] — 45 palavras
-- [Lista Itens Leilões] — 145 palavras
-- [Lista de Compras Recentes] — 13 palavras
-- [Marketing e Vendas] — 49 palavras
-- [Megadrive] — 127 palavras
-- [PLANEXEMPLE] — 328 palavras
-- [PRIME-05-02-2025] — 440 palavras
-- [PROMTP-formatacao-mensagens-whats] — 249 palavras
-- [Padrões] — 539 palavras
-- [Perfil-cliente-fabio-rivaroli] — 513 palavras
-- [Perfil-cliente-jakson-dourado] — 521 palavras
-- [Perfil-cliente-luka-araujo] — 75 palavras
-- [Perfil_Cliente_David_Januario_Antunes] — 22 palavras
-- [Perfil_Cliente_Edvaldo_Bueno_Junior] — 35 palavras
-- [Perfil_Cliente_Gabriel_Mathias_Rodrigues] — 104 palavras
-- [Perfil_Cliente_Guilherme_Genova] — 72 palavras
-- [Perfil_Cliente_Henrique_Da_Silva_Leite] — 126 palavras
-- [Perfil_Cliente_José_Denison_Fairame_Oliveira] — 112 palavras
-- [Perfil_Cliente_Kaian_Cardoso_Cordeiro] — 84 palavras
-- [Perfil_Cliente_Kaique_Marques] — 210 palavras
-- [Perfil_Cliente_Lucas_Machado] — 65 palavras
-- [Perfil_Cliente_Luka_Araújo_Oliveira] — 162 palavras
-- [Perfil_Cliente_Marco_Aurélio_Longo] — 143 palavras
-- [Perfil_Cliente_Matheus_Oliveira_Sanchez] — 89 palavras
-- [Perfil_Cliente_Paula_Mancini_Costa] — 58 palavras
-- [Perfil_Cliente_Pedro_Henrique_Queiroz_Dias] — 97 palavras
-- [Perfil_Cliente_Rafael_Dos_Santos_Bezerra] — 83 palavras
-- [Perfil_Cliente_Roberto_Gomes_Caetano] — 113 palavras
-- [Perfil_Cliente_Rodolfo_Rosario_Lopes] — 59 palavras
-- [Perfil_Cliente_Rodrigo_Moraes] — 57 palavras
-- [Perfil_Cliente_Vanessa_De_Oliveira] — 145 palavras
-- [Perfil_Cliente_pedro-henrique] — 135 palavras
-- [Persona_review] — 113 palavras
-- [Planejamento de conteúdos arena collecotrs 1] — 18 palavras
-- [Planejamento estrategico arena 1] — 1028 palavras
-- [Plataformas Preferidas] — 15 palavras
-- [Portateis] — 199 palavras
-- [Preparando envios] — 106 palavras
-- [Principais Franquias Compradas] — 18 palavras
-- [Prompts-chatGPT] — 564 palavras
-- [Quando algo se perde] — 82 palavras
-- [Recursos] — 40 palavras
-- [Setores_e_Processos] — 86 palavras
-- [Setores_e_Processos (2)] — 12 palavras
-- [Seu Pedido Está a Caminho] — 85 palavras
-- [Star Wars top] — 88 palavras
-- [WhatsApp (Comunidade VIP)] — 117 palavras
-- [[⏹️ Quadro Trello](httpstrello.combGFKum6x4planejamento-evento-leiloes)] — 2310 palavras
-- [aniversário sony playstation] — 669 palavras
-- [bora encerrar o mês com chave de ouro] — 89 palavras
-- [categoria] — 20 palavras
-- [checklist-de-embalagem-e-envio] — 308 palavras
-- [checklist-de-recebimento-organizacao-e-envio] — 296 palavras
-- [checklist-recebimento-de-lote-e-inspecao] — 322 palavras
-- [como vocês bem sabem é dia de leilão] — 51 palavras
-- [convite as redes sociais.] — 185 palavras
-- [cá estamos novamente nos preparativos para os leilões] — 65 palavras
-- [dando sequencia com essa edição do dyig light 2,] — 173 palavras
-- [dark souls 2] — 135 palavras
-- [decidi começar com qual vocês já conhecem,] — 148 palavras
-- [dá uma olhada no leilão que vai rolar daqui a pouco] — 71 palavras
-- [dá uma olhada nos itens que vamos sortear pra nossa comunidade] — 102 palavras
-- [eu sei que muitos de vocês queriam que essa edição fosse a leilao já na semana passada] — 93 palavras
-- [exemplo-modelos-de-descricoes] — 184 palavras
-- [ghost acende no escuro e fala] — 397 palavras
-- [grid de publico] — 320 palavras
-- [ideias-de-bordoes] — 154 palavras
-- [ideias-de-conteudo-para-engajamento-com-checklists] — 55 palavras
-- [iluminicao-pesquisa1] — 130 palavras
-- [info] — 15 palavras
-- [item que já foi confirmado foi essa edição lacrada do resident evil] — 104 palavras
-- [leilao-31-01-25] — 90 palavras
-- [leiloes-06-02-2025] — 80 palavras
-- [links-de-fornecedores-de-caixas-shoppe] — 104 palavras
-- [mensagem-Boas Praticas e Templates de Atendimento] — 27 palavras
-- [mensagem-agradecimentos] — 51 palavras
-- [mensagem-atendimento-vendas-collectors] — 12 palavras
-- [mensagem-boas-vindas+5_-representante] — 87 palavras
-- [mensagem-boas-vindas-equipe] — 61 palavras
-- [mensagem-boas-vindas-modelos-de-mensagens-collecors] — 11 palavras
-- [mensagem-boas-vindas-representante] — 61 palavras
-- [mensagem-confirmacao-de-envio-pedido] — 10 palavras
-- [mensagem-convites-collectors] — 12 palavras
-- [mensagem-modelos-de-mensagens] — 18 palavras
-- [mensagem-pedido-a-caminho] — 63 palavras
-- [mensagem-templates-de] — 77 palavras
-- [mensagem-tirar-duviva-com-cliente] — 57 palavras
-- [moc-collectors] — 497 palavras
-- [modelos-de-conteudos-collectors] — 25 palavras
-- [modelos-de-mensagens-collectors] — 14 palavras
-- [modelos-de-mensagens-posvenda] — 121 palavras
-- [overview] — 388 palavras
-- [pedro-henrique] — 544 palavras
-- [perfil-cliente-Kaique Marques] — 9 palavras
-- [perfil-cliente-hildo-vieira] — 514 palavras
-- [perfil-cliente-jose-denison] — 540 palavras
-- [pesquisas-de-mercado-playstation] — 1711 palavras
-- [plano 2] — 303 palavras
-- [plano 3] — 366 palavras
-- [plano 4] — 8 palavras
-- [precificacoes] — 22 palavras
-- [produtos] — 12 palavras
-- [ps4 pro edição limitada de kingdom hearts] — 105 palavras
-- [roteiro videos lote thiago] — 419 palavras
-- [roteiros-mensagens-stories-collectors] — 141 palavras
-- [roteitos-reels-collectors-2024] — 34 palavras
-- [rt-ps4-Persona] — 109 palavras
-- [se vocês acharam que hoje não teria leilões,] — 141 palavras
-- [selection1] — 31 palavras
-- [selection2] — 8 palavras
-- [semana acabando e mas seguimos com tudo nos leilões] — 93 palavras
-- [sistema_de_classificacao] — 513 palavras
-- [tamanhos-de-caixas-de-papelao] — 99 palavras
-- [tamo aqui em mais uma quinta feira de leilões,] — 89 palavras
-- [video de apresentação collectors club] — 521 palavras
-- [village] — 104 palavras
-- [🎥 Instagram Reels (Vídeos Impactantes)] — 111 palavras
-- [🎮 Categoria de Interesse] — 44 palavras
-- [🎮 Cluster 0 - Acessórios e Jogos AAA (Menor Interesse e Receita Moderada)] — 338 palavras
-- [🎮 Cluster 1 - Consoles (Maior Interesse e Receita)] — 72 palavras
-- [🎮 Cluster 2 - Outros (Edições Especiais e Colecionáveis)] — 102 palavras
-- [🎯 1. Promoções para Colecionáveis e Action Figures] — 54 palavras
-- [🎯 2. Ofertas de Edições Especiais de Jogos] — 55 palavras
-- [🎯 3. Expansão para Acessórios e Cultura Geek] — 53 palavras
-- [🎯 4. Estratégia de Fidelização] — 171 palavras
-- [📊 Análise Avançada dos Clusters da Linha PlayStation] — 55 palavras
-- [📌 2️⃣ Lista de Produtos Adquiridos por Luka Araujo] — 457 palavras
-- [🛒 Preferências de Plataforma] — 71 palavras
-
-**Total nesta pasta**: 31713 palavras
-
-### Efforts\ARCHIVES\ebooks — 3 notas
-- [ebook-carlos] — 4602 palavras
-- [material-copy-carlos] — 606 palavras
-- [producao-de-uma-plr] — 2124 palavras
-
-**Total nesta pasta**: 7332 palavras
-
-### Efforts\ARCHIVES\livro 1 — 1 notas
-- [sumary] — 141 palavras
-
-**Total nesta pasta**: 141 palavras
-
-### Efforts\ARCHIVES\social-media-project — 1 notas
-- [!insta-1] — 2784 palavras
-
-**Total nesta pasta**: 2784 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\1-modulo — 6 notas
-- [3-criando-conteudo-leads] — 19 palavras
-- [3.1-31-tipos-marketing-de-conteudo] — 3786 palavras
-- [3.2-28-tipos-de-conteudos-para-leads] — 3365 palavras
-- [3.3-conteudos-blog] — 418 palavras
-- [4-descontruindo-mercado] — 8 palavras
-- [video-hooks] — 154 palavras
-
-**Total nesta pasta**: 7750 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\1-modulo\1-fundamentos-do-marketing — 3 notas
-- [1-anuncios-marketing-mercado] — 17 palavras
-- [1.2-inbound-marketing] — 328 palavras
-- [1.3-cta] — 2477 palavras
-
-**Total nesta pasta**: 2822 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\1-modulo\2-redes-sociais — 1 notas
-- [daan] — 190 palavras
-
-**Total nesta pasta**: 190 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\2-modulo — 6 notas
-- [10-comunicacao] — 16 palavras
-- [5-organizacao] — 10 palavras
-- [6-ferramentas-google] — 12 palavras
-- [7-referenciando] — 14 palavras
-- [8-analitica-basica] — 11 palavras
-- [9-planejamento-basico] — 14 palavras
-
-**Total nesta pasta**: 77 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\3-modulo — 5 notas
-- [11-workspaces-arquivos] — 9 palavras
-- [12-editaveis-canva] — 8 palavras
-- [13-inteligencias-artificiais] — 11 palavras
-- [14-solucoes-eficiencia] — 10 palavras
-- [brandin--identidade-visual] — 193 palavras
-
-**Total nesta pasta**: 231 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\4-modulo — 4 notas
-- [15-relatorios-planejamento-2] — 8 palavras
-- [16-referenciar-2] — 8 palavras
-- [17-solucoes-eficiencia-2] — 8 palavras
-- [18-precificacao] — 8 palavras
-
-**Total nesta pasta**: 32 palavras
-
-### Efforts\ARCHIVES\social-media-project\modulos-start\5-modulo — 3 notas
-- [19-cliente-ideial] — 8 palavras
-- [20-prospeccao] — 8 palavras
-- [21-solucoes-eficiencia-3] — 8 palavras
-
-**Total nesta pasta**: 24 palavras
-
-### Efforts\ARCHIVES\webdesign — 3 notas
-- [!web.landing.pages] — 446 palavras
-- [briefing] — 258 palavras
-- [web-designer-lancamentos] — 928 palavras
-
-**Total nesta pasta**: 1632 palavras
-
-### Efforts\ARCHIVES\webdesign\franvce — 3 notas
-- [tips] — 3074 palavras
-- [tools] — 1476 palavras
-- [trends] — 840 palavras
-
-**Total nesta pasta**: 5390 palavras
-
-### Efforts\AREAS\bbHarry — 5 notas
-- [AprendizadoDobb] — 25 palavras
-- [Atividades-para-FAZER-com-bb] — 38 palavras
-- [MinhasHistorinhaspBB] — 29 palavras
-- [bbHarry] — 82 palavras
-- [plano 1] — 39 palavras
-
-**Total nesta pasta**: 213 palavras
-
-### Efforts\AREAS\pkm-videos — 3 notas
-- [2025-pkm-videos] — 83 palavras
-- [Exemples] — 49 palavras
-- [conceitos-fundamentais] — 49 palavras
-
-**Total nesta pasta**: 181 palavras
-
-### Efforts\PROJECTS\collectors-tutorials — 2 notas
-- [Tutoriais-olist] — 77 palavras
-- [collectors-tutorials] — 114 palavras
-
-**Total nesta pasta**: 191 palavras
-
-### Entertainment\MUSIC — 5 notas
-- [Clancy -  Twenty One Pilots] — 1009 palavras
-- [Tranquility Base Hotel & Casino - INCOMPLETO] — 597 palavras
-- [Trench - Twenty One Pilots] — 36 palavras
-- [just_music_lines] — 130 palavras
-- [moc-albuns] — 41 palavras
-
-**Total nesta pasta**: 1813 palavras
-
-### Social\PEOPLE — 7 notas
-- [Duda] — 805 palavras
-- [HenriqueAssis] — 51 palavras
-- [Jhee] — 212 palavras
-- [ME] — 431 palavras
-- [Mae] — 12 palavras
-- [Pai] — 82 palavras
-- [bbHarry] — 142 palavras
-
-**Total nesta pasta**: 1735 palavras
-
-### Social\Thinking — 2 notas
+### SOCIAL\Thinking — 1 notas
 - [62-frases-friedrich-nietzsche] — 1434 palavras
-- [letters-to-myself] — 7 palavras
 
-**Total nesta pasta**: 1441 palavras
+**Total nesta pasta**: 1434 palavras
 
-### System\ASSETS — 1 notas
-- [meta-voult-info] — 367 palavras
+### SOCIAL\Writing — 11 notas
+- [2-conceitos-ordem] — 73 palavras
+- [3-definicoes-ciencia-logica-coginicao] — 75 palavras
+- [a-morte] — 93 palavras
+- [carbono] — 68 palavras
+- [conhecimento] — 76 palavras
+- [eu-nos] — 264 palavras
+- [humanidade] — 97 palavras
+- [limite-individualidade] — 126 palavras
+- [o-poder-do-coletivo] — 80 palavras
+- [paradoxo-onipotencia] — 71 palavras
+- [solidao] — 83 palavras
 
-**Total nesta pasta**: 367 palavras
+**Total nesta pasta**: 1106 palavras
 
-### System\ASSETS\Dataview — 6 notas
+### SYSTEM\ASSETS\Dataview — 6 notas
 - [@_by_count_links] — 28 palavras
 - [@_dataview] — 29 palavras
 - [@_dataview_by_learning] — 75 palavras
@@ -1518,23 +896,28 @@
 
 **Total nesta pasta**: 622 palavras
 
-### System\TEMPLATE\FORMAT — 9 notas
+### SYSTEM\TEMPLATE\FORMAT — 8 notas
 - [template-album-music] — 41 palavras
 - [template-nota-pessoa] — 34 palavras
 - [template_area] — 128 palavras
 - [template_area_note] — 57 palavras
-- [template_daily_note] — 98 palavras
 - [template_data_project_checklist] — 125 palavras
 - [template_new_note] — 11 palavras
 - [template_project] — 148 palavras
 - [template_project_note] — 50 palavras
 
-**Total nesta pasta**: 692 palavras
+**Total nesta pasta**: 594 palavras
 
-### System\TEMPLATE\FORMAT\SNIPTETS — 1 notas
+### SYSTEM\TEMPLATE\FORMAT\CALENDAR — 2 notas
+- [template_daily_note] — 98 palavras
+- [template_month_note] — 53 palavras
+
+**Total nesta pasta**: 151 palavras
+
+### SYSTEM\TEMPLATE\FORMAT\SNIPTETS — 1 notas
 - [template-snippet] — 26 palavras
 
 **Total nesta pasta**: 26 palavras
 
 ---
-## 📊 Total geral: 273489 palavras
+## 📊 Total geral: 153097 palavras

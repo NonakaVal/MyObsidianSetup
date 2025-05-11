@@ -1,5 +1,5 @@
 ---
-created: '[[2025-05-03]]'
+created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 tags:
   - people
 HUB:
