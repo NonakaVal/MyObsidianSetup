@@ -208,13 +208,13 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 
 # Community Plugins
 
+- [Advanced URI](https://github.com/Vinzent03/obsidian-advanced-uri)
 - [Background Image](https://github.com/shmolf/obsidian-editor-background)
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Callout Manager](https://github.com/eth-p/obsidian-callout-manager)
 - [Checklist](https://github.com/delashum/obsidian-checklist-plugin)
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 - [Force note view mode](https://github.com/bwydoogh/obsidian-force-view-mode-of-note)
-- [Homepage](https://github.com/mirnovov/obsidian-homepage)
 - [Hotkeys for specific files](https://github.com/Vinzent03/obsidian-hotkeys-for-specific-files)
 - [Kanban](https://github.com/mgmeyers/obsidian-kanban)
 - [List Callouts](https://github.com/mgmeyers/obsidian-list-callouts)
@@ -222,6 +222,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - [Minimal Theme Settings](https://github.com/obsidian-community/obsidian-minimal-theme-settings)
 - [Omnisearch](https://github.com/scambier/obsidian-omnisearch)
 - [Outliner](https://github.com/vslinko/obsidian-outliner)
+- [PDF ++](https://github.com/RyotaUshio/obsidian-pdf-plus)
 - [Paste URL into selection](https://github.com/denolehov/obsidian-url-into-selection)
 - [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
 - [Persistent Graph](https://github.com/Sanqui/obsidian-persistent-graph)
@@ -230,6 +231,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - [Recent Files](http://github.com/tgrosinger/recent-files-obsidian)
 - [Share Note](https://github.com/alangrainger/share-note)
 - [Tabs](https://github.com/xhuajin/obsidian-tabs)
+- [Tag Wrangler](https://github.com/pjeby/tag-wrangler)
 - [Templater](https://github.com/SilentVoid13/Templater)
 - [YTranscript](https://github.com/obsidian-community/obsidian-ytranscript)
 
