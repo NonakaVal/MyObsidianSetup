@@ -4,26 +4,8 @@
 
  [🐍  Abrir Script Python](file:///C:/Users/nonak/Documents/PythonScripts/create_index_note_py_script.py)
 
-> **Total de Notas**: 1.448 notas
-> **Média de palavras por nota**: 219,0 palavras
-> **Pastas**: 62
-> **Pasta mais densa**: `Atlas\02_CONCEPT` (64.223 palavras)
-> **Pasta com mais notas**: `Atlas\02_CONCEPT` (473 notas)
 
----
-
-🟦 Resumo de contagem propriedades 
-
-| Property | Files | Coverage |
-|----------|-------|----------|
-| `tags` | 1218 | 84.1% |
-| `HUB` | 981 | 67.7% |
-| `created` | 237 | 16.4% |
-| `cssclasses` | 113 | 7.8% |
-
-
-
-# 🗃️ **Pastas**
+# 🗃️ **Pastas**1
 
 # 📁 Atlas
 
