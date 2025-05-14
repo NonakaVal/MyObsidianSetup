@@ -3,9 +3,7 @@
 *Atualizado em 2025/05/14 03:18* 
 
  [🐍  Abrir Script Python](file:///C:/Users/nonak/Documents/PythonScripts/create_index_note_py_script.py)
-
-
-# 🗃️ **Pastas**1
+# 🗃️ **Pastas**
 
 # 📁 Atlas
 
