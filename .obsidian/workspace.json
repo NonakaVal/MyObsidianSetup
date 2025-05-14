@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/01_INDEX/index-datascience.md",
-                "mode": "preview",
+                "file": "quotes.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index-datascience"
+              "title": "quotes"
             }
           }
         ]
@@ -90,8 +90,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -100,8 +100,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -204,8 +204,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "15f893c68d8b09c1",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -224,8 +235,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a2bc94ab67cbe8fe",
+  "active": "b9fb9faccc872ea7",
   "lastOpenFiles": [
+    "Vault_Analysis_Report.md",
+    "quotes.md",
+    "_index_notas.md",
+    "relatorio_hub.md",
+    "markdown_statistical_insights.md",
+    "README.md",
+    "markdown_analysis_report.md",
+    "hub-python.md",
+    "knowledge-HOME.md",
+    "Atlas/01_INDEX/index-datascience.md",
     "Atlas/01_INDEX/index-Verify-DataTypes.md",
     "Atlas/01_INDEX/index-mkt-menagement.md",
     "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md",
@@ -234,7 +255,6 @@
     "Atlas/00_DRAFT/draft-introduction-to-iterators.md",
     "Atlas/01_INDEX/index-advanced-functions.md",
     "Atlas/00_DRAFT/draft-direito-cibernetico.md",
-    "README.md",
     "SYSTEM/TEMPLATE/template_area_note.md",
     "SYSTEM/TEMPLATE/template_area.md",
     "SYSTEM/TEMPLATE/template_project.md",
@@ -243,16 +263,7 @@
     "Atlas/08_MAPS/moc-programacao.md",
     "Atlas/08_MAPS/moc-tec.md",
     "Atlas/08_MAPS/moc-estatistica.md",
-    "Atlas/08_MAPS/moc-datascience.md",
     "Atlas/08_MAPS/+_CANVAS_AOC.canvas",
-    "Calendar/DAILY/2025-05-03.md",
-    "SOCIAL/Thinking/62-frases-friedrich-nietzsche.md",
-    "SYSTEM/ASSETS/meta-voult-info.md",
-    "SOCIAL/Writing/solidao.md",
-    "SOCIAL/Untitled.md",
-    "SOCIAL/Writing/paradoxo-onipotencia.md",
-    "SOCIAL/Writing/o-poder-do-coletivo.md",
-    "SOCIAL/Writing/limite-individualidade.md",
     "Drafts",
     "Efforts/AREAS/test",
     "Atlas/02_CONCEPT/+_CANVAS_AOC.canvas",

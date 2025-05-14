@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 2024-01-18  13:58
 

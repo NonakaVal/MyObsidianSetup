@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "quotes",
+      "path": "quotes.md"
+    },
+    {
       "basename": "index-datascience",
       "path": "Atlas/01_INDEX/index-datascience.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "draft-direito-cibernetico",
       "path": "Atlas/00_DRAFT/draft-direito-cibernetico.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "template_area",
@@ -183,22 +183,6 @@
     {
       "basename": "snip-get-dataframe-info",
       "path": "Atlas/03_SNIPPETS/snip-get-dataframe-info.md"
-    },
-    {
-      "basename": "2025-05-01",
-      "path": "Calendar/DAILY/2025-05-01.md"
-    },
-    {
-      "basename": "template_daily_note",
-      "path": "System/TEMPLATE/FORMAT/template_daily_note.md"
-    },
-    {
-      "basename": "2025-04-29",
-      "path": "Calendar/DAILY/2025-04-29.md"
-    },
-    {
-      "basename": "pandas-groupby-method",
-      "path": "Atlas/02_CONCEPT/pandas-groupby-method.md"
     }
   ],
   "omittedPaths": [],

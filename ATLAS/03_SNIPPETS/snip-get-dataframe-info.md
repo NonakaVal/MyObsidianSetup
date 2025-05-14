@@ -2,7 +2,7 @@
 tags:
   - snippet
 HUB:
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
   - "[[hub-jupyterNotebook]]"
 connections:
   - "[[concept-python-pandas-obtendo-informacoes-dados]]"

@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-descriptive-analysis]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 

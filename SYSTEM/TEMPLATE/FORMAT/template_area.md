@@ -9,6 +9,8 @@ cssclasses:
   - hide-properties_reading
 ---
 
+Last modified : `$= dv.current().file.mtime`
+
 # Set first
  
 Area Category : `INPUT[inlineSelect(option('content-creation'), option('family'), option('work'), option('saude'), showcase):area_category]`
@@ -31,6 +33,8 @@ sort type ASC
 
 ```
 ````
+
+
 
 # Tasks
 
@@ -65,4 +69,6 @@ GROUP BY file.name
 
 
 
+
+last_modified: `=link(dateformat(date(today), "yyyy-MM-dd"))`
 

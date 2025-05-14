@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 
 [[concept-boxplot]] : 

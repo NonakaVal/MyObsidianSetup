@@ -6,12 +6,12 @@ tags:
   - workflow
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 created: "[[07-02-2024]]"
 ---
 [Pandas](https://pandas.pydata.org/docs/reference/index.html)
 ##### Start
-### [[cpmcept-importando-outros-tipos-de-arquivos]]
+### [[concept-importando-outros-tipos-de-arquivos]]
 - `import as pd` , `pd.read_` , `to_csv`
 
 ### [[concept-python-pandas-series-and-dataframe]]
@@ -19,7 +19,7 @@ created: "[[07-02-2024]]"
  - [[rename-colluns-dataframe]] :  `df.columns = ['name1','name2']`
 
 ### <font color = 00bfff> Manipulação e Organização de Dados</font>
-- [[organizando-dataframe]] : `sort_index` , `sort_values`
+- [[concept-organizando-dataframe]] : `sort_index` , `sort_values`
 -  : `.index`   `reset_index`
 - [[concept-python-pandas-concat]] : `pd.concat()`
 - [[concept-python-split]] : `palavras = frase.split()`

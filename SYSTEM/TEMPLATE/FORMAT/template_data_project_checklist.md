@@ -3,8 +3,8 @@ tags:
   - lab
   - resources
 HUB:
-  - "[[hub-tratamento-de-dados]]"
-created: '[[2025-04-27]]'
+  - "[[hub-data-wrangling]]"
+created: "[[2025-04-27]]"
 ---
 
 {{nome-projeto}}

@@ -4,7 +4,7 @@ tags:
   - component
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 created: "[[2024-03-17]]"
 ---
 2024-03-17  05:35

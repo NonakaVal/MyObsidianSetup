@@ -4,7 +4,7 @@ tags:
   - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 Fixing the phone number column
 [[concept-python-strings]] | [[concept-python-thefuzz-comparing-strings]]

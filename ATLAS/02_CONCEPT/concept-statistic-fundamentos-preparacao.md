@@ -14,7 +14,7 @@ origin: "[[book-introducao-estatistica-12edicao-mario-f-triola-2017]]"
 		- *O que os dados significam ?*
 		- *Qual é o objetivo do estudo ?*
 	- ! Fonte de dados
-		- [[obtencao-dados-amostrais]]
+		- [[flow-obtencao-dados-amostrais]]
 		- Os dados são de uma fonte com interesse especial de modo haver enviesamento na obtenção de resultados.
 	- ! Método de amostragem
 		- Os dados foram coletados de modo a serem não viesados ?

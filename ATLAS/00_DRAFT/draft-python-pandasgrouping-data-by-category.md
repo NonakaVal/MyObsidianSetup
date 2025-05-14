@@ -5,7 +5,7 @@ tags:
   - tocomplete/explicar
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 created: "[[17-01-2024]]"
 ---
 2024-01-17  18:45

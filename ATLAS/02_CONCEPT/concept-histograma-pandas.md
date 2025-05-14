@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 ### Criando um histograma com pandas
 

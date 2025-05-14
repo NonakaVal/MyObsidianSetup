@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 [[concept-statistic-python-pandas-outliers]]

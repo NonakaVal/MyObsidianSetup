@@ -4,7 +4,7 @@ tags:
   - doc
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 created: "[[08-02-2024]]"
 ---
 2024-02-08  15:29

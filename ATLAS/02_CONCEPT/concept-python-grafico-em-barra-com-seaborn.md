@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 hub:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 
 ### Gráfico em barra com seaborn

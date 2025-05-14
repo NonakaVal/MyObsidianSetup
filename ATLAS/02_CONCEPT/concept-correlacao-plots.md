@@ -2,7 +2,7 @@
 tags:
   - learning/review
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
   - "[[hub-statistic]]"
 ---
 ## Tipos de gráficos para estudo de [[concept-ml-python-correlacao]]

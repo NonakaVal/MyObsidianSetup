@@ -5,7 +5,7 @@ tags:
   - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 ### Categorical Plot Types
 

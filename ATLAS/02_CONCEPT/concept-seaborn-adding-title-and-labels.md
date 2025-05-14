@@ -3,7 +3,7 @@ tags:
   - learning/review
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 ```python
 # Create scatter plot

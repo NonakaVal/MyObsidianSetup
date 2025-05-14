@@ -3,7 +3,7 @@ tags:
   - learning/review
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 [[pandas-merge]]
 - merge() method 'how' - left and right

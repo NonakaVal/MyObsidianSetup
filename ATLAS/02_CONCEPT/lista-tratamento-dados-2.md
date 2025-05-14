@@ -3,13 +3,13 @@ tags:
   - learning/review
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 
 ## [[pandas_lista-1]]
 
-[[organizando-dataframe]]
+[[concept-organizando-dataframe]]
 [[concept-python-pandas-concat]]
 [[concept-python-split]]
 [[concept-python-pandas-loc-iloc-method-selection]]

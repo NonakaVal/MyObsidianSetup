@@ -3,7 +3,7 @@ created: "[[2025-05-10]]"
 tags:
   - snippet
 HUB:
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 connections:
   - "[[index-Verify-DataTypes|index-Verify-DataTypes]]"
   - "[[Atlas/02_CONCEPT/pandas-series.md|pandas-series]]"

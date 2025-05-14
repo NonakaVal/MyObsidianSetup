@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 1. <font color = 00bfff>Princípio da proximidade:</font> coisas que estão próximas parecem ser mais relacionadas entre si do que se estivessem distantes
 

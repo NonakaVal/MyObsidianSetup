@@ -4,7 +4,7 @@ tags:
 HUB:
   - "[[hub-python]]"
   - "[[hub-probabilidade]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 A função `ppf` (Percent Point Function), também conhecida como inversa da CDF, retorna o valor abaixo do qual uma certa porcentagem dos dados da distribuição normal se encontra. Por exemplo, se você quiser saber o valor que corresponde ao percentil 95 de uma distribuição normal, você usaria `ppf(0.95)`
 

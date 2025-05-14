@@ -4,7 +4,7 @@ tags:
 HUB:
   - "[[]]"
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 
 ![[concept-seaborn-count-plots-and-bar-plots]]

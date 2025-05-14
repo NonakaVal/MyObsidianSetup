@@ -4,6 +4,11 @@ tags:
 HUB:
   - "[[hub-growth]]"
   - "[[hub-mkt]]"
+  - "[[hub-bi]]"
+  - "[[hub-visualization-data]]"
+  - "[[hub-descriptive-analysis]]"
+connections:
+  - "[[Data Science Python Maps]]"
 ---
 
 

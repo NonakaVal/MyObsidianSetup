@@ -7,6 +7,7 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
+Last modified : `$= dv.current().file.mtime`
 
 # Set first
 
@@ -28,3 +29,7 @@ Area Notes Related : `INPUT[inlineListSuggester(optionQuery(#area)):connections]
     }); 
 }); -%>
 
+
+---
+
+Last modified : `$= dv.current().file.mtime`

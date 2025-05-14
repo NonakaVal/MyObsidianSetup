@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
   - "[[hub-statistic]]"
 ---
 # [[seaborn-selecting-plots|Tipos de Gráficos Seaborn]]
@@ -21,7 +21,7 @@ HUB:
 
 ### Ferramentas Relacionadas
 [[cmp-seaborn-plots]]
-[[doc-seaborn]]
+[[doc-seaborn-data-visualization-methods]]
 
 ### Outros Tópicos Úteis
 - [[cmp-python-datetime(datas)-methods|métodos de tratamento de datas (datetime)]]

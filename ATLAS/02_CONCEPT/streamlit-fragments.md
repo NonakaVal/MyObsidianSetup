@@ -4,7 +4,7 @@ tags:
   - resources
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 link-to-lib: https://docs.streamlit.io/develop/s/architecture/fragments
 created: "[[2024-08-04]]"
 ---

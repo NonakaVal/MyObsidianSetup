@@ -1,10 +1,13 @@
 ---
 tags:
   - learning/review
-  - 
 HUB:
   - "[[hub-growth]]"
   - "[[hub-mkt]]"
+  - "[[hub-descriptive-analysis]]"
+  - "[[hub-data-wrangling]]"
+  - "[[hub-menagement]]"
+  - "[[hub-planning]]"
 ---
 
 --------------------------------------------

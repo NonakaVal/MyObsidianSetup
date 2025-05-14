@@ -1,0 +1,102 @@
+
+c## 📈 Estratégia & Marketing
+- ##### ▸ Estrutura Organizacional
+	- [[overview|Visão Geral]]
+	- [[Setores_e_Processos|Setores e Processos]]
+- ##### ▸ Branding & Posicionamento
+	- [[Persona_review|Perfil de Persona]]
+	- [[GATILHOS e Exemplos Registrados|Gatilhos de Engajamento]]
+	- [[ideias-de-bordoes|Identidade Verbal (Bordões)]]
+- ##### ▸ Planejamento Estratégico
+	- [[Marketing e Vendas|Planejamento de Marketing]]
+	- [[Efforts/ARCHIVES/collectorsGuardian/collectors-notes/plano 1|Plano Estratégico 1]]
+	- [[plano 2|Plano Estratégico 2]]
+	- [[plano 3|Plano Estratégico 3]]
+	- [[plano 4|Plano Estratégico 4]]
+	- [[PLANEXEMPLE|Plano Modelo]]
+	- [[Basico operacional|Tarefas Iniciais]]
+- ##### ▸ Conteúdo & Produção
+	- [[modelos-de-conteudos-collectors|Modelos de Conteúdo]]
+	- [[roteiros-mensagens-stories-collectors|rascunhos de roteiros 2024]]
+	- [[roteitos-reels-collectors-2024|Roteiros 2024]]
+	- [[ideias-de-conteudo-para-engajamento-com-checklists|Conteúdo com Checklists de Engajamento]]
+
+## 🛒 Leilões & Gestão de Produtos
+- ##### ▸ Calendário de Leilões
+	- [[leilao-31-01-25|Leilão 31/01/2025]]
+	- [[PRIME-05-02-2025|Leilão Prime 05/02/2025]]
+	- [[leiloes-06-02-2025|Leilão 06/02/2025]]
+- ##### ▸ Inventário & Curadoria
+	- [[Lista Itens Leilões|Itens Selecionados para Leilões]]
+	- [[selection1|Seleção Curada - Parte 1]]
+	- [[selection2|Seleção Curada - Parte 2]]
+	- [[produtos|Catálogo de Produtos]]
+	- [[gestao-de-produtos|Gestão de Inventário]]
+	- [[precificacoes|Precificação Estratégica]]
+- ##### ▸ Padrões & Operações
+	- [[exemplo-modelos-de-descricoes|Modelos de Descrição de Produtos]]
+	- [[sistema_de_classificacao|Sistema de Classificação de Condição]]
+- ##### ▸ Logística & Expedição
+	- [[checklist-de-recebimento-organizacao-e-envio|Checklist de Recebimento e Organização]]
+	- [[checklist-de-embalagem-e-envio|Checklist de Embalagem e Envio]]
+	- [[tamanhos-de-caixas-de-papelao|Tabela de Tamanhos de Caixas]]
+	- [[links-de-fornecedores-de-caixas-shoppe|Fornecedores de Embalagens]]
+## 🤝 Relacionamento & Atendimento
+- ##### ▸ Comunicação Institucional
+	- [[mensagem-Boas Praticas e Templates de Atendimento|Boas Práticas de Atendimento]]
+	- [[mensagem-modelos-de-mensagens|Modelos de Comunicação]]
+	- [[mensagem-templates-de|Templates Gerais]]
+	- [[PROMTP-formatacao-mensagens-whats|Formatação Padrão (WhatsApp)]]
+- ##### ▸ Relacionamento com o Cliente
+	- [[mensagem-boas-vindas-modelos-de-mensagens-collecors|Boas-vindas para Clientes]]
+	- [[mensagem-boas-vindas+5_-representante|Boas-vindas para Representantes]]
+	- [[mensagem-boas-vindas-equipe|Boas-vindas para Equipe Interna]]
+	- [[mensagem-boas-vindas-representante|Boas-vindas Personalizada]]
+- ##### ▸ Pós-venda & Suporte
+	- [[mensagem-confirmacao-de-envio-pedido|Confirmação de Envio de Pedido]]
+	- [[mensagem-pedido-a-caminho|Notificação de Pedido a Caminho]]
+	- [[mensagem-agradecimentos|Mensagem de Agradecimento]]
+	- [[mensagem-tirar-duviva-com-cliente|Resolução de Dúvidas]]
+	- [[mensagem-atendimento-vendas-collectors|Atendimento Comercial]]
+	- [[mensagem-convites-collectors|Convites para Eventos/Ofertas]]
+## 👤 Gestão de Relacionamento com Clientes (CRM)
+- ##### ▸ Base de Clientes
+	- [[Clientes|Banco de Dados de Clientes]]
+- ##### ▸ Clientes Diretos
+	- [[Perfil-cliente-fabio-rivaroli|Fábio Rivaroli]]
+	- [[perfil-cliente-hildo-vieira|Hildo Vieira]]
+	- [[pedro-henrique|Pedro Henrique]]
+	- [[perfil-cliente-Kaique Marques|perfil-cliente-Kaique Marques]]
+	- [[Perfil-cliente-jakson-dourado|Jakson Dourado]]
+	- [[perfil-cliente-jose-denison|José Denison]]
+	- [[Perfil-cliente-luka-araujo|Luka Araújo]]
+- ##### ▸ Perfis Analisados (Insights)
+	- [[Perfil_Cliente_Gabriel_Mathias_Rodrigues|Gabriel M. Rodrigues]]
+	- [[Perfil_Cliente_David_Januario_Antunes|David J. Antunes]]
+	- [[Perfil_Cliente_Edvaldo_Bueno_Junior|Edvaldo B. Junior]]
+	- [[Perfil_Cliente_Guilherme_Genova|Guilherme Gênova]]
+	- [[Perfil_Cliente_Henrique_Da_Silva_Leite|Henrique L. Silva]]
+	- [[Perfil_Cliente_José_Denison_Fairame_Oliveira|José Denison]]
+	- [[Perfil_Cliente_Kaian_Cardoso_Cordeiro|Kaian Cordeiro]]
+	- [[Perfil_Cliente_Kaique_Marques|Kaique (Perfil)]]
+	- [[Perfil_Cliente_Lucas_Machado|Lucas Machado]]
+	- [[Perfil_Cliente_Luka_Araújo_Oliveira|Luka (Perfil)]]
+		- [[Perfil_Cliente_Marco_Aurélio_Longo|Marco Aurélio]]
+		- [[Perfil_Cliente_Matheus_Oliveira_Sanchez|Matheus Sanchez]]
+		- [[Perfil_Cliente_Paula_Mancini_Costa|Paula M. Costa]]
+		- [[Perfil_Cliente_Pedro_Henrique_Queiroz_Dias|Pedro (Perfil)]]
+		- [[Perfil_Cliente_Rafael_Dos_Santos_Bezerra|Rafael S. Bezerra]]
+		- [[Perfil_Cliente_Roberto_Gomes_Caetano|Roberto G. Caetano]]
+		- [[Perfil_Cliente_Rodolfo_Rosario_Lopes|Rodolfo Lopes]]
+		- [[Perfil_Cliente_Rodrigo_Moraes|Rodrigo Moraes]]
+		- [[Perfil_Cliente_Vanessa_De_Oliveira|Vanessa Oliveira]]
+## 📊 Pesquisa & Inteligência de Mercado
+- [[estudo de publico 1|Estudo de Público-Alvo]]
+- [[iluminicao-pesquisa1|Análise de Iluminação]]
+- [[pesquisas-de-mercado-playstation|Benchmarking - Segmento PlayStation]]
+- [[25-09-24-price-search|Pesquisa de Preços – 25/09/24]]
+## 🧩 Itens Especiais & Projetos Paralelos
+- [[Destiny 2 - beyond Light Collecto|Destiny 2 – Edição Beyond Light]]
+- [[ghost acende no escuro e fala|Ghost Interativo – Ilumina e Fala]]
+- [[LIGHT|Projeto Light]]
+- [[Quando algo se perde|Projeto Literário – Quando Algo se Perde]]

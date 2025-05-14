@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
  <font color = 00bfff> Criando Agrupamentos</font>
 - [[concept-python-pandas-agrupamentos]]   |  [[pandas-isin-method]] | [[cmp-pandas-groupby-method]]  |

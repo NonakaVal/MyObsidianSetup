@@ -3,9 +3,9 @@ tags:
   - workflow
 HUB:
   - "[[hub-collectors]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
   - "[[hub-jupyterNotebook]]"
-repo:
+repo: 
 ---
 # Descrição
 

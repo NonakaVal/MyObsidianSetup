@@ -4,7 +4,7 @@ tags:
   - tocomplete/atomizar
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
   - "[[hub-statistic]]"
 ---
 ![Imgur](https://i.imgur.com/gmAvMdi.png)

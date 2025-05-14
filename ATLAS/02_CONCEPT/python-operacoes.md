@@ -4,7 +4,7 @@ tags:
 HUB:
   - "[[hub-python]]"
 ---
-![[operadores-aritimeticos]]
+![[concept-python-operadores-aritimeticos]]
 
 ![[operadores-relacionais]]
 

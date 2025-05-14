@@ -6,6 +6,8 @@ HUB:
   - "[[hub-python]]"
   - "[[hub-ml-models]]"
   - "[[hub-hypothesis-testing]]"
+  - "[[hub-planning]]"
+  - "[[hub-growth]]"
 ---
 ### **[[concept-artigo-coleta-dados-mettzer|coleta-de-dados]]** 
 Métodos e técnicas para reunir dados de forma eficaz para análise.

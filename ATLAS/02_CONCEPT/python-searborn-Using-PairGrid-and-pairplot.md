@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
   - "[[hub-python]]"
 ---
 ![Imgur|500](https://i.imgur.com/wwllyeG.png)

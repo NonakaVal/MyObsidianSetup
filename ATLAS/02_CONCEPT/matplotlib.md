@@ -1,6 +1,6 @@
 ---
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 tags:
   - learning/review
 ---

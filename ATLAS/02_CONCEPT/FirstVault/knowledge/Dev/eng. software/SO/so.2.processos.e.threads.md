@@ -4,6 +4,7 @@ tags:
   - oldVoult
 HUB:
   - "[[hub-SistemaOperacional]]"
+  - "[[hub-aoc]]"
 ---
 ---
 

@@ -3,7 +3,7 @@ tags:
   - learning/review
   - 
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 preset styles
 - 'write', 'dark', 'writegrid','darkdrig','' ticks'

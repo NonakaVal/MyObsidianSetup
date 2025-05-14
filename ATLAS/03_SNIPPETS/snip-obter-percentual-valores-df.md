@@ -3,7 +3,7 @@ created: "[[2025-04-30]]"
 tags:
   - snippet
 HUB:
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 connections:
   - "[[Atlas/02_CONCEPT/ATLAS/percentis.md|percentis]]"
   - "[[Atlas/02_CONCEPT/ATLAS/frequencia-e-percentuais.md|frequencia-e-percentuais]]"

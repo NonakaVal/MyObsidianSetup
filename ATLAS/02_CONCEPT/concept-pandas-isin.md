@@ -4,7 +4,7 @@ tags:
   - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 -  é um método pandas que verifica se cada valor  está condito em  uma *lista* retornando uma Series booleana com "True" para os valores que estão na lista e "False" para os que não estão.

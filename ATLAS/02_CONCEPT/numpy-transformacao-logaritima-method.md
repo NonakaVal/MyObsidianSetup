@@ -4,7 +4,7 @@ tags:
 HUB:
   - "[[hub-python]]"
   - "[[hub-ml-models]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 Em análise estatística e modelagem, quando temos uma variável com [[concept-estatistica-media-mediana-moda]] , é comum aplicar a transformação logarítmica para tornar a distribuição mais próxima da normalidade 
 

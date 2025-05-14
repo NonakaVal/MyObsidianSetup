@@ -4,7 +4,7 @@ tags:
   - tocomplete/refatorar
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 [[pandas-merge-method]]
 

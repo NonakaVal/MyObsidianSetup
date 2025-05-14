@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 ### Effective Communication Framework
 

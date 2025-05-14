@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 <font color = 00bfff>Gráficos em linhas</font> : ideal para destacar padrões de crescimento ou declínio e comparar desempenhos.
 

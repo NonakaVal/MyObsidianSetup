@@ -5,7 +5,7 @@ tags:
   - tocomplete
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
   - "[[hub-descriptive-analysis]]"
   - "[[hub-tec]]"
 link-to-lib: https://docs.streamlit.io/

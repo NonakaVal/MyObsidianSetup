@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"c24cd965b3de9056","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/PYTHON.png","x":2320,"y":-240,"width":400,"height":400},
+		{"id":"f341367bf5d2e0bf","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/ML MODELS.png","x":2760,"y":-240,"width":400,"height":400},
+		{"id":"7bfc7e9996faaa30","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/STATISTC.png","x":3200,"y":-240,"width":400,"height":400},
+		{"id":"373fb0f0a49a887a","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/MATH.png","x":2760,"y":-680,"width":400,"height":400},
+		{"id":"fc5ea734a22642ba","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/PROBABILIDADE.png","x":3200,"y":-680,"width":400,"height":400},
+		{"id":"dfacfffd644507d5","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/LOGIC.png","x":2320,"y":-680,"width":400,"height":400},
+		{"id":"4e1fd39f116e3a91","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/DATA WRANGLING.png","x":2320,"y":200,"width":400,"height":400},
+		{"id":"fb1a0eb796e7d716","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/DATA VISUALIZATION.png","x":2760,"y":200,"width":400,"height":400},
+		{"id":"da43c64039790ce7","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/H TESTING.png","x":3200,"y":200,"width":400,"height":400},
+		{"id":"76f6c6aaa9ae82d4","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/SQL.png","x":2320,"y":640,"width":400,"height":400},
+		{"id":"d579c3e76163c2a4","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/COMPUTER ARCHITECTURE.png","x":2760,"y":640,"width":400,"height":400},
+		{"id":"e9252d2225bbf9b4","type":"file","file":"System/MEDIA/IMAGENS/PRINTS/OPERATIONAL SYSTEM.png","x":3200,"y":640,"width":400,"height":400}
+	],
+	"edges":[]
+}

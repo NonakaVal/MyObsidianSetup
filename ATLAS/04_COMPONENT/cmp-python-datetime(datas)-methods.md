@@ -4,7 +4,7 @@ tags:
   - component
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 2024-01-09  18:17
 

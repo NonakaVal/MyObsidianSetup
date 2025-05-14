@@ -4,7 +4,7 @@ tags:
   - learning/review
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 

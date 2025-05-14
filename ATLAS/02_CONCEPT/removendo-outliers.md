@@ -3,7 +3,7 @@ tags: []
 HUB:
   - "[[hub-descriptive-analysis]]"
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 > [!NOTE] Identificando e removendo outliers  

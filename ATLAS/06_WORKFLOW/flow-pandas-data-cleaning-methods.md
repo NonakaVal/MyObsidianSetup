@@ -5,7 +5,7 @@ tags:
   - component
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 created: "[[10-02-2024]]"
 ---
 ### [[possible-issues-w-categorical-data]]

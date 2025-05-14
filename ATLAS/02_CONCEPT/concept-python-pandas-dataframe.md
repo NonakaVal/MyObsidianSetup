@@ -33,4 +33,4 @@ DataFrame1[DataFrame1 > 0] = 1
 - altera todos os numeros menores que zero para 1
 
 
-![[organizando-dataframe]]
+![[concept-organizando-dataframe]]

@@ -4,7 +4,7 @@ tags:
 HUB:
   - "[[hub-statistic]]"
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
   - "[[hub-descriptive-analysis]]"
 ---
 # Pandas Data Analysis Techniques

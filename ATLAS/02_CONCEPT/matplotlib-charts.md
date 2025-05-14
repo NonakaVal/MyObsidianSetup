@@ -4,7 +4,7 @@ tags:
   - resources
   - tocomplete/explicar
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 [matplotlib](https://matplotlib.org/stable/gallery/color/named_colors.html)
 

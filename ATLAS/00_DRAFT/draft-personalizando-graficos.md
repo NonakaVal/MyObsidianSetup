@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
   -  | [[concept-matplot-scatterplot]]
 

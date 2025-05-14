@@ -3,11 +3,11 @@ tags:
   - resources
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 [[python-unique-value_counts-method]]
 
-[[organizando-dataframe]] : [sorted](https://docs.python.org/3/library/functions.html) com [[concept-python-funcoes|builld-in-functions]] e [sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html) ,  [pandas.unique](https://pandas.pydata.org/docs/reference/api/pandas.unique.html)
+[[concept-organizando-dataframe]] : [sorted](https://docs.python.org/3/library/functions.html) com [[concept-python-funcoes|builld-in-functions]] e [sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html) ,  [pandas.unique](https://pandas.pydata.org/docs/reference/api/pandas.unique.html)
 
 [[atlas/knowledge/index]]: [reset_index](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.reset_index.html) 
 

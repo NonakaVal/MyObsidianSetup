@@ -57,7 +57,7 @@ pandas-combine
 [[concept-pandas-apply]]
 [[pandas-map]]
 [[pandas-pipe]]
-[[pandas-agg]]
+[[concept-pandas-agg]]
 pandas-transform
 [[cmp-pandas-groupby-method]]
 [[pandas-rolling]]

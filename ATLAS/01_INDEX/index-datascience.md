@@ -4,13 +4,18 @@ tags:
 cssclasses:
   - dashboard
   - dash
+  - hide-properties_editing
+  - hide-properties_reading
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
   - "[[hub-descriptive-analysis]]"
   - "[[hub-hypothesis-testing]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
   - "[[hub-ml-models]]"
+  - "[[hub-tec]]"
+  - "[[hub-growth]]"
+  - "[[hub-mkt]]"
 ---
 # 📚 Data Science Knowledge Base
 
@@ -22,9 +27,9 @@ HUB:
 	- [[concept-math-exemplo-axiomas-euclides|Exemplos de Euclides]]
 	- [[concept-math-algebra-booleana|Álgebra Booleana]]
 	- [[concept-math-algebra-de-conjuntos|Álgebra de Conjuntos]]
-	- [[operacoes-algebricas-de-conjuntos|Operações com Conjuntos]]
+	- [[concept-math-operacoes-algebricas-de-conjuntos|Operações com Conjuntos]]
 	- [[operacoes-com-polinomios|Polinômios]]
-	- [[operacoes-com-sequencias|Sequências]]
+	- [[concept-python-string-operations|Sequências]]
 	- [[matematica-discreta|Matemática Discreta]]
 	- [[matematica-financeira|Matemática Financeira]]
 - ### 🧭 1.3 Álgebra e Geometria
@@ -120,7 +125,7 @@ HUB:
 	- [[pandas-concat|Concatenação]]
 
 - ### 🛠️ Funções e Métodos Avançados
-	- [[pandas-agg|Aggregation]]
+	- [[concept-pandas-agg|Aggregation]]
 	- [[pandas-apply|Apply]]
 	- [[doc-pandas-methods|Métodos do Pandas]]
 	- [[concept-python-pandas-loc-iloc-method-selection|loc e iloc]]

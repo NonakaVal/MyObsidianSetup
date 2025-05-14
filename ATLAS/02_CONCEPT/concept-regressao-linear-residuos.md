@@ -5,7 +5,7 @@ HUB:
   - "[[hub-statistic]]"
   - "[[hub-ml-models]]"
   - "[[hub-python]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 Em uma regressão linear, os resíduos são a diferença entre os valores observados e os valores previstos pelo modelo de regressão, e representam a variação não explicada pelo modelo e fornecem informações sobre a qualidade do ajuste.
 

@@ -3,7 +3,7 @@ tags:
   - learning/review
   - 
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 
 • `displot()` is the best place to start for this analgsis

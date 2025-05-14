@@ -1,10 +1,11 @@
 ---
 tags:
   - learning/review
-  - 
 HUB:
   - "[[hub-mkt]]"
   - "[[hub-growth]]"
+  - "[[hub-planning]]"
+  - "[[hub-menagement]]"
 ---
 
 perspectiva-fundamentos

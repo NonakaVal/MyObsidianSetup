@@ -3,7 +3,7 @@ tags:
   - learning
   - learning/review
 HUB:
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
   - "[[f >Focus on impact instead of process</font>
 >>![Imgur|600](https://i.imgur.com/DaZ23W1.png)

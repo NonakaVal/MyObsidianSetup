@@ -5,7 +5,7 @@ tags:
 HUB:
   - "[[hub-python]]"
   - "[[hub-ml-models]]"
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 
 [[concept-linear-regression]]

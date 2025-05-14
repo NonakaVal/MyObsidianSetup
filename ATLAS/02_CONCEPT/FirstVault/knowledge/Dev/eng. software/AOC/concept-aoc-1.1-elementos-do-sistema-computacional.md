@@ -2,8 +2,7 @@
 tags:
   - learning
   - oldVoult
-HUB:
-  - "[[concept-aoc-hub-aoc]]"
+HUB: []
 ---
 ## 1.1 Elementos do sistema computacional
 

@@ -4,7 +4,7 @@ tags:
   - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 1) criando um dataFrame

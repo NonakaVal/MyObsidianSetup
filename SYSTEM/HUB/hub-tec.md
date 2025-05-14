@@ -1,0 +1,16 @@
+---
+HUB:
+  - "[[hub-aoc]]"
+  - "[[hub-SistemaOperacional]]"
+  - "[[hub-ect]]"
+  - "[[hub-logic]]"
+  - "[[hub-prompts]]"
+  - "[[hub-sql]]"
+  - "[[hub-GCTI]]"
+  - "[[hub-git]]"
+  - "[[hub-bi]]"
+  - "[[hub-data-wrangling]]"
+  - "[[hub-jupyterNotebook]]"
+  - "[[hub-llm]]"
+  - "[[hub-ml-models]]"
+---

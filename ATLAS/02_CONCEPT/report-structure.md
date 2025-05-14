@@ -3,7 +3,7 @@ tags:
   - learning
   - tocomplete/explicar
 HUB:
-  - "[[hub-data-visualization]]"
+  - "[[hub-visualization-data]]"
 ---
 ### Report structure
 - Introduction

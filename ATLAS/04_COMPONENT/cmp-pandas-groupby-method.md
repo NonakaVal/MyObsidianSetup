@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 link-to-lib: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html
 ---
 Operação usada para agrupar dados em um dataframe com base em uma ou mais colunas, ela permite dividir os dados em grupos com base em critérios.

@@ -3,7 +3,7 @@ tags:
   - learning/review
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 ### Importar pandas e ler arquivo.
 ```python
@@ -25,7 +25,7 @@ dados = pd.read_csv("aluguel.csv", sep";")
 ```
 -  o arquivo passa a separar as colunas por ";"
 
-![[cpmcept-importando-outros-tipos-de-arquivos]]
+![[concept-importando-outros-tipos-de-arquivos]]
 
 
 ![[concept-dataframe-para-csv]]

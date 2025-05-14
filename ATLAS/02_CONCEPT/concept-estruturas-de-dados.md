@@ -14,7 +14,7 @@ Structures that store ordered collections of values with:
 - Common operations across types
 
 ## 🔄 Common Sequence Operations
-[[operacoes-com-sequencias|Sequence Operations]]
+[[concept-python-string-operations|Sequence Operations]]
 ```python
 x in s        # Membership test
 s1 + s2       # Concatenation  

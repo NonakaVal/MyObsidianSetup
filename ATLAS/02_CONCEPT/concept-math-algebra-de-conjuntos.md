@@ -12,4 +12,4 @@ Operações algébricas com conjuntos numéricos discretos
 [[concept-math-conjuntos-aritmeticos|conjuntos-numericos]] são uma coleção de números que apresentam as mesmas características.
 
 [[teoria-de-conjuntos-conceitos-fundamentais]]
-### ![[operacoes-algebricas-de-conjuntos]]
+### ![[concept-math-operacoes-algebricas-de-conjuntos]]

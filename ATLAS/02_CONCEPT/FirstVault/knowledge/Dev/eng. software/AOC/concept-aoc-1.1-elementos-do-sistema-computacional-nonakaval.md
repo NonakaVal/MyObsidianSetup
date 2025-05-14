@@ -2,8 +2,7 @@
 tags:
   - learning
   - oldVoult
-HUB:
-  - "[[concept-aoc-hub-aoc]]"
+HUB: []
 ---
 ---
 

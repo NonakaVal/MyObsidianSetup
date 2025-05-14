@@ -3,7 +3,7 @@ created: "[[2025-05-10]]"
 tags:
   - snippet
 HUB:
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 connections:
   - "[[Atlas/06_WORKFLOW/flow-pandas-null-values-wrangling.md|flow-pandas-null-values-wrangling]]"
   - "[[Atlas/04_COMPONENT/cmp-pandas-fillna-nullvalues-wrangling.md|cmp-pandas-fillna-nullvalues-wrangling]]"

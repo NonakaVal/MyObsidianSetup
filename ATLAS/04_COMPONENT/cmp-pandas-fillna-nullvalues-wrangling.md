@@ -4,7 +4,7 @@ tags:
   - component
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tratamento-de-dados]]"
+  - "[[hub-data-wrangling]]"
 ---
 
 Criando uma série:
