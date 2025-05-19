@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index_notas.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index_notas"
+              "title": "README"
             }
           }
         ]
@@ -94,8 +94,7 @@
               "title": "Todo List"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "6b7d45553b46a037",
@@ -241,10 +240,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "08f8f5660175c4cd",
+  "active": "b9fb9faccc872ea7",
   "lastOpenFiles": [
-    "README.md",
     "index_notas.md",
+    "README.md",
+    "Atlas/01_INDEX/index-advanced-functions.md",
+    "Atlas/01_INDEX/index-datascience.md",
+    "Atlas/01_INDEX/index-mkt-menagement.md",
+    "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md",
+    "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md",
+    "Calendar/DAILY/2025-05-19.md",
+    "SOCIAL/Writing/conhecimento.md",
+    "SOCIAL/Writing/a-morte.md",
+    "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md",
+    "SOCIAL/Writing/2-conceitos-ordem.md",
     "System/ASSETS/VaultSnippets/vault-snippets-dates.md",
     "System/ASSETS/VaultSnippets/vault-snippet-dataview.md",
     "System/ASSETS/VaultSnippets",
@@ -262,9 +271,7 @@
     "System/TEMPLATE/FORMAT/template-book-writing.md",
     "System/TEMPLATE/FORMAT/template_area_note.md",
     "System/TEMPLATE/FORMAT/template_area.md",
-    "System/TEMPLATE/FORMAT/template-nota-pessoa.md",
     "System/TEMPLATE/FORMAT/ATLAS",
-    "System/TEMPLATE/FORMAT/template-album-music.md",
     "System/TEMPLATE/FORMAT/CALENDAR",
     "System/TEMPLATE/FORMAT",
     "System/TEMPLATE",
@@ -281,14 +288,6 @@
     "System/MEDIA/PDFs/Save the Cat - Blake Snyder.pdf",
     "System/MEDIA/PDFs/hooks-copy.pdf",
     "System/MEDIA/PDFs/estatistica descritiva.pdf",
-    "System/ASSETS/Dataview/@_to_complete_notes.md",
-    "System/ASSETS/Dataview/@_dataview_tasks.md",
-    "System/ASSETS/Dataview/@_dataview_guides.md",
-    "System/ASSETS/Dataview/@_dataview.md",
-    "System/ASSETS/Dataview/@_by_count_links.md",
-    "System/ASSETS/cssSnippets/Compact tabs.md",
-    "System/ASSETS/cssSnippets/Loading screen tweak.md",
-    "System/ASSETS/cssSnippets/Link styling 01.md",
     "Efforts/ARCHIVES/independent/webdesign/web.design.canvas",
     "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas",
     "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",

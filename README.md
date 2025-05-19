@@ -4,50 +4,18 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 
+## Baixar e Acessar
 
-# Meus Mapas de Conteúdo
+Para baixar o arquivo `.zip` basta clickar [link](https://github.com/NonakaVal/MyObsidianSetup/archive/refs/heads/main.zip)
 
+também sendo possível apenas clonar 
 
-<p align="center">
-  <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/01_INDEX/index-datascience.md" target="_blank">
-    <img src="https://img.icons8.com/?size=100&id=RCfiyznNROTb&format=png&color=000000" alt="Data Science MOC" />
-    <br/><b>Data Science MOC</b>
-  </a>
-</p>
-
----
-
-
-<table align="center">
-  <tr align="center">
-    <td>
-      <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/06_WORKFLOW/flow-pandas-basic-data-manipulation.md" target="_blank">
-        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" width="70"/><br/>
-        <b>Basic Data Manipulation</b>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/06_WORKFLOW/flow-pandas-data-cleaning-methods.md" target="_blank">
-        <img src="https://img.icons8.com/?size=100&id=dyxMyWfboNxb&format=png&color=000000" width="70"/><br/>
-        <b>Basic Data Cleaning</b>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/NonakaVal/MyObsidianSetup/blob/main/ATLAS/06_WORKFLOW/flow-pandas-null-values-wrangling.md" target="_blank">
-        <img src="https://img.icons8.com/?size=100&id=64513&format=png&color=000000" width="70"/><br/>
-        <b>Null Values Wrangling</b>
-      </a>
-    </td>
-  </tr>
-</table>
-
-
-
+```
+git clone https://github.com/NonakaVal/MyObsidianSetup.git
+```
 
 
 # 📂 Estrutura da Vault
-
-![gif](https://i.imgur.com/CMrB7Wk.gif)
 
 ## Folder System
 
@@ -92,7 +60,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 ---
 
 # Modelos de Nomenclatura
-## Atlas
+### Atlas
 
 - `draft-[tema]-[descricao]`  
 	- Ex: `draft-matematica-conjuntos-iniciais`
@@ -113,7 +81,7 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - `map-[tema]-[forma-representacao]`  
 	- Ex: `map-ml-deep-learning-esquema-vis`
 
-## Calendar
+### Calendar
 
 - `YYYY-MM-DD`  
 	- Ex: `2025-05-11`
@@ -124,11 +92,11 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - `YYYY`  
 	- Ex: `2025`
 
-## Drafts
+### Drafts
 - `note-[tema]-[descricao-breve]`  
 	- Ex: `note-ai-etica-uso-cotidiano`
 
-## Efforts
+### Efforts
 - `project-[nome]-[data-inicio]-[data-fim]`  
 	- Ex: `project-app-organizador-2025-01-01-2025-06-30`
 - `area-[dominio]-[descricao]`  
@@ -140,17 +108,17 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - `archive-[nome-projeto]-[ano]`  
 	- Ex: `archive-reestrutura-site-2024`
 
-## Entertainment
+### Entertainment
 
 - `ent-music-[artista]-[descricao]`  
 	- Ex: `ent-music-ludovico-einaudi-playlist-calma`
-## Social
+### Social
 - `soc-people-[nome]-[contexto]`  
 	- Ex: `soc-people-carlos-rede-linkedin`
 - `soc-thinking-[tema]-[reflexao]`  
 	- Ex: `soc-thinking-autenticidade-criativa`
 
-## System
+### System
 - `asset-[tipo]-[descricao]`  
 	- Ex: `asset-icone-folder-gaming`
 - `media-[tipo]-[descricao]`  
@@ -234,6 +202,18 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - [YTranscript](https://github.com/obsidian-community/obsidian-ytranscript)
 
 
+
+# Inspirações e Recursos
+
+- https://github.com/DuskWasHere/dusk-obsidian-vault
+- https://fortelabs.com/blog/para/
+- https://github.com/NonakaVal/Obsidian-CSS-Snippets
+- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
+- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
+- [Modular CSS Layout for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)
+
+
+
 # Códigos 
 
 ### [Repo - MarkdownObsidianScripts](https://github.com/NonakaVal/MarkdownObsidianScripts) - Diversos códigos Python que uso
@@ -244,12 +224,3 @@ Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.co
 - [Zettelizer](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/Zettelizer.ipynb) - `.ipynb` Automaticamente atomiza notas com base no header
 - [ipynbToMarkdownFile](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/ipynbToMarkdownFile.ipynb) - `.ipynb` para converter notebooks em notas `.md`
 - [LLM-Explore-TESTS](https://github.com/NonakaVal/MarkdownObsidianScripts/blob/main/LLM-Explore-TESTS.ipynb) - `.ipynb` Testes com LLMs
-
-# Inspirações e Recursos
-
-- https://github.com/DuskWasHere/dusk-obsidian-vault
-- https://fortelabs.com/blog/para/
-- https://github.com/NonakaVal/Obsidian-CSS-Snippets
-- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
-- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
-- [Modular CSS Layout for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)

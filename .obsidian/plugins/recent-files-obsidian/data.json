@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "index_notas",
       "path": "index_notas.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "index-advanced-functions",
+      "path": "Atlas/01_INDEX/index-advanced-functions.md"
+    },
+    {
+      "basename": "index-datascience",
+      "path": "Atlas/01_INDEX/index-datascience.md"
+    },
+    {
+      "basename": "index-mkt-menagement",
+      "path": "Atlas/01_INDEX/index-mkt-menagement.md"
+    },
+    {
+      "basename": "index-metodos-de-testes-hipoteses",
+      "path": "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md"
+    },
+    {
+      "basename": "PKM-Youtube-Videos",
+      "path": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
+    },
+    {
+      "basename": "2025-05-19",
+      "path": "Calendar/DAILY/2025-05-19.md"
+    },
+    {
+      "basename": "conhecimento",
+      "path": "SOCIAL/Writing/conhecimento.md"
+    },
+    {
+      "basename": "a-morte",
+      "path": "SOCIAL/Writing/a-morte.md"
+    },
+    {
+      "basename": "3-definicoes-ciencia-logica-coginicao",
+      "path": "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md"
+    },
+    {
+      "basename": "2-conceitos-ordem",
+      "path": "SOCIAL/Writing/2-conceitos-ordem.md"
     },
     {
       "basename": "doc-github-commit-message-convention",
@@ -27,10 +67,6 @@
     {
       "basename": "2025-05-18",
       "path": "Calendar/DAILY/2025-05-18.md"
-    },
-    {
-      "basename": "2025-05-19",
-      "path": "Calendar/DAILY/2025-05-19.md"
     },
     {
       "basename": "tipos-de-comandos-mysql",
@@ -163,42 +199,6 @@
     {
       "basename": "Career-development",
       "path": "Efforts/AREAS/Career-development/Career-development.md"
-    },
-    {
-      "basename": "memorize os templates abaixo",
-      "path": "Drafts/memorize os templates abaixo.md"
-    },
-    {
-      "basename": "resumo arena",
-      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/resumo arena.md"
-    },
-    {
-      "basename": "BBharry",
-      "path": "Efforts/AREAS/bbHarry/BBharry.md"
-    },
-    {
-      "basename": "Ideias-de-atividades-harry",
-      "path": "Efforts/AREAS/bbHarry/Ideias-de-atividades-harry.md"
-    },
-    {
-      "basename": "Atividades-para-FAZER-com-bb",
-      "path": "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md"
-    },
-    {
-      "basename": "Engenharia de prompts",
-      "path": "Drafts/Engenharia de prompts.md"
-    },
-    {
-      "basename": "estudo-exemplo-de-cronograma",
-      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/estudo-exemplo-de-cronograma.md"
-    },
-    {
-      "basename": "draft-alex-sent",
-      "path": "Drafts/draft-alex-sent.md"
-    },
-    {
-      "basename": "Conteudos-sobre-atividades-infantis",
-      "path": "Drafts/Conteudos-sobre-atividades-infantis.md"
     }
   ],
   "omittedPaths": [],

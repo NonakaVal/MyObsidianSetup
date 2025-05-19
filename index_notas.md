@@ -1,5 +1,3 @@
-
-
 *Atualizado em 2025/05/19 03:52* 
 
  [🐍  Abrir Script Python](file:///C:/Users/nonak/Documents/PythonScripts/create_index_note_py_script.py)
