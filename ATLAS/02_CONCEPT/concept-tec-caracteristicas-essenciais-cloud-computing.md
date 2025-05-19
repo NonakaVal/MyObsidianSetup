@@ -2,7 +2,7 @@
 tags:
   - learning
   - 
-hub:
+HUB:
   - "[[hub-tec]]"
 created: "[[2024-03-19]]"
 ---

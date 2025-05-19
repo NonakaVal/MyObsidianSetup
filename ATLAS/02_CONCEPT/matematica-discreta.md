@@ -2,7 +2,7 @@
 tags:
   - learning
 created: "[[2024-04-22]]"
-hub:
+HUB:
   - "[[hub-math]]"
 ---
 ### [[matematica-discreta]]

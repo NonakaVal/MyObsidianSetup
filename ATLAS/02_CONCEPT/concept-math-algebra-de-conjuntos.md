@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 created: "[[2024-03-24]]"
-hub:
+HUB:
   - "[[hub-math]]"
 ---
 ### [[concept-math-algebra-de-conjuntos]]

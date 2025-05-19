@@ -1,9 +1,9 @@
 ---
 tags:
   - learning
-hub:
-  - "[[hub-tec]]"
 created: "[[2024-05-10]]"
+HUB:
+  - "[[hub-tec]]"
 ---
 ### [[draft-green-it-introducao]]
 

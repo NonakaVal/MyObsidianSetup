@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "index_notas",
       "path": "index_notas.md"
     },
@@ -9,40 +13,12 @@
       "path": "quotes.md"
     },
     {
-      "basename": "index-datascience",
-      "path": "Atlas/01_INDEX/index-datascience.md"
-    },
-    {
-      "basename": "index-Verify-DataTypes",
-      "path": "Atlas/01_INDEX/index-Verify-DataTypes.md"
-    },
-    {
-      "basename": "index-mkt-menagement",
-      "path": "Atlas/01_INDEX/index-mkt-menagement.md"
-    },
-    {
-      "basename": "index-metodos-de-testes-hipoteses",
-      "path": "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md"
-    },
-    {
       "basename": "index-matematica-e-logica",
       "path": "Atlas/01_INDEX/index-matematica-e-logica.md"
     },
     {
       "basename": "index-estatistica",
       "path": "Atlas/01_INDEX/index-estatistica.md"
-    },
-    {
-      "basename": "draft-introduction-to-iterators",
-      "path": "Atlas/00_DRAFT/draft-introduction-to-iterators.md"
-    },
-    {
-      "basename": "index-advanced-functions",
-      "path": "Atlas/01_INDEX/index-advanced-functions.md"
-    },
-    {
-      "basename": "draft-direito-cibernetico",
-      "path": "Atlas/00_DRAFT/draft-direito-cibernetico.md"
     },
     {
       "basename": "template_area",
@@ -79,10 +55,6 @@
     {
       "basename": "moc-datascience",
       "path": "Atlas/08_MAPS/moc-datascience.md"
-    },
-    {
-      "basename": "+_CANVAS_AOC",
-      "path": "Atlas/08_MAPS/+_CANVAS_AOC.canvas"
     },
     {
       "basename": "2025-05-03",
@@ -137,16 +109,8 @@
       "path": "SOCIAL/Writing/2-conceitos-ordem.md"
     },
     {
-      "basename": "doc-pandas-methods",
-      "path": "Atlas/05_DOC/doc-pandas-methods.md"
-    },
-    {
       "basename": "2025-05-02",
       "path": "Calendar/DAILY/2025-05-02.md"
-    },
-    {
-      "basename": "snip-andas-groupby-function",
-      "path": "Atlas/03_SNIPPETS/snip-andas-groupby-function.md"
     },
     {
       "basename": "serie-playlist-entendendo-pkm",
@@ -171,22 +135,6 @@
     {
       "basename": "Atividades-para-FAZER-com-bb",
       "path": "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md"
-    },
-    {
-      "basename": "template_area",
-      "path": "System/TEMPLATE/FORMAT/template_area.md"
-    },
-    {
-      "basename": "snip-openai-agent-llm-classificacao-v-df-pandas",
-      "path": "Atlas/03_SNIPPETS/snip-openai-agent-llm-classificacao-v-df-pandas.md"
-    },
-    {
-      "basename": "snip-obter-percentual-valores-df",
-      "path": "Atlas/03_SNIPPETS/snip-obter-percentual-valores-df.md"
-    },
-    {
-      "basename": "snip-get-dataframe-info",
-      "path": "Atlas/03_SNIPPETS/snip-get-dataframe-info.md"
     }
   ],
   "omittedPaths": [],

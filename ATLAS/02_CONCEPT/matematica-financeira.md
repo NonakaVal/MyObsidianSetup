@@ -2,7 +2,7 @@
 tags:
   - learning
 created: "[[2024-05-08]]"
-hub:
+HUB:
   - "[[hub-math]]"
 ---
 ### [[matematica-financeira]]

@@ -1,10 +1,8 @@
 ---
 tags:
   - learning
-hub:
-  - "hub-tec"
-  - "hub-sql"
-created: "2024-04-06"
+created: 2024-04-06
+HUB:
 ---
 ### planejamento-banco-de-dados
 

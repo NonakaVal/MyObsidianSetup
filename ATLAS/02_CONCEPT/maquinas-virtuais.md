@@ -2,7 +2,7 @@
 tags:
   - learning
 created: "[[2024-03-18]]"
-hub:
+HUB:
   - "[[hub-tec]]"
 ---
 ### [[maquinas-virtuais]]

@@ -13,9 +13,6 @@ cssclasses:
   - hide-properties_reading
 ---
 
-
-# Set first
-
 Artist or band : `INPUT[text(showcase):artist]`
 
 ReleaseDate: `INPUT[text(showcase):releaseDate]`

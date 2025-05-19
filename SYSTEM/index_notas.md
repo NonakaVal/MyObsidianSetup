@@ -1,14 +1,14 @@
 
 
-*Atualizado em 2025/05/14 03:18* 
+*Atualizado em 2025/05/19 03:47* 
 
  [🐍  Abrir Script Python](file:///C:/Users/nonak/Documents/PythonScripts/create_index_note_py_script.py)
 
-> **Total de Notas**: 1.448 notas
-> **Média de palavras por nota**: 219,0 palavras
-> **Pastas**: 62
-> **Pasta mais densa**: `Atlas\02_CONCEPT` (64.223 palavras)
-> **Pasta com mais notas**: `Atlas\02_CONCEPT` (473 notas)
+> **Total de Notas**: 1.450 notas
+> **Média de palavras por nota**: 211,5 palavras
+> **Pastas**: 59
+> **Pasta mais densa**: `Atlas\02_CONCEPT` (59.239 palavras)
+> **Pasta com mais notas**: `Atlas\02_CONCEPT` (471 notas)
 
 ---
 
@@ -16,344 +16,11 @@
 
 | Property | Files | Coverage |
 |----------|-------|----------|
-| `tags` | 1218 | 84.1% |
-| `HUB` | 981 | 67.7% |
-| `created` | 237 | 16.4% |
-| `cssclasses` | 113 | 7.8% |
-| `hub` | 56 | 3.9% |
-
-## Resumos por Propriedade
-
-#### `created`
-- 📁 Present in: 237 files (16.4%)
-- 🧮 Unique values: 93
-  - 🔝 Top values:
-    - `[[30-01-2024]]`: 14 (5.9%)
-    - `[[2025-04-27]]`: 11 (4.6%)
-    - `[[2024-05-10]]`: 8 (3.4%)
-    - `[[2024-03-20]]`: 8 (3.4%)
-    - `[[<% tp.date.now("YYYY-MM-DD") %>]]`: 8 (3.4%)
-    - `Others` (88 values): 188 (79.3%)
-
-#### `tags`
-- 📁 Present in: 1218 files (84.1%)
-- 🧮 Unique values: 50
-  - 🔝 Top values:
-    - `learning`: 601 (36.0%)
-    - `oldVoult`: 224 (13.4%)
-    - `work`: 172 (10.3%)
-    - `calendar/daily`: 152 (9.1%)
-    - `learning/review`: 116 (7.0%)
-    - `Others` (45 values): 404 (24.2%)
-
-#### `HUB`
-- 📁 Present in: 981 files (67.7%)
-- 🧮 Unique values: 40
-  - 🔝 Top values:
-    - `[[hub-python]]`: 253 (18.5%)
-    - `[[hub-collectors]]`: 179 (13.1%)
-    - `[[hub-aoc]]`: 110 (8.0%)
-    - `[[hub-mkt]]`: 84 (6.1%)
-    - `[[hub-statistic]]`: 78 (5.7%)
-    - `Others` (35 values): 667 (48.7%)
-
-#### `hub`
-- 📁 Present in: 56 files (3.9%)
-- 🧮 Unique values: 7
-  - 🔢 Values:
-    - `[[hub-tec]]`: 33 (54.1%)
-    - `[[hub-math]]`: 17 (27.9%)
-    - `[[hub-python]]`: 4 (6.6%)
-    - `[[hub-sql]]`: 4 (6.6%)
-    - `hub-tec`: 1 (1.6%)
-    - `hub-sql`: 1 (1.6%)
-    - `[[hub-visualization-data]]`: 1 (1.6%)
-
-#### `cssclasses`
-- 📁 Present in: 113 files (7.8%)
-- 🧮 Unique values: 6
-  - 🔢 Values:
-    - `hide-properties_editing`: 106 (48.2%)
-    - `hide-properties_reading`: 103 (46.8%)
-    - `wide-page`: 4 (1.8%)
-    - `dashboard`: 3 (1.4%)
-    - `dash`: 3 (1.4%)
-    - `page-60`: 1 (0.5%)
-
-#### `origin`
-- 📁 Present in: 28 files (1.9%)
-- 🧮 Unique values: 7
-  - 🔢 Values:
-    - `[[book-introducao-estatistica-12edicao-mario-f-triola-2017]]`: 21 (75.0%)
-    - `[[book-Algoritmo-e-Logica-de-Programao-3-ed-MarcoA-Furla-de-Souza]]`: 2 (7.1%)
-    - `https://blog.mettzer.com/coleta-de-dados/`: 1 (3.6%)
-    - `None`: 1 (3.6%)
-    - `https://docs.pandas-ai.com/en/latest/`: 1 (3.6%)
-    - `[[plano-ensino-computer-science-anhanguera]]`: 1 (3.6%)
-    - `https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html`: 1 (3.6%)
-
-#### `share_link`
-- 📁 Present in: 14 files (1.0%)
-- 🧮 Unique values: 14
-  - 🔢 Values:
-    - `https://share.note.sx/tlbijdg6#/8I2Ic2ExKp9W7WWqbdvmfvQ+2hlX8B/LD33F1Ds0yQ`: 1 (7.1%)
-    - `https://share.note.sx/4tilrsxf#fORycnMm6dHGHRRi1tRlQHyFAE68c+hLO5f1lisQHzw`: 1 (7.1%)
-    - `https://share.note.sx/owiue6fi#WjxRcjTEE2haloex7gbYao7nC6trOUvGtas4jmm5cXQ`: 1 (7.1%)
-    - `https://share.note.sx/8m5lqgco#QVtEAQOlvL5ArAPVoRvT/8so7jV20j1NP03iDjLWZXI`: 1 (7.1%)
-    - `https://share.note.sx/d01qiii9#fd0tXc6kt8c2tl3KvOucKm/Wn4LM3oghTxk467eTblY`: 1 (7.1%)
-    - `https://share.note.sx/lv7ez86u#tBmlTqoFysMg9ZVD5UPyFbUVA/kVeuXRgSzTneytgcc`: 1 (7.1%)
-    - `https://share.note.sx/8aus1rrs#FyVYHDZLgdfmDS+Ah/3gNqt+SsLthuwiREzNpU0n3mo`: 1 (7.1%)
-    - `https://share.note.sx/xkbp03j6#thfJUbHpNJJEs2KLiBu4c1/H4q6N6oqj5Bp0SsqHVFQ`: 1 (7.1%)
-    - `https://share.note.sx/364j7fw7#ac/d8/iMHyXw9Ic9q/2Hclnh2YzlZURLup89ovOc+eE`: 1 (7.1%)
-    - `https://share.note.sx/vu6rkgo4#DD4NOlSVcHHdx0tHOkLmENC6lHb6tXv0hpGKJcznHNQ`: 1 (7.1%)
-    - `https://share.note.sx/46e9elwf#ZVpCu/+dlXL0UbFwGmySLK1reeNLnRwX034RLF8gi40`: 1 (7.1%)
-    - `https://share.note.sx/c5ei6v3h#TDzrDuOfA0P9ztmqTqXhcpwmGbi9A+lnNqE8m6Wo0XY`: 1 (7.1%)
-    - `https://share.note.sx/sh2avl83#6UoPzfEFVuXRmu0mqWkHFE0FQtfqXGHIS/MXVlP51jU`: 1 (7.1%)
-    - `https://share.note.sx/6mkh1qm4#wvYWp5qe9hWYFBIXUGKHU81oPfhYbSz7iVKGovXW77M`: 1 (7.1%)
-
-#### `share_updated`
-- 📁 Present in: 14 files (1.0%)
-- 🧮 Unique values: 14
-  - 🔢 Values:
-    - `2025-05-11 20:44:45-03:00`: 1 (7.1%)
-    - `2025-05-11 01:01:29-03:00`: 1 (7.1%)
-    - `2024-10-08 14:42:21-03:00`: 1 (7.1%)
-    - `2025-05-09 21:18:09-03:00`: 1 (7.1%)
-    - `2025-05-09 20:53:53-03:00`: 1 (7.1%)
-    - `2025-01-31 07:38:35-03:00`: 1 (7.1%)
-    - `2025-02-06 16:31:37-03:00`: 1 (7.1%)
-    - `2025-05-14 02:24:01-03:00`: 1 (7.1%)
-    - `2025-04-05 17:47:37-03:00`: 1 (7.1%)
-    - `2025-01-20 20:15:21-03:00`: 1 (7.1%)
-    - `2025-04-24 16:50:59-03:00`: 1 (7.1%)
-    - `2025-05-11 20:20:58-03:00`: 1 (7.1%)
-    - `2025-04-26 06:55:40-03:00`: 1 (7.1%)
-    - `2025-05-09 20:55:46-03:00`: 1 (7.1%)
-
-#### `link-to-lib`
-- 📁 Present in: 45 files (3.1%)
-- 🧮 Unique values: 43
-  - 🔝 Top values:
-    - `None`: 2 (4.4%)
-    - `https://docs.streamlit.io/`: 2 (4.4%)
-    - `https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.agg.html`: 1 (2.2%)
-    - `https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html`: 1 (2.2%)
-    - `https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.astype.html`: 1 (2.2%)
-    - `Others` (38 values): 38 (84.4%)
-
-#### `connections`
-- 📁 Present in: 31 files (2.1%)
-- 🧮 Unique values: 26
-  - 🔝 Top values:
-    - `[[roteitos-reels-collectors-2024]]`: 8 (20.5%)
-    - `[[Efforts/AREAS/bbHarry/AprendizadoDobb.md|AprendizadoDobb]]`: 4 (10.3%)
-    - `None`: 3 (7.7%)
-    - `[[index-Verify-DataTypes|index-Verify-DataTypes]]`: 2 (5.1%)
-    - `[[Data Science Python Maps]]`: 1 (2.6%)
-    - `Others` (21 values): 21 (53.8%)
-
-#### `aliases`
-- 📁 Present in: 1 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `data-types`: 1 (100.0%)
-
-#### `repo`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 2
-  - 🔢 Values:
-    - `https://github.com/mProjectsCode/obsidian-meta-bind-plugin`: 1 (50.0%)
-    - `None`: 1 (50.0%)
-
-#### `tag`
-- 📁 Present in: 26 files (1.8%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `calendar/daily`: 26 (100.0%)
-
-#### `daily-mood`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `😐 – Meh`: 2 (100.0%)
-
-#### `type`
-- 📁 Present in: 26 files (1.8%)
-- 🧮 Unique values: 5
-  - 🔢 Values:
-    - `new_note`: 8 (30.8%)
-    - `area_note`: 8 (30.8%)
-    - `area_family`: 8 (30.8%)
-    - `project`: 1 (3.8%)
-    - `project-base`: 1 (3.8%)
-
-#### `kanban-plugin`
-- 📁 Present in: 1 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `board`: 1 (100.0%)
-
-#### `area`
-- 📁 Present in: 25 files (1.7%)
-- 🧮 Unique values: 13
-  - 🔢 Values:
-    - `PKM-Youtube-Videos`: 7 (28.0%)
-    - `bbHarry`: 4 (16.0%)
-    - `HarryLearning`: 2 (8.0%)
-    - `Saúde e bem estar`: 2 (8.0%)
-    - `Writing`: 2 (8.0%)
-    - `[[Harry]]`: 1 (4.0%)
-    - `pkm-videos`: 1 (4.0%)
-    - `[[PKM-Youtube-Videos]]`: 1 (4.0%)
-    - `[[pkm-videos]]`: 1 (4.0%)
-    - `professional-career`: 1 (4.0%)
-    - `[[professional-career]]`: 1 (4.0%)
-    - `<% tp.file.folder()%>`: 1 (4.0%)
-    - `[[<% tp.file.folder() %>]]`: 1 (4.0%)
-
-#### `summary`
-- 📁 Present in: 23 files (1.6%)
-- 🧮 Unique values: 11
-  - 🔢 Values:
-    - `None`: 13 (56.5%)
-    - `Tutoriais do olist`: 1 (4.3%)
-    - `Sobre Alfabetização e aprendizado no geral`: 1 (4.3%)
-    - `Ideias do que fazer com o bb`: 1 (4.3%)
-    - `Histórias que quero ou vou contar ao bb`: 1 (4.3%)
-    - `Vídeo de resumo pkm`: 1 (4.3%)
-    - `Bases simples porém indispensáveis`: 1 (4.3%)
-    - `Básico nota diária`: 1 (4.3%)
-    - `Organizar meus projetos, experiência e currículo`: 1 (4.3%)
-    - `IA de uma sonda de colonização e exploração interplanetária, bilhões de anos no futuro e anos luz de distância,começa a desenvolver abstração, que ele vai aplicando em conceitos do banco de dados da sua origem terrestre e aos dados coletados pelas sondas anteriores a ela através dos planetas explorados, trazendo várias questões existenciais aos poucos enquanto exerce as funções de sonda`: 1 (4.3%)
-    - `Chapter 1`: 1 (4.3%)
-
-#### `Status`
-- 📁 Present in: 7 files (0.5%)
-- 🧮 Unique values: 4
-  - 🔢 Values:
-    - `In Progress`: 3 (42.9%)
-    - `Posted`: 2 (28.6%)
-    - `Finalizado`: 1 (14.3%)
-    - `Finished`: 1 (14.3%)
-
-#### `project`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `collectors-tutorials`: 2 (100.0%)
-
-#### `goal`
-- 📁 Present in: 1 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `Criar Guias de processos`: 1 (100.0%)
-
-#### `Due_Date`
-- 📁 Present in: 1 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `2025-05-11`: 1 (100.0%)
-
-#### `area_category`
-- 📁 Present in: 8 files (0.6%)
-- 🧮 Unique values: 5
-  - 🔢 Values:
-    - `None`: 3 (37.5%)
-    - `content-creation`: 2 (25.0%)
-    - `family`: 1 (12.5%)
-    - `work`: 1 (12.5%)
-    - `personal-projects`: 1 (12.5%)
-
-#### `board`
-- 📁 Present in: 14 files (1.0%)
-- 🧮 Unique values: 4
-  - 🔢 Values:
-    - `reflexao`: 8 (57.1%)
-    - `conceito`: 4 (28.6%)
-    - `resumo`: 1 (7.1%)
-    - ``: 1 (7.1%)
-
-#### `releaseDate`
-- 📁 Present in: 5 files (0.3%)
-- 🧮 Unique values: 4
-  - 🔢 Values:
-    - `[[year-2018]]`: 2 (40.0%)
-    - `[[year-2024]]`: 1 (20.0%)
-    - `[[2019]]`: 1 (20.0%)
-    - `None`: 1 (20.0%)
-
-#### `genre`
-- 📁 Present in: 3 files (0.2%)
-- 🧮 Unique values: 6
-  - 🔢 Values:
-    - `hip-hop`: 2 (28.6%)
-    - `Art rock`: 1 (14.3%)
-    - `psychedelic rock`: 1 (14.3%)
-    - `lounge pop`: 1 (14.3%)
-    - `space pop`: 1 (14.3%)
-    - `glam roc`: 1 (14.3%)
-
-#### `artist`
-- 📁 Present in: 5 files (0.3%)
-- 🧮 Unique values: 4
-  - 🔢 Values:
-    - `[[Twenty One Pilots]]`: 2 (40.0%)
-    - `Pomme`: 1 (20.0%)
-    - `[[Arctic Monkeys]]`: 1 (20.0%)
-    - `None`: 1 (20.0%)
-
-#### `length`
-- 📁 Present in: 5 files (0.3%)
-- 🧮 Unique values: 5
-  - 🔢 Values:
-    - `2834`: 1 (20.0%)
-    - `2130`: 1 (20.0%)
-    - `
-40:51`: 1 (20.0%)
-    - `3369`: 1 (20.0%)
-    - `None`: 1 (20.0%)
-
-#### `key`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
-
-#### `since`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
-
-#### `from`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
-
-#### `last`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
-
-#### `close-to`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
-
-#### `archetype`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
-
-#### `main-skills`
-- 📁 Present in: 2 files (0.1%)
-- 🧮 Unique values: 1
-  - 🔢 Values:
-    - `None`: 2 (100.0%)
+| `tags` | 1250 | 86.1% |
+| `HUB` | 1041 | 71.7% |
+| `created` | 248 | 17.1% |
+| `cssclasses` | 117 | 8.1% |
+| `link-to-lib` | 45 | 3.1% |
 
 ---
 
@@ -363,9 +30,11 @@
 
 ## 📂 00_DRAFT
 
+- 📄 [draft-franvce-ux-ui-tips] — 3.074 palavras
 - 📄 [draft-direito-cibernetico] — 2.222 palavras
 - 📄 [draft-gestao-do-conhecimento-e-ti] — 1.963 palavras
 - 📄 [draft-empreendedorismo-e-inovacao] — 1.238 palavras
+- 📄 [draft-franvce-tools] — 587 palavras
 - 📄 [draft-python-date-wagling] — 522 palavras
 - 📄 [draft-linear-regression-datacamp] — 514 palavras
 - 📄 [draft-introduction-to-iterators] — 400 palavras
@@ -373,21 +42,20 @@
 - 📄 [draft-finding-multiple-phrases-in-strings] — 360 palavras
 - 📄 [draft-green-it-introducao] — 335 palavras
 - 📄 [draft-python-pandasgrouping-data-by-category] — 312 palavras
-- 📄 [draft-crew-ai] — 308 palavras
 - 📄 [draft-introduction-to-error-handling] — 233 palavras
 - 📄 [draft-introduction-to-generator-expressions] — 224 palavras
 - 📄 [draft-dates-python] — 136 palavras
 - 📄 [draft-personalizando-graficos] — 110 palavras
-- 📄 [planejamento-banco-de-dados] — 35 palavras
+- 📄 [planejamento-banco-de-dados] — 31 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 9.296 palavras
-- Média por nota: 581,0 palavras
-- Número de notas: 16
+- Total: 12.645 palavras
+- Média por nota: 743,8 palavras
+- Número de notas: 17
 
 ## 📂 01_INDEX
 
-- 📄 [index-datascience] — 521 palavras
+- 📄 [index-datascience] — 519 palavras
 - 📄 [index-advanced-functions] — 316 palavras
 - 📄 [index-python-defined-functions] — 288 palavras
 - 📄 [index-metodos-de-testes-hipoteses] — 253 palavras
@@ -397,15 +65,12 @@
 - 📄 [index-mkt-menagement] — 45 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 1.682 palavras
-- Média por nota: 210,2 palavras
+- Total: 1.680 palavras
+- Média por nota: 210,0 palavras
 - Número de notas: 8
 
 ## 📂 02_CONCEPT
 
-- 📄 [playbook-ecommerce] — 3.178 palavras
-- 📄 [modelos-de-mensagens] — 1.317 palavras
-- 📄 [templates-mensagens-collectorguardian] — 805 palavras
 - 📄 [testes-de-hipoteses] — 742 palavras
 - 📄 [concept-python-arrays] — 658 palavras
 - 📄 [concept-growth-pilar-engajamento.triade] — 651 palavras
@@ -435,6 +100,7 @@
 - 📄 [concept-fundamentals-of-storytelling] — 325 palavras
 - 📄 [probabilidade-definicoes-notacoes-basicas] — 324 palavras
 - 📄 [introducao-a-orientacao-a-objetos-com-python] — 319 palavras
+- 📄 [concept-crew-ai-introduction] — 316 palavras
 - 📄 [v4.7.frameworks.ppa] — 311 palavras
 - 📄 [concept-python-string-operations] — 310 palavras
 - 📄 [concept-statistic-amostragem] — 310 palavras
@@ -878,9 +544,9 @@
 - 📄 [using-iterators-to-load-large-files-into-memory] — 9 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 64.223 palavras
-- Média por nota: 135,8 palavras
-- Número de notas: 473
+- Total: 59.239 palavras
+- Média por nota: 125,8 palavras
+- Número de notas: 471
 
 ### 📘 FirstVault
 
@@ -1208,7 +874,6 @@
 
 - 📄 [cmp-streamlit-crewai-market-research-app] — 567 palavras
 - 📄 [cmp-github] — 343 palavras
-- 📄 [cmp-sql] — 308 palavras
 - 📄 [cmp-git-branches] — 294 palavras
 - 📄 [cmp-EditNotes] — 194 palavras
 - 📄 [cmp-pandas-groupby-method] — 193 palavras
@@ -1216,12 +881,13 @@
 - 📄 [cmp-pandas-fillna-nullvalues-wrangling] — 134 palavras
 - 📄 [cmp-pandas-importing-data] — 129 palavras
 - 📄 [cmp-python-datetime(datas)-methods] — 128 palavras
+- 📄 [cmp-sql] — 128 palavras
 - 📄 [cmp-categorical-and-numerical-wrangling] — 96 palavras
 - 📄 [cmp-seaborn-plots] — 64 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 2.606 palavras
-- Média por nota: 217,2 palavras
+- Total: 2.426 palavras
+- Média por nota: 202,2 palavras
 - Número de notas: 12
 
 ## 📂 05_DOC
@@ -1230,16 +896,18 @@
 - 📄 [doc-scoop-package-mageger-guide] — 491 palavras
 - 📄 [doc-pandas-methods] — 189 palavras
 - 📄 [doc-seaborn-data-visualization-methods] — 106 palavras
+- 📄 [doc-github-commit-message-convention] — 59 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 1.640 palavras
-- Média por nota: 410,0 palavras
-- Número de notas: 4
+- Total: 1.699 palavras
+- Média por nota: 339,8 palavras
+- Número de notas: 5
 
 ## 📂 06_WORKFLOW
 
 - 📄 [flow-whatsApp-arena-report] — 1.438 palavras
 - 📄 [flow-OlistProductUpdate] — 1.038 palavras
+- 📄 [flow-playbook-ecommerce] — 630 palavras
 - 📄 [flow-sklearn-principal-component-analysis-pca] — 480 palavras
 - 📄 [flow-obtencao-dados-amostrais] — 366 palavras
 - 📄 [flow-pandas-basic-data-manipulation] — 216 palavras
@@ -1247,9 +915,9 @@
 - 📄 [flow-pandas-null-values-wrangling] — 62 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 3.742 palavras
-- Média por nota: 534,6 palavras
-- Número de notas: 7
+- Total: 4.372 palavras
+- Média por nota: 546,5 palavras
+- Número de notas: 8
 
 ## 📂 07_RESOURCES
 
@@ -1273,13 +941,12 @@
 
 ## 📂 DAILY
 
-- 📄 [2025-04-18] — 1.172 palavras
+- 📄 [2025-04-18] — 1.173 palavras
 - 📄 [2023-08-08] — 990 palavras
 - 📄 [2024-09-30] — 898 palavras
 - 📄 [2025-02-06] — 890 palavras
 - 📄 [2025-02-14] — 856 palavras
 - 📄 [2024-09-13] — 802 palavras
-- 📄 [2025-01-11] — 794 palavras
 - 📄 [2025-01-22] — 711 palavras
 - 📄 [2025-04-03] — 692 palavras
 - 📄 [2025-02-13] — 636 palavras
@@ -1291,10 +958,9 @@
 - 📄 [2024-02-12] — 519 palavras
 - 📄 [2025-04-12] — 509 palavras
 - 📄 [2025-04-02] — 477 palavras
-- 📄 [2025-04-09] — 466 palavras
+- 📄 [2025-04-09] — 463 palavras
 - 📄 [2025-01-31] — 456 palavras
 - 📄 [2024-12-31] — 455 palavras
-- 📄 [2025-04-28] — 420 palavras
 - 📄 [2025-02-19] — 419 palavras
 - 📄 [2025-02-15] — 414 palavras
 - 📄 [2024-06-08] — 413 palavras
@@ -1308,11 +974,12 @@
 - 📄 [2025-04-27] — 340 palavras
 - 📄 [2025-04-11] — 338 palavras
 - 📄 [2025-04-01] — 332 palavras
+- 📄 [2025-05-16] — 332 palavras
 - 📄 [2025-04-17] — 327 palavras
 - 📄 [2025-02-27] — 326 palavras
-- 📄 [2025-04-16] — 324 palavras
 - 📄 [2025-02-18] — 322 palavras
 - 📄 [2025-02-05] — 317 palavras
+- 📄 [2025-04-16] — 308 palavras
 - 📄 [2025-02-26] — 307 palavras
 - 📄 [2025-01-21] — 306 palavras
 - 📄 [2025-03-04] — 295 palavras
@@ -1332,6 +999,7 @@
 - 📄 [2025-01-28] — 254 palavras
 - 📄 [2023-11-29] — 250 palavras
 - 📄 [2025-01-10] — 246 palavras
+- 📄 [2025-01-11] — 246 palavras
 - 📄 [2024-12-30] — 245 palavras
 - 📄 [2025-01-20] — 245 palavras
 - 📄 [2025-02-12] — 245 palavras
@@ -1369,18 +1037,22 @@
 - 📄 [2025-02-09] — 223 palavras
 - 📄 [2025-03-15] — 223 palavras
 - 📄 [2024-09-26] — 222 palavras
-- 📄 [2025-05-11] — 191 palavras
-- 📄 [2025-05-01] — 186 palavras
+- 📄 [2025-05-11] — 190 palavras
+- 📄 [2025-05-01] — 185 palavras
+- 📄 [2025-05-15] — 184 palavras
+- 📄 [2025-05-19] — 182 palavras
 - 📄 [2024-04-13] — 172 palavras
+- 📄 [2025-05-18] — 172 palavras
 - 📄 [2024-08-27] — 167 palavras
 - 📄 [2024-06-09] — 163 palavras
 - 📄 [2025-05-12] — 162 palavras
 - 📄 [2024-05-07] — 161 palavras
 - 📄 [2024-11-25] — 157 palavras
 - 📄 [2025-05-13] — 156 palavras
-- 📄 [2025-05-14] — 155 palavras
+- 📄 [2025-05-14] — 145 palavras
 - 📄 [2023-06-10] — 144 palavras
 - 📄 [2024-03-20] — 139 palavras
+- 📄 [2025-04-28] — 137 palavras
 - 📄 [2025-05-10] — 137 palavras
 - 📄 [2024-02-22] — 123 palavras
 - 📄 [2024-12-09] — 118 palavras
@@ -1528,9 +1200,9 @@
 - 📄 [2024-10-24] — 12 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 44.995 palavras
-- Média por nota: 177,8 palavras
-- Número de notas: 253
+- Total: 45.004 palavras
+- Média por nota: 175,1 palavras
+- Número de notas: 257
 
 ## 📂 MONTHLY
 
@@ -1555,19 +1227,13 @@
 - 📄 [draft-alex-sent] — 5.023 palavras
 - 📄 [Engenharia de prompts] — 2.071 palavras
 - 📄 [code-py] — 843 palavras
-- 📄 [resumo arena] — 829 palavras
-- 📄 [estudo-exemplo-de-cronograma] — 438 palavras
-- 📄 [Ideias-de-atividades-harry] — 436 palavras
-- 📄 [_GAMES-ANNIVERSARY-LIST] — 308 palavras
 - 📄 [memorize os templates abaixo] — 114 palavras
-- 📄 [clientes-collectors] — 91 palavras
-- 📄 [Conteudos-sobre-atividades-infantis] — 22 palavras
-- 📄 [test] — 12 palavras
+- 📄 [Conteudos-sobre-atividades-infantis] — 24 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 10.187 palavras
-- Média por nota: 926,1 palavras
-- Número de notas: 11
+- Total: 8.075 palavras
+- Média por nota: 1.615,0 palavras
+- Número de notas: 5
 
 ## 📂 LLM-searches
 
@@ -1586,21 +1252,6 @@
 
 ## 📂 ARCHIVES
 
-- 📄 [scisync-post-ideas] — 1.035 palavras
-- 📄 [pkm-introduction-video] — 982 palavras
-- 📄 [scisync] — 856 palavras
-- 📄 [aceXpara-method-video 1] — 746 palavras
-- 📄 [aceXpara-method-video] — 746 palavras
-- 📄 [plugins-obrigatorio-video] — 531 palavras
-- 📄 [ecological-thinking-video] — 447 palavras
-- 📄 [scisync-visao] — 388 palavras
-- 📄 [scisync-descricoes-servicos] — 323 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 6.054 palavras
-- Média por nota: 672,7 palavras
-- Número de notas: 9
-
 ### 📘 HarryLearning
 
 - 📄 [fundamentos alfabetização] — 306 palavras
@@ -1611,79 +1262,76 @@
 - Média por nota: 221,5 palavras
 - Número de notas: 2
 
-### 📘 MEUS-INFOS
-
-- 📄 [playbook---infoprodutos] — 3.178 palavras
-- 📄 [playbook-checklist-infoproduto] — 3.141 palavras
-- 📄 [e-commerce] — 1.483 palavras
-- 📄 [insights] — 1.155 palavras
-- 📄 [inside-sales] — 43 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 9.000 palavras
-- Média por nota: 1.800,0 palavras
-- Número de notas: 5
-
-### 📘 Mentorias
-
-- 📄 [mentoria.prl] — 997 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 997 palavras
-- Média por nota: 997,0 palavras
-- Número de notas: 1
-
 ### 📘 PKM-Youtube-Videos
 
+- 📄 [pkm-introduction-video] — 982 palavras
+- 📄 [aceXpara-method-video 1] — 746 palavras
+- 📄 [aceXpara-method-video] — 746 palavras
 - 📄 [serie-playlist-entendendo-pkm] — 596 palavras
+- 📄 [plugins-obrigatorio-video] — 531 palavras
+- 📄 [ecological-thinking-video] — 447 palavras
 - 📄 [PKM-Youtube-Videos] — 91 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 687 palavras
-- Média por nota: 343,5 palavras
-- Número de notas: 2
-
-### 📘 Saúde e bem estar
-
-- 📄 [rotina de treino] — 207 palavras
-- 📄 [2. Saúde e bem estar] — 151 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 358 palavras
-- Média por nota: 179,0 palavras
-- Número de notas: 2
-
-### 📘 collectors-tutorials
-
-- 📄 [collectors-tutorials] — 113 palavras
-- 📄 [Tutoriais-olist] — 79 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 192 palavras
-- Média por nota: 96,0 palavras
-- Número de notas: 2
+- Total: 4.139 palavras
+- Média por nota: 591,3 palavras
+- Número de notas: 7
 
 ### 📘 collectorsGuardian
+
+#### 📙 clients
+
+- 📄 [pedro-henrique] — 544 palavras
+- 📄 [perfil-cliente-jose-denison] — 540 palavras
+- 📄 [Perfil-cliente-jakson-dourado] — 521 palavras
+- 📄 [perfil-cliente-hildo-vieira] — 514 palavras
+- 📄 [Perfil-cliente-fabio-rivaroli] — 513 palavras
+- 📄 [Perfil_Cliente_Kaique_Marques] — 210 palavras
+- 📄 [Perfil_Cliente_Luka_Araújo_Oliveira] — 162 palavras
+- 📄 [Perfil_Cliente_Vanessa_De_Oliveira] — 145 palavras
+- 📄 [Perfil_Cliente_Marco_Aurélio_Longo] — 143 palavras
+- 📄 [Perfil_Cliente_pedro-henrique] — 135 palavras
+- 📄 [Perfil_Cliente_Henrique_Da_Silva_Leite] — 126 palavras
+- 📄 [Perfil_Cliente_Roberto_Gomes_Caetano] — 113 palavras
+- 📄 [Perfil_Cliente_José_Denison_Fairame_Oliveira] — 112 palavras
+- 📄 [Perfil_Cliente_Gabriel_Mathias_Rodrigues] — 104 palavras
+- 📄 [Perfil_Cliente_Pedro_Henrique_Queiroz_Dias] — 97 palavras
+- 📄 [Perfil_Cliente_Matheus_Oliveira_Sanchez] — 89 palavras
+- 📄 [Perfil_Cliente_Kaian_Cardoso_Cordeiro] — 84 palavras
+- 📄 [Perfil_Cliente_Rafael_Dos_Santos_Bezerra] — 83 palavras
+- 📄 [Perfil-cliente-luka-araujo] — 75 palavras
+- 📄 [Perfil_Cliente_Guilherme_Genova] — 72 palavras
+- 📄 [Perfil_Cliente_Lucas_Machado] — 65 palavras
+- 📄 [Perfil_Cliente_Rodolfo_Rosario_Lopes] — 59 palavras
+- 📄 [Perfil_Cliente_Paula_Mancini_Costa] — 58 palavras
+- 📄 [Perfil_Cliente_Rodrigo_Moraes] — 57 palavras
+- 📄 [Perfil_Cliente_Edvaldo_Bueno_Junior] — 35 palavras
+- 📄 [Perfil_Cliente_David_Januario_Antunes] — 22 palavras
+- 📄 [perfil-cliente-Kaique Marques] — 9 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 4.687 palavras
+- Média por nota: 173,6 palavras
+- Número de notas: 27
 
 #### 📙 collectors-notes
 
 - 📄 [planejamento-geral-arena-collectors-1] — 2.316 palavras
 - 📄 [pesquisas-de-mercado-playstation] — 1.711 palavras
+- 📄 [modelos-de-mensagens] — 1.317 palavras
 - 📄 [Planejamento estrategico arena 1] — 1.028 palavras
+- 📄 [resumo arena] — 831 palavras
+- 📄 [templates-mensagens-collectorguardian] — 805 palavras
 - 📄 [25-09-24-price-search] — 757 palavras
 - 📄 [Estratégias Extras (Gamificação  Engajamento)] — 683 palavras
 - 📄 [roteiro-reels-ani-playstation] — 673 palavras
 - 📄 [Prompts-chatGPT] — 564 palavras
-- 📄 [pedro-henrique] — 544 palavras
-- 📄 [perfil-cliente-jose-denison] — 540 palavras
 - 📄 [Padrões] — 539 palavras
-- 📄 [Perfil-cliente-jakson-dourado] — 521 palavras
 - 📄 [video de apresentação collectors club] — 521 palavras
-- 📄 [perfil-cliente-hildo-vieira] — 514 palavras
-- 📄 [Perfil-cliente-fabio-rivaroli] — 513 palavras
 - 📄 [sistema_de_classificacao] — 513 palavras
 - 📄 [!_guia-de-formatos] — 484 palavras
 - 📄 [PRIME-05-02-2025] — 440 palavras
+- 📄 [estudo-exemplo-de-cronograma] — 439 palavras
 - 📄 [Destiny 2 - beyond Light Collecto] — 429 palavras
 - 📄 [roteiro videos lote thiago] — 419 palavras
 - 📄 [ghost acende no escuro e fala] — 397 palavras
@@ -1700,28 +1348,23 @@
 - 📄 [Bloodborne] — 269 palavras
 - 📄 [Boas vindas e Convite à comunidade] — 259 palavras
 - 📄 [PROMTP-formatacao-mensagens-whats] — 249 palavras
-- 📄 [Perfil_Cliente_Kaique_Marques] — 210 palavras
+- 📄 [_GAMES-ANNIVERSARY-LIST] — 240 palavras
 - 📄 [Portateis] — 199 palavras
 - 📄 [convite as redes sociais.] — 185 palavras
 - 📄 [exemplo-modelos-de-descricoes] — 184 palavras
 - 📄 [dando sequencia com essa edição do dyig light 2,] — 178 palavras
 - 📄 [Checklist para seleção itens Leilões] — 176 palavras
 - 📄 [1. Categorias de Conteúdo] — 171 palavras
-- 📄 [Perfil_Cliente_Luka_Araújo_Oliveira] — 162 palavras
 - 📄 [ideias-de-bordoes] — 154 palavras
 - 📄 [decidi começar com qual vocês já conhecem,] — 153 palavras
 - 📄 [Boas Vindas básico] — 151 palavras
 - 📄 [Lista Itens Leilões] — 145 palavras
-- 📄 [Perfil_Cliente_Vanessa_De_Oliveira] — 145 palavras
-- 📄 [Perfil_Cliente_Marco_Aurélio_Longo] — 143 palavras
 - 📄 [roteiros-mensagens-stories-collectors] — 141 palavras
 - 📄 [se vocês acharam que hoje não teria leilões,] — 141 palavras
 - 📄 [dark souls 2] — 140 palavras
-- 📄 [Perfil_Cliente_pedro-henrique] — 135 palavras
 - 📄 [iluminicao-pesquisa1] — 130 palavras
 - 📄 [3. Organização e Rotina Operacional] — 127 palavras
 - 📄 [Megadrive] — 127 palavras
-- 📄 [Perfil_Cliente_Henrique_Da_Silva_Leite] — 126 palavras
 - 📄 [Ideias de Conteudo collectors] — 125 palavras
 - 📄 [modelos-de-mensagens-posvenda] — 121 palavras
 - 📄 [Comportamento de Compra] — 120 palavras
@@ -1731,9 +1374,7 @@
 - 📄 [WhatsApp (Comunidade VIP)] — 117 palavras
 - 📄 [Checklist de Precificação com Base na Pesquisa de Mercado] — 115 palavras
 - 📄 [Instagram Reels (Vídeos Impactantes)] — 113 palavras
-- 📄 [Perfil_Cliente_Roberto_Gomes_Caetano] — 113 palavras
 - 📄 [Persona_review] — 113 palavras
-- 📄 [Perfil_Cliente_José_Denison_Fairame_Oliveira] — 112 palavras
 - 📄 [Expectativas em Relação ao ProdutoServiço] — 109 palavras
 - 📄 [rt-ps4-Persona] — 109 palavras
 - 📄 [3. Exemplo Prático de Aplicação] — 108 palavras
@@ -1743,7 +1384,6 @@
 - 📄 [ps4 pro edição limitada de kingdom hearts] — 105 palavras
 - 📄 [item que já foi confirmado foi essa edição lacrada do resident evil] — 104 palavras
 - 📄 [links-de-fornecedores-de-caixas-shoppe] — 104 palavras
-- 📄 [Perfil_Cliente_Gabriel_Mathias_Rodrigues] — 104 palavras
 - 📄 [village] — 104 palavras
 - 📄 [5. Boas-vindas ao Club Collector’s Guardian] — 103 palavras
 - 📄 [4. Postagens de Bastidores] — 102 palavras
@@ -1751,7 +1391,7 @@
 - 📄 [5. Repostagens de Conteúdo da Comunidade] — 101 palavras
 - 📄 [9. Postagens de Emoções e Sentimentos] — 101 palavras
 - 📄 [tamanhos-de-caixas-de-papelao] — 99 palavras
-- 📄 [Perfil_Cliente_Pedro_Henrique_Queiroz_Dias] — 97 palavras
+- 📄 [clientes-collectors] — 98 palavras
 - 📄 [eu sei que muitos de vocês queriam que essa edição fosse a leilao já na semana passada] — 96 palavras
 - 📄 [semana acabando e mas seguimos com tudo nos leilões] — 96 palavras
 - 📄 [8. Conteúdo Exclusivo para Engajamento] — 95 palavras
@@ -1763,13 +1403,10 @@
 - 📄 [tamo aqui em mais uma quinta feira de leilões,] — 91 palavras
 - 📄 [Desafios e Frustrações] — 90 palavras
 - 📄 [leilao-31-01-25] — 90 palavras
-- 📄 [Perfil_Cliente_Matheus_Oliveira_Sanchez] — 89 palavras
 - 📄 [Star Wars top] — 88 palavras
 - 📄 [mensagem-boas-vindas+5_-representante] — 87 palavras
 - 📄 [Setores_e_Processos] — 86 palavras
 - 📄 [Seu Pedido Está a Caminho] — 85 palavras
-- 📄 [Perfil_Cliente_Kaian_Cardoso_Cordeiro] — 84 palavras
-- 📄 [Perfil_Cliente_Rafael_Dos_Santos_Bezerra] — 83 palavras
 - 📄 [4. Logística e Operações] — 82 palavras
 - 📄 [Quando algo se perde] — 82 palavras
 - 📄 [12. Confirmar Informações sobre um Pedido] — 80 palavras
@@ -1778,13 +1415,11 @@
 - 📄 [mensagem-templates-de] — 77 palavras
 - 📄 [dá uma olhada no leilão que vai rolar daqui a pouco] — 76 palavras
 - 📄 [5. Tarefas Simples e Suporte] — 75 palavras
-- 📄 [Perfil-cliente-luka-araujo] — 75 palavras
 - 📄 [Itens preparados para envio] — 74 palavras
 - 📄 [Kaique na frente manhã] — 73 palavras
 - 📄 [11. Notificação de Pedido Pronto para Retirada] — 72 palavras
 - 📄 [2. Luz de Contorno (Back Light)] — 72 palavras
 - 📄 [8. Notificação de Confirmação de Pedido] — 72 palavras
-- 📄 [Perfil_Cliente_Guilherme_Genova] — 72 palavras
 - 📄 [10. Notificação de Atualização de Status de Pedido] — 70 palavras
 - 📄 [2. Atendimento ao Cliente] — 69 palavras
 - 📄 [2. Reposição de Estoque e Gestão de Dados] — 68 palavras
@@ -1792,17 +1427,13 @@
 - 📄 [cá estamos novamente nos preparativos para os leilões] — 67 palavras
 - 📄 [4. Luz de Fundo (Background Light)] — 66 palavras
 - 📄 [Características Chave do Cliente Ideal] — 66 palavras
-- 📄 [Perfil_Cliente_Lucas_Machado] — 65 palavras
 - 📄 [6. Entrando em Contato para Dúvida] — 63 palavras
 - 📄 [mensagem-pedido-a-caminho] — 63 palavras
 - 📄 [Diagnóstico e Identificação] — 62 palavras
 - 📄 [mensagem-boas-vindas-equipe] — 61 palavras
 - 📄 [mensagem-boas-vindas-representante] — 61 palavras
-- 📄 [Perfil_Cliente_Rodolfo_Rosario_Lopes] — 59 palavras
-- 📄 [Perfil_Cliente_Paula_Mancini_Costa] — 58 palavras
 - 📄 [2. Ferramentas para Gestão] — 57 palavras
 - 📄 [mensagem-tirar-duviva-com-cliente] — 57 palavras
-- 📄 [Perfil_Cliente_Rodrigo_Moraes] — 57 palavras
 - 📄 [como vocês bem sabem é dia de leilão] — 56 palavras
 - 📄 [ideias-de-conteudo-para-engajamento-com-checklists] — 55 palavras
 - 📄 [3. Luz de Preenchimento (Fill Light)] — 52 palavras
@@ -1814,13 +1445,11 @@
 - 📄 [1. Gestão de Produtos] — 43 palavras
 - 📄 [Clientes] — 40 palavras
 - 📄 [Recursos] — 40 palavras
-- 📄 [Perfil_Cliente_Edvaldo_Bueno_Junior] — 35 palavras
 - 📄 [roteitos-reels-collectors-2024] — 32 palavras
 - 📄 [selection1] — 31 palavras
 - 📄 [mensagem-Boas Praticas e Templates de Atendimento] — 27 palavras
 - 📄 [Basico operacional] — 26 palavras
 - 📄 [modelos-de-conteudos-collectors] — 25 palavras
-- 📄 [Perfil_Cliente_David_Januario_Antunes] — 22 palavras
 - 📄 [precificacoes] — 22 palavras
 - 📄 [categoria] — 20 palavras
 - 📄 [mensagem-modelos-de-mensagens] — 18 palavras
@@ -1838,36 +1467,49 @@
 - 📄 [Setores_e_Processos (2)] — 12 palavras
 - 📄 [mensagem-boas-vindas-modelos-de-mensagens-collecors] — 11 palavras
 - 📄 [mensagem-confirmacao-de-envio-pedido] — 10 palavras
-- 📄 [perfil-cliente-Kaique Marques] — 9 palavras
 - 📄 [plano 4] — 8 palavras
 - 📄 [selection2] — 8 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 29.765 palavras
-- Média por nota: 171,1 palavras
-- Número de notas: 174
+- Total: 28.808 palavras
+- Média por nota: 188,3 palavras
+- Número de notas: 153
 
-### 📘 ebooks
+##### 📗 collectors-tutorials
+
+- 📄 [collectors-tutorials] — 113 palavras
+- 📄 [Tutoriais-olist] — 79 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 192 palavras
+- Média por nota: 96,0 palavras
+- Número de notas: 2
+
+### 📘 independent
+
+- 📄 [scisync-post-ideas] — 1.035 palavras
+- 📄 [mentoria.prl] — 1.000 palavras
+- 📄 [scisync] — 856 palavras
+- 📄 [scisync-visao] — 388 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 3.279 palavras
+- Média por nota: 819,8 palavras
+- Número de notas: 4
+
+#### 📙 ebooks
 
 - 📄 [ebook-carlos] — 4.606 palavras
 - 📄 [producao-de-uma-plr] — 2.124 palavras
 - 📄 [material-copy-carlos] — 606 palavras
+- 📄 [scisync-descricoes-servicos] — 323 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 7.336 palavras
-- Média por nota: 2.445,3 palavras
-- Número de notas: 3
+- Total: 7.659 palavras
+- Média por nota: 1.914,8 palavras
+- Número de notas: 4
 
-### 📘 livro 1
-
-- 📄 [sumary] — 141 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 141 palavras
-- Média por nota: 141,0 palavras
-- Número de notas: 1
-
-### 📘 social-media-project
+#### 📙 social-media-project
 
 - 📄 [!insta-1] — 2.784 palavras
 
@@ -1876,9 +1518,9 @@
 - Média por nota: 2.784,0 palavras
 - Número de notas: 1
 
-#### 📙 modulos-start
+##### 📗 modulos-start
 
-##### 📗 1-modulo
+###### 📄 1-modulo
 
 - 📄 [3.1-31-tipos-marketing-de-conteudo] — 3.786 palavras
 - 📄 [3.2-28-tipos-de-conteudos-para-leads] — 3.365 palavras
@@ -1912,7 +1554,7 @@
 - Média por nota: 190,0 palavras
 - Número de notas: 1
 
-##### 📗 2-modulo
+###### 📄 2-modulo
 
 - 📄 [10-comunicacao] — 16 palavras
 - 📄 [7-referenciando] — 14 palavras
@@ -1926,7 +1568,7 @@
 - Média por nota: 12,8 palavras
 - Número de notas: 6
 
-##### 📗 3-modulo
+###### 📄 3-modulo
 
 - 📄 [brandin--identidade-visual] — 193 palavras
 - 📄 [13-inteligencias-artificiais] — 11 palavras
@@ -1939,7 +1581,7 @@
 - Média por nota: 46,2 palavras
 - Número de notas: 5
 
-##### 📗 4-modulo
+###### 📄 4-modulo
 
 - 📄 [15-relatorios-planejamento-2] — 8 palavras
 - 📄 [16-referenciar-2] — 8 palavras
@@ -1951,7 +1593,7 @@
 - Média por nota: 8,0 palavras
 - Número de notas: 4
 
-##### 📗 5-modulo
+###### 📄 5-modulo
 
 - 📄 [19-cliente-ideial] — 8 palavras
 - 📄 [20-prospeccao] — 8 palavras
@@ -1962,7 +1604,7 @@
 - Média por nota: 8,0 palavras
 - Número de notas: 3
 
-### 📘 webdesign
+#### 📙 webdesign
 
 - 📄 [web-designer-lancamentos] — 928 palavras
 - 📄 [!web.landing.pages] — 446 palavras
@@ -1973,50 +1615,93 @@
 - Média por nota: 544,0 palavras
 - Número de notas: 3
 
-#### 📙 franvce
+##### 📗 franvce
 
-- 📄 [tips] — 3.074 palavras
-- 📄 [tools] — 1.476 palavras
 - 📄 [trends] — 840 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 5.390 palavras
-- Média por nota: 1.796,7 palavras
-- Número de notas: 3
+- Total: 840 palavras
+- Média por nota: 840,0 palavras
+- Número de notas: 1
 
 ## 📂 AREAS
 
-### 📘 Writing
+### 📘 Career-development
 
-- 📄 [von-8291] — 192 palavras
-- 📄 [Writing] — 73 palavras
+- 📄 [Portifolio-Content] — 876 palavras
+- 📄 [Career-development] — 117 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 265 palavras
-- Média por nota: 132,5 palavras
+- Total: 993 palavras
+- Média por nota: 496,5 palavras
 - Número de notas: 2
 
-#### 📙 workspaces
+### 📘 PKM-Youtube-Videos
 
-- 📄 [tabela-capitulos-livro-sonda] — 433 palavras
+- 📄 [importancia-nota-diaria] — 355 palavras
+- 📄 [conceitos-fundamentais] — 101 palavras
+- 📄 [PKM-Youtube-Videos] — 98 palavras
+- 📄 [serie-plugins-da-comunidade] — 48 palavras
+- 📄 [notes-gallery] — 30 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 433 palavras
-- Média por nota: 433,0 palavras
+- Total: 632 palavras
+- Média por nota: 126,4 palavras
+- Número de notas: 5
+
+### 📘 Writing
+
+- 📄 [Writing] — 91 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 91 palavras
+- Média por nota: 91,0 palavras
+- Número de notas: 1
+
+#### 📙 RawThoughts
+
+- 📄 [algumas reflexões existencias] — 301 palavras
+- 📄 [outras-reflexoes] — 147 palavras
+- 📄 [RawThoughts] — 36 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 484 palavras
+- Média por nota: 161,3 palavras
+- Número de notas: 3
+
+#### 📙 von
+
+- 📄 [book-V.N.E.S.T.] — 185 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 185 palavras
+- Média por nota: 185,0 palavras
 - Número de notas: 1
 
 ##### 📗 Chapters
 
-- 📄 [book-writing-sonda-chapter-1] — 85 palavras
+- 📄 [1-chapter-prologo] — 400 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 85 palavras
-- Média por nota: 85,0 palavras
+- Total: 400 palavras
+- Média por nota: 400,0 palavras
 - Número de notas: 1
 
-##### 📗 Writing
+##### 📗 conceitos
 
-- 📄 [1-resumo-ideia-base] — 381 palavras
+- 📄 [tabela-de-resumo-capitulos] — 433 palavras
+- 📄 [parametros-de-viagens-universo] — 379 palavras
+- 📄 [catacteristicas-VNEST] — 332 palavras
+- 📄 [mapas-galaticos] — 76 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 1.220 palavras
+- Média por nota: 305,0 palavras
+- Número de notas: 4
+
+##### 📗 definitions
+
+- 📄 [1-resumo-ideia-base] — 410 palavras
 - 📄 [eu-nos] — 264 palavras
 - 📄 [solidao] — 188 palavras
 - 📄 [livre-arbitrio-nietzsche] — 174 palavras
@@ -2026,87 +1711,50 @@
 - 📄 [2-conceitos-ordem] — 80 palavras
 - 📄 [o-poder-do-coletivo] — 80 palavras
 - 📄 [conhecimento] — 76 palavras
+- 📄 [3-definicoes-ciencia-logica-coginicao] — 75 palavras
 - 📄 [paradoxo-onipotencia] — 71 palavras
 - 📄 [carbono] — 68 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 1.698 palavras
-- Média por nota: 141,5 palavras
-- Número de notas: 12
-
-##### 📗 characters
-
-- 📄 [sonda-principal] — 88 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 88 palavras
-- Média por nota: 88,0 palavras
-- Número de notas: 1
-
-##### 📗 definitions
-
-- 📄 [3-definicoes-ciencia-logica-coginicao] — 75 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 75 palavras
-- Média por nota: 75,0 palavras
-- Número de notas: 1
+- Total: 1.802 palavras
+- Média por nota: 138,6 palavras
+- Número de notas: 13
 
 ### 📘 bbHarry
 
-- 📄 [Harry] — 82 palavras
-- 📄 [plano 1] — 39 palavras
+- 📄 [Ideias-de-atividades-harry] — 442 palavras
+- 📄 [BBharry] — 87 palavras
 - 📄 [Atividades-para-FAZER-com-bb] — 38 palavras
 - 📄 [MinhasHistorinhaspBB] — 29 palavras
 - 📄 [AprendizadoDobb] — 25 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 213 palavras
-- Média por nota: 42,6 palavras
+- Total: 621 palavras
+- Média por nota: 124,2 palavras
 - Número de notas: 5
-
-### 📘 pkm-videos
-
-- 📄 [roteiro-video-pkm-importancia-nota-diaria] — 355 palavras
-- 📄 [2025-pkm-videos] — 103 palavras
-- 📄 [conceitos-fundamentais] — 29 palavras
-- 📄 [Exemples] — 0 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 487 palavras
-- Média por nota: 121,8 palavras
-- Número de notas: 4
-
-### 📘 professional-career
-
-- 📄 [Projects Portifolio] — 180 palavras
-- 📄 [Career-development] — 81 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 261 palavras
-- Média por nota: 130,5 palavras
-- Número de notas: 2
 
 # 📁 Entertainment
 
 ## 📂 MUSIC
 
-- 📄 [Clancy -  Twenty One Pilots] — 1.009 palavras
-- 📄 [Tranquility Base Hotel & Casino - INCOMPLETO] — 597 palavras
+- 📄 [album-Clancy -  Twenty One Pilots] — 1.009 palavras
+- 📄 [album-Tranquility Base Hotel & Casino - INCOMPLETO] — 597 palavras
+- 📄 [track-full-moon-lyrics] — 560 palavras
 - 📄 [just_music_lines] — 130 palavras
-- 📄 [les failles - Pomme] — 65 palavras
+- 📄 [album-les failles - Pomme] — 65 palavras
 - 📄 [moc-albuns] — 41 palavras
-- 📄 [Trench - Twenty One Pilots] — 36 palavras
+- 📄 [album-Trench - Twenty One Pilots] — 36 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 1.878 palavras
-- Média por nota: 313,0 palavras
-- Número de notas: 6
+- Total: 2.438 palavras
+- Média por nota: 348,3 palavras
+- Número de notas: 7
 
 # 📁 Social
 
 ## 📂 PEOPLE
 
+- 📄 [nota duda] — 1.625 palavras
 - 📄 [Duda] — 805 palavras
 - 📄 [ME] — 431 palavras
 - 📄 [Jhee] — 212 palavras
@@ -2116,9 +1764,9 @@
 - 📄 [Mae] — 12 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 1.735 palavras
-- Média por nota: 247,9 palavras
-- Número de notas: 7
+- Total: 3.360 palavras
+- Média por nota: 420,0 palavras
+- Número de notas: 8
 
 ## 📂 Thinking
 
@@ -2132,21 +1780,14 @@
 
 # 📁 System
 
-- 📄 [index_notas] — 12.547 palavras
+- 📄 [index_notas] — 11.122 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 12.547 palavras
-- Média por nota: 12.547,0 palavras
+- Total: 11.122 palavras
+- Média por nota: 11.122,0 palavras
 - Número de notas: 1
 
 ## 📂 ASSETS
-
-- 📄 [meta-voult-info] — 367 palavras
-
-**📊 Estatísticas da pasta**:
-- Total: 367 palavras
-- Média por nota: 367,0 palavras
-- Número de notas: 1
 
 ### 📘 Dataview
 
@@ -2298,18 +1939,16 @@
 ### 📘 FORMAT
 
 - 📄 [template-book-writing] — 503 palavras
-- 📄 [template_area] — 136 palavras
-- 📄 [template_data_project_checklist] — 125 palavras
-- 📄 [template_area_note] — 68 palavras
-- 📄 [template-personagem] — 54 palavras
-- 📄 [template-album-music] — 41 palavras
+- 📄 [template_area] — 115 palavras
+- 📄 [template_area_note] — 60 palavras
+- 📄 [template-album-music] — 38 palavras
 - 📄 [template-nota-pessoa] — 34 palavras
 - 📄 [template_new_note] — 11 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 972 palavras
-- Média por nota: 121,5 palavras
-- Número de notas: 8
+- Total: 761 palavras
+- Média por nota: 126,8 palavras
+- Número de notas: 6
 
 #### 📙 ATLAS
 
@@ -2323,12 +1962,22 @@
 
 #### 📙 CALENDAR
 
-- 📄 [template_daily_note] — 130 palavras
+- 📄 [template_daily_note] — 162 palavras
 - 📄 [template_month_note] — 53 palavras
 
 **📊 Estatísticas da pasta**:
-- Total: 183 palavras
-- Média por nota: 91,5 palavras
+- Total: 215 palavras
+- Média por nota: 107,5 palavras
+- Número de notas: 2
+
+#### 📙 WRITING
+
+- 📄 [template-RAW-THOUGHTS] — 25 palavras
+- 📄 [template-book-von-sonda] — 20 palavras
+
+**📊 Estatísticas da pasta**:
+- Total: 45 palavras
+- Média por nota: 22,5 palavras
 - Número de notas: 2
 
 ---

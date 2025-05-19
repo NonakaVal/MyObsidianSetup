@@ -106,7 +106,6 @@ HUB:
 ---
 
 
----
 
 ## 🔄 3.1 Manipulação de Dados
 
@@ -130,7 +129,6 @@ HUB:
 	- [[doc-pandas-methods|Métodos do Pandas]]
 	- [[concept-python-pandas-loc-iloc-method-selection|loc e iloc]]
 
----
 
 ## 🚶 Walkthroughs Práticos
 

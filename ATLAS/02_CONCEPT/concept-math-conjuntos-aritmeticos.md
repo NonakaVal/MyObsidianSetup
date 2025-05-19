@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 created: "[[2024-03-21]]"
-hub:
+HUB:
   - "[[hub-math]]"
 ---
 ### [[concept-math-conjuntos-aritmeticos]]

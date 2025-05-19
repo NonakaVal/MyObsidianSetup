@@ -1,5 +1,5 @@
 ---
-hub:
+HUB:
   - "[[hub-python]]"
 tags:
   - learning

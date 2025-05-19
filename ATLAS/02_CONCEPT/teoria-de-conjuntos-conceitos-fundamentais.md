@@ -2,7 +2,7 @@
 tags:
   - learning
 created: "[[2024-04-09]]"
-hub:
+HUB:
   - "[[hub-math]]"
 ---
 ### [[teoria-de-conjuntos-conceitos-fundamentais]]

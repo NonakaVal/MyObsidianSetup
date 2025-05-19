@@ -15,48 +15,77 @@ Last modified : `$= dv.current().file.mtime`
 Mood : `INPUT[inlineSelect(option('🙂 – Neutral'), option('😄 – Happy'), option('😐 – Meh'), option('😞 – Sad'), option('😠 – Frustrated'), showcase):daily-mood]`
 
 
+[ouça isso dnv](https://www.instagram.com/reel/DJm32VysB23/?igsh=aTA2bXlzbTd0emhm)
 
 ---
 
 # Log
 
+[📁 Documents](file:///C:/Users/nonak/Documents) 
+[📁 PythonScripts](file:///C:/Users/nonak/Documents/PythonScripts) 
+[📁 nonaka](file:///C:/Users/nonak/Documents/MyApps/nonaka) 
+
 
 
 ---
 
-## Efforts
+
+## on Going and tasks
+
 
 ````tabs
-tab: Tasks
+tab: Area Family
+```dataview
+table area_category as "Area Category", created as "Date Created" from "Efforts/AREAS"
+WHERE type = "area_family"
+SORT file.mtime DESC
+```
+
+tab: Career 
+![[Career-development]]
+
+tab: Writing Notes
+![[Writing]]
+
+tab: Harry
+![[Efforts/AREAS/bbHarry/BBharry|BBharry]]
+
+tab: Pkm Youtube Videos
+![[2025-pkm-videos]]
+
+````
+
+````tabs
+tab: Areas Tasks
 ```dataview
 TASK
-FROM "Efforts" 
+FROM "Efforts/AREAS" 
 WHERE !completed AND !checked
 GROUP BY file.name
+SORT file.mtime DESC
 
 ```
-Calendar Tasks
+
+tab: Calendar Tasks
 ```dataview
 TASK
 FROM "Calendar" AND -#inlog AND -#lost-codes 
 WHERE !completed AND !checked
 
 ```
-tab: Areas and Projets
+
+tab: Done Efforts
 ```dataview
-table area_category as "Area Category", created as "Date Created" from "Efforts/AREAS"
-WHERE type = "area_family"
-SORT file.mtime DESC
+TASK
+FROM "Efforts" 
+WHERE completed AND checked
+GROUP BY file.name
+
 ```
-```dataview
-table created as "Date Created" from "Efforts"
-WHERE type = "project-base"
-SORT file.mtime DESC
-```
-
-
-
 ````
+
+
+
 
 ---
 

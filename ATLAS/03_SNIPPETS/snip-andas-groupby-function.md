@@ -3,7 +3,7 @@ tags:
   - learning/review
   - snippet
 created: "[[2024-04-01]]"
-hub:
+HUB:
   - "[[hub-python]]"
 origin: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
 connections:

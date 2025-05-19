@@ -3,7 +3,7 @@ tags:
   - learning
   - tocomplete/refatorar
 created: "[[2024-05-07]]"
-hub:
+HUB:
   - "[[hub-math]]"
 ---
 ### [[concept-math-funcoes-aritimeticas]]

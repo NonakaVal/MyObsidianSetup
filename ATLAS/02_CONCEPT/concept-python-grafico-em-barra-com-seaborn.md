@@ -2,7 +2,7 @@
 tags:
   - learning
   - 
-hub:
+HUB:
   - "[[hub-visualization-data]]"
 ---
 

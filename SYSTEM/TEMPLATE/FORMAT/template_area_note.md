@@ -3,19 +3,16 @@ created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 area: "[[<% tp.file.folder() %>]]"
 summary: 
 tags: 
-cssclasses:
-  - hide-properties_editing
-  - hide-properties_reading
 ---
-Last modified : `$= dv.current().file.mtime`
 
-# Set first
 
-Summary and Purpose : `INPUT[text(showcase):summary]`
 
-Area Notes Related : `INPUT[inlineListSuggester(optionQuery(#area)):connections]` 
+Summary and Purpose : `INPUT[text(showcase):summary]` - Area Notes Related : `INPUT[inlineListSuggester(optionQuery(#area)):connections]` 
 
-# Log
+# [[<% tp.file.title %>]]
+
+
+## Log
 
 
 ---
@@ -31,5 +28,6 @@ Area Notes Related : `INPUT[inlineListSuggester(optionQuery(#area)):connections]
 
 
 ---
+
 
 Last modified : `$= dv.current().file.mtime`

@@ -2,7 +2,7 @@
 tags:
   - learning
 created: "[[2024-03-29]]"
-hub:
+HUB:
   - "[[hub-python]]"
 origin: https://docs.pandas-ai.com/en/latest/
 ---

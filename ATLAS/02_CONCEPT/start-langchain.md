@@ -2,7 +2,7 @@
 tags:
   - learning
 created: "[[2024-04-27]]"
-hub:
+HUB:
   - "[[hub-python]]"
 ---
 ### [[start-langchain]]

@@ -14,7 +14,7 @@ HUB:
     - [[principais-erros-estatisticos|Principais-Erros-Estatisticos]]
 - book  **5.2 Marketing Digital**
     
-    - [[playbook-ecommerce|Guia-para-Ecommerce]]
+    - [[flow-playbook-ecommerce|Guia-para-Ecommerce]]
     - [[playbook-infoproduto|Guia-para-Infoprodutos]]
     - [[concept-growth-pilar-engajamento.copy|Engajamento:-Copywriting]]
     - [[concept-growth-pilar-engajamento.design|Engajamento:-Design]]

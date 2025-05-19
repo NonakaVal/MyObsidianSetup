@@ -1,7 +1,7 @@
 ---
 tags:
   - learning
-hub:
+HUB:
   - "[[hub-tec]]"
   - "[[hub-sql]]"
 created: "[[2024-03-26]]"
