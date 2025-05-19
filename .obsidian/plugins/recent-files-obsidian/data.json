@@ -1,140 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "index_notas",
       "path": "index_notas.md"
     },
     {
-      "basename": "quotes",
-      "path": "quotes.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "index-matematica-e-logica",
-      "path": "Atlas/01_INDEX/index-matematica-e-logica.md"
+      "basename": "doc-github-commit-message-convention",
+      "path": "Atlas/05_DOC/doc-github-commit-message-convention.md"
     },
     {
-      "basename": "index-estatistica",
-      "path": "Atlas/01_INDEX/index-estatistica.md"
+      "basename": "index_notas",
+      "path": "System/index_notas.md"
     },
     {
-      "basename": "template_area",
-      "path": "SYSTEM/TEMPLATE/template_area.md"
+      "basename": "2025-05-16",
+      "path": "Calendar/DAILY/2025-05-16.md"
     },
     {
-      "basename": "template_area_note",
-      "path": "SYSTEM/TEMPLATE/template_area_note.md"
+      "basename": "2025-05-15",
+      "path": "Calendar/DAILY/2025-05-15.md"
     },
     {
-      "basename": "template_project",
-      "path": "SYSTEM/TEMPLATE/template_project.md"
+      "basename": "2025-05-18",
+      "path": "Calendar/DAILY/2025-05-18.md"
     },
     {
-      "basename": "template_new_note",
-      "path": "SYSTEM/TEMPLATE/template_new_note.md"
+      "basename": "2025-05-19",
+      "path": "Calendar/DAILY/2025-05-19.md"
     },
     {
-      "basename": "moc-mkt-menagement",
-      "path": "Atlas/08_MAPS/moc-mkt-menagement.md"
+      "basename": "tipos-de-comandos-mysql",
+      "path": "Atlas/02_CONCEPT/tipos-de-comandos-mysql.md"
     },
     {
-      "basename": "moc-programacao",
-      "path": "Atlas/08_MAPS/moc-programacao.md"
+      "basename": "planejamento-banco-de-dados",
+      "path": "Atlas/00_DRAFT/planejamento-banco-de-dados.md"
     },
     {
-      "basename": "moc-tec",
-      "path": "Atlas/08_MAPS/moc-tec.md"
+      "basename": "draft-green-it-introducao",
+      "path": "Atlas/00_DRAFT/draft-green-it-introducao.md"
     },
     {
-      "basename": "moc-estatistica",
-      "path": "Atlas/08_MAPS/moc-estatistica.md"
+      "basename": "scisync",
+      "path": "Efforts/ARCHIVES/independent/scisync.md"
     },
     {
-      "basename": "moc-datascience",
-      "path": "Atlas/08_MAPS/moc-datascience.md"
+      "basename": "web-designer-lancamentos",
+      "path": "Efforts/ARCHIVES/independent/webdesign/web-designer-lancamentos.md"
     },
     {
-      "basename": "2025-05-03",
-      "path": "Calendar/DAILY/2025-05-03.md"
+      "basename": "web.design",
+      "path": "Efforts/ARCHIVES/independent/webdesign/web.design.canvas"
     },
     {
-      "basename": "62-frases-friedrich-nietzsche",
-      "path": "SOCIAL/Thinking/62-frases-friedrich-nietzsche.md"
+      "basename": "briefing",
+      "path": "Efforts/ARCHIVES/independent/webdesign/briefing.md"
     },
     {
-      "basename": "solidao",
-      "path": "SOCIAL/Writing/solidao.md"
+      "basename": "trends",
+      "path": "Efforts/ARCHIVES/independent/webdesign/franvce/trends.md"
     },
     {
-      "basename": "paradoxo-onipotencia",
-      "path": "SOCIAL/Writing/paradoxo-onipotencia.md"
+      "basename": "draft-franvce-tools",
+      "path": "Atlas/00_DRAFT/draft-franvce-tools.md"
     },
     {
-      "basename": "o-poder-do-coletivo",
-      "path": "SOCIAL/Writing/o-poder-do-coletivo.md"
+      "basename": "mentoria.prl",
+      "path": "Efforts/ARCHIVES/independent/mentoria.prl.md"
     },
     {
-      "basename": "limite-individualidade",
-      "path": "SOCIAL/Writing/limite-individualidade.md"
+      "basename": "!web.landing.pages",
+      "path": "Efforts/ARCHIVES/independent/webdesign/!web.landing.pages.md"
     },
     {
-      "basename": "humanidade",
-      "path": "SOCIAL/Writing/humanidade.md"
+      "basename": "draft-franvce-ux-ui-tips",
+      "path": "Atlas/00_DRAFT/draft-franvce-ux-ui-tips.md"
     },
     {
-      "basename": "eu-nos",
-      "path": "SOCIAL/Writing/eu-nos.md"
+      "basename": "3.1-31-tipos-marketing-de-conteudo",
+      "path": "Efforts/ARCHIVES/independent/social-media-project/modulos-start/1-modulo/3.1-31-tipos-marketing-de-conteudo.md"
     },
     {
-      "basename": "conhecimento",
-      "path": "SOCIAL/Writing/conhecimento.md"
+      "basename": "templates-mensagens-collectorguardian",
+      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/templates-mensagens-collectorguardian.md"
     },
     {
-      "basename": "carbono",
-      "path": "SOCIAL/Writing/carbono.md"
+      "basename": "modelos-de-mensagens",
+      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/modelos-de-mensagens.md"
     },
     {
-      "basename": "a-morte",
-      "path": "SOCIAL/Writing/a-morte.md"
+      "basename": "flow-playbook-ecommerce",
+      "path": "Atlas/06_WORKFLOW/flow-playbook-ecommerce.md"
     },
     {
-      "basename": "3-definicoes-ciencia-logica-coginicao",
-      "path": "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md"
+      "basename": "Data Science Python Maps",
+      "path": "Atlas/08_MAPS/Data Science Python Maps.md"
     },
     {
-      "basename": "2-conceitos-ordem",
-      "path": "SOCIAL/Writing/2-conceitos-ordem.md"
+      "basename": "draft-graphs",
+      "path": "Atlas/00_DRAFT/draft-graphs.canvas"
     },
     {
-      "basename": "2025-05-02",
-      "path": "Calendar/DAILY/2025-05-02.md"
+      "basename": "just_music_lines",
+      "path": "Entertainment/MUSIC/just_music_lines.md"
     },
     {
-      "basename": "serie-playlist-entendendo-pkm",
-      "path": "Efforts/ARCHIVES/PKM-Youtube-Videos/serie-playlist-entendendo-pkm.md"
+      "basename": "album-Trench - Twenty One Pilots",
+      "path": "Entertainment/MUSIC/album-Trench - Twenty One Pilots.md"
     },
     {
-      "basename": "Tutoriais-olist",
-      "path": "Efforts/PROJECTS/collectors-tutorials/Tutoriais-olist.md"
+      "basename": "album-Tranquility Base Hotel & Casino - INCOMPLETO",
+      "path": "Entertainment/MUSIC/album-Tranquility Base Hotel & Casino - INCOMPLETO.md"
     },
     {
-      "basename": "collectors-tutorials",
-      "path": "Efforts/PROJECTS/collectors-tutorials/collectors-tutorials.md"
+      "basename": "album-les failles - Pomme",
+      "path": "Entertainment/MUSIC/album-les failles - Pomme.md"
     },
     {
-      "basename": "bbHarry",
-      "path": "Efforts/AREAS/bbHarry/bbHarry.md"
+      "basename": "album-Clancy -  Twenty One Pilots",
+      "path": "Entertainment/MUSIC/album-Clancy -  Twenty One Pilots.md"
     },
     {
-      "basename": "AprendizadoDobb",
-      "path": "Efforts/AREAS/bbHarry/AprendizadoDobb.md"
+      "basename": "track-full-moon-lyrics",
+      "path": "Entertainment/MUSIC/track-full-moon-lyrics.md"
+    },
+    {
+      "basename": "2025-04-18",
+      "path": "Calendar/DAILY/2025-04-18.md"
+    },
+    {
+      "basename": "2025-01-11",
+      "path": "Calendar/DAILY/2025-01-11.md"
+    },
+    {
+      "basename": "_GAMES-ANNIVERSARY-LIST",
+      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/_GAMES-ANNIVERSARY-LIST.md"
+    },
+    {
+      "basename": "2025-04-17",
+      "path": "Calendar/DAILY/2025-04-17.md"
+    },
+    {
+      "basename": "2025-04-16",
+      "path": "Calendar/DAILY/2025-04-16.md"
+    },
+    {
+      "basename": "draft-dates-python",
+      "path": "Atlas/00_DRAFT/draft-dates-python.md"
+    },
+    {
+      "basename": "draft-numpy",
+      "path": "Atlas/00_DRAFT/draft-numpy.md"
+    },
+    {
+      "basename": "concept-crew-ai-introduction",
+      "path": "Atlas/02_CONCEPT/concept-crew-ai-introduction.md"
+    },
+    {
+      "basename": "Career-development",
+      "path": "Efforts/AREAS/Career-development/Career-development.md"
+    },
+    {
+      "basename": "memorize os templates abaixo",
+      "path": "Drafts/memorize os templates abaixo.md"
+    },
+    {
+      "basename": "resumo arena",
+      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/resumo arena.md"
+    },
+    {
+      "basename": "BBharry",
+      "path": "Efforts/AREAS/bbHarry/BBharry.md"
+    },
+    {
+      "basename": "Ideias-de-atividades-harry",
+      "path": "Efforts/AREAS/bbHarry/Ideias-de-atividades-harry.md"
     },
     {
       "basename": "Atividades-para-FAZER-com-bb",
       "path": "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md"
+    },
+    {
+      "basename": "Engenharia de prompts",
+      "path": "Drafts/Engenharia de prompts.md"
+    },
+    {
+      "basename": "estudo-exemplo-de-cronograma",
+      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/estudo-exemplo-de-cronograma.md"
+    },
+    {
+      "basename": "draft-alex-sent",
+      "path": "Drafts/draft-alex-sent.md"
+    },
+    {
+      "basename": "Conteudos-sobre-atividades-infantis",
+      "path": "Drafts/Conteudos-sobre-atividades-infantis.md"
     }
   ],
   "omittedPaths": [],

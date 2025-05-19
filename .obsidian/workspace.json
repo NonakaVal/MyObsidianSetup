@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "index_notas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index_notas"
             }
           }
         ]
@@ -90,18 +90,25 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "6b7d45553b46a037",
+        "type": "tabs",
+        "children": [
           {
             "id": "3ccef4ffadaa78ab",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -215,8 +222,7 @@
               "title": "Todo List"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,10 +241,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b9fb9faccc872ea7",
+  "active": "08f8f5660175c4cd",
   "lastOpenFiles": [
-    "index_notas.md",
     "README.md",
+    "index_notas.md",
     "System/ASSETS/VaultSnippets/vault-snippets-dates.md",
     "System/ASSETS/VaultSnippets/vault-snippet-dataview.md",
     "System/ASSETS/VaultSnippets",

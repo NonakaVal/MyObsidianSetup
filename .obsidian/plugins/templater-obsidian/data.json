@@ -32,7 +32,23 @@
     },
     {
       "folder": "Atlas/03_SNIPPETS",
-      "template": "System/TEMPLATE/FORMAT/SNIPTETS/template-snippet.md"
+      "template": "System/TEMPLATE/FORMAT/ATLAS/template-snippet.md"
+    },
+    {
+      "folder": "Efforts/WORKSTATION/BOOKS",
+      "template": "System/TEMPLATE/FORMAT/template-book-writing.md"
+    },
+    {
+      "folder": "Atlas/00_DRAFT",
+      "template": "System/TEMPLATE/FORMAT/ATLAS/template-dratf.md"
+    },
+    {
+      "folder": "Efforts/AREAS/Writing/von",
+      "template": "System/TEMPLATE/FORMAT/WRITING/template-book-von-sonda.md"
+    },
+    {
+      "folder": "Efforts/AREAS",
+      "template": "System/TEMPLATE/FORMAT/template_area_note.md"
     }
   ],
   "enable_file_templates": false,

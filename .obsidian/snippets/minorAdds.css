@@ -1,0 +1,24 @@
+
+/* Page Width: 80% */
+.markdown-preview-view.is-readable-line-width.page-80 .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-80 .cm-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-80 .cm-line,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-80 .cm-content {
+    max-width: 80%;
+}
+
+/* Page Width: 90% */
+.markdown-preview-view.is-readable-line-width.page-90 .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-90 .cm-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-90 .cm-line,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-90 .cm-content {
+    max-width: 90%;
+}
+
+/* Page Width: 100% */
+.markdown-preview-view.is-readable-line-width.page-100 .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-100 .cm-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-100 .cm-line,
+.markdown-source-view.mod-cm6.is-readable-line-width.page-100 .cm-content {
+    max-width: 100%;
+}

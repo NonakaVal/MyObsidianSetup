@@ -248,6 +248,7 @@ var $CountType = /* @__PURE__ */ (($CountType2) => {
   $CountType2["Word"] = "word";
   $CountType2["Page"] = "page";
   $CountType2["PageDecimal"] = "pagedecimal";
+  $CountType2["Linebreak"] = "linebreak";
   $CountType2["ReadTime"] = "readtime";
   $CountType2["PercentGoal"] = "percentgoal";
   $CountType2["Note"] = "note";
@@ -267,6 +268,7 @@ var SESSION_COUNT_TYPES = [
   "word" /* Word */,
   "page" /* Page */,
   "pagedecimal" /* PageDecimal */,
+  "linebreak" /* Linebreak */,
   "note" /* Note */,
   "character" /* Character */
 ];
@@ -275,6 +277,7 @@ var COUNT_TYPE_DISPLAY_STRINGS = {
   ["word" /* Word */]: "Word Count",
   ["page" /* Page */]: "Page Count",
   ["pagedecimal" /* PageDecimal */]: "Page Count (decimal)",
+  ["linebreak" /* Linebreak */]: "Line Break Count",
   ["readtime" /* ReadTime */]: "Reading Time",
   ["percentgoal" /* PercentGoal */]: "% of Word Goal",
   ["note" /* Note */]: "Note Count",
@@ -293,6 +296,7 @@ var COUNT_TYPE_DESCRIPTIONS = {
   ["word" /* Word */]: "Total words.",
   ["page" /* Page */]: "Total pages, rounded up.",
   ["pagedecimal" /* PageDecimal */]: "Total pages, precise to 2 digits after the decimal.",
+  ["linebreak" /* Linebreak */]: "Newlines (\xB6), including empty lines.",
   ["readtime" /* ReadTime */]: "Estimated time to read the note.",
   ["percentgoal" /* PercentGoal */]: "Set a word goal by adding the 'word-goal' property to a note.",
   ["note" /* Note */]: "Total notes.",
@@ -316,6 +320,7 @@ var COUNT_TYPE_DEFAULT_SHORT_SUFFIXES = {
   ["word" /* Word */]: "w",
   ["page" /* Page */]: "p",
   ["pagedecimal" /* PageDecimal */]: "p",
+  ["linebreak" /* Linebreak */]: "\xB6",
   ["percentgoal" /* PercentGoal */]: "%",
   ["note" /* Note */]: "n",
   ["character" /* Character */]: "ch",
@@ -416,11 +421,16 @@ function countMarkdown(content, config) {
   if (wordSequences.length === 1 && wordSequences[0] === "") {
     wordSequences = [];
   }
+  let lineSequences = content.split("\n");
+  if (lineSequences.length === 1 && lineSequences[0] === "") {
+    lineSequences = [];
+  }
   const result = {
     charCount: content.length,
     nonWhitespaceCharCount: countNonWhitespaceCharacters(content),
     spaceDelimitedWordCount: wordSequences.length,
-    cjkWordCount: (content.match(cjkRegex) || []).length
+    cjkWordCount: (content.match(cjkRegex) || []).length,
+    newlineCount: lineSequences.length
   };
   return result;
 }
@@ -496,7 +506,9 @@ var FileHelper = class {
       "qmd",
       "rmd",
       // MD for screenwriters
-      "fountain"
+      "fountain",
+      // LaTeX files
+      "tex"
     ]);
   }
   get settings() {
@@ -553,6 +565,7 @@ var FileHelper = class {
       pageCount: 0,
       characterCount: 0,
       nonWhitespaceCharacterCount: 0,
+      newlineCount: 0,
       readingTimeInMinutes: 0,
       linkCount: 0,
       embedCount: 0,
@@ -565,7 +578,8 @@ var FileHelper = class {
         pageCount: 0,
         wordCount: 0,
         characterCount: 0,
-        nonWhitespaceCharacterCount: 0
+        nonWhitespaceCharacterCount: 0,
+        newlineCount: 0
       }
     };
     return childPaths.reduce((total, childPath) => {
@@ -583,6 +597,7 @@ var FileHelper = class {
         pageCount: total.pageCount + childCount.pageCount,
         characterCount: total.characterCount + childCount.characterCount,
         nonWhitespaceCharacterCount: total.nonWhitespaceCharacterCount + childCount.nonWhitespaceCharacterCount,
+        newlineCount: total.newlineCount + childCount.newlineCount,
         readingTimeInMinutes: total.readingTimeInMinutes + childCount.readingTimeInMinutes,
         createdDate: total.createdDate === 0 ? childCount.createdDate : Math.min(total.createdDate, childCount.createdDate),
         modifiedDate: Math.max(total.modifiedDate, childCount.modifiedDate),
@@ -592,7 +607,8 @@ var FileHelper = class {
           pageCount: total.sessionStart.pageCount + childCount.sessionStart.pageCount,
           wordCount: total.sessionStart.wordCount + childCount.sessionStart.wordCount,
           characterCount: total.sessionStart.characterCount + childCount.sessionStart.characterCount,
-          nonWhitespaceCharacterCount: total.sessionStart.nonWhitespaceCharacterCount + childCount.sessionStart.nonWhitespaceCharacterCount
+          nonWhitespaceCharacterCount: total.sessionStart.nonWhitespaceCharacterCount + childCount.sessionStart.nonWhitespaceCharacterCount,
+          newlineCount: total.sessionStart.newlineCount + childCount.sessionStart.newlineCount
         }
       };
     }, directoryDefault);
@@ -654,6 +670,7 @@ var FileHelper = class {
       pageCount: 0,
       characterCount: 0,
       nonWhitespaceCharacterCount: 0,
+      newlineCount: 0,
       readingTimeInMinutes: 0,
       linkCount: 0,
       embedCount: 0,
@@ -666,7 +683,8 @@ var FileHelper = class {
         pageCount: 0,
         wordCount: 0,
         characterCount: 0,
-        nonWhitespaceCharacterCount: 0
+        nonWhitespaceCharacterCount: 0,
+        newlineCount: 0
       } : existingSession
     };
     if (!shouldCountFile) {
@@ -711,6 +729,7 @@ var FileHelper = class {
       pageCount,
       characterCount: countResult.charCount,
       nonWhitespaceCharacterCount: countResult.nonWhitespaceCharCount,
+      newlineCount: countResult.newlineCount,
       readingTimeInMinutes,
       linkCount: this.countLinks(metadata),
       embedCount: this.countEmbeds(metadata),
@@ -723,7 +742,8 @@ var FileHelper = class {
           pageCount,
           wordCount: combinedWordCount,
           characterCount: countResult.charCount,
-          nonWhitespaceCharacterCount: countResult.nonWhitespaceCharCount
+          nonWhitespaceCharacterCount: countResult.nonWhitespaceCharCount,
+          newlineCount: countResult.newlineCount
         } : {}
       }
     });
@@ -964,7 +984,7 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDefault.format(Math.ceil(counts.wordCount)),
           noun: "word",
-          abbreviatedNoun: "w",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["word" /* Word */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -972,7 +992,7 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDefault.format(Math.ceil(counts.pageCount)),
           noun: "page",
-          abbreviatedNoun: "p",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["page" /* Page */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -980,7 +1000,15 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDecimal.format(counts.pageCount),
           noun: "page",
-          abbreviatedNoun: "p",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["pagedecimal" /* PageDecimal */],
+          abbreviateDescriptions,
+          customSuffix: config.customSuffix
+        });
+      case "linebreak" /* Linebreak */:
+        return this.getBasicCountString({
+          count: NumberFormatDefault.format(counts.newlineCount),
+          noun: "line",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["linebreak" /* Linebreak */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -998,7 +1026,7 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDefault.format(counts.noteCount),
           noun: "note",
-          abbreviatedNoun: "n",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["note" /* Note */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -1007,7 +1035,7 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDefault.format(characterCount),
           noun: "character",
-          abbreviatedNoun: "ch",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["character" /* Character */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -1024,7 +1052,7 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDefault.format(counts.linkCount),
           noun: "link",
-          abbreviatedNoun: "x",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["link" /* Link */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -1035,7 +1063,7 @@ var NodeLabelHelper = class {
         return this.getBasicCountString({
           count: NumberFormatDefault.format(counts.embedCount),
           noun: "embed",
-          abbreviatedNoun: "em",
+          abbreviatedNoun: COUNT_TYPE_DEFAULT_SHORT_SUFFIXES["embed" /* Embed */],
           abbreviateDescriptions,
           customSuffix: config.customSuffix
         });
@@ -1103,6 +1131,8 @@ var NodeLabelHelper = class {
         return NumberFormatDefault.format(Math.ceil(counts.pageCount - counts.sessionStart.pageCount));
       case "pagedecimal" /* PageDecimal */:
         return NumberFormatDecimal.format(counts.pageCount - counts.sessionStart.pageCount);
+      case "linebreak" /* Linebreak */:
+        return NumberFormatDefault.format(counts.newlineCount - counts.sessionStart.newlineCount);
       case "note" /* Note */:
         return NumberFormatDefault.format(counts.noteCount - counts.sessionStart.noteCount);
       case "character" /* Character */: {

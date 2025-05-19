@@ -4,78 +4,46 @@
   "ignoreForceViewAll": true,
   "folders": [
     {
-      "folder": "PARA",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "ZETA",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "DAILY",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "STICKY",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "HUB",
+      "folder": "System/HUB",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "PARA/ARCHIVES",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "SYSTEM/GETTING STARTED",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "SYSTEM/MEDIA",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "SYSTEM/TEMPLATE",
+      "folder": "System/TEMPLATE",
       "viewMode": "obsidianEditingMode: source"
     },
     {
-      "folder": "SYSTEM/DESIGN",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "SYSTEM/MOBILE HUB",
+      "folder": "Atlas/01_INDEX",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "ZETA/PERMANENT",
+      "folder": "Atlas/05_DOC",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Atlas/06_WORKFLOW",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Atlas/08_MAPS",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Calendar",
+      "viewMode": "default"
+    },
+    {
+      "folder": "System/ASSETS",
+      "viewMode": "obsidianEditingMode: source"
     }
   ],
   "files": [
     {
-      "filePattern": "HUB/Homepage",
+      "filePattern": "Efforts/AREAS/Writing/von/conceitos/mapas-galaticos.md",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "HUB/Map of Content",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "HUB/Mail Box",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "SYSTEM/MOBILE HUB/Mobile Homepage",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "SYSTEM/MOBILE HUB/Mobile Map of Content",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "SYSTEM/MOBILE HUB/Mobile Mail Box",
-      "viewMode": "obsidianUIMode: preview"
+      "filePattern": "",
+      "viewMode": ""
     }
   ]
 }

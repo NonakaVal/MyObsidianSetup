@@ -1,0 +1,15 @@
+.table-view-table td:nth-child(1) {
+
+min-width: 150px;
+
+}
+
+.hover-popover .inline-title, .inline-embed .inline-title {
+	display: inline;
+}
+
+
+.nav-file-title, .nav-folder-title, .nav-file-title-content {
+    white-space: normal;
+}
+

@@ -1,23 +1,23 @@
 {
   "showGettingStartedBanner": true,
-  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "",
-    "template": "SYSTEM/TEMPLATE/template_daily_note.md",
     "folder": "Calendar/DAILY",
+    "template": "System/TEMPLATE/FORMAT/CALENDAR/template_daily_note.md",
     "enabled": true
   },
   "weekly": {
     "format": "",
-    "template": "",
+    "template": "SYSTEM/TEMPLATE/FORMAT/template_weekly_note.md",
     "folder": "Calendar/WEEKLY",
     "enabled": false
   },
   "monthly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "System/TEMPLATE/FORMAT/CALENDAR/template_month_note.md",
+    "folder": "Calendar/MONTHLY",
+    "enabled": true
   },
   "quarterly": {
     "format": "",
@@ -27,6 +27,7 @@
   "yearly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": false
   }
 }
