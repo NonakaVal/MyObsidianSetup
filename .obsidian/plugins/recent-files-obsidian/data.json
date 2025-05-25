@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "PKM-Youtube-Videos",
+      "path": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
+    },
+    {
+      "basename": "conceitos-fundamentais",
+      "path": "Efforts/AREAS/PKM-Youtube-Videos/conceitos-fundamentais.md"
+    },
+    {
+      "basename": "MinhasHistorinhaspBB",
+      "path": "Efforts/AREAS/bbHarry/MinhasHistorinhaspBB.md"
+    },
+    {
+      "basename": "Ideias-de-atividades-harry",
+      "path": "Efforts/AREAS/bbHarry/Ideias-de-atividades-harry.md"
+    },
+    {
+      "basename": "Atividades-para-FAZER-com-bb",
+      "path": "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md"
+    },
+    {
+      "basename": "AprendizadoDobb",
+      "path": "Efforts/AREAS/bbHarry/AprendizadoDobb.md"
+    },
+    {
+      "basename": "mentoria.prl",
+      "path": "Efforts/ARCHIVES/independent/mentoria.prl.md"
+    },
+    {
+      "basename": "scisync",
+      "path": "Efforts/ARCHIVES/independent/scisync.md"
+    },
+    {
+      "basename": "scisync-post-ideas",
+      "path": "Efforts/ARCHIVES/independent/scisync-post-ideas.md"
     },
     {
       "basename": "index_notas",
       "path": "index_notas.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "index-advanced-functions",
@@ -23,10 +59,6 @@
     {
       "basename": "index-metodos-de-testes-hipoteses",
       "path": "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md"
-    },
-    {
-      "basename": "PKM-Youtube-Videos",
-      "path": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
     },
     {
       "basename": "2025-05-19",
@@ -81,10 +113,6 @@
       "path": "Atlas/00_DRAFT/draft-green-it-introducao.md"
     },
     {
-      "basename": "scisync",
-      "path": "Efforts/ARCHIVES/independent/scisync.md"
-    },
-    {
       "basename": "web-designer-lancamentos",
       "path": "Efforts/ARCHIVES/independent/webdesign/web-designer-lancamentos.md"
     },
@@ -103,10 +131,6 @@
     {
       "basename": "draft-franvce-tools",
       "path": "Atlas/00_DRAFT/draft-franvce-tools.md"
-    },
-    {
-      "basename": "mentoria.prl",
-      "path": "Efforts/ARCHIVES/independent/mentoria.prl.md"
     },
     {
       "basename": "!web.landing.pages",
@@ -175,30 +199,6 @@
     {
       "basename": "_GAMES-ANNIVERSARY-LIST",
       "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/_GAMES-ANNIVERSARY-LIST.md"
-    },
-    {
-      "basename": "2025-04-17",
-      "path": "Calendar/DAILY/2025-04-17.md"
-    },
-    {
-      "basename": "2025-04-16",
-      "path": "Calendar/DAILY/2025-04-16.md"
-    },
-    {
-      "basename": "draft-dates-python",
-      "path": "Atlas/00_DRAFT/draft-dates-python.md"
-    },
-    {
-      "basename": "draft-numpy",
-      "path": "Atlas/00_DRAFT/draft-numpy.md"
-    },
-    {
-      "basename": "concept-crew-ai-introduction",
-      "path": "Atlas/02_CONCEPT/concept-crew-ai-introduction.md"
-    },
-    {
-      "basename": "Career-development",
-      "path": "Efforts/AREAS/Career-development/Career-development.md"
     }
   ],
   "omittedPaths": [],

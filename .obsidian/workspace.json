@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "PKM-Youtube-Videos"
             }
           }
         ]
@@ -90,8 +90,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -217,6 +217,16 @@
             "state": {
               "type": "todo",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6f2f35e9458c9308",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
               "icon": "checkmark",
               "title": "Todo List"
             }
@@ -242,8 +252,22 @@
   },
   "active": "b9fb9faccc872ea7",
   "lastOpenFiles": [
+    "Efforts/ARCHIVES/independent/desktop.ini",
+    "Efforts/AREAS/PKM-Youtube-Videos/conceitos-fundamentais.md",
+    "Efforts/AREAS/bbHarry/MinhasHistorinhaspBB.md",
+    "Efforts/AREAS/bbHarry/Ideias-de-atividades-harry.md",
+    "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md",
+    "Efforts/AREAS/bbHarry/AprendizadoDobb.md",
+    "Efforts/ARCHIVES/independent/mentoria.prl.md",
+    "Efforts/ARCHIVES/independent/scisync.md",
+    "Efforts/ARCHIVES/independent/scisync-post-ideas.md",
     "index_notas.md",
+    "ATLAS/00_DRAFT/desktop.ini",
     "README.md",
+    "Draft/LLM-searches/desktop.ini",
+    "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/desktop.ini",
+    "SYSTEM/ASSETS/VaultSnippets/desktop.ini",
+    "ATLAS/02_CONCEPT/FirstVault/knowledge/neurociência/desktop.ini",
     "Atlas/01_INDEX/index-advanced-functions.md",
     "Atlas/01_INDEX/index-datascience.md",
     "Atlas/01_INDEX/index-mkt-menagement.md",
@@ -261,20 +285,9 @@
     "System/HUB/hub-collectors.md",
     "System/HUB",
     "System/TEMPLATE/FORMAT/WRITING/template-book-von-sonda.md",
-    "System/TEMPLATE/FORMAT/WRITING/template-RAW-THOUGHTS.md",
-    "System/TEMPLATE/FORMAT/ATLAS/template-snippet.md",
-    "System/TEMPLATE/FORMAT/ATLAS/template-dratf.md",
-    "System/TEMPLATE/FORMAT/CALENDAR/template_month_note.md",
-    "System/TEMPLATE/FORMAT/CALENDAR/template_daily_note.md",
     "System/TEMPLATE/FORMAT/WRITING",
-    "System/TEMPLATE/FORMAT/template_new_note.md",
-    "System/TEMPLATE/FORMAT/template-book-writing.md",
-    "System/TEMPLATE/FORMAT/template_area_note.md",
-    "System/TEMPLATE/FORMAT/template_area.md",
     "System/TEMPLATE/FORMAT/ATLAS",
     "System/TEMPLATE/FORMAT/CALENDAR",
-    "System/TEMPLATE/FORMAT",
-    "System/TEMPLATE",
     "System/MEDIA/IMAGENS/15-05/Pasted image 20250518185950.png",
     "System/MEDIA/IMAGENS/15-05/Pasted image 20250518174041.png",
     "System/MEDIA/IMAGENS/PRINTS/_nota-index.png",
@@ -285,9 +298,6 @@
     "System/MEDIA/IMAGENS/PRINTS/PMK.png",
     "System/MEDIA/IMAGENS/PRINTS/OPERATIONAL SYSTEM.png",
     "System/MEDIA/IMAGENS/PRINTS/ML MODELS.png",
-    "System/MEDIA/PDFs/Save the Cat - Blake Snyder.pdf",
-    "System/MEDIA/PDFs/hooks-copy.pdf",
-    "System/MEDIA/PDFs/estatistica descritiva.pdf",
     "Efforts/ARCHIVES/independent/webdesign/web.design.canvas",
     "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas",
     "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",

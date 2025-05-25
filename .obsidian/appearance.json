@@ -8,5 +8,6 @@
     "show-hover-title",
     "MCL Wide Views"
   ],
-  "cssTheme": "Shimmering Focus"
+  "cssTheme": "Shimmering Focus",
+  "theme": "moonstone"
 }
