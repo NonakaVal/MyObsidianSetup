@@ -2,8 +2,7 @@
 
 Subi esse repo para compartilhar minha organização no [Obsidian](https://obsidian.md/) - Estive usando como minha principal ferramenta de gestão de conhecimento por aproximadamente 2 anos. No início apenas para estudo e revisão, porém hoje em dia para muito além disso.
 
-Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
-
+- Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 - [Digital Garden](https://nonaka-garden.vercel.app/) - Página onde compartilho algumas de minhas notas e Recursos de Estudos.
 
 

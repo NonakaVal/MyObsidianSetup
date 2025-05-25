@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index_notas.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index_notas"
+              "title": "README"
             }
           }
         ]
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index_notas.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index_notas"
+              "title": "Outline of README"
             }
           }
         ]
@@ -252,10 +252,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a2bc94ab67cbe8fe",
+  "active": "b9fb9faccc872ea7",
   "lastOpenFiles": [
-    "index_notas.md",
     "_index_notas.md",
+    "index_notas.md",
     "README.md",
     "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md",
     "ATLAS/02_CONCEPT/concept-python-pandas-value-counts-contando-os-valores.md",
