@@ -4,6 +4,7 @@ tags:
 HUB:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"
+dg-publish: true
 ---
 ### Renomear colunas do Dataframe.
 ```css

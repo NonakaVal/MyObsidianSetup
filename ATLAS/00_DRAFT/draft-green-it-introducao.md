@@ -3,7 +3,7 @@ tags:
   - learning
 created: "[[2024-05-10]]"
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 ### [[draft-green-it-introducao]]
 
@@ -57,3 +57,61 @@ HUB:
 	- prática que envolve a identificação de produtos e serviços que cumprem padrões ambientais rigorosos
 - green washing
 	- tática de marketing utilizada por algumas empresas para criar uma imagem positiva de produtos (mas na verdade não estão)
+
+
+ciclo de vida dos equipamentos de ti
+
+- design e manufatura
+- embalagem
+- transporte
+- use
+- reutilize
+- recicle e descarte
+
+técnicas de software de economia de energia
+- vitualização e consolidação dos servidores
+- otmização do codigo dos algoritimos
+- gestão de energia em dispositivos moveis
+- monitoramento e analise consumo
+
+sustentabilidade no entro do desenvolvimento
+
+- *modificabilidade* - capacidade de fazer modificações
+	- design modular
+	- padrões de codificação
+	- documentação adequada
+- *reutilização*
+- bibliotecas e frameworks
+- desing orientado a componentes
+- gerenciamento de dependencias
+- *green it*
+	- optimização de recursos
+	- virtualização
+	- atualizações eficientes
+
+métodos e técnicas aplicadas à criação de sistemas computacionais sustentáveis
+
+- métricas de código - usadas para identificar áreas passíveis de aprimoramento e otimização 
+	- *complexidade ciclomática*
+	- *índice de manutenibilidade*
+	- *densidade de módulos*
+	- *densidade de funções*
+	- *densidade de dados*
+	- 
+- usabilidade de software - facilidade de uso de um software
+	- interface intuitiva
+	- feedback imadiado
+	- ajuda e documentação
+	- treinamento
+- análise de plataforma
+	- desempenho
+	- recursos
+	- segurança
+- métricas de sistemas
+	- taxa de transferencia
+	- latência
+	- consumo de recursos
+	- eficiência energética
+	- resíduos eletronicos
+
+

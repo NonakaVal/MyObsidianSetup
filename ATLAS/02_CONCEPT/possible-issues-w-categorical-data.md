@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 created: "[[18-01-2024]]"
 ---
 2024-01-18  13:55

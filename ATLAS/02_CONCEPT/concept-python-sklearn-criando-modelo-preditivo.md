@@ -7,7 +7,7 @@ HUB:
   - "[[hub-statistic]]"
 ---
 [[sklearn-criando-modelos]]
-[[index-sklearn-simple-linear-regression-model]]
+[[doc-sklearn-simple-linear-regression-model]]
 
 
 ![Imgur](https://i.imgur.com/TR7glYS.png)

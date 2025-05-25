@@ -3,7 +3,7 @@ tags:
   - reading
 HUB:
   - "[[hub-logic]]"
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 
 

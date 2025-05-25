@@ -1,10 +1,10 @@
 ---
 tags:
   - learning
-  - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
+dg-publish: true
 ---
 
 .loc[] e uma função em pandas que permite acessar e selecionar dados em um dataFrame com base em rótulos de índice e nomes de colunas específicos: sintaxe : *'dataframe.loc[linhas,colunas]'*

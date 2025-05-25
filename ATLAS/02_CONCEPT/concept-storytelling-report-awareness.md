@@ -3,28 +3,44 @@ tags:
   - learning
   - learning/review
 HUB:
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 ---
-  - "[[f >Focus on impact instead of process</font>
+
 >>![Imgur|600](https://i.imgur.com/DaZ23W1.png)
 
->[!note] #### <font color =ffffff >Algumas boas práticas na elaboração de um reporte</font>
-> #### Considere :luc_check_square:
->> -  What do they know
->> 	- How our model works
->> - What do they need to understand
->> 	- Why we chose our predictive variables
->> - What level of information do they need
->> #### Não deixe de:
->> -  Adjust content
->> 	- Prediction's impact and limitatios
->> - Server audience
->> 	- The interactions between custumer traits
->> #### Adatpe
->> - analogy, diagram, exemples, plain english, tecnical definitions
+## 🎯 Best Practices for Crafting a Report
 
->[!brain] ##### <font color =ffffff >Translating technical results</font>
->> - Technical knowledge is a continium
->> - Data professionals care about their methods
->> - The audience likely cares more about results and implications
+### ✔️ Consider:
+- 🔍 **What they already know:**  
+  • How our model works
 
+- ❓ **What they need to understand:**  
+  • Why we chose our predictive variables
+
+- 🎚️ **What level of information is appropriate:**  
+  • Adjust the depth of information to fit the audience
+
+---
+
+### 🚀 Don't Forget to:
+- 🛠️ **Adjust the content:**  
+  • Explain the prediction's impact and limitations
+
+- 🎯 **Serve the audience:**  
+  • Highlight the interactions between customer traits
+
+---
+
+### 🧩 Adapt Your Communication Using:
+- 🪄 Analogies  
+- 🗺️ Diagrams  
+- 🔍 Practical examples  
+- 🗣️ Plain English  
+- 📚 Technical definitions (when necessary)
+
+---
+
+## 🧠 Translating Technical Results
+- 🔗 Technical knowledge exists on a **continuum**  
+- 🧑‍💻 Data professionals care about the **methods**  
+- 👥 The audience likely cares more about the **results and their implications**

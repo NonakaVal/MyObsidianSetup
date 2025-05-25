@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[2024-03-21]]"
 ---
 ### [[logica-definicoes]]

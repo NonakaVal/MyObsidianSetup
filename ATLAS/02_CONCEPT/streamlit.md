@@ -7,7 +7,7 @@ HUB:
   - "[[hub-python]]"
   - "[[hub-visualization-data]]"
   - "[[hub-descriptive-analysis]]"
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 link-to-lib: https://docs.streamlit.io/
 created: "[[2024-08-04]]"
 ---

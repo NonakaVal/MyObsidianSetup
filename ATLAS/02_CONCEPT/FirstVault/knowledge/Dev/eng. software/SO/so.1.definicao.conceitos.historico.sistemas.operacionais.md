@@ -7,7 +7,7 @@ HUB:
 ---
 ---
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 
 

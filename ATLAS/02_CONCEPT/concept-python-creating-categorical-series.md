@@ -35,7 +35,7 @@ print("series2 number of bytes:", series2.nbytes)
 ```
 
 
-[[index-Verify-DataTypes]]
+[[flow-Verify-DataTypes]]
 
 ```python
 # Check the dtypes

@@ -5,6 +5,7 @@ tags:
 HUB:
   - "[[hub-pkm]]"
 repo: https://github.com/mProjectsCode/obsidian-meta-bind-plugin
+select: 3
 ---
 
 # Input Values

@@ -4,6 +4,7 @@ tags:
 HUB:
   - "[[hub-python]]"
 link-to-lib: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html
+dg-publish: true
 ---
 
 - é usada para aplicar uma função  personalizada em uma coluna ou em um dataframe como um todo:

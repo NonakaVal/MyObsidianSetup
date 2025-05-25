@@ -1,11 +1,6 @@
 ---
 tags:
   - moc
-cssclasses:
-  - dashboard
-  - dash
-  - hide-properties_editing
-  - hide-properties_reading
 HUB:
   - "[[hub-python]]"
   - "[[hub-visualization-data]]"
@@ -13,9 +8,12 @@ HUB:
   - "[[hub-hypothesis-testing]]"
   - "[[hub-data-wrangling]]"
   - "[[hub-ml-models]]"
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
   - "[[hub-growth]]"
   - "[[hub-mkt]]"
+dg-publish: true
+cssclasses:
+  - dashboard
 ---
 # 📚 Data Science Knowledge Base
 
@@ -101,7 +99,7 @@ HUB:
 		- [[concept-regressao-linear-residuos|Resíduos]]
 		- [[sklearn-criando-modelos|Modelos com Scikit-Learn]]
 		- [[flow-sklearn-principal-component-analysis-pca|PCA com Scikit-Learn]]
-		- [[index-sklearn-simple-linear-regression-model|Regressão Linear com Sklearn]]
+		- [[doc-sklearn-simple-linear-regression-model|Regressão Linear com Sklearn]]
 
 ---
 
@@ -118,7 +116,7 @@ HUB:
 	- [[flow-pandas-null-values-wrangling|Tratamento de Nulos]]
 	- [[pandas-unique|Valores Únicos]]
 	- [[pandas-working-with-numeric-data|Dados Numéricos]]
-	- [[flow-pandas-basic-data-manipulation|Manipulação Básica]]
+	- [[index-pandas-basic-data-manipulation|Manipulação Básica]]
 	- [[cmp-pandas-groupby-method|GroupBy]]
 	- [[pandas-criando-intervalos|Intervalos]]
 	- [[pandas-concat|Concatenação]]
@@ -126,17 +124,17 @@ HUB:
 - ### 🛠️ Funções e Métodos Avançados
 	- [[concept-pandas-agg|Aggregation]]
 	- [[pandas-apply|Apply]]
-	- [[doc-pandas-methods|Métodos do Pandas]]
+	- [[index-pandas-methods|Métodos do Pandas]]
 	- [[concept-python-pandas-loc-iloc-method-selection|loc e iloc]]
 
 
 ## 🚶 Walkthroughs Práticos
 
-- [[flow-pandas-basic-data-manipulation|Manipulação Básica]]
-- [[flow-pandas-data-cleaning-methods|Limpeza de Dados]]
+- [[index-pandas-basic-data-manipulation|Manipulação Básica]]
+- [[index-pandas-data-cleaning-methods|Limpeza de Dados]]
 - [[pandas-converting-and-analyzing-categorical-data|Dados Categóricos]]
 - [[pandas-working-with-numeric-data|Dados Numéricos]]
-- [[index-sklearn-simple-linear-regression-model|Regressão Linear - Sklearn]]
+- [[doc-sklearn-simple-linear-regression-model|Regressão Linear - Sklearn]]
 - [[flow-sklearn-principal-component-analysis-pca|PCA]]
 - [[concept-generating-hypotheses|Geração de Hipóteses]]
 - [[planejamento-de-experimentos|Planejamento Experimental]]

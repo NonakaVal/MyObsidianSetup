@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 ---
 # Pandas Data Selection Methods
 

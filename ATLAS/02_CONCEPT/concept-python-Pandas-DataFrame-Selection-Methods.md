@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 ---
 concept-python-Pandas-DataFrame-Selection-Methods
 ## Pandas DataFrame Selection Methods

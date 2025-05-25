@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[2024-03-20]]"
 ---
 ### [[concept-computacao-nuvem-plataforma-de-computacao]]

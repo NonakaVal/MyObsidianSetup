@@ -6,7 +6,7 @@ HUB:
   - "[[hub-python]]"
   - "[[hub-jupyterNotebook]]"
 connections:
-  - "[[Atlas/05_DOC/doc-pandas-methods.md|doc-pandas-methods]]"
+  - "[[index-pandas-methods|index-pandas-methods]]"
 ---
 
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 

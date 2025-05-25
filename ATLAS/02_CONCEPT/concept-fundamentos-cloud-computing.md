@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[2024-03-19]]"
 ---
 ### [[concept-fundamentos-cloud-computing|fundamentos-computacao-em-nuvem]]

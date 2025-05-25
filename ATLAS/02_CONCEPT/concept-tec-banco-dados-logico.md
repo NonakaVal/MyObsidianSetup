@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[2024-04-06]]"
 ---
 ### [[concept-tec-banco-dados-logico]]

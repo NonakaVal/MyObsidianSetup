@@ -4,7 +4,7 @@ tags:
 HUB:
   - "[[hub-python]]"
   - "[[hub-probabilidade]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 ---
 A função `cdf` (Cumulative Distribution Function) calcula a probabilidade acumulada até um certo ponto em uma distribuição normal. Em outras palavras, ela dá a probabilidade de uma variável aleatória ser menor ou igual a um valor específico.
 

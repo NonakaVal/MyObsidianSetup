@@ -22,6 +22,6 @@ A regressão linear simples é representada pela equação :
 ![[conceitos-influencia-modelos-regressao-linear]]
 
 
-[[index-sklearn-simple-linear-regression-model]]
+[[doc-sklearn-simple-linear-regression-model]]
 
 

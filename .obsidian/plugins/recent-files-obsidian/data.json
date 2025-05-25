@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "_index_notas",
+      "path": "_index_notas.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "PKM-Youtube-Videos",
       "path": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
     },
@@ -35,14 +43,6 @@
     {
       "basename": "scisync-post-ideas",
       "path": "Efforts/ARCHIVES/independent/scisync-post-ideas.md"
-    },
-    {
-      "basename": "index_notas",
-      "path": "index_notas.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "index-advanced-functions",
@@ -195,10 +195,6 @@
     {
       "basename": "2025-01-11",
       "path": "Calendar/DAILY/2025-01-11.md"
-    },
-    {
-      "basename": "_GAMES-ANNIVERSARY-LIST",
-      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/_GAMES-ANNIVERSARY-LIST.md"
     }
   ],
   "omittedPaths": [],

@@ -3,7 +3,7 @@ tags:
   - learning
   - learning/review
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 ### Definições
 

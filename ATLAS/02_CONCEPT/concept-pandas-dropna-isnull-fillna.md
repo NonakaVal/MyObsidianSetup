@@ -1,10 +1,10 @@
 ---
 tags:
   - learning
-  - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
+dg-publish: true
 ---
 
 1) criando um dataFrame

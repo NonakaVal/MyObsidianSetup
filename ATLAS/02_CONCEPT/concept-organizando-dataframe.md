@@ -3,13 +3,16 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
+dg-publish: true
 ---
 
 
 ## organizando dataframe
 
-Criando um [[concept-python-pandas-dataframe]]:
+[[concept-python-pandas-dataframe|criando um DataFrame a partir de um dicionário]]
+
+
 ```css
 import pandas as pd
 data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]

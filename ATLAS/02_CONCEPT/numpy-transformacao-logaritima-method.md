@@ -17,7 +17,7 @@ dados['log_Dist_Praia'] = np.log(dados['Dist_Praia'] + 1)
 dados['log_Dist_Farmacia'] = np.log(dados['Dist_Farmacia'] + 1)
 ```
 
-[[index-sklearn-simple-linear-regression-model]]
+[[doc-sklearn-simple-linear-regression-model]]
 
 uma vez usado do método de transformação logarítmica, para que o resultado final retorne ao valor correto, é necessário usar o método exp do numpy no resultado:
 

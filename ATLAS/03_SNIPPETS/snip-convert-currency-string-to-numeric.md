@@ -5,7 +5,7 @@ tags:
 HUB:
   - "[[hub-python]]"
 connections:
-  - "[[index-Verify-DataTypes|index-Verify-DataTypes]]"
+  - "[[flow-Verify-DataTypes|flow-Verify-DataTypes]]"
 ---
 
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 

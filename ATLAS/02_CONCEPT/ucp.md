@@ -2,7 +2,7 @@
 tags:
   - learning/review
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 
 ## Organização do processador

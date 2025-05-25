@@ -3,7 +3,7 @@ tags:
   - learning
   - 
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 ![[concept-fundamentos-cloud-computing-]]
 

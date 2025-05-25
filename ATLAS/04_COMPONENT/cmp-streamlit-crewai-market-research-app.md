@@ -4,7 +4,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[08-02-2024]]"
 ---
 # CrewAI Market Research System

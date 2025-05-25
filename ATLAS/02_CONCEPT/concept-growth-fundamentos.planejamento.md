@@ -4,10 +4,6 @@ tags:
 HUB:
   - "[[hub-growth]]"
   - "[[hub-mkt]]"
-  - "[[hub-planning]]"
-  - "[[hub-menagement]]"
-  - "[[hub-bi]]"
-  - "[[hub-descriptive-analysis]]"
 ---
 # Product-Market Fit Framework
 

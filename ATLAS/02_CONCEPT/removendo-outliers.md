@@ -3,14 +3,14 @@ tags: []
 HUB:
   - "[[hub-descriptive-analysis]]"
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 ---
 
 > [!NOTE] Identificando e removendo outliers  
 > [[medidas-separatrizes]].
 > método 1.5 IIQ com [[seaborn-box-plot(diagrama-de-caixa)]].
 
-### ![[snip-iiiq-interquartil-method]]
+### ![[iiiq-interquartil-method]]
 
 # Exemplo
 

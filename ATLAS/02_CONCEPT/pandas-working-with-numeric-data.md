@@ -14,7 +14,7 @@ HUB:
 
 - `ps.Series.str.replace()`
 	- [[concept-python-cleaning-text-data]]
-		- [[index-Verify-DataTypes]]
+		- [[flow-Verify-DataTypes]]
 
 Adding summary statistics into a DataFrame
 - [[cmp-pandas-groupby-method]]

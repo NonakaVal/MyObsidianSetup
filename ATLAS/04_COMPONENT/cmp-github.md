@@ -3,7 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-git]]"
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 
 # Git Command Cheat Sheet

@@ -1,9 +1,9 @@
 ---
 tags:
   - learning
-  - 
 HUB:
   - "[[hub-python]]"
+dg-publish: true
 ---
 - **[[series-para-dataframe]]**: `Conversão de uma ou mais séries Pandas em um DataFrame, facilitando a organização e análise dos dados.`
 

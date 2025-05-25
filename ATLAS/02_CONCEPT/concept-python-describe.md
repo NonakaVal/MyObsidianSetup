@@ -4,6 +4,7 @@ tags:
 HUB:
   - "[[hub-statistic]]"
   - "[[hub-python]]"
+dg-publish: true
 ---
 
 retorna estatísticas descritivas

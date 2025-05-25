@@ -4,7 +4,7 @@ tags:
   - resources
 HUB:
   - "[[hub-git]]"
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[2025-05-14]]"
 ---
 

@@ -4,9 +4,12 @@ Subi esse repo para compartilhar minha organização no [Obsidian](https://obsid
 
 Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
 
+- [Digital Garden](https://nonaka-garden.vercel.app/) - Página onde compartilho algumas de minhas notas e Recursos de Estudos.
+
+
 ## Baixar e Acessar
 
-Para baixar o arquivo `.zip` basta clickar [link](https://github.com/NonakaVal/MyObsidianSetup/archive/refs/heads/main.zip)
+Para baixar o arquivo `.zip` basta clickar [link](https://github.com/NonakaVal/MyObsidianSetup/archive/refs/heads/main.zip) 
 
 também sendo possível apenas clonar 
 

@@ -4,7 +4,7 @@ tags:
   - tocomplete/atomizar
   - tocomplete/refatorar
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 Principais modelos e plataformas para implementação da infraestrutura de ambientes de computação em nuvem
 

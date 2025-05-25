@@ -5,7 +5,7 @@ tags:
 HUB:
   - "[[hub-data-wrangling]]"
 connections:
-  - "[[index-Verify-DataTypes|index-Verify-DataTypes]]"
+  - "[[flow-Verify-DataTypes|flow-Verify-DataTypes]]"
   - "[[Atlas/02_CONCEPT/pandas-series.md|pandas-series]]"
 ---
 

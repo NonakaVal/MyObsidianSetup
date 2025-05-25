@@ -1,9 +1,9 @@
 ---
 tags:
   - learning
-  - 
 HUB:
   - "[[hub-visualization-data]]"
+dg-publish: true
 ---
 ### Criando um histograma com pandas
 

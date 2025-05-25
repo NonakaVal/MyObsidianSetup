@@ -30,7 +30,7 @@ Chart to pair plots  : [[concept-correlation-with-datetime|scatterplot]] or [[re
   $y=intercept+slope\times x$
  
 #### Running StatsModels
-[[index-sklearn-simple-linear-regression-model]]
+[[doc-sklearn-simple-linear-regression-model]]
 ```python
 from statsmodels.formula.api import ols
 model = ols('response_variable ~ explanatory_variables', 

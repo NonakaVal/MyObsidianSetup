@@ -3,7 +3,8 @@ tags:
   - learning/review
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
+dg-publish: true
 ---
 ## [[flow-pandas-basic-data-manipulation]]
 

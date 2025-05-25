@@ -12,7 +12,7 @@ HUB:
 [[testes-de-hipoteses]]
 
 >[!info] Sobre Teste de hipóteses
->>![[index-metodos-de-testes-hipoteses]]
+>>![[doc-metodos-de-testes-hipoteses]]
 
 
 

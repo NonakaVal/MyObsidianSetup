@@ -4,7 +4,7 @@ tags:
   - resources
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
   - "[[hub-probabilidade]]"
 ---
 ### **[[doc-pandas-methods]]** 
@@ -16,7 +16,7 @@ Técnicas e funções da biblioteca SciPy para calcular probabilidades e trabalh
 ### **[[draft-numpy]]** 
 Biblioteca fundamental para operações matemáticas e manipulação de arrays multidimensionais em Python.
 
-### **[[doc-seaborn-data-visualization-methods]]** 
+### **[[doc-seaborn]]** 
 Biblioteca de visualização de dados baseada no Matplotlib, que facilita a criação de gráficos estatísticos atraentes.
 
 ### **[[streamlit]]** 

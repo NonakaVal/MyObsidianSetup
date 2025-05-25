@@ -19,6 +19,8 @@ created: "[[2024-02-10]]"
 [[concept-python-function-Pass by assignment|Python's Pass by Assignment]]  
 *How Python handles variable passing (neither by value nor by reference)*
 
+[[draft-python-scope-functions-concepts]]
+
 [[concept-python-function-Writing context managers functions|Writing Context Manager Functions]]  
 *Creating functions that properly manage resources using `with` statements*
 

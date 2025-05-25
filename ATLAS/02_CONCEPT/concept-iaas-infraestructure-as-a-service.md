@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 created: "[[2024-03-23]]"
 ---
 ### [[concept-iaas-infraestructure-as-a-service]]

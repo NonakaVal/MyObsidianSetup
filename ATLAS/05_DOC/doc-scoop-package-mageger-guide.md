@@ -2,7 +2,7 @@
 tags:
   - doc
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 https://scoop.sh/
 ```

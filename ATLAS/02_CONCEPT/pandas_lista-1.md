@@ -3,7 +3,7 @@ tags:
   - resources
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
 ---
 [[python-unique-value_counts-method]]
 

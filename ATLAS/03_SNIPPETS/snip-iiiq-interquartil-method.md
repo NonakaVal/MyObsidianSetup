@@ -2,7 +2,7 @@
 tags:
   - learning/review
 HUB:
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
   - "[[hub-statistic]]"
 ---
 método 1.5 IIQ com [seaborn-Box-plot(Diagrama de caixa)](app://obsidian.md/seaborn-Box-plot(Diagrama%20de%20caixa)).

@@ -3,6 +3,7 @@ tags:
   - learning
 HUB:
   - "[[hub-python]]"
+dg-publish: true
 ---
 
 ## .concat

@@ -3,7 +3,7 @@ tags:
   - learning
 created: "[[2024-03-19]]"
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 
 [[concept-instancias-maquinas-virtual]]

@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 :luc_link:
 [w3schools](https://www.w3schools.com/html/html_intro.asp)

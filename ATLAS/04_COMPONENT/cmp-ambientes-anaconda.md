@@ -2,7 +2,7 @@
 tags:
   - learning
 HUB:
-  - "[[hub-tec]]"
+  - "[[System/HUB/hub-tec]]"
 ---
 
 ## Ambientes virtuais Anaconda
@@ -19,13 +19,13 @@ conda env remove --name nome_do_ambiente
 ```
 
 
-- uma vez instalado o anaconda � preciso configurar os ambientes
+- uma vez instalado o anaconda  preciso configurar os ambientes
 #### Configurando Anaconda No terminal
 
 - Configurando caminhos no path.
-	- nas "configura��es avan�adas do sistema" = sistema de busca
-		- buscar "vari�veis do ambiente"
-			- ent�o "path"
+	- nas "configuraes avanadas do sistema" = sistema de busca
+		- buscar "variveis do ambiente"
+			- ento "path"
 				- criar os seguintes caminhos com "novo"
 
 ```css
@@ -49,7 +49,7 @@ activate meuambiente # para ativar o ambiente
 ```
 
 ```
-deactivate # no ambiente para voltar ao ambiente padr�o
+deactivate # no ambiente para voltar ao ambiente padro
 ```
 
 ```

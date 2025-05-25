@@ -1,30 +1,39 @@
-*Atualizado em 2025/05/19 03:52* 
 
- [🐍  Abrir Script Python](file:///C:/Users/nonak/Documents/PythonScripts/create_index_note_py_script.py)
 
-> **Total de Notas**: 986 notas
-> **Média de palavras por nota**: 214,4 palavras
-> **Pastas**: 47
-> **Pasta mais densa**: `Atlas\02_CONCEPT` (59.239 palavras)
-> **Pasta com mais notas**: `Atlas\02_CONCEPT` (471 notas)
+*Atualizado em 2025/05/25 20:52*
+
+[🐍 Abrir Script Python](file:///C:/Users/desktop/Documents/PythonScripts/create_index_note_py_script.py)
+
+> ## 🗒️ Informações Gerais
+
+- **Total de Notas:** 987
+- **Média de Palavras por Nota:** 215,3
+- **Número de Pastas:** 47
+- **Pasta com mais palavras:** `ATLAS\02_CONCEPT` (59.223 palavras)
+- **Pasta com mais notas:** `ATLAS\02_CONCEPT` (470 notas)
 
 ---
 
-🟦 Resumo de contagem propriedades 
+## 🔍 Propriedades no Frontmatter
 
-| Property | Files | Coverage |
-|----------|-------|----------|
-| `tags` | 867 | 87.8% |
-| `HUB` | 847 | 85.8% |
-| `created` | 197 | 20.0% |
+| Propriedade | Arquivos | Cobertura |
+|--------------|----------|-----------|
+| `tags` | 867 | 87.7% |
+| `HUB` | 848 | 85.7% |
+| `created` | 197 | 19.9% |
 | `link-to-lib` | 45 | 4.6% |
+| `dg-publish` | 29 | 2.9% |
 | `origin` | 28 | 2.8% |
+| `connections` | 20 | 2.0% |
+| `cssclasses` | 17 | 1.7% |
+| `area` | 17 | 1.7% |
+| `type` | 12 | 1.2% |
 
 ---
 
-# 🗃️ **Pastas**
+# 🗂️ Pastas e Notas
 
-# 📁 Atlas
+# 📁 ATLAS
 
 ## 📂 00_DRAFT
 
@@ -33,12 +42,12 @@
 - 📄 [draft-gestao-do-conhecimento-e-ti] — 1.963 palavras
 - 📄 [draft-empreendedorismo-e-inovacao] — 1.238 palavras
 - 📄 [draft-franvce-tools] — 587 palavras
+- 📄 [draft-green-it-introducao] — 535 palavras
 - 📄 [draft-python-date-wagling] — 522 palavras
 - 📄 [draft-linear-regression-datacamp] — 514 palavras
 - 📄 [draft-introduction-to-iterators] — 400 palavras
 - 📄 [draft-numpy] — 384 palavras
 - 📄 [draft-finding-multiple-phrases-in-strings] — 360 palavras
-- 📄 [draft-green-it-introducao] — 335 palavras
 - 📄 [draft-python-pandasgrouping-data-by-category] — 312 palavras
 - 📄 [draft-introduction-to-error-handling] — 233 palavras
 - 📄 [draft-introduction-to-generator-expressions] — 224 palavras
@@ -46,26 +55,25 @@
 - 📄 [draft-personalizando-graficos] — 110 palavras
 - 📄 [planejamento-banco-de-dados] — 31 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 12.645 palavras
-- Média por nota: 743,8 palavras
+**📊 Estatísticas da pasta:**
+- Total: 12.845 palavras
+- Média por nota: 755,6 palavras
 - Número de notas: 17
 
 ## 📂 01_INDEX
 
-- 📄 [index-datascience] — 519 palavras
-- 📄 [index-advanced-functions] — 316 palavras
-- 📄 [index-python-defined-functions] — 288 palavras
-- 📄 [index-metodos-de-testes-hipoteses] — 253 palavras
-- 📄 [index-sklearn-simple-linear-regression-model] — 88 palavras
-- 📄 [index-Verify-DataTypes] — 88 palavras
+- 📄 [index-computer-science] — 808 palavras
+- 📄 [index-datascience] — 515 palavras
+- 📄 [index-pandas-basic-data-manipulation] — 292 palavras
+- 📄 [index-pandas-methods] — 263 palavras
+- 📄 [index-pandas-data-cleaning-methods] — 216 palavras
 - 📄 [index-seaborn-matplotlib-charts] — 83 palavras
-- 📄 [index-mkt-menagement] — 45 palavras
+- 📄 [index-mkt-menagement] — 19 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 1.680 palavras
-- Média por nota: 210,0 palavras
-- Número de notas: 8
+**📊 Estatísticas da pasta:**
+- Total: 2.196 palavras
+- Média por nota: 313,7 palavras
+- Número de notas: 7
 
 ## 📂 02_CONCEPT
 
@@ -95,7 +103,6 @@
 - 📄 [concept-dax-formulas-context] — 340 palavras
 - 📄 [concept- Data Exploration-dashboard-desing-guide] — 333 palavras
 - 📄 [sql-select] — 331 palavras
-- 📄 [concept-fundamentals-of-storytelling] — 325 palavras
 - 📄 [probabilidade-definicoes-notacoes-basicas] — 324 palavras
 - 📄 [introducao-a-orientacao-a-objetos-com-python] — 319 palavras
 - 📄 [concept-crew-ai-introduction] — 316 palavras
@@ -112,10 +119,11 @@
 - 📄 [concept-data-snooping] — 280 palavras
 - 📄 [concept-growth-pagina-de-vendas] — 279 palavras
 - 📄 [concept-mkt-criativos-facebook-ads] — 279 palavras
-- 📄 [concept-python-pandas-loc-iloc-method-selection] — 275 palavras
+- 📄 [concept-python-pandas-loc-iloc-method-selection] — 276 palavras
 - 📄 [merge-sort] — 271 palavras
 - 📄 [concept-statistic-estatistica] — 266 palavras
 - 📄 [pandas-criando-intervalos] — 265 palavras
+- 📄 [report-structure] — 264 palavras
 - 📄 [sql-where] — 264 palavras
 - 📄 [removendo-valores-nulos] — 262 palavras
 - 📄 [concept-growth-pilar-engajamento.copy] — 256 palavras
@@ -128,16 +136,16 @@
 - 📄 [concept-python-dicionarios] — 248 palavras
 - 📄 [book-introducao-estatistica-12edicao-mario-f-triola-2017] — 241 palavras
 - 📄 [concept-copy-apresentacao-de-precos] — 237 palavras
-- 📄 [concept-pandas-dropna-isnull-fillna] — 236 palavras
+- 📄 [concept-pandas-dropna-isnull-fillna] — 237 palavras
 - 📄 [o-desenvolvimento-de-um-software] — 236 palavras
 - 📄 [concept-python-thefuzz-comparing-strings] — 234 palavras
 - 📄 [concept-algoritmo-e-logica] — 233 palavras
-- 📄 [concept-growth-fundamentos.planejamento] — 233 palavras
 - 📄 [scope-of-a-function] — 233 palavras
 - 📄 [prevendo.o.futuro.metricas] — 232 palavras
 - 📄 [pandas-get-dummies] — 231 palavras
 - 📄 [tipos-de-comandos-mysql] — 228 palavras
 - 📄 [concept-statistic-distribuicao-normal] — 226 palavras
+- 📄 [concept-growth-fundamentos.planejamento] — 225 palavras
 - 📄 [concept-math-conjuntos-numericos] — 224 palavras
 - 📄 [concept-statistic-distribuicao-binomial] — 221 palavras
 - 📄 [python-list-comprehensions] — 221 palavras
@@ -146,6 +154,7 @@
 - 📄 [scipy-comb] — 215 palavras
 - 📄 [streamlit] — 214 palavras
 - 📄 [streamlit-fragments] — 208 palavras
+- 📄 [concept-boas-praticas-storytelling] — 206 palavras
 - 📄 [concept-computacao-nuvem-monitoramento] — 204 palavras
 - 📄 [concept-distribuicao-normal] — 199 palavras
 - 📄 [maquinas-virtuais] — 196 palavras
@@ -184,6 +193,7 @@
 - 📄 [sql-criar-schema] — 158 palavras
 - 📄 [concept-python-creating-categorical-series] — 157 palavras
 - 📄 [concept-sql-inserindo-dados] — 157 palavras
+- 📄 [concept-storytelling-report-awareness] — 157 palavras
 - 📄 [matplotlib-charts] — 157 palavras
 - 📄 [principais-erros-estatisticos] — 157 palavras
 - 📄 [concept-computacao-nuvem-plataforma-de-computacao] — 156 palavras
@@ -195,11 +205,10 @@
 - 📄 [concept-python-cross-field-validation] — 149 palavras
 - 📄 [tipos-de-variaveis] — 149 palavras
 - 📄 [pandas-cut] — 148 palavras
+- 📄 [python-variable-types] — 148 palavras
 - 📄 [python-selection-sort] — 147 palavras
 - 📄 [concept-logic-formalizacao-de-um-algoritmo] — 146 palavras
-- 📄 [python-variable-types] — 146 palavras
 - 📄 [snip-verificar-normalidade-amostra-dataframe] — 146 palavras
-- 📄 [concept-storytelling-report-awareness] — 145 palavras
 - 📄 [how-to-deal-with-out-of-range-data] — 145 palavras
 - 📄 [ucp] — 145 palavras
 - 📄 [concept-fundamentos-copy] — 143 palavras
@@ -218,10 +227,10 @@
 - 📄 [concept-math-axiomas-adicao-e-subtracao] — 135 palavras
 - 📄 [probabilidade-principios] — 134 palavras
 - 📄 [concept-math-exemplos-fracoes] — 133 palavras
+- 📄 [pandas-crosstab-method] — 133 palavras
 - 📄 [concept-math-decimais-e-porcentagem] — 132 palavras
 - 📄 [concept-tec-caracteristicas-essenciais-cloud-computing] — 132 palavras
 - 📄 [month-06-10] — 132 palavras
-- 📄 [pandas-crosstab-method] — 131 palavras
 - 📄 [pandas-index] — 131 palavras
 - 📄 [sql-union] — 130 palavras
 - 📄 [concept-python-for.in] — 129 palavras
@@ -235,20 +244,19 @@
 - 📄 [retencao] — 125 palavras
 - 📄 [concept-copy-depoimentos] — 124 palavras
 - 📄 [concept-math-axiomas-da-aritmetica] — 124 palavras
+- 📄 [pandas-apply] — 124 palavras
 - 📄 [concept-math-conversao-de-unidades] — 123 palavras
 - 📄 [concept-python-tuplas] — 123 palavras
 - 📄 [concept-statistic-mediana] — 123 palavras
-- 📄 [pandas-apply] — 122 palavras
 - 📄 [concept-introduction-to-line-plots] — 121 palavras
+- 📄 [concept-pandas-isin] — 121 palavras
 - 📄 [concept-python-condicionais] — 121 palavras
 - 📄 [scipy-norm.interval-method] — 121 palavras
-- 📄 [concept-pandas-isin] — 120 palavras
 - 📄 [concept-Tabela e variavel padronizada] — 120 palavras
 - 📄 [concept-seaborn-Visualizing-Two-Quantitative-variables] — 119 palavras
 - 📄 [concept-fundamentos-cloud-computing] — 118 palavras
 - 📄 [modelo-von-neumann] — 118 palavras
 - 📄 [nivel-de-confianca-e-significancia] — 118 palavras
-- 📄 [concept-boas-praticas-storytelling] — 117 palavras
 - 📄 [concept-linear-regression] — 117 palavras
 - 📄 [python.libs] — 117 palavras
 - 📄 [streamlit-chache-system] — 117 palavras
@@ -258,9 +266,9 @@
 - 📄 [pandas-to-datetime] — 115 palavras
 - 📄 [probabilidade-com-scipy] — 115 palavras
 - 📄 [scipy-stats.binom] — 115 palavras
+- 📄 [series-para-dataframe] — 115 palavras
 - 📄 [concept-ml-python-correlacao] — 114 palavras
 - 📄 [concept-computacao-nuvem-vantagens] — 113 palavras
-- 📄 [series-para-dataframe] — 113 palavras
 - 📄 [concept-math-fatoracao] — 112 palavras
 - 📄 [concept-how-to-deal-with-missing-data] — 111 palavras
 - 📄 [concept-math-exemplos-produtos-notaveis] — 111 palavras
@@ -271,18 +279,18 @@
 - 📄 [saas-software-as-a-service] — 109 palavras
 - 📄 [concept-finding-inconsistent-categories] — 108 palavras
 - 📄 [concept-statistic-medidas-separatrizes] — 108 palavras
+- 📄 [concept-histograma-pandas] — 107 palavras
 - 📄 [concept-python-strings] — 107 palavras
 - 📄 [concept-statistic-desvio-do-padrao] — 107 palavras
-- 📄 [concept-histograma-pandas] — 106 palavras
 - 📄 [concept-python-seaborn-factor-relationships-and-distributions] — 106 palavras
 - 📄 [concept-statistic-desvio-medio-absoluto] — 106 palavras
 - 📄 [concept-statistic-variancia] — 106 palavras
 - 📄 [concept-fundamentos-matematica] — 105 palavras
 - 📄 [concept-python-pandas-value-counts-contando-os-valores] — 105 palavras
+- 📄 [concept-Writng-Functlons-In-Python] — 105 palavras
 - 📄 [informacoes-de-um-dataframe] — 105 palavras
 - 📄 [concept-python-recebendo-input] — 104 palavras
 - 📄 [concept-Scope and user-defined functions] — 104 palavras
-- 📄 [concept-Writng-Functlons-In-Python] — 104 palavras
 - 📄 [python-searborn-Using-PairGrid-and-pairplot] — 104 palavras
 - 📄 [concept-computacao-nuvem-modelos-implantacao] — 103 palavras
 - 📄 [probabilidade-regra-multiplicacao] — 103 palavras
@@ -295,8 +303,8 @@
 - 📄 [concept-copy-quebra-de-padrao] — 100 palavras
 - 📄 [concept-What-is-Missing-Data] — 100 palavras
 - 📄 [pandas-with.query] — 100 palavras
+- 📄 [concept-pandas-drop_duplicates-method] — 99 palavras
 - 📄 [concept-iaas-infraestructure-as-a-service] — 98 palavras
-- 📄 [concept-pandas-drop_duplicates-method] — 98 palavras
 - 📄 [sql-CASE] — 98 palavras
 - 📄 [start-langchain] — 98 palavras
 - 📄 [uniao-de-conjuntos] — 98 palavras
@@ -306,11 +314,11 @@
 - 📄 [pandas-info] — 96 palavras
 - 📄 [matematica-e-os-axiomas] — 95 palavras
 - 📄 [concept-copy-future-pacing] — 94 palavras
+- 📄 [concept-python-describe] — 94 palavras
 - 📄 [conceitos-influencia-modelos-regressao-linear] — 93 palavras
 - 📄 [pandas-dataframe] — 93 palavras
 - 📄 [concept-computacao-em-nuvem-historia] — 92 palavras
 - 📄 [concept-python-barplot-com-matplotlib] — 92 palavras
-- 📄 [concept-python-describe] — 92 palavras
 - 📄 [concept-statistic-media-mediana-moda-de-dos-valores-de-uma-coluna] — 92 palavras
 - 📄 [possible-issues-w-categorical-data] — 92 palavras
 - 📄 [teoria-de-conjuntos-conceitos-fundamentais] — 92 palavras
@@ -320,7 +328,6 @@
 - 📄 [concept-basico-de-estatistica] — 90 palavras
 - 📄 [concept-regressao-linear-residuos] — 90 palavras
 - 📄 [pandas-to-numeric] — 90 palavras
-- 📄 [report-structure] — 90 palavras
 - 📄 [tipos-analises] — 90 palavras
 - 📄 [concept-python-pandas-agrupamentos] — 89 palavras
 - 📄 [nested-contexts] — 88 palavras
@@ -332,15 +339,15 @@
 - 📄 [personalizando-um-grafico-de-linha] — 86 palavras
 - 📄 [teorema-limite-central-com-python] — 86 palavras
 - 📄 [uniformity] — 86 palavras
+- 📄 [pandas-query-method] — 85 palavras
 - 📄 [pandas-wide-to-long] — 85 palavras
 - 📄 [problema-das-garrafas] — 85 palavras
 - 📄 [concept-copy-anuncios-em-videos] — 84 palavras
 - 📄 [concept-math-entendendo-as-regras-dos-sinais] — 84 palavras
+- 📄 [concept-python-pandas-dicionario-para-dataframe] — 84 palavras
 - 📄 [concept-math-exemplo-axiomas-euclides] — 83 palavras
-- 📄 [pandas-query-method] — 83 palavras
 - 📄 [concept-grafico-de-dispersao-para-regressao-linear] — 82 palavras
 - 📄 [concept-math-diferenca-simetrica-de-conjuntos] — 82 palavras
-- 📄 [concept-python-pandas-dicionario-para-dataframe] — 82 palavras
 - 📄 [concept-python-valor-padrao] — 82 palavras
 - 📄 [copy-modelo-Video longo - 8 min] — 82 palavras
 - 📄 [python-unique-value_counts-method] — 82 palavras
@@ -363,12 +370,12 @@
 - 📄 [relacao-de-intervalos-de-confiancas-com-z-test-e-t-test] — 77 palavras
 - 📄 [copy-autoridade] — 76 palavras
 - 📄 [copy-blocos-de-persuasao] — 76 palavras
+- 📄 [rename-colluns-dataframe] — 76 palavras
 - 📄 [concept-copy-duvidas-objecoes] — 75 palavras
+- 📄 [concept-python-pandas-cut] — 75 palavras
 - 📄 [sql-inner-join] — 75 palavras
 - 📄 [concept-correlation-with-datetime] — 74 palavras
-- 📄 [concept-python-pandas-cut] — 74 palavras
 - 📄 [concept-statistic-caracteristica-dados] — 74 palavras
-- 📄 [rename-colluns-dataframe] — 74 palavras
 - 📄 [concept-bi-introduction-to-dax-in-power-bi] — 73 palavras
 - 📄 [pandas-insert] — 73 palavras
 - 📄 [pandas-ai-start] — 72 palavras
@@ -384,16 +391,17 @@
 - 📄 [streamlit-widgets] — 70 palavras
 - 📄 [teoria-grafos] — 70 palavras
 - 📄 [concept-pandas-agg] — 69 palavras
+- 📄 [concept-python-pandas-dataframe] — 69 palavras
 - 📄 [pandas-xs] — 69 palavras
 - 📄 [concept-dataframe-para-csv] — 68 palavras
 - 📄 [concept-lambda] — 68 palavras
-- 📄 [concept-python-pandas-dataframe] — 68 palavras
 - 📄 [pandas-general-functions] — 68 palavras
 - 📄 [pandas-merge_ordered-method] — 68 palavras
 - 📄 [scipy.stats.norm] — 68 palavras
 - 📄 [concept-math-regras-potenciacao] — 67 palavras
 - 📄 [concept-python-controle-de-repeticao] — 67 palavras
 - 📄 [concept-copy-forcar-a-dor] — 66 palavras
+- 📄 [concept-organizando-dataframe] — 66 palavras
 - 📄 [concept-python-pandas-pop-drop-excluindo-variaveis(colunas)] — 66 palavras
 - 📄 [concept-generating-hypotheses] — 65 palavras
 - 📄 [sql-estrutura-basica-consulta] — 65 palavras
@@ -411,7 +419,9 @@
 - 📄 [pandas-set-flags] — 61 palavras
 - 📄 [soma-e-subtracao-de-fracoes] — 61 palavras
 - 📄 [concept-python-comparando-distribuicoes-assimetricas] — 60 palavras
+- 📄 [concept-python-pandas-concat] — 60 palavras
 - 📄 [concept-python-pickle-exportando-importando-modelos] — 60 palavras
+- 📄 [concept-python-split] — 60 palavras
 - 📄 [concept-seaborn-categorical-plot-types] — 60 palavras
 - 📄 [pandas-manipulando-variaveis-dataframe] — 60 palavras
 - 📄 [pandas-map] — 60 palavras
@@ -420,17 +430,14 @@
 - 📄 [potenciacao] — 60 palavras
 - 📄 [python-build-in-functions] — 60 palavras
 - 📄 [concept-math-radiciacao] — 59 palavras
-- 📄 [concept-organizando-dataframe] — 59 palavras
 - 📄 [concept-python-scipy-comparando-intervalos-de-confianca] — 59 palavras
 - 📄 [concept-statistic-media-aritmetica] — 59 palavras
 - 📄 [pandas-itertuples] — 59 palavras
 - 📄 [concept-bi-dax-(dataanalysisxpressions)] — 58 palavras
-- 📄 [concept-python-pandas-concat] — 58 palavras
-- 📄 [concept-python-split] — 58 palavras
 - 📄 [matematica-financeira] — 58 palavras
 - 📄 [merging-ordered-and-time-series-data] — 58 palavras
 - 📄 [promessas-espetaculares] — 57 palavras
-- 📄 [concept-python-pandas-series-and-dataframe] — 55 palavras
+- 📄 [concept-python-pandas-series-and-dataframe] — 56 palavras
 - 📄 [concept-statistic-medidas-dispersao] — 55 palavras
 - 📄 [pandas-series] — 55 palavras
 - 📄 [concept-estatistica-media-mediana-moda] — 54 palavras
@@ -451,6 +458,7 @@
 - 📄 [copy-eu-vou-provar] — 50 palavras
 - 📄 [copy-historias] — 50 palavras
 - 📄 [using-seaborn-styles] — 50 palavras
+- 📄 [pandas-astype-method] — 49 palavras
 - 📄 [sql-distinct] — 49 palavras
 - 📄 [concept-boxplot] — 48 palavras
 - 📄 [concept-math-operacoes-algebricas-de-conjuntos] — 48 palavras
@@ -460,13 +468,12 @@
 - 📄 [concept-statistic-regra-de-sturges] — 47 palavras
 - 📄 [copy-citacoes] — 47 palavras
 - 📄 [matrix-plots] — 47 palavras
-- 📄 [pandas-astype-method] — 47 palavras
 - 📄 [pandas-isna] — 47 palavras
+- 📄 [pre-tratamento] — 47 palavras
 - 📄 [concept-aoc-memoria-2. Memória Cache] — 46 palavras
 - 📄 [concept-python-statsmodels-ajustando-o-experimento-com-um-modelo-estatistico] — 46 palavras
 - 📄 [concept-math-funcao-segundo-grau] — 45 palavras
 - 📄 [loops-copy] — 45 palavras
-- 📄 [pre-tratamento] — 45 palavras
 - 📄 [probabilidade-comb-binom] — 45 palavras
 - 📄 [regression-plots] — 45 palavras
 - 📄 [concept-conteudo-definicao] — 44 palavras
@@ -478,13 +485,13 @@
 - 📄 [concept-data-visualization-contexto-e-principios-de-gestalt] — 41 palavras
 - 📄 [pandas-unique] — 41 palavras
 - 📄 [concept-math-quadrado-de-um-binomio] — 40 palavras
+- 📄 [concept-importando-outros-tipos-de-arquivos] — 38 palavras
 - 📄 [concept-pandas-criando-agrupamentos] — 38 palavras
 - 📄 [probabilidade-metodos-amostragem] — 38 palavras
 - 📄 [using-jointgrid-and-jointplot] — 38 palavras
 - 📄 [moda-estatistica] — 37 palavras
 - 📄 [pandas-at] — 37 palavras
 - 📄 [concept-copy-bonus] — 36 palavras
-- 📄 [concept-importando-outros-tipos-de-arquivos] — 36 palavras
 - 📄 [concept-python-statsmodel-estimando-o-modelo] — 36 palavras
 - 📄 [copy-pista-de-tempo] — 36 palavras
 - 📄 [multiplicacao-e-divisao-de-fracoes] — 36 palavras
@@ -541,10 +548,10 @@
 - 📄 [concept-python-funcoes] — 10 palavras
 - 📄 [using-iterators-to-load-large-files-into-memory] — 9 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 59.239 palavras
-- Média por nota: 125,8 palavras
-- Número de notas: 471
+**📊 Estatísticas da pasta:**
+- Total: 59.223 palavras
+- Média por nota: 126,0 palavras
+- Número de notas: 470
 
 ### 📘 FirstVault
 
@@ -560,7 +567,7 @@
 - 📄 [html-class-attribute] — 147 palavras
 - 📄 [html-headings] — 44 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 1.036 palavras
 - Média por nota: 207,2 palavras
 - Número de notas: 5
@@ -674,7 +681,7 @@
 - 📄 [concept-aoc-1.7-registradores] — 11 palavras
 - 📄 [concept-aoc-aoc.8.pipeline] — 11 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 18.853 palavras
 - Média por nota: 181,3 palavras
 - Número de notas: 104
@@ -714,7 +721,7 @@
 - 📄 [1.2--responsabilidades-legais-e-sociais-secao] — 12 palavras
 - 📄 [confea e crea] — 12 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 2.535 palavras
 - Média por nota: 79,2 palavras
 - Número de notas: 32
@@ -737,7 +744,7 @@
 - 📄 [unidade-1---dimensoes-da-qualidade-da-informacao-e-os-sistemas-de-informacao-secao] — 13 palavras
 - 📄 [2.2--tecnologia-da-informacao-e-o-negocio-secao] — 10 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 2.480 palavras
 - Média por nota: 165,3 palavras
 - Número de notas: 15
@@ -818,7 +825,7 @@
 - 📄 [2.22-processos-sejam-criados] — 63 palavras
 - 📄 [2.12-estrutura-microkernel] — 47 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 19.532 palavras
 - Média por nota: 267,6 palavras
 - Número de notas: 73
@@ -830,7 +837,7 @@
 - 📄 [3--cerebro-humano] — 149 palavras
 - 📄 [1.1paginas--artigos] — 19 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 493 palavras
 - Média por nota: 123,2 palavras
 - Número de notas: 4
@@ -844,7 +851,7 @@
 - 📄 [!maquina-prospeccao] — 443 palavras
 - 📄 [!prospeccao.escalar] — 271 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 1.895 palavras
 - Média por nota: 473,8 palavras
 - Número de notas: 4
@@ -863,7 +870,7 @@
 - 📄 [snip-iiiq-interquartil-method] — 61 palavras
 - 📄 [snip-andas-groupby-function] — 40 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 1.425 palavras
 - Média por nota: 129,5 palavras
 - Número de notas: 11
@@ -873,64 +880,67 @@
 - 📄 [cmp-streamlit-crewai-market-research-app] — 567 palavras
 - 📄 [cmp-github] — 343 palavras
 - 📄 [cmp-git-branches] — 294 palavras
+- 📄 [cmp-pandas-groupby-method] — 195 palavras
 - 📄 [cmp-EditNotes] — 194 palavras
-- 📄 [cmp-pandas-groupby-method] — 193 palavras
-- 📄 [cmp-ambientes-anaconda] — 156 palavras
-- 📄 [cmp-pandas-fillna-nullvalues-wrangling] — 134 palavras
+- 📄 [cmp-ambientes-anaconda] — 155 palavras
+- 📄 [cmp-pandas-fillna-nullvalues-wrangling] — 136 palavras
 - 📄 [cmp-pandas-importing-data] — 129 palavras
 - 📄 [cmp-python-datetime(datas)-methods] — 128 palavras
 - 📄 [cmp-sql] — 128 palavras
+- 📄 [cmp-fundamentals-of-storytelling] — 120 palavras
 - 📄 [cmp-categorical-and-numerical-wrangling] — 96 palavras
 - 📄 [cmp-seaborn-plots] — 64 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 2.426 palavras
-- Média por nota: 202,2 palavras
-- Número de notas: 12
+**📊 Estatísticas da pasta:**
+- Total: 2.549 palavras
+- Média por nota: 196,1 palavras
+- Número de notas: 13
 
 ## 📂 05_DOC
 
-- 📄 [doc-obsdian-metabind-plugin] — 854 palavras
+- 📄 [doc-OlistProductUpdate] — 1.038 palavras
+- 📄 [doc-obsdian-metabind-plugin] — 856 palavras
+- 📄 [doc-playbook-ecommerce] — 630 palavras
 - 📄 [doc-scoop-package-mageger-guide] — 491 palavras
-- 📄 [doc-pandas-methods] — 189 palavras
+- 📄 [doc-advanced-functions] — 316 palavras
+- 📄 [doc-python-defined-functions] — 288 palavras
+- 📄 [doc-metodos-de-testes-hipoteses] — 253 palavras
 - 📄 [doc-seaborn-data-visualization-methods] — 106 palavras
-- 📄 [doc-github-commit-message-convention] — 59 palavras
+- 📄 [doc-sklearn-simple-linear-regression-model] — 88 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 1.699 palavras
-- Média por nota: 339,8 palavras
-- Número de notas: 5
+**📊 Estatísticas da pasta:**
+- Total: 4.066 palavras
+- Média por nota: 451,8 palavras
+- Número de notas: 9
 
 ## 📂 06_WORKFLOW
 
 - 📄 [flow-whatsApp-arena-report] — 1.438 palavras
-- 📄 [flow-OlistProductUpdate] — 1.038 palavras
-- 📄 [flow-playbook-ecommerce] — 630 palavras
 - 📄 [flow-sklearn-principal-component-analysis-pca] — 480 palavras
-- 📄 [flow-obtencao-dados-amostrais] — 366 palavras
-- 📄 [flow-pandas-basic-data-manipulation] — 216 palavras
-- 📄 [flow-pandas-data-cleaning-methods] — 142 palavras
+- 📄 [flow-obtencao-dados-amostrais] — 155 palavras
+- 📄 [flow-Verify-DataTypes] — 88 palavras
 - 📄 [flow-pandas-null-values-wrangling] — 62 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 4.372 palavras
-- Média por nota: 546,5 palavras
-- Número de notas: 8
+**📊 Estatísticas da pasta:**
+- Total: 2.223 palavras
+- Média por nota: 444,6 palavras
+- Número de notas: 5
 
 ## 📂 07_RESOURCES
 
 - 📄 [res-checklist-produto-e-objecoes] — 256 palavras
+- 📄 [res-github-commit-message-convention] — 59 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 256 palavras
-- Média por nota: 256,0 palavras
-- Número de notas: 1
+**📊 Estatísticas da pasta:**
+- Total: 315 palavras
+- Média por nota: 157,5 palavras
+- Número de notas: 2
 
 ## 📂 08_MAPS
 
 - 📄 [Data Science Python Maps] — 103 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 103 palavras
 - Média por nota: 103,0 palavras
 - Número de notas: 1
@@ -943,7 +953,7 @@
 - 📄 [2025-05-18] — 172 palavras
 - 📄 [2025-05-03] — 118 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 472 palavras
 - Média por nota: 157,3 palavras
 - Número de notas: 3
@@ -952,7 +962,7 @@
 
 - 📄 [2025-05] — 56 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 56 palavras
 - Média por nota: 56,0 palavras
 - Número de notas: 1
@@ -967,7 +977,7 @@
 - 📄 [data_science_projetc-complete-ptbr] — 1.209 palavras
 - 📄 [datascience-complete-ptbr] — 1.062 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 7.170 palavras
 - Média por nota: 1.434,0 palavras
 - Número de notas: 5
@@ -982,7 +992,7 @@
 - 📄 [PKM-Youtube-Videos] — 91 palavras
 - 📄 [importancia-nota-diaria] — 40 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 729 palavras
 - Média por nota: 243,0 palavras
 - Número de notas: 3
@@ -994,7 +1004,7 @@
 - 📄 [scisync] — 856 palavras
 - 📄 [scisync-visao] — 388 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 3.279 palavras
 - Média por nota: 819,8 palavras
 - Número de notas: 4
@@ -1006,7 +1016,7 @@
 - 📄 [material-copy-carlos] — 606 palavras
 - 📄 [scisync-descricoes-servicos] — 323 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 7.659 palavras
 - Média por nota: 1.914,8 palavras
 - Número de notas: 4
@@ -1015,7 +1025,7 @@
 
 - 📄 [!insta-1] — 2.784 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 2.784 palavras
 - Média por nota: 2.784,0 palavras
 - Número de notas: 1
@@ -1031,7 +1041,7 @@
 - 📄 [3-criando-conteudo-leads] — 19 palavras
 - 📄 [4-descontruindo-mercado] — 8 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 7.750 palavras
 - Média por nota: 1.291,7 palavras
 - Número de notas: 6
@@ -1042,7 +1052,7 @@
 - 📄 [1.2-inbound-marketing] — 328 palavras
 - 📄 [1-anuncios-marketing-mercado] — 17 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 2.822 palavras
 - Média por nota: 940,7 palavras
 - Número de notas: 3
@@ -1051,7 +1061,7 @@
 
 - 📄 [daan] — 190 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 190 palavras
 - Média por nota: 190,0 palavras
 - Número de notas: 1
@@ -1065,7 +1075,7 @@
 - 📄 [8-analitica-basica] — 11 palavras
 - 📄 [5-organizacao] — 10 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 77 palavras
 - Média por nota: 12,8 palavras
 - Número de notas: 6
@@ -1078,7 +1088,7 @@
 - 📄 [11-workspaces-arquivos] — 9 palavras
 - 📄 [12-editaveis-canva] — 8 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 231 palavras
 - Média por nota: 46,2 palavras
 - Número de notas: 5
@@ -1090,7 +1100,7 @@
 - 📄 [17-solucoes-eficiencia-2] — 8 palavras
 - 📄 [18-precificacao] — 8 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 32 palavras
 - Média por nota: 8,0 palavras
 - Número de notas: 4
@@ -1101,7 +1111,7 @@
 - 📄 [20-prospeccao] — 8 palavras
 - 📄 [21-solucoes-eficiencia-3] — 8 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 24 palavras
 - Média por nota: 8,0 palavras
 - Número de notas: 3
@@ -1112,7 +1122,7 @@
 - 📄 [!web.landing.pages] — 446 palavras
 - 📄 [briefing] — 258 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 1.632 palavras
 - Média por nota: 544,0 palavras
 - Número de notas: 3
@@ -1121,7 +1131,7 @@
 
 - 📄 [trends] — 840 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 840 palavras
 - Média por nota: 840,0 palavras
 - Número de notas: 1
@@ -1136,7 +1146,7 @@
 - 📄 [serie-plugins-da-comunidade] — 48 palavras
 - 📄 [notes-gallery] — 30 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 632 palavras
 - Média por nota: 126,4 palavras
 - Número de notas: 5
@@ -1149,7 +1159,7 @@
 - 📄 [MinhasHistorinhaspBB] — 29 palavras
 - 📄 [AprendizadoDobb] — 25 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 621 palavras
 - Média por nota: 124,2 palavras
 - Número de notas: 5
@@ -1166,7 +1176,7 @@
 - 📄 [moc-albuns] — 41 palavras
 - 📄 [album-Trench - Twenty One Pilots] — 36 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 2.438 palavras
 - Média por nota: 348,3 palavras
 - Número de notas: 7
@@ -1181,7 +1191,7 @@
 - 📄 [moc-albuns] — 41 palavras
 - 📄 [album-Trench - Twenty One Pilots] — 36 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 2.438 palavras
 - Média por nota: 348,3 palavras
 - Número de notas: 7
@@ -1192,7 +1202,7 @@
 
 - 📄 [62-frases-friedrich-nietzsche] — 1.434 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 1.434 palavras
 - Média por nota: 1.434,0 palavras
 - Número de notas: 1
@@ -1211,16 +1221,16 @@
 - 📄 [paradoxo-onipotencia] — 71 palavras
 - 📄 [carbono] — 68 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 1.106 palavras
 - Média por nota: 100,5 palavras
 - Número de notas: 11
 
-# 📁 System
+# 📁 SYSTEM
 
 - 📄 [index_notas] — 11.122 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 11.122 palavras
 - Média por nota: 11.122,0 palavras
 - Número de notas: 1
@@ -1235,7 +1245,7 @@
 - 📄 [@_dataview] — 29 palavras
 - 📄 [@_by_count_links] — 28 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 566 palavras
 - Média por nota: 113,2 palavras
 - Número de notas: 5
@@ -1243,11 +1253,11 @@
 ### 📘 VaultSnippets
 
 - 📄 [vault-snippet-dataview] — 403 palavras
-- 📄 [vault-snippets-dates] — 54 palavras
+- 📄 [vault-snippets-dates] — 53 palavras
 
-**📊 Estatísticas da pasta**:
-- Total: 457 palavras
-- Média por nota: 228,5 palavras
+**📊 Estatísticas da pasta:**
+- Total: 456 palavras
+- Média por nota: 228,0 palavras
 - Número de notas: 2
 
 ### 📘 cssSnippets
@@ -1357,7 +1367,7 @@
 - 📄 [Tags styling - Rainbow tags] — 18 palavras
 - 📄 [Compact tabs] — 15 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 22.580 palavras
 - Média por nota: 217,1 palavras
 - Número de notas: 104
@@ -1367,7 +1377,7 @@
 - 📄 [hub-collectors] — 483 palavras
 - 📄 [hub-tec] — 29 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 512 palavras
 - Média por nota: 256,0 palavras
 - Número de notas: 2
@@ -1383,7 +1393,7 @@
 - 📄 [template-nota-pessoa] — 34 palavras
 - 📄 [template_new_note] — 11 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 761 palavras
 - Média por nota: 126,8 palavras
 - Número de notas: 6
@@ -1393,7 +1403,7 @@
 - 📄 [template-snippet] — 26 palavras
 - 📄 [template-dratf] — 14 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 40 palavras
 - Média por nota: 20,0 palavras
 - Número de notas: 2
@@ -1403,7 +1413,7 @@
 - 📄 [template_daily_note] — 162 palavras
 - 📄 [template_month_note] — 53 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 215 palavras
 - Média por nota: 107,5 palavras
 - Número de notas: 2
@@ -1413,7 +1423,7 @@
 - 📄 [template-RAW-THOUGHTS] — 25 palavras
 - 📄 [template-book-von-sonda] — 20 palavras
 
-**📊 Estatísticas da pasta**:
+**📊 Estatísticas da pasta:**
 - Total: 45 palavras
 - Média por nota: 22,5 palavras
 - Número de notas: 2

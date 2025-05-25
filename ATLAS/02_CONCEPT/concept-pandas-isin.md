@@ -1,10 +1,10 @@
 ---
 tags:
   - learning
-  - 
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
+dg-publish: true
 ---
 
 -  é um método pandas que verifica se cada valor  está condito em  uma *lista* retornando uma Series booleana com "True" para os valores que estão na lista e "False" para os que não estão.

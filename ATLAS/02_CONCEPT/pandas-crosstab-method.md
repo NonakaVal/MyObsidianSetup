@@ -4,7 +4,8 @@ tags:
   - resources
 HUB:
   - "[[hub-python]]"
-  - "[[hub-data-wrangling]]"
+  - "[[hub-tratamento-de-dados]]"
+dg-publish: true
 ---
 Cria uma tabela de contingência, ou tabela cruzada
 útil para analisar a relação entre duas ou mais variáveis categóricas e contas as ocorrências de cada combinação possível de variáveis:

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md",
+                "file": "_index_notas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PKM-Youtube-Videos"
+              "title": "_index_notas"
             }
           }
         ]
@@ -90,8 +90,23 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "1ac39eb58a91ed90",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_index_notas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _index_notas"
             }
           }
         ]
@@ -183,21 +198,6 @@
             }
           },
           {
-            "id": "1ac39eb58a91ed90",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SYSTEM/TEMPLATE/template_area.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of template_area"
-            }
-          },
-          {
             "id": "c140dcd46152917f",
             "type": "leaf",
             "state": {
@@ -231,11 +231,13 @@
               "title": "Todo List"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 411.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,44 +252,51 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b9fb9faccc872ea7",
+  "active": "a2bc94ab67cbe8fe",
   "lastOpenFiles": [
-    "Efforts/ARCHIVES/independent/desktop.ini",
-    "Efforts/AREAS/PKM-Youtube-Videos/conceitos-fundamentais.md",
-    "Efforts/AREAS/bbHarry/MinhasHistorinhaspBB.md",
-    "Efforts/AREAS/bbHarry/Ideias-de-atividades-harry.md",
-    "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md",
-    "Efforts/AREAS/bbHarry/AprendizadoDobb.md",
-    "Efforts/ARCHIVES/independent/mentoria.prl.md",
-    "Efforts/ARCHIVES/independent/scisync.md",
-    "Efforts/ARCHIVES/independent/scisync-post-ideas.md",
     "index_notas.md",
-    "ATLAS/00_DRAFT/desktop.ini",
+    "_index_notas.md",
     "README.md",
-    "Draft/LLM-searches/desktop.ini",
-    "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/desktop.ini",
-    "SYSTEM/ASSETS/VaultSnippets/desktop.ini",
-    "ATLAS/02_CONCEPT/FirstVault/knowledge/neurociência/desktop.ini",
-    "Atlas/01_INDEX/index-advanced-functions.md",
-    "Atlas/01_INDEX/index-datascience.md",
-    "Atlas/01_INDEX/index-mkt-menagement.md",
-    "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md",
     "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md",
-    "Calendar/DAILY/2025-05-19.md",
-    "SOCIAL/Writing/conhecimento.md",
-    "SOCIAL/Writing/a-morte.md",
-    "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md",
-    "SOCIAL/Writing/2-conceitos-ordem.md",
-    "System/ASSETS/VaultSnippets/vault-snippets-dates.md",
-    "System/ASSETS/VaultSnippets/vault-snippet-dataview.md",
-    "System/ASSETS/VaultSnippets",
-    "System/HUB/hub-tec.md",
-    "System/HUB/hub-collectors.md",
-    "System/HUB",
-    "System/TEMPLATE/FORMAT/WRITING/template-book-von-sonda.md",
-    "System/TEMPLATE/FORMAT/WRITING",
-    "System/TEMPLATE/FORMAT/ATLAS",
-    "System/TEMPLATE/FORMAT/CALENDAR",
+    "ATLAS/02_CONCEPT/concept-python-pandas-value-counts-contando-os-valores.md",
+    "ATLAS/02_CONCEPT/concept-Scope and user-defined functions.md",
+    "ATLAS/02_CONCEPT/concept-python-pickle-exportando-importando-modelos.md",
+    "ATLAS/02_CONCEPT/concept-python-Pandas-DataFrame-Selection-Methods-2.md",
+    "ATLAS/02_CONCEPT/concept-seaborn-categorical-plot-types.md",
+    "ATLAS/02_CONCEPT/concept-python-strings.md",
+    "ATLAS/02_CONCEPT/concept-python-pandas-pop-drop-excluindo-variaveis(colunas).md",
+    "ATLAS/02_CONCEPT/concept-python-seaborn-factor-relationships-and-distributions.md",
+    "ATLAS/02_CONCEPT/concept-python-statsmodels-ajustando-o-experimento-com-um-modelo-estatistico.md",
+    "ATLAS/02_CONCEPT/concept-record-linkage.md",
+    "ATLAS/02_CONCEPT/concept-seaborn-anotacoes-em-histogramas.md",
+    "ATLAS/02_CONCEPT/concept-python-scipy-comparando-intervalos-de-confianca.md",
+    "ATLAS/02_CONCEPT/concept-seaborn-count-plots-and-bar-plots.md",
+    "ATLAS/02_CONCEPT/concept-python-seaborn-catplot.md",
+    "ATLAS/02_CONCEPT/concept-python-pandas-dataframe.md",
+    "ATLAS/02_CONCEPT/concept-python-sklearn-criando-modelo-preditivo.md",
+    "ATLAS/02_CONCEPT/concept-python-pandas-loc-iloc-method-selection.md",
+    "ATLAS/02_CONCEPT/concept-python-pandas-cut.md",
+    "ATLAS/02_CONCEPT/concept-python-Pandas-DataFrame-Selection-Methods.md",
+    "ATLAS/02_CONCEPT/concept-python-pandas-linking-dataframes.md",
+    "ATLAS/02_CONCEPT/concept-python-pandas-dataframe-variables.md",
+    "ATLAS/02_CONCEPT/concept-python-split.md",
+    "ATLAS/08_MAPS/Excalidraw",
+    "ATLAS/08_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "ATLAS/08_MAPS/+_CANVAS_GROWTH.canvas",
+    "ATLAS/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "ATLAS/08_MAPS/+_CANVAS_AOC.canvas",
+    "ATLAS/08_MAPS/+_CANVAS-DATASCIENCE.canvas",
+    "ATLAS/08_MAPS",
+    "ATLAS/07_RESOURCES/PDFs/estatistica descritiva.pdf",
+    "ATLAS/07_RESOURCES/PDFs/backend.pdf",
+    "ATLAS/07_RESOURCES/PDFs/Boas praticas de Atendimento.pdf",
+    "ATLAS/07_RESOURCES/PDFs/hooks-copy.pdf",
+    "ATLAS/07_RESOURCES/PDFs/ai-data-scientist.pdf",
+    "ATLAS/07_RESOURCES/PDFs",
+    "ATLAS/07_RESOURCES",
+    "ATLAS/06_WORKFLOW",
+    "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/+_CANVAS_AOC.canvas",
+    "ATLAS/00_DRAFT/draft-graphs.canvas",
     "System/MEDIA/IMAGENS/15-05/Pasted image 20250518185950.png",
     "System/MEDIA/IMAGENS/15-05/Pasted image 20250518174041.png",
     "System/MEDIA/IMAGENS/PRINTS/_nota-index.png",
@@ -300,12 +309,6 @@
     "System/MEDIA/IMAGENS/PRINTS/ML MODELS.png",
     "Efforts/ARCHIVES/independent/webdesign/web.design.canvas",
     "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas",
-    "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
-    "Atlas/08_MAPS/+_CANVAS_AOC.canvas",
-    "Atlas/08_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
-    "Atlas/08_MAPS/+_CANVAS-DATASCIENCE.canvas",
-    "Atlas/02_CONCEPT/FirstVault/knowledge/Dev/+_CANVAS_AOC.canvas",
-    "Atlas/00_DRAFT/draft-graphs.canvas",
-    "Atlas/02_CONCEPT/+_CANVAS_AOC.canvas"
+    "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas"
   ]
 }
