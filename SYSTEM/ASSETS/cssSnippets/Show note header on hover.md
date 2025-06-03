@@ -1,4 +1,9 @@
-
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 # Show note header on hover
 
 ___

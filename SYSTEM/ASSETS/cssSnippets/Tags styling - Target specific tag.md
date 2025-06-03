@@ -1,5 +1,9 @@
-
-
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 # Tags styling - Target specific tag
 
 ---

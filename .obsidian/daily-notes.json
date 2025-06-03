@@ -1,4 +1,4 @@
 {
-  "folder": "Calendar/DAILY",
-  "template": "SYSTEM/TEMPLATE/template_daily_note"
+  "folder": "CALENDAR/DAILY",
+  "template": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_daily_note"
 }

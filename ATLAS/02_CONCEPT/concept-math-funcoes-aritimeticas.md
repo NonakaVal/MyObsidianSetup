@@ -1,7 +1,6 @@
 ---
 tags:
   - learning
-  - tocomplete/refatorar
 created: "[[2024-05-07]]"
 HUB:
   - "[[hub-math]]"

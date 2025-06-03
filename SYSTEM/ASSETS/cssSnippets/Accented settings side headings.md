@@ -1,5 +1,9 @@
-
-
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 # Accented settings side headings
 
 ---

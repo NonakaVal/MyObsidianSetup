@@ -1,169 +1,196 @@
 
+# 📄 Guia Rápido — Dataview Plugin (Obsidian)
 
-https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673/38
+## 🔍 Listas Simples
 
+### ➕ Criar lista de todas as notas especificadas
 
-##### Creates a list of all the notes you specifie
-```
-dataview
+```dataview
 list
 ```
 
-##### Determines from where you get the notes
-```
-dataview
-listDA
+### 🗂️ Definir a origem das notas
+
+```dataview
+list
 from
 ```
 
+### 🔖 **Por TAG**
 
-##### From TAG**
-```
-dataview
+```dataview
 list
-from # tag (sem espaço)
+from #tag
 ```
 
+### 📁 **Por FOLDER**
 
-##### From FOLDER
-```
-dataview
+```dataview
 list
 from "foldername"
 ```
 
-##### From LINKS
-Add all the notes from links coming into a note
-```
-dataview
+### 🔗 **Por LINKS**
+
+- Notas que apontam para uma nota:
+    
+
+```dataview
 list
-from [[]]
-```
-Or going out a note
-```
-dataview
-list
-from outgoing[[]]
+from [[Nota]]
 ```
 
-##### Combining sources
-You can use the 3 basic logical operators to create more complex `from` queries
-- *and*
-```
-dataview
+- Notas que saem de uma nota:
+    
+
+```dataview
 list
-from # tag and # btag
-```
-- *or*
-```
-dataview
-list
-from # tag or # btag
-```
-- *-*
-```
-dataview
-list
-from -# tag
-```
-- *and -*
-```
-dataview
-list
-from [[]] and - [[]]
+from outgoing([[Nota]])
 ```
 
-##### String Concatenation
-In the result of a *list* you can add strings
-```
-dataview
-list "File.path: " + File.path + " :)"
-from # tag
+## 🧠 Combinação de Fontes
+
+- **AND**
+    
+
+```dataview
+list
+from #tag1 and #tag2
 ```
 
+- **OR**
+    
 
-##### List of lists
+```dataview
+list
+from #tag1 or #tag2
 ```
-dataview
+
+- **EXCLUDE (-)**
+    
+
+```dataview
+list
+from -#tag
+```
+
+- **AND com exclusão**
+    
+
+```dataview
+list
+from [[Nota]] and -[[Nota]]
+```
+
+## 🧵 Concatenação de Strings
+
+```dataview
+list "File path: " + file.path + " ✅"
+from #tag
+```
+
+## 🔗 Lista de Propriedades em Arrays
+
+```dataview
 list authors
-from [[]]
+from [[Nota]]
 ```
 
+---
 
-##### Tasks
-`Task` searches for all checkboxes `- []` in your vault
-It returns a list with all tasks, grouped by their parent note.
-```
-dataview
-task from # tag
+## ✅ Busca por Tarefas
+
+Procura todas as checkboxes (`- [ ]`) no vault.
+
+- **Por tag:**
+    
+
+```dataview
+task from #tag
 ```
 
-##### Where
+---
 
-After choosing from which notes to use, you can use `where` to narrow down the list further
-This lets you use the various comparisons operators on the metadata from your notes
-`>, >=, =, <, <=, !=`
-> where{condition}
-```
-dataview
+## 🎯 Filtros com WHERE
+
+Permite refinar os resultados após o `from`.
+
+- **Excluir uma nota específica:**
+    
+
+```dataview
 list
-where file.name != "; 000 Home"
+where file.name != "000 Home"
 ```
-```
-dataview
+
+- **Notas modificadas nas últimas 24 horas:**
+    
+
+```dataview
 list
 where file.mtime >= date(today) - dur(1 day)
 ```
-```
-dataview
+
+- **Onde tarefa não está completa:**
+    
+
+```dataview
 list from
 where !complete
 ```
-```
-dataview
+
+- **Onde não há data de atualização:**
+    
+
+```dataview
 list from
 where !date updated
 ```
 
-##### Tables
-`Table` can show you a table of various metadata fields linked into each note.
-`table {field1} {field2}`
-```
-dataview
+---
+
+## 📊 Tabelas
+
+Exibe campos como tabela.
+
+- **Tabela simples com nome dos arquivos:**
+    
+
+```dataview
 table file.name
-from [[]]
-```
-```
-dataview
-table autores
-from [[]]
-```
-```
-dataview
-table dificuldade
-from [[]]
+from [[Nota]]
 ```
 
-##### Sort
-Sort the order of the results from your list.
-`Sort field1 asc/desc field2 asc/desc`
-```
-dataview
-table file.name
-from [[]]
-sort asc
+- **Exemplos com propriedades personalizadas:**
+    
+
+```dataview
+table autores, dificuldade
+from [[Nota]]
 ```
 
-##### Flatten
-Use `Flatten` to "unroll" each result in their on roll at the table.
+---
+
+## 🧭 Ordenação (SORT)
+
+```dataview
+table file.name
+from [[Nota]]
+sort file.name asc
 ```
-dataview
+
+---
+
+## 🪄 Expandindo Arrays (FLATTEN)
+
+Desenrola listas (arrays) dentro dos campos.
+
+```dataview
 table authors
-from [[]]
+from [[Nota]]
 flatten authors
 ```
 
-##### Group by
-`Group by` makes you gather together resoults based on the value of the field.
-- Group tasks based on `completed`
-- Group books by `rating`
+---
+
+

@@ -1,5 +1,9 @@
-
-
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 # Coloured tab header container
 
 ---

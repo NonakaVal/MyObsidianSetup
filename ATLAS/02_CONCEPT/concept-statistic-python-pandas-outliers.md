@@ -1,7 +1,6 @@
 ---
 tags:
   - learning
-  - tocomplete/atomizar
 HUB:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"

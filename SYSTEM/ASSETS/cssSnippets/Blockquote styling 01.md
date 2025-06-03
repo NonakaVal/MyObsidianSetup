@@ -1,5 +1,9 @@
-
-
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 # Blockquote styling 01
 
 ---

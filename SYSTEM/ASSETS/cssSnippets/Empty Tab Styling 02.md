@@ -1,3 +1,9 @@
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 ↪ [_cssSnippetCollection](_cssSnippetCollection.md)
 
 # Empty tab styling

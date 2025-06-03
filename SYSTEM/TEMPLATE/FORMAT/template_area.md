@@ -6,7 +6,7 @@ area_category:
 tags: 
 ---
 
-Area Category : `INPUT[inlineSelect(option('content-creation'), option('family'), option('work'), option('saude'), showcase):area_category]`
+Area Category : `INPUT[inlineSelect(option('content-creation'), option('family'), option('work'), option('saude'), option('Learning'), showcase):area_category]`
 
 
 # [[<% tp.file.title %>]]
@@ -18,11 +18,10 @@ Area Category : `INPUT[inlineSelect(option('content-creation'), option('family')
 
 ```dataview
 table created AS "Created", summary AS "Summary"
-from "Efforts/AREAS/<% tp.file.folder() %>"
-where file.name != "<% tp.file.folder() %>"
+from "EFFORTS/09_AREAS/<% tp.file.folder() %>"
+where file.name != "<% tp.file.folder() %>" and type = "project-base"
 sort created DESC
 ```
-
 
 
 ### Tasks
@@ -32,7 +31,7 @@ tab: TASKs
 
 ```dataview
 TASK
-FROM "Efforts/AREAS/<%tp.file.folder() %>"
+FROM "EFFORTS/09_AREAS/<%tp.file.folder() %>"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -41,7 +40,7 @@ GROUP BY file.name
 tab: Done
 ```dataview
 TASK
-FROM "Efforts/AREAS/<%tp.file.folder() %>"
+FROM "EFFORTS/09_AREAS/<%tp.file.folder() %>"
 WHERE completed AND checked
 GROUP BY file.name
 

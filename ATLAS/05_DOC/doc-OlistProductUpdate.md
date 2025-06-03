@@ -2,7 +2,7 @@
 tags:
   - workflow
 HUB:
-  - "[[hub-collectors]]"
+  - "[[hub-work]]"
   - "[[hub-data-wrangling]]"
   - "[[hub-jupyterNotebook]]"
 repo: 

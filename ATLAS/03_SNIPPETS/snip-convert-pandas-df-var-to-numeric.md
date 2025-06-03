@@ -9,7 +9,7 @@ connections:
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 
 
 # {propósito}
-converter uma coluna de um dataframe para numerico 
+converter uma coluna de um data-frame para numeric 
 
 
 # {código}

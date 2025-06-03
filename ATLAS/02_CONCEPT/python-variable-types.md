@@ -5,7 +5,6 @@ HUB:
   - "[[hub-python]]"
 aliases:
   - data-types
-dg-publish: false
 ---
 ### Primitivas:
 

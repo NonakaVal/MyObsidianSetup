@@ -1,13 +1,17 @@
 {
   "enabledCssSnippets": [
-    "base",
-    "dash",
-    "dashboard",
+    "dashboarPlusPlus",
     "datacore-classes",
-    "file-explorer-wrap",
-    "show-hover-title",
-    "MCL Wide Views"
+    "minorAdds",
+    "minorFixes",
+    "MCL Wide Views",
+    "hidePropertiesBase"
   ],
   "cssTheme": "Shimmering Focus",
-  "theme": "moonstone"
+  "baseFontSizeAction": true,
+  "baseFontSize": 12,
+  "theme": "obsidian",
+  "nativeMenus": false,
+  "interfaceFontFamily": "Geneva",
+  "textFontFamily": "Geneva"
 }

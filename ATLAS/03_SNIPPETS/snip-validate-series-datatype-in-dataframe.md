@@ -6,7 +6,7 @@ HUB:
   - "[[hub-data-wrangling]]"
 connections:
   - "[[flow-Verify-DataTypes|flow-Verify-DataTypes]]"
-  - "[[Atlas/02_CONCEPT/pandas-series.md|pandas-series]]"
+  - "[[pandas-series|pandas-series]]"
 ---
 
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 

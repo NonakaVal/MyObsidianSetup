@@ -9,6 +9,9 @@ tags:
 
 Summary and Purpose : `INPUT[text(showcase):summary]` - Area Notes Related : `INPUT[inlineListSuggester(optionQuery(#area)):connections]` 
 
+`INPUT[inlineSelect(option('project-base'), option('utils')):type]`
+
+
 # [[<% tp.file.title %>]]
 
 

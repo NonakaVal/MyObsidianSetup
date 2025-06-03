@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "System/TEMPLATE/FORMAT",
+  "templates_folder": "SYSTEM/TEMPLATE/FORMAT",
   "templates_pairs": [
     [
       "",
@@ -15,40 +15,36 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "Calendar/DAILY",
+      "folder": "CALENDAR/DAILY",
       "template": "SYSTEM/TEMPLATE/FORMAT/template_daily_note.md"
     },
     {
-      "folder": "Drafts",
+      "folder": "EFFORTS/AREAS",
+      "template": "SYSTEM/TEMPLATE/FORMAT/template_area_note.md"
+    },
+    {
+      "folder": "DRAFTS",
       "template": "SYSTEM/TEMPLATE/FORMAT/template_new_note.md"
     },
     {
-      "folder": "Entertainment/MUSIC",
-      "template": "System/TEMPLATE/FORMAT/template-album-music.md"
+      "folder": "LEISURE/MUSIC",
+      "template": "SYSTEM/TEMPLATE/FORMAT/template-album-music.md"
     },
     {
-      "folder": "Efforts/PROJECTS",
-      "template": "System/TEMPLATE/FORMAT/template_project_note.md"
+      "folder": "ATLAS/03_SNIPPETS",
+      "template": "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-snippet.md"
     },
     {
-      "folder": "Atlas/03_SNIPPETS",
-      "template": "System/TEMPLATE/FORMAT/ATLAS/template-snippet.md"
+      "folder": "ATLAS/00_DRAFT",
+      "template": "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-dratf.md"
     },
     {
-      "folder": "Efforts/WORKSTATION/BOOKS",
-      "template": "System/TEMPLATE/FORMAT/template-book-writing.md"
+      "folder": "EFFORTS/09_AREAS/Writing/von",
+      "template": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-book-von-sonda.md"
     },
     {
-      "folder": "Atlas/00_DRAFT",
-      "template": "System/TEMPLATE/FORMAT/ATLAS/template-dratf.md"
-    },
-    {
-      "folder": "Efforts/AREAS/Writing/von",
-      "template": "System/TEMPLATE/FORMAT/WRITING/template-book-von-sonda.md"
-    },
-    {
-      "folder": "Efforts/AREAS",
-      "template": "System/TEMPLATE/FORMAT/template_area_note.md"
+      "folder": "EFFORTS/09_AREAS/Writing/Not_A_Dev/Posts",
+      "template": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-new-post.md"
     }
   ],
   "enable_file_templates": false,

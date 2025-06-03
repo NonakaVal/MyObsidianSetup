@@ -1931,3 +1931,5 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     }
   }
 };
+
+/* nosourcemap */

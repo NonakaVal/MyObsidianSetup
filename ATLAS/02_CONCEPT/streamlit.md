@@ -41,7 +41,7 @@ streamlit run https://raw.githubusercontent.com/streamlit/demo-uber-nyc-pickups/
 	- permite que você pule uma função e retorne um valor previamente computado. Quando você usa caching, você executa tudo, exceto a função em cache (se você já a tiver executado antes).
 Sessions state
 
-- [[streamlit-forms]]
+- [[draft-streamlit-forms]]
 	- **Os formulários** permitem que os usuários interajam com widgets sem executar novamente seu aplicativo. O Streamlit não envia ações do usuário dentro de um formulário para o backend Python do seu aplicativo até que o formulário seja enviado. Os widgets dentro de um formulário não podem atualizar dinamicamente outros widgets (dentro ou fora do formulário) em tempo real.
 - [[streamlit-fragments]]
 	- **Fragmentos** são executados independentemente do resto do seu código. Conforme seus usuários interagem com widgets de fragmento, suas ações são imediatamente processadas pelo backend Python do seu aplicativo e seu código de fragmento é executado novamente. Widgets dentro de um fragmento podem atualizar dinamicamente outros widgets dentro do mesmo fragmento em tempo real.

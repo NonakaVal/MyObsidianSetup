@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1748719868476,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1748719861228,
+          "path": "EFFORTS/09_AREAS/ESTUDOS/ESTUDOS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748719861228,
+          "path": "EFFORTS/09_AREAS/ESTUDOS/Data Science Path.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748719861228,
+          "path": "EFFORTS/09_AREAS/ESTUDOS/Backend RUBY.md"
+        }
+      ],
+      "title": "ESTUDOS"
+    },
+    {
+      "type": "group",
+      "ctime": 1748703954014,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1748703932532,
+          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748703932532,
+          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748703932532,
+          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/conceitos-fundamentais.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748703932532,
+          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/serie-plugins-da-comunidade.md"
+        }
+      ],
+      "title": "PKM-Youtube-Videos"
+    },
+    {
+      "type": "group",
+      "ctime": 1748704001756,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1748703988676,
+          "path": "EFFORTS/09_AREAS/Career-development/Career-development.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748703988676,
+          "path": "EFFORTS/09_AREAS/Career-development/Portifolio-Content.md"
+        }
+      ],
+      "title": "TRAMPO"
+    },
+    {
+      "type": "folder",
+      "ctime": 1748729432218,
+      "path": "SYSTEM/TEMPLATE/FORMAT",
+      "title": "TEMPLATES"
+    }
+  ]
+}

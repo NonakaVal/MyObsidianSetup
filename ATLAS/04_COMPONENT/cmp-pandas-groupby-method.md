@@ -9,7 +9,7 @@ dg-publish: true
 ---
 Operação usada para agrupar dados em um dataframe com base em uma ou mais colunas, ela permite dividir os dados em grupos com base em critérios.
 
-![[snip-andas-groupby-function]]
+![[snip-pandas-groupby-function]]
 
 
 Padrão:

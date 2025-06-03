@@ -1,22 +1,3 @@
-# Apresentação
-
-Subi esse repo para compartilhar minha organização no [Obsidian](https://obsidian.md/) - Estive usando como minha principal ferramenta de gestão de conhecimento por aproximadamente 2 anos. No início apenas para estudo e revisão, porém hoje em dia para muito além disso.
-
-- Explico um pouco sobre como uso no meu canal no [Youtube](https://www.youtube.com/@nonaka96), porém também estou documentando aqui muito do que funciona para mim.
-- [Digital Garden](https://nonaka-garden.vercel.app/) - Página onde compartilho algumas de minhas notas e Recursos de Estudos.
-
-
-## Baixar e Acessar
-
-Para baixar o arquivo `.zip` basta clickar [link](https://github.com/NonakaVal/MyObsidianSetup/archive/refs/heads/main.zip) 
-
-também sendo possível apenas clonar 
-
-```
-git clone https://github.com/NonakaVal/MyObsidianSetup.git
-```
-
-
 # 📂 Estrutura da Vault
 
 ## Folder System
@@ -47,7 +28,7 @@ git clone https://github.com/NonakaVal/MyObsidianSetup.git
 	- **RESOURCES** — Materiais de apoio e referência específica para projetos  
 	- **WORKSTATION** — Anotações operacionais do dia a dia de execução  
 
-- **📂 <font color = 00bbfff>Entertainment</font>** — Conteúdos de lazer, cultura e hobbies
+- **📂 <font color = 00bbfff>LEISURE</font>** — Conteúdos de lazer, cultura e hobbies
 	- **MUSIC** — Músicas, playlists, artistas favoritos e estudos musicais  
 
 - **📂 <font color = 00bbfff>Social</font>** — Reflexões pessoais e interações humanas
@@ -193,15 +174,19 @@ git clone https://github.com/NonakaVal/MyObsidianSetup.git
 - [Omnisearch](https://github.com/scambier/obsidian-omnisearch)
 - [Outliner](https://github.com/vslinko/obsidian-outliner)
 - [Paste URL into selection](https://github.com/denolehov/obsidian-url-into-selection)
+- Pomodoro Timer
 - [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
 - [Persistent Graph](https://github.com/Sanqui/obsidian-persistent-graph)
 - [Projects](https://github.com/marcusolsson/obsidian-projects)
 - [QuickAdd](https://github.com/chhoumann/quickadd)
 - [Recent Files](http://github.com/tgrosinger/recent-files-obsidian)
 - [Share Note](https://github.com/alangrainger/share-note)
+- Shell commands
 - [Tabs](https://github.com/xhuajin/obsidian-tabs)
 - [Templater](https://github.com/SilentVoid13/Templater)
+- Vimrc Support
 - [YTranscript](https://github.com/obsidian-community/obsidian-ytranscript)
+
 
 
 

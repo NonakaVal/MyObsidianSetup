@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "e068c2f2c5ab9a4e",
+    "id": "435813a483a4b733",
     "type": "split",
     "children": [
       {
-        "id": "f8131fa3d3dc47e9",
+        "id": "bce2fc0e40b3e8fa",
         "type": "tabs",
         "children": [
           {
-            "id": "b9fb9faccc872ea7",
+            "id": "d7dfae99cfaeb0db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,15 +37,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "77d54f791abf57a3",
+    "id": "30a96d511c595bd9",
     "type": "split",
     "children": [
       {
-        "id": "e40ca5803e6ca4de",
+        "id": "ed25f7892e75d205",
         "type": "tabs",
+        "dimension": 40.55158324821247,
         "children": [
           {
-            "id": "a2bc94ab67cbe8fe",
+            "id": "7c12f4537a161402",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,24 +59,7 @@
             }
           },
           {
-            "id": "ecef1731e17d67bc",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "1e1776493984f924",
+            "id": "5f8720d4808f05f4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,17 +69,24 @@
             }
           },
           {
-            "id": "a840df0a227860be",
+            "id": "114e561c806da324",
             "type": "leaf",
             "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "type": "search",
+              "state": {
+                "query": "[\"tags\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "1ac39eb58a91ed90",
+            "id": "82646eeb17e833c2",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -108,15 +99,26 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "63cc42741b504ae1",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ]
       },
       {
-        "id": "6b7d45553b46a037",
+        "id": "5bcd12940291967f",
         "type": "tabs",
+        "dimension": 59.44841675178753,
         "children": [
           {
-            "id": "3ccef4ffadaa78ab",
+            "id": "978e395df90b0090",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -129,18 +131,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 349.5
   },
   "right": {
-    "id": "a2051fa6b37fc1fa",
+    "id": "ed2f7560d3f1e808",
     "type": "split",
     "children": [
       {
-        "id": "b5c479625de67b72",
+        "id": "ac007dd9b44600e7",
         "type": "tabs",
+        "dimension": 51.467710371819955,
         "children": [
           {
-            "id": "08f8f5660175c4cd",
+            "id": "9597a6a6532e1660",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -150,40 +153,88 @@
             }
           },
           {
-            "id": "8ebd1a1d630f1a06",
+            "id": "6a0bb0f3546ca198",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          },
+          {
+            "id": "f09bd6bad17e7dcc",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
               "state": {
-                "file": "SYSTEM/TEMPLATE/template_area.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
+                "file": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for myObsidian setup Apresentation"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "19a831861ff1406b",
+        "type": "tabs",
+        "dimension": 48.532289628180045,
+        "children": [
+          {
+            "id": "949315bb903ea07a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "README.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224428,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of README"
+            }
+          },
+          {
+            "id": "8f4f2836dcfbad95",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
                 "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "searchQuery": ""
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for template_area"
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
-            "id": "a4ed9ed1ec70d426",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "SYSTEM/TEMPLATE/template_area.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from template_area"
-            }
-          },
-          {
-            "id": "9653a626ec4d221b",
+            "id": "5d4c63075f2886ab",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -198,45 +249,43 @@
             }
           },
           {
-            "id": "c140dcd46152917f",
+            "id": "a094feb55ce938d5",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "backlink",
               "state": {
-                "sortOrder": "frequency",
+                "file": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
                 "showSearch": false,
-                "searchQuery": ""
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "links-coming-in",
+              "title": "Backlinks for myObsidian setup Apresentation"
             }
           },
           {
-            "id": "15f893c68d8b09c1",
+            "id": "4deadd86eceb81db",
             "type": "leaf",
             "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "6f2f35e9458c9308",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "type": "outgoing-link",
+              "state": {
+                "file": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from myObsidian setup Apresentation"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
+    "width": 275.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -248,67 +297,69 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "obsidian-git:Open Git source control": false,
+      "pomodoro-timer:Toggle timer panel": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "b9fb9faccc872ea7",
+  "active": "d7dfae99cfaeb0db",
   "lastOpenFiles": [
+    "ATLAS/00_DRAFT/draft-ruby-basics.md",
+    "CALENDAR/DAILY/2025-06-03.md",
+    "CALENDAR/DAILY/2025-06-02.md",
+    "CALENDAR/DAILY/2025-06-01.md",
+    "ATLAS/00_DRAFT/draft-python-data-analysis-crime-study-cases.md",
+    "ATLAS/00_DRAFT/draft-python-scope-functions-concepts.md",
+    "ATLAS/00_DRAFT/draft-what-is-internet.md",
+    "ATLAS/02_CONCEPT/python-variable-types.md",
+    "ATLAS/01_INDEX/index-datascience.md",
+    "ATLAS/01_INDEX/index-computer-science.md",
+    "SYSTEM/_index_notas.md",
+    "ATLAS/02_CONCEPT/concept-introduction-to-ruby.md",
+    "SYSTEM/TEMPLATE/FORMAT/template_area_note.md",
+    "SYSTEM/TEMPLATE/FORMAT/WRITING/template-RAW-THOUGHTS.md",
+    "EFFORTS/09_AREAS/Writing/RawThoughts/DESABAFO-2025-06-03.md",
+    "EFFORTS/09_AREAS/Writing/RawThoughts/RawThoughts.md",
+    "DRAFTS/draft-pomodoro-dataview.md",
+    "EFFORTS/09_AREAS/Writing/RawThoughts/Untitled.md",
     "_index_notas.md",
-    "index_notas.md",
     "README.md",
-    "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-value-counts-contando-os-valores.md",
-    "ATLAS/02_CONCEPT/concept-Scope and user-defined functions.md",
-    "ATLAS/02_CONCEPT/concept-python-pickle-exportando-importando-modelos.md",
-    "ATLAS/02_CONCEPT/concept-python-Pandas-DataFrame-Selection-Methods-2.md",
-    "ATLAS/02_CONCEPT/concept-seaborn-categorical-plot-types.md",
-    "ATLAS/02_CONCEPT/concept-python-strings.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-pop-drop-excluindo-variaveis(colunas).md",
-    "ATLAS/02_CONCEPT/concept-python-seaborn-factor-relationships-and-distributions.md",
-    "ATLAS/02_CONCEPT/concept-python-statsmodels-ajustando-o-experimento-com-um-modelo-estatistico.md",
-    "ATLAS/02_CONCEPT/concept-record-linkage.md",
-    "ATLAS/02_CONCEPT/concept-seaborn-anotacoes-em-histogramas.md",
-    "ATLAS/02_CONCEPT/concept-python-scipy-comparando-intervalos-de-confianca.md",
-    "ATLAS/02_CONCEPT/concept-seaborn-count-plots-and-bar-plots.md",
-    "ATLAS/02_CONCEPT/concept-python-seaborn-catplot.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-dataframe.md",
-    "ATLAS/02_CONCEPT/concept-python-sklearn-criando-modelo-preditivo.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-loc-iloc-method-selection.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-cut.md",
-    "ATLAS/02_CONCEPT/concept-python-Pandas-DataFrame-Selection-Methods.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-linking-dataframes.md",
-    "ATLAS/02_CONCEPT/concept-python-pandas-dataframe-variables.md",
-    "ATLAS/02_CONCEPT/concept-python-split.md",
-    "ATLAS/08_MAPS/Excalidraw",
-    "ATLAS/08_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
-    "ATLAS/08_MAPS/+_CANVAS_GROWTH.canvas",
-    "ATLAS/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "ATLAS/02_CONCEPT/concept-advanced-functions.md",
+    "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md",
+    "LEISURE/GAMES/dark-souls.md",
+    "LEISURE/GAMES",
+    "DRAFTS/draft-nota-test-1.md",
+    "DRAFTS/code-py.md",
+    "EFFORTS/09_AREAS/ESTUDOS/desktop.ini",
+    "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/desktop.ini",
+    "ATLAS/06_WORKFLOW/desktop.ini",
+    "SYSTEM/HUB/desktop.ini",
+    "SYSTEM/TEMPLATE/FORMAT/ATLAS/desktop.ini",
+    "desktop.ini",
+    "SYSTEM/ASSETS/hotkeys.md",
+    "CALENDAR/MONTHLY/desktop.ini",
+    "SOCIAL/PEOPLE/desktop.ini",
+    "SYSTEM/ASSETS/cssSnippets/desktop.ini",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/scr00006.jpg",
+    "DRAFTS/AI and Data Scientist .sh roadmap.canvas",
+    "Pasted image 20250531140949.png",
     "ATLAS/08_MAPS/+_CANVAS_AOC.canvas",
+    "ATLAS/08_MAPS/+_CANVAS_GROWTH.canvas",
+    "ATLAS/08_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "ATLAS/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
     "ATLAS/08_MAPS/+_CANVAS-DATASCIENCE.canvas",
-    "ATLAS/08_MAPS",
-    "ATLAS/07_RESOURCES/PDFs/estatistica descritiva.pdf",
-    "ATLAS/07_RESOURCES/PDFs/backend.pdf",
-    "ATLAS/07_RESOURCES/PDFs/Boas praticas de Atendimento.pdf",
-    "ATLAS/07_RESOURCES/PDFs/hooks-copy.pdf",
-    "ATLAS/07_RESOURCES/PDFs/ai-data-scientist.pdf",
-    "ATLAS/07_RESOURCES/PDFs",
-    "ATLAS/07_RESOURCES",
-    "ATLAS/06_WORKFLOW",
     "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/+_CANVAS_AOC.canvas",
     "ATLAS/00_DRAFT/draft-graphs.canvas",
-    "System/MEDIA/IMAGENS/15-05/Pasted image 20250518185950.png",
-    "System/MEDIA/IMAGENS/15-05/Pasted image 20250518174041.png",
-    "System/MEDIA/IMAGENS/PRINTS/_nota-index.png",
-    "System/MEDIA/IMAGENS/PRINTS/STATISTC.png",
-    "System/MEDIA/IMAGENS/PRINTS/SQL.png",
-    "System/MEDIA/IMAGENS/PRINTS/PYTHON.png",
-    "System/MEDIA/IMAGENS/PRINTS/PROBABILIDADE.png",
-    "System/MEDIA/IMAGENS/PRINTS/PMK.png",
-    "System/MEDIA/IMAGENS/PRINTS/OPERATIONAL SYSTEM.png",
-    "System/MEDIA/IMAGENS/PRINTS/ML MODELS.png",
     "Efforts/ARCHIVES/independent/webdesign/web.design.canvas",
-    "Atlas/08_MAPS/+_CANVAS_GROWTH.canvas",
-    "Atlas/08_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas"
+    "EFFORTS/11_ARCHIVES/independent/webdesign/web.design.canvas",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518202448.png",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518202432.png",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/scr00005.jpg",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518194904.png",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518195625.png",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518195101.png",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518194817.png",
+    "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518195623.png"
   ]
 }

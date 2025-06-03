@@ -7,7 +7,6 @@
   "shimmering-focus@@show-sidebar-toggle-buttons": true,
   "shimmering-focus@@show-close-buttons": true,
   "shimmering-focus@@show-urls": true,
-  "shimmering-focus@@no-codeblock-line-numbers": true,
   "shimmering-focus@@hide-inline-title-when-more-than-one-tab": true,
   "shimmering-focus@@hide-vault-switcher-and-settings": false,
   "shimmering-focus@@normal-header-bar": true,
@@ -52,5 +51,14 @@
   "chime-theme@@increased-line-height": false,
   "chime-theme@@custom-font-toggle": true,
   "chime-theme@@custom-font": "Merriweather",
-  "shimmering-focus@@image-size": 100
+  "shimmering-focus@@image-size": 100,
+  "shimmering-focus@@code-size": 0.75,
+  "shimmering-focus@@heading-scaling": 0.8,
+  "shimmering-focus@@alt-colorschemes": "colorscheme-gamma",
+  "shimmering-focus@@hide-properties-in-statusbar": true,
+  "shimmering-focus@@hide-backlinks-status-bar": true,
+  "shimmering-focus@@hide-pane-relief-focus-lock-status-bar": true,
+  "shimmering-focus@@hide-languagetool-status-bar": true,
+  "shimmering-focus@@hide-signature-icon": true,
+  "shimmering-focus@@hide-harper-status-bar": true
 }

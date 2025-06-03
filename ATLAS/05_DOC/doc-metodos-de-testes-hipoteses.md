@@ -14,7 +14,7 @@ HUB:
 - **Alternative Hypothesis ($H_1$)** : $<$, $\neq$, $>$
 
 ## 🔧 Core Analysis Parameters
-[[concept-ml-parametros-de-analise|Key Analysis Parameters]]
+[[draft-ml-parametros-de-analise|Key Analysis Parameters]]
 ### Regression Metrics
 [[metricas-da-regressao|Regression Evaluation Metrics]]
 ```python

@@ -1,3 +1,9 @@
 {
-  "promptDelete": false
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "DRAFTS",
+  "attachmentFolderPath": "SYSTEM/MEDIA/IMAGENS",
+  "promptDelete": true,
+  "userIgnoreFilters": null
 }

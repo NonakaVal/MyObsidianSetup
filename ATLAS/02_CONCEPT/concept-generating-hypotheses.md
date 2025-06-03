@@ -25,5 +25,5 @@ Hypothesis testing requires, prior to data collection:
 - Generating a hypothesis or question
  - decision on what statistical test to use
 
-![[concept-data-snooping]]
+![[draft-data-snooping]]
 

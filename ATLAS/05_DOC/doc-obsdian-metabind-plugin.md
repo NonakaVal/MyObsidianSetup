@@ -8,6 +8,8 @@ repo: https://github.com/mProjectsCode/obsidian-meta-bind-plugin
 select: 3
 ---
 
+`````
+```
 # Input Values
 
 ## Selection Controls
@@ -501,4 +503,5 @@ actions:
   - type: invalid-type
 ```
 
+`````
 Last modified : `$= dv.current().file.mtime`

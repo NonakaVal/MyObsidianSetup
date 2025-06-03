@@ -9,7 +9,6 @@ HUB:
 
 [Anaconda](https://www.anaconda.com/)
 
-
 ```
 conda activate nome_do_ambiente
 conda deactivate
@@ -27,13 +26,6 @@ conda env remove --name nome_do_ambiente
 		- buscar "variveis do ambiente"
 			- ento "path"
 				- criar os seguintes caminhos com "novo"
-
-```css
-C:\Users\Anaconda3
-# meu caso C:\Users\nonak\anaconda3
-and o Scripts
-C:\Users\nonak\Anaconda3\Scripts
-```
 
 
 

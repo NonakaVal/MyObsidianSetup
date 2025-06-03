@@ -7,5 +7,5 @@ HUB:
 ---
 ![[concept-fundamentos-cloud-computing-]]
 
-[[modelos-e-plataformas-para-implementacao]]
+[[draft-modelos-e-plataformas-para-implementacao]]
 

@@ -1,8 +1,6 @@
 ---
 tags:
   - learning
-  - tocomplete/explicar
-  - tocomplete/atomizar
 HUB:
   - "[[hub-python]]"
 created: "[[2024-02-13]]"

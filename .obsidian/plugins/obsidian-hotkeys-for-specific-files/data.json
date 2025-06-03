@@ -1,5 +1,10 @@
 {
-  "files": [],
+  "files": [
+    {
+      "useMoment": false,
+      "file": "SYSTEM/ASSETS/hotkeys.md"
+    }
+  ],
   "useExistingPane": true,
   "useHoverEditor": false
 }

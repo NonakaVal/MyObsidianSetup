@@ -20,7 +20,7 @@ HUB:
 - [[concept-seaborn-Visualizing-Two-Quantitative-variables]]
 
 ### Ferramentas Relacionadas
-[[cmp-seaborn-plots]]
+[[doc-seaborn-plots]]
 [[doc-seaborn-data-visualization-methods]]
 
 ### Outros Tópicos Úteis

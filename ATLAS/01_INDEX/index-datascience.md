@@ -92,13 +92,13 @@ cssclasses:
 		  - [[python-list-comprehensions|List Comprehensions]]
 	- **Avançado**
 		- [[python-determinando-selecoes|Seleções]]
-		- [[concept-python-avancando-em-importacao-de-dados|Importação de Dados]]
+		- [[draft-python-avancando-em-importacao-de-dados|Importação de Dados]]
 		- [[concept-bi-dax-(dataanalysisxpressions)|DAX]]
 		- [[introducao-a-orientacao-a-objetos-com-python|POO com Python]]
 		- [[concept-linear-regression|Regressão Linear]]
 		- [[concept-regressao-linear-residuos|Resíduos]]
 		- [[sklearn-criando-modelos|Modelos com Scikit-Learn]]
-		- [[flow-sklearn-principal-component-analysis-pca|PCA com Scikit-Learn]]
+		- [[draft-sklearn-principal-component-analysis-pca|PCA com Scikit-Learn]]
 		- [[doc-sklearn-simple-linear-regression-model|Regressão Linear com Sklearn]]
 
 ---
@@ -135,7 +135,7 @@ cssclasses:
 - [[pandas-converting-and-analyzing-categorical-data|Dados Categóricos]]
 - [[pandas-working-with-numeric-data|Dados Numéricos]]
 - [[doc-sklearn-simple-linear-regression-model|Regressão Linear - Sklearn]]
-- [[flow-sklearn-principal-component-analysis-pca|PCA]]
+- [[draft-sklearn-principal-component-analysis-pca|PCA]]
 - [[concept-generating-hypotheses|Geração de Hipóteses]]
 - [[planejamento-de-experimentos|Planejamento Experimental]]
 
@@ -170,7 +170,7 @@ cssclasses:
 	- [[concept-python-seaborn-catplot|Gráficos Categóricos]]
 	- [[seaborn-facegrit-catplot-lmplot|FaceGrid, Catplot, Lmplot]]
 	- [[index-seaborn-matplotlib-charts|Seaborn + Matplotlib]]
-	- [[cmp-seaborn-plots|Comparação de Gráficos]]
+	- [[doc-seaborn-plots|Comparação de Gráficos]]
 	- [[seaborn-selecting-plots|Seleção de Gráficos]]
 
 

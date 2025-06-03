@@ -5,9 +5,9 @@ tags:
 HUB:
   - "[[hub-data-wrangling]]"
 connections:
-  - "[[Atlas/06_WORKFLOW/flow-pandas-null-values-wrangling.md|flow-pandas-null-values-wrangling]]"
-  - "[[Atlas/04_COMPONENT/cmp-pandas-fillna-nullvalues-wrangling.md|cmp-pandas-fillna-nullvalues-wrangling]]"
-  - "[[Atlas/02_CONCEPT/concept-pandas-dropna-isnull-fillna.md|concept-pandas-dropna-isnull-fillna]]"
+  - "[[flow-pandas-null-values-wrangling|flow-pandas-null-values-wrangling]]"
+  - "[[cmp-pandas-fillna-nullvalues-wrangling|cmp-pandas-fillna-nullvalues-wrangling]]"
+  - "[[concept-pandas-dropna-isnull-fillna|concept-pandas-dropna-isnull-fillna]]"
 ---
 
 Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]` 
@@ -16,10 +16,8 @@ Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]`
 
 Verificar os valores nulos de uma variavel dataframe pandas
 
-
 # {código}
 
-## PRIMEIRA FUNÇÃO - {date}
 
 ```python
 

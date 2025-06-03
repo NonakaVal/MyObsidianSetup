@@ -13,7 +13,7 @@ A memória RAM é um tipo de memória volátil que armazena dados enquanto o com
 
 A Figura 4.3 apresenta um pente (módulo) de memória RAM típico
 
-
+[^1]
 A memória RAM é um tipo de memória volátil que armazena dados enquanto o computador está ligado. Ao desligar, seu conteúdo é apagado, o que pode resultar na perda de arquivos que não foram salvos em algum tipo de memória permanente, como o disco do computador.
 
 A memória RAM é chamada de DRAM ou RAM dinâmica devido ao refrescamento de memória, que mantém os dados armazenados enquanto o computador está ligado. A tecnologia utilizada na fabricação dessa memória usa dispositivos semicondutores, como capacitores associados a transistores, para representar bits de dados armazenados. Cada célula de memória requer um transistor e um capacitor.
@@ -37,3 +37,5 @@ a) Módulos SIMM (Single In Line Memory Module): apresentam um pequeno orifício
 b) Módulos DIMM (Double In Line Memory Module): não apresentam orifícios nas linhas de contato e apresentam contatos em ambos os lados do módulo. São utilizados atualmente em memórias DDR, DDR2 e DDR3. A Figura 4.4 apresenta exemplos de módulos DIMM.
 
 ![[concept-aoc-1.10-organizacao-da-memoria-principal]]
+
+[^1]: 

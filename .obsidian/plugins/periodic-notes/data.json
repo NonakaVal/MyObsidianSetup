@@ -3,8 +3,8 @@
   "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "folder": "Calendar/DAILY",
-    "template": "System/TEMPLATE/FORMAT/CALENDAR/template_daily_note.md",
+    "folder": "CALENDAR/DAILY",
+    "template": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_daily_note.md",
     "enabled": true
   },
   "weekly": {
@@ -15,8 +15,8 @@
   },
   "monthly": {
     "format": "",
-    "template": "System/TEMPLATE/FORMAT/CALENDAR/template_month_note.md",
-    "folder": "Calendar/MONTHLY",
+    "template": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_month_note.md",
+    "folder": "CALENDAR/MONTHLY",
     "enabled": true
   },
   "quarterly": {

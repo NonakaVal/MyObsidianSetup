@@ -19,7 +19,7 @@
 		{"id":"62ba88cbe3397229","type":"text","text":"## TRATAMENTO E MANIPULAÇÃO DE DADOS","x":-247,"y":-330,"width":564,"height":52},
 		{"id":"7f53692721a71722","type":"text","text":"# TOOLBOX","x":-1120,"y":-311,"width":250,"height":60},
 		{"id":"d4f90b86b4273bf9","type":"text","text":"## Python","x":-1120,"y":-211,"width":250,"height":60},
-		{"id":"6235425e8a194818","type":"text","text":"[[python-build-in-functions]]\n[[python-variable-types]]\n[[python-operacoes]]\n[[python-flow-control]]\n[[python-functions]]\n[[doc-advanced-functions]]\n[[doc-python-defined-functions]]\n [[Introdução a orientação a objetos com python]]\n\n\n\n","x":-1120,"y":-131,"width":250,"height":160},
+		{"id":"6235425e8a194818","type":"text","text":"[[python-build-in-functions]]\n[[python-variable-types]]\n[[python-operacoes]]\n[[python-flow-control]]\n[[python-functions]]\n[[concept-advanced-functions]]\n[[doc-python-defined-functions]]\n [[Introdução a orientação a objetos com python]]\n\n\n\n","x":-1120,"y":-131,"width":250,"height":160},
 		{"id":"a01bb8d94cdf97a3","type":"text","text":"## SQL","x":-1120,"y":69,"width":250,"height":60},
 		{"id":"f4284360456e0f97","type":"text","text":"## BI","x":-1120,"y":162,"width":250,"height":60},
 		{"id":"c1625eeb259d8102","type":"text","text":"## GitHub","x":-1120,"y":249,"width":250,"height":60},

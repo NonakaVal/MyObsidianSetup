@@ -10,6 +10,8 @@ Notes Related : `INPUT[inlineListSuggester(optionQuery("Atlas")):connections]`
 
 # {propósito}
 
+Converte variável de um df para categórico 
+
 # {código}
 
 ## PRIMEIRA FUNÇÃO - {date}

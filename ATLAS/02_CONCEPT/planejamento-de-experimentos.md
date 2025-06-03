@@ -24,7 +24,7 @@ Visualização que mostra a relação entre duas variáveis e ajuda na modelagem
 ### **[[concept-python-statsmodels-ajustando-o-experimento-com-um-modelo-estatistico]]** 
 Processo de aplicar modelos estatísticos para ajustar e interpretar os resultados experimentais.
 
-### **[[concept-ml-parametros-de-analise]]** 
+### **[[draft-ml-parametros-de-analise]]** 
 Valores e medidas utilizadas para descrever e interpretar dados e resultados de uma análise estatística.
 
 ### **[[testes-de-hipoteses]]** 

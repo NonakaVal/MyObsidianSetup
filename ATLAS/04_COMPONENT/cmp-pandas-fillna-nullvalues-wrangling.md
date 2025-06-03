@@ -8,12 +8,6 @@ HUB:
 dg-publish: true
 ---
 
-Criando uma série:
-```css
-import pandas as pd
-data = [0,5, None, None, 0.52, 0.54, None , None, 0.59, None, 0.6, None, 0.7 ]
-s = pd.Series(data)
-```
 
 métodos no [[removendo-valores-nulos|fillna()]]
 **ffill** e **bfill**

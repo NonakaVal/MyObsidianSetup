@@ -11,7 +11,7 @@ created: "[[31-01-2024]]"
 
 {{Objetivo do método}}
 utilizado para converter os valores de uma série para numéricos, 
-[[cmp-categorical-and-numerical-wrangling]]
+[[doc-categorical-and-numerical-wrangling]]
 
 to-numeric-pandas-image
 

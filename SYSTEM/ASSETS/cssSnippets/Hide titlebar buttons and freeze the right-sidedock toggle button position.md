@@ -1,5 +1,9 @@
-
-
+---
+tags:
+  - cssSnippetCollection 
+HUB:
+  - "[[hub-css]]"
+---
 # Hide titlebar buttons and freeze the right-sidedock toggle button position
 
 ---

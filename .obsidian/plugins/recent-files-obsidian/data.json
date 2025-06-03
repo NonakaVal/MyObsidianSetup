@@ -5,196 +5,200 @@
       "path": "README.md"
     },
     {
+      "basename": "draft-ruby-basics",
+      "path": "ATLAS/00_DRAFT/draft-ruby-basics.md"
+    },
+    {
+      "basename": "2025-06-03",
+      "path": "CALENDAR/DAILY/2025-06-03.md"
+    },
+    {
+      "basename": "2025-06-02",
+      "path": "CALENDAR/DAILY/2025-06-02.md"
+    },
+    {
+      "basename": "2025-06-01",
+      "path": "CALENDAR/DAILY/2025-06-01.md"
+    },
+    {
+      "basename": "draft-python-data-analysis-crime-study-cases",
+      "path": "ATLAS/00_DRAFT/draft-python-data-analysis-crime-study-cases.md"
+    },
+    {
+      "basename": "draft-python-scope-functions-concepts",
+      "path": "ATLAS/00_DRAFT/draft-python-scope-functions-concepts.md"
+    },
+    {
+      "basename": "draft-what-is-internet",
+      "path": "ATLAS/00_DRAFT/draft-what-is-internet.md"
+    },
+    {
+      "basename": "python-variable-types",
+      "path": "ATLAS/02_CONCEPT/python-variable-types.md"
+    },
+    {
+      "basename": "index-datascience",
+      "path": "ATLAS/01_INDEX/index-datascience.md"
+    },
+    {
+      "basename": "index-computer-science",
+      "path": "ATLAS/01_INDEX/index-computer-science.md"
+    },
+    {
+      "basename": "concept-introduction-to-ruby",
+      "path": "ATLAS/02_CONCEPT/concept-introduction-to-ruby.md"
+    },
+    {
+      "basename": "template_area_note",
+      "path": "SYSTEM/TEMPLATE/FORMAT/template_area_note.md"
+    },
+    {
+      "basename": "template-RAW-THOUGHTS",
+      "path": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-RAW-THOUGHTS.md"
+    },
+    {
+      "basename": "DESABAFO-2025-06-03",
+      "path": "EFFORTS/09_AREAS/Writing/RawThoughts/DESABAFO-2025-06-03.md"
+    },
+    {
+      "basename": "RawThoughts",
+      "path": "EFFORTS/09_AREAS/Writing/RawThoughts/RawThoughts.md"
+    },
+    {
+      "basename": "draft-pomodoro-dataview",
+      "path": "DRAFTS/draft-pomodoro-dataview.md"
+    },
+    {
       "basename": "_index_notas",
       "path": "_index_notas.md"
     },
     {
-      "basename": "PKM-Youtube-Videos",
-      "path": "Efforts/AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
+      "basename": "concept-advanced-functions",
+      "path": "ATLAS/02_CONCEPT/concept-advanced-functions.md"
     },
     {
-      "basename": "conceitos-fundamentais",
-      "path": "Efforts/AREAS/PKM-Youtube-Videos/conceitos-fundamentais.md"
+      "basename": "myObsidian setup Apresentation",
+      "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md"
     },
     {
-      "basename": "MinhasHistorinhaspBB",
-      "path": "Efforts/AREAS/bbHarry/MinhasHistorinhaspBB.md"
+      "basename": "dark-souls",
+      "path": "LEISURE/GAMES/dark-souls.md"
     },
     {
-      "basename": "Ideias-de-atividades-harry",
-      "path": "Efforts/AREAS/bbHarry/Ideias-de-atividades-harry.md"
+      "basename": "hotkeys",
+      "path": "SYSTEM/ASSETS/hotkeys.md"
     },
     {
-      "basename": "Atividades-para-FAZER-com-bb",
-      "path": "Efforts/AREAS/bbHarry/Atividades-para-FAZER-com-bb.md"
+      "basename": "ESTUDOS",
+      "path": "EFFORTS/09_AREAS/ESTUDOS/ESTUDOS.md"
     },
     {
-      "basename": "AprendizadoDobb",
-      "path": "Efforts/AREAS/bbHarry/AprendizadoDobb.md"
+      "basename": "snip-git-reset-commit-to-main",
+      "path": "ATLAS/03_SNIPPETS/snip-git-reset-commit-to-main.md"
     },
     {
-      "basename": "mentoria.prl",
-      "path": "Efforts/ARCHIVES/independent/mentoria.prl.md"
+      "basename": "Backend RUBY",
+      "path": "EFFORTS/09_AREAS/ESTUDOS/Backend RUBY.md"
     },
     {
-      "basename": "scisync",
-      "path": "Efforts/ARCHIVES/independent/scisync.md"
+      "basename": "introducao-a-orientacao-a-objetos-com-python",
+      "path": "ATLAS/02_CONCEPT/introducao-a-orientacao-a-objetos-com-python.md"
     },
     {
-      "basename": "scisync-post-ideas",
-      "path": "Efforts/ARCHIVES/independent/scisync-post-ideas.md"
+      "basename": "Accented settings side headings",
+      "path": "SYSTEM/ASSETS/cssSnippets/Accented settings side headings.md"
     },
     {
-      "basename": "index-advanced-functions",
-      "path": "Atlas/01_INDEX/index-advanced-functions.md"
+      "basename": "python.advanced",
+      "path": "ATLAS/02_CONCEPT/python.advanced.md"
     },
     {
-      "basename": "index-datascience",
-      "path": "Atlas/01_INDEX/index-datascience.md"
+      "basename": "draft-product-photography",
+      "path": "DRAFTS/draft-product-photography.md"
     },
     {
-      "basename": "index-mkt-menagement",
-      "path": "Atlas/01_INDEX/index-mkt-menagement.md"
+      "basename": "draft-basico-operacional-e-dicas-junior",
+      "path": "DRAFTS/draft-basico-operacional-e-dicas-junior.md"
     },
     {
-      "basename": "index-metodos-de-testes-hipoteses",
-      "path": "Atlas/01_INDEX/index-metodos-de-testes-hipoteses.md"
+      "basename": "snip-convert-currency-string-to-numeric",
+      "path": "ATLAS/03_SNIPPETS/snip-convert-currency-string-to-numeric.md"
     },
     {
-      "basename": "2025-05-19",
-      "path": "Calendar/DAILY/2025-05-19.md"
+      "basename": "2025-05-31",
+      "path": "CALENDAR/DAILY/2025-05-31.md"
     },
     {
-      "basename": "conhecimento",
-      "path": "SOCIAL/Writing/conhecimento.md"
+      "basename": "snip-validate-series-datatype-in-dataframe",
+      "path": "ATLAS/03_SNIPPETS/snip-validate-series-datatype-in-dataframe.md"
     },
     {
-      "basename": "a-morte",
-      "path": "SOCIAL/Writing/a-morte.md"
+      "basename": "Data Science Path",
+      "path": "EFFORTS/09_AREAS/ESTUDOS/Data Science Path.md"
     },
     {
-      "basename": "3-definicoes-ciencia-logica-coginicao",
-      "path": "SOCIAL/Writing/3-definicoes-ciencia-logica-coginicao.md"
+      "basename": "serie-plugins-da-comunidade",
+      "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/serie-plugins-da-comunidade.md"
     },
     {
-      "basename": "2-conceitos-ordem",
-      "path": "SOCIAL/Writing/2-conceitos-ordem.md"
+      "basename": "plugins-obrigatorio-video",
+      "path": "EFFORTS/11_ARCHIVES/PKM-Youtube-Videos/plugins-obrigatorio-video.md"
     },
     {
-      "basename": "doc-github-commit-message-convention",
-      "path": "Atlas/05_DOC/doc-github-commit-message-convention.md"
+      "basename": "roteiro-reels-ani-playstation",
+      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/roteiro-reels-ani-playstation.md"
     },
     {
-      "basename": "index_notas",
-      "path": "System/index_notas.md"
+      "basename": "roteitos-reels-collectors-2024",
+      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/roteitos-reels-collectors-2024.md"
     },
     {
-      "basename": "2025-05-16",
-      "path": "Calendar/DAILY/2025-05-16.md"
+      "basename": "index-collectors",
+      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/index-collectors.md"
     },
     {
-      "basename": "2025-05-15",
-      "path": "Calendar/DAILY/2025-05-15.md"
+      "basename": "template_new_note",
+      "path": "SYSTEM/TEMPLATE/FORMAT/template_new_note.md"
     },
     {
-      "basename": "2025-05-18",
-      "path": "Calendar/DAILY/2025-05-18.md"
+      "basename": "snip-null-Checker",
+      "path": "ATLAS/03_SNIPPETS/snip-null-Checker.md"
     },
     {
-      "basename": "tipos-de-comandos-mysql",
-      "path": "Atlas/02_CONCEPT/tipos-de-comandos-mysql.md"
+      "basename": "Career-development",
+      "path": "EFFORTS/09_AREAS/Career-development/Career-development.md"
     },
     {
-      "basename": "planejamento-banco-de-dados",
-      "path": "Atlas/00_DRAFT/planejamento-banco-de-dados.md"
+      "basename": "snip-listar-diretorios-os",
+      "path": "ATLAS/03_SNIPPETS/snip-listar-diretorios-os.md"
     },
     {
-      "basename": "draft-green-it-introducao",
-      "path": "Atlas/00_DRAFT/draft-green-it-introducao.md"
+      "basename": "scr00006",
+      "path": "SYSTEM/MEDIA/IMAGENS/galaxy/scr00006.jpg"
     },
     {
-      "basename": "web-designer-lancamentos",
-      "path": "Efforts/ARCHIVES/independent/webdesign/web-designer-lancamentos.md"
+      "basename": "concept-python-statsmodel-estimando-o-modelo",
+      "path": "ATLAS/02_CONCEPT/concept-python-statsmodel-estimando-o-modelo.md"
     },
     {
-      "basename": "web.design",
-      "path": "Efforts/ARCHIVES/independent/webdesign/web.design.canvas"
+      "basename": "Portifolio-Content",
+      "path": "EFFORTS/09_AREAS/Career-development/Portifolio-Content.md"
     },
     {
-      "basename": "briefing",
-      "path": "Efforts/ARCHIVES/independent/webdesign/briefing.md"
+      "basename": "cmp-streamlit-crewai-market-research-app",
+      "path": "ATLAS/04_COMPONENT/cmp-streamlit-crewai-market-research-app.md"
     },
     {
-      "basename": "trends",
-      "path": "Efforts/ARCHIVES/independent/webdesign/franvce/trends.md"
+      "basename": "cmp-EditNotes",
+      "path": "ATLAS/04_COMPONENT/cmp-EditNotes.md"
     },
     {
-      "basename": "draft-franvce-tools",
-      "path": "Atlas/00_DRAFT/draft-franvce-tools.md"
+      "basename": "cmp-ambientes-anaconda",
+      "path": "ATLAS/04_COMPONENT/cmp-ambientes-anaconda.md"
     },
     {
-      "basename": "!web.landing.pages",
-      "path": "Efforts/ARCHIVES/independent/webdesign/!web.landing.pages.md"
-    },
-    {
-      "basename": "draft-franvce-ux-ui-tips",
-      "path": "Atlas/00_DRAFT/draft-franvce-ux-ui-tips.md"
-    },
-    {
-      "basename": "3.1-31-tipos-marketing-de-conteudo",
-      "path": "Efforts/ARCHIVES/independent/social-media-project/modulos-start/1-modulo/3.1-31-tipos-marketing-de-conteudo.md"
-    },
-    {
-      "basename": "templates-mensagens-collectorguardian",
-      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/templates-mensagens-collectorguardian.md"
-    },
-    {
-      "basename": "modelos-de-mensagens",
-      "path": "Efforts/ARCHIVES/collectorsGuardian/collectors-notes/modelos-de-mensagens.md"
-    },
-    {
-      "basename": "flow-playbook-ecommerce",
-      "path": "Atlas/06_WORKFLOW/flow-playbook-ecommerce.md"
-    },
-    {
-      "basename": "Data Science Python Maps",
-      "path": "Atlas/08_MAPS/Data Science Python Maps.md"
-    },
-    {
-      "basename": "draft-graphs",
-      "path": "Atlas/00_DRAFT/draft-graphs.canvas"
-    },
-    {
-      "basename": "just_music_lines",
-      "path": "Entertainment/MUSIC/just_music_lines.md"
-    },
-    {
-      "basename": "album-Trench - Twenty One Pilots",
-      "path": "Entertainment/MUSIC/album-Trench - Twenty One Pilots.md"
-    },
-    {
-      "basename": "album-Tranquility Base Hotel & Casino - INCOMPLETO",
-      "path": "Entertainment/MUSIC/album-Tranquility Base Hotel & Casino - INCOMPLETO.md"
-    },
-    {
-      "basename": "album-les failles - Pomme",
-      "path": "Entertainment/MUSIC/album-les failles - Pomme.md"
-    },
-    {
-      "basename": "album-Clancy -  Twenty One Pilots",
-      "path": "Entertainment/MUSIC/album-Clancy -  Twenty One Pilots.md"
-    },
-    {
-      "basename": "track-full-moon-lyrics",
-      "path": "Entertainment/MUSIC/track-full-moon-lyrics.md"
-    },
-    {
-      "basename": "2025-04-18",
-      "path": "Calendar/DAILY/2025-04-18.md"
-    },
-    {
-      "basename": "2025-01-11",
-      "path": "Calendar/DAILY/2025-01-11.md"
+      "basename": "Writing",
+      "path": "EFFORTS/09_AREAS/Writing/Writing.md"
     }
   ],
   "omittedPaths": [],

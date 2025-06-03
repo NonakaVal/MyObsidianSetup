@@ -1,5 +1,5 @@
 {
-  "todoPageName": "task\ntodo\ntodo-now\ntodo-schedule \ntodo-inbox\ninlog\ntodo-doing\ntodo-schedule\nbook-writing\nlost-codes",
+  "todoPageName": "todo-now\ntodo-schedule \ntodo-inbox\ninlog\ntodo-doing\ntodo-schedule\nbook-writing\nlost-codes\n",
   "showChecked": false,
   "showAllTodos": false,
   "showOnlyActiveFile": false,
@@ -12,9 +12,11 @@
   "includeFiles": "",
   "lookAndFeel": "compact",
   "_collapsedSections": [
-    "#inlog",
     "#lost-codes",
-    "#todo-inbox"
+    "#todo-now",
+    "#todo-inbox",
+    "#inlog",
+    "#todo-schedule"
   ],
   "_hiddenTags": []
 }

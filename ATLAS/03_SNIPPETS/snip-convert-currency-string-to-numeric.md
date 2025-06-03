@@ -16,7 +16,7 @@ Converter valores monetários de strings para numericos
 
 # {código}
 
-## PRIMEIRA FUNÇÃO - {date}
+## PRIMEIRA FUNÇÃO - {2025-05-10}
 
 ```python
 def convert_currency(series, symbol='$', decimals=True):

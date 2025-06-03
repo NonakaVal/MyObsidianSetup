@@ -15,7 +15,7 @@ TABLE WITHOUT ID
 	key as Tasks,
 	length(rows) AS Total,
 	length(filter(rows.tasks, (r) => r.completed)) AS Completed
-FROM "Efforts" AND !"Efforts/ARCHIVES"
+FROM "Efforts" AND !"EFFORTS/11_ARCHIVES"
 FLATTEN file.tasks as tasks
 GROUP BY file.link
 

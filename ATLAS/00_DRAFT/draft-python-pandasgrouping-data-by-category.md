@@ -1,8 +1,6 @@
 ---
 tags:
   - learning
-  - tocomplete/refatorar
-  - tocomplete/explicar
 HUB:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"

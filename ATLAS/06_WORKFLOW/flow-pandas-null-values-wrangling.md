@@ -7,7 +7,6 @@ HUB:
   - "[[hub-data-wrangling]]"
 ---
 
-
 🧿<font color = 00bfff> Removendo Valores Nulos</font>
 - [[removendo-valores-nulos]]   | [[concept-pandas-dropna-isnull-fillna]] 
 	- `info()` , 

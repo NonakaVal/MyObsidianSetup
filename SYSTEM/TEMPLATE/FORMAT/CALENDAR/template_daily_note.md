@@ -10,20 +10,20 @@ cssclasses:
 <% tp.web.daily_quote() %>
 
 Last modified : `$= dv.current().file.mtime`
+
 # How am'I feeling Today ?
 
 Mood : `INPUT[inlineSelect(option('🙂 – Neutral'), option('😄 – Happy'), option('😐 – Meh'), option('😞 – Sad'), option('😠 – Frustrated'), showcase):daily-mood]`
-
-
-[ouça isso dnv](https://www.instagram.com/reel/DJm32VysB23/?igsh=aTA2bXlzbTd0emhm)
 
 ---
 
 # Log
 
-[📁 Documents](file:///C:/Users/nonak/Documents) 
-[📁 PythonScripts](file:///C:/Users/nonak/Documents/PythonScripts) 
-[📁 nonaka](file:///C:/Users/nonak/Documents/MyApps/nonaka) 
+
+
+[📁 Documents](file:///C:/Users/desktop/Documents) 
+
+
 
 
 
@@ -32,26 +32,30 @@ Mood : `INPUT[inlineSelect(option('🙂 – Neutral'), option('😄 – Happy'),
 
 ## on Going and tasks
 
-
 ````tabs
 tab: Area Family
 ```dataview
-table area_category as "Area Category", created as "Date Created" from "Efforts/AREAS"
+table area_category as "Area Category", created as "Date Created" from "EFFORTS/09_AREAS"
 WHERE type = "area_family"
 SORT file.mtime DESC
 ```
 
-tab: Career 
-![[Career-development]]
-
 tab: Writing Notes
 ![[Writing]]
 
-tab: Harry
-![[Efforts/AREAS/bbHarry/BBharry|BBharry]]
+tab: Estudos 
+![[ESTUDOS]]
+
+tab: Career 
+![[Career-development]]
+
 
 tab: Pkm Youtube Videos
-![[2025-pkm-videos]]
+![[EFFORTS/09_AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos|PKM-Youtube-Videos]]
+
+
+
+
 
 ````
 
@@ -59,9 +63,9 @@ tab: Pkm Youtube Videos
 tab: Areas Tasks
 ```dataview
 TASK
-FROM "Efforts/AREAS" 
-WHERE !completed AND !checked
-GROUP BY file.name
+FROM "EFFORTS/09_AREAS" 
+WHERE !completed AND !checked and type != "area_utils" 
+GROUP BY file.name 
 SORT file.mtime DESC
 
 ```
@@ -69,20 +73,22 @@ SORT file.mtime DESC
 tab: Calendar Tasks
 ```dataview
 TASK
-FROM "Calendar" AND -#inlog AND -#lost-codes 
-WHERE !completed AND !checked
+FROM "CALENDAR" AND -#inlog AND -#lost-codes 
+WHERE !completed AND !checked and type != "area_utils"
 
 ```
 
 tab: Done Efforts
 ```dataview
 TASK
-FROM "Efforts" 
-WHERE completed AND checked
+FROM "EFFORTS" 
+WHERE completed AND checked and type != "area_utils"
 GROUP BY file.name
 
 ```
 ````
+
+
 
 
 

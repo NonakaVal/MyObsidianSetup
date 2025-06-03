@@ -1,49 +1,33 @@
 {
-  "debounceTimeout": 0,
-  "ignoreOpenFiles": true,
-  "ignoreForceViewAll": true,
+  "debounceTimeout": 300,
+  "ignoreOpenFiles": false,
+  "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "System/HUB",
+      "folder": "ATLAS",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "ATLAS/01_INDEX",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "System/TEMPLATE",
-      "viewMode": "obsidianEditingMode: source"
+      "folder": "CALENDAR",
+      "viewMode": "obsidianEditingMode: live"
     },
     {
-      "folder": "Atlas/01_INDEX",
-      "viewMode": "obsidianUIMode: preview"
+      "folder": "EFFORTS",
+      "viewMode": "obsidianEditingMode: live"
     },
     {
-      "folder": "Atlas/05_DOC",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "Atlas/06_WORKFLOW",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "Atlas/08_MAPS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "Calendar",
-      "viewMode": "default"
-    },
-    {
-      "folder": "System/ASSETS",
+      "folder": "SYSTEM/TEMPLATE",
       "viewMode": "obsidianEditingMode: source"
     }
   ],
   "files": [
     {
-      "filePattern": "Efforts/AREAS/Writing/von/conceitos/mapas-galaticos.md",
+      "filePattern": "hotkeys",
       "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "",
-      "viewMode": ""
     }
   ]
 }

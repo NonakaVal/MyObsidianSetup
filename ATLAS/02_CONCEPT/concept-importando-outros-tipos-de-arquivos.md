@@ -15,4 +15,4 @@ dg-publish: true
 ```
 
 
-[[concept-python-avancando-em-importacao-de-dados]]
+[[draft-python-avancando-em-importacao-de-dados]]
