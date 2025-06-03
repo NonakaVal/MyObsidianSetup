@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "DRAFTS/draft-metodos-matematicos-matrizes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "draft-metodos-matematicos-matrizes"
             }
           }
         ]
@@ -298,13 +298,16 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
-      "obsidian-git:Open Git source control": false,
       "pomodoro-timer:Toggle timer panel": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "d7dfae99cfaeb0db",
   "lastOpenFiles": [
+    "DRAFTS/Engenharia de prompts.md",
+    "DRAFTS/draft-product-photography.md",
+    "DRAFTS/draft-basico-operacional-e-dicas-junior.md",
+    "README.md",
     "ATLAS/00_DRAFT/draft-ruby-basics.md",
     "CALENDAR/DAILY/2025-06-03.md",
     "CALENDAR/DAILY/2025-06-02.md",
@@ -324,20 +327,16 @@
     "DRAFTS/draft-pomodoro-dataview.md",
     "EFFORTS/09_AREAS/Writing/RawThoughts/Untitled.md",
     "_index_notas.md",
-    "README.md",
     "ATLAS/02_CONCEPT/concept-advanced-functions.md",
     "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md",
     "LEISURE/GAMES/dark-souls.md",
     "LEISURE/GAMES",
-    "DRAFTS/draft-nota-test-1.md",
-    "DRAFTS/code-py.md",
     "EFFORTS/09_AREAS/ESTUDOS/desktop.ini",
     "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/desktop.ini",
     "ATLAS/06_WORKFLOW/desktop.ini",
     "SYSTEM/HUB/desktop.ini",
     "SYSTEM/TEMPLATE/FORMAT/ATLAS/desktop.ini",
     "desktop.ini",
-    "SYSTEM/ASSETS/hotkeys.md",
     "CALENDAR/MONTHLY/desktop.ini",
     "SOCIAL/PEOPLE/desktop.ini",
     "SYSTEM/ASSETS/cssSnippets/desktop.ini",

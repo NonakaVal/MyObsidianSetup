@@ -22,11 +22,11 @@
 - **📂 <font color = 00bbfff>Drafts</font> — Rascunhos avulsos e notas não categorizadas**
 
 - **📂 <font color = 00bbfff>Efforts</font>** — Direcionamento de esforços e projetos ativos 
-	- **ARCHIVES** — Projetos concluídos ou pausados  
-	- **AREAS** — Áreas de foco contínuo (saúde, finanças, carreira, etc.)  
-	- **PROJECTS** — Projetos com começo, meio e fim definidos  
-	- **RESOURCES** — Materiais de apoio e referência específica para projetos  
-	- **WORKSTATION** — Anotações operacionais do dia a dia de execução  
+	- **09_AREAS** — Áreas de foco contínuo (saúde, finanças, carreira, etc.)  
+	- **10_PROJECTS** — Projetos com começo, meio e fim definidos  
+	- **11_ARCHIVES** — Projetos concluídos ou pausados  
+	- **12_RESOURCES** — Materiais de apoio e referência específica para projetos  
+	- **13_WORKSTATION** — Anotações operacionais do dia a dia de execução  
 
 - **📂 <font color = 00bbfff>LEISURE</font>** — Conteúdos de lazer, cultura e hobbies
 	- **MUSIC** — Músicas, playlists, artistas favoritos e estudos musicais  

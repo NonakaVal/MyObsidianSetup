@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "draft-metodos-matematicos-matrizes",
+      "path": "DRAFTS/draft-metodos-matematicos-matrizes.md"
+    },
+    {
+      "basename": "Engenharia de prompts",
+      "path": "DRAFTS/Engenharia de prompts.md"
+    },
+    {
+      "basename": "draft-product-photography",
+      "path": "DRAFTS/draft-product-photography.md"
+    },
+    {
+      "basename": "draft-basico-operacional-e-dicas-junior",
+      "path": "DRAFTS/draft-basico-operacional-e-dicas-junior.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -113,14 +129,6 @@
       "path": "ATLAS/02_CONCEPT/python.advanced.md"
     },
     {
-      "basename": "draft-product-photography",
-      "path": "DRAFTS/draft-product-photography.md"
-    },
-    {
-      "basename": "draft-basico-operacional-e-dicas-junior",
-      "path": "DRAFTS/draft-basico-operacional-e-dicas-junior.md"
-    },
-    {
       "basename": "snip-convert-currency-string-to-numeric",
       "path": "ATLAS/03_SNIPPETS/snip-convert-currency-string-to-numeric.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "cmp-EditNotes",
       "path": "ATLAS/04_COMPONENT/cmp-EditNotes.md"
-    },
-    {
-      "basename": "cmp-ambientes-anaconda",
-      "path": "ATLAS/04_COMPONENT/cmp-ambientes-anaconda.md"
-    },
-    {
-      "basename": "Writing",
-      "path": "EFFORTS/09_AREAS/Writing/Writing.md"
     }
   ],
   "omittedPaths": [],
