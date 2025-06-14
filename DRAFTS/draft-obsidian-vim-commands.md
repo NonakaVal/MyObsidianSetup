@@ -122,16 +122,3 @@ Além dos atalhos acima, você pode explorar as seguintes personalizações para
 |**Adicionar Modo de Busca Avançada**|Personalize os atalhos de busca para procurar links ou tags rapidamente.|
 |**Adicionar Funções de Formatação**|Crie atalhos para formatar negrito, itálico, listas, etc.|
 
----
-
-## **Conclusão**
-
-Com esses atalhos e personalizações, você pode navegar, alterar e selecionar texto de forma eficiente em arquivos `.md` no Obsidian usando o Vim. Esses comandos irão acelerar sua produtividade e melhorar sua experiência de edição.
-
-Você pode salvar esse guia como um arquivo `.md` dentro do seu vault do Obsidian para acessá-lo sempre que necessário.
-
---
-
-Este formato em tabelas facilita a visualização e uso dos comandos para que você possa aplicar de maneira simples e rápida enquanto trabalha no Obsidian com Vim. Se precisar de mais ajustes ou explicações, estarei à disposição! 😊
-
-[^1]: 

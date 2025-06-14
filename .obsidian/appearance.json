@@ -7,10 +7,10 @@
     "MCL Wide Views",
     "hidePropertiesBase"
   ],
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "Border",
   "baseFontSizeAction": true,
-  "baseFontSize": 12,
-  "theme": "obsidian",
+  "baseFontSize": 15,
+  "theme": "moonstone",
   "nativeMenus": false,
   "interfaceFontFamily": "Geneva",
   "textFontFamily": "Geneva"

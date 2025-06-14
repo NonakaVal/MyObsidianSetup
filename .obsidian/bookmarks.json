@@ -71,6 +71,65 @@
       "ctime": 1748729432218,
       "path": "SYSTEM/TEMPLATE/FORMAT",
       "title": "TEMPLATES"
+    },
+    {
+      "type": "group",
+      "ctime": 1749600260948,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1749600246782,
+          "path": "SYSTEM/ASSETS/Dataview/@_by_count_links.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1749600246782,
+          "path": "SYSTEM/ASSETS/Dataview/@_dataview_ALL-tasks.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1749600246782,
+          "path": "SYSTEM/ASSETS/Dataview/@_to_complete_notes.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1749600246782,
+          "path": "SYSTEM/ASSETS/Dataview/@-calendar-tasks-query.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1749600246782,
+          "path": "SYSTEM/ASSETS/Dataview/@_js_Charts.md"
+        }
+      ],
+      "title": "DATAVIEW NOTES"
+    },
+    {
+      "type": "group",
+      "ctime": 1748949043331,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1748949034506,
+          "path": "ATLAS/01_INDEX/index-datascience.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748949034506,
+          "path": "ATLAS/01_INDEX/index-computer-science.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748949034506,
+          "path": "ATLAS/01_INDEX/index-mkt-menagement.md"
+        }
+      ],
+      "title": "INDEX"
+    },
+    {
+      "type": "file",
+      "ctime": 1749578444466,
+      "path": "SYSTEM/ASSETS/Dataview/@-mood-and-work-tracker.md"
     }
   ]
 }

@@ -5951,10 +5951,13 @@ var import_obsidian4 = require("obsidian");
 // src/transcript-view.ts
 var import_obsidian2 = require("obsidian");
 
-// src/fetch-transcript.ts
-var import_node_html_parser = __toESM(require_dist());
+// src/youtube-transcript.ts
 var import_obsidian = require("obsidian");
-var YOUTUBE_TITLE_REGEX = new RegExp(/<meta\s+name="title"\s+content="([^"]*)">/);
+
+// src/api-parser.ts
+var import_node_html_parser = __toESM(require_dist());
+
+// src/types.ts
 var YoutubeTranscriptError = class extends Error {
   constructor(err) {
     if (!(err instanceof Error)) {
@@ -5968,36 +5971,109 @@ var YoutubeTranscriptError = class extends Error {
     }
   }
 };
-var YoutubeTranscript = class {
-  static async fetchTranscript(url, config) {
-    var _a, _b, _c, _d, _e, _f, _g, _h;
-    try {
-      const langCode = (_a = config == null ? void 0 : config.lang) != null ? _a : "en";
-      const videoPageBody = await (0, import_obsidian.request)(url);
-      const parsedBody = (0, import_node_html_parser.parse)(videoPageBody);
-      const titleMatch = videoPageBody.match(YOUTUBE_TITLE_REGEX);
-      let title = "";
-      if (titleMatch)
-        title = titleMatch[1];
-      const scripts = parsedBody.getElementsByTagName("script");
-      const playerScript = scripts.find((script) => script.textContent.includes("var ytInitialPlayerResponse = {"));
-      const dataString = ((_e = (_d = (_c = (_b = playerScript.textContent) == null ? void 0 : _b.split("var ytInitialPlayerResponse = ")) == null ? void 0 : _c[1]) == null ? void 0 : _d.split("};")) == null ? void 0 : _e[0]) + "}";
-      const data = JSON.parse(dataString.trim());
-      const availableCaptions = ((_g = (_f = data == null ? void 0 : data.captions) == null ? void 0 : _f.playerCaptionsTracklistRenderer) == null ? void 0 : _g.captionTracks) || [];
-      let captionTrack = availableCaptions == null ? void 0 : availableCaptions[0];
-      if (langCode)
-        captionTrack = (_h = availableCaptions.find((track) => track.languageCode.includes(langCode))) != null ? _h : availableCaptions == null ? void 0 : availableCaptions[0];
-      const captionsUrl = captionTrack == null ? void 0 : captionTrack.baseUrl;
-      const fixedCaptionsUrl = captionsUrl.startsWith("https://") ? captionsUrl : "https://www.youtube.com" + captionsUrl;
-      const resXML = await (0, import_obsidian.request)(fixedCaptionsUrl).then((xml) => (0, import_node_html_parser.parse)(xml));
-      const chunks = resXML.getElementsByTagName("text");
+
+// src/api-parser.ts
+var YOUTUBE_TITLE_REGEX = new RegExp(/<meta\s+name="title"\s+content="([^"]*)\">/);
+var YOUTUBE_VIDEOID_REGEX = new RegExp(/<link\s+rel="canonical"\s+href="([^"]*)\">/);
+function parseTranscript(responseContent) {
+  var _a, _b, _c, _d, _e, _f, _g, _h, _i;
+  try {
+    const response = JSON.parse(responseContent);
+    const transcriptEvents = (_i = (_h = (_g = (_f = (_e = (_d = (_c = (_b = (_a = response == null ? void 0 : response.actions) == null ? void 0 : _a[0]) == null ? void 0 : _b.updateEngagementPanelAction) == null ? void 0 : _c.content) == null ? void 0 : _d.transcriptRenderer) == null ? void 0 : _e.content) == null ? void 0 : _f.transcriptSearchPanelRenderer) == null ? void 0 : _g.body) == null ? void 0 : _h.transcriptSegmentListRenderer) == null ? void 0 : _i.initialSegments;
+    if (!transcriptEvents || !Array.isArray(transcriptEvents)) {
+      return [];
+    }
+    return transcriptEvents.map((segment) => {
+      var _a2, _b2, _c2;
+      const cue = segment.transcriptSegmentRenderer;
       return {
-        title,
-        lines: chunks.map((cue) => ({
-          text: cue.textContent.replaceAll("&#39;", "'").replaceAll("&amp;", "&").replaceAll("&quot;", '"').replaceAll("&apos;", "'").replaceAll("&lt;", "<").replaceAll("&gt;", ">"),
-          duration: parseFloat(cue.attributes.dur) * 1e3,
-          offset: parseFloat(cue.attributes.start) * 1e3
-        }))
+        text: ((_c2 = (_b2 = (_a2 = cue.snippet) == null ? void 0 : _a2.runs) == null ? void 0 : _b2[0]) == null ? void 0 : _c2.text) || "",
+        duration: parseInt(cue.endMs) - parseInt(cue.startTimeMs),
+        offset: parseInt(cue.startTimeMs)
+      };
+    });
+  } catch (error) {
+    throw new YoutubeTranscriptError(`Failed to parse API response: ${error}`);
+  }
+}
+function parseVideoPage(htmlContent, config) {
+  var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+  const parsedBody = (0, import_node_html_parser.parse)(htmlContent);
+  const titleMatch = htmlContent.match(YOUTUBE_TITLE_REGEX);
+  let title = "";
+  if (titleMatch)
+    title = titleMatch[1];
+  const videoIdMatch = htmlContent.match(YOUTUBE_VIDEOID_REGEX);
+  let videoId = "";
+  if (videoIdMatch)
+    videoId = videoIdMatch[1].split("?v=")[1];
+  const scripts = parsedBody.getElementsByTagName("script");
+  const playerScript = scripts.find((script) => script.textContent.includes("var ytInitialData = {"));
+  if (!playerScript) {
+    throw new YoutubeTranscriptError("Could not find ytInitialPlayerResponse");
+  }
+  const dataString = ((_d = (_c = (_b = (_a = playerScript.textContent) == null ? void 0 : _a.split("var ytInitialData = ")) == null ? void 0 : _b[1]) == null ? void 0 : _c.split("};")) == null ? void 0 : _d[0]) + "}";
+  if (!dataString) {
+    throw new YoutubeTranscriptError("Could not extract transcript info");
+  }
+  let data;
+  try {
+    data = JSON.parse(dataString.trim());
+  } catch (err) {
+    throw new YoutubeTranscriptError("Failed to parse transcriot info JSON");
+  }
+  const transcriptPanel = (_e = data == null ? void 0 : data.engagementPanels) == null ? void 0 : _e.find((panel) => {
+    var _a2, _b2, _c2, _d2;
+    return (_d2 = (_c2 = (_b2 = (_a2 = panel == null ? void 0 : panel.engagementPanelSectionListRenderer) == null ? void 0 : _a2.content) == null ? void 0 : _b2.continuationItemRenderer) == null ? void 0 : _c2.continuationEndpoint) == null ? void 0 : _d2.getTranscriptEndpoint;
+  });
+  const params = (_j = (_i = (_h = (_g = (_f = transcriptPanel == null ? void 0 : transcriptPanel.engagementPanelSectionListRenderer) == null ? void 0 : _f.content) == null ? void 0 : _g.continuationItemRenderer) == null ? void 0 : _h.continuationEndpoint) == null ? void 0 : _i.getTranscriptEndpoint) == null ? void 0 : _j.params;
+  const requestBody = {
+    context: {
+      client: {
+        clientName: "WEB",
+        clientVersion: "2.20250610.04.00",
+        hl: (config == null ? void 0 : config.lang) || "en",
+        gl: (config == null ? void 0 : config.country) || "US"
+      }
+    },
+    externalVideoId: videoId,
+    params
+  };
+  return {
+    title,
+    transcriptRequest: {
+      url: "https://www.youtube.com/youtubei/v1/get_transcript?prettyPrint=false",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(requestBody)
+    }
+  };
+}
+
+// src/youtube-transcript.ts
+var YoutubeTranscript = class {
+  static async getTranscript(url, config) {
+    try {
+      const videoPageBody = await (0, import_obsidian.request)(url);
+      const videoData = parseVideoPage(videoPageBody, config);
+      console.log(videoData);
+      let responseContent;
+      if (videoData.transcriptRequest.body) {
+        const response = await (0, import_obsidian.requestUrl)({
+          url: videoData.transcriptRequest.url,
+          method: "POST",
+          headers: videoData.transcriptRequest.headers,
+          body: videoData.transcriptRequest.body
+        });
+        responseContent = response.text;
+      } else {
+        responseContent = await (0, import_obsidian.request)(videoData.transcriptRequest.url);
+      }
+      const lines = parseTranscript(responseContent);
+      return {
+        title: videoData.title,
+        lines
       };
     } catch (err) {
       throw new YoutubeTranscriptError(err);
@@ -6178,7 +6254,7 @@ var TranscriptView = class extends import_obsidian2.ItemView {
         this.loaderContainerEl.empty();
       }
       this.renderLoader();
-      const data = await YoutubeTranscript.fetchTranscript(url, {
+      const data = await YoutubeTranscript.getTranscript(url, {
         lang,
         country
       });

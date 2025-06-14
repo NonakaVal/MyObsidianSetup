@@ -15,7 +15,7 @@
   },
   "monthly": {
     "format": "",
-    "template": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_month_note.md",
+    "template": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_MONTHLY.md",
     "folder": "CALENDAR/MONTHLY",
     "enabled": true
   },
@@ -26,8 +26,8 @@
   },
   "yearly": {
     "format": "",
-    "template": "",
-    "folder": "",
-    "enabled": false
+    "template": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template-YEARLY-NOTE.md",
+    "folder": "CALENDAR/YEARLY",
+    "enabled": true
   }
 }

@@ -80,5 +80,11 @@
     "color": "121, 236, 129",
     "icon": "lucide-message-circle",
     "custom": true
+  },
+  {
+    "char": "time",
+    "color": "75, 192, 221",
+    "icon": "lucide-history",
+    "custom": true
   }
 ]

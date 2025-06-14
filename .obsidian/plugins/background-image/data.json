@@ -1,7 +1,7 @@
 {
   "imageUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rr178m.jpg",
-  "opacity": 0.1,
-  "bluriness": "0px",
-  "inputContrast": false,
+  "opacity": 0.9,
+  "bluriness": "5px",
+  "inputContrast": true,
   "position": "center"
 }

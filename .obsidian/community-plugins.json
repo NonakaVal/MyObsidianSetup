@@ -15,11 +15,13 @@
   "obsidian-list-callouts",
   "obsidian-outliner",
   "obsidian-style-settings",
-  "background-image",
   "obsidian-shellcommands",
-  "obsidian-vimrc-support",
   "persistent-graph",
   "share-note",
+  "obsidian-git",
+  "pomodoro-timer",
+  "obsidian-charts",
+  "multi-column-markdown",
   "ytranscript",
-  "pomodoro-timer"
+  "code-files"
 ]

@@ -4,16 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "bce2fc0e40b3e8fa",
+        "id": "b800bfabbc13cf42",
         "type": "tabs",
         "children": [
           {
-            "id": "d7dfae99cfaeb0db",
+            "id": "20a25699db3681f0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "67aae49ac9e8dff2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DRAFTS/draft-metodos-matematicos-matrizes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +38,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "draft-metodos-matematicos-matrizes"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -43,7 +54,7 @@
       {
         "id": "ed25f7892e75d205",
         "type": "tabs",
-        "dimension": 40.55158324821247,
+        "dimension": 60.0597609561753,
         "children": [
           {
             "id": "7c12f4537a161402",
@@ -74,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "line:(_code)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "CALENDAR/DAILY/2025-06-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 2025-06-14"
             }
           },
           {
@@ -115,7 +126,7 @@
       {
         "id": "5bcd12940291967f",
         "type": "tabs",
-        "dimension": 59.44841675178753,
+        "dimension": 39.9402390438247,
         "children": [
           {
             "id": "978e395df90b0090",
@@ -131,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 340.5
   },
   "right": {
     "id": "ed2f7560d3f1e808",
@@ -168,14 +179,34 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md"
+                "file": "DRAFTS/regex-Introdução-Geral-ao-Regex.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for myObsidian setup Apresentation"
+              "title": "File properties for regex-Introdução-Geral-ao-Regex"
+            }
+          },
+          {
+            "id": "3e1261c73749e70c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "c418d0785bbe150e",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "19a831861ff1406b",
@@ -188,7 +219,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "CALENDAR/DAILY/2025-06-14.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,12 +242,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7132754626224428,
+                  "scale": 0.1881751938949446,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of README"
+              "title": "Graph of 2025-06-14"
             }
           },
           {
@@ -254,9 +285,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "CALENDAR/DAILY/2025-06-14.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -264,7 +295,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for myObsidian setup Apresentation"
+              "title": "Backlinks for 2025-06-14"
             }
           },
           {
@@ -281,11 +312,12 @@
               "title": "Outgoing links from myObsidian setup Apresentation"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
+    "width": 396.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -298,48 +330,51 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "obsidian-git:Open Git source control": false,
       "pomodoro-timer:Toggle timer panel": false,
+      "code-files:Create Code File": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "d7dfae99cfaeb0db",
+  "active": "7c12f4537a161402",
   "lastOpenFiles": [
-    "DRAFTS/Engenharia de prompts.md",
-    "DRAFTS/draft-product-photography.md",
-    "DRAFTS/draft-basico-operacional-e-dicas-junior.md",
-    "README.md",
-    "ATLAS/00_DRAFT/draft-ruby-basics.md",
-    "CALENDAR/DAILY/2025-06-03.md",
-    "CALENDAR/DAILY/2025-06-02.md",
-    "CALENDAR/DAILY/2025-06-01.md",
-    "ATLAS/00_DRAFT/draft-python-data-analysis-crime-study-cases.md",
-    "ATLAS/00_DRAFT/draft-python-scope-functions-concepts.md",
-    "ATLAS/00_DRAFT/draft-what-is-internet.md",
-    "ATLAS/02_CONCEPT/python-variable-types.md",
-    "ATLAS/01_INDEX/index-datascience.md",
-    "ATLAS/01_INDEX/index-computer-science.md",
-    "SYSTEM/_index_notas.md",
-    "ATLAS/02_CONCEPT/concept-introduction-to-ruby.md",
-    "SYSTEM/TEMPLATE/FORMAT/template_area_note.md",
-    "SYSTEM/TEMPLATE/FORMAT/WRITING/template-RAW-THOUGHTS.md",
-    "EFFORTS/09_AREAS/Writing/RawThoughts/DESABAFO-2025-06-03.md",
-    "EFFORTS/09_AREAS/Writing/RawThoughts/RawThoughts.md",
-    "DRAFTS/draft-pomodoro-dataview.md",
-    "EFFORTS/09_AREAS/Writing/RawThoughts/Untitled.md",
+    "CALENDAR/DAILY/2025-06-14.md",
+    "ATLAS/00_DRAFT/draft-codeSearchadvanced-workflows.md",
+    "CALENDAR/MONTHLY/2025-06.md",
+    "CALENDAR/MONTHLY/2025-05.md",
+    "CALENDAR/MONTHLY/2025-04.md",
+    "CALENDAR/MONTHLY/2025-03.md",
+    "CALENDAR/MONTHLY/2024-10.md",
+    "SYSTEM/TEMPLATE/FORMAT/template_area.md",
+    "SYSTEM/SCRIPTS/Zettell.py",
     "_index_notas.md",
-    "ATLAS/02_CONCEPT/concept-advanced-functions.md",
-    "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md",
-    "LEISURE/GAMES/dark-souls.md",
-    "LEISURE/GAMES",
-    "EFFORTS/09_AREAS/ESTUDOS/desktop.ini",
-    "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/desktop.ini",
-    "ATLAS/06_WORKFLOW/desktop.ini",
-    "SYSTEM/HUB/desktop.ini",
-    "SYSTEM/TEMPLATE/FORMAT/ATLAS/desktop.ini",
-    "desktop.ini",
-    "CALENDAR/MONTHLY/desktop.ini",
-    "SOCIAL/PEOPLE/desktop.ini",
-    "SYSTEM/ASSETS/cssSnippets/desktop.ini",
+    "ATLAS/06_WORKFLOW/flow-build-setup-codeSearch-with-ripgrep-fzf-bat.md",
+    "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_daily_note.md",
+    "ATLAS/00_DRAFT/draft-codeSearchbasic-usage-examples.md",
+    "ATLAS/03_SNIPPETS/snip-rg-search-code.md",
+    "DRAFTS/draft-powershell-security-log.md",
+    "DRAFTS/draft-netguard-2.md",
+    "DRAFTS/draft-netguard-block.md",
+    "ATLAS/00_DRAFT/draft-codeSearchcode_search-bash-core-command-2-with-alias.md",
+    "ATLAS/00_DRAFT/draft-codeSearchcode_search-bash-core-command.md",
+    "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-snippet.md",
+    "DRAFTS/draft-codeSearchkeyboard-shortcuts.md",
+    "DRAFTS/draft-reset-wsl-dist.md",
+    "SYSTEM/SCRIPTS/Utils.py",
+    "DRAFTS/draft-test.md",
+    "DRAFTS/draft-codeSearchdraft-codesearchdraft-codesearchnote-2.md",
+    "DRAFTS/draft-codeSearchdraft-codesearchdraft-codesearchnote-one.md",
+    "DRAFTS/draft-codeSearchdraft-codesearchnote-2.md",
+    "DRAFTS/draft-codeSearchdraft-codesearchnote-one.md",
+    "SYSTEM/SCRIPTS/__pycache__/Utils.cpython-313.pyc",
+    "SYSTEM/SCRIPTS/utils/__pycache__/zettel_utils.cpython-313.pyc",
+    "SYSTEM/SCRIPTS/utils/__pycache__",
+    "SYSTEM/SCRIPTS/utils/zettel_utils.py",
+    "SYSTEM/SCRIPTS/utils",
+    "SYSTEM/SCRIPTS/historico_acessos.json",
+    "SYSTEM/SCRIPTS/log.py",
+    "DRAFTS/draft-obsidian-vim-commands.md",
+    "Untitled.canvas",
     "SYSTEM/MEDIA/IMAGENS/galaxy/scr00006.jpg",
     "DRAFTS/AI and Data Scientist .sh roadmap.canvas",
     "Pasted image 20250531140949.png",
@@ -351,7 +386,6 @@
     "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/+_CANVAS_AOC.canvas",
     "ATLAS/00_DRAFT/draft-graphs.canvas",
     "Efforts/ARCHIVES/independent/webdesign/web.design.canvas",
-    "EFFORTS/11_ARCHIVES/independent/webdesign/web.design.canvas",
     "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518202448.png",
     "SYSTEM/MEDIA/IMAGENS/galaxy/Pasted image 20250518202432.png",
     "SYSTEM/MEDIA/IMAGENS/galaxy/scr00005.jpg",

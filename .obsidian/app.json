@@ -1,9 +1,17 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "DRAFTS",
   "attachmentFolderPath": "SYSTEM/MEDIA/IMAGENS",
   "promptDelete": true,
-  "userIgnoreFilters": null
+  "userIgnoreFilters": [
+    "SYSTEM/"
+  ],
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }

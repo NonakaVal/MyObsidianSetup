@@ -3,6 +3,14 @@
     {
       "useMoment": false,
       "file": "SYSTEM/ASSETS/hotkeys.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SYSTEM/ASSETS/Dataview/@-calendar-tasks-query.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SYSTEM/SCRIPTS/Zettell.py"
     }
   ],
   "useExistingPane": true,
