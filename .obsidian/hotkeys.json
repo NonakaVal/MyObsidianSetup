@@ -356,12 +356,56 @@
       "key": "T"
     }
   ],
-  "obsidian-hotkeys-for-specific-files:SYSTEM/SCRIPTS/Zettell.py": [
+  "quickadd:choice:492e1d7e-18a9-4365-8c42-3f7490e0bd33": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:replace-in-file-templater": [],
+  "obsidian-hotkeys-for-specific-files:EFFORTS/09_AREAS/ESTUDOS.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:SYSTEM/SCRIPTS/Similar-Search.py": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:SYSTEM/SCRIPTS/Zettell.py-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "quickadd:choice:b360027c-393c-4fed-8b12-e041da1c6af5": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "A"
+      "key": "D"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
     }
   ]
 }

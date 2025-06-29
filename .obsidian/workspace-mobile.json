@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "c23a09e249c43144",
+    "id": "91bf059c6502deb4",
     "type": "split",
     "children": [
       {
-        "id": "b7b4e2a6cb2d09bb",
+        "id": "45c252f11875a2bc",
         "type": "tabs",
         "children": [
           {
-            "id": "30449af2c06ef5f1",
+            "id": "8976a23237dd363c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CALENDAR/DAILY/2025-06-14.md",
+                "file": "CODE/08_WORKFLOW/flow-Verify-DataTypes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-14"
+              "title": "flow-Verify-DataTypes"
             }
           }
         ]
@@ -37,24 +37,24 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "43abb93427593bb4",
+    "id": "ce7eae8d304c9765",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d612d03bf12eee2d",
+        "id": "22e718b1d785f434",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": true
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
         }
       },
       {
-        "id": "973ee9f8be6f27fa",
+        "id": "8a76f651615cc0e5",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -71,7 +71,7 @@
         }
       },
       {
-        "id": "ccb4c8b0bfea5157",
+        "id": "4521107f445ac618",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -86,7 +86,7 @@
         }
       },
       {
-        "id": "d110e07a495b7d1d",
+        "id": "22dc2081146557f1",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -100,7 +100,7 @@
         }
       },
       {
-        "id": "22140229848a0ae4",
+        "id": "b397fd617413fd41",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -108,21 +108,31 @@
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
         }
+      },
+      {
+        "id": "289fb73ed01db9e7",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
-    "id": "117c341ea3376a0b",
+    "id": "e8cfb22d83d6d03a",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d8c739a24c59bfab",
+        "id": "1b3bcfc2c0ebc5d2",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CALENDAR/DAILY/2025-06-03.md",
+            "file": "CALENDAR/DAILY/2023-06-15.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -136,12 +146,12 @@
         }
       },
       {
-        "id": "ae819ca8a952794c",
+        "id": "91b7677c9d736dce",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CALENDAR/DAILY/2025-06-03.md",
+            "file": "CALENDAR/DAILY/2023-06-15.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -150,12 +160,12 @@
         }
       },
       {
-        "id": "99e9b121ea828e28",
+        "id": "d3cf5be751bfdae9",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "CALENDAR/DAILY/2025-06-03.md",
+            "file": "CALENDAR/DAILY/2023-06-15.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -165,17 +175,17 @@
         }
       },
       {
-        "id": "96112ca5ee6d28e7",
+        "id": "0e1f44c86bb3a2af",
         "type": "leaf",
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
         }
       },
       {
-        "id": "78da4df6a52f229c",
+        "id": "d737963997f3dd2c",
         "type": "leaf",
         "state": {
           "type": "todo",
@@ -185,7 +195,7 @@
         }
       },
       {
-        "id": "cffa7ab2ef6410bb",
+        "id": "620d0acb966ffb51",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -195,17 +205,7 @@
         }
       },
       {
-        "id": "ee947babbdf5edbe",
-        "type": "leaf",
-        "state": {
-          "type": "timer-view",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "6ead2f5d4fb17a9b",
+        "id": "51f12caefec6922b",
         "type": "leaf",
         "state": {
           "type": "todo",
@@ -219,43 +219,53 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
+      "audio-recorder:Start/stop recording": false,
       "obsidian-git:Open Git source control": false,
-      "pomodoro-timer:Toggle timer panel": false
+      "pomodoro-timer:Toggle timer panel": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "30449af2c06ef5f1",
+  "active": "8976a23237dd363c",
   "lastOpenFiles": [
-    "ATLAS/01_INDEX/index-pandas-basic-data-manipulation.md",
-    "ATLAS/01_INDEX/index-pandas-methods.md",
-    "ATLAS/01_INDEX/index-seaborn-matplotlib-charts.md",
-    "DRAFTS/draft-ruby-basics.md",
-    "DRAFTS/draft-python-scope-functions-concepts.md",
-    "DRAFTS/draft-what-is-internet.md",
-    "DRAFTS/draft-python-data-analysis-crime-study-cases.md",
-    "ATLAS/01_INDEX/index-pandas-data-cleaning-methods.md",
-    "CALENDAR/DAILY/2025-06-04.md",
-    "ATLAS/06_WORKFLOW/flow-pandas-data-cleaning-methods.md",
-    "ATLAS/00_DRAFT/draft-python-data-analysis-crime-study-cases.md",
-    "ATLAS/00_DRAFT/draft-what-is-internet.md",
-    "ATLAS/05_DOC/doc-seaborn-matplotlib-charts.md",
-    "ATLAS/00_DRAFT/draft-python-scope-functions-concepts.md",
-    "ATLAS/05_DOC/doc-pandas-methods.md",
-    "ATLAS/00_DRAFT/draft-ruby-basics.md",
-    "ATLAS/06_WORKFLOW/flow-pandas-basic-data-manipulation.md",
-    "ATLAS/02_CONCEPT/concept-introduction-to-ruby.md",
-    "CALENDAR/DAILY/2025-06-03.md",
-    "ATLAS/04_COMPONENT/cmp-pandas-groupby-method.md",
+    "CALENDAR/DAILY/2025-06-28.md",
+    "CODE/08_WORKFLOW/flow-Verify-DataTypes.md",
+    "CODE/05_SNIPPETS/! py validate_dtype(series, expected_dtype).md",
+    "CODE/08_WORKFLOW/flow-pandas-data-cleaning-methods.md",
+    "ATLAS/02_CONCEPT/concept-python-assert-method.md",
+    "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas",
+    "ATLAS/02_CONCEPT/pandas-select_dtypes.md",
+    "EFFORTS/09_AREAS/NOTES/plugins comundiade 2.md",
+    "CALENDAR/DAILY/2025-06-27.md",
+    "EFFORTS/09_AREAS/NOTES/how-use-code-in-obsidian.md",
+    "CALENDAR/DAILY/2025-06-26.md",
+    "CALENDAR/DAILY/2025-06-24.md",
+    "CALENDAR/DAILY/2025-06-12.md",
+    "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md",
+    "ATLAS/02_CONCEPT/concept-organizando-dataframe.md",
     "ATLAS/01_INDEX/index-datascience.md",
-    "SYSTEM/HUB/hub-growth.md",
-    "README.md",
-    "EFFORTS/09_AREAS/PKM-Youtube-Videos/serie-plugins-da-comunidade.md"
+    "CALENDAR/DAILY/2025-06-21.md",
+    "CALENDAR/DAILY/2023-06-15.md",
+    "SELF/+/algumas reflexões existencias.md",
+    "CALENDAR/DAILY/2025-06-16.md",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.49.40_de085fe4.waptt.opus",
+    "SKETCH/t.md",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.35.11_407b97ad.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.33.46_9f44f5d3.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.33.46_57ead4e7.waptt",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.32.25_46e4d72a.waptt",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.35.11_1f759bfa.waptt",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.22.34_c480894e.waptt.opus",
+    "Áudio do WhatsApp de 2025-06-16 à(s) 01.17.52_93f12aed.mp4.opus",
+    "SYSTEM/MEDIA/Recording 20250616011729.m4a",
+    "SYSTEM/MEDIA/Recording 20250616011624.m4a",
+    "README.md"
   ]
 }

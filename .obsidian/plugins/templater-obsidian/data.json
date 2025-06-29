@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "SYSTEM/TEMPLATE/FORMAT",
+  "templates_folder": "SYSTEM/TEMPLATE",
   "templates_pairs": [
     [
       "",
@@ -8,43 +8,19 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": true,
+  "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "CALENDAR/DAILY",
-      "template": "SYSTEM/TEMPLATE/FORMAT/template_daily_note.md"
+      "folder": "SKETCH",
+      "template": "SYSTEM/TEMPLATE/TEMPLATE-NEW-SKETCH-NOTE.md"
     },
     {
-      "folder": "EFFORTS/AREAS",
-      "template": "SYSTEM/TEMPLATE/FORMAT/template_area_note.md"
-    },
-    {
-      "folder": "DRAFTS",
-      "template": "SYSTEM/TEMPLATE/FORMAT/template_new_note.md"
-    },
-    {
-      "folder": "LEISURE/MUSIC",
-      "template": "SYSTEM/TEMPLATE/FORMAT/template-album-music.md"
-    },
-    {
-      "folder": "ATLAS/03_SNIPPETS",
-      "template": "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-snippet.md"
-    },
-    {
-      "folder": "ATLAS/00_DRAFT",
-      "template": "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-dratf.md"
-    },
-    {
-      "folder": "EFFORTS/09_AREAS/Writing/von",
-      "template": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-book-von-sonda.md"
-    },
-    {
-      "folder": "EFFORTS/09_AREAS/Writing/Not_A_Dev/Posts",
-      "template": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-new-post.md"
+      "folder": "EFFORTS/09_AREAS",
+      "template": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA-NOTE.md"
     }
   ],
   "enable_file_templates": false,
@@ -57,8 +33,10 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "SYSTEM/TEMPLATE/CODE/toggle_todo.md"
+    ""
   ],
-  "startup_templates": [],
+  "startup_templates": [
+    ""
+  ],
   "intellisense_render": 1
 }

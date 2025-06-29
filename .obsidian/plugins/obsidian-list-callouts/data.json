@@ -86,5 +86,11 @@
     "color": "75, 192, 221",
     "icon": "lucide-history",
     "custom": true
+  },
+  {
+    "char": "qCAPTURE ",
+    "color": "81, 178, 210",
+    "icon": "lucide-arrow-down-left-from-square",
+    "custom": true
   }
 ]

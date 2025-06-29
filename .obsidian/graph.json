@@ -1,261 +1,72 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "[\"hub\":psyche]",
+      "query": "file:index",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 14701138
       }
     },
     {
-      "query": "[\"hub\":git]",
+      "query": "file:concept",
       "color": {
         "a": 1,
-        "rgb": 255
+        "rgb": 14725458
       }
     },
     {
-      "query": "[\"hub\":jupyterNotebook]",
+      "query": "file:python",
       "color": {
         "a": 1,
-        "rgb": 63488
+        "rgb": 11657298
       }
     },
     {
-      "query": "[\"hub\":thinking]",
+      "query": "path:EFFORTS  ",
       "color": {
         "a": 1,
-        "rgb": 16776960
+        "rgb": 5431378
       }
     },
     {
-      "query": "[\"hub\":design]",
+      "query": "path:SELF  ",
       "color": {
         "a": 1,
-        "rgb": 16711935
+        "rgb": 14701254
       }
     },
     {
-      "query": "[\"hub\":bi]",
+      "query": "[\"hub\":sta",
       "color": {
         "a": 1,
-        "rgb": 49152
+        "rgb": 5419488
       }
     },
     {
-      "query": "[\"hub\":music]",
+      "query": "[\"hub\":math",
       "color": {
         "a": 1,
-        "rgb": 2552048
-      }
-    },
-    {
-      "query": "[\"hub\":pkm]",
-      "color": {
-        "a": 1,
-        "rgb": 16515072
-      }
-    },
-    {
-      "query": "[\"hub\":GCTI]",
-      "color": {
-        "a": 1,
-        "rgb": 10758400
-      }
-    },
-    {
-      "query": "[\"hub\":menagement]",
-      "color": {
-        "a": 1,
-        "rgb": 32896
-      }
-    },
-    {
-      "query": "[\"hub\":hypothesis-testing]",
-      "color": {
-        "a": 1,
-        "rgb": 65280
-      }
-    },
-    {
-      "query": "[\"hub\":logic]",
-      "color": {
-        "a": 1,
-        "rgb": 16744192
-      }
-    },
-    {
-      "query": "[\"hub\":planning]",
-      "color": {
-        "a": 1,
-        "rgb": 13981
-      }
-    },
-    {
-      "query": "[\"hub\":sql]",
-      "color": {
-        "a": 1,
-        "rgb": 15073600
-      }
-    },
-    {
-      "query": "[\"hub\":descriptive-analysis]",
-      "color": {
-        "a": 1,
-        "rgb": 13568991
-      }
-    },
-    {
-      "query": "[\"hub\":writing]",
-      "color": {
-        "a": 1,
-        "rgb": 2552350
-      }
-    },
-    {
-      "query": "[\"hub\":ml-models]",
-      "color": {
-        "a": 1,
-        "rgb": 128
-      }
-    },
-    {
-      "query": "[\"hub\":copy]",
-      "color": {
-        "a": 1,
-        "rgb": 4106366
-      }
-    },
-    {
-      "query": "[\"hub\":probabilidade]",
-      "color": {
-        "a": 1,
-        "rgb": 9145088
-      }
-    },
-    {
-      "query": "[\"hub\":growth]",
-      "color": {
-        "a": 1,
-        "rgb": 4564578
-      }
-    },
-    {
-      "query": "[\"hub\":ect]",
-      "color": {
-        "a": 1,
-        "rgb": 286336
-      }
-    },
-    {
-      "query": "[\"hub\":tratamento-de-dados]",
-      "color": {
-        "a": 1,
-        "rgb": 8526784
-      }
-    },
-    {
-      "query": "[\"hub\":data-wrangling]",
-      "color": {
-        "a": 1,
-        "rgb": 9216000
-      }
-    },
-    {
-      "query": "[\"hub\":math]",
-      "color": {
-        "a": 1,
-        "rgb": 9988480
-      }
-    },
-    {
-      "query": "[\"hub\":visualization-data]",
-      "color": {
-        "a": 1,
-        "rgb": 10486016
-      }
-    },
-    {
-      "query": "[\"hub\":social-midia]",
-      "color": {
-        "a": 1,
-        "rgb": 11324608
-      }
-    },
-    {
-      "query": "[\"System/HUB/hub-tec\"]",
-      "color": {
-        "a": 1,
-        "rgb": 12255232
-      }
-    },
-    {
-      "query": "[\"hub\":SistemaOperacional]",
-      "color": {
-        "a": 1,
-        "rgb": 13421772
-      }
-    },
-    {
-      "query": "[\"hub\":statistic]",
-      "color": {
-        "a": 1,
-        "rgb": 14474752
-      }
-    },
-    {
-      "query": "[\"hub\":mkt]",
-      "color": {
-        "a": 1,
-        "rgb": 15597568
-      }
-    },
-    {
-      "query": "[\"hub\":css]",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "[\"hub\":aoc]",
-      "color": {
-        "a": 1,
-        "rgb": 16751232
-      }
-    },
-    {
-      "query": "[\"hub\":collectors]",
-      "color": {
-        "a": 1,
-        "rgb": 16729344
-      }
-    },
-    {
-      "query": "[\"hub\":python]",
-      "color": {
-        "a": 1,
-        "rgb": 16384255
+        "rgb": 5395168
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.4,
-  "nodeSizeMultiplier": 1.50195530726257,
-  "lineSizeMultiplier": 1.40810055865922,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.24353140613847,
+  "lineSizeMultiplier": 1.13526052819415,
   "collapse-forces": false,
-  "centerStrength": 0.821080270067517,
-  "repelStrength": 16.3563544007033,
-  "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.08317427835927717,
-  "close": true
+  "centerStrength": 0.24330835117773,
+  "repelStrength": 15.7155603140614,
+  "linkStrength": 0.471716630977873,
+  "linkDistance": 500,
+  "scale": 0.03884787198462854,
+  "close": false
 }

@@ -1,0 +1,15 @@
+{
+  "cssTheme": "Border",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "minorAdds",
+    "dashboarPlusPlus",
+    "datacore-classes",
+    "minorFixes",
+    "StyleCallouts",
+    "MCL Wide Views",
+    "hidePropertiesBase"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 12
+}

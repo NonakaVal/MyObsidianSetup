@@ -1,0 +1,156 @@
+{
+  "recentFiles": [
+    {
+      "basename": "flow-pandas-basic-data-manipulation",
+      "path": "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md"
+    },
+    {
+      "basename": "2025-06-24",
+      "path": "CALENDAR/DAILY/2025-06-24.md"
+    },
+    {
+      "basename": "2025-06",
+      "path": "CALENDAR/MONTHLY/2025-06.md"
+    },
+    {
+      "basename": "SNIP-TRACKER-OVERVIEW",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/SNIP-TRACKER-OVERVIEW.md"
+    },
+    {
+      "basename": "tracker",
+      "path": "SKETCH/tracker.md"
+    },
+    {
+      "basename": "TEMPLATE-MONTHLY",
+      "path": "SYSTEM/TEMPLATE/TEMPLATE-MONTHLY.md"
+    },
+    {
+      "basename": "SNIP-TASK-DV-FOLDER",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/SNIP-TASK-DV-FOLDER.md"
+    },
+    {
+      "basename": "SNIP-TASK-DV-GLOBAL-TABS",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/SNIP-TASK-DV-GLOBAL-TABS.md"
+    },
+    {
+      "basename": "SNIP-HEADERS-JS-TABLE",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/SNIP-HEADERS-JS-TABLE.md"
+    },
+    {
+      "basename": "SNIP-AREA-TASKS",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/SNIP-AREA-TASKS.md"
+    },
+    {
+      "basename": "SNIP-DAILY-LOG-DATAVIEW",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/SNIP-DAILY-LOG-DATAVIEW.md"
+    },
+    {
+      "basename": "2025-05",
+      "path": "CALENDAR/MONTHLY/2025-05.md"
+    },
+    {
+      "basename": "VIDEOS-YOUTUBE",
+      "path": "EFFORTS/09_AREAS/VIDEOS-YOUTUBE.md"
+    },
+    {
+      "basename": "TRABALHO",
+      "path": "EFFORTS/09_AREAS/TRABALHO.md"
+    },
+    {
+      "basename": "ESTUDOS",
+      "path": "EFFORTS/09_AREAS/ESTUDOS.md"
+    },
+    {
+      "basename": "+ CODE-SNIPPET",
+      "path": "SYSTEM/TEMPLATE/+ CODE-SNIPPET.md"
+    },
+    {
+      "basename": "+  PYTHON-DRAFT",
+      "path": "SYSTEM/TEMPLATE/+  PYTHON-DRAFT.md"
+    },
+    {
+      "basename": "Find-and-replace",
+      "path": "SYSTEM/SCRIPTS/Find-and-replace.py"
+    },
+    {
+      "basename": "index-snippets",
+      "path": "ATLAS/01_INDEX/index-snippets.md"
+    },
+    {
+      "basename": "TEMPLATE-NEW-NOTE",
+      "path": "SYSTEM/TEMPLATE/TEMPLATE-NEW-NOTE.md"
+    },
+    {
+      "basename": "TEMPLATE-NEW-AREA-NOTE",
+      "path": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA-NOTE.md"
+    },
+    {
+      "basename": "TEMPLATE-DAILY-NOTE",
+      "path": "SYSTEM/TEMPLATE/TEMPLATE-DAILY-NOTE.md"
+    },
+    {
+      "basename": "Áudio do WhatsApp de 2025-06-12 à(s) 08.01.10_cea3f1e3.waptt",
+      "path": "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 08.01.10_cea3f1e3.waptt.opus"
+    },
+    {
+      "basename": "! py convert_currency(series, symbol='$', decimals=True)",
+      "path": "CODE/05_SNIPPETS/! py convert_currency(series, symbol='$', decimals=True).md"
+    },
+    {
+      "basename": "! py list_files(directory_path)",
+      "path": "CODE/05_SNIPPETS/! py list_files(directory_path).md"
+    },
+    {
+      "basename": "PY-2025-06-24-{TESTS",
+      "path": "CODE/+/PY-2025-06-24-{TESTS.md"
+    },
+    {
+      "basename": "Zettell.py-2025-06-16",
+      "path": "CODE/+/Zettell.py-2025-06-16.md"
+    },
+    {
+      "basename": "% py quick_text_fix (texto, palavras_comuns=None, tags_ignoradas=None, min_tamanho_palavra=3)",
+      "path": "CODE/05_SNIPPETS/% py quick_text_fix (texto, palavras_comuns=None, tags_ignoradas=None, min_tamanho_palavra=3).md"
+    },
+    {
+      "basename": "% py _carregar_palavras_comuns",
+      "path": "CODE/05_SNIPPETS/% py _carregar_palavras_comuns.md"
+    },
+    {
+      "basename": "! py to_numeric_safe(series)",
+      "path": "CODE/05_SNIPPETS/! py to_numeric_safe(series).md"
+    },
+    {
+      "basename": "snip-rg-search-code",
+      "path": "CODE/07_DOC/snip-rg-search-code.md"
+    },
+    {
+      "basename": "snip-git-reset-commit-to-main",
+      "path": "CODE/07_DOC/snip-git-reset-commit-to-main.md"
+    },
+    {
+      "basename": "% wsl bash FZF Code Search Suite",
+      "path": "CODE/05_SNIPPETS/% wsl bash FZF Code Search Suite.md"
+    },
+    {
+      "basename": "% py confirmar_acao(mensagem. str)",
+      "path": "CODE/05_SNIPPETS/% py confirmar_acao(mensagem. str).md"
+    },
+    {
+      "basename": "! py  filter_outliers_iqr",
+      "path": "CODE/05_SNIPPETS/! py  filter_outliers_iqr.md"
+    },
+    {
+      "basename": "! py  check_nulls(series, raise_error=False, threshold=0)",
+      "path": "CODE/05_SNIPPETS/! py  check_nulls(series, raise_error=False, threshold=0).md"
+    },
+    {
+      "basename": "$ from config import MAIN_PATH",
+      "path": "CODE/05_SNIPPETS/$ from config import MAIN_PATH.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

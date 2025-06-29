@@ -5,20 +5,120 @@
       "path": "README.md"
     },
     {
-      "basename": "2025-06-14",
-      "path": "CALENDAR/DAILY/2025-06-14.md"
+      "basename": "TEMPLATE-MONTHLY",
+      "path": "SYSTEM/TEMPLATE/TEMPLATE-MONTHLY.md"
     },
     {
-      "basename": "draft-codeSearchadvanced-workflows",
-      "path": "ATLAS/00_DRAFT/draft-codeSearchadvanced-workflows.md"
+      "basename": "TEMPLATE-NEW-AREA",
+      "path": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA.md"
+    },
+    {
+      "basename": "2025-06-28",
+      "path": "CALENDAR/DAILY/2025-06-28.md"
+    },
+    {
+      "basename": "ESTUDOS",
+      "path": "EFFORTS/09_AREAS/ESTUDOS.md"
+    },
+    {
+      "basename": "plugins comundiade 2",
+      "path": "EFFORTS/09_AREAS/NOTES/plugins comundiade 2.md"
+    },
+    {
+      "basename": "@_dataview_Calendar-tasks",
+      "path": "SYSTEM/ASSETS/Dataview/@_dataview_Calendar-tasks.md"
     },
     {
       "basename": "2025",
       "path": "CALENDAR/YEARLY/2025.md"
     },
     {
+      "basename": "2025-04-27",
+      "path": "CALENDAR/DAILY/2025-04-27.md"
+    },
+    {
+      "basename": "_index_notas",
+      "path": "_index_notas.md"
+    },
+    {
+      "basename": "YOUTUBE-VIDEO-IDEAS",
+      "path": "EFFORTS/09_AREAS/NOTES/YOUTUBE-VIDEO-IDEAS.md"
+    },
+    {
+      "basename": "index-collectors",
+      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/index-collectors.md"
+    },
+    {
+      "basename": "Lista Itens Leilões",
+      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/Lista Itens Leilões.md"
+    },
+    {
+      "basename": "how-use-code-in-obsidian",
+      "path": "EFFORTS/09_AREAS/NOTES/how-use-code-in-obsidian.md"
+    },
+    {
+      "basename": "leilao-31-01-25",
+      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/leilao-31-01-25.md"
+    },
+    {
+      "basename": "2025-06-27",
+      "path": "CALENDAR/DAILY/2025-06-27.md"
+    },
+    {
+      "basename": "2025-06-12",
+      "path": "CALENDAR/DAILY/2025-06-12.md"
+    },
+    {
+      "basename": "2025-06-26",
+      "path": "CALENDAR/DAILY/2025-06-26.md"
+    },
+    {
+      "basename": "Backend RUBY",
+      "path": "EFFORTS/09_AREAS/NOTES/Backend RUBY.md"
+    },
+    {
+      "basename": "VIDEOS-YOUTUBE",
+      "path": "EFFORTS/09_AREAS/VIDEOS-YOUTUBE.md"
+    },
+    {
+      "basename": "myObsidian setup Apresentation",
+      "path": "EFFORTS/09_AREAS/NOTES/myObsidian setup Apresentation.md"
+    },
+    {
+      "basename": "SKETCH-BEW",
+      "path": "SKETCH/SKETCH-BEW.md"
+    },
+    {
+      "basename": "SKETCH-pensamento",
+      "path": "SELF/+/SKETCH-pensamento.md"
+    },
+    {
+      "basename": "outras-reflexoes",
+      "path": "SELF/14_FAITH/outras-reflexoes.md"
+    },
+    {
+      "basename": "flow-Verify-DataTypes",
+      "path": "CODE/08_WORKFLOW/flow-Verify-DataTypes.md"
+    },
+    {
+      "basename": "resumo-fé",
+      "path": "SELF/14_FAITH/resumo-fé.md"
+    },
+    {
+      "basename": "eu-nos",
+      "path": "SELF/14_FAITH/eu-nos.md"
+    },
+    {
+      "basename": "algumas reflexões existencias",
+      "path": "SELF/14_FAITH/algumas reflexões existencias.md"
+    },
+    {
       "basename": "2025-06",
       "path": "CALENDAR/MONTHLY/2025-06.md"
+    },
+    {
+      "basename": "INDEX-CODE",
+      "path": "CODE/+/INDEX-CODE.md"
     },
     {
       "basename": "2025-05",
@@ -33,176 +133,45 @@
       "path": "CALENDAR/MONTHLY/2025-03.md"
     },
     {
-      "basename": "2024-10",
-      "path": "CALENDAR/MONTHLY/2024-10.md"
+      "basename": "2025-04-11",
+      "path": "CALENDAR/DAILY/2025-04-11.md"
     },
     {
-      "basename": "template_area",
-      "path": "SYSTEM/TEMPLATE/FORMAT/template_area.md"
+      "basename": "2025-04-10",
+      "path": "CALENDAR/DAILY/2025-04-10.md"
     },
     {
-      "basename": "Zettell",
-      "path": "SYSTEM/SCRIPTS/Zettell.py"
+      "basename": "Similar-Search.py-2025-06-26",
+      "path": "CODE/+/Similar-Search.py-2025-06-26.md"
     },
     {
-      "basename": "_index_notas",
-      "path": "_index_notas.md"
+      "basename": "SELF-INDEX",
+      "path": "SELF/+/SELF-INDEX.md"
     },
     {
-      "basename": "flow-build-setup-codeSearch-with-ripgrep-fzf-bat",
-      "path": "ATLAS/06_WORKFLOW/flow-build-setup-codeSearch-with-ripgrep-fzf-bat.md"
+      "basename": "ME",
+      "path": "SELF/ME.md"
     },
     {
-      "basename": "template_daily_note",
-      "path": "SYSTEM/TEMPLATE/FORMAT/CALENDAR/template_daily_note.md"
+      "basename": "SKETCH-mew",
+      "path": "SKETCH/SKETCH-mew.md"
     },
     {
-      "basename": "draft-codeSearchbasic-usage-examples",
-      "path": "ATLAS/00_DRAFT/draft-codeSearchbasic-usage-examples.md"
+      "basename": "eterno-retorno-nietzsche",
+      "path": "SELF/19_PHILOSOPHY/eterno-retorno-nietzsche.md"
     },
     {
-      "basename": "snip-rg-search-code",
-      "path": "ATLAS/03_SNIPPETS/snip-rg-search-code.md"
+      "basename": "concept-python-pandas-linking-dataframes",
+      "path": "ATLAS/02_CONCEPT/concept-python-pandas-linking-dataframes.md"
     },
     {
-      "basename": "draft-powershell-security-log",
-      "path": "DRAFTS/draft-powershell-security-log.md"
-    },
-    {
-      "basename": "draft-netguard-2",
-      "path": "DRAFTS/draft-netguard-2.md"
-    },
-    {
-      "basename": "draft-netguard-block",
-      "path": "DRAFTS/draft-netguard-block.md"
-    },
-    {
-      "basename": "template-snippet",
-      "path": "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-snippet.md"
-    },
-    {
-      "basename": "draft-reset-wsl-dist",
-      "path": "DRAFTS/draft-reset-wsl-dist.md"
-    },
-    {
-      "basename": "cmp-first-ripgrep-regex-queries",
-      "path": "ATLAS/04_COMPONENT/cmp-first-ripgrep-regex-queries.md"
-    },
-    {
-      "basename": "draft-search-code-rg",
-      "path": "DRAFTS/draft-search-code-rg.md"
-    },
-    {
-      "basename": "draft-regex-rg-query-2",
-      "path": "DRAFTS/draft-regex-rg-query-2.md"
-    },
-    {
-      "basename": "draft-search-notes-ripgrep-fzf-and-bat",
-      "path": "DRAFTS/draft-search-notes-ripgrep-fzf-and-bat.md"
-    },
-    {
-      "basename": "draft-regex-rg-all-notes",
-      "path": "ATLAS/00_DRAFT/draft-regex-rg-all-notes.md"
-    },
-    {
-      "basename": "concept-regex-introductions-and-basic",
-      "path": "ATLAS/02_CONCEPT/concept-regex-introductions-and-basic.md"
-    },
-    {
-      "basename": "basic-regex-busca-com-variações-simples",
-      "path": "ATLAS/02_CONCEPT/basic-regex-busca-com-variações-simples.md"
-    },
-    {
-      "basename": "2025-06-13",
-      "path": "CALENDAR/DAILY/2025-06-13.md"
-    },
-    {
-      "basename": "2025-06-12",
-      "path": "CALENDAR/DAILY/2025-06-12.md"
-    },
-    {
-      "basename": "draft-apps-linux",
-      "path": "DRAFTS/draft-apps-linux.md"
-    },
-    {
-      "basename": "roteiro-dataview-obsidian",
-      "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/roteiro-dataview-obsidian.md"
-    },
-    {
-      "basename": "basic-regex-busca-por-palavras-específicas",
-      "path": "ATLAS/02_CONCEPT/basic-regex-busca-por-palavras-específicas.md"
-    },
-    {
-      "basename": "basic-regex-componentes-basicos",
-      "path": "ATLAS/02_CONCEPT/basic-regex-componentes-basicos.md"
-    },
-    {
-      "basename": "2025-06-11",
-      "path": "CALENDAR/DAILY/2025-06-11.md"
-    },
-    {
-      "basename": "2025-06-10",
-      "path": "CALENDAR/DAILY/2025-06-10.md"
-    },
-    {
-      "basename": "cmp-streamlit-crewai-market-research-app",
-      "path": "ATLAS/04_COMPONENT/cmp-streamlit-crewai-market-research-app.md"
-    },
-    {
-      "basename": "2025-06-09",
-      "path": "CALENDAR/DAILY/2025-06-09.md"
-    },
-    {
-      "basename": "2025-06-08",
-      "path": "CALENDAR/DAILY/2025-06-08.md"
-    },
-    {
-      "basename": "2025-06-07",
-      "path": "CALENDAR/DAILY/2025-06-07.md"
-    },
-    {
-      "basename": "2025-06-03",
-      "path": "CALENDAR/DAILY/2025-06-03.md"
-    },
-    {
-      "basename": "2025-06-04",
-      "path": "CALENDAR/DAILY/2025-06-04.md"
-    },
-    {
-      "basename": "concept-aoc-1.3.2.1 Modelo de Von Neumann",
-      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-1.3.2.1 Modelo de Von Neumann.md"
-    },
-    {
-      "basename": "draft-introduction-to-generator-expressions",
-      "path": "ATLAS/00_DRAFT/draft-introduction-to-generator-expressions.md"
-    },
-    {
-      "basename": "draft-basico-operacional-e-dicas-junior",
-      "path": "DRAFTS/draft-basico-operacional-e-dicas-junior.md"
-    },
-    {
-      "basename": "draft-obsidian-vim-commands",
-      "path": "DRAFTS/draft-obsidian-vim-commands.md"
-    },
-    {
-      "basename": "hub-growth",
-      "path": "+/HUB/hub-growth.md"
-    },
-    {
-      "basename": "README",
-      "path": "SYSTEM/SCRIPTS/README.md"
-    },
-    {
-      "basename": "random-bg",
-      "path": "SYSTEM/SCRIPTS/random-bg.py"
-    },
-    {
-      "basename": "@_by_count_links",
-      "path": "SYSTEM/ASSETS/Dataview/@_by_count_links.md"
+      "basename": "flow-pandas-data-cleaning-methods",
+      "path": "CODE/08_WORKFLOW/flow-pandas-data-cleaning-methods.md"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
   "updateOn": "file-open",
-  "omitBookmarks": false
+  "omitBookmarks": false,
+  "maxLength": null
 }

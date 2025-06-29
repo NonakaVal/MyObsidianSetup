@@ -1,0 +1,18 @@
+{
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "tabSize": 4,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "SYSTEM/MEDIA",
+  "defaultViewMode": "source",
+  "userIgnoreFilters": [
+    "SYSTEM/+/"
+  ],
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 92
+  }
+}

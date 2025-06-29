@@ -2,134 +2,67 @@
   "items": [
     {
       "type": "group",
-      "ctime": 1748719868476,
+      "ctime": 1750794999672,
       "items": [
         {
           "type": "file",
-          "ctime": 1748719861228,
-          "path": "EFFORTS/09_AREAS/ESTUDOS/ESTUDOS.md"
+          "ctime": 1750794996511,
+          "path": "EFFORTS/09_AREAS/ESTUDOS.md"
         },
         {
           "type": "file",
-          "ctime": 1748719861228,
-          "path": "EFFORTS/09_AREAS/ESTUDOS/Data Science Path.md"
+          "ctime": 1750794996512,
+          "path": "EFFORTS/09_AREAS/TRABALHO.md"
         },
         {
           "type": "file",
-          "ctime": 1748719861228,
-          "path": "EFFORTS/09_AREAS/ESTUDOS/Backend RUBY.md"
+          "ctime": 1750794996512,
+          "path": "EFFORTS/09_AREAS/VIDEOS-YOUTUBE.md"
         }
       ],
-      "title": "ESTUDOS"
+      "title": "Areas"
+    },
+    {
+      "type": "file",
+      "ctime": 1750803722729,
+      "path": "SYSTEM/ASSETS/regra-nomenclatura-code-snippets.md"
     },
     {
       "type": "group",
-      "ctime": 1748703954014,
+      "ctime": 1750809517113,
       "items": [
         {
           "type": "file",
-          "ctime": 1748703932532,
-          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/PKM-Youtube-Videos.md"
+          "ctime": 1750809514472,
+          "path": "ATLAS/01_INDEX/index-templates.md"
         },
         {
           "type": "file",
-          "ctime": 1748703932532,
-          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/myObsidian setup Apresentation.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1748703932532,
-          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/conceitos-fundamentais.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1748703932532,
-          "path": "EFFORTS/09_AREAS/PKM-Youtube-Videos/serie-plugins-da-comunidade.md"
-        }
-      ],
-      "title": "PKM-Youtube-Videos"
-    },
-    {
-      "type": "group",
-      "ctime": 1748704001756,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1748703988676,
-          "path": "EFFORTS/09_AREAS/Career-development/Career-development.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1748703988676,
-          "path": "EFFORTS/09_AREAS/Career-development/Portifolio-Content.md"
-        }
-      ],
-      "title": "TRAMPO"
-    },
-    {
-      "type": "folder",
-      "ctime": 1748729432218,
-      "path": "SYSTEM/TEMPLATE/FORMAT",
-      "title": "TEMPLATES"
-    },
-    {
-      "type": "group",
-      "ctime": 1749600260948,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1749600246782,
-          "path": "SYSTEM/ASSETS/Dataview/@_by_count_links.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1749600246782,
-          "path": "SYSTEM/ASSETS/Dataview/@_dataview_ALL-tasks.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1749600246782,
-          "path": "SYSTEM/ASSETS/Dataview/@_to_complete_notes.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1749600246782,
-          "path": "SYSTEM/ASSETS/Dataview/@-calendar-tasks-query.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1749600246782,
-          "path": "SYSTEM/ASSETS/Dataview/@_js_Charts.md"
-        }
-      ],
-      "title": "DATAVIEW NOTES"
-    },
-    {
-      "type": "group",
-      "ctime": 1748949043331,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1748949034506,
+          "ctime": 1750809514472,
           "path": "ATLAS/01_INDEX/index-datascience.md"
         },
         {
           "type": "file",
-          "ctime": 1748949034506,
+          "ctime": 1750809514472,
           "path": "ATLAS/01_INDEX/index-computer-science.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1748949034506,
-          "path": "ATLAS/01_INDEX/index-mkt-menagement.md"
         }
       ],
       "title": "INDEX"
     },
     {
+      "type": "folder",
+      "ctime": 1751042592350,
+      "path": "SYSTEM/SCRIPTS"
+    },
+    {
+      "type": "folder",
+      "ctime": 1751043459095,
+      "path": "SYSTEM/TEMPLATE"
+    },
+    {
       "type": "file",
-      "ctime": 1749578444466,
-      "path": "SYSTEM/ASSETS/Dataview/@-mood-and-work-tracker.md"
+      "ctime": 1751088528040,
+      "path": "SELF/ME.md"
     }
   ]
 }

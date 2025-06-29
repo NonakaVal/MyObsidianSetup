@@ -5,7 +5,8 @@
     "js",
     "jsx",
     "py",
-    "txt"
+    "txt",
+    " ipynb"
   ],
   "folding": true,
   "lineNumbers": true,

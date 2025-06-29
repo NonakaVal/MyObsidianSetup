@@ -1,18 +1,19 @@
-# 📂 Estrutura da Vault
+---
+share_link: https://share.note.sx/k6as2w6i#vw13QQqre8wT4Ntz53hO9uSJOKl9l6EgDIMjNg/yaWg
+share_updated: 2025-06-15T18:46:54-03:00
+---
+# Estrutura da Vault
 
 ## Folder System
 
-- 
+- **📂 <font color = 00bbfff>+</font>**  — Qualquer coisa que não se aplique nas pastas abaixo
+
 - **📂 <font color = 00bbfff>ATLAS</font>** — Notas de estudo e literárias  
 	- **00_DRAFT** — Rascunhos brutos de ideias e estudos ainda em construção  
 	- **01_INDEX** — Mapas e índices para navegar e interconectar as notas  
 	- **02_CONCEPT** — Conceitos teóricos, definições e modelos explicativos  
-	- **03_SNIPPETS** — Trechos de código reutilizáveis e exemplos práticos  
-	- **04_COMPONENT** — Blocos reutilizáveis, funções, algoritmos e padrões  
-	- **05_DOC** — Documentações explicativas ou tutoriais  
-	- **06_WORKFLOW** — Passo a passo de processos práticos ou pipelines  
-	- **07 RESOURCES** — Links, artigos, livros, PDFs, vídeos e materiais externos 
-	- **08_MAPS** — Mapas mentais e representações visuais de temas  
+	- **03 RESOURCES** — Links, artigos, livros, PDFs, vídeos e materiais externos 
+	- **04_MAPS** — Mapas mentais e representações visuais de temas  
 
 - **📂 <font color = 00bbfff>CALENDAR</font>** — Calendários e notas diárias ou periódicas  
 	- **DAILY** — Anotações diárias, diário de bordo, tarefas e insights  
@@ -20,7 +21,11 @@
 	- **WEEKLY** — Planejamento e revisão semanal  
 	- **YARLY** — Revisões e metas anuais  
 
-- **📂 <font color = 00bbfff>DRAFTS</font> — Rascunhos avulsos e notas não categorizadas**
+- **📂 <font color = 00bbfff>CODE</font>** — 
+	- **05_SNIPPETS** — Trechos de código reutilizáveis e exemplos práticos  
+	- **06_COMPONENT** — Blocos reutilizáveis, funções, algoritmos e padrões  
+	- **07_DOC** — Documentações explicativas ou tutoriais  
+	- **08_WORKFLOW** — Passo a passo de processos práticos ou pipelines  
 
 - **📂 <font color = 00bbfff>EFFORTS</font>** — Direcionamento de esforços e projetos ativos 
 	- **09_AREAS** — Áreas de foco contínuo (saúde, finanças, carreira, etc.)  
@@ -29,19 +34,28 @@
 	- **12_RESOURCES** — Materiais de apoio e referência específica para projetos 
 	- **13_WORKSTATION** — Anotações operacionais do dia a dia de execução  
 
-- **📂 <font color = 00bbfff>LEISURE</font>** — Conteúdos de lazer, cultura e hobbies
-	- **MUSIC** — Músicas, playlists, artistas favoritos e estudos musicais 
-	- **GAMES** 
 
-- **📂 <font color = 00bbfff>SOCIAL</font>** — Reflexões pessoais e interações humanas
-	- **PEOPLE** — Notas sobre pessoas, contatos, redes ou perfis importantes  
+- 📂 <font color = #00bbff>SELF</font> — Autoconhecimento, experiências e crescimento pessoal
+	* **14_FAITH** — Textos de fé, espiritualidade ou crenças pessoais
+	* **15_FAVS** — Pessoas, momentos, lugares ou coisas que você ama, como um baú afetivo
+	* **16_GROWTH** — desenvolvimento pessoal, hábitos, terapia, limites, aprendizados e evolução
+	* **17_HEALTH** — Saúde física e mental: alimentação, sono, crises, registros e autocuidado
+	* **18_MEMOS** — Cartas para si mesmo, frases marcantes, escritos íntimos
+	* **19_PHILOSOPHY** — Visões de mundo, valores, espiritualidade, textos mais existenciais
+	* **20_SOCIAL** — Notas sobre pessoas, contatos, redes ou perfis importantes  
+	- **21_MUSIC** — Músicas, playlists, artistas favoritos e estudos musicais 
+
+- **📂 <font color = 00bbfff>SKETCH</font> — Rascunhos avulsos e notas não categorizadas**
 
 - **📂 <font color = 00bbfff>SYSTEM</font>** — Sistema de organização e infraestrutura da base 
 	- **ASSETS** — Templates, ícones, imagens, estilos e componentes visuais  
 	- **SCRIPTS** - 
 	- **MEDIA** — Repositório de arquivos multimídia utilizados nas notas  
-	- **SCRIPTS** —  https://github.com/NonakaVal/Obsidian-Python-Scripts.git
 	- **TEMPLATE** — Meus Templates  
+		- **FORMAT** —
+		- **SNIPPETS** —
+
+
 
 ---
 

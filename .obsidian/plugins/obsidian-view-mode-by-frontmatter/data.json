@@ -22,6 +22,10 @@
     {
       "folder": "SYSTEM/TEMPLATE",
       "viewMode": "obsidianEditingMode: source"
+    },
+    {
+      "folder": "CODE/05_SNIPPETS",
+      "viewMode": "obsidianEditingMode: source"
     }
   ],
   "files": [

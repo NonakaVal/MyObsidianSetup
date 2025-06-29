@@ -29,79 +29,7 @@
         "default": "code  \"\" C:\\Users\\nonak\\Documents\\Vauts\\Thoughts"
       },
       "shells": {},
-      "alias": "open vault in vs code",
-      "icon": null,
-      "confirm_execution": false,
-      "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
-      "output_handlers": {
-        "stdout": {
-          "handler": "ignore",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
-      },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
-      "output_channel_order": "stdout-first",
-      "output_handling_mode": "buffered",
-      "execution_notification_mode": null,
-      "events": {},
-      "debounce": null,
-      "command_palette_availability": "enabled",
-      "preactions": [],
-      "variable_default_values": {}
-    },
-    {
-      "id": "ukoxnl9kgc",
-      "platform_specific_commands": {
-        "default": "code --goto {{file_path:absolute}}:{{caret_position}}"
-      },
-      "shells": {},
-      "alias": "open vault in vs code here",
-      "icon": null,
-      "confirm_execution": false,
-      "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
-      "output_handlers": {
-        "stdout": {
-          "handler": "ignore",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
-      },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
-      "output_channel_order": "stdout-first",
-      "output_handling_mode": "buffered",
-      "execution_notification_mode": null,
-      "events": {},
-      "debounce": null,
-      "command_palette_availability": "enabled",
-      "preactions": [],
-      "variable_default_values": {}
-    },
-    {
-      "id": "29dszrt1zw",
-      "platform_specific_commands": {
-        "default": "start \"\" \"C:\\Users\\nonak\\Documents\""
-      },
-      "shells": {},
-      "alias": "open documents folder",
+      "alias": "OPEN VAULT IN VS CODE",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -137,7 +65,7 @@
         "default": "code --goto \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\SYSTEM\\SCRIPTS\""
       },
       "shells": {},
-      "alias": "open python scripts",
+      "alias": "OPEN PYTHON SCRIPTS IN VS CODE",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -170,10 +98,10 @@
     {
       "id": "5ciy1k5dmu",
       "platform_specific_commands": {
-        "default": "start \"\" \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\SYSTEM\\SCRIPTS\\GenerateIndexNote.py\""
+        "default": "start \"\" \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\SYSTEM\\SCRIPTS\\generate-index-note.py\""
       },
       "shells": {},
-      "alias": "run index u",
+      "alias": "UPDATE INDEX NOTE",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -209,7 +137,151 @@
         "default": "start \"\" \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\SYSTEM\\SCRIPTS\\Zettell.py\""
       },
       "shells": {},
-      "alias": "zetelzar",
+      "alias": "ZETTELZAR",
+      "icon": null,
+      "confirm_execution": true,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "h85zpdm7hu",
+      "platform_specific_commands": {
+        "default": "start \"\" \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\SYSTEM\\SCRIPTS\\Chance-Templates-Folder.py\""
+      },
+      "shells": {},
+      "alias": "MUDAR PASTA DE TEMPLATES",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "0foabwsmg2",
+      "platform_specific_commands": {
+        "default": "code --goto \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\.obsidian\\snippets\""
+      },
+      "shells": {},
+      "alias": "ABRIR CSS SNIPPETS VS CODE",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "hm00tm80d8",
+      "platform_specific_commands": {
+        "default": "code --goto  \"C:\\Users\\nonak\\Documents\\github\\myrepos\\nonakaval.github.io\""
+      },
+      "shells": {},
+      "alias": "OPEN NOT A DEV IN VS CODE",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "nzwp8yihcs",
+      "platform_specific_commands": {
+        "default": "start \"\" \"C:\\Users\\nonak\\Documents\\Vauts\\Thoughts\\SYSTEM\\SCRIPTS\\Similar-Search.py\""
+      },
+      "shells": {},
+      "alias": "RUN SIMILAR SEARCH TERMINAL",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],

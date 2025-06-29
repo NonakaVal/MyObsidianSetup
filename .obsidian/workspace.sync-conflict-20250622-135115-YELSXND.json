@@ -1,0 +1,366 @@
+{
+  "main": {
+    "id": "eff0e98deb04ce52",
+    "type": "split",
+    "children": [
+      {
+        "id": "e60cb156e0d9624b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4036af16f1add92",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e54d3e8e5a35fbc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "840b5ad792986e65",
+        "type": "tabs",
+        "dimension": 42.525252525252526,
+        "children": [
+          {
+            "id": "7ad2065b70118fc2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "914239013585d4fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(wron)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "378db4258e40efd8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "ff39941ea410b5a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SKETCH/new3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of new3"
+            }
+          },
+          {
+            "id": "212ff6591d428e82",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          }
+        ]
+      },
+      {
+        "id": "544671c19d6a77b9",
+        "type": "tabs",
+        "dimension": 57.47474747474748,
+        "children": [
+          {
+            "id": "f78042349a1a6759",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417.5
+  },
+  "right": {
+    "id": "80b88303ad9d2de6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed90f9a9ea93678f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6175c958e6198422",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "70e5ca9716220d8c",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          },
+          {
+            "id": "5cd3b9a8cf00009d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "3c8bd714896439ee",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      },
+      {
+        "id": "49e5efc17f389c9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50768ee8aa94a7a1",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "CODE/+/egra de classificação para snippets.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224422,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of egra de classificação para snippets"
+            }
+          },
+          {
+            "id": "d404c6a5a6d394ac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CODE/+/egra de classificação para snippets.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for egra de classificação para snippets"
+            }
+          },
+          {
+            "id": "962f95d194464ba2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CODE/Snippets/Zettell.py-2025-06-16.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Zettell.py-2025-06-16"
+            }
+          },
+          {
+            "id": "8cb501234ad1c95c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f304a1aed584cb4d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1352348115a4e20b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CODE/+/egra de classificação para snippets.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "egra de classificação para snippets"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 310.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "code-files:Create Code File": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "templater-obsidian:Templater": false,
+      "audio-recorder:Start/stop recording": false,
+      "periodic-notes:Open today": false,
+      "obsidian-audio-notes:Quick Audio Note with Transcription": false
+    }
+  },
+  "active": "1352348115a4e20b",
+  "lastOpenFiles": [
+    "CODE/+/egra de classificação para snippets.md",
+    "CODE/05_SNIPPETS/snip-null-Checker.md",
+    "CODE/05_SNIPPETS/snip-pandas-groupby-function.md",
+    "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md",
+    "ATLAS/02_CONCEPT/concept-importando-outros-tipos-de-arquivos.md",
+    "ATLAS/02_CONCEPT/python-avancando-em-importacao-de-dados.md",
+    "CODE/08_WORKFLOW/flow-pandas-data-cleaning-methods.md",
+    "ATLAS/02_CONCEPT/concept-organizando-dataframe.md",
+    "CODE/+/Remove-Text-by-Folder.py-2025-06-16.md",
+    "CODE/+/reset-all-property-by-folder.py-2025-06-16.md",
+    "CODE/05_SNIPPETS/snip-convert-pandas-df-var-to-numeric.md",
+    "CODE/05_SNIPPETS/snip-convert-currency-string-to-numeric.md",
+    "CODE/05_SNIPPETS/generate-index-note.py-2025-06-16.md",
+    "CODE/05_SNIPPETS/Find-and-replace.py-2025-06-16.md",
+    "CODE/05_SNIPPETS/snip-iiiq-interquartil-method.md",
+    "CODE/05_SNIPPETS/snip-git-reset-commit-to-main.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/Untitled.md",
+    "SELF/+/HUMAN SADNESS LYRICS.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/_.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/Untitled 1.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/!.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/+.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/&.md",
+    "README.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/$.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET/@.md",
+    "SYSTEM/TEMPLATE/CODE-SNIPPET",
+    "ATLAS/+",
+    "SYSTEM/MEDIA/IMAGENS/Áudio do WhatsApp de 2025-06-19 à(s) 13.04.18_6f5940c3.waptt.opus",
+    "SYSTEM/MEDIA/Pasted image 20250616042808.png",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.22.04_059c9555.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.22.04_12af3797.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.17.08_47cc60cc.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.16.35_f5186dba.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.16.35_9524346f.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.15.24_3340d1bc.waptt.opus",
+    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-12 à(s) 13.14.03_bb4ade67.waptt.opus",
+    "ATLAS/05_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "SELF/Untitled.canvas"
+  ]
+}

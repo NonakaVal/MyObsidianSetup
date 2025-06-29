@@ -1,8 +1,13 @@
 .table-view-table td:nth-child(1) {
 
-min-width: 80px;
+min-width: 200px;
+
 
 }
+
+
+
+
 
 .hover-popover .inline-title, .inline-embed .inline-title {
 	display: inline;

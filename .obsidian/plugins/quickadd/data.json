@@ -1,86 +1,19 @@
 {
   "choices": [
     {
-      "id": "2633d17f-253a-4781-81aa-d5a6a884becf",
-      "name": "Multi - Area",
-      "type": "Multi",
-      "command": true,
-      "choices": [
-        {
-          "id": "d9e990bb-6ec2-40ce-97e7-536a2dbc8bd2",
-          "name": "New Area Family",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SYSTEM/TEMPLATE/FORMAT/template_area.md",
-          "fileNameFormat": {
-            "enabled": true,
-            "format": "{{VALUE}}"
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "EFFORTS/09_AREAS/{{VALUE}}"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Nothing",
-          "setFileExistsBehavior": false
-        },
-        {
-          "id": "2007de3a-6e66-4c31-b749-ea2232af1ebc",
-          "name": "New Area Note",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SYSTEM/TEMPLATE/FORMAT/template_area_note.md",
-          "fileNameFormat": {
-            "enabled": true,
-            "format": "{{VALUE}}"
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": true,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Nothing",
-          "setFileExistsBehavior": false
-        }
-      ],
-      "collapsed": false
-    },
-    {
-      "id": "a2828339-cd6f-4405-a42f-12ce397ef27f",
-      "name": "new-note",
+      "id": "492e1d7e-18a9-4365-8c42-3f7490e0bd33",
+      "name": "NEW NOTE",
       "type": "Template",
       "command": true,
-      "templatePath": "SYSTEM/TEMPLATE/FORMAT/template_new_note.md",
+      "templatePath": "SYSTEM/TEMPLATE/TEMPLATE-NEW-SKETCH-NOTE.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "draft-{{value}}"
+        "format": "SKETCH-{{value}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "DRAFTS"
+          "SKETCH"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -98,19 +31,54 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "9d9fe253-b83e-47f1-b23b-893fd737d64b",
-      "name": "new-post-not-a-dev",
+      "id": "b360027c-393c-4fed-8b12-e041da1c6af5",
+      "name": "ADD TO DAILY",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "CALENDAR/DAILY/{{date}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "SYSTEM/TEMPLATE/TEMPLATE-DAILY-NOTE.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{value}} - {{time}} - [[{{date}}]]"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## qCAPTURE ",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "26056095-7d98-48f6-92cc-1c1635149833",
+      "name": "NEW-SNIPPET-TEMPLATE",
       "type": "Template",
       "command": true,
-      "templatePath": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-new-post.md",
+      "templatePath": "SYSTEM/TEMPLATE/TEMPLATE-NEW-NOTE.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "blog-post-{{value}}"
+        "format": "SNIP-{{value}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "EFFORTS/09_AREAS/Writing/Not_A_Dev"
+          "SYSTEM/TEMPLATE/SNIPPET"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -128,19 +96,19 @@
       "setFileExistsBehavior": true
     },
     {
-      "id": "c05f19ee-c6ea-4539-a899-25e1a99f06e9",
-      "name": "CREATE SNIPPET",
+      "id": "6430f0b6-4d07-44f9-9b1a-45e79f6bee19",
+      "name": "NEW AREA NOTE",
       "type": "Template",
       "command": true,
-      "templatePath": "SYSTEM/TEMPLATE/FORMAT/ATLAS/template-snippet.md",
+      "templatePath": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA-NOTE.md",
       "fileNameFormat": {
-        "enabled": true,
-        "format": "snip-{{value}}"
+        "enabled": false,
+        "format": ""
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "ATLAS/03_SNIPPETS"
+          "EFFORTS/09_AREAS/NOTES"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -158,11 +126,11 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "f463a629-acd5-4936-bc1a-99e6b3775192",
-      "name": "RAW-THOUGHTS",
+      "id": "526c9029-92ed-401c-8ec5-dde7f287b8b1",
+      "name": "NEW AREA",
       "type": "Template",
       "command": true,
-      "templatePath": "SYSTEM/TEMPLATE/FORMAT/WRITING/template-RAW-THOUGHTS.md",
+      "templatePath": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA-NOTE.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -170,7 +138,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "EFFORTS/09_AREAS/Writing/RawThoughts"
+          "EFFORTS/09_AREAS"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -188,18 +156,20 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "561c1172-0e55-4138-a2c0-df3a55c8e43b",
-      "name": "new-ruby-note",
+      "id": "2fd74250-668d-4614-b6dd-91304cddc319",
+      "name": "PYTHON DRAFT",
       "type": "Template",
-      "command": false,
-      "templatePath": "",
+      "command": true,
+      "templatePath": "SYSTEM/TEMPLATE/+  PYTHON-DRAFT.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "PY-{{date}}-{{{value}}"
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "CODE/+"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -210,24 +180,47 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "dc705e97-5b39-4b1b-bd5b-bddceb926a07",
+      "name": "NEW CODE SNIPPET",
+      "type": "Template",
+      "command": true,
+      "templatePath": "SYSTEM/TEMPLATE/TEMPLATE-CODE-SNIPPET.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "SNIP-DRAF-{{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "CODE/+"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
     }
   ],
-  "macros": [
-    {
-      "name": "zettel",
-      "id": "df56492a-56f3-4540-92da-03ebab03b6e6",
-      "commands": [],
-      "runOnStartup": false
-    }
-  ],
+  "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
-  "announceUpdates": false,
+  "templateFolderPath": "SYSTEM/TEMPLATE",
+  "announceUpdates": true,
   "version": "1.13.3",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,

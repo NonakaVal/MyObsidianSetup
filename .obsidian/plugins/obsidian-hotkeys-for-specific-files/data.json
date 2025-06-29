@@ -2,15 +2,11 @@
   "files": [
     {
       "useMoment": false,
-      "file": "SYSTEM/ASSETS/hotkeys.md"
+      "file": "_index_notas.md"
     },
     {
       "useMoment": false,
-      "file": "SYSTEM/ASSETS/Dataview/@-calendar-tasks-query.md"
-    },
-    {
-      "useMoment": false,
-      "file": "SYSTEM/SCRIPTS/Zettell.py"
+      "file": "EFFORTS/09_AREAS/ESTUDOS.md"
     }
   ],
   "useExistingPane": true,
