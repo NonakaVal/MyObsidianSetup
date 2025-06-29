@@ -1,7 +1,3 @@
----
-share_link: https://share.note.sx/k6as2w6i#vw13QQqre8wT4Ntz53hO9uSJOKl9l6EgDIMjNg/yaWg
-share_updated: 2025-06-15T18:46:54-03:00
----
 # Estrutura da Vault
 
 ## Folder System
