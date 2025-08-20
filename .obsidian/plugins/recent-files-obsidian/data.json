@@ -5,6 +5,82 @@
       "path": "README.md"
     },
     {
+      "basename": "Zettell.py-2025-06-16",
+      "path": "CODE/+/Zettell.py-2025-06-16.md"
+    },
+    {
+      "basename": "Similar-Search.py-2025-06-26",
+      "path": "CODE/+/Similar-Search.py-2025-06-26.md"
+    },
+    {
+      "basename": "INDEX-CODE",
+      "path": "CODE/+/INDEX-CODE.md"
+    },
+    {
+      "basename": "2024",
+      "path": "CALENDAR/YEARLY/2024.md"
+    },
+    {
+      "basename": "2024-10",
+      "path": "CALENDAR/MONTHLY/2024-10.md"
+    },
+    {
+      "basename": "+_CANVAS_AOC",
+      "path": "ATLAS/04_MAPS/+_CANVAS_AOC.canvas"
+    },
+    {
+      "basename": "res-github-commit-message-convention",
+      "path": "ATLAS/03_RESOURCES/res-github-commit-message-convention.md"
+    },
+    {
+      "basename": "index-templates",
+      "path": "ATLAS/01_INDEX/index-templates.md"
+    },
+    {
+      "basename": "index-pkm",
+      "path": "ATLAS/01_INDEX/index-pkm.md"
+    },
+    {
+      "basename": "index-datascience",
+      "path": "ATLAS/01_INDEX/index-datascience.md"
+    },
+    {
+      "basename": "index-computer-science",
+      "path": "ATLAS/01_INDEX/index-computer-science.md"
+    },
+    {
+      "basename": "draft-ruby-basics",
+      "path": "ATLAS/00_DRAFT/draft-ruby-basics.md"
+    },
+    {
+      "basename": "DRAFT-estudo-de-cladistica",
+      "path": "ATLAS/00_DRAFT/DRAFT-estudo-de-cladistica.md"
+    },
+    {
+      "basename": "draft-direito-cibernetico",
+      "path": "ATLAS/00_DRAFT/draft-direito-cibernetico.md"
+    },
+    {
+      "basename": "Zettelizer.py-2025-06-12",
+      "path": "ATLAS/00_DRAFT/Snippets/Zettelizer.py-2025-06-12.md"
+    },
+    {
+      "basename": "2025-06-14",
+      "path": "CALENDAR/DAILY/2025-06-14.md"
+    },
+    {
+      "basename": "2025-06-03",
+      "path": "CALENDAR/DAILY/2025-06-03.md"
+    },
+    {
+      "basename": "2025-06-02",
+      "path": "CALENDAR/DAILY/2025-06-02.md"
+    },
+    {
+      "basename": "2025-06-01",
+      "path": "CALENDAR/DAILY/2025-06-01.md"
+    },
+    {
       "basename": "_index_notas",
       "path": "_index_notas.md"
     },
@@ -23,14 +99,6 @@
     {
       "basename": "cmp-get-dataframe-info",
       "path": "CODE/06_COMPONENT/cmp-get-dataframe-info.md"
-    },
-    {
-      "basename": "Similar-Search.py-2025-06-26",
-      "path": "CODE/+/Similar-Search.py-2025-06-26.md"
-    },
-    {
-      "basename": "INDEX-CODE",
-      "path": "CODE/+/INDEX-CODE.md"
     },
     {
       "basename": "Data Science Python Maps",
@@ -53,14 +121,6 @@
       "path": "ATLAS/04_MAPS/+_CANVAS_GROWTH.canvas"
     },
     {
-      "basename": "+_CANVAS_AOC",
-      "path": "ATLAS/04_MAPS/+_CANVAS_AOC.canvas"
-    },
-    {
-      "basename": "res-github-commit-message-convention",
-      "path": "ATLAS/03_RESOURCES/res-github-commit-message-convention.md"
-    },
-    {
       "basename": "res-checklist-produto-e-objecoes",
       "path": "ATLAS/03_RESOURCES/res-checklist-produto-e-objecoes.md"
     },
@@ -81,28 +141,12 @@
       "path": "ATLAS/01_INDEX/index-mkt-menagement.md"
     },
     {
-      "basename": "index-pkm",
-      "path": "ATLAS/01_INDEX/index-pkm.md"
-    },
-    {
-      "basename": "index-datascience",
-      "path": "ATLAS/01_INDEX/index-datascience.md"
-    },
-    {
-      "basename": "index-computer-science",
-      "path": "ATLAS/01_INDEX/index-computer-science.md"
-    },
-    {
       "basename": "concept-aoc-5.3 Unidade funcional de controle",
       "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-5.3 Unidade funcional de controle.md"
     },
     {
       "basename": "ucp",
       "path": "ATLAS/02_CONCEPT/ucp.md"
-    },
-    {
-      "basename": "2025-08-20",
-      "path": "CALENDAR/DAILY/2025-08-20.md"
     },
     {
       "basename": "hub-linux",
@@ -151,54 +195,6 @@
     {
       "basename": "Zettell",
       "path": "SYSTEM/SCRIPTS/Zettell.py"
-    },
-    {
-      "basename": "Engenharia de prompts",
-      "path": "ATLAS/02_CONCEPT/Engenharia de prompts.md"
-    },
-    {
-      "basename": "draft-reset-wsl-dist",
-      "path": "SKETCH/draft-reset-wsl-dist.md"
-    },
-    {
-      "basename": "LYT-tipos-de-notas-de-ordem-superior",
-      "path": "ATLAS/02_CONCEPT/LYT-tipos-de-notas-de-ordem-superior.md"
-    },
-    {
-      "basename": "LYT - Concepts",
-      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/LYT - Concepts.md"
-    },
-    {
-      "basename": "Vault Alex Idea",
-      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/Vault Alex Idea.md"
-    },
-    {
-      "basename": "2025-07",
-      "path": "CALENDAR/MONTHLY/2025-07.md"
-    },
-    {
-      "basename": "2025-08",
-      "path": "CALENDAR/MONTHLY/2025-08.md"
-    },
-    {
-      "basename": "ME",
-      "path": "SELF/ME.md"
-    },
-    {
-      "basename": "MONTHLY-note-template",
-      "path": "SYSTEM/TEMPLATE/MONTHLY-note-template.md"
-    },
-    {
-      "basename": "_ tp jump cursor",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/_ tp jump cursor.md"
-    },
-    {
-      "basename": "INTEGRAR DOCS",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/INTEGRAR DOCS.md"
-    },
-    {
-      "basename": "HEADERS-JS-TABLE",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/HEADERS-JS-TABLE.md"
     }
   ],
   "omittedPaths": [],

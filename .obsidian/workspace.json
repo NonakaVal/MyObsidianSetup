@@ -63,8 +63,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -74,7 +74,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
@@ -115,8 +115,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ]
@@ -149,18 +149,8 @@
             "state": {
               "type": "timer-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "timer-view"
-            }
-          },
-          {
-            "id": "3c8bd714896439ee",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "timer",
+              "title": "Timer"
             }
           },
           {
@@ -169,10 +159,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "ATLAS/01_INDEX/index-computer-science.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for README"
+              "title": "File properties for index-computer-science"
             }
           },
           {
@@ -181,18 +171,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
-            }
-          },
-          {
-            "id": "96e585d0e98e1a06",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -205,8 +185,7 @@
               "title": "Todo List"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "49e5efc17f389c9d",
@@ -255,7 +234,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +243,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
@@ -329,21 +307,46 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "bases:Create new base": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
       "code-files:Create Code File": false,
       "pomodoro-timer:Toggle timer panel": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "dashboard-navigator:Open dashboard navigator": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "7ad2065b70118fc2",
   "lastOpenFiles": [
-    "SYSTEM/ASSETS/hotkeys.md",
+    "README.md",
+    "CODE/+/Zettell.py-2025-06-16.md",
+    "CODE/+/Similar-Search.py-2025-06-26.md",
+    "CODE/+/INDEX-CODE.md",
+    "CALENDAR/YEARLY/2024.md",
+    "CALENDAR/MONTHLY/2024-10.md",
+    "ATLAS/04_MAPS/+_CANVAS_AOC.canvas",
+    "ATLAS/03_RESOURCES/res-github-commit-message-convention.md",
+    "ATLAS/01_INDEX/index-templates.md",
+    "ATLAS/01_INDEX/index-pkm.md",
+    "ATLAS/01_INDEX/index-datascience.md",
+    "ATLAS/01_INDEX/index-computer-science.md",
+    "ATLAS/00_DRAFT/draft-ruby-basics.md",
+    "ATLAS/00_DRAFT/draft-regex-rg-all-notes.md",
+    "ATLAS/00_DRAFT/DRAFT-estudo-de-cladistica.md",
+    "ATLAS/00_DRAFT/draft-direito-cibernetico.md",
+    "ATLAS/00_DRAFT/Snippets/Zettelizer.py-2025-06-12.md",
+    "ATLAS/00_DRAFT/draft-codeSearchadvanced-workflows.md",
+    "ATLAS/00_DRAFT/draft-bi-introduction-to-dax-in-power-bi.md",
+    "ATLAS/00_DRAFT/draft- Data Exploration-dashboard-desing-guide.md",
+    "ATLAS/00_DRAFT/draft-franvce-tools.md",
+    "CALENDAR/DAILY/2025-06-14.md",
+    "CALENDAR/DAILY/2025-08-20.md",
+    "CALENDAR/DAILY/2025-06-28.md",
+    "CALENDAR/DAILY/2025-06-03.md",
+    "CALENDAR/DAILY/2025-06-02.md",
+    "CALENDAR/DAILY/2025-06-01.md",
     "SYSTEM/ASSETS/cssSnippets",
     "SYSTEM/ASSETS/VaultSnippets",
     "SYSTEM/ASSETS/EXCALIDRAW-LIBS",
@@ -354,36 +357,10 @@
     "SYSTEM/MEDIA/IMAGENS/15-05",
     "SYSTEM/MEDIA/PDFs",
     "SYSTEM/MEDIA/IMAGENS",
-    "SELF/21_MUSIC/Tranquility Base Hotel & Casino - Arctic Monkeys.md",
-    "SELF/21_MUSIC/track-full-moon-lyrics.md",
-    "SELF/21_MUSIC/Mulberry Street - Twenty One Pilots.md",
-    "SELF/21_MUSIC/Les Failles - Pomme.md",
-    "SELF/21_MUSIC/just_music_lines.md",
-    "SELF/21_MUSIC/Clancy - Twenty One Pilots.md",
-    "SELF/21_MUSIC/CLANCY.md",
-    "SELF/21_MUSIC/album-Trench - Twenty One Pilots.md",
-    "CODE/07_DOC/doc-Running Ruby Project with Gems.md",
-    "CODE/07_DOC/doc-git-config.md",
-    "CODE/06_COMPONENT/cmp-gca-lazy-commit-config.md",
-    "ATLAS/02_CONCEPT/basic-regex-validaçao-de-senha-simples.md",
-    "ATLAS/02_CONCEPT/basic-regex-validaçao-de-e-mail-simples.md",
-    "ATLAS/02_CONCEPT/basic-regex-validaçao-de-datas-simples.md",
-    "ATLAS/02_CONCEPT/basic-regex-exemplos-praticos.md",
-    "ATLAS/02_CONCEPT/basic-regex-componentes-basicos.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-por-vogais.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-por-qualquer-caractere.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-por-palavras-inteiras.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-por-palavras-específicas.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-por-letras-maiúsculas.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-por-dígitos-numéricos.md",
-    "ATLAS/02_CONCEPT/basic-regex-busca-com-variações-simples.md",
-    "ATLAS/02_CONCEPT/Arquitetos vs. Jardineiros-  Dois Estilos de Pensamento.md",
-    "ATLAS/02_CONCEPT/ARC Framework.md",
     "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
     "ATLAS/04_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
     "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas",
     "ATLAS/04_MAPS/+_CANVAS_GROWTH.canvas",
-    "ATLAS/04_MAPS/+_CANVAS_AOC.canvas",
     "SYSTEM/MEDIA/01.png",
     "SYSTEM/MEDIA/Pasted image 20250728210741.png",
     "Untitled.canvas",

@@ -22,7 +22,6 @@
   "obsidian-excalidraw-plugin",
   "persistent-graph",
   "obsidian-kanban",
-  "obsidian-shellcommands",
   "tabs",
   "background-image",
   "datacore",
@@ -30,7 +29,6 @@
   "settings-search",
   "dashboard-navigator",
   "obsidian-advanced-uri",
-  "obsidian-excel-to-markdown-table",
   "obsidian-tracker",
   "obsidian42-brat"
 ]

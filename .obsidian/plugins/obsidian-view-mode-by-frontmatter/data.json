@@ -44,6 +44,10 @@
     {
       "filePattern": "DATAVIEW-QUERY-JS",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "README",
+      "viewMode": "obsidianUIMode: preview"
     }
   ]
 }
