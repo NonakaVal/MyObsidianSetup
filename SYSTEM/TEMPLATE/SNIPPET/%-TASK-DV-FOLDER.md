@@ -3,7 +3,7 @@ tab: TO DO
 
 ```dataview
 TASK
-FROM "SYSTEM/TEMPLATE/SNIPPET"
+FROM "<% tp.file.folder(true) %>"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -12,7 +12,7 @@ GROUP BY file.name
 tab: DONE
 ```dataview
 TASK
-FROM "SYSTEM/TEMPLATE/SNIPPET"
+FROM "<% tp.file.folder(true) %>"
 WHERE completed AND checked
 GROUP BY file.name
 

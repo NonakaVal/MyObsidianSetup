@@ -1,6 +1,7 @@
 ---
 tags:
-  - moc
+  - index
+  - dashboard
 HUB:
   - "[[hub-python]]"
   - "[[hub-visualization-data]]"
@@ -8,10 +9,9 @@ HUB:
   - "[[hub-hypothesis-testing]]"
   - "[[hub-data-wrangling]]"
   - "[[hub-ml-models]]"
-  - "[[System/HUB/hub-tec]]"
+  - "[[hub-tec]]"
   - "[[hub-growth]]"
   - "[[hub-mkt]]"
-dg-publish: true
 cssclasses:
   - dashboard
 ---
@@ -22,8 +22,8 @@ cssclasses:
 	- [[concept-math-axiomas-da-aritmetica|Aritmética]]
 	- [[concept-math-axiomas-adicao-e-subtracao|Adição e Subtração]]
 	- [[concept-math-axiomas-da-multiplicacao-e-divisao|Multiplicação e Divisão]]
-	- [[concept-math-exemplo-axiomas-euclides|Exemplos de Euclides]]
 	- [[concept-math-algebra-booleana|Álgebra Booleana]]
+	- [[concept-math-exemplo-axiomas-euclides|Exemplos de Euclides]]
 	- [[concept-math-algebra-de-conjuntos|Álgebra de Conjuntos]]
 	- [[concept-math-operacoes-algebricas-de-conjuntos|Operações com Conjuntos]]
 	- [[operacoes-com-polinomios|Polinômios]]
@@ -92,13 +92,13 @@ cssclasses:
 		  - [[python-list-comprehensions|List Comprehensions]]
 	- **Avançado**
 		- [[python-determinando-selecoes|Seleções]]
-		- [[draft-python-avancando-em-importacao-de-dados|Importação de Dados]]
+		- [[python-avancando-em-importacao-de-dados|Importação de Dados]]
 		- [[concept-bi-dax-(dataanalysisxpressions)|DAX]]
 		- [[introducao-a-orientacao-a-objetos-com-python|POO com Python]]
 		- [[concept-linear-regression|Regressão Linear]]
 		- [[concept-regressao-linear-residuos|Resíduos]]
 		- [[sklearn-criando-modelos|Modelos com Scikit-Learn]]
-		- [[draft-sklearn-principal-component-analysis-pca|PCA com Scikit-Learn]]
+		- [[Dimensionality Reduction Techniques - PCA|PCA com Scikit-Learn]]
 		- [[doc-sklearn-simple-linear-regression-model|Regressão Linear com Sklearn]]
 
 ---
@@ -116,7 +116,7 @@ cssclasses:
 	- [[flow-pandas-null-values-wrangling|Tratamento de Nulos]]
 	- [[pandas-unique|Valores Únicos]]
 	- [[pandas-working-with-numeric-data|Dados Numéricos]]
-	- [[index-pandas-basic-data-manipulation|Manipulação Básica]]
+	- [[flow-pandas-basic-data-manipulation|Manipulação Básica]]
 	- [[cmp-pandas-groupby-method|GroupBy]]
 	- [[pandas-criando-intervalos|Intervalos]]
 	- [[pandas-concat|Concatenação]]
@@ -124,18 +124,18 @@ cssclasses:
 - ### 🛠️ Funções e Métodos Avançados
 	- [[concept-pandas-agg|Aggregation]]
 	- [[pandas-apply|Apply]]
-	- [[index-pandas-methods|Métodos do Pandas]]
+	- [[doc-pandas-methods|Métodos do Pandas]]
 	- [[concept-python-pandas-loc-iloc-method-selection|loc e iloc]]
 
 
 ## 🚶 Walkthroughs Práticos
 
-- [[index-pandas-basic-data-manipulation|Manipulação Básica]]
-- [[index-pandas-data-cleaning-methods|Limpeza de Dados]]
+- [[flow-pandas-basic-data-manipulation|Manipulação Básica]]
+- [[flow-pandas-data-cleaning-methods|Limpeza de Dados]]
 - [[pandas-converting-and-analyzing-categorical-data|Dados Categóricos]]
 - [[pandas-working-with-numeric-data|Dados Numéricos]]
 - [[doc-sklearn-simple-linear-regression-model|Regressão Linear - Sklearn]]
-- [[draft-sklearn-principal-component-analysis-pca|PCA]]
+- [[Dimensionality Reduction Techniques - PCA|PCA]]
 - [[concept-generating-hypotheses|Geração de Hipóteses]]
 - [[planejamento-de-experimentos|Planejamento Experimental]]
 
@@ -169,7 +169,7 @@ cssclasses:
 	- [[seaborn-box-plot(diagrama-de-caixa)|Box Plot com Seaborn]]
 	- [[concept-python-seaborn-catplot|Gráficos Categóricos]]
 	- [[seaborn-facegrit-catplot-lmplot|FaceGrid, Catplot, Lmplot]]
-	- [[index-seaborn-matplotlib-charts|Seaborn + Matplotlib]]
+	- [[doc-seaborn-matplotlib-charts|Seaborn + Matplotlib]]
 	- [[doc-seaborn-plots|Comparação de Gráficos]]
 	- [[seaborn-selecting-plots|Seleção de Gráficos]]
 

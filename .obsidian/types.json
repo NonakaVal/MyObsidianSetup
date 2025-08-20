@@ -4,6 +4,12 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "area": "multitext",
-    "date": "date"
+    "date": "date",
+    "link-to-lib": "multitext",
+    "curso": "multitext",
+    "course": "multitext",
+    "social": "multitext",
+    "startDate": "date",
+    "endDate": "date"
   }
 }

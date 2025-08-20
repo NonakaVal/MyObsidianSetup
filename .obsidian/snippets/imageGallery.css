@@ -35,7 +35,7 @@ source: https://discord.com/channels/686053708261228577/744933215063638183/10988
 
     .imagegallery p img:hover {
       object-fit: cover;
-      /*box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);*/
+      box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
     }
 
 
@@ -83,8 +83,7 @@ source: https://discord.com/channels/686053708261228577/744933215063638183/10988
     right:0;
     bottom:0;
     background:var(--background-primary);}
-    }
-
+    
 
 /*
     body .imagegallery {

@@ -26,11 +26,23 @@
     {
       "folder": "CODE/05_SNIPPETS",
       "viewMode": "obsidianEditingMode: source"
+    },
+    {
+      "folder": "SYSTEM/ASSETS/Dataview/DATAVIEW-QUERY-JS",
+      "viewMode": "obsidianUIMode: preview"
     }
   ],
   "files": [
     {
       "filePattern": "hotkeys",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "notes-gallery",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "DATAVIEW-QUERY-JS",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

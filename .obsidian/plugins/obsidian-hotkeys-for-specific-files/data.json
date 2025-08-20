@@ -2,11 +2,15 @@
   "files": [
     {
       "useMoment": false,
-      "file": "_index_notas.md"
+      "file": "SYSTEM/SCRIPTS/Zettell.py"
     },
     {
       "useMoment": false,
-      "file": "EFFORTS/09_AREAS/ESTUDOS.md"
+      "file": "README.md"
+    },
+    {
+      "useMoment": false,
+      "file": "+/DATAVIEW-QUERY-JS.md"
     }
   ],
   "useExistingPane": true,

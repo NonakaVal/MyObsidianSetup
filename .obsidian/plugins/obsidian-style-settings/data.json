@@ -54,7 +54,7 @@
   "shimmering-focus@@image-size": 100,
   "shimmering-focus@@code-size": 0.75,
   "shimmering-focus@@heading-scaling": 0.8,
-  "shimmering-focus@@alt-colorschemes": "colorscheme-everforest",
+  "shimmering-focus@@alt-colorschemes": "colorscheme-gamma",
   "shimmering-focus@@hide-properties-in-statusbar": true,
   "shimmering-focus@@hide-backlinks-status-bar": true,
   "shimmering-focus@@hide-pane-relief-focus-lock-status-bar": true,
@@ -62,8 +62,8 @@
   "shimmering-focus@@hide-signature-icon": true,
   "shimmering-focus@@hide-harper-status-bar": true,
   "shimmering-focus@@uncolored-bold": true,
-  "shimmering-focus@@bg-hue-light": 115,
-  "shimmering-focus@@bg-hue-dark": 360,
+  "shimmering-focus@@bg-hue-light": 190,
+  "shimmering-focus@@bg-hue-dark": 235,
   "Appearance-light@@card-layout-open-light": false,
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-black",
   "Editor@@editor-grid-background-pattren": false,
@@ -101,5 +101,6 @@
   "shimmering-focus@@uncolored-italic": false,
   "Editor@@bold-color@@dark": "#94F7F6",
   "shimmering-focus@@highlight-hue-1": 40,
-  "shimmering-focus@@angular-shapes": true
+  "shimmering-focus@@angular-shapes": true,
+  "shimmering-focus@@file-line-width": 700
 }

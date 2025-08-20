@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "eff0e98deb04ce52",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "a42245dd0cf26ff7",
+        "id": "aae8ee0e70a70d76",
         "type": "tabs",
         "children": [
           {
-            "id": "51beeffe6016cba3",
+            "id": "84e8eb765f88b951",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -43,7 +43,6 @@
       {
         "id": "840b5ad792986e65",
         "type": "tabs",
-        "dimension": 52.27483751160631,
         "children": [
           {
             "id": "7ad2065b70118fc2",
@@ -52,10 +51,20 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "f78042349a1a6759",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
@@ -65,7 +74,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           },
           {
@@ -74,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#work",
+                "query": "junior",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,14 +95,14 @@
             }
           },
           {
-            "id": "ff39941ea410b5a1",
+            "id": "5522f140336df331",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
                 "file": "README.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
@@ -106,32 +115,15 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          }
-        ]
-      },
-      {
-        "id": "544671c19d6a77b9",
-        "type": "tabs",
-        "dimension": 47.72516248839369,
-        "children": [
-          {
-            "id": "f78042349a1a6759",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 378.5110321044922
+    "width": 383.5
   },
   "right": {
     "id": "80b88303ad9d2de6",
@@ -157,8 +149,8 @@
             "state": {
               "type": "timer-view",
               "state": {},
-              "icon": "timer",
-              "title": "Timer"
+              "icon": "lucide-ghost",
+              "title": "timer-view"
             }
           },
           {
@@ -167,33 +159,113 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "c6b5491035dfceb0",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for README"
+            }
+          },
+          {
+            "id": "32854e532446ad63",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "todo"
+            }
+          },
+          {
+            "id": "96e585d0e98e1a06",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
+            }
+          },
+          {
+            "id": "2beea342e7ac5ec2",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "49e5efc17f389c9d",
         "type": "tabs",
         "children": [
           {
+            "id": "28c60d78527b3d82",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "README.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4444444444444441,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of README"
+            }
+          },
+          {
             "id": "1f41fd9b8e673154",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index_notas.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _index_notas"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -202,22 +274,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index_notas.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _index_notas"
-            }
-          },
-          {
-            "id": "1e69ac66d147df32",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -250,11 +312,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 382.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,68 +327,75 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "bases:Create new base": false,
+      "periodic-notes:Open today": false,
       "obsidian-git:Open Git source control": false,
       "code-files:Create Code File": false,
       "pomodoro-timer:Toggle timer panel": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false,
       "templater-obsidian:Templater": false,
-      "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "periodic-notes:Open today": false
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "51beeffe6016cba3",
+  "active": "7ad2065b70118fc2",
   "lastOpenFiles": [
-    "SYSTEM/TEMPLATE/TEMPLATE-MONTHLY.md",
-    "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA.md",
-    "CALENDAR/DAILY/2025-06-28.md",
-    "README.md",
-    "EFFORTS/09_AREAS/ESTUDOS.md",
-    "EFFORTS/09_AREAS/NOTES/plugins comundiade 2.md",
-    "SYSTEM/ASSETS/Dataview/@_dataview_Calendar-tasks.md",
-    "CALENDAR/YEARLY/2025.md",
-    "CALENDAR/DAILY/2025-04-27.md",
-    "_index_notas.md",
-    "SYSTEM/SCRIPTS/Zettell.py",
-    "EFFORTS/09_AREAS/NOTES/YOUTUBE-VIDEO-IDEAS.md",
-    "EFFORTS/11_ARCHIVES/collectorsGuardian/index-collectors.md",
-    "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/Lista Itens Leilões.md",
-    "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/plano 3.md",
-    "Planejamento estrategico arena 1.md",
-    "EFFORTS/09_AREAS/NOTES/how-use-code-in-obsidian.md",
-    "conteudos semana leilao - 03-25.md",
-    "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/leilao-31-01-25.md",
-    "CALENDAR/DAILY/2025-06-27.md",
-    "CollectorsGuardian/!_collectorsguardian.md",
-    "CollectorsGuardian/ideias-de-conteudo-para-engajamento-com-checklists.md",
-    "CollectorsGuardian/boas-vindas-representante.md",
-    "CALENDAR/DAILY/2025-06-12.md",
-    "CollectorsGuardian/confirmacao-de-envio-pedido.md",
-    "CollectorsGuardian/tirar-duviva-com-cliente.md",
-    "CollectorsGuardian/templates-de-mensagens.md",
-    "CollectorsGuardian",
-    "CollectorsGuardian-20250629T001149Z-1-001/CollectorsGuardian",
-    "CollectorsGuardian-20250629T001149Z-1-001",
-    "CollectorsGuardian-20250629T001149Z-1-001.zip",
-    "collectorsGuardian/collectors-notes",
-    "collectorsGuardian",
-    "collectorsGuardian-20250629T000856Z-1-001/collectorsGuardian/collectors-notes",
-    "collectorsGuardian-20250629T000856Z-1-001/collectorsGuardian",
-    "collectorsGuardian-20250629T000856Z-1-001",
-    "Untitled.canvas",
-    "SYSTEM/MEDIA/Pasted image 20250626085731.png",
-    "SYSTEM/MEDIA/Pasted image 20250626014129.png",
-    "SYSTEM/MEDIA/Pasted image 20250626014109.png",
-    "SYSTEM/MEDIA/IMG_7509.jpg",
-    "SYSTEM/MEDIA/IMG_7508.jpg",
-    "SYSTEM/MEDIA/Pasted image 20250625141822.png",
-    "ATLAS/00_DRAFT/draft-graphs.canvas",
-    "SYSTEM/SCRIPTS/imagens/q9-p1-0001500001.png",
-    "SYSTEM/SCRIPTS/imagens/q8-p1-0001400002.png",
-    "SYSTEM/SCRIPTS/imagens/q8-p1-0001400001.png",
-    "SYSTEM/SCRIPTS/imagens/q7-p1-image200.png",
+    "SYSTEM/ASSETS/hotkeys.md",
+    "SYSTEM/ASSETS/cssSnippets",
+    "SYSTEM/ASSETS/VaultSnippets",
+    "SYSTEM/ASSETS/EXCALIDRAW-LIBS",
+    "SYSTEM/ASSETS/Dataview",
+    "SYSTEM/ASSETS",
+    "SYSTEM/MEDIA/IMAGENS/galaxy",
+    "SYSTEM/MEDIA/IMAGENS/PRINTS",
+    "SYSTEM/MEDIA/IMAGENS/15-05",
+    "SYSTEM/MEDIA/PDFs",
+    "SYSTEM/MEDIA/IMAGENS",
+    "SELF/21_MUSIC/Tranquility Base Hotel & Casino - Arctic Monkeys.md",
+    "SELF/21_MUSIC/track-full-moon-lyrics.md",
+    "SELF/21_MUSIC/Mulberry Street - Twenty One Pilots.md",
+    "SELF/21_MUSIC/Les Failles - Pomme.md",
+    "SELF/21_MUSIC/just_music_lines.md",
+    "SELF/21_MUSIC/Clancy - Twenty One Pilots.md",
+    "SELF/21_MUSIC/CLANCY.md",
+    "SELF/21_MUSIC/album-Trench - Twenty One Pilots.md",
+    "CODE/07_DOC/doc-Running Ruby Project with Gems.md",
+    "CODE/07_DOC/doc-git-config.md",
+    "CODE/06_COMPONENT/cmp-gca-lazy-commit-config.md",
+    "ATLAS/02_CONCEPT/basic-regex-validaçao-de-senha-simples.md",
+    "ATLAS/02_CONCEPT/basic-regex-validaçao-de-e-mail-simples.md",
+    "ATLAS/02_CONCEPT/basic-regex-validaçao-de-datas-simples.md",
+    "ATLAS/02_CONCEPT/basic-regex-exemplos-praticos.md",
+    "ATLAS/02_CONCEPT/basic-regex-componentes-basicos.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-por-vogais.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-por-qualquer-caractere.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-por-palavras-inteiras.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-por-palavras-específicas.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-por-letras-maiúsculas.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-por-dígitos-numéricos.md",
+    "ATLAS/02_CONCEPT/basic-regex-busca-com-variações-simples.md",
+    "ATLAS/02_CONCEPT/Arquitetos vs. Jardineiros-  Dois Estilos de Pensamento.md",
+    "ATLAS/02_CONCEPT/ARC Framework.md",
     "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "ATLAS/04_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas",
+    "ATLAS/04_MAPS/+_CANVAS_GROWTH.canvas",
+    "ATLAS/04_MAPS/+_CANVAS_AOC.canvas",
+    "SYSTEM/MEDIA/01.png",
+    "SYSTEM/MEDIA/Pasted image 20250728210741.png",
+    "Untitled.canvas",
+    "SYSTEM/MEDIA/Pasted image 20250713004856.png",
+    "SYSTEM/MEDIA/Pasted image 20250630184802.png",
+    "SYSTEM/MEDIA/Pasted image 20250630184752.png",
+    "SYSTEM/MEDIA/Pasted image 20250630183945.png",
+    "SYSTEM/MEDIA/Pasted image 20250630183935.png",
+    "SYSTEM/MEDIA/Pasted image 20250630183751.png",
+    "sidebar.png",
+    "SYSTEM/MEDIA/Pasted image 20250628231454.png",
+    "ATLAS/00_DRAFT/draft-graphs.canvas",
     "SELF/Untitled.canvas"
   ]
 }

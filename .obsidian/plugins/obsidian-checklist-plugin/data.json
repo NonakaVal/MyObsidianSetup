@@ -12,10 +12,8 @@
   "includeFiles": "",
   "lookAndFeel": "compact",
   "_collapsedSections": [
-    "#lost-codes",
-    "#todo-inbox",
     "#todo-goal",
-    "#todo-doing"
+    "#inlog"
   ],
   "_hiddenTags": []
 }

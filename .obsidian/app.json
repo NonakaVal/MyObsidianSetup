@@ -14,6 +14,10 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 92
-  }
+    "downscalePercent": 79
+  },
+  "propertiesInDocument": "visible",
+  "newFileLocation": "root",
+  "useMarkdownLinks": false,
+  "vimMode": false
 }

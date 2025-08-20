@@ -1,5 +1,5 @@
 ---
-created: '[[2025-06-28]]'
+created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 HUB:
   - "[[hub-python]]"
 source:

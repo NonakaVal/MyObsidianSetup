@@ -1,22 +1,4 @@
 {
-  "homepage:open-homepage": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Q"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
   "omnisearch:show-modal": [
     {
       "modifiers": [
@@ -44,15 +26,6 @@
     }
   ],
   "file-explorer:new-file": [],
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "quickadd:choice:a2828339-cd6f-4405-a42f-12ce397ef27f": [
     {
       "modifiers": [
@@ -62,47 +35,12 @@
     }
   ],
   "workspace:undo-close-pane": [],
-  "bookmarks:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "B"
-    }
-  ],
-  "bookmarks:bookmark-all-tabs": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "workspace:export-pdf": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "P"
-    }
-  ],
-  "editor:insert-footnote": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "V"
-    }
-  ],
-  "outline:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "O"
     }
   ],
   "quickadd:choice:2007de3a-6e66-4c31-b749-ea2232af1ebc": [
@@ -120,15 +58,6 @@
         "Mod"
       ],
       "key": "N"
-    }
-  ],
-  "recent-files-obsidian:recent-files-open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "R"
     }
   ],
   "app:delete-file": [
@@ -296,31 +225,6 @@
       "key": "G"
     }
   ],
-  "daily-notes:goto-next": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Key193"
-    }
-  ],
-  "daily-notes:goto-prev": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Key226"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Key226"
-    }
-  ],
   "periodic-notes:open-yearly-note": [
     {
       "modifiers": [
@@ -356,14 +260,6 @@
       "key": "T"
     }
   ],
-  "quickadd:choice:492e1d7e-18a9-4365-8c42-3f7490e0bd33": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "templater-obsidian:replace-in-file-templater": [],
   "obsidian-hotkeys-for-specific-files:EFFORTS/09_AREAS/ESTUDOS.md": [
     {
@@ -392,7 +288,49 @@
       "key": "2"
     }
   ],
-  "quickadd:choice:b360027c-393c-4fed-8b12-e041da1c6af5": [
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:_index_notas.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "\\"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:SYSTEM/ASSETS/Dataview/DATAVIEW-QUERY-JS.md-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "quickadd:choice:7a569808-935b-4fde-bc5d-bd0fd61f5129": [
     {
       "modifiers": [
         "Alt"
@@ -400,12 +338,126 @@
       "key": "D"
     }
   ],
-  "insert-template": [
+  "bookmarks:bookmark-all-tabs": [
     {
       "modifiers": [
         "Alt"
       ],
+      "key": "B"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
+  ],
+  "quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "bookmarks:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "quickadd:choice:3edf5ca1-598e-42e8-beec-fe2714a9a1f9": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "recent-files-obsidian:recent-files-open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-checklist-plugin:show-checklist-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
       "key": "T"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "quickadd:choice:6430f0b6-4d07-44f9-9b1a-45e79f6bee19": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
     }
   ]
 }

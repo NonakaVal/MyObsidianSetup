@@ -13,4 +13,5 @@ HUB:
   - "[[hub-jupyterNotebook]]"
   - "[[hub-llm]]"
   - "[[hub-ml-models]]"
+  - "[[hub-python]]"
 ---

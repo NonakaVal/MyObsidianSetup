@@ -5,168 +5,200 @@
       "path": "README.md"
     },
     {
-      "basename": "TEMPLATE-MONTHLY",
-      "path": "SYSTEM/TEMPLATE/TEMPLATE-MONTHLY.md"
-    },
-    {
-      "basename": "TEMPLATE-NEW-AREA",
-      "path": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA.md"
-    },
-    {
-      "basename": "2025-06-28",
-      "path": "CALENDAR/DAILY/2025-06-28.md"
-    },
-    {
-      "basename": "ESTUDOS",
-      "path": "EFFORTS/09_AREAS/ESTUDOS.md"
-    },
-    {
-      "basename": "plugins comundiade 2",
-      "path": "EFFORTS/09_AREAS/NOTES/plugins comundiade 2.md"
-    },
-    {
-      "basename": "@_dataview_Calendar-tasks",
-      "path": "SYSTEM/ASSETS/Dataview/@_dataview_Calendar-tasks.md"
-    },
-    {
-      "basename": "2025",
-      "path": "CALENDAR/YEARLY/2025.md"
-    },
-    {
-      "basename": "2025-04-27",
-      "path": "CALENDAR/DAILY/2025-04-27.md"
-    },
-    {
       "basename": "_index_notas",
       "path": "_index_notas.md"
     },
     {
-      "basename": "YOUTUBE-VIDEO-IDEAS",
-      "path": "EFFORTS/09_AREAS/NOTES/YOUTUBE-VIDEO-IDEAS.md"
+      "basename": "! py group_by",
+      "path": "CODE/05_SNIPPETS/! py group_by.md"
     },
     {
-      "basename": "index-collectors",
-      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/index-collectors.md"
+      "basename": "! py Lazy Commits",
+      "path": "CODE/05_SNIPPETS/! py Lazy Commits.md"
     },
     {
-      "basename": "Lista Itens Leilões",
-      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/Lista Itens Leilões.md"
+      "basename": "% py quick_text_fix",
+      "path": "CODE/05_SNIPPETS/% py quick_text_fix.md"
     },
     {
-      "basename": "how-use-code-in-obsidian",
-      "path": "EFFORTS/09_AREAS/NOTES/how-use-code-in-obsidian.md"
-    },
-    {
-      "basename": "leilao-31-01-25",
-      "path": "EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/leilao-31-01-25.md"
-    },
-    {
-      "basename": "2025-06-27",
-      "path": "CALENDAR/DAILY/2025-06-27.md"
-    },
-    {
-      "basename": "2025-06-12",
-      "path": "CALENDAR/DAILY/2025-06-12.md"
-    },
-    {
-      "basename": "2025-06-26",
-      "path": "CALENDAR/DAILY/2025-06-26.md"
-    },
-    {
-      "basename": "Backend RUBY",
-      "path": "EFFORTS/09_AREAS/NOTES/Backend RUBY.md"
-    },
-    {
-      "basename": "VIDEOS-YOUTUBE",
-      "path": "EFFORTS/09_AREAS/VIDEOS-YOUTUBE.md"
-    },
-    {
-      "basename": "myObsidian setup Apresentation",
-      "path": "EFFORTS/09_AREAS/NOTES/myObsidian setup Apresentation.md"
-    },
-    {
-      "basename": "SKETCH-BEW",
-      "path": "SKETCH/SKETCH-BEW.md"
-    },
-    {
-      "basename": "SKETCH-pensamento",
-      "path": "SELF/+/SKETCH-pensamento.md"
-    },
-    {
-      "basename": "outras-reflexoes",
-      "path": "SELF/14_FAITH/outras-reflexoes.md"
-    },
-    {
-      "basename": "flow-Verify-DataTypes",
-      "path": "CODE/08_WORKFLOW/flow-Verify-DataTypes.md"
-    },
-    {
-      "basename": "resumo-fé",
-      "path": "SELF/14_FAITH/resumo-fé.md"
-    },
-    {
-      "basename": "eu-nos",
-      "path": "SELF/14_FAITH/eu-nos.md"
-    },
-    {
-      "basename": "algumas reflexões existencias",
-      "path": "SELF/14_FAITH/algumas reflexões existencias.md"
-    },
-    {
-      "basename": "2025-06",
-      "path": "CALENDAR/MONTHLY/2025-06.md"
-    },
-    {
-      "basename": "INDEX-CODE",
-      "path": "CODE/+/INDEX-CODE.md"
-    },
-    {
-      "basename": "2025-05",
-      "path": "CALENDAR/MONTHLY/2025-05.md"
-    },
-    {
-      "basename": "2025-04",
-      "path": "CALENDAR/MONTHLY/2025-04.md"
-    },
-    {
-      "basename": "2025-03",
-      "path": "CALENDAR/MONTHLY/2025-03.md"
-    },
-    {
-      "basename": "2025-04-11",
-      "path": "CALENDAR/DAILY/2025-04-11.md"
-    },
-    {
-      "basename": "2025-04-10",
-      "path": "CALENDAR/DAILY/2025-04-10.md"
+      "basename": "cmp-get-dataframe-info",
+      "path": "CODE/06_COMPONENT/cmp-get-dataframe-info.md"
     },
     {
       "basename": "Similar-Search.py-2025-06-26",
       "path": "CODE/+/Similar-Search.py-2025-06-26.md"
     },
     {
-      "basename": "SELF-INDEX",
-      "path": "SELF/+/SELF-INDEX.md"
+      "basename": "INDEX-CODE",
+      "path": "CODE/+/INDEX-CODE.md"
+    },
+    {
+      "basename": "Data Science Python Maps",
+      "path": "ATLAS/04_MAPS/Data Science Python Maps.md"
+    },
+    {
+      "basename": "+_CANVAS-MENTORIA.CARLOS",
+      "path": "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas"
+    },
+    {
+      "basename": "+_CANVAS-Fluxograma-de-decisoes-de-anuncios",
+      "path": "ATLAS/04_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas"
+    },
+    {
+      "basename": "+_CANVAS-DATASCIENCE",
+      "path": "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas"
+    },
+    {
+      "basename": "+_CANVAS_GROWTH",
+      "path": "ATLAS/04_MAPS/+_CANVAS_GROWTH.canvas"
+    },
+    {
+      "basename": "+_CANVAS_AOC",
+      "path": "ATLAS/04_MAPS/+_CANVAS_AOC.canvas"
+    },
+    {
+      "basename": "res-github-commit-message-convention",
+      "path": "ATLAS/03_RESOURCES/res-github-commit-message-convention.md"
+    },
+    {
+      "basename": "res-checklist-produto-e-objecoes",
+      "path": "ATLAS/03_RESOURCES/res-checklist-produto-e-objecoes.md"
+    },
+    {
+      "basename": "doc-vault-snippet-dataview",
+      "path": "ATLAS/03_RESOURCES/doc-vault-snippet-dataview.md"
+    },
+    {
+      "basename": "index-linux",
+      "path": "ATLAS/01_INDEX/index-linux.md"
+    },
+    {
+      "basename": "cmp-gca-lazy-commit-config",
+      "path": "CODE/06_COMPONENT/cmp-gca-lazy-commit-config.md"
+    },
+    {
+      "basename": "index-mkt-menagement",
+      "path": "ATLAS/01_INDEX/index-mkt-menagement.md"
+    },
+    {
+      "basename": "index-pkm",
+      "path": "ATLAS/01_INDEX/index-pkm.md"
+    },
+    {
+      "basename": "index-datascience",
+      "path": "ATLAS/01_INDEX/index-datascience.md"
+    },
+    {
+      "basename": "index-computer-science",
+      "path": "ATLAS/01_INDEX/index-computer-science.md"
+    },
+    {
+      "basename": "concept-aoc-5.3 Unidade funcional de controle",
+      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-5.3 Unidade funcional de controle.md"
+    },
+    {
+      "basename": "ucp",
+      "path": "ATLAS/02_CONCEPT/ucp.md"
+    },
+    {
+      "basename": "2025-08-20",
+      "path": "CALENDAR/DAILY/2025-08-20.md"
+    },
+    {
+      "basename": "hub-linux",
+      "path": "+/HUB/hub-linux.md"
+    },
+    {
+      "basename": "codeSearchgit-integration-examples",
+      "path": "ATLAS/02_CONCEPT/codeSearchgit-integration-examples.md"
+    },
+    {
+      "basename": "codeSearchadvanced-workflows",
+      "path": "ATLAS/02_CONCEPT/codeSearchadvanced-workflows.md"
+    },
+    {
+      "basename": "First meeting alex",
+      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/First meeting alex.md"
+    },
+    {
+      "basename": "2025-08-19",
+      "path": "CALENDAR/DAILY/2025-08-19.md"
+    },
+    {
+      "basename": "cmp-github",
+      "path": "CODE/06_COMPONENT/cmp-github.md"
+    },
+    {
+      "basename": "doc-git-config",
+      "path": "CODE/07_DOC/doc-git-config.md"
+    },
+    {
+      "basename": "concept-aoc-aoc.1.evolucao.da.arquitetura.de.computadores",
+      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-aoc.1.evolucao.da.arquitetura.de.computadores.md"
+    },
+    {
+      "basename": "concept-aoc-5.2.1 Unidade lógica e aritmética (ULA)",
+      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-5.2.1 Unidade lógica e aritmética (ULA).md"
+    },
+    {
+      "basename": "hub-tec",
+      "path": "+/HUB/hub-tec.md"
+    },
+    {
+      "basename": "llm-prompts-eng-concepts-estrutura-básica-de-prompt",
+      "path": "ATLAS/02_CONCEPT/llm-prompts-eng-concepts-estrutura-básica-de-prompt.md"
+    },
+    {
+      "basename": "Zettell",
+      "path": "SYSTEM/SCRIPTS/Zettell.py"
+    },
+    {
+      "basename": "Engenharia de prompts",
+      "path": "ATLAS/02_CONCEPT/Engenharia de prompts.md"
+    },
+    {
+      "basename": "draft-reset-wsl-dist",
+      "path": "SKETCH/draft-reset-wsl-dist.md"
+    },
+    {
+      "basename": "LYT-tipos-de-notas-de-ordem-superior",
+      "path": "ATLAS/02_CONCEPT/LYT-tipos-de-notas-de-ordem-superior.md"
+    },
+    {
+      "basename": "LYT - Concepts",
+      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/LYT - Concepts.md"
+    },
+    {
+      "basename": "Vault Alex Idea",
+      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/Vault Alex Idea.md"
+    },
+    {
+      "basename": "2025-07",
+      "path": "CALENDAR/MONTHLY/2025-07.md"
+    },
+    {
+      "basename": "2025-08",
+      "path": "CALENDAR/MONTHLY/2025-08.md"
     },
     {
       "basename": "ME",
       "path": "SELF/ME.md"
     },
     {
-      "basename": "SKETCH-mew",
-      "path": "SKETCH/SKETCH-mew.md"
+      "basename": "MONTHLY-note-template",
+      "path": "SYSTEM/TEMPLATE/MONTHLY-note-template.md"
     },
     {
-      "basename": "eterno-retorno-nietzsche",
-      "path": "SELF/19_PHILOSOPHY/eterno-retorno-nietzsche.md"
+      "basename": "_ tp jump cursor",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/_ tp jump cursor.md"
     },
     {
-      "basename": "concept-python-pandas-linking-dataframes",
-      "path": "ATLAS/02_CONCEPT/concept-python-pandas-linking-dataframes.md"
+      "basename": "INTEGRAR DOCS",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/INTEGRAR DOCS.md"
     },
     {
-      "basename": "flow-pandas-data-cleaning-methods",
-      "path": "CODE/08_WORKFLOW/flow-pandas-data-cleaning-methods.md"
+      "basename": "HEADERS-JS-TABLE",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/HEADERS-JS-TABLE.md"
     }
   ],
   "omittedPaths": [],

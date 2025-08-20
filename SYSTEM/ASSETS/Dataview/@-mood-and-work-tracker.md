@@ -13,6 +13,7 @@ cssclasses: wide-page
 # humor
 
 `INPUT[inlineSelect(option(''), option('wide-page'), showcase):cssclasses]`
+.
 
 ```dataviewjs
 const moodScale = {

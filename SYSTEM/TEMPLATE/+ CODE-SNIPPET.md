@@ -4,4 +4,3 @@ HUB:
   - "[[hub-music]]"
 ---
 
-# keep in mind - [[regra-nomenclatura-code-snippets]]

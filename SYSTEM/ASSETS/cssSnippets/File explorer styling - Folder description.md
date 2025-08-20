@@ -84,7 +84,7 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11203
 }
 
 [data-path="2 Tasks"] .tree-item-inner::after {
-  content: "My To-Do's";
+  content: "My # # # # to-do's";
 }
 
 /* Projects */

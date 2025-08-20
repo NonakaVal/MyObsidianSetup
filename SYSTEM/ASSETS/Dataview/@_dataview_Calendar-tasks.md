@@ -4,18 +4,43 @@ tags:
   - dataview
 HUB:
   - "[[hub-pkm]]"
-cssclasses:
-  - wide-page
+cssclasses: []
 ---
 ## [[@_dataview_Calendar-tasks]]
 
-# Calendar
+
 ````tabs
 tab: Calendar Tasks
 ```dataview
 TASK
-FROM "CALENDAR" AND -#inlog AND -#lost-codes 
+FROM "CALENDAR" AND -#inlog AND -#lost-codes AND !"CALENDAR/YEARLY" AND !"CALENDAR/MONTHLY"
 WHERE !completed AND !checked and type != "area_utils"
+SORT file.mtime DESC
+```
+
+tab: Metas e Objetivos
+
+
+
+```dataview
+TASK
+FROM "CALENDAR" AND -#inlog AND -#lost-codes AND !"CALENDAR/DAILY"
+WHERE !completed AND !checked and type != "area_utils"
+GROUP BY file.name
+SORT file.mtime DESC
+```
+
+
+
+tab: Done Tasks List
+
+```dataview
+TASK
+FROM "CALENDAR"
+WHERE completed AND checked and type != "area_utils"
+GROUP BY file.name
+SORT file.mtime ASC
+
 ```
 
 tab: Calendar Overview
@@ -55,14 +80,5 @@ dv.paragraph(`**Total Geral de Tarefas Pendentes:** ${totalTasks}`);
 
 ---
 
-
-tab: Done Tasks List
-
-```dataview
-TASK
-FROM "CALENDAR"
-WHERE completed AND checked and type != "area_utils"
-GROUP BY file.name
-```
 ````
 

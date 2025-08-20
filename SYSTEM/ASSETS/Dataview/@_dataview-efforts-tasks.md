@@ -1,7 +1,6 @@
 ---
 created: "[[2025-06-10]]"
-cssclasses:
-  - dashboard
+cssclasses: []
 tags:
   - dataview
 ---
@@ -10,12 +9,13 @@ tags:
 # Efforts
 ````tabs
 tab: Areas Tasks
+
 ```dataview
 TASK
 FROM "EFFORTS/09_AREAS" 
-WHERE !completed AND !checked and type != "area_utils" 
+WHERE !completed AND !checked and type != "area_utils" and kanban-plugin != "board"
 GROUP BY file.name 
-SORT file.mtime DESC
+SORT file.name DESC
 ```
 
 

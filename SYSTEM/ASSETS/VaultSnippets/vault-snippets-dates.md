@@ -8,7 +8,7 @@ tags:
 
 ## templater
 ```
-<% tp.file.creation_date() %>
+2025-06-15 20:57
 ```
 
 ## native to properties

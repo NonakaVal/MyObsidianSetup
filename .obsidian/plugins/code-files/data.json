@@ -6,7 +6,8 @@
     "jsx",
     "py",
     "txt",
-    " ipynb"
+    " ipynb",
+    " xlsx"
   ],
   "folding": true,
   "lineNumbers": true,
