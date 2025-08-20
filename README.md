@@ -201,10 +201,6 @@
 * `YYYY-MM` → e.g., `2025-05`
 * `YYYY` → e.g., `2025`
 
-### Drafts
-
-* `note-[topic]-[brief-description]` → e.g., `note-ai-ethics-daily-use`
-
 ### Efforts
 
 * `project-[name]-[start-date]-[end-date]` → e.g., `project-app-organizer-2025-01-01-2025-06-30`
@@ -213,14 +209,6 @@
 * `wrk-[context]-[action/description]` → e.g., `wrk-ecommerce-shipping-process`
 * `archive-[project-name]-[year]` → e.g., `archive-site-restructure-2024`
 
-### Entertainment
-
-* `ent-music-[artist]-[description]` → e.g., `ent-music-ludovico-einaudi-calm-playlist`
-
-### Social
-
-* `soc-people-[name]-[context]` → e.g., `soc-people-carlos-linkedin-network`
-* `soc-thinking-[topic]-[reflection]` → e.g., `soc-thinking-creative-authenticity`
 
 ### System
 
