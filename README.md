@@ -1,4 +1,6 @@
 
+![Imgur](https://imgur.com/kmqIGms.jpeg)
+
 # Vault Structure
 
 ## Folder System

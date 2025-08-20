@@ -5,6 +5,10 @@
       "path": "README.md"
     },
     {
+      "basename": "index-computer-science",
+      "path": "ATLAS/01_INDEX/index-computer-science.md"
+    },
+    {
       "basename": "Zettell.py-2025-06-16",
       "path": "CODE/+/Zettell.py-2025-06-16.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "index-datascience",
       "path": "ATLAS/01_INDEX/index-datascience.md"
-    },
-    {
-      "basename": "index-computer-science",
-      "path": "ATLAS/01_INDEX/index-computer-science.md"
     },
     {
       "basename": "draft-ruby-basics",

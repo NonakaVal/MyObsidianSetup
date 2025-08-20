@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -234,6 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -318,8 +319,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7ad2065b70118fc2",
+  "active": "84e8eb765f88b951",
   "lastOpenFiles": [
+    "ATLAS/01_INDEX/index-computer-science.md",
     "README.md",
     "CODE/+/Zettell.py-2025-06-16.md",
     "CODE/+/Similar-Search.py-2025-06-26.md",
@@ -331,7 +333,6 @@
     "ATLAS/01_INDEX/index-templates.md",
     "ATLAS/01_INDEX/index-pkm.md",
     "ATLAS/01_INDEX/index-datascience.md",
-    "ATLAS/01_INDEX/index-computer-science.md",
     "ATLAS/00_DRAFT/draft-ruby-basics.md",
     "ATLAS/00_DRAFT/draft-regex-rg-all-notes.md",
     "ATLAS/00_DRAFT/DRAFT-estudo-de-cladistica.md",
