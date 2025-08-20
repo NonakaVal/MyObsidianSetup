@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -290,8 +290,7 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -320,8 +319,9 @@
   },
   "active": "84e8eb765f88b951",
   "lastOpenFiles": [
-    "ATLAS/01_INDEX/index-computer-science.md",
+    "CALENDAR/DAILY/2025-08-20.md",
     "README.md",
+    "ATLAS/01_INDEX/index-computer-science.md",
     "CODE/+/Zettell.py-2025-06-16.md",
     "CODE/+/Similar-Search.py-2025-06-26.md",
     "CODE/+/INDEX-CODE.md",
@@ -342,7 +342,6 @@
     "ATLAS/00_DRAFT/draft- Data Exploration-dashboard-desing-guide.md",
     "ATLAS/00_DRAFT/draft-franvce-tools.md",
     "CALENDAR/DAILY/2025-06-14.md",
-    "CALENDAR/DAILY/2025-08-20.md",
     "CALENDAR/DAILY/2025-06-28.md",
     "CALENDAR/DAILY/2025-06-03.md",
     "CALENDAR/DAILY/2025-06-02.md",

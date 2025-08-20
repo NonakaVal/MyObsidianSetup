@@ -1,12 +1,12 @@
+# Prints
 
 ![Imgur](https://imgur.com/kmqIGms.jpeg)
 
 ![img](https://imgur.com/FXofP2z.jpeg)
 
 ![img2](https://imgur.com/7qKOAxE.jpeg)
-# Vault Structure
 
-## Folder System
+# Folder System
 
 * **📂 <font color = 00bbfff>+</font>** — Anything that does not fit into the folders below
 
@@ -230,7 +230,7 @@
 
 # Inspirations & Resources
 
-
+- [Linking Your Thinking - Nick Milo](https://www.linkingyourthinking.com/)
 - https://github.com/DuskWasHere/dusk-obsidian-vault
 - https://fortelabs.com/blog/para/
 - https://github.com/NonakaVal/Obsidian-CSS-Snippets
