@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "junior",
+                "query": "line:(gmail)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -197,7 +197,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "SELF/14_FAITH/resumo-fé.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -225,7 +225,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of README"
+              "title": "Graph of resumo-fé"
             }
           },
           {
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "SELF/14_FAITH/resumo-fé.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for resumo-fé"
             }
           },
           {
@@ -299,15 +299,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
+      "bases:Criar nova base": false,
+      "obsidian-kanban:Criar um novo quadro": false,
       "code-files:Create Code File": false,
       "pomodoro-timer:Toggle timer panel": false,
       "templater-obsidian:Templater": false,
@@ -319,33 +319,33 @@
   },
   "active": "84e8eb765f88b951",
   "lastOpenFiles": [
-    "CALENDAR/DAILY/2025-08-20.md",
+    "CODE/07_DOC/doc-git-config.md",
+    "CALENDAR/DAILY/2025-08-21.md",
     "README.md",
+    "SELF/+/SKETCH-pensamento.md",
+    "SELF/+/SELF-INDEX.md",
+    "SELF/14_FAITH/resumo-fé.md",
     "ATLAS/01_INDEX/index-computer-science.md",
-    "CODE/+/Zettell.py-2025-06-16.md",
+    "ATLAS/01_INDEX/index-datascience.md",
+    "CODE/07_DOC/doc-pandas-methods.md",
+    "CODE/07_DOC/python-manipulação-de-dados.md",
+    "CODE/08_WORKFLOW/flow-pandas-null-values-wrangling.md",
+    "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md",
+    "SELF/20_SOCIAL/+.md",
     "CODE/+/Similar-Search.py-2025-06-26.md",
+    "CODE/+/Zettell.py-2025-06-16.md",
     "CODE/+/INDEX-CODE.md",
+    "CALENDAR/DAILY/2025-08-20.md",
     "CALENDAR/YEARLY/2024.md",
     "CALENDAR/MONTHLY/2024-10.md",
     "ATLAS/04_MAPS/+_CANVAS_AOC.canvas",
     "ATLAS/03_RESOURCES/res-github-commit-message-convention.md",
     "ATLAS/01_INDEX/index-templates.md",
     "ATLAS/01_INDEX/index-pkm.md",
-    "ATLAS/01_INDEX/index-datascience.md",
     "ATLAS/00_DRAFT/draft-ruby-basics.md",
     "ATLAS/00_DRAFT/draft-regex-rg-all-notes.md",
     "ATLAS/00_DRAFT/DRAFT-estudo-de-cladistica.md",
     "ATLAS/00_DRAFT/draft-direito-cibernetico.md",
-    "ATLAS/00_DRAFT/Snippets/Zettelizer.py-2025-06-12.md",
-    "ATLAS/00_DRAFT/draft-codeSearchadvanced-workflows.md",
-    "ATLAS/00_DRAFT/draft-bi-introduction-to-dax-in-power-bi.md",
-    "ATLAS/00_DRAFT/draft- Data Exploration-dashboard-desing-guide.md",
-    "ATLAS/00_DRAFT/draft-franvce-tools.md",
-    "CALENDAR/DAILY/2025-06-14.md",
-    "CALENDAR/DAILY/2025-06-28.md",
-    "CALENDAR/DAILY/2025-06-03.md",
-    "CALENDAR/DAILY/2025-06-02.md",
-    "CALENDAR/DAILY/2025-06-01.md",
     "SYSTEM/ASSETS/cssSnippets",
     "SYSTEM/ASSETS/VaultSnippets",
     "SYSTEM/ASSETS/EXCALIDRAW-LIBS",

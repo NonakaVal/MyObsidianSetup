@@ -143,7 +143,7 @@
 > created - '\[\[<% tp.date.now("YYYY-MM-DD") %>]]'
 > type - `area-base`, `utils`
 
-# Community Plugins
+# Community Plugins and CSS snippets
 
 - [calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 - [obsidian-charts](https://github.com/phibr0/obsidian-charts)
@@ -180,6 +180,7 @@
 
 ---
 
+![Imgur](https://imgur.com/Hcem8Sm.jpeg)
 # Naming Conventions
 
 ### Atlas

@@ -5,16 +5,56 @@
       "path": "README.md"
     },
     {
+      "basename": "doc-git-config",
+      "path": "CODE/07_DOC/doc-git-config.md"
+    },
+    {
+      "basename": "SKETCH-pensamento",
+      "path": "SELF/+/SKETCH-pensamento.md"
+    },
+    {
+      "basename": "SELF-INDEX",
+      "path": "SELF/+/SELF-INDEX.md"
+    },
+    {
+      "basename": "resumo-fé",
+      "path": "SELF/14_FAITH/resumo-fé.md"
+    },
+    {
       "basename": "index-computer-science",
       "path": "ATLAS/01_INDEX/index-computer-science.md"
     },
     {
-      "basename": "Zettell.py-2025-06-16",
-      "path": "CODE/+/Zettell.py-2025-06-16.md"
+      "basename": "index-datascience",
+      "path": "ATLAS/01_INDEX/index-datascience.md"
+    },
+    {
+      "basename": "doc-pandas-methods",
+      "path": "CODE/07_DOC/doc-pandas-methods.md"
+    },
+    {
+      "basename": "python-manipulação-de-dados",
+      "path": "CODE/07_DOC/python-manipulação-de-dados.md"
+    },
+    {
+      "basename": "flow-pandas-null-values-wrangling",
+      "path": "CODE/08_WORKFLOW/flow-pandas-null-values-wrangling.md"
+    },
+    {
+      "basename": "flow-pandas-basic-data-manipulation",
+      "path": "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md"
+    },
+    {
+      "basename": "+",
+      "path": "SELF/20_SOCIAL/+.md"
     },
     {
       "basename": "Similar-Search.py-2025-06-26",
       "path": "CODE/+/Similar-Search.py-2025-06-26.md"
+    },
+    {
+      "basename": "Zettell.py-2025-06-16",
+      "path": "CODE/+/Zettell.py-2025-06-16.md"
     },
     {
       "basename": "INDEX-CODE",
@@ -43,10 +83,6 @@
     {
       "basename": "index-pkm",
       "path": "ATLAS/01_INDEX/index-pkm.md"
-    },
-    {
-      "basename": "index-datascience",
-      "path": "ATLAS/01_INDEX/index-datascience.md"
     },
     {
       "basename": "draft-ruby-basics",
@@ -159,42 +195,6 @@
     {
       "basename": "codeSearchadvanced-workflows",
       "path": "ATLAS/02_CONCEPT/codeSearchadvanced-workflows.md"
-    },
-    {
-      "basename": "First meeting alex",
-      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/First meeting alex.md"
-    },
-    {
-      "basename": "2025-08-19",
-      "path": "CALENDAR/DAILY/2025-08-19.md"
-    },
-    {
-      "basename": "cmp-github",
-      "path": "CODE/06_COMPONENT/cmp-github.md"
-    },
-    {
-      "basename": "doc-git-config",
-      "path": "CODE/07_DOC/doc-git-config.md"
-    },
-    {
-      "basename": "concept-aoc-aoc.1.evolucao.da.arquitetura.de.computadores",
-      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-aoc.1.evolucao.da.arquitetura.de.computadores.md"
-    },
-    {
-      "basename": "concept-aoc-5.2.1 Unidade lógica e aritmética (ULA)",
-      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-5.2.1 Unidade lógica e aritmética (ULA).md"
-    },
-    {
-      "basename": "hub-tec",
-      "path": "+/HUB/hub-tec.md"
-    },
-    {
-      "basename": "llm-prompts-eng-concepts-estrutura-básica-de-prompt",
-      "path": "ATLAS/02_CONCEPT/llm-prompts-eng-concepts-estrutura-básica-de-prompt.md"
-    },
-    {
-      "basename": "Zettell",
-      "path": "SYSTEM/SCRIPTS/Zettell.py"
     }
   ],
   "omittedPaths": [],
