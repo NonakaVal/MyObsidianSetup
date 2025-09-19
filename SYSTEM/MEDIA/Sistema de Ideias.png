@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-darkreader-mode="dynamic" data-darkreader-scheme="dimmed"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #ffffff) !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #ffffff);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #646665);
+    color: var(--darkreader-text-000000, #1a1b1b);
+}
+a {
+    color: var(--darkreader-text-0040ff, #214ac5);
+}
+table {
+    border-color: var(--darkreader-border-808080, #a29b8e);
+}
+mark {
+    color: var(--darkreader-text-000000, #1a1b1b);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #cac2b5);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #ffffda) !important;
+    color: var(--darkreader-text-000000, #1a1b1b) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #0f72ea) !important;
+    color: var(--darkreader-text-ffffff, #ffffff) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #0f72ea) !important;
+    color: var(--darkreader-text-ffffff, #ffffff) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container {
+    filter: brightness(120%) contrast(105%) grayscale(35%) sepia(15%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #ffffff);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #1a1b1b);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #0f72ea);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #ffffff);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Ideias</title>
+    <script src="Sistema%20de%20Ideias_arquivos/mermaid.min.js"></script><meta name="darkreader" content="1e147c131d414df6b0c797ebebd0c9d4"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #ffff9c) !important;
+    border-color: var(--darkreader-background-c59d00, #e5c54f) !important;
+    color: var(--darkreader-text-302505, #343534) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #cdf3f9) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #e7ffff) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #fffffe) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #ffffdf) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #acdce6) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+select * {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#fff',
+                primaryBorderColor: '#aaa',
+                primaryTextColor: '#000',
+                lineColor: '#555'
+            },
+            flowchart: {
+                htmlLabels: false,
+                curve: 'monotoneY',
+                defaultRenderer: 'elk'
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            color: #0d47a1;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e3e3e3;
+            padding-bottom: 15px;
+        }
+        .mermaid {
+            overflow: auto;
+        }
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f4f8;
+            border-radius: 8px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .description {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #42a5f5;
+        }
+    </style><style class="darkreader darkreader--sync" media="screen"></style>
+<!-- Code injected by Five-server -->
+  <script async="" data-id="five-server" data-file="/home/val/Documentos/deepseek_html_20250905_1ccd18.html" type="application/javascript" src="Sistema%20de%20Ideias_arquivos/fiveserver.js"></script>
+  <style>      
+      /* Injected by five-server */
+      /*[data-highlight="true"] {
+        border: 1px rgb(90,170,255) solid !important;
+        background-color: rgba(155,215,255,0.5);
+        animation: fadeOutHighlight 1s forwards 0.5s;
+      }
+      img[data-highlight="true"] {
+        filter: sepia(100%) hue-rotate(180deg) saturate(200%);
+        animation: fadeOutHighlightIMG 0.5s forwards 0.5s;
+      }*/
+      @keyframes fadeOutHighlight {
+        from {background-color: rgba(155,215,255,0.5);}
+        to {background-color: rgba(155,215,255,0);}
+      }      
+      @keyframes fadeOutHighlightIMG {
+        0% {filter: sepia(100%) hue-rotate(180deg) saturate(200%);}
+        33% {filter: sepia(66%) hue-rotate(180deg) saturate(100%);}
+        50% {filter: sepia(50%) hue-rotate(90deg) saturate(50%);}
+        66% {filter: sepia(33%) hue-rotate(0deg) saturate(100%);}
+        100% {filter: sepia(0%) hue-rotate(0deg) saturate(100%);}
+      }
+      @keyframes fiveserverInfoPopup {
+        0%   {top:-40px;}
+        15%  {top:4px;}
+        85%  {top:4px;}
+        100% {top:-40px;}
+      }
+      /*smaller*/
+      @media (max-width: 640px) {
+        #fiveserver-info-wrapper {
+          max-width: 98%;
+        }
+        #fiveserver-info {
+          border-radius: 0px;
+        }      
+      }
+
+      </style><style class="darkreader darkreader--sync" media="screen"></style></head>
+<body><div id="esg_atica"></div>
+    <div class="container">
+        <h1>🌐 Sistema de Ideias</h1>
+        
+        <div class="mermaid" data-processed="true"><svg aria-roledescription="flowchart-elk" role="graphics-document document" viewBox="91.99999237060547 92 1278.683349609375 879" style="max-width: 1278.683349609375px;" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1757111539870"><style>#mermaid-1757111539870{font-
+family:"trebuchet 
+ms",verdana,arial,sans-serif;font-size:16px;fill:#000;}
+#mermaid-1757111539870 .error-icon{fill:hsl(180, 0%, 
+100%);}#mermaid-1757111539870 .error-text{fill:rgb(0, 0, 
+0);stroke:rgb(0, 0, 0);}#mermaid-1757111539870 
+.edge-thickness-normal{stroke-width:2px;}#mermaid-1757111539870 
+.edge-thickness-thick{stroke-width:3.5px;}#mermaid-1757111539870 
+.edge-pattern-solid{stroke-dasharray:0;}#mermaid-1757111539870 
+.edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1757111539870 
+.edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1757111539870 
+.marker{fill:#555;stroke:#555;}#mermaid-1757111539870 
+.marker.cross{stroke:#555;}#mermaid-1757111539870 
+svg{font-family:"trebuchet 
+ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-1757111539870 
+.label{font-family:"trebuchet 
+ms",verdana,arial,sans-serif;color:#000;}#mermaid-1757111539870 
+.cluster-label text{fill:rgb(0, 0, 0);}#mermaid-1757111539870 
+.cluster-label span{color:rgb(0, 0, 0);}#mermaid-1757111539870 .label 
+text,#mermaid-1757111539870 
+span{fill:#000;color:#000;}#mermaid-1757111539870 .node 
+rect,#mermaid-1757111539870 .node circle,#mermaid-1757111539870 .node 
+ellipse,#mermaid-1757111539870 .node polygon,#mermaid-1757111539870 
+.node 
+path{fill:#fff;stroke:#aaa;stroke-width:1px;}#mermaid-1757111539870 
+.node .label{text-align:center;}#mermaid-1757111539870 
+.node.clickable{cursor:pointer;}#mermaid-1757111539870 
+.arrowheadPath{fill:#0b0b0b;}#mermaid-1757111539870 .edgePath 
+.path{stroke:#555;stroke-width:2.0px;}#mermaid-1757111539870 
+.flowchart-link{stroke:#555;fill:none;}#mermaid-1757111539870 
+.edgeLabel{background-color:hsl(-120, 0%, 
+100%);text-align:center;}#mermaid-1757111539870 .edgeLabel 
+rect{opacity:0.85;background-color:hsl(-120, 0%, 100%);fill:hsl(-120, 
+0%, 100%);}#mermaid-1757111539870 .cluster rect{fill:hsl(180, 0%, 
+100%);stroke:hsl(180, 0%, 90%);stroke-width:1px;}#mermaid-1757111539870 
+.cluster text{fill:rgb(0, 0, 0);}#mermaid-1757111539870 .cluster 
+span{color:rgb(0, 0, 0);}#mermaid-1757111539870 
+div.mermaidTooltip{position:absolute;text-align:center;max-
+width:200px;padding:2px;font-family:"trebuchet 
+ms",verdana,arial,sans-serif;font-size:12px;background:hsl(180, 0%, 
+100%);border:1px solid hsl(180, 0%, 
+90%);border-radius:2px;pointer-events:none;z-index:100;}
+#mermaid-1757111539870 
+.flowchartTitleText{text-anchor:middle;font-size:18px;fill:#000;}
+#mermaid-1757111539870 
+.subgraph{stroke-width:2;rx:3;}#mermaid-1757111539870 .flowchart-label 
+text{text-anchor:middle;}#mermaid-1757111539870 
+.subgraph-lvl-0{fill:hsl(180, 0%, 95%);stroke:hsl(180, 0%, 
+92%);}#mermaid-1757111539870 .subgraph-lvl-1{fill:hsl(180, 0%, 
+92%);stroke:hsl(180, 0%, 89%);}#mermaid-1757111539870 
+.subgraph-lvl-2{fill:hsl(180, 0%, 89%);stroke:hsl(180, 0%, 
+86%);}#mermaid-1757111539870 .subgraph-lvl-3{fill:hsl(180, 0%, 
+86%);stroke:hsl(180, 0%, 83%);}#mermaid-1757111539870 
+.subgraph-lvl-4{fill:hsl(180, 0%, 83%);stroke:hsl(180, 0%, 
+80%);}#mermaid-1757111539870 :root{--mermaid-font-family:"trebuchet 
+ms",verdana,arial,sans-serif;}#mermaid-1757111539870 .start 
+rect{fill:#90caf9!important;stroke:#42a5f5!important;stroke-width:2.5px!
+important;color:#0d47a1!important;font-weight:bold!important;}
+#mermaid-1757111539870 .start 
+polygon{fill:#90caf9!important;stroke:#42a5f5!important;stroke-
+width:2.5px!important;color:#0d47a1!important;font-weight:bold!
+important;}#mermaid-1757111539870 .start 
+ellipse{fill:#90caf9!important;stroke:#42a5f5!important;stroke-
+width:2.5px!important;color:#0d47a1!important;font-weight:bold!
+important;}#mermaid-1757111539870 .start 
+circle{fill:#90caf9!important;stroke:#42a5f5!important;stroke-
+width:2.5px!important;color:#0d47a1!important;font-weight:bold!
+important;}#mermaid-1757111539870 .start 
+path{fill:#90caf9!important;stroke:#42a5f5!important;stroke-width:2.5px!
+important;color:#0d47a1!important;font-weight:bold!important;}
+#mermaid-1757111539870 .start 
+tspan{fill:#0d47a1!important;}#mermaid-1757111539870 .core 
+rect{fill:#afd6fd!important;stroke:#1e88e5!important;stroke-width:2.2px!
+important;color:#155fa0!important;font-weight:bold!important;}
+#mermaid-1757111539870 .core 
+polygon{fill:#afd6fd!important;stroke:#1e88e5!important;stroke-
+width:2.2px!important;color:#155fa0!important;font-weight:bold!
+important;}#mermaid-1757111539870 .core 
+ellipse{fill:#afd6fd!important;stroke:#1e88e5!important;stroke-
+width:2.2px!important;color:#155fa0!important;font-weight:bold!
+important;}#mermaid-1757111539870 .core 
+circle{fill:#afd6fd!important;stroke:#1e88e5!important;stroke-
+width:2.2px!important;color:#155fa0!important;font-weight:bold!
+important;}#mermaid-1757111539870 .core 
+path{fill:#afd6fd!important;stroke:#1e88e5!important;stroke-width:2.2px!
+important;color:#155fa0!important;font-weight:bold!important;}
+#mermaid-1757111539870 .core 
+tspan{fill:#155fa0!important;}#mermaid-1757111539870 .tools 
+rect{fill:#ffe0b2!important;stroke:#ef6c00!important;stroke-width:2.2px!
+important;color:#874600!important;font-weight:bold!important;}
+#mermaid-1757111539870 .tools 
+polygon{fill:#ffe0b2!important;stroke:#ef6c00!important;stroke-
+width:2.2px!important;color:#874600!important;font-weight:bold!
+important;}#mermaid-1757111539870 .tools 
+ellipse{fill:#ffe0b2!important;stroke:#ef6c00!important;stroke-
+width:2.2px!important;color:#874600!important;font-weight:bold!
+important;}#mermaid-1757111539870 .tools 
+circle{fill:#ffe0b2!important;stroke:#ef6c00!important;stroke-
+width:2.2px!important;color:#874600!important;font-weight:bold!
+important;}#mermaid-1757111539870 .tools 
+path{fill:#ffe0b2!important;stroke:#ef6c00!important;stroke-width:2.2px!
+important;color:#874600!important;font-weight:bold!important;}
+#mermaid-1757111539870 .tools 
+tspan{fill:#874600!important;}#mermaid-1757111539870 .nav 
+rect{fill:#cfffdc!important;stroke:#057c5e!important;stroke-width:2.2px!
+important;color:#1b5e20!important;font-weight:bold!important;}
+#mermaid-1757111539870 .nav 
+polygon{fill:#cfffdc!important;stroke:#057c5e!important;stroke-
+width:2.2px!important;color:#1b5e20!important;font-weight:bold!
+important;}#mermaid-1757111539870 .nav 
+ellipse{fill:#cfffdc!important;stroke:#057c5e!important;stroke-
+width:2.2px!important;color:#1b5e20!important;font-weight:bold!
+important;}#mermaid-1757111539870 .nav 
+circle{fill:#cfffdc!important;stroke:#057c5e!important;stroke-
+width:2.2px!important;color:#1b5e20!important;font-weight:bold!
+important;}#mermaid-1757111539870 .nav 
+path{fill:#cfffdc!important;stroke:#057c5e!important;stroke-width:2.2px!
+important;color:#1b5e20!important;font-weight:bold!important;}
+#mermaid-1757111539870 .nav 
+tspan{fill:#1b5e20!important;}#mermaid-1757111539870 .learn 
+rect{fill:#f8bbd0!important;stroke:#c2185b!important;stroke-width:2.2px!
+important;color:#880e4f!important;font-weight:bold!important;}
+#mermaid-1757111539870 .learn 
+polygon{fill:#f8bbd0!important;stroke:#c2185b!important;stroke-
+width:2.2px!important;color:#880e4f!important;font-weight:bold!
+important;}#mermaid-1757111539870 .learn 
+ellipse{fill:#f8bbd0!important;stroke:#c2185b!important;stroke-
+width:2.2px!important;color:#880e4f!important;font-weight:bold!
+important;}#mermaid-1757111539870 .learn 
+circle{fill:#f8bbd0!important;stroke:#c2185b!important;stroke-
+width:2.2px!important;color:#880e4f!important;font-weight:bold!
+important;}#mermaid-1757111539870 .learn 
+path{fill:#f8bbd0!important;stroke:#c2185b!important;stroke-width:2.2px!
+important;color:#880e4f!important;font-weight:bold!important;}
+#mermaid-1757111539870 .learn 
+tspan{fill:#880e4f!important;}#mermaid-1757111539870 .sub 
+rect{fill:#ececf6!important;stroke:#babdc5!important;stroke-width:1.8px!
+important;color:#232323!important;}#mermaid-1757111539870 .sub 
+polygon{fill:#ececf6!important;stroke:#babdc5!important;stroke-
+width:1.8px!important;color:#232323!important;}#mermaid-1757111539870 
+.sub 
+ellipse{fill:#ececf6!important;stroke:#babdc5!important;stroke-
+width:1.8px!important;color:#232323!important;}#mermaid-1757111539870 
+.sub 
+circle{fill:#ececf6!important;stroke:#babdc5!important;stroke-
+width:1.8px!important;color:#232323!important;}#mermaid-1757111539870 
+.sub 
+path{fill:#ececf6!important;stroke:#babdc5!important;stroke-width:1.8px!
+important;color:#232323!important;}#mermaid-1757111539870 .sub 
+tspan{fill:#232323!important;}</style><style media="screen" class="darkreader darkreader--sync"></style><g></g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="6" viewBox="0 0 10 10" class="marker flowchart-elk" id="mermaid-1757111539870_flowchart-elk-pointEnd"><path style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="4.5" viewBox="0 0 10 10" class="marker flowchart-elk" id="mermaid-1757111539870_flowchart-elk-pointStart"><path style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart-elk" id="mermaid-1757111539870_flowchart-elk-circleEnd"><circle style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart-elk" id="mermaid-1757111539870_flowchart-elk-circleStart"><circle style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart-elk" id="mermaid-1757111539870_flowchart-elk-crossEnd"><path style="stroke-width: 2px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart-elk" id="mermaid-1757111539870_flowchart-elk-crossStart"><path style="stroke-width: 2px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="subgraphs"><g class="subgraph"><rect height="190" width="187.96665954589844" y="524" x="660.7166748046874" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(679.7750015258788, 532)" class="label"><g id="flowchart-Central-109" class="node default"><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">⚙️ Funções Centrais</tspan></text></g></g></g></g><g class="subgraph"><rect height="58" width="536.9333343505859" y="258" x="187.76667022705067" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(187.76667022705067, 261)" class="label"><g id="flowchart-Ferramentas_Pessoais-111" class="node default"><g transform="translate(0, 0)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g></g></g></g><g class="subgraph"><rect height="82" width="390.4833297729492" y="734" x="712.7000045776366" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(790.2999992370604, 742)" class="label"><g id="flowchart-NavegacaoC-126" class="node default"><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🧭 Navegação do Conhecimento</tspan></text></g></g></g></g><g class="subgraph"><rect height="82" width="625.1499938964844" y="881" x="737.5333366394042" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(983.9166679382323, 889)" class="label"><g id="flowchart-IdeiasSub-136" class="node default"><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">💡 Tipos de Ideias</tspan></text></g></g></g></g><g class="subgraph"><rect height="82" width="394.6166687011719" y="881" x="322.9166679382323" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(415.9416694641112, 889)" class="label"><g id="flowchart-ConhecimentoSub-138" class="node default"><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📚 Formas de Conhecimento</tspan></text></g></g></g></g><g class="subgraph"><rect height="58" width="478.4666748046875" y="406" x="745.7000045776366" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(745.7000045776366, 409)" class="label"><g id="flowchart-AprendizadoPKM_CAT-170" class="node default"><g transform="translate(0, 0)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g></g></g></g><g class="subgraph"><rect height="58" width="407.1000061035156" y="406" x="183.383331298828" class="subgraph subgraph-lvl-0 node"></rect><g transform="translate(183.383331298828, 409)" class="label"><g id="flowchart-FerramentasSubs-171" class="node default"><g transform="translate(0, 0)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g></g></g></g></g><g class="nodes"><g transform="translate(453.14167022705067, 287)" id="flowchart-Refl-83" class="node default tools flowchart-label"><rect height="34" width="174.35000610351562" y="-17" x="-87.17500305175781" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🤔 Refletir Minha Vida</tspan></text></g></g><g transform="translate(636.5083389282225, 287)" id="flowchart-Reg-84" class="node default tools flowchart-label"><rect height="34" width="152.38333129882812" y="-17" x="-76.19166564941406" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📝 Fazer Registros</tspan></text></g></g><g transform="translate(272.86666870117176, 287)" id="flowchart-Intenc-85" class="node default tools flowchart-label"><rect height="34" width="146.1999969482422" y="-17" x="-73.0999984741211" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🎯 Ser Intencional</tspan></text></g></g><g transform="translate(382.49166870117176, 435)" id="flowchart-VidaMapa-86" class="node default sub flowchart-label"><rect height="34" width="137.91666412353516" y="-17" x="-68.95833206176758" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🗺️ Mapa da Vida</tspan></text></g></g><g transform="translate(524.9666709899901, 435)" id="flowchart-Registro-87" class="node default sub flowchart-label"><rect height="34" width="107.03333282470703" y="-17" x="-53.516666412353516" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📋 Registros</tspan></text></g></g><g transform="translate(244.45833206176746, 435)" id="flowchart-Planejar-88" class="node default sub flowchart-label"><rect height="34" width="98.1500015258789" y="-17" x="-49.07500076293945" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📊 Planejar</tspan></text></g></g><g transform="translate(984.4916763305663, 435)" id="flowchart-PKM_Regras-89" class="node default learn flowchart-label"><rect height="34" width="130.1500015258789" y="-17" x="-65.07500076293945" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">⚙️ Regras PKM</tspan></text></g></g><g transform="translate(1140.8666763305664, 435)" id="flowchart-ARC-90" class="node default learn flowchart-label"><rect height="34" width="142.5999984741211" y="-17" x="-71.29999923706055" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🔺 Estrutura ARC</tspan></text></g></g><g transform="translate(828.5583419799804, 435)" id="flowchart-ACE-91" class="node default learn flowchart-label"><rect height="34" width="141.71666717529297" y="-17" x="-70.85833358764648" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🗂️ Estrutura ACE</tspan></text></g></g><g transform="translate(754.7000045776366, 577)" id="flowchart-F1-92" class="node default core flowchart-label"><rect height="34" width="153.3000030517578" y="-17" x="-76.6500015258789" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📝 Adicionar Ideias</tspan></text></g></g><g transform="translate(754.7000045776366, 631)" id="flowchart-F2-93" class="node default core flowchart-label"><rect height="34" width="163.0833282470703" y="-17" x="-81.54166412353516" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🔗 Relacionar Ideias</tspan></text></g></g><g transform="translate(754.7000045776366, 685)" id="flowchart-F3-94" class="node default core flowchart-label"><rect height="34" width="163.96665954589844" y="-17" x="-81.98332977294922" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📢 Comunicar Ideias</tspan></text></g></g><g transform="translate(917.7166671752929, 787)" id="flowchart-N_Conhecimento-95" class="node default nav flowchart-label"><rect height="34" width="142.63333129882812" y="-17" x="-71.31666564941406" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📚 Conhecimento</tspan></text></g></g><g transform="translate(1050.1083335876465, 787)" id="flowchart-N_Ideias-96" class="node default nav flowchart-label"><rect height="34" width="82.1500015258789" y="-17" x="-41.07500076293945" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">💡 Ideias</tspan></text></g></g><g transform="translate(775.5500030517577, 787)" id="flowchart-N_Esforcos-97" class="node default nav flowchart-label"><rect height="34" width="101.69999694824219" y="-17" x="-50.849998474121094" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">⚡ Esforços</tspan></text></g></g><g transform="translate(937.2333374023436, 934)" id="flowchart-Id3-98" class="node default sub flowchart-label"><rect height="34" width="110.5999984741211" y="-17" x="-55.29999923706055" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🔮 Conceitos</tspan></text></g></g><g transform="translate(1056.7083358764648, 934)" id="flowchart-Id1-99" class="node default sub flowchart-label"><rect height="34" width="88.3499984741211" y="-17" x="-44.17499923706055" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">📦 Coisas</tspan></text></g></g><g transform="translate(805.7333374023436, 934)" id="flowchart-Id5-100" class="node default sub flowchart-label"><rect height="34" width="112.4000015258789" y="-17" x="-56.20000076293945" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">❓ Perguntas</tspan></text></g></g><g transform="translate(1166.0416679382324, 934)" id="flowchart-Id4-101" class="node default sub flowchart-label"><rect height="34" width="90.31666564941406" y="-17" x="-45.15833282470703" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">❝ Citações</tspan></text></g></g><g transform="translate(1290.941665649414, 934)" id="flowchart-Id2-102" class="node default sub flowchart-label"><rect height="34" width="119.48332977294922" y="-17" x="-59.74166488647461" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">💬 Afirmações</tspan></text></g></g><g transform="translate(504.8083343505858, 934)" id="flowchart-Cn2-103" class="node default sub flowchart-label"><rect height="34" width="87.48332977294922" y="-17" x="-43.74166488647461" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🗺️ Mapas</tspan></text></g></g><g transform="translate(637.0416679382323, 934)" id="flowchart-Cn3-104" class="node default sub flowchart-label"><rect height="34" width="136.98332977294922" y="-17" x="-68.49166488647461" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">👁️ Visualizações</tspan></text></g></g><g transform="translate(387.99166870117176, 934)" id="flowchart-Cn1-105" class="node default sub flowchart-label"><rect height="34" width="106.1500015258789" y="-17" x="-53.07500076293945" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🗃️ Coleções</tspan></text></g></g><g transform="translate(1200.0191818237304, 117)" id="flowchart-Sistema-106" class="node default start flowchart-label"><rect height="34" width="166.64999389648438" y="-17" x="-83.32499694824219" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🌐 Sistema de Ideias</tspan></text></g></g><g transform="translate(199.76667022705067, 221)" id="flowchart-FP-107" class="node default tools flowchart-label"><rect height="34" width="199.53334045410156" y="-17" x="-99.76667022705078" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">✨ Ferramentas Pessoais</tspan></text></g></g><g transform="translate(1241.6816802978515, 221)" id="flowchart-PKM-108" class="node default learn flowchart-label"><rect height="34" width="168.4166717529297" y="-17" x="-84.20833587646484" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🎓 Aprendizado PKM</tspan></text></g></g><g transform="translate(1241.6816802978515, 295.2)" id="flowchart-AprendizadoPKM-119" class="node default learn flowchart-label"><rect height="34" width="128.36666870117188" y="-17" x="-64.18333435058594" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(0, -9.5)" style="" class="label"><rect></rect><text style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">🔧 Núcleo PKM</tspan></text></g></g></g><g class="edges edgePath"><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Sistema LE-FP" d="M1158.357,134L1158.357,164L199.767,164L199.767,198.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Sistema LE-PKM" d="M1241.682,134L1241.682,198.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Sistema LE-Central" d="M1200.019,134L1200.019,174L734.7,174L734.7,518.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-FP LE-Ferramentas_Pessoais" d="M199.767,238L199.767,252.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Refl LE-VidaMapa" d="M453.142,304L453.142,351L382.492,351L382.492,412.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Reg LE-Registro" d="M636.508,304L636.508,351L524.967,351L524.967,412.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Intenc LE-Planejar" d="M272.867,304L272.867,351L244.458,351L244.458,412.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-PKM LE-AprendizadoPKM" d="M1241.682,238L1241.682,272.9"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-AprendizadoPKM LE-PKM_Regras" d="M1228.845,312.2L1228.845,361L984.492,361L984.492,412.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-AprendizadoPKM LE-ARC" d="M1254.518,312.2L1254.518,371L1140.867,371L1140.867,412.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-AprendizadoPKM LE-ACE" d="M1203.172,312.2L1203.172,351L828.558,351L828.558,412.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Central LE-F1" d="M754.7,524L754.7,554.7"></path><g transform="translate(660.7166748046874, 524)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Central LE-NavegacaoC" d="M724.7,714L724.7,728.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-F1 LE-F2" d="M754.7,594L754.7,608.7"></path><g transform="translate(660.7166748046874, 524)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-F2 LE-F3" d="M754.7,648L754.7,662.7"></path><g transform="translate(660.7166748046874, 524)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-Ferramentas_Pessoais LE-Central" d="M646.508,316L646.508,494L724.7,494L724.7,518.7"></path><g transform="translate(609.4833374023436, 423)" class="edgeLabel"><text height="19" width="72.05000305175781" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">Enriquece</tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-AprendizadoPKM LE-Central" d="M1280.192,312.2L1280.192,494L744.7,494L744.7,518.7"></path><g transform="translate(1243.1666793823242, 423)" class="edgeLabel"><text height="19" width="72.05000305175781" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve">Enriquece</tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-N_Ideias LE-IdeiasSub" d="M1050.108,804L1050.108,875.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g><path marker-end="url(#mermaid-1757111539870_flowchart-elk-pointEnd)" fill="none" class="path flowchart-link LS-N_Conhecimento LE-ConhecimentoSub" d="M917.717,804L917.717,851L520.225,851L520.225,875.7"></path><g transform="translate(0, 0)" class="edgeLabel"><text height="0" width="0" style=""><tspan class="row" x="0" dy="1em" xml:space="preserve"></tspan></text></g></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(-36.025001525878906, -9.5)" class="label"></g></g><g class="edgeLabel"><g transform="translate(-36.025001525878906, -9.5)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"></g></g></g></svg></div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: rgb(144, 202, 249); --darkreader-inline-bgcolor: var(--darkreader-background-90caf9, #a9ddff);" data-darkreader-inline-bgcolor=""></div>
+                <span>Sistema Principal</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: rgb(175, 214, 253); --darkreader-inline-bgcolor: var(--darkreader-background-afd6fd, #f5eee0);" data-darkreader-inline-bgcolor=""></div>
+                <span>Funções Centrais</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: rgb(255, 224, 178); --darkreader-inline-bgcolor: var(--darkreader-background-ffe0b2, #ffffc1);" data-darkreader-inline-bgcolor=""></div>
+                <span>Ferramentas Pessoais</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: rgb(207, 255, 220); --darkreader-inline-bgcolor: var(--darkreader-background-cfffdc, #e9ffee);" data-darkreader-inline-bgcolor=""></div>
+                <span>Navegação</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: rgb(248, 187, 208); --darkreader-inline-bgcolor: var(--darkreader-background-f8bbd0, #ffbbcc);" data-darkreader-inline-bgcolor=""></div>
+                <span>Aprendizado PKM</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: rgb(236, 236, 246); --darkreader-inline-bgcolor: var(--darkreader-background-ececf6, #fffffb);" data-darkreader-inline-bgcolor=""></div>
+                <span>Sub-elementos</span>
+            </div>
+        </div>
+        
+        <div class="description">
+            <h3>Sobre este Sistema</h3>
+            <p>Este diagrama representa um sistema completo de 
+gerenciamento de ideias e conhecimento pessoal (PKM). Ele integra 
+ferramentas para reflexão pessoal, métodos de organização de 
+conhecimento e funções centrais para capturar, conectar e comunicar 
+ideias.</p>
+            <p>O sistema é enriquecido tanto pelas práticas pessoais de 
+reflexão quanto pelas técnicas de PKM, criando um ecossistema robusto 
+para desenvolvimento de pensamento e produtividade.</p>
+        </div>
+    </div>
+
+<div class="mermaidTooltip" style="opacity: 0;"></div></body></html>

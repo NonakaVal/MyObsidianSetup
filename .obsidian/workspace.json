@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "2178b4b13ad8d220",
     "type": "split",
     "children": [
       {
-        "id": "aae8ee0e70a70d76",
+        "id": "e68e1f93de819158",
         "type": "tabs",
         "children": [
           {
-            "id": "84e8eb765f88b951",
+            "id": "fb98ad63a354fada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e54d3e8e5a35fbc8",
+    "id": "da223467db4c9158",
     "type": "split",
     "children": [
       {
-        "id": "840b5ad792986e65",
+        "id": "3ba83bbb7904c6a3",
         "type": "tabs",
         "children": [
           {
-            "id": "7ad2065b70118fc2",
+            "id": "b34c0f902b1265c0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,32 +58,22 @@
             }
           },
           {
-            "id": "f78042349a1a6759",
+            "id": "dfe9e16620292570",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
-            "id": "378db4258e40efd8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "914239013585d4fa",
+            "id": "c3dcb494a0674c29",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(gmail)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,56 +85,57 @@
             }
           },
           {
-            "id": "5522f140336df331",
+            "id": "e0f7509dece0369f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "f7119f2528338e15",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
                 "file": "README.md",
                 "followCursor": false,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Sumário de README"
             }
           },
           {
-            "id": "212ff6591d428e82",
+            "id": "2f7e466c08f80ed2",
             "type": "leaf",
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 323.5
   },
   "right": {
-    "id": "80b88303ad9d2de6",
+    "id": "3703f7d8eaeb01fd",
     "type": "split",
     "children": [
       {
-        "id": "ed90f9a9ea93678f",
+        "id": "c4e9b6b7a7b97459",
         "type": "tabs",
+        "dimension": 53.153153153153156,
         "children": [
           {
-            "id": "6175c958e6198422",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "70e5ca9716220d8c",
+            "id": "fdd41c845e6997b5",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -154,29 +145,58 @@
             }
           },
           {
-            "id": "c6b5491035dfceb0",
+            "id": "ca7097b55077a2c5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "2386ef8588c3dc8e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1ebc49deb54dd0f7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "40be355d2ebab86f",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ATLAS/01_INDEX/index-computer-science.md"
+                "file": "README.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index-computer-science"
+              "title": "Propriedades do arquivo README"
             }
           },
           {
-            "id": "32854e532446ad63",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
-            "id": "2beea342e7ac5ec2",
+            "id": "bb8e1f9c9bb61a38",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -188,18 +208,19 @@
         ]
       },
       {
-        "id": "49e5efc17f389c9d",
+        "id": "3954ea8e597c4a31",
         "type": "tabs",
+        "dimension": 46.846846846846844,
         "children": [
           {
-            "id": "28c60d78527b3d82",
+            "id": "f8e7e9bde23996cf",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SELF/14_FAITH/resumo-fé.md",
+                "file": "README.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -220,82 +241,52 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4444444444444441,
+                  "scale": 0.45456955811720023,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of resumo-fé"
+              "title": "Gráfico de README"
             }
           },
           {
-            "id": "1f41fd9b8e673154",
+            "id": "c133cbfbc6b00289",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SELF/14_FAITH/resumo-fé.md",
+                "file": "🏠.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for resumo-fé"
+              "title": "Links inversos para 🏠"
             }
           },
           {
-            "id": "962f95d194464ba2",
+            "id": "7a2141420f060740",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "🏠.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
-            }
-          },
-          {
-            "id": "8cb501234ad1c95c",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "f304a1aed584cb4d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Links de saída para 🏠"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 382.5,
-    "collapsed": true
+    "width": 430.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,73 +296,71 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false,
+      "random-note:Abrir nota aleatória": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
       "bases:Criar nova base": false,
-      "obsidian-kanban:Criar um novo quadro": false,
+      "periodic-notes:Open today": false,
+      "obsidian-git:Open Git source control": false,
       "code-files:Create Code File": false,
       "pomodoro-timer:Toggle timer panel": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "obsidian42-brat:BRAT": false,
-      "periodic-notes:Open today": false
+      "obsidian-kanban:Criar um novo quadro": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "callout-manager:Insert Callout": false,
+      "widgets:Add widget": false,
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "84e8eb765f88b951",
+  "active": "fb98ad63a354fada",
   "lastOpenFiles": [
-    "CODE/07_DOC/doc-git-config.md",
-    "CALENDAR/DAILY/2025-08-21.md",
+    "🏠.md",
     "README.md",
-    "SELF/+/SKETCH-pensamento.md",
-    "SELF/+/SELF-INDEX.md",
-    "SELF/14_FAITH/resumo-fé.md",
-    "ATLAS/01_INDEX/index-computer-science.md",
-    "ATLAS/01_INDEX/index-datascience.md",
-    "CODE/07_DOC/doc-pandas-methods.md",
-    "CODE/07_DOC/python-manipulação-de-dados.md",
-    "CODE/08_WORKFLOW/flow-pandas-null-values-wrangling.md",
-    "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md",
-    "SELF/20_SOCIAL/+.md",
-    "CODE/+/Similar-Search.py-2025-06-26.md",
-    "CODE/+/Zettell.py-2025-06-16.md",
-    "CODE/+/INDEX-CODE.md",
-    "CALENDAR/DAILY/2025-08-20.md",
-    "CALENDAR/YEARLY/2024.md",
-    "CALENDAR/MONTHLY/2024-10.md",
-    "ATLAS/04_MAPS/+_CANVAS_AOC.canvas",
-    "ATLAS/03_RESOURCES/res-github-commit-message-convention.md",
-    "ATLAS/01_INDEX/index-templates.md",
-    "ATLAS/01_INDEX/index-pkm.md",
-    "ATLAS/00_DRAFT/draft-ruby-basics.md",
-    "ATLAS/00_DRAFT/draft-regex-rg-all-notes.md",
-    "ATLAS/00_DRAFT/DRAFT-estudo-de-cladistica.md",
-    "ATLAS/00_DRAFT/draft-direito-cibernetico.md",
-    "SYSTEM/ASSETS/cssSnippets",
-    "SYSTEM/ASSETS/VaultSnippets",
-    "SYSTEM/ASSETS/EXCALIDRAW-LIBS",
-    "SYSTEM/ASSETS/Dataview",
-    "SYSTEM/ASSETS",
-    "SYSTEM/MEDIA/IMAGENS/galaxy",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS",
-    "SYSTEM/MEDIA/IMAGENS/15-05",
-    "SYSTEM/MEDIA/PDFs",
-    "SYSTEM/MEDIA/IMAGENS",
-    "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
-    "ATLAS/04_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
-    "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas",
-    "ATLAS/04_MAPS/+_CANVAS_GROWTH.canvas",
+    "_index_notas.md",
+    "SYSTEM/ASSETS/VaultSnippets/desktop.ini",
+    "CALENDAR/DAILY/2025-09-19.md",
+    "+/vault-gallery-show-case.md",
+    "SYSTEM/MEDIA/Pasted image 20250919121409.png",
+    "SYSTEM/MEDIA/Pasted image 20250919121326.png",
+    "SYSTEM/MEDIA/Pasted image 20250919121325.png",
+    "SYSTEM/MEDIA/Pasted image 20250919121300.png",
+    "+/modified.md",
+    "+/created.md",
+    "SYSTEM/ASSETS/Efforts.md",
+    "SYSTEM/ASSETS/tasks.md",
+    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Atlas/Dots/x/PKM/Nick Milo's Pro Custom Callouts.md",
+    "SYSTEM/ASSETS/asset-full-examples-multicolum-plugin.md",
+    "SYSTEM/TEMPLATE/SNIPPET/%-2 colluns plugin.md",
+    "SYSTEM/ASSETS/Dataview/@-templates.md",
+    "SYSTEM/TEMPLATE/SNIPPET/% METABIND BOTÃO COM COMANDO.md",
+    "SYSTEM/TEMPLATE/SNIPPET/_-templater clipboard.md",
+    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/Serie-básico-obsidian.md",
+    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/1-roteiro-porque-usar-obsidian.md",
+    "ATLAS/02_CONCEPT/LYT/Markdown.md",
+    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEO-IDEAS.md",
+    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Daily Journal.md",
+    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/roteiro-flow-note-taking.md",
+    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Vídeo Dicas 2.md",
+    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md",
+    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/2-roteiro-fundamentos-configuração.md",
+    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/4-roteiro-proficiência-operacional.md",
+    "ATLAS/02_CONCEPT/LYT/MOC definição.md",
+    "SYSTEM/MEDIA/IMAGENS/PRINTS/_nota-index.png",
     "SYSTEM/MEDIA/01.png",
-    "SYSTEM/MEDIA/Pasted image 20250728210741.png",
-    "Untitled.canvas",
-    "SYSTEM/MEDIA/Pasted image 20250713004856.png",
-    "SYSTEM/MEDIA/Pasted image 20250630184802.png",
-    "SYSTEM/MEDIA/Pasted image 20250630184752.png",
-    "SYSTEM/MEDIA/Pasted image 20250630183945.png",
-    "SYSTEM/MEDIA/Pasted image 20250630183935.png",
-    "SYSTEM/MEDIA/Pasted image 20250630183751.png",
-    "sidebar.png",
-    "SYSTEM/MEDIA/Pasted image 20250628231454.png",
-    "ATLAS/00_DRAFT/draft-graphs.canvas",
-    "SELF/Untitled.canvas"
+    "SYSTEM/MEDIA/dailu.png",
+    "SYSTEM/MEDIA/IMAGENS/PRINTS/1-dash.png",
+    "SYSTEM/MEDIA/IMAGENS/PRINTS/2-concepts.png",
+    "SYSTEM/MEDIA/IMAGENS/PRINTS/4-lib.png",
+    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Efforts/Areas/Health/desktop.ini",
+    "desktop.ini",
+    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Calendar/Records/Nice Things/desktop.ini",
+    "ATLAS/02_CONCEPT/Dev/ProgrammingL",
+    "ATLAS/04_MAPS/+_CANVAS_AOC 1.canvas",
+    "SYSTEM/SCRIPTS/Zettell.py",
+    "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "Sem título.canvas",
+    "EFFORTS/09_AREAS/areaa 1",
+    "SYSTEM/TEMPLATE/FORMAT",
+    "SYSTEM/SCRIPTS/index-notes/concepts_index.py",
+    "SYSTEM/SCRIPTS/index-notes/calendar_index copy.py"
   ]
 }

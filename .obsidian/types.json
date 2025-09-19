@@ -10,6 +10,10 @@
     "course": "multitext",
     "social": "multitext",
     "startDate": "date",
-    "endDate": "date"
+    "endDate": "date",
+    "created": "text",
+    "done": "checkbox",
+    "datq": "date",
+    "links": "multitext"
   }
 }

@@ -9,7 +9,6 @@ HUB:
 ---
 
 
-
 ### refatorar  
 ```dataview
 table created as created

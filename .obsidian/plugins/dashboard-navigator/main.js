@@ -28,7 +28,7 @@ __export(main_exports, {
   default: () => DNPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian9 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -49,6 +49,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
       this.dropdownDefaultView = sel;
       sel.addOption("1", "Dashboard");
       sel.addOption("2", "Navigator");
+      sel.addOption("3", "Tags");
       sel.onChange(async (val) => {
         this.plugin.settings.default_view = parseInt(val);
         this.plugin.DN_MODAL.default_view = this.plugin.settings.default_view;
@@ -321,6 +322,40 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
+    new import_obsidian.Setting(containerEl).setName("Hide: BL (Backlinks)").setDesc("Navigator: Hide backlinks column.").addToggle((toggle) => {
+      this.toggleHideBLColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_backlinks).onChange(async (val) => {
+        this.plugin.settings.hide_backlinks = val;
+        this.plugin.dnUpdateHideColumn("backlinks", val);
+        await this.plugin.saveSettings();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.toggleHideBLColumn.setValue(DEFAULT_SETTINGS.hide_backlinks);
+        this.plugin.settings.hide_backlinks = DEFAULT_SETTINGS.hide_backlinks;
+        this.plugin.dnUpdateHideColumn("backlinks", DEFAULT_SETTINGS.hide_backlinks);
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Hide: OL (Outgoing links)").setDesc("Navigator: Hide outgoing links column.").addToggle((toggle) => {
+      this.toggleHideOLColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_outgoing).onChange(async (val) => {
+        this.plugin.settings.hide_outgoing = val;
+        this.plugin.dnUpdateHideColumn("outgoing", val);
+        await this.plugin.saveSettings();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.toggleHideOLColumn.setValue(DEFAULT_SETTINGS.hide_outgoing);
+        this.plugin.settings.hide_outgoing = DEFAULT_SETTINGS.hide_outgoing;
+        this.plugin.dnUpdateHideColumn("outgoing", DEFAULT_SETTINGS.hide_outgoing);
+        this.plugin.saveSettings();
+      });
+    });
     const headingImageThumbnails1 = containerEl.createEl("div", { cls: "setting-item setting-item-heading" });
     const headingImageThumbnails2 = headingImageThumbnails1.createEl("div", { cls: "setting-item setting-item-info" });
     headingImageThumbnails2.createEl("div", { text: "Image thumbnails", cls: "setting-item-name" });
@@ -339,6 +374,32 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.toggleImageThumbnail.setValue(DEFAULT_SETTINGS.image_thumbnail);
         this.plugin.settings.image_thumbnail = DEFAULT_SETTINGS.image_thumbnail;
         this.plugin.DN_MODAL.image_thumbnail = this.plugin.settings.image_thumbnail;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Image thumbnails size").setDesc("Navigator: Adjust image thumbnails size").addSlider((sliderThumbnail) => {
+      this.sliderImageThumbnail = sliderThumbnail;
+      let slider_val;
+      if (this.plugin.settings.thumbnail_size) {
+        slider_val = this.plugin.settings.thumbnail_size;
+      } else {
+        slider_val = DEFAULT_SETTINGS.thumbnail_size;
+      }
+      sliderThumbnail.setDynamicTooltip();
+      sliderThumbnail.setLimits(50, 500, 1);
+      sliderThumbnail.setValue(slider_val);
+      sliderThumbnail.onChange((val) => {
+        this.plugin.settings.thumbnail_size = val;
+        this.plugin.dnSetThumbnailSize(val);
+        this.plugin.saveSettings();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.sliderImageThumbnail.setValue(DEFAULT_SETTINGS.thumbnail_size);
+        this.plugin.settings.thumbnail_size = DEFAULT_SETTINGS.thumbnail_size;
+        this.plugin.dnSetThumbnailSize(this.plugin.settings.thumbnail_size);
         this.plugin.saveSettings();
       });
     });
@@ -515,6 +576,25 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
+    new import_obsidian.Setting(containerEl).setName("Color: Bases").setDesc("Color of .base files.").addColorPicker((color) => {
+      this.colorCompBases = color;
+      color.setValue(this.plugin.settings.color_bases).onChange(async (val) => {
+        this.plugin.settings.color_bases = val;
+        this.plugin.DN_MODAL.color_bases = val;
+        this.plugin.DN_MODAL.dnSetCustomColors();
+        await this.plugin.saveSettings();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.colorCompBases.setValue(DEFAULT_SETTINGS.color_bases);
+        this.plugin.settings.color_bases = DEFAULT_SETTINGS.color_bases;
+        this.plugin.DN_MODAL.color_bases = DEFAULT_SETTINGS.color_bases;
+        this.plugin.DN_MODAL.dnSetCustomColors();
+        this.plugin.saveSettings();
+      });
+    });
     new import_obsidian.Setting(containerEl).setName("Color: Other files").setDesc("Color of other files.").addColorPicker((color) => {
       this.colorCompOther = color;
       color.setValue(this.plugin.settings.color_other).onChange(async (val) => {
@@ -538,7 +618,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
 };
 
 // src/dn.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
 // src/utils/format.ts
 function formatFileSize(fileSize) {
@@ -700,46 +780,439 @@ var DNTableManager = class {
     }
   }
   getColumnNames() {
-    return ["thumbnail", "name", "ext", "path", "size", "date", "tags", "frontmatter"];
+    return ["thumbnail", "name", "ext", "path", "size", "date", "tags", "frontmatter", "backlinks", "outgoing"];
   }
 };
 
 // src/dn.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 
-// src/utils/dnbookmarks.ts
-function dnGetBookmarkedFiles(bookmarksJson) {
-  const bookmarksPaths = /* @__PURE__ */ new Set();
-  const stack = [];
-  try {
-    const bookmarks = JSON.parse(bookmarksJson);
-    if (bookmarks.items) {
-      for (let i = bookmarks.items.length - 1; i >= 0; i--) {
-        stack.push(bookmarks.items[i]);
-      }
+// src/utils/dntagsuggestions.ts
+var import_obsidian2 = require("obsidian");
+var DNTagSuggestions = class extends import_obsidian2.AbstractInputSuggest {
+  // All tags like #tagName
+  constructor(app, inputEl, allTags) {
+    super(app, inputEl);
+    this.inputEl = inputEl;
+    this.allTags = allTags;
+  }
+  getActiveTagInfo(query) {
+    const cursorPosition = this.inputEl.selectionStart || 0;
+    const textBeforeCursor = query.substring(0, cursorPosition);
+    const lastSpaceIndex = textBeforeCursor.lastIndexOf(" ");
+    const currentWordStart = lastSpaceIndex === -1 ? 0 : lastSpaceIndex + 1;
+    const currentWord = textBeforeCursor.substring(currentWordStart);
+    let prefix = "";
+    let typedTag = "";
+    let startIndex = -1;
+    if (currentWord.startsWith("!#")) {
+      prefix = "!#";
+      typedTag = currentWord.substring(2);
+      startIndex = currentWordStart;
+    } else if (currentWord.startsWith("#")) {
+      prefix = "#";
+      typedTag = currentWord.substring(1);
+      startIndex = currentWordStart;
+    } else {
+      return null;
     }
-    while (stack.length > 0) {
-      const currentItem = stack.pop();
-      if (!currentItem)
-        continue;
-      if (currentItem.type === "file" && currentItem.path) {
-        bookmarksPaths.add(currentItem.path);
-      } else if (currentItem.type === "group" && currentItem.items) {
-        for (let i = currentItem.items.length - 1; i >= 0; i--) {
-          stack.push(currentItem.items[i]);
+    return { prefix, typedTag, startIndex };
+  }
+  getSuggestions(query) {
+    const tagInfo = this.getActiveTagInfo(query);
+    if (!tagInfo) {
+      return [];
+    }
+    const { typedTag } = tagInfo;
+    if (typedTag.length === 0) {
+      return [];
+    }
+    return this.allTags.filter((fullTagWithHash) => {
+      const tagWithoutHash = fullTagWithHash.substring(1);
+      return tagWithoutHash.toLowerCase().startsWith(typedTag.toLowerCase());
+    }).map((fullTagWithHash) => fullTagWithHash.substring(1));
+  }
+  renderSuggestion(tagWithoutHash, el) {
+    const query = this.inputEl.value;
+    const tagInfo = this.getActiveTagInfo(query);
+    if (!tagInfo) {
+      el.createEl("div", { text: tagWithoutHash });
+      return;
+    }
+    const { prefix, typedTag } = tagInfo;
+    const fullTagToDisplay = prefix + tagWithoutHash;
+    const matchIndex = tagWithoutHash.toLowerCase().indexOf(typedTag.toLowerCase());
+    if (matchIndex === -1) {
+      el.createEl("div", { text: fullTagToDisplay });
+      return;
+    }
+    const suggestionEl = el.createEl("div");
+    suggestionEl.createSpan({ text: prefix });
+    suggestionEl.createSpan({ text: tagWithoutHash.substring(0, matchIndex) });
+    suggestionEl.createSpan({
+      cls: "suggestion-highlight",
+      text: tagWithoutHash.substring(matchIndex, matchIndex + typedTag.length)
+    });
+    suggestionEl.createSpan({ text: tagWithoutHash.substring(matchIndex + typedTag.length) });
+  }
+  selectSuggestion(tagWithoutHash, evt) {
+    const query = this.inputEl.value;
+    const tagInfo = this.getActiveTagInfo(query);
+    if (!tagInfo) {
+      this.close();
+      return;
+    }
+    const { prefix, startIndex } = tagInfo;
+    const textBeforeCurrentWord = query.substring(0, startIndex);
+    const textAfterCurrentWord = query.substring(this.inputEl.selectionStart || 0);
+    const newValue = `${textBeforeCurrentWord}${prefix}${tagWithoutHash} ${textAfterCurrentWord}`;
+    this.inputEl.value = newValue;
+    const newCursorPos = textBeforeCurrentWord.length + prefix.length + tagWithoutHash.length + 1;
+    this.inputEl.setSelectionRange(newCursorPos, newCursorPos);
+    const inputEvent = new Event("input", { bubbles: true });
+    this.inputEl.dispatchEvent(inputEvent);
+    this.close();
+  }
+};
+
+// src/utils/dnlinks.ts
+var import_obsidian3 = require("obsidian");
+function getBacklinksToFile(file) {
+  const currentFilePath = file.path;
+  const backlinks = [];
+  try {
+    const resolvedLinks = this.app.metadataCache.resolvedLinks;
+    for (const [sourceFilePath, linkMap] of Object.entries(resolvedLinks)) {
+      if (Object.keys(linkMap).includes(currentFilePath)) {
+        const sourceFile = this.app.vault.getAbstractFileByPath(sourceFilePath);
+        if (sourceFile instanceof import_obsidian3.TFile) {
+          backlinks.push(sourceFile);
         }
       }
     }
+    return backlinks;
   } catch (error) {
     return [];
   }
-  return Array.from(bookmarksPaths);
+}
+function getOutgoingLinks(file) {
+  const outgoingLinks = /* @__PURE__ */ new Set();
+  const metadataCache = this.app.metadataCache;
+  const fileCache = metadataCache.getFileCache(file);
+  if (fileCache && fileCache.links) {
+    for (const link of fileCache.links) {
+      const linkedFile = metadataCache.getFirstLinkpathDest(link.link, file.path);
+      if (linkedFile instanceof import_obsidian3.TFile) {
+        outgoingLinks.add(linkedFile);
+      }
+    }
+  }
+  if (fileCache && fileCache.embeds) {
+    for (const embed of fileCache.embeds) {
+      const embeddedFile = metadataCache.getFirstLinkpathDest(embed.link, file.path);
+      if (embeddedFile instanceof import_obsidian3.TFile) {
+        outgoingLinks.add(embeddedFile);
+      }
+    }
+  }
+  return Array.from(outgoingLinks);
 }
 
-// src/dn.ts
-var DNModal = class extends import_obsidian2.Modal {
-  constructor(app, plugin) {
+// src/modals/dnspecialbacklinksmodal.ts
+var import_obsidian5 = require("obsidian");
+
+// src/utils/dnpreviewcomponent.ts
+var import_obsidian4 = require("obsidian");
+var DNPreviewComponent = class extends import_obsidian4.Component {
+  constructor(app, containerEl, file) {
+    super();
+    this.app = app;
+    this.containerEl = containerEl;
+    this.file = file;
+  }
+  async onload() {
+    this.containerEl.empty();
+    try {
+      import_obsidian4.MarkdownRenderer.render(
+        this.app,
+        "![[" + (0, import_obsidian4.normalizePath)(this.file.path) + "]]",
+        this.containerEl,
+        (0, import_obsidian4.normalizePath)(this.file.path),
+        this
+      );
+    } catch (error) {
+      return;
+    }
+  }
+};
+
+// src/modals/dnspecialbacklinksmodal.ts
+var ITEMS_PER_PAGE = 5;
+var DNSpecialBacklinksModal = class extends import_obsidian5.Modal {
+  constructor(app, modal, _targetFile) {
     super(app);
+    this._previewComponents = [];
+    this._currentPage = 1;
+    this._targetFile = _targetFile;
+    this._backlinks = getBacklinksToFile(this._targetFile);
+    this._backlinks.sort((a, b) => b.stat.mtime - a.stat.mtime);
+    this._dn_modal = modal;
+  }
+  onOpen() {
+    this.renderContent();
+  }
+  onClose() {
+    const { contentEl } = this;
+    this._previewComponents.forEach((comp) => comp.onunload());
+    this._previewComponents = [];
+    contentEl.empty();
+  }
+  reloadContent() {
+    this._backlinks = getBacklinksToFile(this._targetFile);
+    this._backlinks.sort((a, b) => b.stat.mtime - a.stat.mtime);
+    this.renderContent();
+  }
+  renderContent() {
+    const { contentEl } = this;
+    contentEl.empty();
+    const topStickyContainer = contentEl.createEl("div", { cls: "dn-modal-sticky" });
+    const btnClosePreview = topStickyContainer.createEl("div", { cls: "modal-close-button" });
+    btnClosePreview.onClickEvent(() => {
+      this.close();
+    });
+    topStickyContainer.createEl("div", { text: "Backlinks", cls: "setting-item setting-item-heading dn-modal-heading" });
+    const rowName = topStickyContainer.createEl("div", { cls: "dn-property-row" });
+    rowName.createEl("div", { text: "Target file: ", cls: "dn-property-name" });
+    rowName.createEl("div", { text: this._targetFile.name, cls: "dn-property-value" });
+    const rowPath = topStickyContainer.createEl("div", { cls: "dn-property-row" });
+    rowPath.createEl("div", { text: "Path: ", cls: "dn-property-name" });
+    rowPath.createEl("div", { text: getFolderStructure(this._targetFile.path), cls: "dn-property-value" });
+    const rowTotalBacklinks = topStickyContainer.createEl("div", { cls: "dn-property-row" });
+    rowTotalBacklinks.createEl("div", { text: "Total: ", cls: "dn-property-name" });
+    const total_backlinks = this._backlinks.length;
+    let total_backlinks_string = "";
+    if (total_backlinks === 1) {
+      total_backlinks_string = this._backlinks.length.toString() + " backlink";
+    } else {
+      total_backlinks_string = this._backlinks.length.toString() + " backlinks";
+    }
+    rowTotalBacklinks.createEl("div", { text: total_backlinks_string, cls: "dn-property-value" });
+    this.renderPagination(topStickyContainer);
+    const listContainer = contentEl.createEl("div", { cls: "dn-links-list-container" });
+    if (this._backlinks.length === 0) {
+      listContainer.createEl("div", { text: "No backlinks found." });
+      return;
+    }
+    const startIndex = (this._currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    const paginatedBacklinks = this._backlinks.slice(startIndex, endIndex);
+    paginatedBacklinks.forEach((backlinkFile) => {
+      const listItemDiv = listContainer.createEl("div", { cls: "dn-links-list-item" });
+      const fileHeader = listItemDiv.createEl("div", { text: backlinkFile.path, cls: "dn-link-file-header" });
+      const contentPreviewEl = listItemDiv.createEl("div", { cls: "dn-link-preview" });
+      const previewComponent = new DNPreviewComponent(this.app, contentPreviewEl, backlinkFile);
+      this._previewComponents.push(previewComponent);
+      previewComponent.onload();
+      fileHeader.addEventListener("click", (evt) => {
+        evt.preventDefault();
+        this.app.workspace.openLinkText(backlinkFile.path, this._targetFile.path);
+        this.close();
+        this._dn_modal.close();
+      });
+      fileHeader.addEventListener("contextmenu", (evt) => {
+        const menu = new import_obsidian5.Menu();
+        menu.addItem((item) => {
+          item.setTitle("Open").setIcon("mouse-pointer-2").onClick(() => {
+            this.app.workspace.openLinkText(backlinkFile.path, this._targetFile.path);
+            this.close();
+            this._dn_modal.close();
+          });
+        });
+        menu.addSeparator();
+        menu.addItem((item) => {
+          item.setTitle("Open in new tab").setIcon("file-plus").onClick(() => {
+            this.app.workspace.openLinkText(backlinkFile.path, this._targetFile.path, "tab");
+          });
+        });
+        menu.addItem((item) => {
+          item.setTitle("Open to the right").setIcon("separator-vertical").onClick(() => {
+            this.app.workspace.openLinkText(backlinkFile.path, this._targetFile.path, "split");
+          });
+        });
+        menu.addItem((item) => {
+          item.setTitle("Open in new window").setIcon("picture-in-picture-2").onClick(() => {
+            this.app.workspace.openLinkText(backlinkFile.path, this._targetFile.path, "window");
+          });
+        });
+        menu.showAtMouseEvent(evt);
+      });
+    });
+  }
+  renderPagination(parentEl) {
+    const totalPages = Math.ceil(this._backlinks.length / ITEMS_PER_PAGE);
+    const paginationDiv = parentEl.createEl("div", { cls: "dn-modal-sticky-pagination" });
+    if (totalPages > 0) {
+      const btnReload = paginationDiv.createEl("button", { cls: "dn-btn-next", text: "Reload", title: "Reload content" });
+      btnReload.addEventListener("click", () => {
+        this.reloadContent();
+      });
+      paginationDiv.createEl("span", {
+        text: `Page ${this._currentPage} of ${totalPages}`,
+        cls: "pagination-status"
+      });
+      const btnPrev = paginationDiv.createEl("button", { cls: "dn-btn-prev", text: "\u25C0", title: "Previous" });
+      btnPrev.disabled = this._currentPage === 1;
+      btnPrev.addEventListener("click", () => {
+        this._currentPage -= 1;
+        this.renderContent();
+      });
+      const btnNext = paginationDiv.createEl("button", { cls: "dn-btn-next", text: "\u25B6", title: "Next" });
+      btnNext.disabled = this._currentPage === totalPages;
+      btnNext.addEventListener("click", () => {
+        this._currentPage += 1;
+        this.renderContent();
+      });
+    }
+  }
+};
+
+// src/modals/dnspecialoutgoinglinksmodal.ts
+var import_obsidian6 = require("obsidian");
+var ITEMS_PER_PAGE2 = 5;
+var DNSpecialOutgoingLinksModal = class extends import_obsidian6.Modal {
+  constructor(app, modal, _originFile) {
+    super(app);
+    this._previewComponents = [];
+    this._currentPage = 1;
+    this._originFile = _originFile;
+    this._outgoingLinks = getOutgoingLinks(this._originFile);
+    this._outgoingLinks.sort((a, b) => b.stat.mtime - a.stat.mtime);
+    this._dn_modal = modal;
+  }
+  onOpen() {
+    this.renderContent();
+  }
+  onClose() {
+    const { contentEl } = this;
+    this._previewComponents.forEach((comp) => comp.onunload());
+    this._previewComponents = [];
+    contentEl.empty();
+  }
+  reloadContent() {
+    this._outgoingLinks = getOutgoingLinks(this._originFile);
+    this._outgoingLinks.sort((a, b) => b.stat.mtime - a.stat.mtime);
+    this.renderContent();
+  }
+  renderContent() {
+    const { contentEl } = this;
+    contentEl.empty();
+    const topStickyContainer = contentEl.createEl("div", { cls: "dn-modal-sticky" });
+    const btnClosePreview = topStickyContainer.createEl("div", { cls: "modal-close-button" });
+    btnClosePreview.onClickEvent(() => {
+      this.close();
+    });
+    topStickyContainer.createEl("div", { text: "Outgoing links", cls: "setting-item setting-item-heading dn-modal-heading" });
+    const rowName = topStickyContainer.createEl("div", { cls: "dn-property-row" });
+    rowName.createEl("div", { text: "Origin file: ", cls: "dn-property-name" });
+    rowName.createEl("div", { text: this._originFile.name, cls: "dn-property-value" });
+    const rowPath = topStickyContainer.createEl("div", { cls: "dn-property-row" });
+    rowPath.createEl("div", { text: "Path: ", cls: "dn-property-name" });
+    rowPath.createEl("div", { text: getFolderStructure(this._originFile.path), cls: "dn-property-value" });
+    const rowTotalOutgoingLinks = topStickyContainer.createEl("div", { cls: "dn-property-row" });
+    rowTotalOutgoingLinks.createEl("div", { text: "Total: ", cls: "dn-property-name" });
+    const total_olinks = this._outgoingLinks.length;
+    let total_olinks_string = "";
+    if (total_olinks === 1) {
+      total_olinks_string = this._outgoingLinks.length.toString() + " outgoing link";
+    } else {
+      total_olinks_string = this._outgoingLinks.length.toString() + " outgoing links";
+    }
+    rowTotalOutgoingLinks.createEl("div", { text: total_olinks_string, cls: "dn-property-value" });
+    this.renderPagination(topStickyContainer);
+    const listContainer = contentEl.createEl("div", { cls: "dn-links-list-container" });
+    if (this._outgoingLinks.length === 0) {
+      listContainer.createEl("div", { text: "No outgoing links found." });
+      return;
+    }
+    const startIndex = (this._currentPage - 1) * ITEMS_PER_PAGE2;
+    const endIndex = startIndex + ITEMS_PER_PAGE2;
+    const paginatedOLinks = this._outgoingLinks.slice(startIndex, endIndex);
+    paginatedOLinks.forEach((oLinkFile) => {
+      const listItemDiv = listContainer.createEl("div", { cls: "dn-links-list-item" });
+      const fileHeader = listItemDiv.createEl("div", { text: oLinkFile.path, cls: "dn-link-file-header" });
+      const contentPreviewEl = listItemDiv.createEl("div", { cls: "dn-link-preview" });
+      const previewComponent = new DNPreviewComponent(this.app, contentPreviewEl, oLinkFile);
+      this._previewComponents.push(previewComponent);
+      previewComponent.onload();
+      fileHeader.addEventListener("click", (evt) => {
+        evt.preventDefault();
+        this.app.workspace.openLinkText(oLinkFile.path, this._originFile.path);
+        this.close();
+        this._dn_modal.close();
+      });
+      fileHeader.addEventListener("contextmenu", (evt) => {
+        const menu = new import_obsidian6.Menu();
+        menu.addItem((item) => {
+          item.setTitle("Open").setIcon("mouse-pointer-2").onClick(() => {
+            this.app.workspace.openLinkText(oLinkFile.path, this._originFile.path);
+            this.close();
+            this._dn_modal.close();
+          });
+        });
+        menu.addSeparator();
+        menu.addItem((item) => {
+          item.setTitle("Open in new tab").setIcon("file-plus").onClick(() => {
+            this.app.workspace.openLinkText(oLinkFile.path, this._originFile.path, "tab");
+          });
+        });
+        menu.addItem((item) => {
+          item.setTitle("Open to the right").setIcon("separator-vertical").onClick(() => {
+            this.app.workspace.openLinkText(oLinkFile.path, this._originFile.path, "split");
+          });
+        });
+        menu.addItem((item) => {
+          item.setTitle("Open in new window").setIcon("picture-in-picture-2").onClick(() => {
+            this.app.workspace.openLinkText(oLinkFile.path, this._originFile.path, "window");
+          });
+        });
+        menu.showAtMouseEvent(evt);
+      });
+    });
+  }
+  renderPagination(parentEl) {
+    const totalPages = Math.ceil(this._outgoingLinks.length / ITEMS_PER_PAGE2);
+    const paginationDiv = parentEl.createEl("div", { cls: "dn-modal-sticky-pagination" });
+    if (totalPages > 0) {
+      const btnReload = paginationDiv.createEl("button", { cls: "dn-btn-next", text: "Reload", title: "Reload content" });
+      btnReload.addEventListener("click", () => {
+        this.reloadContent();
+      });
+      paginationDiv.createEl("span", {
+        text: `Page ${this._currentPage} of ${totalPages}`,
+        cls: "pagination-status"
+      });
+      const btnPrev = paginationDiv.createEl("button", { cls: "dn-btn-prev", text: "\u25C0", title: "Previous" });
+      btnPrev.disabled = this._currentPage === 1;
+      btnPrev.addEventListener("click", () => {
+        this._currentPage -= 1;
+        this.renderContent();
+      });
+      const btnNext = paginationDiv.createEl("button", { cls: "dn-btn-next", text: "\u25B6", title: "Next" });
+      btnNext.disabled = this._currentPage === totalPages;
+      btnNext.addEventListener("click", () => {
+        this._currentPage += 1;
+        this.renderContent();
+      });
+    }
+  }
+};
+
+// src/dn.ts
+var DNModal = class extends import_obsidian7.Modal {
+  constructor(app, plugin, _dataManager) {
+    super(app);
+    this._dataManager = _dataManager;
+    this._recent_files_tags = [];
     this._sort_order = "desc";
     this._sort_column = "modified";
     this._selected_category = "";
@@ -762,13 +1235,19 @@ var DNModal = class extends import_obsidian2.Modal {
     this.color_audios = "#bfbf00";
     this.color_pdf = "#00a300";
     this.color_other = "#828282";
+    this.color_bases = "#00a3a3";
     this.colored_files = false;
     // Hide columns
     this.hide_columns = [];
     this.image_thumbnail = false;
     this.show_dashboard_piechart = true;
     this.onclose_search = "";
-    this._previewComponent = new import_obsidian2.Component();
+    this._previewComponent = new import_obsidian7.Component();
+    this.tags_sidebar_sorted_by_frequency = false;
+    this.tagsCurrentPage = 0;
+    this.filteredPrimaryTagNotes = [];
+    this.tags_sidebar = true;
+    this.primary_tags_results_visible = true;
     this.dnHandleIntersection = (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) {
@@ -784,6 +1263,11 @@ var DNModal = class extends import_obsidian2.Modal {
   async onOpen() {
     var _a;
     const { contentEl } = this;
+    this._data = await this._dataManager.getDataCache(
+      this.app,
+      this.excluded_extensions,
+      this.excluded_folders
+    );
     this._previewComponent.load();
     this._hoverDiv = this.contentEl.createEl("div", { cls: "dn-preview" });
     this._hoverDiv.addEventListener("click", (evt) => {
@@ -791,11 +1275,13 @@ var DNModal = class extends import_obsidian2.Modal {
       evt.stopImmediatePropagation();
     });
     await this.updateModalData();
+    this._bookmarks = await this._dataManager.getBookmarkedVaultFiles(this.app, this.excluded_extensions, this.excluded_folders);
+    this._last_opened = this._dataManager.getLastOpenedFiles(this.app);
     const leaf = (_a = this.app.workspace) == null ? void 0 : _a.getMostRecentLeaf();
     if (leaf !== null) {
       this._leaf = leaf;
     }
-    this.dnCreateMainUI(contentEl);
+    await this.dnCreateMainUI(contentEl);
     this.dnSetView(this.default_view);
     this.dnSetSelectLayoutValue(this.selected_table_layout);
     this.dnSetSelectSortValue(this.selected_sort_value);
@@ -809,51 +1295,20 @@ var DNModal = class extends import_obsidian2.Modal {
     }
   }
   async updateModalData() {
-    this._files = [];
-    this._folders = [];
-    this._recent = [];
-    this._last_opened = [];
-    this._bookmarks = [];
-    this._notes = [];
-    this._images = [];
-    this._canvas = [];
-    this._audios = [];
-    this._videos = [];
-    this._pdf = [];
-    this._other = [];
-    const dnFilesAndFolders = this.app.vault.getAllLoadedFiles();
-    for (const absF of dnFilesAndFolders) {
-      if (absF instanceof import_obsidian2.TFile) {
-        this._files.push(absF);
-      } else if (absF instanceof import_obsidian2.TFolder && !absF.isRoot()) {
-        this._folders.push(absF);
-      }
-    }
-    this._files_excluded_filters = this._files.filter(
-      (file) => {
-        return !this.excluded_extensions.includes(file.extension.toLowerCase()) && !this.excluded_folders.some((folder) => file.path.startsWith(folder));
-      }
-    );
+    this._files = this._data.all_files;
+    this._folders = this._data.folders;
+    this._notes = this._data.notes;
+    this._images = this._data.images;
+    this._canvas = this._data.canvas;
+    this._audios = this._data.audios;
+    this._videos = this._data.videos;
+    this._bases = this._data.bases;
+    this._pdf = this._data.pdf;
+    this._other = this._data.other;
+    this._files_excluded_filters = this._data.filtered_files;
     this._files_results = this._files_excluded_filters;
-    await this.dnOrganizeFiles({ arr: this._files_excluded_filters });
-    this._recent = await this.dnGetRecentFiles(this._files_excluded_filters);
-    const arrStrLastOpened = this.app.workspace.getLastOpenFiles();
-    arrStrLastOpened.forEach(async (file) => {
-      const f_temp = await this.app.vault.getAbstractFileByPath(file);
-      if (f_temp instanceof import_obsidian2.TFile) {
-        this._last_opened.push(f_temp);
-      }
-    });
-    const bookmarksJsonContent = await this.app.vault.adapter.read(".obsidian/bookmarks.json");
-    const arrBookmarks = dnGetBookmarkedFiles(bookmarksJsonContent);
-    if (Array.isArray(arrBookmarks) && arrBookmarks.length > 0) {
-      arrBookmarks.forEach(async (file) => {
-        const f_bookmarked = await this.app.vault.getAbstractFileByPath(file);
-        if (f_bookmarked instanceof import_obsidian2.TFile) {
-          this._bookmarks.push(f_bookmarked);
-        }
-      });
-    }
+    this._recent = await this.dnGetRecentFiles(this._files_excluded_filters, this.num_recent_files);
+    this._recent_files_tags = await this.dnGetRecentFiles(this._notes, 10);
   }
   async dnCreateMainUI(el) {
     const mainContainer = el.createEl("div", { cls: "dn-container" });
@@ -863,14 +1318,25 @@ var DNModal = class extends import_obsidian2.Modal {
     const leftTopNav = topNav.createEl("div");
     const rightTopNav = topNav.createEl("div");
     this._BTN_DASHBOARD = leftTopNav.createEl("button", { text: "Dashboard", cls: "mod-cta" });
+    this._BTN_DASHBOARD.setAttribute("aria-label", "Dashboard view");
+    this._BTN_DASHBOARD.setAttribute("data-tooltip-position", "bottom");
     this._BTN_DASHBOARD.onClickEvent((evt) => {
       this.dnSetView(1);
     });
     this._BTN_NAVIGATOR = leftTopNav.createEl("button", { text: "Navigator" });
+    this._BTN_NAVIGATOR.setAttribute("aria-label", "Navigator view");
+    this._BTN_NAVIGATOR.setAttribute("data-tooltip-position", "bottom");
     this._BTN_NAVIGATOR.onClickEvent((evt) => {
       this.dnModalSearchVault(this.INPUT_SEARCH.value);
       this.dnSetView(2);
     });
+    this._BTN_TAGS = leftTopNav.createEl("button", { text: "Tags" });
+    this._BTN_TAGS.setAttribute("aria-label", "Tags dashboard view");
+    this._BTN_TAGS.setAttribute("data-tooltip-position", "bottom");
+    this._BTN_TAGS.onClickEvent((evt) => {
+      this.dnSetView(3);
+    });
+    this._BTN_TAGS.setAttribute("id", "btn-tags");
     this.labelLayout = rightTopNav.createEl("span", {
       text: "Layout:",
       cls: "dn-tbl-label"
@@ -909,10 +1375,15 @@ var DNModal = class extends import_obsidian2.Modal {
     this._SELECT_SORT.createEl("option", { text: "Size (largest to smallest)", value: "size-desc" });
     this._SELECT_SORT.createEl("option", { text: "Date/time (oldest to newest)", value: "modified-asc" });
     this._SELECT_SORT.createEl("option", { text: "Date/time (newest to oldest)", value: "modified-desc" });
+    this._SELECT_SORT.createEl("option", { text: "Backlinks (lowest to highest)", value: "backlinks-asc" });
+    this._SELECT_SORT.createEl("option", { text: "Backlinks (highest to lowest)", value: "backlinks-desc" });
+    this._SELECT_SORT.createEl("option", { text: "Outgoing links (lowest to highest)", value: "outgoing-asc" });
+    this._SELECT_SORT.createEl("option", { text: "Outgoing links (highest to lowest)", value: "outgoing-desc" });
     this._VIEW_DASHBOARD = mainContainer.createEl("div", { cls: "dn-flex" });
     this._VIEW_NAVIGATOR = mainContainer.createEl("div", { cls: "dn-display-none" });
+    this._VIEW_TAGS = mainContainer.createEl("div", { cls: "dn-display-none" });
     this._divSearchResults = this._VIEW_NAVIGATOR.createEl("div", { cls: "dn-div-table" });
-    this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
+    await this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
     const divVaultStats = this._VIEW_DASHBOARD.createEl("div");
     divVaultStats.setAttribute("id", "dn-vault-stats");
     if (this.show_dashboard_piechart) {
@@ -925,6 +1396,7 @@ var DNModal = class extends import_obsidian2.Modal {
       const pieChart1 = new DNPieChart(canvasPieChart1, 10, 12, 50, labelColor);
       pieChart1.addData(this._notes.length, this.color_notes, "Notes");
       pieChart1.addData(this._images.length, this.color_images, "Images");
+      pieChart1.addData(this._bases.length, this.color_bases, "Bases");
       pieChart1.addData(this._canvas.length, this.color_canvas, "Canvases");
       pieChart1.addData(this._videos.length, this.color_videos, "Videos");
       pieChart1.addData(this._audios.length, this.color_audios, "Audio files");
@@ -943,6 +1415,8 @@ var DNModal = class extends import_obsidian2.Modal {
     divRecentFiles.setAttribute("id", "dn-recent-files");
     const divRecentNotes = this._VIEW_DASHBOARD.createEl("div");
     divRecentNotes.setAttribute("id", "dn-recent-notes");
+    const divBases = this._VIEW_DASHBOARD.createEl("div");
+    divBases.setAttribute("id", "dn-bases");
     const divCanvas = this._VIEW_DASHBOARD.createEl("div");
     divCanvas.setAttribute("id", "dn-canvas");
     const divImages = this._VIEW_DASHBOARD.createEl("div");
@@ -968,6 +1442,14 @@ var DNModal = class extends import_obsidian2.Modal {
       "dn-btn-canvas",
       "Canvases",
       this._canvas,
+      this._divSearchResults,
+      this._leaf
+    );
+    await this.dnCreateBtn(
+      divVaultStats,
+      "dn-btn-bases",
+      "Bases",
+      this._bases,
       this._divSearchResults,
       this._leaf
     );
@@ -1015,12 +1497,86 @@ var DNModal = class extends import_obsidian2.Modal {
     await this.dnCreateRecentFiles("Recently opened", divLastOpenedFiles, this._last_opened, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent files", divRecentFiles, this._recent, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent notes", divRecentNotes, this._notes, this.num_recent_files);
+    await this.dnCreateRecentFiles("Recent bases", divBases, this._bases, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent canvases", divCanvas, this._canvas, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent images", divImages, this._images, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent audio files", divAudios, this._audios, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent videos", divVideos, this._videos, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent PDFs", divPDFs, this._pdf, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent other files", divOther, this._other, this.num_recent_files);
+    const tagsMainSearchContainer = this._VIEW_TAGS.createEl("div", { cls: "dn-td-main-search-container" });
+    const tagsSearchLeftDiv = tagsMainSearchContainer.createEl("div", { cls: "dn-search-input-container-left-div" });
+    this.TAGS_INPUT_SEARCH = tagsSearchLeftDiv.createEl("input", {
+      type: "search",
+      placeholder: "Search for tag(s)...",
+      cls: "dn-td-tag-search-input"
+    });
+    this.TAGS_INPUT_SEARCH.spellcheck = false;
+    this.BTN_CLEAR_TAGS_INPUT_SEARCH = tagsSearchLeftDiv.createEl("div", { cls: "search-input-clear-button" });
+    this.BTN_CLEAR_TAGS_INPUT_SEARCH.setAttribute("aria-label", "Clear search");
+    this.BTN_CLEAR_TAGS_INPUT_SEARCH.onClickEvent((evt) => {
+      this.clearTagsSearchField();
+    });
+    const tagsSearchRightDiv = tagsMainSearchContainer.createEl("div", { cls: "dn-search-input-container-right-div" });
+    const btnSearchInNavigator = tagsSearchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
+    btnSearchInNavigator.setAttribute("id", "dn-tags-btn-search-navigator");
+    btnSearchInNavigator.setAttribute("aria-label", "Search in Navigator");
+    btnSearchInNavigator.setAttribute("data-tooltip-position", "bottom");
+    btnSearchInNavigator.onClickEvent((evt) => {
+      if (this.TAGS_INPUT_SEARCH.value) {
+        this.INPUT_SEARCH.value = this.TAGS_INPUT_SEARCH.value;
+        const inputEvent = new Event("input", { bubbles: true });
+        this.INPUT_SEARCH.dispatchEvent(inputEvent);
+      } else {
+        new import_obsidian7.Notice("Please type a tag or multiple tags to search in Navigator.");
+      }
+    });
+    const btnTagsSidebar = tagsSearchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
+    btnTagsSidebar.setAttribute("id", "dn-tags-btn-sidebar");
+    btnTagsSidebar.setAttribute("aria-label", "Toggle tags sidebar");
+    btnTagsSidebar.setAttribute("data-tooltip-position", "bottom");
+    btnTagsSidebar.onClickEvent((evt) => {
+      this.tags_sidebar = !this.tags_sidebar;
+      this.TAGS_SIDEBAR_EL.classList.toggle("dn-hidden", !this.tags_sidebar);
+    });
+    this.TAGS_FIRST_COL_EL = this._VIEW_TAGS.createEl("div", { cls: "dn-td-first-col" });
+    this.TAGS_RECENT_FILES_EL = this.TAGS_FIRST_COL_EL.createEl("div", { cls: "dn-td-recent-notes-div" });
+    this.TAGS_RESULTS_EL = this.TAGS_FIRST_COL_EL.createEl("div", { cls: "dn-td-primary-tags-div" });
+    this.TAGS_SIDEBAR_EL = this._VIEW_TAGS.createEl("div", { cls: "dn-td-second-col" });
+    if (this.tags_sidebar) {
+      this.TAGS_SIDEBAR_EL.classList.remove("dn-hidden");
+    } else {
+      this.TAGS_SIDEBAR_EL.classList.add("dn-hidden");
+    }
+    this.TAGS_RECENT_FILES_EL.createEl("h3", { text: "Recent notes & tags", cls: "dn-subtitles" });
+    if (this._recent_files_tags) {
+      this._recent_files_tags.forEach((file) => {
+        const tagsRecentNoteItem = this.TAGS_RECENT_FILES_EL.createEl("div", { cls: "dn-td-recent-note-item" });
+        const tdRecentNoteLink = tagsRecentNoteItem.createEl("a", { text: file.basename, title: file.path, cls: "dn-f-note" });
+        tdRecentNoteLink.onClickEvent((evt) => {
+          if (file !== null) {
+            this.dnOpenFileAlt(file, evt);
+          }
+        });
+        tdRecentNoteLink.addEventListener("mouseover", (evt) => this.dnHandleHoverPreview(evt, file));
+        const tags_per_recent_file = getTagsPerFile(file);
+        tagsRecentNoteItem.createEl("br");
+        if (tags_per_recent_file !== "") {
+          const tdFileTags = tags_per_recent_file.split(" ");
+          tdFileTags.forEach((tag) => {
+            tagsRecentNoteItem.createEl("a", { cls: "tag", text: tag, href: tag }).onClickEvent((evt) => {
+              this.handleTagActionsTagsDashboard(evt, tag);
+            });
+          });
+        } else {
+          tagsRecentNoteItem.createEl("span", { text: "No tags" });
+        }
+      });
+    }
+    this.generateTagsSidebar(this.TAGS_SIDEBAR_EL, this._data.tags);
+    this.TAGS_INPUT_SEARCH.addEventListener("input", (0, import_obsidian7.debounce)(() => this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value), 300, true));
+    this._dnTagSuggestions = new DNTagSuggestions(this.app, this.TAGS_INPUT_SEARCH, this._data.tagNames);
+    this._dnMainSearchTagSuggestions = new DNTagSuggestions(this.app, this.INPUT_SEARCH, this._data.tagNames);
   }
   async dnCreateBtn(elDiv, btnId, btnTitle, btnCategoryFiles, displayEl, leaf) {
     const btn = elDiv.createEl("div", { cls: "dn-btn-stats" });
@@ -1037,45 +1593,69 @@ var DNModal = class extends import_obsidian2.Modal {
     return btn;
   }
   dnCreateInputSearch(el) {
-    const searchContainer = el.createEl("div", { cls: "dn-search-input-container" });
-    const searchLeftDiv = searchContainer.createEl("div", { cls: "dn-search-input-container-left-div" });
+    this.SEARCH_INPUT_CONTAINER = el.createEl("div", { cls: "dn-search-input-container" });
+    const searchLeftDiv = this.SEARCH_INPUT_CONTAINER.createEl("div", { cls: "dn-search-input-container-left-div" });
     this.INPUT_SEARCH = searchLeftDiv.createEl("input", { type: "search", placeholder: "Search..." });
     this.INPUT_SEARCH.setAttribute("id", "dn-input-filter");
     this.INPUT_SEARCH.spellcheck = false;
     this.INPUT_SEARCH.focus();
-    searchLeftDiv.createEl("div", { cls: "search-input-clear-button" }).onClickEvent((evt) => {
+    this.BTN_CLEAR_INPUT_SEARCH = searchLeftDiv.createEl("div", { cls: "search-input-clear-button" });
+    this.BTN_CLEAR_INPUT_SEARCH.setAttribute("aria-label", "Clear search");
+    this.BTN_CLEAR_INPUT_SEARCH.onClickEvent((evt) => {
       this.clearSearchField();
     });
-    const searchRightDiv = searchContainer.createEl("div", { cls: "dn-search-input-container-right-div" });
+    const searchRightDiv = this.SEARCH_INPUT_CONTAINER.createEl("div", { cls: "dn-search-input-container-right-div" });
     const topBtnAddSearch = searchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
     topBtnAddSearch.setAttribute("id", "dn-top-btn-add");
+    topBtnAddSearch.setAttribute("aria-label", "Save search");
+    topBtnAddSearch.setAttribute("data-tooltip-position", "bottom");
     topBtnAddSearch.onClickEvent((evt) => {
       this.plugin.DN_SAVE_SEARCH_MODAL.open();
     });
     const topBtnSaved = searchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
     topBtnSaved.setAttribute("id", "dn-top-btn-saved");
+    topBtnSaved.setAttribute("aria-label", "Saved searches");
+    topBtnSaved.setAttribute("data-tooltip-position", "bottom");
     topBtnSaved.onClickEvent((evt) => {
       this.plugin.DN_SAVED_SEARCHES_MODAL.open();
     });
     const topBtnQuickDisplayOptions = searchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
     topBtnQuickDisplayOptions.setAttribute("id", "dn-top-btn-table-columns");
+    topBtnQuickDisplayOptions.setAttribute("aria-label", "Quick display options");
+    topBtnQuickDisplayOptions.setAttribute("data-tooltip-position", "bottom");
     topBtnQuickDisplayOptions.onClickEvent((evt) => {
       this.plugin.DN_QUICK_DISPLAY_OPTIONS_MODAL.open();
     });
     const topBtnInfo = searchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
     topBtnInfo.setAttribute("id", "dn-top-btn-info");
+    topBtnInfo.setAttribute("aria-label", "Quick reference/help");
+    topBtnInfo.setAttribute("data-tooltip-position", "bottom");
     topBtnInfo.onClickEvent((evt) => {
       this.plugin.DN_INFO_MODAL.open();
     });
-    this.INPUT_SEARCH.addEventListener("input", (0, import_obsidian2.debounce)(() => this.dnModalSearchVault(this.INPUT_SEARCH.value), 300, true));
+    this.INPUT_SEARCH.addEventListener("input", (0, import_obsidian7.debounce)(() => this.dnModalSearchVault(this.INPUT_SEARCH.value), 300, true));
   }
   clearSearchField() {
     this.INPUT_SEARCH.value = "";
+    this.BTN_CLEAR_INPUT_SEARCH.style.display = "none";
     this.INPUT_SEARCH.focus();
     this.dnModalSearchVault(this.INPUT_SEARCH.value);
   }
+  clearTagsSearchField() {
+    this.TAGS_INPUT_SEARCH.value = "";
+    this.BTN_CLEAR_TAGS_INPUT_SEARCH.style.display = "none";
+    this.TAGS_INPUT_SEARCH.focus();
+    this.modalEl.scrollTo({ top: 0, behavior: "smooth" });
+    this.TAGS_SIDEBAR_EL.scrollTo({ top: 0, behavior: "smooth" });
+    this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
+  }
   async dnModalSearchVault(val) {
     this.dnSetView(2);
+    if (val === "") {
+      this.BTN_CLEAR_INPUT_SEARCH.style.display = "none";
+    } else {
+      this.BTN_CLEAR_INPUT_SEARCH.style.display = "flex";
+    }
     const search_raw_vals = /!(?:"(?:\\"|[^"])*"|'(?:\\'|[^'])*')|"(?:\\"|[^"])*"|'(?:\\'|[^'])*'|\S+/g;
     let searchParams = val.toLowerCase().trim().match(search_raw_vals);
     if (!searchParams) {
@@ -1139,7 +1719,7 @@ var DNModal = class extends import_obsidian2.Modal {
         });
       } else {
         this._files_results = files.filter((file) => {
-          isMatch = file.name.toLowerCase().includes(excludeParam) || getFolderStructure(file.path).toLowerCase().includes(excludeParam) || (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format).toLowerCase().includes(excludeParam) || getTagsPerFile(file).toLowerCase().includes(excludeParam) || getPropsPerFile(file).toLowerCase().includes(excludeParam);
+          isMatch = file.name.toLowerCase().includes(excludeParam) || getFolderStructure(file.path).toLowerCase().includes(excludeParam) || (0, import_obsidian8.moment)(file.stat.mtime).format(this.date_format).toLowerCase().includes(excludeParam) || getTagsPerFile(file).toLowerCase().includes(excludeParam) || getPropsPerFile(file).toLowerCase().includes(excludeParam);
           return isExcludeSearch ? !isMatch : isMatch;
         });
       }
@@ -1202,11 +1782,15 @@ var DNModal = class extends import_obsidian2.Modal {
     this._th5 = tr.createEl("th", { text: "Date", cls: "dn-th-date" });
     this._th6 = tr.createEl("th", { text: "Tags", cls: "dn-th-tags" });
     this._th7 = tr.createEl("th", { text: "Frontmatter", cls: "dn-th-frontmatter" });
+    this._th_bl = tr.createEl("th", { text: "BL", cls: "dn-th-backlinks" });
+    this._th_ol = tr.createEl("th", { text: "OL", cls: "dn-th-outgoing-links" });
     this._th1.addEventListener("dblclick", () => this.dnAlternateSortColumn("name"));
     this._th2.addEventListener("dblclick", () => this.dnAlternateSortColumn("ext"));
     this._th3.addEventListener("dblclick", () => this.dnAlternateSortColumn("path"));
     this._th4.addEventListener("dblclick", () => this.dnAlternateSortColumn("size"));
     this._th5.addEventListener("dblclick", () => this.dnAlternateSortColumn("modified"));
+    this._th_bl.addEventListener("dblclick", () => this.dnAlternateSortColumn("backlinks"));
+    this._th_ol.addEventListener("dblclick", () => this.dnAlternateSortColumn("outgoing"));
     const tbody = table.createEl("tbody");
     tbody.setAttribute("id", "dn-table-results");
     if (f.length > 0) {
@@ -1215,7 +1799,7 @@ var DNModal = class extends import_obsidian2.Modal {
       }
       this._total_pages = Math.ceil(f.length / this.files_per_page);
       const paginatedData = f.slice((currentPage - 1) * this.files_per_page, currentPage * this.files_per_page);
-      paginatedData.forEach(async (file) => {
+      for (const file of paginatedData) {
         const tr2 = tbody.createEl("tr");
         tr2.addEventListener("contextmenu", (evt) => {
           this.dnHandleClick(evt, file);
@@ -1248,8 +1832,8 @@ var DNModal = class extends import_obsidian2.Modal {
         });
         const fExt = file.extension;
         const fSize = formatFileSize(file.stat.size);
-        const fMTime = (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format);
-        const fCTime = (0, import_obsidian3.moment)(file.stat.ctime).format(this.date_format);
+        const fMTime = (0, import_obsidian8.moment)(file.stat.mtime).format(this.date_format);
+        const fCTime = (0, import_obsidian8.moment)(file.stat.ctime).format(this.date_format);
         const td2 = tr2.createEl("td", { cls: "dn-td-ext" });
         td2.createEl("a", { cls: "dn-ext", text: fExt, title: fExt }).onClickEvent((evt) => {
           if (evt.button === 2) {
@@ -1296,7 +1880,13 @@ var DNModal = class extends import_obsidian2.Modal {
             });
           });
         }
-      });
+        const backlinks = getBacklinksToFile(file);
+        const num_of_backlinks = backlinks.length.toString();
+        tr2.createEl("td", { text: num_of_backlinks, cls: "dn-td-backlinks" });
+        const outgoing_links = getOutgoingLinks(file);
+        const num_of_outgoing_links = outgoing_links.length.toString();
+        tr2.createEl("td", { text: num_of_outgoing_links, cls: "dn-td-outgoing-links" });
+      }
       paginationContainer.empty();
       paginationContainer.createEl("div", { cls: "dn-pagination-total-results", text: `File(s): ${f.length} ` });
       const rightPagDiv = paginationContainer.createEl("div", { cls: "dn-pagination-current-page", text: `Page ${currentPage} of ${this._total_pages} ` });
@@ -1306,9 +1896,9 @@ var DNModal = class extends import_obsidian2.Modal {
       } else {
         btnPrev.disabled = false;
       }
-      btnPrev.addEventListener("click", () => {
+      btnPrev.addEventListener("click", async () => {
         if (currentPage > 1) {
-          this.dnShowModalSearchResults({ f, el, leaf, currentPage: currentPage - 1 });
+          await this.dnShowModalSearchResults({ f, el, leaf, currentPage: currentPage - 1 });
         }
       });
       const btnNext = rightPagDiv.createEl("button", { cls: "dn-btn-next", text: "\u25B6", title: "Next" });
@@ -1317,9 +1907,9 @@ var DNModal = class extends import_obsidian2.Modal {
       } else {
         btnNext.disabled = false;
       }
-      btnNext.addEventListener("click", () => {
+      btnNext.addEventListener("click", async () => {
         if (currentPage < this._total_pages) {
-          this.dnShowModalSearchResults({ f, el, leaf, currentPage: currentPage + 1 });
+          await this.dnShowModalSearchResults({ f, el, leaf, currentPage: currentPage + 1 });
         }
       });
       this.dnUpdateSortIndicators(
@@ -1329,7 +1919,9 @@ var DNModal = class extends import_obsidian2.Modal {
         this._th2,
         this._th3,
         this._th4,
-        this._th5
+        this._th5,
+        this._th_bl,
+        this._th_ol
       );
       const dnTableManager = new DNTableManager("#dn-table");
       dnTableManager.hideColumns(this.hide_columns);
@@ -1375,19 +1967,20 @@ var DNModal = class extends import_obsidian2.Modal {
       "mp4": "video",
       // PDF and other formats
       "pdf": "pdf",
-      "canvas": "canvas"
+      "canvas": "canvas",
+      "base": "base"
     };
     if (extensions[file_extension] === "image") {
-      tdThumbnail.setAttribute("class", "dn-thumbnail-image");
+      tdThumbnail.setAttribute("class", "dn-thumbnail-image dn-thumbnail-props");
       if (this.image_thumbnail) {
         const imgThumb = tdThumbnail.createEl("img");
-        imgThumb.setAttribute("src", this.app.vault.adapter.getResourcePath((0, import_obsidian2.normalizePath)(file.path)));
+        imgThumb.setAttribute("src", this.app.vault.adapter.getResourcePath((0, import_obsidian7.normalizePath)(file.path)));
         imgThumb.setAttribute("loading", "lazy");
       }
     } else if (extensions[file_extension] !== "image" && file_extension in extensions) {
-      tdThumbnail.setAttribute("class", "dn-thumbnail-" + extensions[file_extension]);
+      tdThumbnail.setAttribute("class", "dn-thumbnail-" + extensions[file_extension] + " dn-thumbnail-props");
     } else {
-      tdThumbnail.setAttribute("class", "dn-thumbnail-" + extensions[file_extension]);
+      tdThumbnail.setAttribute("class", "dn-thumbnail-other dn-thumbnail-props");
     }
   }
   async dnSortFilteredFiles(toggle) {
@@ -1399,11 +1992,13 @@ var DNModal = class extends import_obsidian2.Modal {
         break;
       case "size":
       case "modified":
+      case "backlinks":
+      case "outgoing":
         this.dnSortColumnNumber(this._sort_column, this._sort_order, toggle);
         break;
     }
   }
-  dnSortColumnWithSelect() {
+  async dnSortColumnWithSelect() {
     const val = this._SELECT_SORT.value;
     if (this.dnIsValidSort(val)) {
       const selSort = val.split("-");
@@ -1417,10 +2012,12 @@ var DNModal = class extends import_obsidian2.Modal {
           break;
         case "size":
         case "modified":
+        case "backlinks":
+        case "outgoing":
           this.dnSortColumnNumber(this._sort_column, this._sort_order, false);
           break;
       }
-      this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
+      await this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
     }
   }
   dnIsValidSort(val) {
@@ -1434,7 +2031,11 @@ var DNModal = class extends import_obsidian2.Modal {
       "size-asc",
       "size-desc",
       "modified-asc",
-      "modified-desc"
+      "modified-desc",
+      "backlinks-asc",
+      "backlinks-desc",
+      "outgoing-asc",
+      "outgoing-desc"
     ].includes(val)) {
       return true;
     } else {
@@ -1448,7 +2049,7 @@ var DNModal = class extends import_obsidian2.Modal {
       return false;
     }
   }
-  dnAlternateSortColumn(colName) {
+  async dnAlternateSortColumn(colName) {
     switch (colName) {
       case "name":
         this.dnSortColumnString("name", this._sort_order, true);
@@ -1465,15 +2066,23 @@ var DNModal = class extends import_obsidian2.Modal {
       case "modified":
         this.dnSortColumnNumber("modified", this._sort_order, true);
         break;
+      case "backlinks":
+        this.dnSortColumnNumber("backlinks", this._sort_order, true);
+        break;
+      case "outgoing":
+        this.dnSortColumnNumber("outgoing", this._sort_order, true);
+        break;
     }
-    this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
+    await this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
   }
-  dnUpdateSortIndicators(activeColumn, sortOrder, col1, col2, col3, col4, col5) {
+  dnUpdateSortIndicators(activeColumn, sortOrder, col1, col2, col3, col4, col5, col_bl, col_ol) {
     col1.classList.remove("sort-active", "sort-asc", "sort-desc");
     col2.classList.remove("sort-active", "sort-asc", "sort-desc");
     col3.classList.remove("sort-active", "sort-asc", "sort-desc");
     col4.classList.remove("sort-active", "sort-asc", "sort-desc");
     col5.classList.remove("sort-active", "sort-asc", "sort-desc");
+    col_bl.classList.remove("sort-active", "sort-asc", "sort-desc");
+    col_ol.classList.remove("sort-active", "sort-asc", "sort-desc");
     let activeThCell = col5;
     switch (activeColumn) {
       case "name":
@@ -1490,6 +2099,12 @@ var DNModal = class extends import_obsidian2.Modal {
         break;
       case "modified":
         activeThCell = col5;
+        break;
+      case "backlinks":
+        activeThCell = col_bl;
+        break;
+      case "outgoing":
+        activeThCell = col_ol;
         break;
     }
     activeThCell.classList.add("sort-active");
@@ -1545,7 +2160,7 @@ var DNModal = class extends import_obsidian2.Modal {
     });
   }
   dnSortColumnNumber(sortColumn, sortOrder, toggleSortOrder) {
-    const supportedColumns = ["size", "modified"];
+    const supportedColumns = ["size", "modified", "backlinks", "outgoing"];
     if (!supportedColumns.includes(sortColumn)) {
       return;
     }
@@ -1572,6 +2187,14 @@ var DNModal = class extends import_obsidian2.Modal {
           sortA = fileA.stat.mtime;
           sortB = fileB.stat.mtime;
           break;
+        case "backlinks":
+          sortA = getBacklinksToFile(fileA).length;
+          sortB = getBacklinksToFile(fileB).length;
+          break;
+        case "outgoing":
+          sortA = getOutgoingLinks(fileA).length;
+          sortB = getOutgoingLinks(fileB).length;
+          break;
       }
       if (sortOrder === "asc") {
         return sortA - sortB;
@@ -1582,9 +2205,9 @@ var DNModal = class extends import_obsidian2.Modal {
       }
     });
   }
-  async dnGetRecentFiles(files) {
+  async dnGetRecentFiles(files, num_files) {
     const arrRecentFiles = files;
-    return arrRecentFiles.sort((a, b) => b.stat.mtime - a.stat.mtime).slice(0, this.num_recent_files);
+    return arrRecentFiles.sort((a, b) => b.stat.mtime - a.stat.mtime).slice(0, num_files);
   }
   async dnCreateRecentFiles(title, divF, files, num_files) {
     if (files.length === 0) {
@@ -1599,7 +2222,7 @@ var DNModal = class extends import_obsidian2.Modal {
       } else if (title === "Bookmarks") {
         sortedFiles = files.slice(0, this.num_bookmarked_files);
       } else {
-        sortedFiles = await this.dnGetRecentFiles(files);
+        sortedFiles = await this.dnGetRecentFiles(files, this.num_recent_files);
       }
       sortedFiles.forEach((sfile) => {
         const aLink = divF.createEl("a", {
@@ -1619,66 +2242,6 @@ var DNModal = class extends import_obsidian2.Modal {
         aLink.addEventListener("mouseover", (evt) => this.dnHandleHoverPreview(evt, sfile));
       });
     }
-  }
-  async dnOrganizeFiles({ arr }) {
-    const arrNotes = [];
-    const arrImages = [];
-    const arrAudios = [];
-    const arrCanvas = [];
-    const arrVideos = [];
-    const arrPDFs = [];
-    const arrOther = [];
-    const extensions = {
-      "md": arrNotes,
-      // Images
-      "avif": arrImages,
-      "bmp": arrImages,
-      "gif": arrImages,
-      "ico": arrImages,
-      "jpeg": arrImages,
-      "jpg": arrImages,
-      "png": arrImages,
-      "raw": arrImages,
-      "svg": arrImages,
-      "tif": arrImages,
-      "tiff": arrImages,
-      "webp": arrImages,
-      // Audio files
-      "aac": arrAudios,
-      "aif": arrAudios,
-      "aifc": arrAudios,
-      "aiff": arrAudios,
-      "flac": arrAudios,
-      "m4a": arrAudios,
-      "mp3": arrAudios,
-      "ogg": arrAudios,
-      "wav": arrAudios,
-      "webm": arrAudios,
-      // Videos
-      "avi": arrVideos,
-      "mov": arrVideos,
-      "mkv": arrVideos,
-      "mp4": arrVideos,
-      // PDF and other formats
-      "pdf": arrPDFs,
-      "canvas": arrCanvas
-    };
-    for (let i = 0, len = arr.length; i < len; i++) {
-      const f = arr[i].extension.toLowerCase();
-      const targetArr = extensions[f];
-      if (targetArr) {
-        targetArr.push(arr[i]);
-      } else {
-        arrOther.push(arr[i]);
-      }
-    }
-    this._notes = arrNotes;
-    this._images = arrImages;
-    this._audios = arrAudios;
-    this._videos = arrVideos;
-    this._pdf = arrPDFs;
-    this._canvas = arrCanvas;
-    this._other = arrOther;
   }
   dnSetFileIconClass(ext) {
     const file_extension = ext.toLowerCase();
@@ -1715,7 +2278,8 @@ var DNModal = class extends import_obsidian2.Modal {
       "mp4": "video",
       // PDF and other formats
       "pdf": "pdf",
-      "canvas": "canvas"
+      "canvas": "canvas",
+      "base": "base"
     };
     if (file_extension in extensions) {
       return "dn-f-" + extensions[file_extension];
@@ -1732,6 +2296,7 @@ var DNModal = class extends import_obsidian2.Modal {
     document.body.style.setProperty("--dn-audios-color", this.color_audios);
     document.body.style.setProperty("--dn-pdfs-color", this.color_pdf);
     document.body.style.setProperty("--dn-other-color", this.color_other);
+    document.body.style.setProperty("--dn-bases-color", this.color_bases);
   }
   dnToggleColoredFiles() {
     const dnMainContainer = document.getElementById("dn-container");
@@ -1743,8 +2308,8 @@ var DNModal = class extends import_obsidian2.Modal {
     this.dnSetCustomColors();
   }
   dnSetView(view) {
-    const divElements = [this._VIEW_DASHBOARD, this._VIEW_NAVIGATOR];
-    const topNavBtns = [this._BTN_DASHBOARD, this._BTN_NAVIGATOR];
+    const divElements = [this._VIEW_DASHBOARD, this._VIEW_NAVIGATOR, this._VIEW_TAGS];
+    const topNavBtns = [this._BTN_DASHBOARD, this._BTN_NAVIGATOR, this._BTN_TAGS];
     divElements.forEach((el) => {
       el.classList.add("dn-display-none");
       el.classList.remove("dn-flex");
@@ -1756,18 +2321,28 @@ var DNModal = class extends import_obsidian2.Modal {
         this._VIEW_DASHBOARD.classList.add("dn-flex");
         this._BTN_DASHBOARD.classList.add("mod-cta");
         this.dnHideTopRightNav();
+        this.INPUT_SEARCH.focus();
         break;
       case 2:
         this._VIEW_NAVIGATOR.classList.remove("dn-display-none");
         this._VIEW_NAVIGATOR.classList.add("dn-flex");
         this._BTN_NAVIGATOR.classList.add("mod-cta");
         this.dnShowTopRightNav();
+        this.INPUT_SEARCH.focus();
+        break;
+      case 3:
+        this._VIEW_TAGS.classList.remove("dn-display-none");
+        this._VIEW_TAGS.classList.add("dn-flex");
+        this._BTN_TAGS.classList.add("mod-cta");
+        this.dnHideTopRightNav();
+        this.TAGS_INPUT_SEARCH.focus();
         break;
       default:
         this._VIEW_DASHBOARD.classList.remove("dn-display-none");
         this._VIEW_DASHBOARD.classList.add("dn-flex");
         this._BTN_DASHBOARD.classList.add("mod-cta");
         this.dnHideTopRightNav();
+        this.INPUT_SEARCH.focus();
     }
   }
   dnShowTopRightNav() {
@@ -1815,7 +2390,7 @@ var DNModal = class extends import_obsidian2.Modal {
     }
   }
   dnGenerateContextMenu(evt, file) {
-    this._DN_CTX_MENU = new import_obsidian2.Menu();
+    this._DN_CTX_MENU = new import_obsidian7.Menu();
     this._DN_CTX_MENU.addItem(
       (item) => item.setTitle("Open").setIcon("mouse-pointer-2").onClick(() => {
         this.app.workspace.getLeaf(false).openFile(file);
@@ -1848,10 +2423,23 @@ var DNModal = class extends import_obsidian2.Modal {
     );
     this._DN_CTX_MENU.addSeparator();
     this._DN_CTX_MENU.addItem(
-      (item) => item.setTitle("Tags").setIcon("tags").onClick(() => {
-        const tagsModal = new import_obsidian2.Modal(this.app);
+      (item) => item.setTitle("Backlinks").setIcon("links-coming-in").onClick(() => {
+        const backlinksModal = new DNSpecialBacklinksModal(this.app, this, file);
+        backlinksModal.open();
+      })
+    );
+    this._DN_CTX_MENU.addItem(
+      (item) => item.setTitle("Outgoing links").setIcon("links-going-out").onClick(() => {
+        const outgoingLinksModal = new DNSpecialOutgoingLinksModal(this.app, this, file);
+        outgoingLinksModal.open();
+      })
+    );
+    this._DN_CTX_MENU.addSeparator();
+    this._DN_CTX_MENU.addItem(
+      (item) => item.setTitle("File tags").setIcon("tags").onClick(() => {
+        const tagsModal = new import_obsidian7.Modal(this.app);
         tagsModal.contentEl.setAttribute("class", "dn-tags-modal");
-        tagsModal.contentEl.createEl("div", { text: "Tags", cls: "setting-item setting-item-heading dn-modal-heading" });
+        tagsModal.contentEl.createEl("div", { text: "File tags", cls: "setting-item setting-item-heading dn-modal-heading" });
         const rowName = tagsModal.contentEl.createEl("div", { cls: "dn-property-row" });
         rowName.createEl("div", { text: "Name: ", cls: "dn-property-name-sm" });
         rowName.createEl("div", { text: file.name, cls: "dn-property-value" });
@@ -1889,10 +2477,10 @@ var DNModal = class extends import_obsidian2.Modal {
       })
     );
     this._DN_CTX_MENU.addItem(
-      (item) => item.setTitle("Frontmatter").setIcon("text").onClick(() => {
-        const fmModal = new import_obsidian2.Modal(this.app);
+      (item) => item.setTitle("File frontmatter").setIcon("text").onClick(() => {
+        const fmModal = new import_obsidian7.Modal(this.app);
         fmModal.contentEl.setAttribute("class", "dn-frontmatter-modal");
-        fmModal.contentEl.createEl("div", { text: "Frontmatter", cls: "setting-item setting-item-heading dn-modal-heading" });
+        fmModal.contentEl.createEl("div", { text: "File frontmatter", cls: "setting-item setting-item-heading dn-modal-heading" });
         const rowName = fmModal.contentEl.createEl("div", { cls: "dn-property-row" });
         rowName.createEl("div", { text: "Name: ", cls: "dn-property-name-sm" });
         rowName.createEl("div", { text: file.name, cls: "dn-property-value" });
@@ -1935,9 +2523,10 @@ var DNModal = class extends import_obsidian2.Modal {
         frontmatterDiv.blur();
       })
     );
+    this._DN_CTX_MENU.addSeparator();
     this._DN_CTX_MENU.addItem(
       (item) => item.setTitle("File properties").setIcon("file-cog").onClick(() => {
-        const filePropsModal = new import_obsidian2.Modal(this.app);
+        const filePropsModal = new import_obsidian7.Modal(this.app);
         filePropsModal.contentEl.setAttribute("class", "dn-properties-modal");
         filePropsModal.contentEl.createEl("div", { text: "File properties", cls: "setting-item setting-item-heading dn-modal-heading" });
         const rowName = filePropsModal.contentEl.createEl("div", { cls: "dn-property-row" });
@@ -1957,10 +2546,10 @@ var DNModal = class extends import_obsidian2.Modal {
         filePropsModal.contentEl.createEl("br");
         const rowDateCreated = filePropsModal.contentEl.createEl("div", { cls: "dn-property-row" });
         rowDateCreated.createEl("div", { text: "Created: ", cls: "dn-property-name" });
-        rowDateCreated.createEl("div", { text: (0, import_obsidian3.moment)(file.stat.ctime).format(this.date_format) });
+        rowDateCreated.createEl("div", { text: (0, import_obsidian8.moment)(file.stat.ctime).format(this.date_format) });
         const rowDateModified = filePropsModal.contentEl.createEl("div", { cls: "dn-property-row" });
         rowDateModified.createEl("div", { text: "Modified: ", cls: "dn-property-name" });
-        rowDateModified.createEl("div", { text: (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format) });
+        rowDateModified.createEl("div", { text: (0, import_obsidian8.moment)(file.stat.mtime).format(this.date_format) });
         filePropsModal.contentEl.createEl("br");
         const rowTags = filePropsModal.contentEl.createEl("div", { cls: "dn-property-row" });
         rowTags.createEl("div", { text: "Tag(s): ", cls: "dn-property-name" });
@@ -2018,7 +2607,7 @@ var DNModal = class extends import_obsidian2.Modal {
     this._DN_CTX_MENU.showAtMouseEvent(evt);
   }
   dnHandleClick(evt, file) {
-    if (!evt || typeof evt !== "object" || !(file instanceof import_obsidian2.TFile)) {
+    if (!evt || typeof evt !== "object" || !(file instanceof import_obsidian7.TFile)) {
       return;
     }
     this.dnSelectTableRow(evt);
@@ -2028,7 +2617,7 @@ var DNModal = class extends import_obsidian2.Modal {
     }
   }
   dnHandleDblClick(evt, file) {
-    if (!evt || typeof evt !== "object" || !(file instanceof import_obsidian2.TFile)) {
+    if (!evt || typeof evt !== "object" || !(file instanceof import_obsidian7.TFile)) {
       return;
     }
     evt.preventDefault();
@@ -2078,11 +2667,11 @@ var DNModal = class extends import_obsidian2.Modal {
     });
     this._hoverRender = this._hoverDiv.createEl("div", { cls: "dn-pr-content" });
     try {
-      import_obsidian2.MarkdownRenderer.render(
+      import_obsidian7.MarkdownRenderer.render(
         this.app,
-        "![[" + (0, import_obsidian2.normalizePath)(file.path) + "]]",
+        "![[" + (0, import_obsidian7.normalizePath)(file.path) + "]]",
         this._hoverRender,
-        (0, import_obsidian2.normalizePath)(file.path),
+        (0, import_obsidian7.normalizePath)(file.path),
         this._previewComponent
       );
     } catch (error) {
@@ -2111,81 +2700,81 @@ var DNModal = class extends import_obsidian2.Modal {
     this._hoverDiv.empty();
   }
   dnHandleNormalSearch(rExp, file) {
-    return rExp.test(file.name.toLowerCase()) || rExp.test(getFolderStructure(file.path).toLowerCase()) || rExp.test((0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format)) || rExp.test(getTagsPerFile(file).toLowerCase()) || rExp.test(getPropsPerFile(file).toLowerCase());
+    return rExp.test(file.name.toLowerCase()) || rExp.test(getFolderStructure(file.path).toLowerCase()) || rExp.test((0, import_obsidian8.moment)(file.stat.mtime).format(this.date_format)) || rExp.test(getTagsPerFile(file).toLowerCase()) || rExp.test(getPropsPerFile(file).toLowerCase());
   }
   dnHandleSpecialSearch(search, file) {
-    const mtime = (0, import_obsidian3.moment)(file.stat.mtime);
+    const mtime = (0, import_obsidian8.moment)(file.stat.mtime);
     switch (search) {
       case "d":
       case "day":
       case "today":
-        return mtime.isSame((0, import_obsidian3.moment)(), "day");
+        return mtime.isSame((0, import_obsidian8.moment)(), "day");
       case "d-1":
       case "day-1":
       case "yesterday":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(1, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(1, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "d-2":
       case "day-2":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(2, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(2, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "d-3":
       case "day-3":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(3, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(3, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "d-4":
       case "day-4":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(4, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(4, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "d-5":
       case "day-5":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(5, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(5, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "d-6":
       case "day-6":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(6, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(6, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "d-7":
       case "day-7":
       case "w":
       case "week":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(7, "days"), (0, import_obsidian3.moment)(), "day", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(7, "days"), (0, import_obsidian8.moment)(), "day", "[]");
       case "m":
       case "month":
-        return mtime.isSame((0, import_obsidian3.moment)(), "month");
+        return mtime.isSame((0, import_obsidian8.moment)(), "month");
       case "m-1":
       case "month-1":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(1, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(1, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-2":
       case "month-2":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(2, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(2, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-3":
       case "month-3":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(3, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(3, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-4":
       case "month-4":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(4, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(4, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-5":
       case "month-5":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(5, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(5, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-6":
       case "month-6":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(6, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(6, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-7":
       case "month-7":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(7, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(7, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-8":
       case "month-8":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(8, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(8, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-9":
       case "month-9":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(9, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(9, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-10":
       case "month-10":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(10, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(10, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-11":
       case "month-11":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(11, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(11, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "m-12":
       case "month-12":
-        return mtime.isBetween((0, import_obsidian3.moment)().subtract(12, "month"), (0, import_obsidian3.moment)(), "month", "[]");
+        return mtime.isBetween((0, import_obsidian8.moment)().subtract(12, "month"), (0, import_obsidian8.moment)(), "month", "[]");
       case "y":
       case "year":
-        return mtime.isSame((0, import_obsidian3.moment)(), "year");
+        return mtime.isSame((0, import_obsidian8.moment)(), "year");
       case "n":
       case "notes":
         return this._notes.includes(file);
@@ -2212,12 +2801,22 @@ var DNModal = class extends import_obsidian2.Modal {
       case "other":
       case "others":
         return this._other.includes(file);
+      case "bm":
+      case "bookmarks":
+        return this._bookmarks.includes(file);
+      case "bb":
+      case "bases":
+        return this._bases.includes(file);
+      case "tags":
+        this.dnSetView(3);
+        this.TAGS_INPUT_SEARCH.value = this.INPUT_SEARCH.value.replace(/@\S+/g, "");
+        return this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
       default:
         return false;
     }
   }
   dnOpenFileAlt(f, evt) {
-    if (!evt || typeof evt !== "object" || !(f instanceof import_obsidian2.TFile)) {
+    if (!evt || typeof evt !== "object" || !(f instanceof import_obsidian7.TFile)) {
       return;
     }
     try {
@@ -2280,11 +2879,28 @@ var DNModal = class extends import_obsidian2.Modal {
       this.dnModalSearchVault(this.INPUT_SEARCH.value);
     }
   }
+  handleTagActionsTagsDashboard(evt, tag) {
+    this.modalEl.scrollTo({ top: 0, behavior: "smooth" });
+    this.TAGS_SIDEBAR_EL.scrollTo({ top: 0, behavior: "smooth" });
+    if (evt.button === 2) {
+      evt.preventDefault();
+    } else if (evt.button === 0 && evt.shiftKey) {
+      this.dnAddTagToSearchTD(tag, false);
+    } else if (evt.button === 0 && (evt.ctrlKey || evt.metaKey)) {
+      this.dnAddTagToSearchTD(tag, true);
+    } else if (evt.button === 1 && (evt.shiftKey || evt.ctrlKey || evt.metaKey)) {
+      this.clearTagsSearchField();
+    } else {
+      this.TAGS_INPUT_SEARCH.value = tag;
+      this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
+    }
+  }
   // Tag actions -> add/remove tag and/or !tag
   dnAddTagToSearch(tag, exclude = false) {
     let searchTerms = this.INPUT_SEARCH.value.split(" ");
-    const targetTag = exclude ? `!${tag}` : tag;
-    const oppositeTag = exclude ? tag : `!${tag}`;
+    const lowerCaseTag = tag.toLowerCase();
+    const targetTag = exclude ? `!${lowerCaseTag}` : lowerCaseTag;
+    const oppositeTag = exclude ? lowerCaseTag : `!${lowerCaseTag}`;
     searchTerms = searchTerms.filter((term) => term !== oppositeTag);
     const index = searchTerms.indexOf(targetTag);
     if (index !== -1) {
@@ -2296,23 +2912,317 @@ var DNModal = class extends import_obsidian2.Modal {
     this.INPUT_SEARCH.value = newSearchValue;
     this.dnModalSearchVault(this.INPUT_SEARCH.value);
   }
+  dnAddTagToSearchTD(tag, exclude = false) {
+    let searchTerms = this.TAGS_INPUT_SEARCH.value.toLowerCase().split(" ");
+    const lowerCaseTag = tag.toLowerCase();
+    const targetTag = exclude ? `!${lowerCaseTag}` : lowerCaseTag;
+    const oppositeTag = exclude ? lowerCaseTag : `!${lowerCaseTag}`;
+    searchTerms = searchTerms.filter((term) => term !== oppositeTag);
+    const index = searchTerms.indexOf(targetTag);
+    if (index !== -1) {
+      searchTerms.splice(index, 1);
+    } else {
+      searchTerms.push(targetTag);
+    }
+    const newSearchValue = searchTerms.join(" ");
+    this.TAGS_INPUT_SEARCH.value = newSearchValue;
+    this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
+    this.modalEl.scrollTo({ top: 0, behavior: "smooth" });
+    this.TAGS_SIDEBAR_EL.scrollTo({ top: 0, behavior: "smooth" });
+  }
   async dnLoadSearchOnClose() {
     this.INPUT_SEARCH.value = this.plugin.settings.onclose_search;
     this.plugin.saveSettings();
   }
-  dnSaveSearchOnClose() {
+  dnSaveStateOnClose() {
+    this.plugin.settings.primary_tags_results_visible = this.primary_tags_results_visible;
+    this.plugin.settings.tags_sidebar = this.tags_sidebar;
+    this.plugin.settings.tags_sidebar_sorted_by_frequency = this.tags_sidebar_sorted_by_frequency;
     this.plugin.settings.onclose_search = this.INPUT_SEARCH.value;
     this.plugin.saveSettings();
   }
   async dnRedrawResultsTable() {
     await this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf, currentPage: this.current_page });
   }
+  dnTDGetTags(file) {
+    var _a, _b;
+    const cur_file = this.app.vault.getAbstractFileByPath(file.path);
+    if (cur_file !== null) {
+      const tags = (_a = this.app.metadataCache.getFileCache(file)) == null ? void 0 : _a.tags;
+      const frontmatter_tags = (_b = this.app.metadataCache.getFileCache(file)) == null ? void 0 : _b.frontmatter;
+      const arrTags = [];
+      if (tags) {
+        for (let i = 0, len = tags.length; i < len; i++) {
+          if (arrTags.indexOf(tags[i].tag) < 0) {
+            arrTags.push(tags[i].tag);
+          }
+        }
+      }
+      if (frontmatter_tags !== void 0 && frontmatter_tags.tags) {
+        for (let i = 0, len = frontmatter_tags.tags.length; i < len; i++) {
+          const fmTag = "#" + frontmatter_tags.tags[i];
+          if (arrTags.indexOf(fmTag) < 0) {
+            arrTags.push(fmTag);
+          }
+        }
+      }
+      return arrTags;
+    } else {
+      return [];
+    }
+  }
+  dnTDSearchTags(val) {
+    var _a;
+    if (val === "") {
+      this.TAGS_RECENT_FILES_EL.classList.remove("dn-hidden");
+      this.BTN_CLEAR_TAGS_INPUT_SEARCH.style.display = "none";
+    } else {
+      this.TAGS_RECENT_FILES_EL.classList.add("dn-hidden");
+      this.BTN_CLEAR_TAGS_INPUT_SEARCH.style.display = "flex";
+    }
+    const tagSearchInput = val.trim();
+    if (!tagSearchInput) {
+      this.TAGS_RESULTS_EL.empty();
+      this.tagsCurrentPage = 0;
+      this.filteredPrimaryTagNotes = [];
+      this.generateTagsSidebar(this.TAGS_SIDEBAR_EL, this._data.tags);
+      return;
+    }
+    this.TAGS_RESULTS_EL.empty();
+    const allNotes = this._notes;
+    const allInputTags = tagSearchInput.split(" ").filter((t) => t.length > 0);
+    const primarySearchTags = allInputTags.filter((t) => !t.startsWith("!")).map((t) => t.startsWith("#") ? t : `#${t}`);
+    const excludedSearchTags = allInputTags.filter((t) => t.startsWith("!")).map((t) => t.substring(1).startsWith("#") ? t.substring(1) : `#${t.substring(1)}`);
+    const normalizedPrimaryTags = primarySearchTags.map((t) => t.toLowerCase());
+    const normalizedExcludedTags = excludedSearchTags.map((t) => t.toLowerCase());
+    const primaryTagHeading = primarySearchTags.length > 1 ? `${primarySearchTags.join(" ")}` : `${primarySearchTags[0] || "No primary tag(s)"}`;
+    const primaryTagsDiv = this.TAGS_RESULTS_EL.createEl("div", { cls: "dn-td-tag-group-card dn-td-primary-tag-group" });
+    const headingEl = primaryTagsDiv.createEl("h3", { text: primaryTagHeading });
+    if (excludedSearchTags.length > 0) {
+      headingEl.createEl("span", {
+        text: ` (NOT ${excludedSearchTags.join(" NOT ")})`,
+        cls: "dn-td-excluded-tags"
+      });
+    }
+    const btnTogglePrimaryTagsResults = primaryTagsDiv.createEl("button", { cls: "btn-td-toggle-primary-tags" });
+    btnTogglePrimaryTagsResults.setAttribute("aria-label", "Toggle primary tags results");
+    btnTogglePrimaryTagsResults.setAttribute("data-tooltip-position", "bottom");
+    this.PRIMARY_TAGS_RESULTS_DIV = primaryTagsDiv.createEl("div", { cls: "dn-td-primary-tags-results" });
+    if (this.primary_tags_results_visible) {
+      btnTogglePrimaryTagsResults.textContent = "-";
+      this.PRIMARY_TAGS_RESULTS_DIV.classList.remove("dn-hidden");
+    } else {
+      btnTogglePrimaryTagsResults.textContent = "+";
+      this.PRIMARY_TAGS_RESULTS_DIV.classList.add("dn-hidden");
+    }
+    btnTogglePrimaryTagsResults.onClickEvent(() => {
+      this.primary_tags_results_visible = !this.primary_tags_results_visible;
+      this.PRIMARY_TAGS_RESULTS_DIV.classList.toggle("dn-hidden", !this.primary_tags_results_visible);
+      if (this.primary_tags_results_visible) {
+        btnTogglePrimaryTagsResults.textContent = "-";
+      } else {
+        btnTogglePrimaryTagsResults.textContent = "+";
+      }
+    });
+    const primaryTagNotes = [];
+    const secondaryTagGroups = /* @__PURE__ */ new Map();
+    for (const file of allNotes) {
+      const tagsForFileOriginalCase = this.dnTDGetTags(file);
+      const tagsForFileNormalized = tagsForFileOriginalCase.map((tag) => tag.toLowerCase());
+      const hasAllPrimaryTags = normalizedPrimaryTags.every((inputTag) => tagsForFileNormalized.includes(inputTag));
+      const hasExcludedTags = normalizedExcludedTags.some((excludedTag) => tagsForFileNormalized.includes(excludedTag));
+      if (hasAllPrimaryTags && !hasExcludedTags) {
+        primaryTagNotes.push(file);
+        const secondaryTagsOriginalCase = tagsForFileOriginalCase.filter(
+          (tag) => !normalizedPrimaryTags.includes(tag.toLowerCase()) && !normalizedExcludedTags.includes(tag.toLowerCase())
+        );
+        for (const secTagOriginalCase of secondaryTagsOriginalCase) {
+          if (!secondaryTagGroups.has(secTagOriginalCase)) {
+            secondaryTagGroups.set(secTagOriginalCase, []);
+          }
+          (_a = secondaryTagGroups.get(secTagOriginalCase)) == null ? void 0 : _a.push(file);
+        }
+      }
+    }
+    this.filteredPrimaryTagNotes = primaryTagNotes.sort((a, b) => b.stat.mtime - a.stat.mtime);
+    const sortedSecondaryTagGroups = new Map(
+      Array.from(secondaryTagGroups.entries()).sort(
+        ([tagNameA], [tagNameB]) => tagNameA.toLowerCase().localeCompare(tagNameB.toLowerCase())
+      )
+    );
+    this.generateTagsSidebar(this.TAGS_SIDEBAR_EL, sortedSecondaryTagGroups);
+    const TAGS_PAGINATION_LIMIT = 10;
+    const startIndex = this.tagsCurrentPage * TAGS_PAGINATION_LIMIT;
+    const endIndex = startIndex + TAGS_PAGINATION_LIMIT;
+    const displayPrimaryNotes = this.filteredPrimaryTagNotes.slice(startIndex, endIndex);
+    if (this.filteredPrimaryTagNotes.length === 0) {
+      primaryTagsDiv.createEl("p", { text: "No notes found matching the specified tag(s).", cls: "dn-td-no-notes-message" });
+    } else {
+      const paginationDiv = this.PRIMARY_TAGS_RESULTS_DIV.createEl("div", { cls: "dn-td-pagination" });
+      paginationDiv.createEl("div", {
+        text: `File(s): ${this.filteredPrimaryTagNotes.length}`,
+        cls: "dn-pagination-total-results"
+      });
+      const dnTdPaginationDiv = paginationDiv.createEl("div", { cls: "dn-pagination-current-page" });
+      const totalPages = Math.ceil(this.filteredPrimaryTagNotes.length / TAGS_PAGINATION_LIMIT);
+      dnTdPaginationDiv.createEl("span", { text: ` Page ${this.tagsCurrentPage + 1} of ${totalPages} `, cls: "dn-td-total-pages" });
+      const prevButton = dnTdPaginationDiv.createEl("button", { text: "\u25C0", title: "Previous", cls: "dn-btn-prev" });
+      prevButton.disabled = this.tagsCurrentPage === 0;
+      prevButton.onClickEvent(() => {
+        this._tagsPrevPage();
+      });
+      const nextButton = dnTdPaginationDiv.createEl("button", { text: "\u25B6", title: "Next", cls: "dn-btn-next" });
+      nextButton.disabled = this.tagsCurrentPage >= totalPages - 1;
+      nextButton.onClickEvent(() => {
+        this._tagsNextPage();
+      });
+      for (const note of displayPrimaryNotes) {
+        const linkPrimaryTag = this.PRIMARY_TAGS_RESULTS_DIV.createEl("a", {
+          text: note.basename,
+          href: note.path,
+          title: `${note.path}
+
+${(0, import_obsidian8.moment)(note.stat.mtime).format(this.date_format)} - Modified
+${(0, import_obsidian8.moment)(note.stat.ctime).format(this.date_format)} - Created`,
+          cls: "dn-f-note"
+        });
+        linkPrimaryTag.setAttribute("data-href", note.path);
+        linkPrimaryTag.onClickEvent((evt) => {
+          if (this._leaf !== null && note !== null) {
+            this.dnOpenFileAlt(note, evt);
+          }
+        });
+        linkPrimaryTag.addEventListener("mouseover", (evt) => this.dnHandleHoverPreview(evt, note));
+      }
+    }
+    const secondaryTagsDiv = this.TAGS_RESULTS_EL.createEl("div", { cls: "dn-td-secondary-tags-container" });
+    for (const [secTag, notesInGroup] of sortedSecondaryTagGroups.entries()) {
+      notesInGroup.sort((a, b) => b.stat.mtime - a.stat.mtime);
+      const secTagDiv = secondaryTagsDiv.createEl("div", { cls: "dn-td-tag-group-card dn-td-secondary-tag-group" });
+      secTagDiv.createEl("h3", { text: secTag }).onClickEvent((evt) => {
+        this.handleTagActionsTagsDashboard(evt, secTag);
+      });
+      const displayNotes = notesInGroup.slice(0, 5);
+      for (const note of displayNotes) {
+        const linkSecondaryTag = secTagDiv.createEl("a", {
+          text: note.basename,
+          href: note.path,
+          title: `${note.path}
+
+${(0, import_obsidian8.moment)(note.stat.mtime).format(this.date_format)} - Modified
+${(0, import_obsidian8.moment)(note.stat.ctime).format(this.date_format)} - Created`,
+          cls: "dn-f-note"
+        });
+        linkSecondaryTag.setAttribute("data-href", note.path);
+        linkSecondaryTag.onClickEvent((evt) => {
+          if (this._leaf !== null && note !== null) {
+            this.dnOpenFileAlt(note, evt);
+          }
+        });
+        linkSecondaryTag.addEventListener("mouseover", (evt) => this.dnHandleHoverPreview(evt, note));
+        secTagDiv.createEl("br");
+      }
+      if (notesInGroup.length > 5) {
+        secTagDiv.createEl("br");
+        secTagDiv.createEl("button", { text: `Show All (${notesInGroup.length})`, cls: "dn-td-show-more" }).onClickEvent(() => {
+          this.tagsCurrentPage = 0;
+          const currentInput = this.TAGS_INPUT_SEARCH.value;
+          const newTag = secTag.startsWith("#") ? secTag : `#${secTag}`;
+          if (!currentInput.includes(newTag)) {
+            this.TAGS_INPUT_SEARCH.value = currentInput + " " + newTag;
+            this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
+          }
+          this.modalEl.scrollTo({ top: 0, behavior: "smooth" });
+          this.TAGS_SIDEBAR_EL.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+    }
+  }
+  _tagsPrevPage() {
+    if (this.tagsCurrentPage > 0) {
+      this.tagsCurrentPage--;
+      this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
+    }
+  }
+  _tagsNextPage() {
+    this.tagsCurrentPage++;
+    this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value);
+  }
+  generateTagsSidebar(el, tags) {
+    el.empty();
+    const container = el.createEl("div", { cls: "dn-td-sidebar-container" });
+    container.createEl("div", { text: "Sort tags by:", cls: "dn-tags-sidebar-label" });
+    const sortButtonsContainer = container.createEl("div", { cls: "dn-td-sidebar-sort-buttons" });
+    const btnAlphaSort = sortButtonsContainer.createEl("button", {
+      text: "Tag name (A-Z)",
+      cls: "dn-td-sidebar-sort-button"
+    });
+    btnAlphaSort.setAttribute("aria-label", "Sort sidebar tags by name (A-Z) ");
+    btnAlphaSort.setAttribute("data-tooltip-position", "bottom");
+    const btnFrequencySort = sortButtonsContainer.createEl("button", {
+      text: "Frequency (high to low)",
+      cls: "dn-td-sidebar-sort-button"
+    });
+    btnFrequencySort.setAttribute("aria-label", "Sort sidebar tags by frequency (high to low) ");
+    btnFrequencySort.setAttribute("data-tooltip-position", "bottom");
+    if (this.tags_sidebar_sorted_by_frequency) {
+      btnFrequencySort.classList.add("tags-sort-active");
+      btnAlphaSort.classList.remove("tags-sort-active");
+    } else {
+      btnAlphaSort.classList.add("tags-sort-active");
+      btnFrequencySort.classList.remove("tags-sort-active");
+    }
+    btnAlphaSort.onClickEvent(() => {
+      this.tags_sidebar_sorted_by_frequency = false;
+      btnAlphaSort.classList.add("tags-sort-active");
+      btnFrequencySort.classList.remove("tags-sort-active");
+      this.renderTags(tags);
+    });
+    btnFrequencySort.onClickEvent(() => {
+      this.tags_sidebar_sorted_by_frequency = true;
+      btnFrequencySort.classList.add("tags-sort-active");
+      btnAlphaSort.classList.remove("tags-sort-active");
+      this.renderTags(tags);
+    });
+    this.TAGS_SIDEBAR_LIST_DIV = container.createEl("div", { cls: "dn-td-sidebar-tags-list" });
+    this.renderTags(tags);
+  }
+  renderTags(tags) {
+    this.TAGS_SIDEBAR_LIST_DIV.empty();
+    const tagsToRender = Array.from(tags.entries());
+    if (this.tags_sidebar_sorted_by_frequency) {
+      tagsToRender.sort((a, b) => b[1].length - a[1].length);
+    } else {
+      tagsToRender.sort((a, b) => {
+        const tagNameA = a[0];
+        const tagNameB = b[0];
+        const lowerCaseTagNameA = tagNameA.toLowerCase();
+        const lowerCaseTagNameB = tagNameB.toLowerCase();
+        return lowerCaseTagNameA.localeCompare(lowerCaseTagNameB);
+      });
+    }
+    if (tagsToRender.length === 0) {
+      this.TAGS_SIDEBAR_LIST_DIV.createEl("div", {
+        text: "No matching tags found.",
+        cls: "dn-td-sidebar-tag-div"
+      });
+      return;
+    }
+    for (const [tag, files] of tagsToRender) {
+      const tagEl = this.TAGS_SIDEBAR_LIST_DIV.createEl("div", { cls: "dn-td-sidebar-tag-div" });
+      tagEl.createEl("a", { cls: "tag", text: tag.replace("#", ""), href: tag });
+      tagEl.onClickEvent((evt) => {
+        this.handleTagActionsTagsDashboard(evt, tag);
+      });
+      tagEl.createEl("span", { text: files.length.toString(), cls: "dn-tag-count" });
+    }
+  }
   onClose() {
     const { contentEl } = this;
     contentEl.empty();
     this._previewComponent.unload();
     if (this.INPUT_SEARCH && this.INPUT_SEARCH.removeEventListener) {
-      this.INPUT_SEARCH.removeEventListener("input", (0, import_obsidian2.debounce)(() => this.dnModalSearchVault(this.INPUT_SEARCH.value), 300, true));
+      this.INPUT_SEARCH.removeEventListener("input", (0, import_obsidian7.debounce)(() => this.dnModalSearchVault(this.INPUT_SEARCH.value), 300, true));
     }
     this._th1.removeEventListener("dblclick", () => this.dnAlternateSortColumn("name"));
     this._th2.removeEventListener("dblclick", () => this.dnAlternateSortColumn("ext"));
@@ -2322,6 +3232,7 @@ var DNModal = class extends import_obsidian2.Modal {
     this._SELECT_SORT.removeEventListener("change", () => {
       this.dnSortColumnWithSelect();
     });
+    this.TAGS_INPUT_SEARCH.removeEventListener("input", (0, import_obsidian7.debounce)(() => this.dnTDSearchTags(this.TAGS_INPUT_SEARCH.value), 300, true));
     this._hoverDiv.removeEventListener("mousemove", (evt) => this.dnHoverDragOnMouseMove(evt));
     this._hoverDiv.removeEventListener("mouseup", (evt) => this.dnHoverDragOnMouseUp(evt));
     this._hoverDiv.removeEventListener("click", (evt) => {
@@ -2331,20 +3242,20 @@ var DNModal = class extends import_obsidian2.Modal {
     if (this.intersectionObserver) {
       this.intersectionObserver.disconnect();
     }
-    this.dnSaveSearchOnClose();
+    this.dnSaveStateOnClose();
   }
 };
 
 // src/modals/dnsavesearchmodal.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 
 // src/utils/helper.ts
-function DNSanitizeInput(txt) {
+function sanitizeInput(txt) {
   return txt.replace(/<[^>]*>/g, "").replace(/&nbsp;/g, " ").replace(/[\u2000-\u200F\u2028-\u202F\u2060-\u206F]/g, "").trim();
 }
 
 // src/modals/dnsavesearchmodal.ts
-var DNSaveSearchModal = class extends import_obsidian4.Modal {
+var DNSaveSearchModal = class extends import_obsidian9.Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
@@ -2370,16 +3281,16 @@ var DNSaveSearchModal = class extends import_obsidian4.Modal {
     const divBottom = contentEl.createEl("div", { cls: "dn-save-button-container" });
     const btnSaveSearch = divBottom.createEl("button", { text: "Save", cls: "mod-cta" });
     const btnCancel = divBottom.createEl("button", { text: "Cancel" });
-    currentSearchInput.addEventListener("input", (0, import_obsidian4.debounce)(() => {
+    currentSearchInput.addEventListener("input", (0, import_obsidian9.debounce)(() => {
       current_search = currentSearchInput.value;
       this.plugin.DN_MODAL.INPUT_SEARCH.value = current_search;
       this.plugin.DN_MODAL.dnModalSearchVault(current_search);
     }, 300, true));
     btnSaveSearch.onclick = async () => {
-      const sanitizedDescription = DNSanitizeInput(descriptionInput.value);
+      const sanitizedDescription = sanitizeInput(descriptionInput.value);
       const query = current_search;
       if (!query) {
-        new import_obsidian4.Notice("Please enter a search.");
+        new import_obsidian9.Notice("Please enter a search.");
         return;
       }
       if (!this.plugin.settings.saved_searches) {
@@ -2396,7 +3307,7 @@ var DNSaveSearchModal = class extends import_obsidian4.Modal {
       };
       this.plugin.settings.saved_searches.push(newSavedSearch);
       await this.plugin.saveSettings();
-      new import_obsidian4.Notice("Search saved successfully!");
+      new import_obsidian9.Notice("Search saved successfully!");
       this.close();
     };
     btnCancel.onclick = () => {
@@ -2410,11 +3321,11 @@ var DNSaveSearchModal = class extends import_obsidian4.Modal {
 };
 
 // src/modals/dnsavedsearchesmodal.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 
 // src/modals/dnconfirmmodal.ts
-var import_obsidian5 = require("obsidian");
-var DNConfirmModal = class extends import_obsidian5.Modal {
+var import_obsidian10 = require("obsidian");
+var DNConfirmModal = class extends import_obsidian10.Modal {
   constructor(app, title, message, btnText, btnCls = "mod-cta") {
     super(app);
     this.title = title;
@@ -2458,7 +3369,7 @@ var DNConfirmModal = class extends import_obsidian5.Modal {
 };
 
 // src/modals/dnsavedsearchesmodal.ts
-var DNSavedSearchesModal = class extends import_obsidian6.Modal {
+var DNSavedSearchesModal = class extends import_obsidian11.Modal {
   constructor(app, plugin) {
     super(app);
     this.textToFilter = "";
@@ -2469,21 +3380,22 @@ var DNSavedSearchesModal = class extends import_obsidian6.Modal {
     contentEl.empty();
     contentEl.createEl("div", { text: "Saved searches", cls: "setting-item setting-item-heading dn-modal-heading" });
     const filterDiv = contentEl.createEl("div", { cls: "dn-filter-container" });
-    this.INPUT_FILTER = filterDiv.createEl("input", {
+    this._INPUT_FILTER = filterDiv.createEl("input", {
       type: "text",
       placeholder: "Filter saved searches...",
       cls: "dn-filter-input"
     });
-    this.INPUT_FILTER.spellcheck = false;
-    const btnClearFilter = filterDiv.createEl("div", { cls: "search-input-clear-button" });
-    btnClearFilter.addEventListener("click", () => {
-      this.INPUT_FILTER.value = "";
+    this._INPUT_FILTER.spellcheck = false;
+    this.CLEAR_INPUT_FILTER = filterDiv.createEl("div", { cls: "search-input-clear-button" });
+    this.CLEAR_INPUT_FILTER.setAttribute("aria-label", "Clear search");
+    this.CLEAR_INPUT_FILTER.addEventListener("click", () => {
+      this._INPUT_FILTER.value = "";
       this.textToFilter = "";
       this.renderSavedSearches();
     });
-    this.INPUT_FILTER.value = this.textToFilter;
-    this.INPUT_FILTER.addEventListener("input", (0, import_obsidian6.debounce)(() => {
-      this.textToFilter = this.INPUT_FILTER.value.toLowerCase();
+    this._INPUT_FILTER.value = this.textToFilter;
+    this._INPUT_FILTER.addEventListener("input", (0, import_obsidian11.debounce)(() => {
+      this.textToFilter = this._INPUT_FILTER.value.toLowerCase();
       this.renderSavedSearches();
     }, 300, true));
     this.savedSearchContainer = contentEl.createEl("div", { cls: "dn-saved-search-list" });
@@ -2498,6 +3410,11 @@ var DNSavedSearchesModal = class extends import_obsidian6.Modal {
   }
   renderSavedSearches() {
     this.savedSearchContainer.empty();
+    if (this._INPUT_FILTER.value === "") {
+      this.CLEAR_INPUT_FILTER.style.display = "none";
+    } else {
+      this.CLEAR_INPUT_FILTER.style.display = "flex";
+    }
     if (!this.plugin.settings.saved_searches) {
       this.plugin.settings.saved_searches = [];
     }
@@ -2529,7 +3446,7 @@ var DNSavedSearchesModal = class extends import_obsidian6.Modal {
         this.plugin.DN_MODAL.INPUT_SEARCH.value = item.query;
         this.plugin.DN_MODAL.dnModalSearchVault(this.plugin.DN_MODAL.INPUT_SEARCH.value);
       } else {
-        new import_obsidian6.Notice("Search input not found.");
+        new import_obsidian11.Notice("Search input not found.");
       }
     });
     divSearchItem.addEventListener("dblclick", () => {
@@ -2538,11 +3455,12 @@ var DNSavedSearchesModal = class extends import_obsidian6.Modal {
         this.plugin.DN_MODAL.dnModalSearchVault(this.plugin.DN_MODAL.INPUT_SEARCH.value);
         this.close();
       } else {
-        new import_obsidian6.Notice("Search input not found.");
+        new import_obsidian11.Notice("Search input not found.");
       }
     });
     const divActions = divSearchItem.createEl("div", { cls: "dn-saved-search-actions" });
     const btnDeleteSearch = divActions.createEl("button", { cls: "dn-action-button dn-delete-button" });
+    btnDeleteSearch.setAttribute("aria-label", "Delete search");
     btnDeleteSearch.onclick = async (evt) => {
       evt.stopPropagation();
       const confirmModal = new DNConfirmModal(this.app, "Delete search", "Are you sure you want to delete this saved search?", "Delete", "mod-warning");
@@ -2555,10 +3473,10 @@ var DNSavedSearchesModal = class extends import_obsidian6.Modal {
         );
         if (this.plugin.settings.saved_searches.length < initialLength) {
           await this.plugin.saveSettings();
-          new import_obsidian6.Notice("Saved search deleted.");
+          new import_obsidian11.Notice("Saved search deleted.");
           this.renderSavedSearches();
         } else {
-          new import_obsidian6.Notice("Error: Could not find search to delete.");
+          new import_obsidian11.Notice("Error: Could not find search to delete.");
         }
       }
     };
@@ -2566,8 +3484,8 @@ var DNSavedSearchesModal = class extends import_obsidian6.Modal {
 };
 
 // src/modals/dninfomodal.ts
-var import_obsidian7 = require("obsidian");
-var DNInfoModal = class extends import_obsidian7.Modal {
+var import_obsidian12 = require("obsidian");
+var DNInfoModal = class extends import_obsidian12.Modal {
   constructor(app) {
     super(app);
     this._markdownContent = `
@@ -2584,6 +3502,8 @@ The **Dashboard navigator** search allows you to quickly access and filter speci
 - \`@video\` or \`@videos\`: Lists all **video** files.
 - \`@pdf\` or \`@pdfs\`: Lists all **PDF** files.
 - \`@other\`: Lists all **other** file types.
+- \`@bases\`: Lists all **.base** files.
+- \`@bookmarks\`: Lists all **bookmarked** files.
 
 #### Advanced filtering with search terms
 
@@ -2601,6 +3521,8 @@ You can combine the basic commands with search terms to narrow down your results
 - \`@v\` = \`@video\` or \`@videos\`
 - \`@p\` = \`@pdf\` or \`@pdfs\`
 - \`@o\` = \`@other\`
+- \`@bb\` = \`@bases\`
+- \`@bm\` = \`@bookmarks\`
 
 #### Date filters and shorthands
 
@@ -2691,6 +3613,12 @@ Example: \`'topic: javascript'\`
 
 - You can use the context menu (navigator view or dashboard view to open the **Frontmatter** or **File properties** modal). Click on the desired frontmatter metadata to quickly search for an exact match within your notes.
 
+#### Bookmarks
+
+New **bookmarks** command (Navigator view - search): \`@bookmarks\` or \`@bm\` as its shorthand. This command will **list all bookmarked files** in Navigator view, so you can sort them by file name, extension, folder, date, search for tags and frontmatter.
+
+- You can search for the file categories using the additional \`@bookmarks\`or \`@bm\` filter to identify which ones are bookmarked, e.g. \`@notes @bm\` (notes that are bookmarked) or \`@images @bm\`(images in your bookmarks).
+
 #### Tag actions
 
 You can quickly filter your search results by interacting with **tags** directly within the **Navigator view**, **File Properties modal**, or **Tags modal**. These actions let you include or exclude tags from your current search query.
@@ -2758,6 +3686,34 @@ You can hide the following columns:
 - **Date**: Indicates the modification date of the file.
 - **Tags**: Lists the tags associated with the note, making it easier to categorize and search for notes.
 - **Frontmatter**: Lists the frontmatter/metadata associated with the note.
+- **BL (backlinks)**: The total number of notes that link to this file.
+- **OL (outgoing links)**: The total number of links from this note to other files.
+
+### Tags dashboard view
+
+- **Advanced tag(s) search**: This feature uses secondary tags as cross-references to help you navigate your notes like a dynamic map. By revealing which tags are used together, you can discover hidden associations and see how different ideas and topics are implicitly connected in your vault.
+
+- The tags dashboard's initial state shows a list of your most recently created or modified notes along with their corresponding tags. This gives you a quick overview of your recent activity.
+
+- The \`@tags\` command (top search bar) to search directly in **Tags** dashboard view:
+
+  - **Beginning of the query**: When you start a search with \`@tags\`, it acts as a shortcut. It immediately switches your view to the Tags dashboard and focuses the cursor in the Tags dashboard's search bar, allowing you to start a new tag-focused search right away.
+
+  - **End of the query**: When you place \`@tags\` at the end of a tag(s) search (e.g., \`#tag1 #tag2 @tags\`), it opens the Tags dashboard and shows you all the secondary tags that are used in conjunction with the tag(s) you've already searched for. This helps you find related topics and discover connections between your notes.
+
+- You can also save the tags search using \`@tags\` with a description (saved searches window). When clicking on the saved search option it will open the saved query directly in **Tags** dashboard view.
+
+#### **Tags dashboard commands**
+
+These commands work on the tags displayed in the **recent notes & tags** section, the **secondary tags** displayed in the main **Tags** dashboard, and within the tags list in the **tags sidebar**.
+
+  - \`Left-click\`: Change the selected secondary tag into a primary tag, making it the main focus of your view.
+
+  - \`Shift + click\`: Add this tag to your current search using an AND condition. For example, if your search is \`#article\`, holding \`Shift\` and \`clicking\` on \`#status\` will change your search to \`#article #status\`(notes with tags **#article** AND **#status**).
+
+  - \`Ctrl + click\`: Exclude this clicked secondary tag. This is useful for filtering out results that contain a specific tag.
+
+  - \`Ctrl + middle-click\`: Quickly clear your tag search and start fresh. This removes all tags from your search query, allowing you to reset your view with a single click.
 
 ### Excluded file extensions
 
@@ -2781,12 +3737,12 @@ You can hide the following columns:
 - If the theme being used supports colored tags or if you are using custom CSS snippet to color tags, the **tags** column and **file properties** window will show colored tags accordingly.
 
 `;
-    this._mdComponent = new import_obsidian7.Component();
+    this._mdComponent = new import_obsidian12.Component();
   }
   onOpen() {
     const { contentEl } = this;
     const markdownContainer = contentEl.createEl("div", { cls: "dn-info-modal" });
-    import_obsidian7.MarkdownRenderer.render(
+    import_obsidian12.MarkdownRenderer.render(
       this.app,
       this._markdownContent,
       markdownContainer,
@@ -2801,8 +3757,8 @@ You can hide the following columns:
 };
 
 // src/modals/dnquickdisplayoptionsmodal.ts
-var import_obsidian8 = require("obsidian");
-var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
+var import_obsidian13 = require("obsidian");
+var DNQuickDisplayOptionsModal = class extends import_obsidian13.Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
@@ -2812,7 +3768,7 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
     contentEl.empty();
     contentEl.createEl("div", { text: "Navigator view: Quick display options", cls: "setting-item setting-item-heading dn-modal-heading" });
     contentEl.createEl("div", { text: "Hidden columns", cls: "setting-item setting-item-heading" });
-    new import_obsidian8.Setting(contentEl).setName("Hide: Ext").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Hide: Ext").addToggle((toggle) => {
       this.toggleHideExtColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_ext).onChange(async (val) => {
         this.plugin.settings.hide_ext = val;
@@ -2821,7 +3777,7 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
-    new import_obsidian8.Setting(contentEl).setName("Hide: Path").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Hide: Path").addToggle((toggle) => {
       this.toggleHidePathColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_path).onChange(async (val) => {
         this.plugin.settings.hide_path = val;
@@ -2830,7 +3786,7 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
-    new import_obsidian8.Setting(contentEl).setName("Hide: Size").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Hide: Size").addToggle((toggle) => {
       this.toggleHideSizeColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_size).onChange(async (val) => {
         this.plugin.settings.hide_size = val;
@@ -2839,7 +3795,7 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
-    new import_obsidian8.Setting(contentEl).setName("Hide: Date").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Hide: Date").addToggle((toggle) => {
       this.toggleHideDateColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_date).onChange(async (val) => {
         this.plugin.settings.hide_date = val;
@@ -2848,7 +3804,7 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
-    new import_obsidian8.Setting(contentEl).setName("Hide: Tags").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Hide: Tags").addToggle((toggle) => {
       this.toggleHideTagsColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_tags).onChange(async (val) => {
         this.plugin.settings.hide_tags = val;
@@ -2857,7 +3813,7 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
-    new import_obsidian8.Setting(contentEl).setName("Hide: Frontmatter").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Hide: Frontmatter").addToggle((toggle) => {
       this.toggleHideFrontmatterColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_frontmatter).onChange(async (val) => {
         this.plugin.settings.hide_frontmatter = val;
@@ -2866,9 +3822,28 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
+    new import_obsidian13.Setting(contentEl).setName("Hide: BL (backlinks)").addToggle((toggle) => {
+      this.toggleHideBLColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_backlinks).onChange(async (val) => {
+        this.plugin.settings.hide_backlinks = val;
+        this.plugin.dnUpdateHideColumn("backlinks", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    new import_obsidian13.Setting(contentEl).setName("Hide: OL (outgoing links)").addToggle((toggle) => {
+      this.toggleHideOLColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_outgoing).onChange(async (val) => {
+        this.plugin.settings.hide_outgoing = val;
+        this.plugin.dnUpdateHideColumn("outgoing", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
     contentEl.createEl("div", { text: "Activate toggles to hide columns. Deactivate to show.", cls: "dn-table-column-description" });
+    contentEl.createEl("br");
     contentEl.createEl("div", { text: "Image thumbnails", cls: "setting-item setting-item-heading" });
-    new import_obsidian8.Setting(contentEl).setName("Show image thumbnails").addToggle((toggle) => {
+    new import_obsidian13.Setting(contentEl).setName("Show image thumbnails").setDesc("Activate to show image thumbnails. Deactivate to show image icons.").addToggle((toggle) => {
       this.toggleImageThumbnail = toggle;
       toggle.setValue(this.plugin.settings.image_thumbnail).onChange(async (val) => {
         this.plugin.settings.image_thumbnail = val;
@@ -2877,11 +3852,262 @@ var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
         await this.plugin.DN_MODAL.dnRedrawResultsTable();
       });
     });
-    contentEl.createEl("div", { text: "Activate to show image thumbnails. Deactivate to show image icons.", cls: "dn-table-column-description" });
+    new import_obsidian13.Setting(contentEl).setName("Image thumbnails size").setDesc("Adjust image thumbnails size in pixels.").addSlider((sli) => {
+      this.sliderImageThumbnail = sli;
+      let slider_val;
+      if (this.plugin.settings.thumbnail_size) {
+        slider_val = this.plugin.settings.thumbnail_size;
+      } else {
+        slider_val = 82;
+      }
+      sli.setDynamicTooltip();
+      sli.setLimits(50, 500, 1);
+      sli.setValue(slider_val);
+      sli.onChange((val) => {
+        this.plugin.settings.thumbnail_size = val;
+        this.plugin.dnSetThumbnailSize(val);
+        this.plugin.saveSettings();
+      });
+    });
   }
   onClose() {
     const { contentEl } = this;
     contentEl.empty();
+  }
+};
+
+// src/data/dndatamanager.ts
+var import_obsidian14 = require("obsidian");
+
+// src/utils/dnbookmarks.ts
+function getBookmarkedFiles(bookmarksJson) {
+  const bookmarksPaths = /* @__PURE__ */ new Set();
+  const stack = [];
+  try {
+    const bookmarks = JSON.parse(bookmarksJson);
+    if (bookmarks.items) {
+      for (let i = bookmarks.items.length - 1; i >= 0; i--) {
+        stack.push(bookmarks.items[i]);
+      }
+    }
+    while (stack.length > 0) {
+      const currentItem = stack.pop();
+      if (!currentItem)
+        continue;
+      if (currentItem.type === "file" && currentItem.path) {
+        bookmarksPaths.add(currentItem.path);
+      } else if (currentItem.type === "group" && currentItem.items) {
+        for (let i = currentItem.items.length - 1; i >= 0; i--) {
+          stack.push(currentItem.items[i]);
+        }
+      }
+    }
+  } catch (error) {
+    return [];
+  }
+  return Array.from(bookmarksPaths);
+}
+
+// src/data/dndatamanager.ts
+var DNDataManager = class {
+  constructor() {
+    this.dataCache = null;
+    this.cacheHash = "";
+  }
+  async getDataCache(app, excludedExtensions, excludedFolders) {
+    const allLoadedAbstractFiles = app.vault.getAllLoadedFiles();
+    const currentHash = await this.generateHash(allLoadedAbstractFiles, excludedExtensions, excludedFolders);
+    if (this.cacheHash === currentHash && this.dataCache) {
+      return this.dataCache;
+    } else {
+      const newData = await this.generateDataCache(app, allLoadedAbstractFiles, excludedExtensions, excludedFolders);
+      this.dataCache = newData;
+      this.cacheHash = currentHash;
+      return newData;
+    }
+  }
+  async generateDataCache(app, allLoadedAbstractFiles, excludedExtensions, excludedFolders) {
+    const data = {
+      all_files: [],
+      folders: [],
+      last_opened: [],
+      bookmarks: [],
+      filtered_files: [],
+      notes: [],
+      images: [],
+      canvas: [],
+      audios: [],
+      videos: [],
+      pdf: [],
+      bases: [],
+      other: [],
+      tags: /* @__PURE__ */ new Map(),
+      tagNames: []
+    };
+    for (const absF of allLoadedAbstractFiles) {
+      if (absF instanceof import_obsidian14.TFile) {
+        data.all_files.push(absF);
+      } else if (absF instanceof import_obsidian14.TFolder && !absF.isRoot()) {
+        data.folders.push(absF);
+      }
+    }
+    data.filtered_files = this.filterFiles(data.all_files, excludedExtensions, excludedFolders);
+    this.organizeFiles(data.filtered_files, data);
+    data.tags = await this.dnGetAllTagsCount(app, data.all_files);
+    data.tagNames = Array.from(data.tags.keys());
+    return data;
+  }
+  filterFiles(files, excludedExtensions, excludedFolders) {
+    return files.filter((file) => {
+      const isExcludedExtension = excludedExtensions.includes(file.extension.toLowerCase());
+      const isExcludedFolder = excludedFolders.some((folder) => file.path.startsWith(folder));
+      return !isExcludedExtension && !isExcludedFolder;
+    });
+  }
+  organizeFiles(files, data) {
+    const extensions = {
+      "md": data.notes,
+      // Images
+      "avif": data.images,
+      "bmp": data.images,
+      "gif": data.images,
+      "ico": data.images,
+      "jpeg": data.images,
+      "jpg": data.images,
+      "png": data.images,
+      "raw": data.images,
+      "svg": data.images,
+      "tif": data.images,
+      "tiff": data.images,
+      "webp": data.images,
+      // Audio files
+      "aac": data.audios,
+      "aif": data.audios,
+      "aifc": data.audios,
+      "aiff": data.audios,
+      "flac": data.audios,
+      "m4a": data.audios,
+      "mp3": data.audios,
+      "ogg": data.audios,
+      "wav": data.audios,
+      "webm": data.audios,
+      // Videos
+      "avi": data.videos,
+      "mov": data.videos,
+      "mkv": data.videos,
+      "mp4": data.videos,
+      // PDF and Canvas
+      "pdf": data.pdf,
+      "base": data.bases,
+      "canvas": data.canvas
+    };
+    for (const file of files) {
+      const ext = file.extension.toLowerCase();
+      const targetArr = extensions[ext];
+      if (targetArr) {
+        targetArr.push(file);
+      } else {
+        data.other.push(file);
+      }
+    }
+  }
+  async generateHash(allAbstractFiles, excludedExtensions, excludedFolders) {
+    let stringToHash = "";
+    for (const file of allAbstractFiles) {
+      if (file instanceof import_obsidian14.TFile && file.stat) {
+        stringToHash += `${file.path}|${file.stat.mtime}|`;
+      } else {
+        stringToHash += `${file.path}|`;
+      }
+    }
+    stringToHash += JSON.stringify(excludedExtensions) + "|";
+    stringToHash += JSON.stringify(excludedFolders) + "|";
+    const encoder = new TextEncoder();
+    const data = encoder.encode(stringToHash);
+    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+    return hashHex;
+  }
+  getLastOpenedFiles(app) {
+    const lo_files = [];
+    const lastOpenPaths = app.workspace.getLastOpenFiles();
+    for (const path of lastOpenPaths) {
+      const file = app.vault.getAbstractFileByPath(path);
+      if (file instanceof import_obsidian14.TFile) {
+        lo_files.push(file);
+      }
+    }
+    return lo_files;
+  }
+  async getBookmarkedVaultFiles(app, excludedExtensions, excludedFolders) {
+    const bookmarkedFiles = [];
+    try {
+      const bookmarksJsonContent = await app.vault.adapter.read(".obsidian/bookmarks.json");
+      const bookmarkPaths = getBookmarkedFiles(bookmarksJsonContent);
+      if (Array.isArray(bookmarkPaths)) {
+        for (const path of bookmarkPaths) {
+          const file = app.vault.getAbstractFileByPath(path);
+          if (file instanceof import_obsidian14.TFile) {
+            const isExcludedExtension = excludedExtensions.includes(file.extension.toLowerCase());
+            const isExcludedFolder = excludedFolders.some((folder) => file.path.startsWith(folder));
+            if (!isExcludedExtension && !isExcludedFolder) {
+              bookmarkedFiles.push(file);
+            }
+          }
+        }
+      }
+    } catch (error) {
+      return [];
+    }
+    return bookmarkedFiles;
+  }
+  async dnGetAllTagsCount(app, files) {
+    var _a;
+    const tagFiles = /* @__PURE__ */ new Map();
+    for (const file of files) {
+      const metadata = app.metadataCache.getFileCache(file);
+      const fileTags = /* @__PURE__ */ new Set();
+      if (metadata == null ? void 0 : metadata.tags) {
+        for (const tag of metadata.tags) {
+          fileTags.add(tag.tag);
+        }
+      }
+      if ((_a = metadata == null ? void 0 : metadata.frontmatter) == null ? void 0 : _a.tags) {
+        const fmTags = metadata.frontmatter.tags;
+        if (typeof fmTags === "string") {
+          fileTags.add(fmTags.trim());
+        } else if (Array.isArray(fmTags)) {
+          for (const tag of fmTags) {
+            if (typeof tag === "string") {
+              fileTags.add(tag.trim());
+            }
+          }
+        }
+      }
+      for (const tag of fileTags) {
+        let normalizedTag = tag.startsWith("#") ? tag : `#${tag}`;
+        normalizedTag = normalizedTag.toLowerCase();
+        const currentFiles = tagFiles.get(normalizedTag) || [];
+        currentFiles.push(file);
+        tagFiles.set(normalizedTag, currentFiles);
+      }
+    }
+    const sortedEntries = Array.from(tagFiles.entries()).sort((a, b) => {
+      const tagNameA = a[0];
+      const tagNameB = b[0];
+      const lowerCaseTagNameA = tagNameA.toLowerCase();
+      const lowerCaseTagNameB = tagNameB.toLowerCase();
+      return lowerCaseTagNameA.localeCompare(lowerCaseTagNameB);
+    });
+    const sortedMap = new Map(sortedEntries);
+    return sortedMap;
+  }
+  dnGetAllTagsNames() {
+    if (!this.dataCache || !this.dataCache.tags) {
+      return [];
+    }
+    return Array.from(this.dataCache.tags.keys());
   }
 };
 
@@ -2902,6 +4128,7 @@ var DEFAULT_SETTINGS = {
   color_videos: "#d34848",
   color_audios: "#bfbf00",
   color_pdf: "#00a300",
+  color_bases: "#00a3a3",
   color_other: "#828282",
   colored_files: false,
   hide_ext: false,
@@ -2910,16 +4137,25 @@ var DEFAULT_SETTINGS = {
   hide_date: false,
   hide_tags: false,
   hide_frontmatter: false,
+  hide_backlinks: false,
+  hide_outgoing: false,
   hide_columns: [],
   show_dashboard_piechart: true,
   image_thumbnail: true,
+  thumbnail_size: 82,
+  primary_tags_results_visible: true,
+  tags_sidebar: true,
+  tags_sidebar_sorted_by_frequency: false,
   onclose_search: "",
   saved_searches: []
 };
-var DNPlugin = class extends import_obsidian9.Plugin {
+var DNPlugin = class extends import_obsidian15.Plugin {
   async onload() {
     await this.loadSettings();
-    this.DN_MODAL = new DNModal(this.app, this);
+    this._DN_DATA_MANAGER = new DNDataManager();
+    const excludedExtensions = this.dnGetExcludedExtensions(this.settings.excluded_ext);
+    const excludedFolders = this.dnGetExcludedFolders(this.settings.excluded_path);
+    this.DN_MODAL = new DNModal(this.app, this, this._DN_DATA_MANAGER);
     this.DN_QUICK_DISPLAY_OPTIONS_MODAL = new DNQuickDisplayOptionsModal(this.app, this);
     this.DN_SAVE_SEARCH_MODAL = new DNSaveSearchModal(this.app, this);
     this.DN_SAVED_SEARCHES_MODAL = new DNSavedSearchesModal(this.app, this);
@@ -2930,9 +4166,10 @@ var DNPlugin = class extends import_obsidian9.Plugin {
     this.DN_MODAL.num_bookmarked_files = this.settings.num_bookmarked_files;
     this.DN_MODAL.files_per_page = this.settings.files_per_page;
     this.DN_MODAL.selected_table_layout = this.settings.selected_table_layout;
-    this.DN_MODAL.excluded_extensions = this.dnGetExcludedExtensions(this.settings.excluded_ext);
-    this.DN_MODAL.excluded_folders = this.dnGetExcludedFolders(this.settings.excluded_path);
+    this.DN_MODAL.excluded_extensions = excludedExtensions;
+    this.DN_MODAL.excluded_folders = excludedFolders;
     this.dnSetFontSize(this.settings.font_size);
+    this.dnSetThumbnailSize(this.settings.thumbnail_size);
     this.DN_MODAL.colored_files = this.settings.colored_files;
     this.DN_MODAL.color_notes = this.settings.color_notes;
     this.DN_MODAL.color_canvas = this.settings.color_canvas;
@@ -2941,9 +4178,13 @@ var DNPlugin = class extends import_obsidian9.Plugin {
     this.DN_MODAL.color_audios = this.settings.color_audios;
     this.DN_MODAL.color_pdf = this.settings.color_pdf;
     this.DN_MODAL.color_other = this.settings.color_other;
+    this.DN_MODAL.color_bases = this.settings.color_bases;
     this.DN_MODAL.hide_columns = this.dnSetHiddenColumns(this.settings.hide_columns);
     this.DN_MODAL.image_thumbnail = this.settings.image_thumbnail;
     this.DN_MODAL.show_dashboard_piechart = this.settings.show_dashboard_piechart;
+    this.DN_MODAL.primary_tags_results_visible = this.settings.primary_tags_results_visible;
+    this.DN_MODAL.tags_sidebar = this.settings.tags_sidebar;
+    this.DN_MODAL.tags_sidebar_sorted_by_frequency = this.settings.tags_sidebar_sorted_by_frequency;
     this.addRibbonIcon("gauge", "Open dashboard navigator", (evt) => {
       this.DN_MODAL.default_view = this.settings.default_view;
       this.DN_MODAL.open();
@@ -2964,17 +4205,37 @@ var DNPlugin = class extends import_obsidian9.Plugin {
         this.DN_MODAL.open();
       }
     });
+    this.addCommand({
+      id: "tags",
+      name: "Open tags",
+      callback: () => {
+        this.DN_MODAL.default_view = 3;
+        this.DN_MODAL.open();
+      }
+    });
     this.addSettingTab(new DNSettingTab(this.app, this));
+    this.app.workspace.onLayoutReady(async () => {
+      await this._DN_DATA_MANAGER.getDataCache(this.app, excludedExtensions, excludedFolders);
+    });
+  }
+  dnSetThumbnailSize(val) {
+    if (val >= 50 || val <= 500) {
+      document.body.style.setProperty("--dn-thumbnail-size", val.toString() + "px");
+    } else {
+      document.body.style.setProperty("--dn-thumbnail-size", "82px");
+    }
   }
   dnSetFontSize(val) {
     if (val >= 12 || val <= 24) {
       document.body.style.setProperty("--dn-font-size", val.toString() + "px");
+    } else {
+      document.body.style.setProperty("--dn-font-size", "16px");
     }
   }
   dnSetHiddenColumns(arrCols) {
-    const allowedCols = ["ext", "path", "size", "date", "tags", "frontmatter"];
+    const allowedCols = ["ext", "path", "size", "date", "tags", "frontmatter", "backlinks", "outgoing"];
     arrCols = arrCols.filter((col) => allowedCols.includes(col));
-    if (arrCols.length <= 6 && arrCols.some((col) => ["ext", "path", "size", "date", "tags", "frontmatter"].includes(col))) {
+    if (arrCols.length <= 8 && arrCols.some((col) => ["ext", "path", "size", "date", "tags", "frontmatter", "backlinks", "outgoing"].includes(col))) {
       return arrCols;
     } else {
       this.settings.hide_columns = [];
@@ -2984,12 +4245,14 @@ var DNPlugin = class extends import_obsidian9.Plugin {
       this.settings.hide_date = false;
       this.settings.hide_tags = false;
       this.settings.hide_frontmatter = false;
+      this.settings.hide_backlinks = false;
+      this.settings.hide_outgoing = false;
       this.saveSettings();
       return [];
     }
   }
   dnUpdateHideColumn(col, val) {
-    const allowedCols = ["ext", "path", "size", "date", "tags", "frontmatter"];
+    const allowedCols = ["ext", "path", "size", "date", "tags", "frontmatter", "backlinks", "outgoing"];
     if (allowedCols.includes(col) && val === true) {
       if (!this.settings.hide_columns.includes(col)) {
         this.settings.hide_columns.push(col);

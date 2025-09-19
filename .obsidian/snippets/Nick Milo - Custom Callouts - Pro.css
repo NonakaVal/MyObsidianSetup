@@ -1,0 +1,3643 @@
+/*
+Nick Milo's Callout Pack for Obsidian (Version: 1.0)
+> A cool collection of compelling callouts.
+
+Pay it forward. Support an Obsidian developer.
+
+Theme Code is distributed under the MIT License.
+
+Special code is added to work with the Prism theme by Damian Korcz <https://github.com/damiankorcz>
+
+COLOR LISTS
+
+PURPLE: Calendar, Globe, Industry, Network, Orbit, Venetian, Video
+CYAN: Blocks, Map, Radar, Rocket, Planet, User
+ORANGE: Book, Boxes, Compass, Keaton, Shell, Tram-front
+YELLOW: Combine, Connect, Puzzle, Sparkles, Sun
+GREY: Box, Command, Cross, Hexagon, Link, Script, Notes
+PINK: Activity, Joystick, Milestone, Rainbow, Tower 
+MINT: Cable-car, Castle, Combo, Camera, Play, Recycle
+GREEN: Bike, Contact, Leaf, Sprout, Train, Training, Trees
+BLUE: Anchor, Locate-fixed, Parking-square, Sailboat, Ship, Shipwheel, Snowflake
+RED: Award, Cone, Fingerprint, Watch
+
+-------------
+*/
+
+.callout[data-callout="album"] {
+    --callout-icon: album;
+    --callout-color: 151, 117, 250;
+
+}
+
+.prism-theme .callout[data-callout="album"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="album"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="album"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+.callout[data-callout="ampersand"] {
+    --callout-icon: ampersand;
+    --callout-color: 134, 142, 150;
+}
+
+.prism-theme .callout[data-callout="ampersand"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="ampersand"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="ampersand"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+.callout[data-callout="areachart"] {
+    --callout-icon: area-chart;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="areachart"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="areachart"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="areachart"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+.callout[data-callout="armchair"] {
+    --callout-icon: armchair;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="armchair"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="armchair"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="armchair"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+.callout[data-callout="apple"] {
+    --callout-icon: apple;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="apple"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="apple"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="apple"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+.callout[data-callout="app"] {
+    --callout-icon: app;
+}
+
+
+.callout[data-callout="@"] {
+    --callout-icon: at-sign;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="@"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="@"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="@"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+.callout[data-callout="alarm"] {
+    --callout-icon: alarm-clock;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="alarm"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="alarm"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="alarm"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+.callout[data-callout="banknote"] {
+    --callout-icon: banknote;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="banknote"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="banknote"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="banknote"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+.callout[data-callout="bird"] {
+    --callout-icon: bird;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="bird"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="bird"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="bird"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+.callout[data-callout="bookmark"] {
+    --callout-icon: bookmark;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="bookmark"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="bookmark"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="bookmark"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+.callout[data-callout="brush"] {
+    --callout-icon: brush;
+    --callout-color: 151, 117, 250;
+
+}
+
+.prism-theme .callout[data-callout="brush"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="brush"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="brush"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+
+
+
+/* aperture */
+
+.callout[data-callout="aperture"] {
+    --callout-icon: aperture;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="aperture"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="aperture"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="aperture"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* atom */
+
+.callout[data-callout="atom"] {
+    --callout-icon: atom;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="atom"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="atom"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="atom"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+
+/* axe */
+
+.callout[data-callout="axe"] {
+    --callout-icon: axe;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="axe"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="axe"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="axe"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+
+/* banana */
+
+.callout[data-callout="banana"] {
+    --callout-icon: banana;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="banana"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="banana"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="banana"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+/* cake */
+
+.callout[data-callout="cake"] {
+    --callout-icon: cake;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="cake"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="cake"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="cake"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+/* chef-hat */
+
+.callout[data-callout="chef"] {
+    --callout-icon: chef-hat;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="chef"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="chef"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="chef"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+/* codesandbox */
+
+.callout[data-callout="codesandbox"] {
+    --callout-icon: codesandbox;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="codesandbox"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="codesandbox"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="codesandbox"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* cog */
+
+.callout[data-callout="cog"] {
+    --callout-icon: cog;
+    --callout-color: 134, 142, 150;
+}
+
+
+.prism-theme .callout[data-callout="cog"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="cog"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="cog"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* drama */
+
+.callout[data-callout="drama"] {
+    --callout-icon: drama;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="drama"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="drama"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="drama"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* ferris-wheel */
+
+.callout[data-callout="ferris"] {
+    --callout-icon: ferris-wheel;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="ferris"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="ferris"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="ferris"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+/* film */
+
+.callout[data-callout="film"] {
+    --callout-icon: film;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="film"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="film"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="film"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+/* fish */
+
+.callout[data-callout="fish"] {
+    --callout-icon: fish;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="fish"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="fish"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="fish"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* gem */
+
+.callout[data-callout="gem"] {
+    --callout-icon: gem;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="gem"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="gem"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="gem"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* ghost */
+
+.callout[data-callout="ghost"] {
+    --callout-icon: ghost;
+    --callout-color: 151, 117, 250;
+}
+
+
+.prism-theme .callout[data-callout="ghost"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="ghost"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="ghost"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* highlighter */
+
+.callout[data-callout="highlighter"] {
+    --callout-icon: highlighter;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="highlighter"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="highlighter"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="highlighter"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+/* lamp-desk */
+
+.callout[data-callout="lamp"] {
+    --callout-icon: lamp-desk;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="lamp"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="lamp"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="lamp"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* layers */
+
+.callout[data-callout="layers"] {
+    --callout-icon: layers;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="layers"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="layers"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="layers"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* lightbulb */
+
+.callout[data-callout="lightbulb"] {
+    --callout-icon: lightbulb;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="lightbulb"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="lightbulb"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="lightbulb"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+/* key-square */
+
+.callout[data-callout="key"] {
+    --callout-icon: key-square;
+    --callout-color: 134, 142, 150;
+}
+
+.prism-theme .callout[data-callout="key"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="key"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="key"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* magnet */
+
+.callout[data-callout="magnet"] {
+    --callout-icon: magnet;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="magnet"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="magnet"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="magnet"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* mail */
+
+.callout[data-callout="mail"] {
+    --callout-icon: mail;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="mail"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="mail"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="mail"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* maximize */
+
+.callout[data-callout="maximize"] {
+    --callout-icon: maximize;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="maximize"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="maximize"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="maximize"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* message-square */
+
+.callout[data-callout="messages"] {
+    --callout-icon: message-square;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="messages"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="messages"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="messages"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* message-circle */
+
+.callout[data-callout="message"] {
+    --callout-icon: message-circle;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="message"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="message"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="message"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* mic */
+
+.callout[data-callout="mic"] {
+    --callout-icon: mic;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="mic"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="mic"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="mic"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* music */
+
+.callout[data-callout="song"] {
+    --callout-icon: music;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="song"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="song"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="song"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+/* music-4 */
+
+.callout[data-callout="music"] {
+    --callout-icon: music-4;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="music"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="music"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="music"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* newspaper */
+
+.callout[data-callout="newspaper"] {
+    --callout-icon: newspaper;
+    --callout-color: 134, 142, 150;
+}
+
+
+.prism-theme .callout[data-callout="newspaper"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="newspaper"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="newspaper"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* paperclip */
+
+.callout[data-callout="paperclip"] {
+    --callout-icon: paperclip;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="paperclip"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="paperclip"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="paperclip"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* party-popper */
+
+.callout[data-callout="party"] {
+    --callout-icon: party-popper;
+    --callout-color: 151, 117, 250;
+}
+
+
+.prism-theme .callout[data-callout="party"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="party"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="party"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* pen */
+
+.callout[data-callout="pen"] {
+    --callout-icon: pen-tool;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="pen"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="pen"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="pen"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+/* plane */
+
+.callout[data-callout="plane"] {
+    --callout-icon: plane;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="plane"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="plane"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="plane"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* paw-print */
+
+.callout[data-callout="pawprint"] {
+    --callout-icon: paw-print;
+    --callout-color: 151, 117, 250;
+}
+
+.prism-theme .callout[data-callout="pawprint"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="pawprint"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="pawprint"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* home */
+
+.callout[data-callout="home"] {
+    --callout-icon: home;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="home"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="home"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="home"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* projector */
+
+.callout[data-callout="projector"] {
+    --callout-icon: projector;
+    --callout-color: 151, 117, 250;
+}
+
+
+.prism-theme .callout[data-callout="projector"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="projector"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="projector"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* pyramid */
+
+.callout[data-callout="pyramid"] {
+    --callout-icon: pyramid;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="pyramid"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="pyramid"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="pyramid"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* rabbit */
+
+.callout[data-callout="rabbit"] {
+    --callout-icon: rabbit;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="rabbit"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="rabbit"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="rabbit"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+/* rotate-3d */
+
+.callout[data-callout="revolve"] {
+    --callout-icon: rotate-3d;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="revolve"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="revolve"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="revolve"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* rollercoaster */
+
+.callout[data-callout="rollercoaster"] {
+    --callout-icon: roller-coaster;
+    --callout-color: 233, 124, 238;
+
+}
+
+.prism-theme .callout[data-callout="rollercoaster"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="rollercoaster"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="rollercoaster"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* scale */
+
+.callout[data-callout="scale"] {
+    --callout-icon: scale;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="scale"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="scale"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="scale"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* scatter-chart */
+
+.callout[data-callout="scatterchart"] {
+    --callout-icon: scatter-chart;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="scatterchart"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="scatterchart"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="scatterchart"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* scissors */
+
+.callout[data-callout="scissors"] {
+    --callout-icon: scissors;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="scissors"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="scissors"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="scissors"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* send */
+
+.callout[data-callout="send"] {
+    --callout-icon: send;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="send"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="send"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="send"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* settings */
+
+.callout[data-callout="settings"] {
+    --callout-icon: settings;
+    --callout-color: 134, 142, 150;
+}
+
+
+.prism-theme .callout[data-callout="settings"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="settings"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="settings"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* shapes */
+
+.callout[data-callout="shapes"] {
+    --callout-icon: shapes;
+    --callout-color: 233, 124, 238;
+
+}
+
+.prism-theme .callout[data-callout="shapes"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="shapes"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="shapes"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* snail */
+
+.callout[data-callout="snail"] {
+    --callout-icon: snail;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="snail"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="snail"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="snail"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+/* shrink */
+
+.callout[data-callout="shrink"] {
+    --callout-icon: shrink;
+    --callout-color: 134, 142, 150;
+}
+
+
+.prism-theme .callout[data-callout="shrink"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="shrink"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="bshrinkox"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+
+/* sliders */
+
+.callout[data-callout="sliders"] {
+    --callout-icon: sliders;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="sliders"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="sliders"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="sliders"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+
+/* sliders-horizontal */
+
+.callout[data-callout="slider"] {
+    --callout-icon: sliders-horizontal;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="slider"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="slider"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="slider"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+
+/* soup */
+
+.callout[data-callout="soup"] {
+    --callout-icon: soup;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="soup"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="soup"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="soup"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+
+/* star */
+
+.callout[data-callout="star"] {
+    --callout-icon: star;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="star"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="star"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="star"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+
+/* tangent */
+
+.callout[data-callout="tangent"] {
+    --callout-icon: tangent;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="tangent"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="tangent"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="tangent"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+
+/* target */
+
+.callout[data-callout="target"] {
+    --callout-icon: target;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="target"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="target"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="target"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+
+/* tent-tree */
+
+.callout[data-callout="tent"] {
+    --callout-icon: tent-tree;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="tent"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="tent"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="tent"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* train-track */
+
+.callout[data-callout="tracks"] {
+    --callout-icon: train-track;
+    --callout-color: 134, 142, 150;
+}
+
+.prism-theme .callout[data-callout="tracks"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="tracks"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="tracks"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+
+/* trending-down */
+
+.callout[data-callout="trendingdown"] {
+    --callout-icon: trending-down;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="trendingdown"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="trendingdown"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="trendingdown"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+
+/* trending-up */
+
+.callout[data-callout="trendingup"] {
+    --callout-icon: trending-up;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="trendingup"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="trendingup"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="trendingup"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+
+/* turtle */
+
+.callout[data-callout="turtle"] {
+    --callout-icon: turtle;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="turtle"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="turtle"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="turtle"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+/* wand */
+
+.callout[data-callout="wand"] {
+    --callout-icon: wand;
+    --callout-color: 151, 117, 250;
+}
+
+
+.prism-theme .callout[data-callout="wand"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="wand"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="wand"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* wand-2 */
+
+.callout[data-callout="wandy"] {
+    --callout-icon: wand-2;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="wandy"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="wandy"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="wandy"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* waves */
+
+.callout[data-callout="waves"] {
+    --callout-icon: waves;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="waves"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="waves"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="waves"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* waypoints */
+
+.callout[data-callout="waypoints"] {
+    --callout-icon: waypoints;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="waypoints"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="waypoints"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="waypoints"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* wrench */
+
+.callout[data-callout="wrench"] {
+    --callout-icon: wrench;
+    --callout-color: 134, 142, 150;
+}
+
+.prism-theme .callout[data-callout="wrench"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="wrench"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="wrench"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+
+/* write */
+
+.callout[data-callout="write"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: pencil;
+}
+
+.prism-theme .callout[data-callout="write"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="write"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="write"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+
+
+
+
+/* youtube */
+
+.callout[data-callout="youtube"] {
+    --callout-icon: youtube;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="youtube"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="youtube"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="youtube"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* zap */
+
+.callout[data-callout="zap"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: zap;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="zap"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="zap"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="zap"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* activity */
+
+.callout[data-callout="activity"] {
+    --callout-icon: activity;
+    --callout-color: 233, 124, 238;
+}
+
+.prism-theme .callout[data-callout="activity"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="activity"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="activity"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+/* anchor */
+
+.callout[data-callout="anchor"] {
+    --callout-icon: anchor;
+    --callout-color: 77, 171, 247;
+}
+
+.prism-theme .callout[data-callout="anchor"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="anchor"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="anchor"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* award */
+
+.callout[data-callout="award"] {
+    --callout-icon: award;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="award"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="award"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="award"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+/* bike */
+.callout[data-callout="bike"] {
+    --callout-icon: bike;
+    --callout-color: 64, 192, 87;
+}
+
+.prism-theme .callout[data-callout="bike"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="bike"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="bike"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* blocks */
+.callout[data-callout="blocks"] {
+    --callout-icon: blocks;
+    --callout-color: 34, 184, 207;
+}
+
+.prism-theme .callout[data-callout="blocks"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="blocks"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="blocks"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* book */
+
+.callout[data-callout="book"] {
+    --callout-icon: book;
+    --callout-color: 255, 146, 43;
+}
+
+.prism-theme .callout[data-callout="book"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="book"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="book"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* box */
+
+.callout[data-callout="box"] {
+    --callout-icon: box;
+    --callout-color: 134, 142, 150;
+}
+
+
+.prism-theme .callout[data-callout="box"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="box"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="box"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+/* boxes */
+
+.callout[data-callout="boxes"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: boxes;
+}
+
+.prism-theme .callout[data-callout="boxes"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="boxes"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="boxes"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* boxescyan */
+
+.callout[data-callout="boxescyan"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: boxes;
+}
+
+.prism-theme .callout[data-callout="boxescyan"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="boxescyan"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="boxescyan"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+
+/* cable-car */
+
+.callout[data-callout="cable-car"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: cable-car;
+}
+
+.prism-theme .callout[data-callout="cable-car"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="cable-car"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="cable-car"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+
+
+/* calendar */
+
+.callout[data-callout="calendar"] {
+    --callout-icon: calendar-days;
+    --callout-color: 172, 199, 255;
+
+}
+
+.prism-theme .callout[data-callout="calendar"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="calendar"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="calendar"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* camera */
+
+.callout[data-callout="camera"] {
+    --callout-icon: camera;
+    --callout-color: 18, 184, 134;
+}
+
+.prism-theme .callout[data-callout="camera"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="camera"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="camera"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* castle mint */
+.callout[data-callout="castle"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: castle;
+}
+
+.prism-theme .callout[data-callout="castle"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="castle"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="castle"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+/* castle orange */
+.callout[data-callout="castleo"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: castle;
+}
+
+.prism-theme .callout[data-callout="castleo"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="castleo"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="castleo"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* combine */
+
+.callout[data-callout="combine"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: combine;
+}
+
+.prism-theme .callout[data-callout="combine"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="combine"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="combine"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* combo */
+
+.callout[data-callout="combo"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: gamepad;
+}
+
+.prism-theme .callout[data-callout="combo"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="combo"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="combo"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+/* command */
+
+.callout[data-callout="command"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: command;
+}
+
+
+.prism-theme .callout[data-callout="command"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="command"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="command"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+/* compass */
+
+.callout[data-callout="compass"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: compass;
+}
+
+.prism-theme .callout[data-callout="compass"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="compass"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="compass"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* cone */
+
+.callout[data-callout="cone"] {
+    --callout-icon: traffic-cone;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="cone"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="cone"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="cone"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+/* connect */
+
+.callout[data-callout="connect"] {
+    --callout-icon: share-2;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="connect"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="connect"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="connect"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+/* contact */
+
+.callout[data-callout="contact"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: contact;
+}
+
+.prism-theme .callout[data-callout="contact"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="contact"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="contact"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* cross */
+
+.callout[data-callout="cross"] {
+    --callout-icon: cross;
+    --callout-color: 250, 82, 82;
+}
+
+.prism-theme .callout[data-callout="cross"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="cross"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="cross"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* fingerprint */
+
+.callout[data-callout="fingerprint"] {
+    --callout-color: 250, 82, 82;
+    --callout-icon: fingerprint;
+}
+
+.prism-theme .callout[data-callout="fingerprint"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="fingerprint"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="fingerprint"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* globe */
+
+.callout[data-callout="globe"] {
+    --callout-color: 172, 199, 255;
+    --callout-icon: globe;
+}
+
+
+.prism-theme .callout[data-callout="globe"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="globe"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="globe"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* hexagon */
+
+.callout[data-callout="hexagon"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: hexagon;
+}
+
+.prism-theme .callout[data-callout="hexagon"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="hexagon"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="hexagon"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* industry */
+
+.callout[data-callout="industry"] {
+    --callout-color: 151, 117, 250;
+    --callout-icon: building-2;
+}
+
+.prism-theme .callout[data-callout="industry"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="industry"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="industry"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+/* joystick */
+
+.callout[data-callout="joystick"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: joystick;
+}
+
+.prism-theme .callout[data-callout="joystick"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="joystick"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="joystick"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+/* keaton */
+
+.callout[data-callout="keaton"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: quote;
+}
+
+.prism-theme .callout[data-callout="keaton"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="keaton"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="keaton"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* quotes */
+
+.callout[data-callout="quotes"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: quote;
+}
+
+.prism-theme .callout[data-callout="quotes"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="quotes"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="quotes"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* leaf */
+
+.callout[data-callout="leaf"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: leaf;
+}
+
+.prism-theme .callout[data-callout="leaf"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="leaf"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="leaf"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* link */
+
+.callout[data-callout="link"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: link;
+}
+
+.prism-theme .callout[data-callout="link"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="link"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="link"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* locate */
+
+.callout[data-callout="locate"] {
+    --callout-color: 77, 171, 247;
+    --callout-icon: locate-fixed;
+}
+
+.prism-theme .callout[data-callout="locate"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="locate"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="locate"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+
+/* map */
+
+.callout[data-callout="map"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: map;
+}
+
+.prism-theme .callout[data-callout="map"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="map"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="map"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+/* milestone */
+
+.callout[data-callout="milestone"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: milestone;
+}
+
+.prism-theme .callout[data-callout="milestone"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="milestone"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="milestone"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+/* network */
+
+.callout[data-callout="network"] {
+    --callout-color: 151, 117, 250;
+    --callout-icon: network;
+}
+
+.prism-theme .callout[data-callout="network"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="network"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="network"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* notes */
+
+.callout[data-callout="notes"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: file-text;
+}
+
+.prism-theme .callout[data-callout="notes"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="notes"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="notes"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+/* orbit */
+
+.callout[data-callout="orbit"] {
+    --callout-color: 151, 117, 250;
+    --callout-icon: orbit;
+}
+
+.prism-theme .callout[data-callout="orbit"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="orbit"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="orbit"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+/* parking */
+
+.callout[data-callout="parking"] {
+    --callout-color: 77, 171, 247;
+    --callout-icon: parking-square;
+}
+
+.prism-theme .callout[data-callout="parking"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="parking"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="parking"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+
+/* planet */
+
+.callout[data-callout="planet"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: globe-2;
+}
+
+.prism-theme .callout[data-callout="planet"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="planet"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="planet"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* play */
+
+.callout[data-callout="play"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: gamepad-2;
+}
+
+.prism-theme .callout[data-callout="play"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="play"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="play"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+/* puzzle */
+
+.callout[data-callout="puzzle"] {
+    --callout-color: 199, 196, 0;
+    --callout-icon: puzzle;
+}
+
+.prism-theme .callout[data-callout="puzzle"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="puzzle"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="puzzle"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+/* radar */
+
+.callout[data-callout="radar"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: radar;
+}
+
+.prism-theme .callout[data-callout="radar"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="radar"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="radar"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+/* rainbow */
+
+.callout[data-callout="rainbow"] {
+    --callout-icon: rainbow;
+    --callout-color: 233, 124, 238;
+
+}
+
+.prism-theme .callout[data-callout="rainbow"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="rainbow"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="rainbow"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+/* recycle */
+
+.callout[data-callout="recycle"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: refresh-ccw;
+}
+
+.prism-theme .callout[data-callout="recycle"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="recycle"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="recycle"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* rocket */
+
+.callout[data-callout="rocket"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: rocket;
+}
+
+.prism-theme .callout[data-callout="rocket"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="rocket"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="rocket"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+/* sailboat */
+
+.callout[data-callout="sailboat"] {
+    --callout-color: 77, 171, 247;
+    --callout-icon: sailboat;
+}
+
+.prism-theme .callout[data-callout="sailboat"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="sailboat"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="sailboat"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+/* script */
+
+.callout[data-callout="script"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: scroll;
+}
+
+.prism-theme .callout[data-callout="script"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="script"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="script"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+/* shell */
+
+.callout[data-callout="shell"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: shell;
+}
+
+.prism-theme .callout[data-callout="shell"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="shell"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="shell"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+/* ship */
+
+.callout[data-callout="ship"] {
+    --callout-color: 77, 171, 247;
+    --callout-icon: ship;
+}
+
+.prism-theme .callout[data-callout="ship"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="ship"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="ship"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+/* shipwheel */
+
+.callout[data-callout="shipwheel"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: shipwheel;
+}
+
+.prism-theme .callout[data-callout="shipwheel"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="shipwheel"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="shipwheel"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+/* snowflake */
+
+.callout[data-callout="snowflake"] {
+    --callout-color: 77, 171, 247;
+    --callout-icon: snowflake;
+}
+
+.prism-theme .callout[data-callout="snowflake"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="snowflake"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="snowflake"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+/* sparkles */
+
+.callout[data-callout="sparkles"] {
+    --callout-icon: sparkle;
+    --callout-color: 199, 196, 0;
+}
+
+.prism-theme .callout[data-callout="sparkles"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="sparkles"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="sparkles"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+/* sprout */
+
+.callout[data-callout="sprout"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: sprout;
+}
+
+.prism-theme .callout[data-callout="sprout"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="sprout"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="sprout"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* sun */
+
+.callout[data-callout="sun"] {
+    --callout-color: 199, 196, 0;
+    --callout-icon: sun;
+}
+
+.prism-theme .callout[data-callout="sun"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="sun"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="sun"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+
+/* train */
+
+.callout[data-callout="train"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: train;
+}
+
+.prism-theme .callout[data-callout="train"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="train"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="train"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* training */
+
+.callout[data-callout="training"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: dumbbell;
+}
+
+.prism-theme .callout[data-callout="training"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="training"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="training"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* tram-front */
+
+.callout[data-callout="tram"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: tram-front;
+}
+
+.prism-theme .callout[data-callout="tram"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="tram"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="tram"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+/* trees */
+
+.callout[data-callout="trees"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: trees;
+}
+
+.prism-theme .callout[data-callout="trees"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="trees"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="trees"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* tower-control */
+
+.callout[data-callout="tower"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: tower-control;
+}
+
+.prism-theme .callout[data-callout="tower"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="tower"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="tower"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* user */
+
+.callout[data-callout="user"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: user;
+}
+
+.prism-theme .callout[data-callout="user"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="user"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="user"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+/* venetian */
+
+.callout[data-callout="venetian"] {
+   --callout-icon: venetian-mask;
+   --callout-color: 151, 117, 250;
+}
+
+.prism-theme .callout[data-callout="venetian"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="venetian"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="venetian"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+/* video */
+
+.callout[data-callout="video"] {
+    --callout-color: 151, 117, 250;
+    --callout-icon: clapperboard;
+}
+
+.prism-theme .callout[data-callout="video"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="video"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="video"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* watch */
+.callout[data-callout="watch"] {
+    --callout-color: 250, 82, 82;
+    --callout-icon: watch;
+}
+
+.prism-theme .callout[data-callout="watch"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="watch"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="watch"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* moon */
+
+.callout[data-callout="moon"] {
+    --callout-icon: moon;
+    --callout-color: 151, 117, 250;
+}
+
+.prism-theme .callout[data-callout="moon"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="moon"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="moon"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+
+/* NEW BATCH OF 14 FROM 2024-07-07 */
+
+
+/* moon */
+
+.callout[data-callout="mountain"] {
+    --callout-icon: mountain;
+    --callout-color: 151, 117, 250;
+}
+
+.prism-theme .callout[data-callout="mountain"] > .callout-title {
+    color: var(--color-purple-text);
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+.prism-theme .callout[data-callout="mountain"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-purple-text);
+}
+
+.prism-theme .callout[data-callout="mountain"] > .callout-content {
+    background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-purple-tint);
+}
+
+
+/* caravan */
+
+.callout[data-callout="caravan"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: caravan;
+}
+
+.prism-theme .callout[data-callout="caravan"] > .callout-title {
+    color: var(--color-cyan-text);
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+.prism-theme .callout[data-callout="caravan"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-cyan-text);
+}
+
+.prism-theme .callout[data-callout="caravan"] > .callout-content {
+    background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-cyan-tint);
+}
+
+
+/* hop */
+
+.callout[data-callout="hop"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: hop;
+}
+
+.prism-theme .callout[data-callout="hop"] > .callout-title {
+    color: var(--color-orange-text);
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+.prism-theme .callout[data-callout="hop"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-orange-text);
+}
+
+.prism-theme .callout[data-callout="hop"] > .callout-content {
+    background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-orange-tint);
+}
+
+
+/* shovel */
+
+.callout[data-callout="shovel"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: shovel;
+}
+
+.prism-theme .callout[data-callout="shovel"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="shovel"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+.prism-theme .callout[data-callout="shovel"] > .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
+
+
+
+
+/* flower */
+
+.callout[data-callout="flower"] {
+    --callout-color: 199, 196, 0;
+    --callout-icon: flower;
+}
+
+.prism-theme .callout[data-callout="flower"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="flower"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="flower"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+
+/* tree-palm */
+
+.callout[data-callout="tree-palm"] {
+    --callout-color: 199, 196, 0;
+    --callout-icon: tree-palm;
+}
+
+.prism-theme .callout[data-callout="tree-palm"] > .callout-title {
+    color: var(--color-yellow-text);
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+.prism-theme .callout[data-callout="tree-palm"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-yellow-text);
+}
+
+.prism-theme .callout[data-callout="tree-palm"] > .callout-content {
+    background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-yellow-tint);
+}
+
+
+
+/* flower-2 */
+
+.callout[data-callout="flower-2"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: flower-2;
+}
+
+.prism-theme .callout[data-callout="flower-2"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="flower-2"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="flower-2"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* cannabis */
+
+.callout[data-callout="cannabis"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: cannabis;
+}
+
+.prism-theme .callout[data-callout="cannabis"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="cannabis"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="cannabis"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+
+/* tree-deciduous */
+
+.callout[data-callout="deciduous"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: tree-deciduous;
+}
+
+.prism-theme .callout[data-callout="deciduous"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="deciduous"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+.prism-theme .callout[data-callout="deciduous"] > .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+
+/* bean */
+
+.callout[data-callout="bean"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: bean;
+}
+
+.prism-theme .callout[data-callout="bean"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="bean"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="bean"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* tree-pine */
+
+.callout[data-callout="pine"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: tree-pine;
+}
+
+.prism-theme .callout[data-callout="pine"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="pine"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="pine"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+/* shrub */
+
+.callout[data-callout="shrub"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: shrub;
+}
+
+.prism-theme .callout[data-callout="shrub"] > .callout-title {
+    color: var(--color-green-text);
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+.prism-theme .callout[data-callout="shrub"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-green-text);
+}
+
+.prism-theme .callout[data-callout="shrub"] > .callout-content {
+    background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-green-tint);
+}
+
+
+/* mountain-snow */
+
+.callout[data-callout="mountain-snow"] {
+    --callout-color: 77, 171, 247;
+    --callout-icon: mountain-snow;
+}
+
+.prism-theme .callout[data-callout="mountain-snow"] > .callout-title {
+    color: var(--color-blue-text);
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+.prism-theme .callout[data-callout="mountain-snow"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-blue-text);
+}
+
+.prism-theme .callout[data-callout="mountain-snow"] > .callout-content {
+    background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-blue-tint);
+}
+
+/* flame-kindling */
+
+.callout[data-callout="kindling"] {
+    --callout-color: 250, 82, 82;
+    --callout-icon: flame-kindling;
+}
+
+.prism-theme .callout[data-callout="kindling"] > .callout-title {
+    color: var(--color-red-text);
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+.prism-theme .callout[data-callout="kindling"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-red-text);
+}
+
+.prism-theme .callout[data-callout="kindling"] > .callout-content {
+    background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-red-tint);
+}
+
+
+/* circle-help */
+
+.callout[data-callout="questions"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: circle-help;
+}
+
+.prism-theme .callout[data-callout="questions"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="questions"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="questions"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+
+/* message-circle-question */
+
+.callout[data-callout="questionss"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: message-circle-question;
+}
+
+.prism-theme .callout[data-callout="questionss"] > .callout-title {
+    color: var(--color-pink-text);
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+
+.prism-theme .callout[data-callout="questionss"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-pink-text);
+}
+
+.prism-theme .callout[data-callout="questionss"] > .callout-content {
+    background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-pink-tint);
+}
+

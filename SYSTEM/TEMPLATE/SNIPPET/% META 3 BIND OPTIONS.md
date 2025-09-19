@@ -1,0 +1,1 @@
+ `INPUT[inlineSelect(option('<% tp.system.prompt("Fist opt")%>'), option('<% tp.system.prompt("Sec opt")%>'), option('<% tp.system.prompt("3º opt")%>')):<% tp.system.prompt("property name")%>]` 

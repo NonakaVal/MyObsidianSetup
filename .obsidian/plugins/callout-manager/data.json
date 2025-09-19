@@ -1,7 +1,32 @@
 {
   "callouts": {
-    "custom": [],
-    "settings": {}
+    "custom": [
+      "meta",
+      "box"
+    ],
+    "settings": {
+      "meta": [
+        {
+          "changes": {
+            "icon": "lucide-table"
+          }
+        }
+      ],
+      "box": [
+        {
+          "changes": {
+            "color": "208, 103, 140"
+          }
+        }
+      ],
+      "calendar": [
+        {
+          "changes": {
+            "color": "123, 221, 234"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

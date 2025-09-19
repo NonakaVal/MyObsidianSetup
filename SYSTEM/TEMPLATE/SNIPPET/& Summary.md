@@ -3,7 +3,7 @@
 //-----------------------------------------------------
 // CONFIGURAÇÃO DE INTERVALO
 //-----------------------------------------------------
-const startDate = moment("<%tp.file.cursor()%>", "YYYY-MM-DD");
+const startDate = moment("<% tp.system.prompt("StartDate")%>", "YYYY-MM-DD");
 const endDate = moment("<% tp.date.now("YYYY-MM-DD") %>", "YYYY-MM-DD");
 
 //-----------------------------------------------------

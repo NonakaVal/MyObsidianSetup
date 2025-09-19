@@ -1,8 +1,10 @@
 {
   "pinned": [
     "obsidian-shellcommands:shell-command-jizuaj31bd",
-    "obsidian-shellcommands:shell-command-f2t7eurond",
+    "workspace:copy-path",
     "workspace:open-in-new-window",
-    "workspace:copy-path"
+    "obsidian-shellcommands:shell-command-f2t7eurond",
+    "workspace:toggle-pin",
+    "obsidian-meta-bind-plugin:copy-command-id"
   ]
 }

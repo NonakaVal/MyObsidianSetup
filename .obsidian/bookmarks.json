@@ -6,6 +6,16 @@
       "path": "SYSTEM/ASSETS/regra-nomenclatura-code-snippets.md"
     },
     {
+      "type": "folder",
+      "ctime": 1751042592350,
+      "path": "SYSTEM/SCRIPTS"
+    },
+    {
+      "type": "file",
+      "ctime": 1751088528040,
+      "path": "SELF/ME.md"
+    },
+    {
       "type": "group",
       "ctime": 1753389758288,
       "items": [
@@ -43,26 +53,14 @@
       "title": "AREAS"
     },
     {
-      "type": "group",
-      "ctime": 1754783777384,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1753746605115,
-          "path": "EFFORTS/10_PROJECTS/LUNA-AI/LUNA-AI.md"
-        }
-      ],
-      "title": "PROJETOS"
-    },
-    {
       "type": "folder",
-      "ctime": 1751042592350,
-      "path": "SYSTEM/SCRIPTS"
+      "ctime": 1757707785148,
+      "path": "EFFORTS/10_PROJECTS"
     },
     {
       "type": "file",
-      "ctime": 1751088528040,
-      "path": "SELF/ME.md"
+      "ctime": 1757710849426,
+      "path": "ATLAS/01_INDEX/index-templates.md"
     },
     {
       "type": "group",
@@ -80,11 +78,6 @@
         }
       ],
       "title": "SYSTEM"
-    },
-    {
-      "type": "file",
-      "ctime": 1754783749858,
-      "path": "+/DATAVIEW-QUERY-JS.md"
     }
   ]
 }

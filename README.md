@@ -1,10 +1,8 @@
 # Prints
 
-![Imgur](https://imgur.com/kmqIGms.jpeg)
+![img](https://imgur.com/xXvuW6h.png)
 
-![img](https://imgur.com/FXofP2z.jpeg)
-
-![img2](https://imgur.com/7qKOAxE.jpeg)
+![img2](https://imgur.com/xLyCqw4.png)
 
 # Folder System
 

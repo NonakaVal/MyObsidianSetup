@@ -13,16 +13,7 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "SKETCH",
-      "template": "SYSTEM/TEMPLATE/TEMPLATE-NEW-SKETCH-NOTE.md"
-    },
-    {
-      "folder": "EFFORTS/09_AREAS",
-      "template": "SYSTEM/TEMPLATE/TEMPLATE-NEW-AREA-NOTE.md"
-    }
-  ],
+  "folder_templates": [],
   "enable_file_templates": false,
   "file_templates": [
     {

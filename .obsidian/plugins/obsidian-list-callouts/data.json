@@ -92,5 +92,35 @@
     "color": "81, 178, 210",
     "icon": "lucide-arrow-down-left-from-square",
     "custom": true
+  },
+  {
+    "char": "calendar",
+    "color": "248, 244, 114",
+    "icon": "calendar-day",
+    "custom": true
+  },
+  {
+    "char": "code ",
+    "color": "148, 225, 216",
+    "icon": "lucide-curly-braces",
+    "custom": true
+  },
+  {
+    "char": "people",
+    "color": "238, 183, 88",
+    "icon": "lucide-users",
+    "custom": true
+  },
+  {
+    "char": "gear ",
+    "color": "168, 241, 136",
+    "icon": "lucide-cog",
+    "custom": true
+  },
+  {
+    "char": "folder",
+    "color": "110, 203, 226",
+    "icon": "lucide-folder-input",
+    "custom": true
   }
 ]

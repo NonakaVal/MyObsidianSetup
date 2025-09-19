@@ -4,7 +4,7 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "folder": "CALENDAR/DAILY",
-    "template": "SYSTEM/TEMPLATE/daily-note-template.md",
+    "template": "SYSTEM/TEMPLATE/FORMAT/daily-note-template.md",
     "enabled": true
   },
   "weekly": {
@@ -15,7 +15,7 @@
   },
   "monthly": {
     "format": "",
-    "template": "SYSTEM/TEMPLATE/MONTHLY-note-template.md",
+    "template": "SYSTEM/TEMPLATE/FORMAT/MONTHLY-note-template.md",
     "folder": "CALENDAR/MONTHLY",
     "enabled": true
   },

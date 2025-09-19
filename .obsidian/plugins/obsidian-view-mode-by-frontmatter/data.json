@@ -30,6 +30,10 @@
     {
       "folder": "SYSTEM/ASSETS/Dataview/DATAVIEW-QUERY-JS",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "CALENDAR/MONTHLY",
+      "viewMode": "obsidianUIMode: preview"
     }
   ],
   "files": [
@@ -46,7 +50,27 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "README",
+      "filePattern": "🏠",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_folder_index_EFFORTS",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_folder_index_CALENDAR",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_folder_index_SYSTEM",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_folder_index_03_RESOURCES",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_folder_index_CODE",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

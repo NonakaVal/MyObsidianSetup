@@ -1,6 +1,6 @@
 {
   "format": "",
-  "template": "SYSTEM/TEMPLATE/daily-note-template",
+  "template": "SYSTEM/TEMPLATE/FORMAT/daily-note-template",
   "folder": "CALENDAR/DAILY",
   "autorun": false
 }

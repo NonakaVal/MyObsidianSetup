@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Border",
+  "cssTheme": "Prism",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "minorAdds",
@@ -8,8 +8,12 @@
     "minorFixes",
     "StyleCallouts",
     "MCL Wide Views",
-    "hidePropertiesBase"
+    "hidePropertiesBase",
+    "Nick Milo - Custom Callouts - Pro",
+    "nav",
+    "MCL Multi Column",
+    "imageGallery"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 13
+  "baseFontSize": 14
 }

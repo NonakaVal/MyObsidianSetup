@@ -17,7 +17,17 @@ WHERE !completed AND !checked and type != "area_utils" and kanban-plugin != "boa
 GROUP BY file.name 
 SORT file.name DESC
 ```
+tab: Project Tasks
 
+```dataview
+TASK
+FROM "EFFORTS/10_PROJECTS" 
+WHERE !completed AND !checked and type != "area_utils" and kanban-plugin != "board"
+where type = "project"
+where type != "project_note"
+GROUP BY file.name 
+SORT file.name DESC
+```
 
 tab: Efforts Overview
 

@@ -5,196 +5,200 @@
       "path": "README.md"
     },
     {
-      "basename": "doc-git-config",
-      "path": "CODE/07_DOC/doc-git-config.md"
-    },
-    {
-      "basename": "SKETCH-pensamento",
-      "path": "SELF/+/SKETCH-pensamento.md"
-    },
-    {
-      "basename": "SELF-INDEX",
-      "path": "SELF/+/SELF-INDEX.md"
-    },
-    {
-      "basename": "resumo-fé",
-      "path": "SELF/14_FAITH/resumo-fé.md"
-    },
-    {
-      "basename": "index-computer-science",
-      "path": "ATLAS/01_INDEX/index-computer-science.md"
-    },
-    {
-      "basename": "index-datascience",
-      "path": "ATLAS/01_INDEX/index-datascience.md"
-    },
-    {
-      "basename": "doc-pandas-methods",
-      "path": "CODE/07_DOC/doc-pandas-methods.md"
-    },
-    {
-      "basename": "python-manipulação-de-dados",
-      "path": "CODE/07_DOC/python-manipulação-de-dados.md"
-    },
-    {
-      "basename": "flow-pandas-null-values-wrangling",
-      "path": "CODE/08_WORKFLOW/flow-pandas-null-values-wrangling.md"
-    },
-    {
-      "basename": "flow-pandas-basic-data-manipulation",
-      "path": "CODE/08_WORKFLOW/flow-pandas-basic-data-manipulation.md"
-    },
-    {
-      "basename": "+",
-      "path": "SELF/20_SOCIAL/+.md"
-    },
-    {
-      "basename": "Similar-Search.py-2025-06-26",
-      "path": "CODE/+/Similar-Search.py-2025-06-26.md"
-    },
-    {
-      "basename": "Zettell.py-2025-06-16",
-      "path": "CODE/+/Zettell.py-2025-06-16.md"
-    },
-    {
-      "basename": "INDEX-CODE",
-      "path": "CODE/+/INDEX-CODE.md"
-    },
-    {
-      "basename": "2024",
-      "path": "CALENDAR/YEARLY/2024.md"
-    },
-    {
-      "basename": "2024-10",
-      "path": "CALENDAR/MONTHLY/2024-10.md"
-    },
-    {
-      "basename": "+_CANVAS_AOC",
-      "path": "ATLAS/04_MAPS/+_CANVAS_AOC.canvas"
-    },
-    {
-      "basename": "res-github-commit-message-convention",
-      "path": "ATLAS/03_RESOURCES/res-github-commit-message-convention.md"
-    },
-    {
-      "basename": "index-templates",
-      "path": "ATLAS/01_INDEX/index-templates.md"
-    },
-    {
-      "basename": "index-pkm",
-      "path": "ATLAS/01_INDEX/index-pkm.md"
-    },
-    {
-      "basename": "draft-ruby-basics",
-      "path": "ATLAS/00_DRAFT/draft-ruby-basics.md"
-    },
-    {
-      "basename": "DRAFT-estudo-de-cladistica",
-      "path": "ATLAS/00_DRAFT/DRAFT-estudo-de-cladistica.md"
-    },
-    {
-      "basename": "draft-direito-cibernetico",
-      "path": "ATLAS/00_DRAFT/draft-direito-cibernetico.md"
-    },
-    {
-      "basename": "Zettelizer.py-2025-06-12",
-      "path": "ATLAS/00_DRAFT/Snippets/Zettelizer.py-2025-06-12.md"
-    },
-    {
-      "basename": "2025-06-14",
-      "path": "CALENDAR/DAILY/2025-06-14.md"
-    },
-    {
-      "basename": "2025-06-03",
-      "path": "CALENDAR/DAILY/2025-06-03.md"
-    },
-    {
-      "basename": "2025-06-02",
-      "path": "CALENDAR/DAILY/2025-06-02.md"
-    },
-    {
-      "basename": "2025-06-01",
-      "path": "CALENDAR/DAILY/2025-06-01.md"
+      "basename": "🏠",
+      "path": "🏠.md"
     },
     {
       "basename": "_index_notas",
       "path": "_index_notas.md"
     },
     {
-      "basename": "! py group_by",
-      "path": "CODE/05_SNIPPETS/! py group_by.md"
+      "basename": "2025-09-19",
+      "path": "CALENDAR/DAILY/2025-09-19.md"
     },
     {
-      "basename": "! py Lazy Commits",
-      "path": "CODE/05_SNIPPETS/! py Lazy Commits.md"
+      "basename": "vault-gallery-show-case",
+      "path": "+/vault-gallery-show-case.md"
     },
     {
-      "basename": "% py quick_text_fix",
-      "path": "CODE/05_SNIPPETS/% py quick_text_fix.md"
+      "basename": "modified",
+      "path": "+/modified.md"
     },
     {
-      "basename": "cmp-get-dataframe-info",
-      "path": "CODE/06_COMPONENT/cmp-get-dataframe-info.md"
+      "basename": "created",
+      "path": "+/created.md"
     },
     {
-      "basename": "Data Science Python Maps",
-      "path": "ATLAS/04_MAPS/Data Science Python Maps.md"
+      "basename": "Efforts",
+      "path": "SYSTEM/ASSETS/Efforts.md"
     },
     {
-      "basename": "+_CANVAS-MENTORIA.CARLOS",
-      "path": "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas"
+      "basename": "tasks",
+      "path": "SYSTEM/ASSETS/tasks.md"
     },
     {
-      "basename": "+_CANVAS-Fluxograma-de-decisoes-de-anuncios",
-      "path": "ATLAS/04_MAPS/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas"
+      "basename": "Nick Milo's Pro Custom Callouts",
+      "path": "ATLAS/03_RESOURCES/Ideaverse Pro 2/Atlas/Dots/x/PKM/Nick Milo's Pro Custom Callouts.md"
     },
     {
-      "basename": "+_CANVAS-DATASCIENCE",
-      "path": "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas"
+      "basename": "asset-full-examples-multicolum-plugin",
+      "path": "SYSTEM/ASSETS/asset-full-examples-multicolum-plugin.md"
     },
     {
-      "basename": "+_CANVAS_GROWTH",
-      "path": "ATLAS/04_MAPS/+_CANVAS_GROWTH.canvas"
+      "basename": "%-2 colluns plugin",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/%-2 colluns plugin.md"
     },
     {
-      "basename": "res-checklist-produto-e-objecoes",
-      "path": "ATLAS/03_RESOURCES/res-checklist-produto-e-objecoes.md"
+      "basename": "@-templates",
+      "path": "SYSTEM/ASSETS/Dataview/@-templates.md"
     },
     {
-      "basename": "doc-vault-snippet-dataview",
-      "path": "ATLAS/03_RESOURCES/doc-vault-snippet-dataview.md"
+      "basename": "% METABIND BOTÃO COM COMANDO",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
     },
     {
-      "basename": "index-linux",
-      "path": "ATLAS/01_INDEX/index-linux.md"
+      "basename": "_-templater clipboard",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/_-templater clipboard.md"
     },
     {
-      "basename": "cmp-gca-lazy-commit-config",
-      "path": "CODE/06_COMPONENT/cmp-gca-lazy-commit-config.md"
+      "basename": "Serie-básico-obsidian",
+      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/Serie-básico-obsidian.md"
     },
     {
-      "basename": "index-mkt-menagement",
-      "path": "ATLAS/01_INDEX/index-mkt-menagement.md"
+      "basename": "1-roteiro-porque-usar-obsidian",
+      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/1-roteiro-porque-usar-obsidian.md"
     },
     {
-      "basename": "concept-aoc-5.3 Unidade funcional de controle",
-      "path": "ATLAS/02_CONCEPT/FirstVault/knowledge/Dev/eng. software/AOC/concept-aoc-5.3 Unidade funcional de controle.md"
+      "basename": "Markdown",
+      "path": "ATLAS/02_CONCEPT/LYT/Markdown.md"
     },
     {
-      "basename": "ucp",
-      "path": "ATLAS/02_CONCEPT/ucp.md"
+      "basename": "YOUTUBE-VIDEO-IDEAS",
+      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEO-IDEAS.md"
     },
     {
-      "basename": "hub-linux",
-      "path": "+/HUB/hub-linux.md"
+      "basename": "Daily Journal",
+      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Daily Journal.md"
     },
     {
-      "basename": "codeSearchgit-integration-examples",
-      "path": "ATLAS/02_CONCEPT/codeSearchgit-integration-examples.md"
+      "basename": "roteiro-flow-note-taking",
+      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/roteiro-flow-note-taking.md"
     },
     {
-      "basename": "codeSearchadvanced-workflows",
-      "path": "ATLAS/02_CONCEPT/codeSearchadvanced-workflows.md"
+      "basename": "Vídeo Dicas 2",
+      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Vídeo Dicas 2.md"
+    },
+    {
+      "basename": "YOUTUBE-VIDEOS",
+      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md"
+    },
+    {
+      "basename": "2-roteiro-fundamentos-configuração",
+      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/2-roteiro-fundamentos-configuração.md"
+    },
+    {
+      "basename": "4-roteiro-proficiência-operacional",
+      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/4-roteiro-proficiência-operacional.md"
+    },
+    {
+      "basename": "MOC definição",
+      "path": "ATLAS/02_CONCEPT/LYT/MOC definição.md"
+    },
+    {
+      "basename": "roteiro dos videos guia",
+      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/roteiro dos videos guia.md"
+    },
+    {
+      "basename": "Vault Alex Idea",
+      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/Vault Alex Idea.md"
+    },
+    {
+      "basename": "@ adicionar-imagem-centralizada",
+      "path": "SYSTEM/TEMPLATE/SNIPPET/@ adicionar-imagem-centralizada.md"
+    },
+    {
+      "basename": "5-Planejamento geral e roteiros",
+      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/5-Planejamento geral e roteiros.md"
+    },
+    {
+      "basename": "2025-09-12",
+      "path": "CALENDAR/DAILY/2025-09-12.md"
+    },
+    {
+      "basename": "2025-09",
+      "path": "CALENDAR/MONTHLY/2025-09.md"
+    },
+    {
+      "basename": "doc-Running Ruby Project with Gems",
+      "path": "CODE/07_DOC/doc-Running Ruby Project with Gems.md"
+    },
+    {
+      "basename": "doc-git-config",
+      "path": "CODE/07_DOC/doc-git-config.md"
+    },
+    {
+      "basename": "ruby-intro-to-booleans",
+      "path": "ATLAS/02_CONCEPT/Dev/ProgrammingL/ruby-intro-to-booleans.md"
+    },
+    {
+      "basename": "2025-09-18",
+      "path": "CALENDAR/DAILY/2025-09-18.md"
+    },
+    {
+      "basename": "First meeting alex",
+      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/First meeting alex.md"
+    },
+    {
+      "basename": "_nota-index",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/_nota-index.png"
+    },
+    {
+      "basename": "01",
+      "path": "SYSTEM/MEDIA/01.png"
+    },
+    {
+      "basename": "dailu",
+      "path": "SYSTEM/MEDIA/dailu.png"
+    },
+    {
+      "basename": "1-dash",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/1-dash.png"
+    },
+    {
+      "basename": "2-concepts",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/2-concepts.png"
+    },
+    {
+      "basename": "4-lib",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/4-lib.png"
+    },
+    {
+      "basename": "9-nota-area-pkm",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/9-nota-area-pkm.png"
+    },
+    {
+      "basename": "5-component",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/5-component.png"
+    },
+    {
+      "basename": "3-nota-seaborn",
+      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/3-nota-seaborn.png"
+    },
+    {
+      "basename": "Pasted image 20230224202045",
+      "path": "SYSTEM/MEDIA/Pasted image 20230224202045.png"
+    },
+    {
+      "basename": "obsidian",
+      "path": "SYSTEM/MEDIA/obsidian.png"
+    },
+    {
+      "basename": "home-2",
+      "path": "SYSTEM/MEDIA/home-2.png"
+    },
+    {
+      "basename": "home",
+      "path": "SYSTEM/MEDIA/home.png"
     }
   ],
   "omittedPaths": [],

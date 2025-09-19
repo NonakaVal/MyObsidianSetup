@@ -1,12 +1,14 @@
+ `BUTTON[<% tp.system.prompt("id")%>]`     
 
 ```meta-bind-button
-label: <%tp.file.cursor()%>
-hidden: false
+label: <% tp.system.prompt("Label")%>
+hidden: true
+icon: <% tp.system.prompt("icon")%>
 class: ""
-id: 
-style: default
+id: <% tp.system.prompt("id")%>
+style: <% tp.system.prompt("style")%>
 actions:
   - type: command
-    command: 
+    command: <% tp.system.clipboard() %>
 ```
 

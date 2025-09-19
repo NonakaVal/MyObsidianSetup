@@ -1,0 +1,1 @@
+% tp.system.clipboard() %>
