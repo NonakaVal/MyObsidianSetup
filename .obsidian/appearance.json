@@ -1,19 +1,21 @@
 {
-  "cssTheme": "Prism",
+  "baseFontSizeAction": true,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "minorAdds",
     "dashboarPlusPlus",
     "datacore-classes",
-    "minorFixes",
-    "StyleCallouts",
-    "MCL Wide Views",
+    "Easy multi-column notes",
     "hidePropertiesBase",
-    "Nick Milo - Custom Callouts - Pro",
-    "nav",
+    "imageGallery",
     "MCL Multi Column",
-    "imageGallery"
+    "MCL Wide Views",
+    "minorAdds",
+    "minorFixes",
+    "Nick Milo - Custom Callouts - Pro",
+    "StyleCallouts",
+    "table-view",
+    "Folder-description"
   ],
-  "baseFontSizeAction": true,
-  "baseFontSize": 14
+  "baseFontSize": 14,
+  "cssTheme": "Things"
 }

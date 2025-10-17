@@ -1,28 +1,20 @@
 {
   "callouts": {
     "custom": [
-      "meta",
-      "box"
+      "testcallout"
     ],
     "settings": {
-      "meta": [
+      "testcallout": [
         {
           "changes": {
-            "icon": "lucide-table"
+            "color": "217, 161, 221"
           }
         }
       ],
-      "box": [
+      "connect": [
         {
           "changes": {
-            "color": "208, 103, 140"
-          }
-        }
-      ],
-      "calendar": [
-        {
-          "changes": {
-            "color": "123, 221, 234"
+            "color": "192, 233, 242"
           }
         }
       ]

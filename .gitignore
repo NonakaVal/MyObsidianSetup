@@ -1,9 +1,6 @@
-.virtual_documents/
+.vscode/
+.stfolder/
+.trash/
 
-.ipynb_checkpoints/
-.anaconda_projects/
-.anaconda_projects/db/
-
-.Social/PEOPLE/
-
-
+/SELF/.gitattributes
+/SYSTEM/MEDIA/TCG-POCKET-cards

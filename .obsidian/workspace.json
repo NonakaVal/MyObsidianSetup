@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e68e1f93de819158",
+        "id": "75ba2b3ab7db2ce7",
         "type": "tabs",
         "children": [
           {
-            "id": "fb98ad63a354fada",
+            "id": "4f9880bbe9d2e304",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "🏠.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "🏠"
             }
           }
         ]
@@ -55,16 +55,6 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
-            }
-          },
-          {
-            "id": "dfe9e16620292570",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
             }
           },
           {
@@ -100,30 +90,74 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "🏠.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de README"
-            }
-          },
-          {
-            "id": "2f7e466c08f80ed2",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
+              "title": "Sumário de 🏠"
             }
           }
         ]
+      },
+      {
+        "id": "5bf066390432bfba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8e7e9bde23996cf",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Calendar & Review/Daily Notes/2025-10-08.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.18462327653666757,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de 2025-10-08"
+            }
+          },
+          {
+            "id": "b8dfe6ab158d7f15",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 516.5
   },
   "right": {
     "id": "3703f7d8eaeb01fd",
@@ -135,23 +169,23 @@
         "dimension": 53.153153153153156,
         "children": [
           {
-            "id": "fdd41c845e6997b5",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
-            "id": "ca7097b55077a2c5",
+            "id": "72f1b9cde49a80fb",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
+            }
+          },
+          {
+            "id": "d559413d9238a91f",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "tasknotes-pomodoro-view"
             }
           },
           {
@@ -180,7 +214,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "title": "All properties"
             }
           },
           {
@@ -189,20 +223,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Calendar & Review/Daily Notes/2025-10-08.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo README"
-            }
-          },
-          {
-            "id": "bb8e1f9c9bb61a38",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "title": "Propriedades do arquivo 2025-10-08"
             }
           }
         ]
@@ -213,49 +237,12 @@
         "dimension": 46.846846846846844,
         "children": [
           {
-            "id": "f8e7e9bde23996cf",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "README.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.45456955811720023,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de README"
-            }
-          },
-          {
             "id": "c133cbfbc6b00289",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏠.md",
+                "file": "+/2025-10-15-new note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +252,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 🏠"
+              "title": "Links inversos para 2025-10-15-new note"
             }
           },
           {
@@ -282,85 +269,99 @@
               "title": "Links de saída para 🏠"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
+      "graph:Abrir visualização em gráfico": false,
       "command-palette:Abrir paleta de comandos": false,
-      "random-note:Abrir nota aleatória": false,
-      "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "bases:Criar nova base": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false,
-      "code-files:Create Code File": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:Criar um novo quadro": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "switcher:Abrir a troca rápida": true,
+      "canvas:Criar novo canvas": true,
+      "templates:Inserir modelo": true,
+      "random-note:Abrir nota aleatória": true,
+      "workspaces:Gerenciar leiautes da área de trabalho": true,
+      "bases:Criar nova base": true,
       "callout-manager:Insert Callout": false,
-      "widgets:Add widget": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "obsidian-kanban:Criar um novo quadro": false,
+      "templater-obsidian:Templater": false,
+      "gridexplorer:Open grid view": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open notes": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "fb98ad63a354fada",
+  "active": "4f9880bbe9d2e304",
   "lastOpenFiles": [
-    "🏠.md",
+    "Knowlegde/Draft/draft-direito-cibernetico.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Comunicar.md",
     "README.md",
-    "_index_notas.md",
-    "SYSTEM/ASSETS/VaultSnippets/desktop.ini",
-    "CALENDAR/DAILY/2025-09-19.md",
-    "+/vault-gallery-show-case.md",
-    "SYSTEM/MEDIA/Pasted image 20250919121409.png",
-    "SYSTEM/MEDIA/Pasted image 20250919121326.png",
-    "SYSTEM/MEDIA/Pasted image 20250919121325.png",
-    "SYSTEM/MEDIA/Pasted image 20250919121300.png",
-    "+/modified.md",
-    "+/created.md",
-    "SYSTEM/ASSETS/Efforts.md",
-    "SYSTEM/ASSETS/tasks.md",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Atlas/Dots/x/PKM/Nick Milo's Pro Custom Callouts.md",
-    "SYSTEM/ASSETS/asset-full-examples-multicolum-plugin.md",
-    "SYSTEM/TEMPLATE/SNIPPET/%-2 colluns plugin.md",
-    "SYSTEM/ASSETS/Dataview/@-templates.md",
-    "SYSTEM/TEMPLATE/SNIPPET/% METABIND BOTÃO COM COMANDO.md",
-    "SYSTEM/TEMPLATE/SNIPPET/_-templater clipboard.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/Serie-básico-obsidian.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/1-roteiro-porque-usar-obsidian.md",
-    "ATLAS/02_CONCEPT/LYT/Markdown.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEO-IDEAS.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Daily Journal.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/roteiro-flow-note-taking.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Vídeo Dicas 2.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/2-roteiro-fundamentos-configuração.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/4-roteiro-proficiência-operacional.md",
-    "ATLAS/02_CONCEPT/LYT/MOC definição.md",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/_nota-index.png",
-    "SYSTEM/MEDIA/01.png",
-    "SYSTEM/MEDIA/dailu.png",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/1-dash.png",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/2-concepts.png",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/4-lib.png",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Efforts/Areas/Health/desktop.ini",
-    "desktop.ini",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Calendar/Records/Nice Things/desktop.ini",
-    "ATLAS/02_CONCEPT/Dev/ProgrammingL",
-    "ATLAS/04_MAPS/+_CANVAS_AOC 1.canvas",
-    "SYSTEM/SCRIPTS/Zettell.py",
-    "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "Calendar & Review/Daily Notes/2025-10-08.md",
+    "Calendar & Review/Daily Notes/2025-10-07.md",
+    "Calendar & Review/Daily Notes/2025-10-06.md",
+    "+/2025-10-15-new note.md",
+    "System/Assets/_Garden_Architect_tags.md",
+    "Calendar & Review/Monthly Notes/2025-10.md",
+    "Calendar & Review/Daily Notes/2025-10-17.md",
+    "🏠.md",
+    "System/Assets/hotkeys.md",
+    "_folder_index_obsidian-base-setup.md",
+    "System/Assets/asset-full-examples-multicolum-plugin.md",
+    "System/Assets/Dataview/@_Garden.md",
+    "Knowlegde/Maps & Index/Mapa de Gestão de Conhecimento.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Jardineiro.md",
+    "Knowlegde/Maps & Index/Data Science.md",
+    "Knowlegde/Maps & Index/Dashboard++.md",
+    "Knowlegde/Maps/Vault Map.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Nota.md",
+    "Knowlegde/Concept/Gestão de conhecimento/MOC definição.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Entendendo Areas.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Cultive.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Construir.md",
+    "Knowlegde/Concept/Gestão de conhecimento/Conceitos.md",
+    "Knowlegde/Concept/Gestão de conhecimento",
+    "Knowlegde/Concept",
+    "Knowlegde",
+    "Obsdian Base Setup .zip.zip",
+    "Knowlegde.zip",
+    "60 System/62 Templates/62.1 FORMAT",
+    "60 System/62 Templates",
+    "60 System",
+    "60 System/62 Templates/62.2 SNIPPET",
+    "+",
     "Sem título.canvas",
-    "EFFORTS/09_AREAS/areaa 1",
-    "SYSTEM/TEMPLATE/FORMAT",
-    "SYSTEM/SCRIPTS/index-notes/concepts_index.py",
-    "SYSTEM/SCRIPTS/index-notes/calendar_index copy.py"
+    "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS_AOC.canvas",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/wolverine-tethered.jpg",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/whelan-the-wave-1994.jpg",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/whelan-space-station-1978-narrow.jpg",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/whelan-space-station-1978-mod.jpg",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/stay-on-target.jpg",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/sort-by-file-name-a-to-z.png",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/sensemaking-archetypes-clean.png",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/robert-mccall-space-ship-launch-narrower.png",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/robert-mccall-space-ship-launch-narrow.jpg",
+    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/robert-mccall-space-ship-launch-mid.jpg",
+    "30 Knowlegde/34 Maps &  Index/34.2 Maps/mapa-pkm.canvas",
+    "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS_AOC 1.canvas",
+    "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS-DATASCIENCE.canvas",
+    "30 Knowlegde/34.2 Maps/mapa-pkm.canvas",
+    "30 Knowlegde/34.2 Maps/+_CANVAS_AOC.canvas",
+    "30 Knowlegde/34.2 Maps/+_CANVAS_AOC 1.canvas"
   ]
 }

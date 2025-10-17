@@ -2,39 +2,19 @@
   "files": [
     {
       "useMoment": false,
-      "file": "SYSTEM/SCRIPTS/Zettell.py"
-    },
-    {
-      "useMoment": false,
-      "file": "README.md"
-    },
-    {
-      "useMoment": false,
-      "file": "ATLAS/ATLAS.base"
-    },
-    {
-      "useMoment": false,
-      "file": "SYSTEM/ASSETS/Dataview/@-templates.md"
-    },
-    {
-      "useMoment": false,
-      "file": "ATLAS/01_INDEX/_folder_index_01_INDEX.md"
-    },
-    {
-      "useMoment": false,
-      "file": "EFFORTS/_folder_index_EFFORTS.md"
-    },
-    {
-      "useMoment": false,
-      "file": "EFFORTS/09_AREAS/_folder_index_09_AREAS.md"
-    },
-    {
-      "useMoment": false,
-      "file": "EFFORTS/10_PROJECTS/_folder_index_10_PROJECTS.md"
+      "file": "System/Assets/Dataview/@-templates.md"
     },
     {
       "useMoment": false,
       "file": "🏠.md"
+    },
+    {
+      "useMoment": false,
+      "file": "System/Assets/Dataview/@_projects.md"
+    },
+    {
+      "useMoment": false,
+      "file": "System/Assets/Dataview/@_areas.md"
     }
   ],
   "useExistingPane": true,

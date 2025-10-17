@@ -1,20 +1,21 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "2178b4b13ad8d220",
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "e68e1f93de819158",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "49c187f62ec26212",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CALENDAR/DAILY/2025-07-24.md",
-                "mode": "source",
+                "file": "🏠.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -27,59 +28,146 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "2025-07-24"
+              "title": "🏠"
             }
           },
           {
-            "id": "c9c15125e3eca42d",
+            "id": "3285210fb9abcd46",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "tasknotes-advanced-calendar-view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-ghost",
+              "title": "tasknotes-advanced-calendar-view"
+            }
+          },
+          {
+            "id": "af1be36f01b0ea86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CALENDAR/DAILY/2025-07-24.md",
+                "file": "60 System/61 Assets/61.1 Dataview/@_modified.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-24"
+              "title": "@_modified"
+            }
+          },
+          {
+            "id": "d3f0c4fa736b8658",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "60 System/61 Assets/61.1 Dataview/@_modified.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@_modified"
+            }
+          },
+          {
+            "id": "c81e86a78c480844",
+            "type": "leaf",
+            "state": {
+              "type": "grid-view",
+              "state": {
+                "type": "grid-view",
+                "state": {
+                  "sourceMode": "folder",
+                  "sourcePath": "50 Projects & Outputs/51 Ongoing/Daily Journal Vault Kit",
+                  "baseSortType": "mtime-desc",
+                  "sortType": "mtime-desc",
+                  "searchQuery": "",
+                  "searchCurrentLocationOnly": false,
+                  "searchFilesNameOnly": false,
+                  "searchMediaFiles": false,
+                  "includeMedia": false,
+                  "minMode": false,
+                  "showIgnoredFolders": false,
+                  "baseCardLayout": "horizontal",
+                  "cardLayout": "horizontal",
+                  "hideHeaderElements": false,
+                  "showDateDividers": false,
+                  "showNoteTags": false,
+                  "recentSources": [],
+                  "futureSources": []
+                }
+              },
+              "icon": "folder",
+              "title": "50 Projects & Outputs/51 Ongoing/Daily Journal Vault Kit"
+            }
+          },
+          {
+            "id": "7e64f170a6eb7277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "60 System/61 Assets/61.1 Dataview/@_by_count_links.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@_by_count_links"
+            }
+          },
+          {
+            "id": "1f318fd461142eea",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "be681d3c56f7c211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 Calendar & Review/41 Daily Notes/2025-10-14.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-14"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ce7eae8d304c9765",
+    "id": "34bd5ff89c54d67e",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "22e718b1d785f434",
+        "id": "20f1e159850cf956",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": true
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
         }
       },
       {
-        "id": "8a76f651615cc0e5",
+        "id": "30efe27cbbbfc02c",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -96,7 +184,7 @@
         }
       },
       {
-        "id": "4521107f445ac618",
+        "id": "3a90355536119010",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -111,7 +199,7 @@
         }
       },
       {
-        "id": "22dc2081146557f1",
+        "id": "7f18ff192190ba32",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -125,7 +213,7 @@
         }
       },
       {
-        "id": "b397fd617413fd41",
+        "id": "a8c811e86842f681",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -133,31 +221,21 @@
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
         }
-      },
-      {
-        "id": "289fb73ed01db9e7",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "e8cfb22d83d6d03a",
+    "id": "6c54d616c43450aa",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "1b3bcfc2c0ebc5d2",
+        "id": "b884d617e9176b17",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CALENDAR/DAILY/2023-06-15.md",
+            "file": "60 System/62 Templates/62.1 FORMAT/daily-note-template.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,12 +249,12 @@
         }
       },
       {
-        "id": "91b7677c9d736dce",
+        "id": "9c7f46aded58dfe6",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CALENDAR/DAILY/2023-06-15.md",
+            "file": "60 System/62 Templates/62.1 FORMAT/daily-note-template.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -185,12 +263,12 @@
         }
       },
       {
-        "id": "d3cf5be751bfdae9",
+        "id": "c95fc52401de757b",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "CALENDAR/DAILY/2023-06-15.md",
+            "file": "60 System/62 Templates/62.1 FORMAT/daily-note-template.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -200,7 +278,7 @@
         }
       },
       {
-        "id": "0e1f44c86bb3a2af",
+        "id": "15404c6f7413847e",
         "type": "leaf",
         "state": {
           "type": "calendar",
@@ -210,37 +288,17 @@
         }
       },
       {
-        "id": "d737963997f3dd2c",
+        "id": "faf14c9194398972",
         "type": "leaf",
         "state": {
-          "type": "todo",
+          "type": "chronology-calendar-view",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "clock",
+          "title": "Chronology"
         }
       },
       {
-        "id": "620d0acb966ffb51",
-        "type": "leaf",
-        "state": {
-          "type": "git-view",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "51f12caefec6922b",
-        "type": "leaf",
-        "state": {
-          "type": "todo",
-          "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
-        }
-      },
-      {
-        "id": "a411d1e531d90724",
+        "id": "9efe596b7e89edae",
         "type": "leaf",
         "state": {
           "type": "todo",
@@ -250,65 +308,51 @@
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
+      "callout-manager:Insert Callout": false,
       "dashboard-navigator:Open dashboard navigator": false,
-      "switcher:Open quick switcher": false,
+      "obsidian-git:Open Git source control": true,
+      "tasknotes:Open pomodoro": false,
+      "gridexplorer:Open grid view": false,
+      "tasknotes:Open task list": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false,
-      "pomodoro-timer:Toggle timer panel": false,
+      "canvas:Create new canvas": true,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian42-brat:BRAT": false,
-      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": true,
+      "obsidian-kanban:Create new board": true,
+      "chronology:Open Chronology": false,
+      "tasknotes:Open mini calendar": true,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open notes": false,
+      "tasknotes:Open agenda": true,
+      "tasknotes:Open kanban board": true,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": true,
+      "widgets:Add widget": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "c9c15125e3eca42d",
+  "active": "be681d3c56f7c211",
   "lastOpenFiles": [
-    "HOMEPAGE.md",
-    "CALENDAR/DAILY/2025-07-24.md",
-    "EFFORTS/11_ARCHIVES/bbHarry/AprendizadoDobb.md",
-    "EFFORTS/09_AREAS/ESTUDOS/ESTUDOS.md",
-    "EFFORTS/11_ARCHIVES/PKM-Youtube-Videos/conceitos-fundamentais.md",
-    "EFFORTS/11_ARCHIVES/PKM-Youtube-Videos/importancia-nota-diaria.md",
-    "EFFORTS/11_ARCHIVES/PKM-Youtube-Videos/guias de uso obsidian alex.md",
-    "EFFORTS/09_AREAS/TRABALHO/TRABALHO.md",
-    "EFFORTS/09_AREAS/TRABALHO",
-    "EFFORTS/09_AREAS/ESTUDOS/Backend RUBY.md",
-    "EFFORTS/09_AREAS/ESTUDOS",
-    "SYSTEM/MEDIA/Recording 20250724172016.m4a",
-    "CALENDAR/DAILY/2025-06-02.md",
-    "CALENDAR/DAILY/2025-06-03.md",
-    "CALENDAR/DAILY/2025-06-07.md",
-    "CALENDAR/DAILY/2025-06-13.md",
-    "CALENDAR/DAILY/2025-06-14.md",
-    "CALENDAR/DAILY/2025-06-16.md",
-    "CALENDAR/DAILY/2025-06-25.md",
-    "CALENDAR/DAILY/2025-06-26.md",
-    "CALENDAR/DAILY/2025-06-27.md",
-    "CALENDAR/DAILY/2025-06-28.md",
-    "CALENDAR/DAILY/2025-06-29.md",
-    "CODE/08_WORKFLOW/flow-Verify-DataTypes.md",
-    "CODE/05_SNIPPETS/! py validate_dtype(series, expected_dtype).md",
-    "CODE/08_WORKFLOW/flow-pandas-data-cleaning-methods.md",
-    "ATLAS/02_CONCEPT/concept-python-assert-method.md",
-    "ATLAS/04_MAPS/+_CANVAS-DATASCIENCE.canvas",
-    "ATLAS/02_CONCEPT/pandas-select_dtypes.md",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.49.40_de085fe4.waptt.opus",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.35.11_407b97ad.waptt.opus",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.33.46_9f44f5d3.waptt.opus",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.33.46_57ead4e7.waptt",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.32.25_46e4d72a.waptt",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.35.11_1f759bfa.waptt",
-    "SYSTEM/MEDIA/Áudio do WhatsApp de 2025-06-16 à(s) 01.22.34_c480894e.waptt.opus"
+    "60 System/61 Assets/61.1 Dataview/@_by_count_links.md",
+    "40 Calendar & Review/41 Daily Notes/2025-10-14.md",
+    "30 Knowlegde/33 Concept/2025-09-24-Thoughts-Concepts-Archived/concept-statistic-fundamentos.md",
+    "🏠.md",
+    "30 Knowlegde/34 Maps &  Index/34.1 Index/index-datascience.md",
+    "50 Projects & Outputs/51 Ongoing/Daily Journal Vault Kit/2025-10-13-Daily Journal Vault Kit.md",
+    "60 System/61 Assets/61.1 Dataview/@_modified.md",
+    "60 System/61 Assets/61.1 Dataview/@_created.md",
+    "60 System/62 Templates/62.1 FORMAT/daily-note-template.md",
+    "60 System/61 Assets/61.1 Dataview/@-templates.md",
+    "40 Calendar & Review/41 Daily Notes/2025-10-13.md"
   ]
 }

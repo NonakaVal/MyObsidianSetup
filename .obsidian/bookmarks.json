@@ -6,56 +6,9 @@
       "path": "SYSTEM/ASSETS/regra-nomenclatura-code-snippets.md"
     },
     {
-      "type": "folder",
-      "ctime": 1751042592350,
-      "path": "SYSTEM/SCRIPTS"
-    },
-    {
       "type": "file",
       "ctime": 1751088528040,
       "path": "SELF/ME.md"
-    },
-    {
-      "type": "group",
-      "ctime": 1753389758288,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/ESTUDOS/ESTUDOS.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/VIDEOS-YOUTUBE/VIDEOS-YOUTUBE.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/FAMILIA/FAMILIA.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/TRABALHO/TRABALHO.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753555795681,
-          "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1754087355645,
-          "path": "EFFORTS/09_AREAS/FINANCEIRO/FINANCEIRO.md"
-        }
-      ],
-      "title": "AREAS"
-    },
-    {
-      "type": "folder",
-      "ctime": 1757707785148,
-      "path": "EFFORTS/10_PROJECTS"
     },
     {
       "type": "file",
@@ -63,21 +16,117 @@
       "path": "ATLAS/01_INDEX/index-templates.md"
     },
     {
+      "type": "file",
+      "ctime": 1759517440759,
+      "path": "50 Projects & Outputs/51 Ongoing/Flight School Obsidian Vault/2025-10-03-Flight School Obsidian Vault.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759914691223,
+      "path": "20 Focus Areas/22 Family/Family.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759914700687,
+      "path": "20 Focus Areas/24 Youtube PKM Channel/Kanban Youtube PKM Channel.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759914906524,
+      "path": "50 Projects & Outputs/51 Ongoing/PKM pro system/PKM pro system.md"
+    },
+    {
       "type": "group",
-      "ctime": 1754785163703,
+      "ctime": 1759915384053,
       "items": [
         {
-          "type": "folder",
-          "ctime": 1751043459095,
-          "path": "SYSTEM/TEMPLATE"
+          "type": "file",
+          "ctime": 1759915377258,
+          "path": "System/Assets/Dataview/@-templates.md"
         },
         {
-          "type": "folder",
-          "ctime": 1754785153464,
-          "path": "SYSTEM/TEMPLATE/SNIPPET"
+          "type": "file",
+          "ctime": 1759915377258,
+          "path": "System/Assets/Dataview/@_tasks.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1759915377258,
+          "path": "System/Templates/Format/daily-note-template.md"
         }
       ],
-      "title": "SYSTEM"
+      "title": "Templates"
+    },
+    {
+      "type": "file",
+      "ctime": 1759915707489,
+      "path": "System/Assets/Dataview/@_Architect.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759915730423,
+      "path": "System/Assets/Dataview/@_Garden.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1760577043481,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1760577064775,
+          "items": [],
+          "title": "Projects & Areas"
+        },
+        {
+          "type": "group",
+          "ctime": 1760577589283,
+          "items": [],
+          "title": "+"
+        },
+        {
+          "type": "group",
+          "ctime": 1760577589283,
+          "items": [],
+          "title": "Calendar & Review"
+        },
+        {
+          "type": "group",
+          "ctime": 1760577589283,
+          "items": [],
+          "title": "Knowlegde"
+        },
+        {
+          "type": "group",
+          "ctime": 1760577589283,
+          "items": [],
+          "title": "System"
+        },
+        {
+          "type": "file",
+          "ctime": 1760577589283,
+          "path": "_folder_index_obsidian-base-setup.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1760577589283,
+          "path": "🏠.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1760577589283,
+          "path": "Obsdian Base Setup .zip.zip",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1760577589283,
+          "path": "README.md",
+          "subpath": "#^-"
+        }
+      ],
+      "title": "sortspec"
     }
   ]
 }

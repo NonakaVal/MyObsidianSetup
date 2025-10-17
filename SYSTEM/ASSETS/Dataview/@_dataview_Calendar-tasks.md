@@ -2,18 +2,16 @@
 tags:
   - resources
   - dataview
-HUB:
+subject:
   - "[[hub-pkm]]"
 cssclasses: []
 ---
-## [[@_dataview_Calendar-tasks]]
-
 
 ````tabs
-tab: Calendar Tasks
+tab: 40 Calendar & Review Tasks
 ```dataview
 TASK
-FROM "CALENDAR" AND -#inlog AND -#lost-codes AND !"CALENDAR/YEARLY" AND !"CALENDAR/MONTHLY"
+FROM "40 Calendar & Review" AND -#inlog AND -#lost-codes AND !"40 40 Calendar & Review & Review/43 YEARLY" AND !"40 40 Calendar & Review & Review/42 MONTHLY"
 WHERE !completed AND !checked and type != "area_utils"
 SORT file.mtime DESC
 ```
@@ -24,7 +22,7 @@ tab: Metas e Objetivos
 
 ```dataview
 TASK
-FROM "CALENDAR" AND -#inlog AND -#lost-codes AND !"CALENDAR/DAILY"
+FROM "40 Calendar & Review" AND -#inlog AND -#lost-codes AND !"40 40 Calendar & Review & Review/41 DAILY"
 WHERE !completed AND !checked and type != "area_utils"
 GROUP BY file.name
 SORT file.mtime DESC
@@ -36,17 +34,17 @@ tab: Done Tasks List
 
 ```dataview
 TASK
-FROM "CALENDAR"
+FROM "40 Calendar & Review"
 WHERE completed AND checked and type != "area_utils"
 GROUP BY file.name
 SORT file.mtime ASC
 
 ```
 
-tab: Calendar Overview
+tab: 40 Calendar & Review Overview
 
 ```dataviewjs
-const pages = dv.pages('"CALENDAR"')
+const pages = dv.pages('"40 Calendar & Review"')
   .where(p => !(p.tags?.includes("#inlog") || p.tags?.includes("#lost-codes")));
 
 let totalTasks = 0;

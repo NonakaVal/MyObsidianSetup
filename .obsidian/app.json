@@ -1,25 +1,4 @@
 {
-  "showLineNumber": true,
-  "readableLineLength": true,
   "alwaysUpdateLinks": true,
-  "tabSize": 4,
-  "newLinkFormat": "shortest",
-  "attachmentFolderPath": "SYSTEM/MEDIA",
-  "defaultViewMode": "source",
-  "userIgnoreFilters": [
-    "SYSTEM/+/",
-    "SYSTEM/ASSETS/cssSnippets/",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/"
-  ],
-  "pdfExportSettings": {
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "2",
-    "downscalePercent": 79
-  },
-  "propertiesInDocument": "visible",
-  "newFileLocation": "folder",
-  "useMarkdownLinks": false,
-  "vimMode": false,
-  "newFileFolderPath": "+"
+  "showInlineTitle": false
 }

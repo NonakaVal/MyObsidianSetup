@@ -1,10 +1,5 @@
 ---
 created: "[[2025-06-08]]"
-tags:
-  - people
-  - aboutMe
-HUB:
-  - "[[hub-writing]]"
 cssclasses: wide-page
 ---
 

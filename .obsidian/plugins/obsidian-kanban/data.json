@@ -1,4 +1,4 @@
 {
-  "show-checkboxes": true,
+  "show-checkboxes": false,
   "new-note-template": "SYSTEM/TEMPLATE/TEMPLATE-KANBAN.md"
 }

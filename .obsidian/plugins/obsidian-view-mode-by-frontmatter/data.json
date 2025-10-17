@@ -4,73 +4,21 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "ATLAS",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "ATLAS/01_INDEX",
+      "folder": "Calendar & Review/Monthly Notes",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "CALENDAR",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "EFFORTS",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "SYSTEM/TEMPLATE",
-      "viewMode": "obsidianEditingMode: source"
-    },
-    {
-      "folder": "CODE/05_SNIPPETS",
-      "viewMode": "obsidianEditingMode: source"
-    },
-    {
-      "folder": "SYSTEM/ASSETS/Dataview/DATAVIEW-QUERY-JS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "CALENDAR/MONTHLY",
+      "folder": "Knowlegde/Maps",
       "viewMode": "obsidianUIMode: preview"
     }
   ],
   "files": [
     {
-      "filePattern": "hotkeys",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "notes-gallery",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "DATAVIEW-QUERY-JS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
       "filePattern": "🏠",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "_folder_index_EFFORTS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_folder_index_CALENDAR",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_folder_index_SYSTEM",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_folder_index_03_RESOURCES",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_folder_index_CODE",
+      "filePattern": "Plano de Geral",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

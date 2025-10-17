@@ -673,16 +673,34 @@ function getTagsPerFile(file) {
     return "";
   }
 }
+
 function getPropsPerFile(file) {
-  const fileProperties = [];
   const cache = this.app.metadataCache.getFileCache(file);
-  if (cache == null ? void 0 : cache.frontmatter) {
-    for (const [key, value] of Object.entries(cache.frontmatter)) {
-      fileProperties.push(`'${key}: ${value}'`);
-    }
-  }
-  return fileProperties.join(" \n");
+  if (!cache?.frontmatter) return "";
+
+  const icons = {
+    status: "✅",
+    date: "📅",
+    tags: "🏷️",
+    priority: "⚡",
+    HUB: "🌐",
+    created: "📝",
+    related: "🔗",
+    collection: "📚",
+    up: "⬆️",
+    connections: "🕸️",
+    cssclasses: "🎨",
+    default: "🔸"
+  };
+
+  return Object.entries(cache.frontmatter)
+    .map(([key, value]) => {
+      const icon = icons[key] || icons.default;
+      return `${icon} ${key}: ${value}`;
+    })
+    .join("\n");
 }
+
 
 // src/utils/dnpiechart.ts
 var DNPieChart = class {

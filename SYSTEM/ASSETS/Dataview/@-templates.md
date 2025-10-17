@@ -1,6 +1,5 @@
 ---
 cssclasses:
-  - dashboard
 ---
 
 ```dataviewjs
@@ -8,8 +7,8 @@ cssclasses:
 // CONFIGURAÇÃO
 // =============================
 const pastas = [
-    "SYSTEM/TEMPLATE/FORMAT",
-    "SYSTEM/TEMPLATE/SNIPPET"
+    "System/Templates/Format",
+    "System/Templates/Snippet"
 ];
 
 // =============================
@@ -29,7 +28,7 @@ root.appendChild(folderSelect);
 
 // Dropdown de ordenação
 let sortSelect = document.createElement("select");
-["Nome do arquivo", "Última modificação", "Dias desde última modificação"].forEach(optText => {
+["Nome do arquivo", "Última modificação", "Tempo desde modificação"].forEach(optText => {
     let opt = document.createElement("option");
     opt.value = optText;
     opt.text = optText;
@@ -54,10 +53,27 @@ root.appendChild(tableDiv);
 let ascending = true;
 
 // =============================
+// FUNÇÃO DE FORMATAÇÃO DE DIFERENÇA
+// =============================
+function formatTimeDiff(ts) {
+    const diffMs = dv.date("now").ts - ts;
+    const diffMinutes = Math.floor(diffMs / (1000 * 60));
+    const diffHours = Math.floor(diffMinutes / 60);
+    const diffDays = Math.floor(diffHours / 24);
+
+    if (diffMinutes < 60) {
+        return `${diffMinutes} minuto${diffMinutes !== 1 ? "s" : ""} atrás`;
+    } else if (diffHours < 24) {
+        return `${diffHours} hora${diffHours !== 1 ? "s" : ""} atrás`;
+    } else {
+        return `${diffDays} dia${diffDays !== 1 ? "s" : ""} atrás`;
+    }
+}
+
+// =============================
 // FUNÇÃO DE RENDERIZAÇÃO
 // =============================
 function renderTable(folder, sortKey) {
-    // Buscar arquivos recursivamente na pasta selecionada
     let pages = dv.pages()
         .where(p => p.file.folder.startsWith(folder))
         .array();
@@ -68,12 +84,9 @@ function renderTable(folder, sortKey) {
         if (sortKey === "Nome do arquivo") {
             valA = a.file.name || "";
             valB = b.file.name || "";
-        } else if (sortKey === "Última modificação") {
+        } else if (sortKey === "Última modificação" || sortKey === "Tempo desde modificação") {
             valA = a.file.mtime?.ts || 0;
             valB = b.file.mtime?.ts || 0;
-        } else if (sortKey === "Dias desde última modificação") {
-            valA = (dv.date("now").ts - (a.file.mtime?.ts || 0));
-            valB = (dv.date("now").ts - (b.file.mtime?.ts || 0));
         }
         if (valA < valB) return ascending ? -1 : 1;
         if (valA > valB) return ascending ? 1 : -1;
@@ -92,7 +105,7 @@ function renderTable(folder, sortKey) {
     // Cabeçalho
     let thead = document.createElement("thead");
     let headerRow = document.createElement("tr");
-    ["📄 Arquivo", "🕒 Última modificação", "📅 Dias desde última modificação"].forEach(h => {
+    ["📄 Arquivo", "🕒 Última modificação", "⏳ Tempo desde modificação"].forEach(h => {
         let th = document.createElement("th");
         th.textContent = h;
         th.style.textAlign = "left";
@@ -120,12 +133,11 @@ function renderTable(folder, sortKey) {
         tdMtime.textContent = p.file.mtime ? dv.date(p.file.mtime).toFormat("yyyy-MM-dd HH:mm") : "—";
         row.appendChild(tdMtime);
 
-        // Dias desde última modificação
+        // Tempo desde modificação (min, horas, dias)
         let tdDiff = document.createElement("td");
         tdDiff.style.padding = "4px 8px";
         if (p.file.mtime) {
-            let diffDays = Math.floor((dv.date("now").ts - p.file.mtime.ts) / (1000 * 60 * 60 * 24));
-            tdDiff.textContent = diffDays + " dias";
+            tdDiff.textContent = formatTimeDiff(p.file.mtime.ts);
         } else {
             tdDiff.textContent = "—";
             tdDiff.style.color = "#888";
@@ -155,36 +167,3 @@ orderBtn.onclick = () => {
 renderTable(pastas[0], "Nome do arquivo");
 
 ```
-# 📁 TEMPLATE
-
-- 📄 [[-LINK-TODAY]]
-
-## 📂 FORMAT
-
-- 📄 [[MONTHLY-note-template]]
-- 📄 [[area]]
-- 📄 [[area note]]
-- 📄 [[base template]]
-- 📄 [[daily-note-template]]
-- 📄 [[new-note]]
-- 📄 [[project]]
-- 📄 [[project note]]
-
-## 📂 SNIPPET
-
-- 📄 [[% META 3 BIND OPTIONS]]
-- 📄 [[% METABIND BOTÃO COM COMANDO]]
-- 📄 [[%-TASK-AREA-TASKS]]
-- 📄 [[%-TASK-DV-FOLDER]]
-- 📄 [[%-TASK-DV-GLOBAL-TABS]]
-- 📄 [[& Daily Logs]]
-- 📄 [[& MOOD tracker]]
-- 📄 [[& Pomodoro Tracker]]
-- 📄 [[& Summary]]
-- 📄 [[@ 2 tabs]]
-- 📄 [[@ INTEGRAR DOCS]]
-- 📄 [[@ add Last modified line (link)]]
-- 📄 [[@ adicionar-imagem-centralizada]]
-- 📄 [[@ mermaid block]]
-- 📄 [[add video yt]]
-- 📄 [[HEADERS-JS-TABLE]]
