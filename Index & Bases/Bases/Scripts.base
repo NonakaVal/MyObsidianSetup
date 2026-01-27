@@ -1,0 +1,47 @@
+filters:
+  or:
+    - file.inFolder("X/Scripts")
+    - file.inFolder("00 Code/Scripts")
+formulas:
+  mtime: file.mtime.relative()
+views:
+  - type: table
+    name: Folders
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.ext
+      - file.name
+      - file.folder
+      - file.size
+      - formula.mtime
+    sort:
+      - property: file.folder
+        direction: DESC
+      - property: file.size
+        direction: ASC
+      - property: formula.mtime
+        direction: DESC
+    columnSize:
+      file.name: 354
+      file.folder: 175
+      file.size: 140
+  - type: table
+    name: Simple
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.ext
+      - file.name
+      - formula.mtime
+      - file.size
+    sort:
+      - property: formula.mtime
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.ext: 45
+      file.size: 94

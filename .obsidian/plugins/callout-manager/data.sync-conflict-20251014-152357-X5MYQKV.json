@@ -1,0 +1,22 @@
+{
+  "callouts": {
+    "custom": [
+      "testcallout"
+    ],
+    "settings": {
+      "testcallout": [
+        {
+          "changes": {
+            "color": "217, 161, 221"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

@@ -1,25 +1,28 @@
 {
-  "showLineNumber": true,
+  "showInlineTitle": false,
   "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "smartIndentList": true,
+  "useTab": true,
+  "vimMode": false,
+  "promptDelete": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+",
+  "attachmentFolderPath": "X/Media/Images",
   "alwaysUpdateLinks": true,
-  "tabSize": 4,
-  "newLinkFormat": "shortest",
-  "attachmentFolderPath": "SYSTEM/MEDIA",
-  "defaultViewMode": "source",
-  "userIgnoreFilters": [
-    "SYSTEM/+/",
-    "SYSTEM/ASSETS/cssSnippets/",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/"
-  ],
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
-    "margin": "2",
-    "downscalePercent": 79
+    "margin": "0",
+    "downscalePercent": 100
   },
-  "propertiesInDocument": "visible",
-  "newFileLocation": "folder",
-  "useMarkdownLinks": false,
-  "vimMode": false,
-  "newFileFolderPath": "+"
+  "userIgnoreFilters": [
+    "ignore/"
+  ]
 }

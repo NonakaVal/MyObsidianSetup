@@ -1,83 +1,9 @@
 {
   "items": [
     {
-      "type": "file",
-      "ctime": 1750803722729,
-      "path": "SYSTEM/ASSETS/regra-nomenclatura-code-snippets.md"
-    },
-    {
       "type": "folder",
-      "ctime": 1751042592350,
-      "path": "SYSTEM/SCRIPTS"
-    },
-    {
-      "type": "file",
-      "ctime": 1751088528040,
-      "path": "SELF/ME.md"
-    },
-    {
-      "type": "group",
-      "ctime": 1753389758288,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/ESTUDOS/ESTUDOS.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/VIDEOS-YOUTUBE/VIDEOS-YOUTUBE.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/FAMILIA/FAMILIA.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753389754942,
-          "path": "EFFORTS/09_AREAS/TRABALHO/TRABALHO.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1753555795681,
-          "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1754087355645,
-          "path": "EFFORTS/09_AREAS/FINANCEIRO/FINANCEIRO.md"
-        }
-      ],
-      "title": "AREAS"
-    },
-    {
-      "type": "folder",
-      "ctime": 1757707785148,
-      "path": "EFFORTS/10_PROJECTS"
-    },
-    {
-      "type": "file",
-      "ctime": 1757710849426,
-      "path": "ATLAS/01_INDEX/index-templates.md"
-    },
-    {
-      "type": "group",
-      "ctime": 1754785163703,
-      "items": [
-        {
-          "type": "folder",
-          "ctime": 1751043459095,
-          "path": "SYSTEM/TEMPLATE"
-        },
-        {
-          "type": "folder",
-          "ctime": 1754785153464,
-          "path": "SYSTEM/TEMPLATE/SNIPPET"
-        }
-      ],
-      "title": "SYSTEM"
+      "ctime": 1768965913280,
+      "path": "Index & Bases/Bases"
     }
   ]
 }

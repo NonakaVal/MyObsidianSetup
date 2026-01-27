@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.inFolder("+")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ctime
+      - file.folder
+      - file.links

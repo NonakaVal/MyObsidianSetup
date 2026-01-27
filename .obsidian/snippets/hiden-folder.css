@@ -1,0 +1,4 @@
+
+div[data-path^="ignore"] {
+  display: none !important;
+}

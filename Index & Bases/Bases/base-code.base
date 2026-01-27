@@ -1,0 +1,68 @@
+filters:
+  or:
+    - file.inFolder("01 Snippets")
+    - file.inFolder("01 Snippets")
+    - file.inFolder("02 Config")
+    - file.inFolder("03 Workflow")
+    - file.inFolder("05 Toolbox")
+    - file.inFolder("00 Docs")
+formulas:
+  Modified: file.mtime.relative()
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - file.name
+      - summary
+      - formula.Modified
+      - file.embeds
+      - tags
+    sort: []
+    columnSize:
+      file.name: 348
+      note.summary: 169
+      note.subject: 254
+      file.embeds: 233
+      formula.Modified: 175
+  - type: table
+    name: Table 2
+    filters:
+      or:
+        - file.inFolder("01 Snippets")
+        - file.inFolder("05 Toolbox")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.links
+      - file.backlinks
+      - file.embeds
+      - formula.Modified
+    columnSize:
+      file.name: 348
+      file.embeds: 233
+      formula.Modified: 175
+  - type: table
+    name: View
+  - type: table
+    name: Table 2 2
+    filters:
+      and:
+        - file.inFolder("02 Config")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.links
+      - file.backlinks
+      - file.embeds
+      - formula.Modified
+    columnSize:
+      file.name: 348
+      file.embeds: 233
+      formula.Modified: 175

@@ -1,0 +1,102 @@
+filters:
+  and:
+    - file.inFolder("X")
+formulas:
+  Modified: file.mtime.relative()
+  cover: ""
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - file.links
+      - tags
+      - file.backlinks
+      - file.embeds
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.folder
+        direction: DESC
+  - type: table
+    name: Templates
+    filters:
+      and:
+        - file.inFolder("X/Templates")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - tags
+      - formula.Modified
+    sort:
+      - property: tags
+        direction: DESC
+      - property: file.embeds
+        direction: DESC
+      - property: file.backlinks
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.name: 347
+      formula.Modified: 260
+  - type: table
+    name: Assets
+    filters:
+      and:
+        - file.inFolder("X/Assets/Dataview")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - tags
+      - formula.Modified
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: file.embeds
+        direction: DESC
+      - property: file.backlinks
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.name: 347
+      formula.Modified: 260
+  - type: cards
+    name: Css Snippets
+    filters:
+      and:
+        - file.inFolder("X/Assets/Obsidian-CSS-Snippets-Collection/Snippets")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+    sort:
+      - property: tags
+        direction: DESC
+      - property: file.embeds
+        direction: DESC
+      - property: file.backlinks
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.name: 347
+      formula.Modified: 260
+    image: note.cover
+    imageAspectRatio: 0.85
+    cardSize: 230
+    imageFit: contain

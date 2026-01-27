@@ -1,0 +1,3 @@
+> [!sidenote]
+> <% tp.file.cursor() %>
+

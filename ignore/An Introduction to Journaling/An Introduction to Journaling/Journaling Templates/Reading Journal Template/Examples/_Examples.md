@@ -1,0 +1,11 @@
+# Reading Journal Template
+- [[Atlas Heart]]
+- [[Atomic Habits]]
+- [[Deep work]]
+- [[Eat that frog]]
+- [[Educated]]
+- [[Heaven]]
+- [[Lessons in Chemistry]]
+- [[ONE Thing]]
+- [[Stolen focus]]
+- [[Tomorrow Tomorrow Tomorrow]]

@@ -1,0 +1,85 @@
+filters:
+  or:
+    - file.folder.startsWith("+")
+formulas:
+  Parent Folder: file.folder.split("/")[-1]
+  Year Modified: created.year
+  Created (Month): created.month
+  "Outlink #": file.links.length
+  Links: file.backlinks.length
+  folder_list: |-
+    [
+      ["+", "✨"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  Folder Group: if(formula.check_folders, formula.check_folders[0], "")
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+properties:
+  formula.Year Modified:
+    displayName: Created (Year)
+  file.links:
+    displayName: Outlinks
+  formula.Links:
+    displayName: "Inlink #"
+  file.backlinks:
+    displayName: Inlinks
+views:
+  - type: table
+    name: +
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - rank
+      - collection
+      - up
+      - related
+      - groupPeople
+    sort:
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 15
+      file.name: 335
+      note.created: 118
+  - type: table
+    name: + Links (Dynamic)
+    filters:
+      and:
+        - file.hasLink(this.file)
+        - file != this.file
+    order:
+      - formula.✨
+      - file.name
+      - rank
+      - file.mtime
+      - related
+      - collection
+      - up
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 226
+      file.mtime: 104
+  - type: table
+    name: + (10 newest)
+    order:
+      - file.name
+      - created
+      - rank
+    sort:
+      - property: created
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+    columnSize:
+      file.name: 335
+      note.created: 141

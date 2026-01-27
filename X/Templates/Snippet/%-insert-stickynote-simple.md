@@ -1,0 +1,3 @@
+> [!stickynote]
+> <% tp.file.cursor() %>
+

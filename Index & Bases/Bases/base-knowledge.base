@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.inFolder("Knowlegde")
+views:
+  - type: table
+    name: Knowlegde (all)
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - created
+      - file.name
+      - aliases
+      - subject
+      - tags
+      - file.folder
+      - file.ext
+      - file.embeds
+      - file.backlinks
+      - file.links
+    sort:
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 501
+      note.aliases: 495
+      note.subject: 210
+      note.tags: 173
+      file.folder: 608
+      note.connections: 202
+  - type: table
+    name: Knowlegde (+ folder)
+    order:
+      - created
+      - file.name
+      - aliases
+      - subject
+      - tags
+      - file.ext
+      - file.embeds
+      - file.backlinks
+      - file.links
+    sort: []
+    columnSize:
+      file.name: 501
+      note.aliases: 386
+      note.subject: 210
+      note.tags: 173
+      file.folder: 608

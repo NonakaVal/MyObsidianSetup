@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasProperty("share_link")
+    order:
+      - file.name
+      - share_link
+      - share_updated
+      - file.folder
+      - file.links
+      - file.size
+      - file.tags
+    sort:
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.name: 486
+      note.share_link: 428
+      file.embeds: 159

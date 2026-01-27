@@ -4,11 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "e68e1f93de819158",
+        "id": "64efc9618c2d8fed",
         "type": "tabs",
         "children": [
           {
-            "id": "fb98ad63a354fada",
+            "id": "1fe8a5a003baf7f6",
+            "type": "leaf",
+            "state": {
+              "type": "grid-view",
+              "state": {
+                "type": "grid-view",
+                "state": {
+                  "sourceMode": "folder",
+                  "sourcePath": "Index & Bases/Bases",
+                  "baseSortType": "mtime-desc",
+                  "sortType": "mtime-desc",
+                  "searchQuery": "",
+                  "searchCurrentLocationOnly": false,
+                  "searchFilesNameOnly": false,
+                  "searchMediaFiles": false,
+                  "includeMedia": false,
+                  "minMode": false,
+                  "showIgnoredItems": false,
+                  "baseCardLayout": "horizontal",
+                  "cardLayout": "horizontal",
+                  "hideHeaderElements": false,
+                  "showDateDividers": false,
+                  "showNoteTags": true,
+                  "recentSources": [
+                    "{\"mode\":\"bookmarks\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                  ],
+                  "futureSources": []
+                }
+              },
+              "icon": "folder",
+              "title": "Index & Bases/Bases"
+            }
+          },
+          {
+            "id": "c57b572ae6482fe7",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Index & Bases/Bases/Base-Youtube-Contents.base",
+                "viewName": "status view"
+              },
+              "icon": "lucide-table",
+              "title": "Base-Youtube-Contents"
+            }
+          },
+          {
+            "id": "6be7971a26ce4509",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,22 +63,14 @@
                 "file": "README.md",
                 "mode": "source",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -50,21 +89,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "custom",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
-            }
-          },
-          {
-            "id": "dfe9e16620292570",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
             }
           },
           {
@@ -81,7 +110,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
@@ -91,7 +120,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
@@ -108,22 +137,12 @@
               "icon": "lucide-list",
               "title": "Sumário de README"
             }
-          },
-          {
-            "id": "2f7e466c08f80ed2",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 461.5
   },
   "right": {
     "id": "3703f7d8eaeb01fd",
@@ -135,17 +154,7 @@
         "dimension": 53.153153153153156,
         "children": [
           {
-            "id": "fdd41c845e6997b5",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
-            "id": "ca7097b55077a2c5",
+            "id": "72f1b9cde49a80fb",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -180,7 +189,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "title": "All properties"
             }
           },
           {
@@ -189,20 +198,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "🏠 Homepage.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo README"
-            }
-          },
-          {
-            "id": "bb8e1f9c9bb61a38",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "title": "File properties for 🏠"
             }
           }
         ]
@@ -213,49 +212,12 @@
         "dimension": 46.846846846846844,
         "children": [
           {
-            "id": "f8e7e9bde23996cf",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "README.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.45456955811720023,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de README"
-            }
-          },
-          {
             "id": "c133cbfbc6b00289",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏠.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +227,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 🏠"
+              "title": "Links inversos para README"
             }
           },
           {
@@ -274,19 +236,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏠.md",
+                "file": "🏠 Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 🏠"
+              "title": "Outgoing links from 🏠"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 355.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,70 +260,75 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "random-note:Abrir nota aleatória": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "bases:Criar nova base": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false,
-      "code-files:Create Code File": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "templater-obsidian:Templater": false,
       "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
-      "callout-manager:Insert Callout": false,
-      "widgets:Add widget": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "vscode-editor:Create Code File": false,
+      "callout-manager:Insert Callout": true,
+      "templater-obsidian:Templater": false,
+      "gridexplorer:Open grid view": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "fb98ad63a354fada",
+  "active": "6be7971a26ce4509",
   "lastOpenFiles": [
+    "Index & Bases/Index/index-datascience.md",
+    "Index & Bases/Index/index-computer-science.md",
+    "Index & Bases/Index/index-pkm.md",
+    "Index & Bases/Bases/Scripts.base",
+    "Index & Bases/Bases/Base-Youtube-Contents.base",
+    "X/Templates/Format/A-Daily Note Template.md",
     "🏠.md",
     "README.md",
-    "_index_notas.md",
-    "SYSTEM/ASSETS/VaultSnippets/desktop.ini",
-    "CALENDAR/DAILY/2025-09-19.md",
-    "+/vault-gallery-show-case.md",
-    "SYSTEM/MEDIA/Pasted image 20250919121409.png",
-    "SYSTEM/MEDIA/Pasted image 20250919121326.png",
-    "SYSTEM/MEDIA/Pasted image 20250919121325.png",
-    "SYSTEM/MEDIA/Pasted image 20250919121300.png",
-    "+/modified.md",
-    "+/created.md",
-    "SYSTEM/ASSETS/Efforts.md",
-    "SYSTEM/ASSETS/tasks.md",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Atlas/Dots/x/PKM/Nick Milo's Pro Custom Callouts.md",
-    "SYSTEM/ASSETS/asset-full-examples-multicolum-plugin.md",
-    "SYSTEM/TEMPLATE/SNIPPET/%-2 colluns plugin.md",
-    "SYSTEM/ASSETS/Dataview/@-templates.md",
-    "SYSTEM/TEMPLATE/SNIPPET/% METABIND BOTÃO COM COMANDO.md",
-    "SYSTEM/TEMPLATE/SNIPPET/_-templater clipboard.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/Serie-básico-obsidian.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/1-roteiro-porque-usar-obsidian.md",
-    "ATLAS/02_CONCEPT/LYT/Markdown.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEO-IDEAS.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Daily Journal.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/roteiro-flow-note-taking.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Vídeo Dicas 2.md",
-    "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/2-roteiro-fundamentos-configuração.md",
-    "EFFORTS/10_PROJECTS/Serie-básico-obsidian/4-roteiro-proficiência-operacional.md",
-    "ATLAS/02_CONCEPT/LYT/MOC definição.md",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/_nota-index.png",
-    "SYSTEM/MEDIA/01.png",
-    "SYSTEM/MEDIA/dailu.png",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/1-dash.png",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/2-concepts.png",
-    "SYSTEM/MEDIA/IMAGENS/PRINTS/4-lib.png",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Efforts/Areas/Health/desktop.ini",
-    "desktop.ini",
-    "ATLAS/03_RESOURCES/Ideaverse Pro 2/Calendar/Records/Nice Things/desktop.ini",
-    "ATLAS/02_CONCEPT/Dev/ProgrammingL",
-    "ATLAS/04_MAPS/+_CANVAS_AOC 1.canvas",
-    "SYSTEM/SCRIPTS/Zettell.py",
-    "ATLAS/04_MAPS/+_CANVAS-MENTORIA.CARLOS.canvas",
-    "Sem título.canvas",
-    "EFFORTS/09_AREAS/areaa 1",
-    "SYSTEM/TEMPLATE/FORMAT",
-    "SYSTEM/SCRIPTS/index-notes/concepts_index.py",
-    "SYSTEM/SCRIPTS/index-notes/calendar_index copy.py"
+    "X/Scripts/organizacao_obsidian/reset-all-property-by-folder.py",
+    "X/Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py",
+    "X/Scripts/organizacao_obsidian/config.py",
+    "X/Scripts/ferramentas_diversas/gca.py",
+    "Calendar & Review/Weekly Notes/2026-W04.md",
+    "Calendar & Review/Monthly Notes/2026-01.md",
+    "Calendar & Review/Journaling/2025-12-22-Gratitude.md",
+    "Calendar & Review/Daily Notes/2025-10-19.md",
+    "06 Writing/01 Drafts/a-morte.md",
+    "06 Writing/01 Drafts/3-definicoes-ciencia-logica-coginicao.md",
+    "05 Toolbox/auto-part-system-main.md",
+    "05 Toolbox/Functions/py-pandas-groupby-method.md",
+    "05 Toolbox/arch-gca.py.md",
+    "05 Toolbox/Functions/py-importing-data.md",
+    "05 Toolbox/Functions/py-get-dataframe-info.md",
+    "05 Toolbox/Functions/py-EditNotes.md",
+    "05 Toolbox/Functions/ChanGe-Templates-Folder.py-2025-11-19.md",
+    "05 Toolbox/Functions/gca.py-2025-10-24.md",
+    "04 Workflow/flow-Verify-DataTypes.md",
+    "04 Workflow/flow-whatsApp-arena-report.md",
+    "04 Workflow/flow-pandas-null-values-wrangling.md",
+    "04 Workflow/flow-pandas-data-cleaning-methods.md",
+    "04 Workflow/flow-pandas-basic-data-manipulation.md",
+    "01 Snippets/rmbg/chmod.md",
+    "+/Sem título.base",
+    "X/Media/IMAGENS/PRINTS/10-music.png",
+    "X/Media/IMAGENS/PRINTS/5-component.png",
+    "X/Media/IMAGENS/PRINTS/2-concepts.png",
+    "X/Media/IMAGENS/PRINTS/_nota-index.png",
+    "X/Media/IMAGENS/galaxy/scr00006.jpg",
+    "X/Media/IMAGENS/galaxy/milkway-andromeda.png",
+    "X/Bases/+.base",
+    "X/Bases/MAPS.base",
+    "X/Bases/ORPHANAGE.base",
+    "Index & Bases/Maps/+_CANVAS-DATASCIENCE.canvas",
+    "Index & Bases/Maps/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "Index & Bases/Maps/+_CANVAS_AOC 1.canvas",
+    "Index & Bases/Maps/+_CANVAS_AOC.canvas",
+    "X/Media/Images/comandos arch.png",
+    "X/Media/Images/How to transfer kde from anywhere4.png",
+    "X/Media/Images/How to transfer kde from anywhere-2.png",
+    "X/Media/Images/How to transfer kde from anywhere.png",
+    "Untitled.canvas",
+    "Index & Bases/Maps/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "Index & Maps/+_CANVAS_AOC.canvas",
+    "Index & Maps/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "Index & Maps/+_CANVAS-DATASCIENCE.canvas",
+    "+/nen-system-hxh.canvas"
   ]
 }

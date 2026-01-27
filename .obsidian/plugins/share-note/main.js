@@ -40,7 +40,7 @@ var require_manifest = __commonJS({
     module2.exports = {
       id: "share-note",
       name: "Share Note",
-      version: "1.2.0",
+      version: "1.3.1",
       minAppVersion: "0.15.0",
       description: "Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.",
       author: "Alan Grainger",
@@ -1031,6 +1031,7 @@ var DEFAULT_SETTINGS = {
   titleSource: 0 /* Note title */,
   removeYaml: true,
   removeBacklinksFooter: true,
+  removeElements: "",
   expiry: "",
   clipboard: true,
   shareUnencrypted: false,
@@ -1070,7 +1071,6 @@ var ShareSettingsTab = class extends import_obsidian.PluginSettingTab {
       toggle.setValue(this.plugin.settings.clipboard).onChange(async (value) => {
         this.plugin.settings.clipboard = value;
         await this.plugin.saveSettings();
-        this.display();
       });
     });
     new import_obsidian.Setting(containerEl).setName("Note options").setHeading();
@@ -1099,21 +1099,24 @@ var ShareSettingsTab = class extends import_obsidian.PluginSettingTab {
       toggle.setValue(this.plugin.settings.removeYaml).onChange(async (value) => {
         this.plugin.settings.removeYaml = value;
         await this.plugin.saveSettings();
-        this.display();
       });
     });
     new import_obsidian.Setting(containerEl).setName("Remove backlinks footer").setDesc("Remove backlinks footer from the shared note").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.removeBacklinksFooter).onChange(async (value) => {
         this.plugin.settings.removeBacklinksFooter = value;
         await this.plugin.saveSettings();
-        this.display();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Remove custom elements").setDesc("Remove elements before sharing by targeting them with CSS selectors. One selector per line.").addTextArea((text) => {
+      text.setPlaceholder("div.class-to-remove").setValue(this.plugin.settings.removeElements).onChange(async (value) => {
+        this.plugin.settings.removeElements = value;
+        await this.plugin.saveSettings();
       });
     });
     new import_obsidian.Setting(containerEl).setName("Share as encrypted by default").setDesc("If you turn this off, you can enable encryption for individual notes by adding a `share_encrypted` checkbox into a note and ticking it.").addToggle((toggle) => {
       toggle.setValue(!this.plugin.settings.shareUnencrypted).onChange(async (value) => {
         this.plugin.settings.shareUnencrypted = !value;
         await this.plugin.saveSettings();
-        this.display();
       });
     }).then((setting) => addDocs(setting, "https://docs.note.sx/notes/encryption"));
     new import_obsidian.Setting(containerEl).setName("Default note expiry").setDesc("If you want, your notes can auto-delete themselves after a period of time. You can set this as a default for all notes here, or you can set it on a per-note basis.").addText((text) => text.setValue(this.plugin.settings.expiry).onChange(async (value) => {
@@ -1166,7 +1169,7 @@ function arrayBufferToBase64(buffer) {
   return window.btoa(binary);
 }
 function base64ToArrayBuffer(base64) {
-  return Uint8Array.from(window.atob(base64), (c2) => c2.charCodeAt(0));
+  return Uint8Array.from(window.atob(base64), (c2) => c2.charCodeAt(0)).buffer;
 }
 function _getAesGcmKey(secret) {
   return window.crypto.subtle.importKey(
@@ -1185,7 +1188,7 @@ async function encryptString(plaintext, existingKey) {
   if (existingKey) {
     key = base64ToArrayBuffer(existingKey);
   } else {
-    key = await _generateKey(window.crypto.getRandomValues(new Uint8Array(64)));
+    key = await _generateKey(window.crypto.getRandomValues(new Uint8Array(64)).buffer);
   }
   const aesKey = await _getAesGcmKey(key);
   const ciphertext = [];
@@ -1262,9 +1265,8 @@ var StatusMessage = class extends import_obsidian2.Notice {
     var _a;
     const messageDoc = new DocumentFragment();
     const icon = ((_a = statuses[type]) == null ? void 0 : _a.icon) || "";
-    const messageEl = messageDoc.createEl("div", {
-      text: `${icon}${pluginName}: ${text}`
-    });
+    const messageEl = messageDoc.createEl("div");
+    messageEl.innerHTML = `${icon}${pluginName}: ${text}`;
     super(messageDoc, duration);
     if (messageEl.parentElement) {
       if (statuses[type]) {
@@ -14802,14 +14804,16 @@ var Note = class {
       this.plugin.authRedirect("share").then();
       return;
     }
-    this.status = new StatusMessage("If this message is showing, please do not change to another note as the current note data is still being parsed.", 0 /* Default */, 60 * 1e3);
+    this.status = new StatusMessage("Please do not change to another note as the current note data is still being parsed.", 0 /* Default */, 60 * 1e3);
     const startMode = this.leaf.getViewState();
     const previewMode = this.leaf.getViewState();
-    previewMode.state.mode = "preview";
+    if (previewMode.state) {
+      previewMode.state.mode = "preview";
+    }
     await this.leaf.setViewState(previewMode);
-    await new Promise((resolve) => setTimeout(resolve, 40));
+    await new Promise((resolve) => setTimeout(resolve, 600));
     this.leaf.view.previewMode.applyScroll(0);
-    await new Promise((resolve) => setTimeout(resolve, 40));
+    await new Promise((resolve) => setTimeout(resolve, 100));
     try {
       const view = this.leaf.view;
       const renderer = view.modes.preview.renderer;
@@ -14917,9 +14921,8 @@ var Note = class {
       }
       el.replaceWith(el.innerText);
     }
-    for (const el of this.contentDom.querySelectorAll("a.external-link")) {
-      el.removeAttribute("target");
-    }
+    this.contentDom.querySelectorAll("a.external-link").forEach((el) => el.removeAttribute("target"));
+    this.plugin.settings.removeElements.split("\n").map((s2) => s2.trim()).filter(Boolean).forEach((selector2) => this.contentDom.querySelectorAll(selector2).forEach((el) => el.remove()));
     this.expiration = this.getExpiration();
     const uploadResult = await this.processMedia();
     this.cssResult = uploadResult.css;
@@ -14993,7 +14996,7 @@ var Note = class {
       }
     }
     this.status.hide();
-    new StatusMessage(shareMessage, 3 /* Success */);
+    new StatusMessage(shareMessage + `<br><br><a href="${shareLink}">\u2197\uFE0F Open shared note</a>`, 3 /* Success */, 6e3);
   }
   /**
    * Upload media attachments
@@ -15004,20 +15007,35 @@ var Note = class {
     for (const el of this.contentDom.querySelectorAll(elements.join(","))) {
       const src = el.getAttribute("src");
       if (!src) continue;
+      let content, filetype;
       if (src.startsWith("http") && !src.match(/^https?:\/\/localhost/)) {
         continue;
       }
-      let content;
-      try {
-        const res = await fetch(src);
-        if (res && res.status === 200) {
-          content = await res.arrayBuffer();
+      const filesource = el.getAttribute("filesource");
+      if (filesource == null ? void 0 : filesource.match(/excalidraw/i)) {
+        console.log("Processing Excalidraw drawing...");
+        try {
+          const excalidraw = this.plugin.app.plugins.getPlugin("obsidian-excalidraw-plugin");
+          if (!excalidraw) continue;
+          content = await excalidraw.ea.createSVG(filesource);
+          content = content.outerHTML;
+          filetype = "svg";
+        } catch (e2) {
+          console.error("Unable to process Excalidraw drawing:");
+          console.error(e2);
         }
-      } catch (e2) {
-        continue;
+      } else {
+        try {
+          const res = await fetch(src);
+          if (res && res.status === 200) {
+            content = await res.arrayBuffer();
+            const parsed = new URL(src);
+            filetype = parsed.pathname.split(".").pop();
+          }
+        } catch (e2) {
+          continue;
+        }
       }
-      const parsed = new URL(src);
-      const filetype = parsed.pathname.split(".").pop();
       if (filetype && content) {
         const hash = await sha1(content);
         await this.plugin.api.queueUpload({

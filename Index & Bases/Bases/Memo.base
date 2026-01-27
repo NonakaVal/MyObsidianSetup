@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.inFolder("Memos")
+formulas:
+  mtime: file.mtime.relative()
+views:
+  - type: table
+    name: Table
+    order:
+      - created
+      - file.name
+      - formula.mtime
+      - file.tags
+      - file.backlinks
+      - related
+      - subject
+    sort:
+      - property: formula.mtime
+        direction: ASC
+    columnSize:
+      file.name: 353
+      formula.mtime: 157
+      file.tags: 165
+      note.related: 139
+    calendarView: dayGridMonth

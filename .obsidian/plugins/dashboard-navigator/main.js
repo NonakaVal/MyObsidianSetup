@@ -217,6 +217,23 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
+    new import_obsidian.Setting(containerEl).setName("Remember last search").setDesc("Keeps the search query in the main input field. Turn this off for a fresh, empty search every time.").addToggle((toggle) => {
+      this.toggleRememberLastSearch = toggle;
+      toggle.setValue(this.plugin.settings.remember_last_search).onChange(async (val) => {
+        this.plugin.settings.remember_last_search = val;
+        this.plugin.DN_MODAL.remember_last_search = this.plugin.settings.remember_last_search;
+        await this.plugin.saveSettings();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.toggleRememberLastSearch.setValue(DEFAULT_SETTINGS.remember_last_search);
+        this.plugin.settings.remember_last_search = DEFAULT_SETTINGS.remember_last_search;
+        this.plugin.DN_MODAL.remember_last_search = this.plugin.settings.remember_last_search;
+        this.plugin.saveSettings();
+      });
+    });
     const headingColumns1 = containerEl.createEl("div", { cls: "setting-item setting-item-heading" });
     const headingColumns2 = headingColumns1.createEl("div", { cls: "setting-item setting-item-info" });
     headingColumns2.createEl("div", { text: "Hidden columns", cls: "setting-item-name" });
@@ -1241,6 +1258,7 @@ var DNModal = class extends import_obsidian7.Modal {
     this.hide_columns = [];
     this.image_thumbnail = false;
     this.show_dashboard_piechart = true;
+    this.remember_last_search = true;
     this.onclose_search = "";
     this._previewComponent = new import_obsidian7.Component();
     this.tags_sidebar_sorted_by_frequency = false;
@@ -2931,14 +2949,22 @@ var DNModal = class extends import_obsidian7.Modal {
     this.TAGS_SIDEBAR_EL.scrollTo({ top: 0, behavior: "smooth" });
   }
   async dnLoadSearchOnClose() {
-    this.INPUT_SEARCH.value = this.plugin.settings.onclose_search;
-    this.plugin.saveSettings();
+    if (this.remember_last_search) {
+      this.INPUT_SEARCH.value = this.plugin.settings.onclose_search;
+      this.plugin.saveSettings();
+    } else {
+      this.INPUT_SEARCH.value = "";
+    }
   }
   dnSaveStateOnClose() {
     this.plugin.settings.primary_tags_results_visible = this.primary_tags_results_visible;
     this.plugin.settings.tags_sidebar = this.tags_sidebar;
     this.plugin.settings.tags_sidebar_sorted_by_frequency = this.tags_sidebar_sorted_by_frequency;
-    this.plugin.settings.onclose_search = this.INPUT_SEARCH.value;
+    if (this.remember_last_search) {
+      this.plugin.settings.onclose_search = this.INPUT_SEARCH.value;
+    } else {
+      this.plugin.settings.onclose_search = "";
+    }
     this.plugin.saveSettings();
   }
   async dnRedrawResultsTable() {
@@ -4141,6 +4167,7 @@ var DEFAULT_SETTINGS = {
   hide_outgoing: false,
   hide_columns: [],
   show_dashboard_piechart: true,
+  remember_last_search: true,
   image_thumbnail: true,
   thumbnail_size: 82,
   primary_tags_results_visible: true,
@@ -4182,6 +4209,7 @@ var DNPlugin = class extends import_obsidian15.Plugin {
     this.DN_MODAL.hide_columns = this.dnSetHiddenColumns(this.settings.hide_columns);
     this.DN_MODAL.image_thumbnail = this.settings.image_thumbnail;
     this.DN_MODAL.show_dashboard_piechart = this.settings.show_dashboard_piechart;
+    this.DN_MODAL.remember_last_search = this.settings.remember_last_search;
     this.DN_MODAL.primary_tags_results_visible = this.settings.primary_tags_results_visible;
     this.DN_MODAL.tags_sidebar = this.settings.tags_sidebar;
     this.DN_MODAL.tags_sidebar_sorted_by_frequency = this.settings.tags_sidebar_sorted_by_frequency;

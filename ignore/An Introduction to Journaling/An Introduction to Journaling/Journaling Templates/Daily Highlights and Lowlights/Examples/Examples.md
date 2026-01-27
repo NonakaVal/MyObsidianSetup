@@ -1,0 +1,10 @@
+# Daily Highlights and Lowlights Examples
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 1]]
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 2]]
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 3]]
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 4]]
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 5]]
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 6]]
+- [[ignore/An Introduction to Journaling/An Introduction to Journaling/Journaling Templates/Daily Highlights and Lowlights/Examples/Day 7]]
+- [[Day 8]]
+- [[Day 9]]

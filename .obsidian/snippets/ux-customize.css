@@ -1,0 +1,204 @@
+/* ==========================================================================
+   Obsidian Modern Workspace — Minimal & Clean
+   ========================================================================== */
+
+/* ==============================
+   DESIGN TOKENS
+   ============================== */
+:root {
+  --color-border: rgba(166, 172, 181, 0.22);
+  --color-border-active: rgba(166, 172, 181, 0.45);
+  --color-bg-section: rgba(200, 200, 200, 0.04);
+
+  --space-sm: 0.75rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 3rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+
+  --transition-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 260ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --shadow-subtle: 0 1px 8px rgba(0, 0, 0, 0.04);
+  --shadow-gentle: 0 3px 14px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ==============================
+   SEÇÕES — BASE GLOBAL
+   ============================== */
+div[data-path="🏠.md"],
+div[data-path="+"],
+div[data-path="X"],
+div[data-path="00 Code"],
+div[data-path="Calendar & Review"],
+div[data-path="07 Ideas"],
+div[data-path="06 Writing"] {
+  position: relative;
+  padding-top: var(--space-xl);
+  transition: background-color var(--transition-normal),
+              transform var(--transition-fast);
+  animation: sectionFadeIn 320ms ease-out forwards;
+}
+
+/* ==============================
+   HOME
+   ============================== */
+div[data-path="🏠 Homepage.md"] {
+
+  padding-top: var(--space-md);
+  border: 1px solid var(--color-border);
+  background: rgba(200, 200, 200, 0.06);
+  box-shadow: var(--shadow-subtle);
+  padding-bottom: var(--space-md);
+}
+
+div[data-path="🏠 Homepage.md"]:hover {
+  box-shadow: var(--shadow-gentle);
+  border-color: var(--color-border-active);
+  transform: translateY(-1px);
+}
+/* ==============================
+   HOME
+   ============================== */
+div[data-path="Dev - Code.md"] {
+  
+  
+  
+  border: 3px solid var(--color-border);
+  background: rgba(200, 200, 200, 0.06);
+  box-shadow: var(--shadow-subtle);
+}
+
+div[data-path="Dev - Code.md"]:hover {
+  box-shadow: var(--shadow-gentle);
+  border-color: var(--color-border-active);
+  transform: translateY(-1px);
+}
+/* ==============================
+   HOME
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: rgba(200, 200, 200, 0.06);
+  box-shadow: var(--shadow-subtle);
+}
+
+div[data-path="Dev - Code.md"]:hover {
+  box-shadow: var(--shadow-gentle);
+  border-color: var(--color-border-active);
+  transform: translateY(-1px);
+}
+/* ==============================
+   SEÇÕES AGRUPADAS
+   ============================== */
+div[data-path="+"],
+div[data-path="X"],
+div[data-path="00 Code"],
+div[data-path="Calendar & Review"],
+div[data-path="07 Ideas"],
+div[data-path="06 Writing"] {
+  
+  padding-inline: var(--space-md);
+  border-top: 1px solid rgb(166, 172, 181);
+}
+
+/* Hierarquia por espaçamento */
+div[data-path="+"],
+div[data-path="Calendar & Review"] {
+  margin-top: var(--space-xl);
+}
+
+div[data-path="X"],
+div[data-path="00 Code"],
+div[data-path="07 Ideas"],
+div[data-path="06 Writing"] {
+  margin-top: var(--space-lg);
+}
+
+/* ==============================
+   INDICADOR LATERAL (ÚNICO ACENTO)
+   ============================== */
+div[data-path="🏠.md"]::before,
+div[data-path="+"]::before,
+div[data-path="X"]::before,
+div[data-path="00 Code"]::before,
+div[data-path="Calendar & Review"]::before,
+div[data-path="07 Ideas"]::before,
+div[data-path="06 Writing"]::before {
+  content: '';
+  position: absolute;
+  top: var(--space-md);
+  left: 0;
+  width: 2px;
+  height: 22px;
+  opacity: 0.5;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition: opacity var(--transition-fast),
+              width var(--transition-fast);
+}
+
+
+/* ==============================
+   TEXTO
+   ============================== */
+div[data-path] .nav-file-title-content {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: color var(--transition-fast);
+}
+
+div[data-path="+"]:hover .nav-file-title-content {
+  color: #90a4ae;
+}
+
+div[data-path="00 Code"]:hover .nav-file-title-content {
+  color: #667eea;
+}
+
+div[data-path="X"]:hover .nav-file-title-content {
+  color: #9e9e9e;
+}
+
+/* ==============================
+   ANIMAÇÃO
+   ============================== */
+@keyframes sectionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+div[data-path="🏠.md"] { animation-delay: 0ms; }
+div[data-path="+"] { animation-delay: 70ms; }
+div[data-path="Calendar & Review"] { animation-delay: 140ms; }
+div[data-path="X"] { animation-delay: 180ms; }
+div[data-path="00 Code"] { animation-delay: 220ms; }
+div[data-path="07 Ideas"] { animation-delay: 260ms; }
+div[data-path="06 Writing"] { animation-delay: 320ms; }
+
+/* ==============================
+   RESPONSIVO
+   ============================== */
+@media (max-width: 768px) {
+  div[data-path] {
+    padding-inline: var(--space-sm);
+    margin-inline: calc(-1 * var(--space-sm));
+  }
+}
+
+/* ==============================
+   FOCO
+   ============================== */
+div[data-path]:focus-within {
+  outline: 2px solid var(--color-border-active);
+  outline-offset: 2px;
+}
+
+

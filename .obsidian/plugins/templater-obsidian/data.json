@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "SYSTEM/TEMPLATE",
+  "templates_folder": "X/Templates",
   "templates_pairs": [
     [
       "",
@@ -13,7 +13,16 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "06 Ideas",
+      "template": "X/Templates/Format/T-youtube-video.md"
+    },
+    {
+      "folder": "08 Ongoing/NonakaLab Channel/09 Roteiros",
+      "template": "X/Templates/Format/T-youtube-video.md"
+    }
+  ],
   "enable_file_templates": false,
   "file_templates": [
     {

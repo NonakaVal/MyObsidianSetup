@@ -1,0 +1,1 @@
+[<% tp.system.prompt("Label")%>](<file:///<% tp.system.clipboard() %>>)

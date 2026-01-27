@@ -4,73 +4,41 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "ATLAS",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "ATLAS/01_INDEX",
+      "folder": "Calendar & Review/Monthly Notes",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "CALENDAR",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "EFFORTS",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "SYSTEM/TEMPLATE",
+      "folder": "X/Templates",
       "viewMode": "obsidianEditingMode: source"
     },
     {
-      "folder": "CODE/05_SNIPPETS",
-      "viewMode": "obsidianEditingMode: source"
-    },
-    {
-      "folder": "SYSTEM/ASSETS/Dataview/DATAVIEW-QUERY-JS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "CALENDAR/MONTHLY",
+      "folder": "Calendar & Review/Weekly Notes",
       "viewMode": "obsidianUIMode: preview"
     }
   ],
   "files": [
     {
-      "filePattern": "hotkeys",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "notes-gallery",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "DATAVIEW-QUERY-JS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
       "filePattern": "🏠",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "_folder_index_EFFORTS",
+      "filePattern": "Plano de Geral",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "_folder_index_CALENDAR",
+      "filePattern": "_ Audio Recording Buttons",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "_folder_index_SYSTEM",
+      "filePattern": "@-templates",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "_folder_index_03_RESOURCES",
+      "filePattern": "_index_notas",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "_folder_index_CODE",
+      "filePattern": "_Books",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

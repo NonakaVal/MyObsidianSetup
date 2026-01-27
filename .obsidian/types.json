@@ -3,17 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "area": "multitext",
-    "date": "date",
-    "link-to-lib": "multitext",
-    "curso": "multitext",
-    "course": "multitext",
-    "social": "multitext",
-    "startDate": "date",
-    "endDate": "date",
-    "created": "text",
-    "done": "checkbox",
-    "datq": "date",
-    "links": "multitext"
+    "created": "date"
   }
 }

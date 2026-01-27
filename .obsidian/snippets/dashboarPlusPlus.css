@@ -28,7 +28,7 @@
 .dashboard div > ul {
     list-style: none;
     display: flex;
-    column-gap: 50px;
+    column-gap: 40px;
     flex-flow: row wrap;
 }
 

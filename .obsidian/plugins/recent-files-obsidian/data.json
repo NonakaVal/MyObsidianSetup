@@ -5,205 +5,204 @@
       "path": "README.md"
     },
     {
+      "basename": "index-datascience",
+      "path": "Index & Bases/Index/index-datascience.md"
+    },
+    {
+      "basename": "index-computer-science",
+      "path": "Index & Bases/Index/index-computer-science.md"
+    },
+    {
+      "basename": "index-pkm",
+      "path": "Index & Bases/Index/index-pkm.md"
+    },
+    {
+      "basename": "Scripts",
+      "path": "Index & Bases/Bases/Scripts.base"
+    },
+    {
+      "basename": "Base-Youtube-Contents",
+      "path": "Index & Bases/Bases/Base-Youtube-Contents.base"
+    },
+    {
+      "basename": "A-Daily Note Template",
+      "path": "X/Templates/Format/A-Daily Note Template.md"
+    },
+    {
       "basename": "🏠",
       "path": "🏠.md"
     },
     {
-      "basename": "_index_notas",
-      "path": "_index_notas.md"
+      "basename": "reset-all-property-by-folder",
+      "path": "X/Scripts/organizacao_obsidian/reset-all-property-by-folder.py"
     },
     {
-      "basename": "2025-09-19",
-      "path": "CALENDAR/DAILY/2025-09-19.md"
+      "basename": "ChanGe-Templates-Folder",
+      "path": "X/Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py"
     },
     {
-      "basename": "vault-gallery-show-case",
-      "path": "+/vault-gallery-show-case.md"
+      "basename": "config",
+      "path": "X/Scripts/organizacao_obsidian/config.py"
     },
     {
-      "basename": "modified",
-      "path": "+/modified.md"
+      "basename": "2026-W04",
+      "path": "Calendar & Review/Weekly Notes/2026-W04.md"
     },
     {
-      "basename": "created",
-      "path": "+/created.md"
+      "basename": "2026-01",
+      "path": "Calendar & Review/Monthly Notes/2026-01.md"
     },
     {
-      "basename": "Efforts",
-      "path": "SYSTEM/ASSETS/Efforts.md"
+      "basename": "2025-12-22-Gratitude",
+      "path": "Calendar & Review/Journaling/2025-12-22-Gratitude.md"
     },
     {
-      "basename": "tasks",
-      "path": "SYSTEM/ASSETS/tasks.md"
+      "basename": "2025-10-19",
+      "path": "Calendar & Review/Daily Notes/2025-10-19.md"
     },
     {
-      "basename": "Nick Milo's Pro Custom Callouts",
-      "path": "ATLAS/03_RESOURCES/Ideaverse Pro 2/Atlas/Dots/x/PKM/Nick Milo's Pro Custom Callouts.md"
+      "basename": "a-morte",
+      "path": "06 Writing/01 Drafts/a-morte.md"
     },
     {
-      "basename": "asset-full-examples-multicolum-plugin",
-      "path": "SYSTEM/ASSETS/asset-full-examples-multicolum-plugin.md"
+      "basename": "3-definicoes-ciencia-logica-coginicao",
+      "path": "06 Writing/01 Drafts/3-definicoes-ciencia-logica-coginicao.md"
     },
     {
-      "basename": "%-2 colluns plugin",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/%-2 colluns plugin.md"
+      "basename": "auto-part-system-main",
+      "path": "05 Toolbox/auto-part-system-main.md"
     },
     {
-      "basename": "@-templates",
-      "path": "SYSTEM/ASSETS/Dataview/@-templates.md"
+      "basename": "py-pandas-groupby-method",
+      "path": "05 Toolbox/Functions/py-pandas-groupby-method.md"
     },
     {
-      "basename": "% METABIND BOTÃO COM COMANDO",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
+      "basename": "py-importing-data",
+      "path": "05 Toolbox/Functions/py-importing-data.md"
     },
     {
-      "basename": "_-templater clipboard",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/_-templater clipboard.md"
+      "basename": "py-get-dataframe-info",
+      "path": "05 Toolbox/Functions/py-get-dataframe-info.md"
     },
     {
-      "basename": "Serie-básico-obsidian",
-      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/Serie-básico-obsidian.md"
+      "basename": "py-EditNotes",
+      "path": "05 Toolbox/Functions/py-EditNotes.md"
     },
     {
-      "basename": "1-roteiro-porque-usar-obsidian",
-      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/1-roteiro-porque-usar-obsidian.md"
+      "basename": "ChanGe-Templates-Folder.py-2025-11-19",
+      "path": "05 Toolbox/Functions/ChanGe-Templates-Folder.py-2025-11-19.md"
     },
     {
-      "basename": "Markdown",
-      "path": "ATLAS/02_CONCEPT/LYT/Markdown.md"
+      "basename": "flow-Verify-DataTypes",
+      "path": "04 Workflow/flow-Verify-DataTypes.md"
     },
     {
-      "basename": "YOUTUBE-VIDEO-IDEAS",
-      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEO-IDEAS.md"
+      "basename": "flow-whatsApp-arena-report",
+      "path": "04 Workflow/flow-whatsApp-arena-report.md"
     },
     {
-      "basename": "Daily Journal",
-      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Daily Journal.md"
+      "basename": "flow-pandas-null-values-wrangling",
+      "path": "04 Workflow/flow-pandas-null-values-wrangling.md"
     },
     {
-      "basename": "roteiro-flow-note-taking",
-      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/roteiro-flow-note-taking.md"
+      "basename": "flow-pandas-data-cleaning-methods",
+      "path": "04 Workflow/flow-pandas-data-cleaning-methods.md"
     },
     {
-      "basename": "Vídeo Dicas 2",
-      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/Vídeo Dicas 2.md"
+      "basename": "flow-pandas-basic-data-manipulation",
+      "path": "04 Workflow/flow-pandas-basic-data-manipulation.md"
     },
     {
-      "basename": "YOUTUBE-VIDEOS",
-      "path": "EFFORTS/09_AREAS/YOUTUBE-VIDEOS/YOUTUBE-VIDEOS.md"
+      "basename": "chmod",
+      "path": "01 Snippets/rmbg/chmod.md"
     },
     {
-      "basename": "2-roteiro-fundamentos-configuração",
-      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/2-roteiro-fundamentos-configuração.md"
+      "basename": "2x2 art grid",
+      "path": "01 Snippets/_ungrouped/2x2 art grid.md"
     },
     {
-      "basename": "4-roteiro-proficiência-operacional",
-      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/4-roteiro-proficiência-operacional.md"
+      "basename": "Sem título",
+      "path": "+/Sem título.base"
     },
     {
-      "basename": "MOC definição",
-      "path": "ATLAS/02_CONCEPT/LYT/MOC definição.md"
+      "basename": "2026-01-27",
+      "path": "Calendar & Review/Daily Notes/2026-01-27.md"
     },
     {
-      "basename": "roteiro dos videos guia",
-      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/roteiro dos videos guia.md"
+      "basename": "Z-project note",
+      "path": "X/Templates/Format/Z-project note.md"
     },
     {
-      "basename": "Vault Alex Idea",
-      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/Vault Alex Idea.md"
-    },
-    {
-      "basename": "@ adicionar-imagem-centralizada",
-      "path": "SYSTEM/TEMPLATE/SNIPPET/@ adicionar-imagem-centralizada.md"
-    },
-    {
-      "basename": "5-Planejamento geral e roteiros",
-      "path": "EFFORTS/10_PROJECTS/Serie-básico-obsidian/5-Planejamento geral e roteiros.md"
-    },
-    {
-      "basename": "2025-09-12",
-      "path": "CALENDAR/DAILY/2025-09-12.md"
-    },
-    {
-      "basename": "2025-09",
-      "path": "CALENDAR/MONTHLY/2025-09.md"
-    },
-    {
-      "basename": "doc-Running Ruby Project with Gems",
-      "path": "CODE/07_DOC/doc-Running Ruby Project with Gems.md"
-    },
-    {
-      "basename": "doc-git-config",
-      "path": "CODE/07_DOC/doc-git-config.md"
-    },
-    {
-      "basename": "ruby-intro-to-booleans",
-      "path": "ATLAS/02_CONCEPT/Dev/ProgrammingL/ruby-intro-to-booleans.md"
-    },
-    {
-      "basename": "2025-09-18",
-      "path": "CALENDAR/DAILY/2025-09-18.md"
-    },
-    {
-      "basename": "First meeting alex",
-      "path": "EFFORTS/10_PROJECTS/Vault Alex Idea/First meeting alex.md"
-    },
-    {
-      "basename": "_nota-index",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/_nota-index.png"
-    },
-    {
-      "basename": "01",
-      "path": "SYSTEM/MEDIA/01.png"
-    },
-    {
-      "basename": "dailu",
-      "path": "SYSTEM/MEDIA/dailu.png"
-    },
-    {
-      "basename": "1-dash",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/1-dash.png"
-    },
-    {
-      "basename": "2-concepts",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/2-concepts.png"
-    },
-    {
-      "basename": "4-lib",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/4-lib.png"
-    },
-    {
-      "basename": "9-nota-area-pkm",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/9-nota-area-pkm.png"
+      "basename": "10-music",
+      "path": "X/Media/IMAGENS/PRINTS/10-music.png"
     },
     {
       "basename": "5-component",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/5-component.png"
+      "path": "X/Media/IMAGENS/PRINTS/5-component.png"
     },
     {
-      "basename": "3-nota-seaborn",
-      "path": "SYSTEM/MEDIA/IMAGENS/PRINTS/3-nota-seaborn.png"
+      "basename": "2-concepts",
+      "path": "X/Media/IMAGENS/PRINTS/2-concepts.png"
     },
     {
-      "basename": "Pasted image 20230224202045",
-      "path": "SYSTEM/MEDIA/Pasted image 20230224202045.png"
+      "basename": "_nota-index",
+      "path": "X/Media/IMAGENS/PRINTS/_nota-index.png"
     },
     {
-      "basename": "obsidian",
-      "path": "SYSTEM/MEDIA/obsidian.png"
+      "basename": "scr00006",
+      "path": "X/Media/IMAGENS/galaxy/scr00006.jpg"
     },
     {
-      "basename": "home-2",
-      "path": "SYSTEM/MEDIA/home-2.png"
+      "basename": "milkway-andromeda",
+      "path": "X/Media/IMAGENS/galaxy/milkway-andromeda.png"
     },
     {
-      "basename": "home",
-      "path": "SYSTEM/MEDIA/home.png"
+      "basename": "agenda-default",
+      "path": "TaskNotes/Views/agenda-default.base"
+    },
+    {
+      "basename": "Backend Project",
+      "path": "TaskNotes/Tasks/Backend Project.md"
+    },
+    {
+      "basename": "why-jhin",
+      "path": "Music & Games & Movies/why-jhin.md"
+    },
+    {
+      "basename": "Tranquility Base Hotel & Casino - Arctic Monkeys",
+      "path": "Music & Games & Movies/Tranquility Base Hotel & Casino - Arctic Monkeys.md"
+    },
+    {
+      "basename": "track-full-moon-lyrics",
+      "path": "Music & Games & Movies/track-full-moon-lyrics.md"
+    },
+    {
+      "basename": "Mulberry Street - Twenty One Pilots",
+      "path": "Music & Games & Movies/Mulberry Street - Twenty One Pilots.md"
+    },
+    {
+      "basename": "Les Failles - Pomme",
+      "path": "Music & Games & Movies/Les Failles - Pomme.md"
+    },
+    {
+      "basename": "just_music_lines",
+      "path": "Music & Games & Movies/just_music_lines.md"
+    },
+    {
+      "basename": "HUMAN SADNESS LYRICS",
+      "path": "Music & Games & Movies/HUMAN SADNESS LYRICS.md"
+    },
+    {
+      "basename": "album-Trench - Twenty One Pilots",
+      "path": "Music & Games & Movies/album-Trench - Twenty One Pilots.md"
+    },
+    {
+      "basename": "2025-11-01-memo-house of gold - top",
+      "path": "Music & Games & Movies/2025-11-01-memo-house of gold - top.md"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
   "updateOn": "file-open",
-  "omitBookmarks": false,
-  "maxLength": null
+  "omitBookmarks": false
 }

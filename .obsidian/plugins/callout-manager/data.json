@@ -1,28 +1,42 @@
 {
   "callouts": {
     "custom": [
-      "meta",
-      "box"
+      "testcallout",
+      "connect"
     ],
     "settings": {
-      "meta": [
+      "testcallout": [
         {
           "changes": {
-            "icon": "lucide-table"
+            "color": "217, 161, 221"
           }
         }
       ],
-      "box": [
+      "connect": [
         {
           "changes": {
-            "color": "208, 103, 140"
+            "color": "192, 233, 242"
           }
         }
       ],
-      "calendar": [
+      "todo": [
         {
           "changes": {
-            "color": "123, 221, 234"
+            "color": "146, 146, 146"
+          }
+        }
+      ],
+      "target": [
+        {
+          "changes": {
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "youtube": [
+        {
+          "changes": {
+            "color": "82, 139, 212"
           }
         }
       ]
