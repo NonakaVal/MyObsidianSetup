@@ -1,164 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "index-datascience",
-      "path": "Index & Bases/Index/index-datascience.md"
-    },
-    {
-      "basename": "index-computer-science",
-      "path": "Index & Bases/Index/index-computer-science.md"
-    },
-    {
-      "basename": "index-pkm",
-      "path": "Index & Bases/Index/index-pkm.md"
-    },
-    {
-      "basename": "Scripts",
-      "path": "Index & Bases/Bases/Scripts.base"
-    },
-    {
-      "basename": "Base-Youtube-Contents",
-      "path": "Index & Bases/Bases/Base-Youtube-Contents.base"
-    },
-    {
-      "basename": "A-Daily Note Template",
-      "path": "X/Templates/Format/A-Daily Note Template.md"
-    },
-    {
       "basename": "🏠",
       "path": "🏠.md"
     },
     {
-      "basename": "reset-all-property-by-folder",
-      "path": "X/Scripts/organizacao_obsidian/reset-all-property-by-folder.py"
+      "basename": "++",
+      "path": "+/++.base"
     },
     {
-      "basename": "ChanGe-Templates-Folder",
-      "path": "X/Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py"
+      "basename": "hotkeys",
+      "path": "X/Assets/hotkeys.md"
     },
     {
-      "basename": "config",
-      "path": "X/Scripts/organizacao_obsidian/config.py"
+      "basename": "base-code",
+      "path": "Index & Bases/Bases/base-code.base"
     },
     {
-      "basename": "2026-W04",
-      "path": "Calendar & Review/Weekly Notes/2026-W04.md"
+      "basename": "+",
+      "path": "Index & Bases/Bases/+.base"
     },
     {
-      "basename": "2026-01",
-      "path": "Calendar & Review/Monthly Notes/2026-01.md"
-    },
-    {
-      "basename": "2025-12-22-Gratitude",
-      "path": "Calendar & Review/Journaling/2025-12-22-Gratitude.md"
-    },
-    {
-      "basename": "2025-10-19",
-      "path": "Calendar & Review/Daily Notes/2025-10-19.md"
-    },
-    {
-      "basename": "a-morte",
-      "path": "06 Writing/01 Drafts/a-morte.md"
-    },
-    {
-      "basename": "3-definicoes-ciencia-logica-coginicao",
-      "path": "06 Writing/01 Drafts/3-definicoes-ciencia-logica-coginicao.md"
-    },
-    {
-      "basename": "auto-part-system-main",
-      "path": "05 Toolbox/auto-part-system-main.md"
-    },
-    {
-      "basename": "py-pandas-groupby-method",
-      "path": "05 Toolbox/Functions/py-pandas-groupby-method.md"
-    },
-    {
-      "basename": "py-importing-data",
-      "path": "05 Toolbox/Functions/py-importing-data.md"
-    },
-    {
-      "basename": "py-get-dataframe-info",
-      "path": "05 Toolbox/Functions/py-get-dataframe-info.md"
-    },
-    {
-      "basename": "py-EditNotes",
-      "path": "05 Toolbox/Functions/py-EditNotes.md"
-    },
-    {
-      "basename": "ChanGe-Templates-Folder.py-2025-11-19",
-      "path": "05 Toolbox/Functions/ChanGe-Templates-Folder.py-2025-11-19.md"
-    },
-    {
-      "basename": "flow-Verify-DataTypes",
-      "path": "04 Workflow/flow-Verify-DataTypes.md"
-    },
-    {
-      "basename": "flow-whatsApp-arena-report",
-      "path": "04 Workflow/flow-whatsApp-arena-report.md"
-    },
-    {
-      "basename": "flow-pandas-null-values-wrangling",
-      "path": "04 Workflow/flow-pandas-null-values-wrangling.md"
-    },
-    {
-      "basename": "flow-pandas-data-cleaning-methods",
-      "path": "04 Workflow/flow-pandas-data-cleaning-methods.md"
-    },
-    {
-      "basename": "flow-pandas-basic-data-manipulation",
-      "path": "04 Workflow/flow-pandas-basic-data-manipulation.md"
-    },
-    {
-      "basename": "chmod",
-      "path": "01 Snippets/rmbg/chmod.md"
-    },
-    {
-      "basename": "2x2 art grid",
-      "path": "01 Snippets/_ungrouped/2x2 art grid.md"
-    },
-    {
-      "basename": "Sem título",
-      "path": "+/Sem título.base"
-    },
-    {
-      "basename": "2026-01-27",
-      "path": "Calendar & Review/Daily Notes/2026-01-27.md"
-    },
-    {
-      "basename": "Z-project note",
-      "path": "X/Templates/Format/Z-project note.md"
-    },
-    {
-      "basename": "10-music",
-      "path": "X/Media/IMAGENS/PRINTS/10-music.png"
-    },
-    {
-      "basename": "5-component",
-      "path": "X/Media/IMAGENS/PRINTS/5-component.png"
-    },
-    {
-      "basename": "2-concepts",
-      "path": "X/Media/IMAGENS/PRINTS/2-concepts.png"
-    },
-    {
-      "basename": "_nota-index",
-      "path": "X/Media/IMAGENS/PRINTS/_nota-index.png"
-    },
-    {
-      "basename": "scr00006",
-      "path": "X/Media/IMAGENS/galaxy/scr00006.jpg"
-    },
-    {
-      "basename": "milkway-andromeda",
-      "path": "X/Media/IMAGENS/galaxy/milkway-andromeda.png"
-    },
-    {
-      "basename": "agenda-default",
-      "path": "TaskNotes/Views/agenda-default.base"
+      "basename": "Base-Youtube-Contents",
+      "path": "Index & Bases/Bases/Base-Youtube-Contents.base"
     },
     {
       "basename": "Backend Project",
@@ -199,6 +63,138 @@
     {
       "basename": "2025-11-01-memo-house of gold - top",
       "path": "Music & Games & Movies/2025-11-01-memo-house of gold - top.md"
+    },
+    {
+      "basename": "2025-10-02-Lista dos meus filmes favoritos",
+      "path": "Music & Games & Movies/2025-10-02-Lista dos meus filmes favoritos.md"
+    },
+    {
+      "basename": "2025-11-26-memo-quotes",
+      "path": "Memos/2025-11-26-memo-quotes.md"
+    },
+    {
+      "basename": "2025-11-25-memo-desmotivação-total",
+      "path": "Memos/2025-11-25-memo-desmotivação-total.md"
+    },
+    {
+      "basename": "2025-12-22-Gratitude",
+      "path": "Calendar & Review/Journaling/2025-12-22-Gratitude.md"
+    },
+    {
+      "basename": "NonakaLab Channel",
+      "path": "08 Ongoing/NonakaLab Channel/NonakaLab Channel.md"
+    },
+    {
+      "basename": "💡 Ideas List",
+      "path": "07 Ideas/💡 Ideas List.md"
+    },
+    {
+      "basename": "paradoxo-onipotencia",
+      "path": "06 Writing/06 Thinking/paradoxo-onipotencia.md"
+    },
+    {
+      "basename": "To Do – Projeto do Livro",
+      "path": "06 Writing/05 Task & Boards/To Do – Projeto do Livro.md"
+    },
+    {
+      "basename": "Kanban - Concepts",
+      "path": "06 Writing/05 Task & Boards/Kanban - Concepts.md"
+    },
+    {
+      "basename": "p.d workman book writing blog post",
+      "path": "06 Writing/04 References/03.1 Researches/p.d workman book writing blog post.md"
+    },
+    {
+      "basename": "limite-individualidade",
+      "path": "06 Writing/03 Concepts/limite-individualidade.md"
+    },
+    {
+      "basename": "1-Notas de Agradecimento",
+      "path": "06 Writing/1-Notas de Agradecimento.md"
+    },
+    {
+      "basename": "2-Contexto Inicial",
+      "path": "06 Writing/2-Contexto Inicial.md"
+    },
+    {
+      "basename": "Conhecimento",
+      "path": "06 Writing/Conhecimento.md"
+    },
+    {
+      "basename": "tudo é informação",
+      "path": "+/tudo é informação.md"
+    },
+    {
+      "basename": "3-definicoes-ciencia-logica-coginicao",
+      "path": "06 Writing/01 Drafts/3-definicoes-ciencia-logica-coginicao.md"
+    },
+    {
+      "basename": "ChanGe-Templates-Folder.py-2025-11-19",
+      "path": "05 Toolbox/Functions/ChanGe-Templates-Folder.py-2025-11-19.md"
+    },
+    {
+      "basename": "audio-transcripter-3",
+      "path": "00 Code/Scripts/processamento_audio/audio-transcripter-3.py"
+    },
+    {
+      "basename": "--break-system-packages",
+      "path": "01 Snippets/_ungrouped/--break-system-packages.md"
+    },
+    {
+      "basename": "INDEX-CODE",
+      "path": "00 Code/Projects/INDEX-CODE.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "index-datascience",
+      "path": "Index & Bases/Index/index-datascience.md"
+    },
+    {
+      "basename": "index-computer-science",
+      "path": "Index & Bases/Index/index-computer-science.md"
+    },
+    {
+      "basename": "index-pkm",
+      "path": "Index & Bases/Index/index-pkm.md"
+    },
+    {
+      "basename": "Scripts",
+      "path": "Index & Bases/Bases/Scripts.base"
+    },
+    {
+      "basename": "A-Daily Note Template",
+      "path": "X/Templates/Format/A-Daily Note Template.md"
+    },
+    {
+      "basename": "reset-all-property-by-folder",
+      "path": "X/Scripts/organizacao_obsidian/reset-all-property-by-folder.py"
+    },
+    {
+      "basename": "ChanGe-Templates-Folder",
+      "path": "X/Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py"
+    },
+    {
+      "basename": "config",
+      "path": "X/Scripts/organizacao_obsidian/config.py"
+    },
+    {
+      "basename": "2026-W04",
+      "path": "Calendar & Review/Weekly Notes/2026-W04.md"
+    },
+    {
+      "basename": "2026-01",
+      "path": "Calendar & Review/Monthly Notes/2026-01.md"
+    },
+    {
+      "basename": "2025-10-19",
+      "path": "Calendar & Review/Daily Notes/2025-10-19.md"
+    },
+    {
+      "basename": "a-morte",
+      "path": "06 Writing/01 Drafts/a-morte.md"
     }
   ],
   "omittedPaths": [],

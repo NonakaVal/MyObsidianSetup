@@ -8,69 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1fe8a5a003baf7f6",
-            "type": "leaf",
-            "state": {
-              "type": "grid-view",
-              "state": {
-                "type": "grid-view",
-                "state": {
-                  "sourceMode": "folder",
-                  "sourcePath": "Index & Bases/Bases",
-                  "baseSortType": "mtime-desc",
-                  "sortType": "mtime-desc",
-                  "searchQuery": "",
-                  "searchCurrentLocationOnly": false,
-                  "searchFilesNameOnly": false,
-                  "searchMediaFiles": false,
-                  "includeMedia": false,
-                  "minMode": false,
-                  "showIgnoredItems": false,
-                  "baseCardLayout": "horizontal",
-                  "cardLayout": "horizontal",
-                  "hideHeaderElements": false,
-                  "showDateDividers": false,
-                  "showNoteTags": true,
-                  "recentSources": [
-                    "{\"mode\":\"bookmarks\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
-                  ],
-                  "futureSources": []
-                }
-              },
-              "icon": "folder",
-              "title": "Index & Bases/Bases"
-            }
-          },
-          {
-            "id": "c57b572ae6482fe7",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Index & Bases/Bases/Base-Youtube-Contents.base",
-                "viewName": "status view"
-              },
-              "icon": "lucide-table",
-              "title": "Base-Youtube-Contents"
-            }
-          },
-          {
             "id": "6be7971a26ce4509",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
+                "file": "🏠.md",
+                "mode": "preview",
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "🏠"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -136,6 +88,16 @@
               },
               "icon": "lucide-list",
               "title": "Sumário de README"
+            }
+          },
+          {
+            "id": "bdc4a9b4c9b1ea2c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -253,17 +215,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "random-note:Abrir nota aleatória": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false,
-      "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "bases:Criar nova base": false,
-      "obsidian-kanban:Criar um novo quadro": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "vscode-editor:Create Code File": false,
       "callout-manager:Insert Callout": true,
@@ -272,50 +234,50 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6be7971a26ce4509",
+  "active": "b34c0f902b1265c0",
   "lastOpenFiles": [
-    "Index & Bases/Index/index-datascience.md",
-    "Index & Bases/Index/index-computer-science.md",
-    "Index & Bases/Index/index-pkm.md",
-    "Index & Bases/Bases/Scripts.base",
-    "Index & Bases/Bases/Base-Youtube-Contents.base",
-    "X/Templates/Format/A-Daily Note Template.md",
+    "Knowlegde/Books/Antifrágil (Nova edição) - Nassim Nicholas Taleb.md",
+    "Knowlegde/Books/Aprendendo a Viver.md",
     "🏠.md",
-    "README.md",
+    "+/++.base",
+    "X/Assets/hotkeys.md",
+    "Index & Bases/Bases/base-code.base",
+    "Index & Bases/Bases/+.base",
+    "Index & Bases/Bases/Base-Youtube-Contents.base",
+    "X/Assets/Hotkeys.md",
+    "TaskNotes/Tasks/Backend Project.md",
+    "Music & Games & Movies/why-jhin.md",
+    "Music & Games & Movies/Tranquility Base Hotel & Casino - Arctic Monkeys.md",
+    "Music & Games & Movies/track-full-moon-lyrics.md",
+    "Music & Games & Movies/Mulberry Street - Twenty One Pilots.md",
+    "Music & Games & Movies/Les Failles - Pomme.md",
+    "Music & Games & Movies/just_music_lines.md",
+    "Music & Games & Movies/HUMAN SADNESS LYRICS.md",
+    "Music & Games & Movies/album-Trench - Twenty One Pilots.md",
+    "Music & Games & Movies/2025-11-01-memo-house of gold - top.md",
+    "Music & Games & Movies/2025-10-02-Lista dos meus filmes favoritos.md",
+    "Memos/2025-11-26-memo-quotes.md",
+    "Memos/2025-11-25-memo-desmotivação-total.md",
+    "Calendar & Review/Journaling/2025-12-22-Gratitude.md",
+    "08 Ongoing/NonakaLab Channel/NonakaLab Channel.md",
+    "07 Ideas/Creators headlines.md",
+    "07 Ideas/💡 Ideas List.md",
+    "06 Writing/06 Thinking/paradoxo-onipotencia.md",
+    "06 Writing/05 Task & Boards/To Do – Projeto do Livro.md",
+    "06 Writing/05 Task & Boards/Kanban - Concepts.md",
+    "06 Writing/04 References/03.1 Researches/p.d workman book writing blog post.md",
+    "00 Code/Scripts/processamento_audio/audio-transcripter-3.py",
+    "Index & Bases/Bases/Scripts.base",
     "X/Scripts/organizacao_obsidian/reset-all-property-by-folder.py",
     "X/Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py",
     "X/Scripts/organizacao_obsidian/config.py",
     "X/Scripts/ferramentas_diversas/gca.py",
-    "Calendar & Review/Weekly Notes/2026-W04.md",
-    "Calendar & Review/Monthly Notes/2026-01.md",
-    "Calendar & Review/Journaling/2025-12-22-Gratitude.md",
-    "Calendar & Review/Daily Notes/2025-10-19.md",
-    "06 Writing/01 Drafts/a-morte.md",
-    "06 Writing/01 Drafts/3-definicoes-ciencia-logica-coginicao.md",
-    "05 Toolbox/auto-part-system-main.md",
-    "05 Toolbox/Functions/py-pandas-groupby-method.md",
-    "05 Toolbox/arch-gca.py.md",
-    "05 Toolbox/Functions/py-importing-data.md",
-    "05 Toolbox/Functions/py-get-dataframe-info.md",
-    "05 Toolbox/Functions/py-EditNotes.md",
-    "05 Toolbox/Functions/ChanGe-Templates-Folder.py-2025-11-19.md",
-    "05 Toolbox/Functions/gca.py-2025-10-24.md",
-    "04 Workflow/flow-Verify-DataTypes.md",
-    "04 Workflow/flow-whatsApp-arena-report.md",
-    "04 Workflow/flow-pandas-null-values-wrangling.md",
-    "04 Workflow/flow-pandas-data-cleaning-methods.md",
-    "04 Workflow/flow-pandas-basic-data-manipulation.md",
-    "01 Snippets/rmbg/chmod.md",
-    "+/Sem título.base",
     "X/Media/IMAGENS/PRINTS/10-music.png",
     "X/Media/IMAGENS/PRINTS/5-component.png",
     "X/Media/IMAGENS/PRINTS/2-concepts.png",
     "X/Media/IMAGENS/PRINTS/_nota-index.png",
     "X/Media/IMAGENS/galaxy/scr00006.jpg",
     "X/Media/IMAGENS/galaxy/milkway-andromeda.png",
-    "X/Bases/+.base",
-    "X/Bases/MAPS.base",
-    "X/Bases/ORPHANAGE.base",
     "Index & Bases/Maps/+_CANVAS-DATASCIENCE.canvas",
     "Index & Bases/Maps/+_CANVAS-MENTORIA.CARLOS.canvas",
     "Index & Bases/Maps/+_CANVAS_AOC 1.canvas",

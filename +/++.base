@@ -5,10 +5,10 @@ views:
       property: file.folder
       direction: ASC
     order:
-      - file.name
       - file.folder
+      - file.name
     sort:
       - property: file.name
-        direction: DESC
+        direction: ASC
       - property: file.folder
-        direction: DESC
+        direction: ASC
