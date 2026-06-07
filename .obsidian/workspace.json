@@ -1,60 +1,92 @@
 {
   "main": {
-    "id": "2178b4b13ad8d220",
+    "id": "ab14a04a9f2a87b7",
     "type": "split",
     "children": [
       {
-        "id": "64efc9618c2d8fed",
+        "id": "d16792fe7779e796",
         "type": "tabs",
         "children": [
           {
-            "id": "6be7971a26ce4509",
+            "id": "222078a5471f6e19",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          },
+          {
+            "id": "61e91ea6d7a023e8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "7d26fedf4ba51755",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false,
-                "backlinks": false
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "🏠"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "da223467db4c9158",
+    "id": "9744652ee2a62c91",
     "type": "split",
     "children": [
       {
-        "id": "3ba83bbb7904c6a3",
+        "id": "b3cff5a2134729f6",
         "type": "tabs",
         "children": [
           {
-            "id": "b34c0f902b1265c0",
+            "id": "c4bf9727dc540e94",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "custom",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
-            "id": "c3dcb494a0674c29",
+            "id": "53a2bd1729d79b05",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"cssclasses\":image]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,11 +94,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
-            "id": "e0f7509dece0369f",
+            "id": "214f4755f92b96ce",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,22 +108,7 @@
             }
           },
           {
-            "id": "f7119f2528338e15",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "README.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de README"
-            }
-          },
-          {
-            "id": "bdc4a9b4c9b1ea2c",
+            "id": "2050bd583807549c",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -100,33 +117,58 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 530.5,
+    "collapsed": true
   },
   "right": {
-    "id": "3703f7d8eaeb01fd",
+    "id": "6bb94bbe4841a0e7",
     "type": "split",
     "children": [
       {
-        "id": "c4e9b6b7a7b97459",
+        "id": "1afad4f052527720",
         "type": "tabs",
-        "dimension": 53.153153153153156,
+        "dimension": 45.63953488372093,
         "children": [
           {
-            "id": "72f1b9cde49a80fb",
+            "id": "44a4f9c800a95267",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "type": "backlink",
+              "state": {
+                "file": "Bases/+.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for +"
             }
           },
           {
-            "id": "2386ef8588c3dc8e",
+            "id": "6916855200b5046b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Index & Bases/Main-Board.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Main-Board"
+            }
+          },
+          {
+            "id": "8ea8eb610694615d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,7 +183,7 @@
             }
           },
           {
-            "id": "1ebc49deb54dd0f7",
+            "id": "75d9bef01d00c297",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -155,141 +197,192 @@
             }
           },
           {
-            "id": "40be355d2ebab86f",
+            "id": "ff30d87bb106f2b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "819a166de01f364d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4b02229fbe7c0c55",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠 Homepage.md"
+                "file": "Index & Bases/Main-Board.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 🏠"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3954ea8e597c4a31",
-        "type": "tabs",
-        "dimension": 46.846846846846844,
-        "children": [
-          {
-            "id": "c133cbfbc6b00289",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "README.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para README"
+              "title": "Propriedades do arquivo Main-Board"
             }
           },
           {
-            "id": "7a2141420f060740",
+            "id": "98ced5e584f23d1f",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "0d3e5a0b6847b80e",
+            "type": "leaf",
+            "state": {
+              "type": "opencode-view",
+              "state": {},
+              "icon": "opencode-logo",
+              "title": "OpenCode"
+            }
+          }
+        ],
+        "currentTab": 8
+      },
+      {
+        "id": "09578198c9bb9d94",
+        "type": "tabs",
+        "dimension": 54.360465116279066,
+        "children": [
+          {
+            "id": "a2564b582a324815",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
               "state": {
-                "file": "🏠 Homepage.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "README.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.6,
+                  "nodeSizeMultiplier": 1.5546875,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.359375,
+                  "repelStrength": 5.9375,
+                  "linkStrength": 0.875,
+                  "linkDistance": 427,
+                  "scale": 0.6666666666666666,
+                  "close": true
+                }
               },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 🏠"
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de README"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
+    "width": 435.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
-      "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false,
-      "vscode-editor:Create Code File": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "bases:Criar nova base": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "opencode-obsidian:OpenCode": false,
+      "obsidian42-brat:BRAT": true,
+      "pomodoro-timer:Toggle timer panel": false,
+      "widgets:Add widget": true,
+      "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": true,
-      "templater-obsidian:Templater": false,
-      "gridexplorer:Open grid view": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": true,
+      "obsidian-shellcommands:Shell commands: Custom variables": true,
+      "vscode-editor:Create Code File": true
     }
   },
-  "active": "6be7971a26ce4509",
+  "active": "7d26fedf4ba51755",
   "lastOpenFiles": [
-    "X/Assets/Hotkeys.md",
-    "Knowlegde/Books/Aprendendo a Viver.md",
-    "07 Ideas/Creators headlines.md",
-    "+/Sem título.base",
-    "Knowlegde/Books/Antifrágil (Nova edição) - Nassim Nicholas Taleb.md",
-    "🏠.md",
-    "+/++.base",
-    "X/Assets/hotkeys.md",
-    "Index & Bases/Bases/base-code.base",
-    "Index & Bases/Bases/+.base",
-    "Index & Bases/Bases/Base-Youtube-Contents.base",
-    "TaskNotes/Tasks/Backend Project.md",
-    "Music & Games & Movies/why-jhin.md",
-    "Music & Games & Movies/Tranquility Base Hotel & Casino - Arctic Monkeys.md",
-    "Music & Games & Movies/track-full-moon-lyrics.md",
-    "Music & Games & Movies/Mulberry Street - Twenty One Pilots.md",
-    "Music & Games & Movies/Les Failles - Pomme.md",
-    "Music & Games & Movies/just_music_lines.md",
-    "Music & Games & Movies/HUMAN SADNESS LYRICS.md",
-    "Music & Games & Movies/album-Trench - Twenty One Pilots.md",
-    "Music & Games & Movies/2025-11-01-memo-house of gold - top.md",
-    "Music & Games & Movies/2025-10-02-Lista dos meus filmes favoritos.md",
-    "Memos/2025-11-26-memo-quotes.md",
-    "Memos/2025-11-25-memo-desmotivação-total.md",
-    "Calendar & Review/Journaling/2025-12-22-Gratitude.md",
-    "08 Ongoing/NonakaLab Channel/NonakaLab Channel.md",
-    "07 Ideas/💡 Ideas List.md",
-    "06 Writing/06 Thinking/paradoxo-onipotencia.md",
-    "06 Writing/05 Task & Boards/To Do – Projeto do Livro.md",
-    "06 Writing/05 Task & Boards/Kanban - Concepts.md",
-    "00 Code/Scripts/processamento_audio/audio-transcripter-3.py",
-    "Index & Bases/Bases/Scripts.base",
-    "X/Scripts/organizacao_obsidian/reset-all-property-by-folder.py",
-    "X/Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py",
-    "X/Scripts/organizacao_obsidian/config.py",
-    "X/Media/IMAGENS/PRINTS/10-music.png",
-    "X/Media/IMAGENS/PRINTS/5-component.png",
-    "X/Media/IMAGENS/PRINTS/2-concepts.png",
-    "X/Media/IMAGENS/PRINTS/_nota-index.png",
-    "X/Media/IMAGENS/galaxy/scr00006.jpg",
-    "X/Media/IMAGENS/galaxy/milkway-andromeda.png",
-    "Index & Bases/Maps/+_CANVAS-DATASCIENCE.canvas",
-    "Index & Bases/Maps/+_CANVAS-MENTORIA.CARLOS.canvas",
-    "Index & Bases/Maps/+_CANVAS_AOC 1.canvas",
-    "Index & Bases/Maps/+_CANVAS_AOC.canvas",
-    "X/Media/Images/comandos arch.png",
-    "X/Media/Images/How to transfer kde from anywhere4.png",
-    "X/Media/Images/How to transfer kde from anywhere-2.png",
-    "X/Media/Images/How to transfer kde from anywhere.png",
-    "Untitled.canvas",
-    "Index & Bases/Maps/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
-    "Index & Maps/+_CANVAS_AOC.canvas",
-    "Index & Maps/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
-    "Index & Maps/+_CANVAS-DATASCIENCE.canvas",
-    "+/nen-system-hxh.canvas"
+    "X/Captura_de_tela_20260607_150441.png",
+    "Calendar & Review/Daily Notes/2026-06-07.md",
+    "X/Captura_de_tela_20260607_150347.png",
+    "README.md",
+    "X/Captura_de_tela_20260607_150204.png",
+    "Sem título.md",
+    "Sem título.base",
+    "X/Shell Commands/transcription.py",
+    "X/Shell Commands/show_folders.py",
+    "X/Shell Commands/set_templater_folder.py",
+    "X/Shell Commands/quick-transcriptor.py",
+    "X/Shell Commands/localserver.py",
+    "X/Shell Commands/git_push.py",
+    "X/Shell Commands/git_pull.py",
+    "X/Shell Commands/cycle_focus.py",
+    "X/Shell Commands/config.py",
+    "Write/05 Task & Boards/Kanban - Concepts.md",
+    "Memos/Open/Terminar lista de compra aniversário bb.md",
+    "Memos/Open/22.1 2025-10-08-harry.md",
+    "Memos/Open/Planejamento Aniversário bb.md",
+    "Memos/Archived/memo-escrever sobre braking the habit.md",
+    "Memos/Archived/responsabilidade-constancia-convivencia.md",
+    "Memos/Archived/2026-02-08-memo-curso-carlos.md",
+    "Memos/Archived/2025-12-23-memo-what-if.md",
+    "Memos/Archived/2025-11-26-memo-quotes.md",
+    "Memos/Archived/2025-10-25-memo-video-susane-ribeiro.md",
+    "Knowledge/35 Music & Games & Movies/2025-10-02-Lista dos meus filmes favoritos.md",
+    "Knowledge/35 Music & Games & Movies/2025-11-01-memo-house of gold - top.md",
+    "Knowledge/35 Music & Games & Movies/Clancy - Twenty One Pilots.md",
+    "Knowledge/35 Music & Games & Movies/HUMAN SADNESS LYRICS.md",
+    "Knowledge/35 Music & Games & Movies/just_music_lines.md",
+    "Knowledge/35 Music & Games & Movies/Les Failles - Pomme.md",
+    "Knowledge/35 Music & Games & Movies/Mulberry Street - Twenty One Pilots.md",
+    "Knowledge/35 Music & Games & Movies/reddit-nen-system.md",
+    "Knowledge/35 Music & Games & Movies/track-full-moon-lyrics.md",
+    "Knowledge/33 Recources/res-github-commit-message-convention.md",
+    "Knowledge/33 Recources/res-checklist-produto-e-objecoes.md",
+    "Knowledge/33 Recources/doc-vault-snippet-dataview.md",
+    "Index & Bases/Maps & Boards/Pipeline_Producao_YouTube.canvas",
+    "Index & Bases/Maps & Boards/mapa-pkm.canvas",
+    "09 Focus Areas/Learning/Video-Introduction to DaVinci Resolve - Full Course for Beginners 2026 from Casey Faris.canvas",
+    "z-Media/Media/Images/Acessar Pro.png",
+    "z-Media/Media/🏠.png",
+    "z-Media/Media/banners/anxiety-2019928_1920.jpg",
+    "dataviewallnotesview.canvas",
+    "Index & Bases/Maps & Boards/Mood-Tracker.canvas",
+    "Index & Bases/Maps & Boards/Logs-V-View.canvas",
+    "08 Focus Areas/Learning/Video-Introduction to DaVinci Resolve - Full Course for Beginners 2026 from Casey Faris.canvas",
+    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/piano-7629023_1920.jpg",
+    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/painting-911804_1920.jpg",
+    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/sunset-8331285_1920.jpg",
+    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/apple-1282241_1920.jpg",
+    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/student-865073_1920.jpg",
+    "Sem título.canvas",
+    "V-04-Edicao/Templater/templater-video.canvas"
   ]
 }

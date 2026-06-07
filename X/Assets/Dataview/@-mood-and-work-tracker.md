@@ -1,5 +1,4 @@
 ---
-created: "[[2025-06-08]]"
 cssclasses: wide-page
 ---
 ```dataviewjs

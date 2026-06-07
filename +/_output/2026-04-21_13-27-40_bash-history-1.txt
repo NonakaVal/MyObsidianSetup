@@ -1,0 +1,16 @@
+sudo apt install kitty
+nano ~/.config/i3/config
+sudo apt install kitty
+bindsym $mod+Return exec kitty
+nano ~/.config/i3/config
+sudo apt install konsole
+nano ~/.config/i3/config
+i3-msg reload
+ls
+i3-config-wizard 
+sudo apt install cargo
+aichat
+cargo install aichat 
+cargo install aichat --locked
+dolphin .
+source .bashrc 

@@ -1,0 +1,376 @@
+filters:
+  and:
+    - '!file.hasTag("/", "calendar/daily")'
+formulas:
+  Year Modified: created.year
+  Created (Month): created.month
+  "Outlink #": file.links.length
+  Links: file.backlinks.length
+  Parent Folder: file.folder.split("/")[-1]
+  folder_list: |-
+    [
+      ["Calendar & Review/Daily Notes",          "📅"],
+      ["Calendar & Review/Weekly Notes",         "📆"],
+      ["Calendar & Review/Monthly Notes",        "🗓️"],
+      ["Calendar & Review/Journaling",           "📓"],
+      ["Calendar & Review",                      "📅"],
+      ["TaskNotes",                               "✅"],
+      ["V-01-Ideia",                      "💡"],
+      ["V-03-Roteiro",                               "✏️"],
+      ["Knowlegde/31 Dots",                      "•"],
+      ["Knowlegde/33 Concept",                   "💡"],
+      ["Knowlegde/37 Music & Games & Movies",    "🎬"],
+      ["Knowlegde/36 Books",                     "📚"],
+      ["Knowlegde/35 Recources",                 "🗂️"],
+      ["Knowlegde",                              "🧠"],
+      ["Index & Bases/Maps & Boards",            "🗺️"],
+      ["Index & Bases/Bases",                    "🏰"],
+      ["Index & Bases",                          "🌐"],
+      ["Write/01 Drafts",                        "✏️"],
+      ["Write/05 Task & Boards",                 "✅"],
+      ["Write/03 Concepts",                      "💡"],
+      ["Write/06 Thinking",                      "🧩"],
+      ["Write/04 References",                    "📎"],
+      ["Write",                                  "✍️"],
+      ["06 Work/Collectors Guardian",            "🛡️"],
+      ["06 Work",                                "💼"],
+      ["08 Focus Areas/Autoconhecimento",        "🪞"],
+      ["08 Focus Areas/Youtube-Videos",          "▶️"],
+      ["08 Focus Areas",                         "🎯"],
+      ["07 AI",                                  "🦾"],
+      ["Memos/Open",                             "📬"],
+      ["Memos/Archived",                         "📭"],
+      ["Memos",                                  "📝"],
+      ["01 Snippets",                            "✂️"],
+      ["X/Template/Content",                     "📝"],
+      ["X/Template/Format",                      "🎨"],
+      ["X/Template/Journaling",                  "📓"],
+      ["X/Template/Snippet",                     "✂️"],
+      ["X/Template",                             "📋"],
+      ["X/Assets",                               "🖼️"],
+      ["X/Scripts",                              "⚙️"],
+      ["X/Hubs",                                 "🗺️"],
+      ["X",                                      "𝙓"],
+      ["03 Config",                              "🔧"],
+      ["04 Workflow",                            "🔄"],
+      ["05 Toolbox",                             "🧰"],
+      ["00 Code",                                "💻"],
+      ["z-ignore",                               "💤"],
+      ["z-Media",                                "🌉"],
+      ["+",                                      "✨"],
+      ["/",                                      "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  Folder Group: if(formula.check_folders, formula.check_folders[0], "")
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  M.time: file.mtime.relative()
+  C.Time: file.ctime.relative()
+properties:
+  formula.Year Modified:
+    displayName: Created (Year)
+  file.links:
+    displayName: Outlinks
+  formula.Links:
+    displayName: "Inlink #"
+  file.backlinks:
+    displayName: Inlinks
+views:
+  - type: table
+    name: Created
+    order:
+      - formula.✨
+      - file.name
+      - formula.C.Time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.C.Time: 157
+  - type: table
+    name: Recents
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: formula.✨
+        direction: ASC
+      - property: formula.M.time
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: +
+    filters:
+      and:
+        - file.inFolder("+")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: Calendar & Review
+    filters:
+      and:
+        - file.inFolder("Calendar & Review")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: Knowlegde
+    filters:
+      and:
+        - file.inFolder("Knowlegde")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: Write
+    filters:
+      and:
+        - file.inFolder("Write")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: Index & Bases
+    filters:
+      and:
+        - file.inFolder("Index & Bases")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: 06 Work
+    filters:
+      and:
+        - file.inFolder("06 Work")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: 07 AI
+    filters:
+      and:
+        - file.inFolder("07 AI")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: 08 Focus Areas
+    filters:
+      and:
+        - file.inFolder("08 Focus Areas")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: Memos
+    filters:
+      and:
+        - file.inFolder("Memos")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+      - collections
+      - up
+      - related
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175
+  - type: table
+    name: 01 Snippets
+    filters:
+      and:
+        - file.inFolder("01 Snippets")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+      - formula.Parent Folder
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.M.time: 175

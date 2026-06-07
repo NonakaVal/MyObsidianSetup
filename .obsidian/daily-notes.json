@@ -1,6 +1,4 @@
 {
-  "format": "",
-  "template": "X/Templates/Format/A-Daily Note Template",
-  "folder": "Calendar & Review/Daily Notes",
-  "autorun": false
+  "template": "X/Template/Format/B-Daily Note Template",
+  "folder": "Calendar & Review/Daily Notes"
 }

@@ -1,3 +1,0 @@
-```
- <% tp.system.clipboard() %>
-```

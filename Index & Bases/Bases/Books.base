@@ -1,0 +1,104 @@
+filters:
+  and:
+    - file.inFolder("Knowlegde/34 Books")
+    - file.ext == "md"
+formulas:
+  folder_list: |-
+    [
+      ["Knowlegde/36 Books",  "📚"],
+      ["/",                   "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  M.time: file.mtime.relative()
+  C.Time: file.ctime.relative()
+properties:
+  file.name:
+    displayName: Book
+  file.backlinks:
+    displayName: Inlinks
+views:
+  - type: cards
+    name: All Books
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - status
+      - author
+    sort: []
+    cardSize: 150
+    image: note.cover
+    imageFit: contain
+  - type: table
+    name: Table
+    order:
+      - formula.✨
+      - file.name
+      - author
+      - status
+      - rating
+      - genre
+      - formula.C.Time
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 260
+      note.author: 160
+      note.status: 100
+      note.rating: 80
+      formula.C.Time: 140
+  - type: table
+    name: Reading
+    filters:
+      and:
+        - status == "reading"
+    order:
+      - formula.✨
+      - file.name
+      - author
+      - rating
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 260
+  - type: table
+    name: Done
+    filters:
+      and:
+        - status == "done"
+    order:
+      - formula.✨
+      - file.name
+      - author
+      - rating
+      - formula.C.Time
+    sort:
+      - property: rating
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 260
+  - type: table
+    name: To Read
+    filters:
+      or:
+        - status == "to-read"
+        - status == "backlog"
+    order:
+      - formula.✨
+      - file.name
+      - author
+      - genre
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      formula.✨: 23
+      file.name: 260

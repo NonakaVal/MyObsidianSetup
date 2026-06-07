@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "X/Templates",
+  "templates_folder": "X/Template",
   "templates_pairs": [
     [
       "",
@@ -15,12 +15,28 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "06 Ideas",
-      "template": "X/Templates/Format/T-youtube-video.md"
+      "folder": "/",
+      "template": "X/Template/Format/A-new-note.md"
     },
     {
-      "folder": "08 Ongoing/NonakaLab Channel/09 Roteiros",
-      "template": "X/Templates/Format/T-youtube-video.md"
+      "folder": "V-01-Ideia",
+      "template": "X/Template/Format/V-01-Ideia-Video-Youtube.md"
+    },
+    {
+      "folder": "V-02-Inspiracoes",
+      "template": "X/Template/Content/V-02-Estrutura.md"
+    },
+    {
+      "folder": "V-03-Roteiro",
+      "template": "X/Template/Content/V-03-Roteiro.md"
+    },
+    {
+      "folder": "V-04-Edicao",
+      "template": "X/Template/Content/V-04-Edicao.md"
+    },
+    {
+      "folder": "06 Work/Obsidian Vaults/+",
+      "template": "X/Template/Format/knowldge-forge-new-note.md"
     }
   ],
   "enable_file_templates": false,
@@ -33,10 +49,16 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
+    "X/Template/Snippet/S-DailyloG.md",
     ""
   ],
   "startup_templates": [
     ""
   ],
-  "intellisense_render": 1
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
 }

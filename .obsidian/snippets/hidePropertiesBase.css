@@ -15,7 +15,7 @@
 
 
 /* THIS IS FOR AUTO HIDING PROPERTIES AND EXPANDING ON CURSOR HOVER */
-/* .metadata-properties-title {
+ .metadata-properties-title {
     transition: 500ms;
     opacity: 0.75;
     margin-bottom: 20px;
@@ -35,4 +35,4 @@
 .metadata-container:hover .metadata-content {
     opacity: 1;
     height: auto;
-    margin-bottom: 0.5em; */
+    margin-bottom: 0.5em; }

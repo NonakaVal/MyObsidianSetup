@@ -1,0 +1,132 @@
+filters:
+  and:
+    - file.inFolder("X/Template")
+formulas:
+  folder_list: |-
+    [
+      ["Calendar & Review/Daily Notes",          "📅"],
+      ["Calendar & Review/Weekly Notes",         "📆"],
+      ["Calendar & Review/Monthly Notes",        "🗓️"],
+      ["Calendar & Review/Journaling",           "📓"],
+      ["Calendar & Review",                      "📅"],
+      ["Knowlegde/31 Dots",                      "•"],
+      ["Knowlegde/33 Concept",                   "💡"],
+      ["Knowlegde/37 Music & Games & Movies",    "🎬"],
+      ["Knowlegde/36 Books",                     "📚"],
+      ["Knowlegde/35 Recources",                 "🗂️"],
+      ["Knowlegde",                              "🧠"],
+      ["Index & Bases/Maps & Boards",            "🗺️"],
+      ["Index & Bases/Bases",                    "🏰"],
+      ["Index & Bases",                          "🌐"],
+      ["Write/01 Drafts",                        "✏️"],
+      ["Write/05 Task & Boards",                 "✅"],
+      ["Write/03 Concepts",                      "💡"],
+      ["Write/06 Thinking",                      "🧩"],
+      ["Write/04 References",                    "📎"],
+      ["Write",                                  "✍️"],
+      ["06 Work/Collectors Guardian",            "🛡️"],
+      ["06 Work",                                "💼"],
+      ["08 Focus Areas/Autoconhecimento",        "🪞"],
+      ["08 Focus Areas/Youtube-Videos",          "▶️"],
+      ["08 Focus Areas",                         "🎯"],
+      ["07 AI",                                  "🦾"],
+      ["Memos/Open",                             "📬"],
+      ["Memos/Archived",                         "📭"],
+      ["Memos",                                  "📝"],
+      ["01 Snippets",                            "✂️"],
+      ["X/Template/Content",                     "📝"],
+      ["X/Template/Format",                      "🎨"],
+      ["X/Template/Journaling",                  "📓"],
+      ["X/Template/Snippet",                     "✂️"],
+      ["X/Template",                             "📋"],
+      ["X/Assets",                               "🖼️"],
+      ["X/Scripts",                              "⚙️"],
+      ["X/Hubs",                                 "🗺️"],
+      ["X",                                      "𝙓"],
+      ["03 Config",                              "🔧"],
+      ["04 Workflow",                            "🔄"],
+      ["05 Toolbox",                             "🧰"],
+      ["00 Code",                                "💻"],
+      ["z-ignore",                               "💤"],
+      ["z-Media",                                "🌉"],
+      ["+",                                      "✨"],
+      ["/",                                      "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  Folder Group: if(formula.check_folders, formula.check_folders[0], "")
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  Parent Folder: file.folder.split("/")[-1]
+properties:
+  file.name:
+    displayName: Template
+views:
+  - type: table
+    name: All Templates
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 230
+  - type: cards
+    name: Templates Cards
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+    sort:
+      - property: file.name
+        direction: DESC
+    cardSize: 260
+  - type: cards
+    name: Format & Content
+    filters:
+      or:
+        - file.inFolder("X/Template/Format")
+        - file.inFolder("X/Template/Content")
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - formula.✨
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 200
+  - type: cards
+    name: Journaling
+    filters:
+      and:
+        - file.inFolder("X/Template/Journaling")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 280
+  - type: cards
+    name: Snippet
+    filters:
+      and:
+        - file.inFolder("X/Template/Snippet")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 280

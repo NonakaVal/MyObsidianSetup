@@ -1,0 +1,54 @@
+[
+  {
+    "color": "255, 214, 0",
+    "char": "&"
+  },
+  {
+    "color": "255, 145, 0",
+    "char": "?"
+  },
+  {
+    "color": "255, 23, 68",
+    "char": "!"
+  },
+  {
+    "color": "124, 77, 255",
+    "char": "~"
+  },
+  {
+    "color": "0, 184, 212",
+    "char": "@"
+  },
+  {
+    "color": "0, 200, 83",
+    "char": "$"
+  },
+  {
+    "color": "158, 158, 158",
+    "char": "%"
+  },
+  {
+    "char": "rec",
+    "color": "34, 154, 247",
+    "icon": "lucide-mic-2",
+    "custom": true
+  },
+  {
+    "char": "sec",
+    "color": "255, 229, 61",
+    "icon": "lucide-toy-brick",
+    "custom": true
+  },
+  {
+    "char": "recv",
+    "color": "43, 247, 57",
+    "icon": "lucide-mic-2",
+    "custom": true
+  },
+  {
+    "char": "audio",
+    "color": "82, 182, 244",
+    "icon": "lucide-file-volume",
+    "custom": true
+  }
+]

@@ -1,0 +1,105 @@
+filters:
+  and:
+    - file.inFolder("Knowlegde/32 Concept")
+    - file.ext == "md"
+formulas:
+  Parent Folder: file.folder.split("/")[-1]
+  folder_list: |-
+    [
+      ["Knowlegde/33 Concept/Dev & TI",   "💻"],
+      ["Knowlegde/33 Concept/marketing",  "📣"],
+      ["Knowlegde/33 Concept",            "💡"],
+      ["/",                               "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  M.time: file.mtime.relative()
+properties:
+  file.name:
+    displayName: Concept
+  file.backlinks:
+    displayName: Inlinks
+  file.links:
+    displayName: Outlinks
+views:
+  - type: table
+    name: All
+    order:
+      - formula.✨
+      - file.size
+      - file.name
+      - file.tags
+      - subject
+      - file.backlinks
+      - file.links
+      - formula.M.time
+    sort:
+      - property: subject
+        direction: ASC
+      - property: file.size
+        direction: DESC
+      - property: subjetc
+        direction: ASC
+    columnSize:
+      formula.✨: 23
+      file.name: 574
+      note.subject: 991
+      formula.M.time: 160
+  - type: cards
+    name: Cards
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 180
+  - type: table
+    name: Dev & TI
+    filters:
+      and:
+        - file.inFolder("Knowlegde/33 Concept/Dev & TI")
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - formula.M.time
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+  - type: table
+    name: Marketing
+    filters:
+      and:
+        - file.inFolder("Knowlegde/33 Concept/marketing")
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - formula.M.time
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+  - type: table
+    name: Most Linked
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - file.links
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    limit: 30
+    columnSize:
+      formula.✨: 23
+      file.name: 280

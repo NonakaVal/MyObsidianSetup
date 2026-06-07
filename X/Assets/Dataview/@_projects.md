@@ -39,7 +39,7 @@ function diasRestantes(entrega) {
 //-----------------------------------------------------
 // COLETA E FILTRO
 //-----------------------------------------------------
-const pages = dv.pages('"Projects & Areas/Projects/Ongoing"')
+const pages = dv.pages('"06 MissionsProjects/Ongoing"')
     .where(p => p.type && p.type == "project")
     .sort(p => p.file.mtime, 'desc');
 

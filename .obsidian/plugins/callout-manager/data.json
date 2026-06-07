@@ -1,46 +1,7 @@
 {
   "callouts": {
-    "custom": [
-      "testcallout",
-      "connect"
-    ],
-    "settings": {
-      "testcallout": [
-        {
-          "changes": {
-            "color": "217, 161, 221"
-          }
-        }
-      ],
-      "connect": [
-        {
-          "changes": {
-            "color": "192, 233, 242"
-          }
-        }
-      ],
-      "todo": [
-        {
-          "changes": {
-            "color": "146, 146, 146"
-          }
-        }
-      ],
-      "target": [
-        {
-          "changes": {
-            "color": "166, 189, 197"
-          }
-        }
-      ],
-      "youtube": [
-        {
-          "changes": {
-            "color": "82, 139, 212"
-          }
-        }
-      ]
-    }
+    "custom": [],
+    "settings": {}
   },
   "calloutDetection": {
     "obsidian": true,

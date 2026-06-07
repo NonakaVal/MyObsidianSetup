@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.folder.contains("Memos")
+formulas:
+  M.time: file.mtime.relative()
+  Alerta: if(file.mtime >= date(now) - dur("1 hour"), "⚡ agora", if(file.mtime >= date(now) - dur("1 day"), "🟢 hoje", if(file.mtime >= date(now) - dur("7 days"), "🟡 semana", if(file.mtime >= date(now) - dur("30 days"), "🟠 mês", if(file.mtime >= date(now) - dur("90 days"), "🔴 3 meses", "💀 ancient")))))
+  M-time: file.mtime.relative()
+views:
+  - type: table
+    name: View 2
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - file.name
+      - formula.M-time
+    columnSize:
+      file.name: 466
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Memos/Open")
+    order:
+      - file.name
+      - formula.M.time
+      - formula.Alerta
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      formula.Alerta: 120
+      file.name: 260
+      formula.M.time: 160
+  - type: table
+    name: View
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - file.name
+      - formula.M-time
+    columnSize:
+      file.name: 466

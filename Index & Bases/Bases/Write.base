@@ -1,0 +1,147 @@
+filters:
+  and:
+    - file.inFolder("Write")
+    - file.ext == "md"
+formulas:
+  Parent Folder: file.folder.split("/")[-1]
+  folder_list: |-
+    [
+      ["Write/01 Drafts",                       "✏️"],
+      ["Write/05 Task & Boards",                "✅"],
+      ["Write/03 Concepts",                     "💡"],
+      ["Write/06 Thinking",                     "🧩"],
+      ["Write/04 References/03.3 Inspirations", "✨"],
+      ["Write/04 References/03.1 Researches",   "🔬"],
+      ["Write/04 References",                   "📎"],
+      ["Write",                                 "✍️"],
+      ["/",                                     "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  M.time: file.mtime.relative()
+  C.Time: file.ctime.relative()
+properties:
+  file.name:
+    displayName: Note
+  file.backlinks:
+    displayName: Inlinks
+  file.links:
+    displayName: Outlinks
+views:
+  - type: table
+    name: All
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - status
+      - file.backlinks
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+      formula.M.time: 160
+  - type: table
+    name: Drafts
+    filters:
+      and:
+        - file.inFolder("Write/01 Drafts")
+    order:
+      - formula.✨
+      - file.name
+      - status
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+      formula.M.time: 160
+  - type: table
+    name: Thinking
+    filters:
+      and:
+        - file.inFolder("Write/06 Thinking")
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - file.links
+      - formula.M.time
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+  - type: table
+    name: Concepts
+    filters:
+      and:
+        - file.inFolder("Write/03 Concepts")
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - formula.M.time
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+  - type: table
+    name: References
+    filters:
+      and:
+        - file.inFolder("Write/04 References")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+  - type: table
+    name: Tasks & Boards
+    filters:
+      and:
+        - file.inFolder("Write/05 Task & Boards")
+    order:
+      - formula.✨
+      - file.name
+      - status
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 280
+  - type: table
+    name: Most Linked
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - file.links
+      - file.folder
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    limit: 30
+    columnSize:
+      formula.✨: 23
+      file.name: 280

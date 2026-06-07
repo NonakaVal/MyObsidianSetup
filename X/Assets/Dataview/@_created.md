@@ -1,7 +1,5 @@
 ---
-created: "[[2025-09-19]]"
 tags:
-  - dataview
 ---
 
 ```dataviewjs

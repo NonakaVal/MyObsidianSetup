@@ -1,3 +1,7 @@
+---
+cssclasses:
+  - wide-page
+---
 ↪[Collection](Collection.md)
 
 # Image gallery

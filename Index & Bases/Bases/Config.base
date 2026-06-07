@@ -1,0 +1,112 @@
+filters:
+  or:
+    - file.inFolder("X")
+formulas:
+  Parent Folder: file.folder.split("/")[-1]
+  folder_list: |-
+    [
+      ["X/Scripts/file_tools",    "📁"],
+      ["X/Scripts/shell_scripts", "🖥️"],
+      ["X/Scripts/index_notes",   "📑"],
+      ["X/Scripts/obsidian_tools","⚙️"],
+      ["X/Scripts/gallery_tools", "🖼️"],
+      ["X/Scripts/manga_reader",  "📖"],
+      ["X/Scripts/audio_tools",   "🎵"],
+      ["X/Scripts",               "⚙️"],
+      ["X/Assets",                "🖼️"],
+      ["03 Config",               "🔧"],
+      ["04 Workflow",             "🔄"],
+      ["05 Toolbox",              "🧰"],
+      ["/",                       "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  M.time: file.mtime.relative()
+properties:
+  file.name:
+    displayName: File
+views:
+  - type: table
+    name: All
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+      formula.M.time: 160
+  - type: table
+    name: Scripts
+    filters:
+      or:
+        - file.inFolder("X/Scripts")
+        - file.inFolder("03 Config")
+        - '!file.inFolder("X/Scripts/bin")'
+        - '!file.inFolder("X/Scripts/audio_tools/__pycache__")'
+        - file.ext == "py"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - file.ext
+      - formula.M.time
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+  - type: table
+    name: Config
+    filters:
+      and:
+        - file.inFolder("03 Config")
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+  - type: table
+    name: Workflow
+    filters:
+      and:
+        - file.inFolder("04 Workflow")
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+  - type: table
+    name: Toolbox
+    filters:
+      and:
+        - file.inFolder("05 Toolbox")
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300

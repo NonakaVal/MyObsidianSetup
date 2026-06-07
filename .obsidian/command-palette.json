@@ -1,16 +1,8 @@
 {
   "pinned": [
     "obsidian-shellcommands:shell-command-8h4kfwmc31",
-    "obsidian42-brat:disablePlugin",
-    "obsidian42-brat:enablePlugin",
-    "graph:open",
-    "workspace:copy-path",
-    "obsidian-hotkeys-for-specific-files:🏠 Homepage.md",
-    "workspaces:load",
-    "tasknotes:open-tasks-view",
-    "quickadd:choice:61fae8a4-7682-4c0b-b76d-2fe4973abead",
-    "quickadd:choice:3edf5ca1-598e-42e8-beec-fe2714a9a1f9",
-    "templater-obsidian:insert-templater",
-    "obsidian-shellcommands:shell-command-2ou9vpqwsz"
+    "obsidian-shellcommands:shell-command-2ou9vpqwsz",
+    "obsidian-shellcommands:shell-command-397fb0ugog",
+    "obsidian-shellcommands:shell-command-th2pu7spcw"
   ]
 }

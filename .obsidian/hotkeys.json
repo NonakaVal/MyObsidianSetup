@@ -1,4 +1,13 @@
 {
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
   "obsidian-full-calendar:full-calendar-open": [
     {
       "modifiers": [
@@ -16,7 +25,6 @@
       "key": "N"
     }
   ],
-  "file-explorer:new-file": [],
   "quickadd:choice:a2828339-cd6f-4405-a42f-12ce397ef27f": [
     {
       "modifiers": [
@@ -254,14 +262,6 @@
       "key": "1"
     }
   ],
-  "bookmarks:bookmark-all-tabs": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2": [
     {
       "modifiers": [
@@ -332,15 +332,6 @@
         "Mod"
       ],
       "key": "P"
-    }
-  ],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "W"
     }
   ],
   "workspace:toggle-pin": [
@@ -479,15 +470,6 @@
       "key": "2"
     }
   ],
-  "workspaces:save": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
   "obsidian-hotkeys-for-specific-files:60 System/63 Scripts/onefile_export.py-new-tab": [
     {
       "modifiers": [
@@ -566,27 +548,11 @@
       "key": "1"
     }
   ],
-  "pomodoro-timer:toggle-timer-panel": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "P"
-    }
-  ],
   "file-explorer:open": [
     {
       "modifiers": [
         "Mod",
         "Shift"
-      ],
-      "key": "P"
-    }
-  ],
-  "tasknotes:open-pomodoro-view": [
-    {
-      "modifiers": [
-        "Alt"
       ],
       "key": "P"
     }
@@ -606,6 +572,15 @@
         "Shift"
       ],
       "key": "1"
+    }
+  ],
+  "obsidian-checklist-plugin:show-checklist-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ],
   "tasknotes:create-new-task": [
@@ -691,14 +666,6 @@
       "key": "A"
     }
   ],
-  "obsidian-hotkeys-for-specific-files:🏠.md-new-tab": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
-    }
-  ],
   "tasknotes:open-kanban-view": [
     {
       "modifiers": [
@@ -706,23 +673,6 @@
         "Shift"
       ],
       "key": "K"
-    }
-  ],
-  "obsidian-shellcommands:re-execute-from-command-palette": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "`"
-    }
-  ],
-  "obsidian-shellcommands:shell-command-awwutwnnpx": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "`"
     }
   ],
   "obsidian-hotkeys-for-specific-files:X/Scripts/organizacao_obsidian/Similar-Search.py-new-tab": [
@@ -734,37 +684,56 @@
       "key": "2"
     }
   ],
-  "omnisearch:show-modal": [
+  "workspace:close-others": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod",
+        "Shift"
       ],
-      "key": "T"
+      "key": "W"
     }
   ],
-  "obsidian-shellcommands:shell-command-nbr3ljuauo": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
-  ],
-  "obsidian-hotkeys-for-specific-files:🏠 Homepage.md-new-tab": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
-    }
-  ],
-  "tasknotes:refresh-cache": [
+  "periodic-notes:open-weekly-note": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": ";"
+      "key": "W"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "quickadd:choice:b1977e4d-91f7-4e1c-b224-bb11bcaaae4e": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
     }
   ],
   "theme:switch": [
@@ -776,22 +745,57 @@
       "key": "M"
     }
   ],
-  "tasknotes:open-advanced-calendar-view": [
+  "obsidian42-brat:disablePlugin": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Alt"
       ],
       "key": "B"
     }
   ],
-  "obsidian-shellcommands:shell-command-rcr1fki1de": [
+  "obsidian42-brat:enablePlugin": [
     {
       "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "quickadd:choice:27093b66-51a0-4a0c-909d-73bc9c102304": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "pomodoro-timer:toggle-timer-panel": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:X/Scripts/Shellcommand/transcription.py-new-tab": [
+    {
+      "modifiers": [
+        "Alt",
         "Mod",
         "Shift"
       ],
-      "key": "G"
+      "key": "2"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:X/Scripts/Shellcommand/list-files.py-new-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
     }
   ],
   "obsidian-git:open-git-view": [
@@ -803,22 +807,125 @@
       "key": "G"
     }
   ],
-  "periodic-notes:open-daily-note": [
+  "gridexplorer:open-explorer-view": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:Notes/Index & Bases/Main-Board.md-new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:Index & Bases/Main-Board.md-new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-aq3a197cgq": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "`"
+    }
+  ],
+  "workspaces:save": [
     {
       "modifiers": [
         "Mod",
         "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-awwutwnnpx": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "tasknotes:open-pomodoro-view": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "templater-obsidian:X/Template/TemplaterScripts/S-test.md": [
+    {
+      "modifiers": [
+        "Alt"
       ],
       "key": "D"
     }
   ],
-  "calendar:open-weekly-note": [
+  "templater-obsidian:X/Template/TemplaterScripts/S-DailyloG.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "templater-obsidian:X/Template/Snippet/S-DailyloG.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "heycalmdown-navigate-cursor-history:cursor-position-backward": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-7ez4k0u1fx": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-31i7p465vs": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "W"
+      "key": "R"
+    }
+  ],
+  "opencode-obsidian:toggle-opencode-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
     }
   ]
 }

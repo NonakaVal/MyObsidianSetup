@@ -2,13 +2,9 @@
   "files": [
     {
       "useMoment": false,
-      "file": "🏠.md"
-    },
-    {
-      "useMoment": false,
-      "file": "X/Scripts/Shellcommand/list-files.py"
+      "file": "+/Code.base"
     }
   ],
-  "useExistingPane": true,
+  "useExistingPane": false,
   "useHoverEditor": false
 }

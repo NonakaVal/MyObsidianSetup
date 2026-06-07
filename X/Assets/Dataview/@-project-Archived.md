@@ -5,7 +5,7 @@
 let root = dv.el("div", "");
 
 // Caminho base
-const basePath = "Projects & Areas/Projects/Archives";
+const basePath = "06 MissionsProjects/Archives";
 
 // =============================
 // 🎛️ Controles de interface

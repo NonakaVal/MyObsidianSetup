@@ -1,28 +1,19 @@
 {
-  "showInlineTitle": false,
-  "readableLineLength": true,
-  "strictLineBreaks": false,
-  "showFrontmatter": false,
-  "foldHeading": true,
-  "foldIndent": true,
-  "showLineNumber": false,
-  "showIndentGuide": true,
-  "rightToLeft": false,
-  "smartIndentList": true,
-  "useTab": true,
-  "vimMode": false,
-  "promptDelete": true,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "+",
-  "attachmentFolderPath": "X/Media/Images",
-  "alwaysUpdateLinks": true,
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A4",
     "landscape": false,
-    "margin": "0",
+    "margin": "2",
     "downscalePercent": 100
   },
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
   "userIgnoreFilters": [
-    "ignore/"
-  ]
+    "06 Work/Obsidian Vaults/to-opencode/",
+    "01 Snippets/Repos/gsd/"
+  ],
+  "showLineNumber": false
 }

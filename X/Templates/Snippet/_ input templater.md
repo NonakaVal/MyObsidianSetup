@@ -1,1 +1,0 @@
-% tp.system.prompt("<% tp.system.prompt("Set the message")%>")%>

@@ -1,32 +1,30 @@
-# Prints
 
-![img](https://imgur.com/Mza385g.png)
+# MyObsidianSetup
 
-![imgur.com](https://imgur.com/rYgFQle.png)
+Breve referência do meu vault Obsidian com convenções, estrutura e uso.
 
-![imgur.com](https://imgur.com/avp6UP1.png)
-# Folder System
+## Imagens
 
-# Knowledge Management System
+![Print1](https://imgur.com/XJU0h23.png)
+![Print2](https://imgur.com/zkgLjiA.png)
+![Print3](https://imgur.com/cItdCT9.png)
 
-* **📂 +** — Where any note is created
-* **📂 00 Code** — 
-* **📂 01 Snippets** — Reusable code fragments, functions, and algorithms
-* **📂 03 Config** — Configuration files, settings, and environment setups
-* **📂 04 Workflow** — 
-* **📂 05 Toolbox** — Utilities, tools, and software resources
-* **📂 06 Writing** — book writing idea
-* **📂 07 Ideas** — 
-* **📂 08 Ongoing** — Active projects and work-in-progress items
-* **📂 Calendar & Review** — Schedules, planning, and retrospective analyses
-* **📂 Index & Bases** — 
-* **📂 Knowledge** — 
-* **📂 Memos** — 
-* **📂 Music & Games & Movies** — 
-* **📂 TaskNotes** — Action items, to-do lists, and task management
-* **📂 X** — System Files
+## Estrutura principal (resumo)
 
-* **📄 README** — System documentation and usage guide
+- `+` — Área de criação e captura rápida
+- `01 Snippets` — Trechos e comandos reutilizáveis
+- `02 Code` — Código e projetos
+- `03 Configs` — Arquivos de configuração e dotfiles
+- `04 Workflow` — Fluxos e procedimentos
+- `05 Toolbox` — Ferramentas e utilitários
+- `07 Projects` / `08 Work` — Projetos e trabalhos em andamento
+- `Calendar & Review` — Notas diárias e revisão
+- `Index & Bases` / `Knowledge` — Índices, bases de conhecimento e referências
+- `Write` — Rascunhos, conceitos e conteúdos prontos
 
----
+## Convenções rápidas
+
+- Use nomes claros e datados para notas diárias (`YYYY-MM-DD.md`).
+- Coloque snippets em subpastas por linguagem em `01 Snippets`.
+- Versione alterações maiores como commits com mensagem curta e descritiva.
 

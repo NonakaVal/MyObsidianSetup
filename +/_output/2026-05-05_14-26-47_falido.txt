@@ -1,0 +1,25 @@
+<think>
+O usuário quer limpar pacotes no sistema, especificamente do apt e flatpak. Vou fornecer comandos diretos para isso.
+
+</think>
+
+## APT
+
+```bash
+sudo apt autoremove
+sudo apt autoclean
+sudo apt clean
+```
+
+## Flatpak
+
+```bash
+flatpak remove --unused
+flatpak cache
+```
+
+Para ver o que será removido antes:
+
+```bash
+flatpak remove --unused --dry-run
+```

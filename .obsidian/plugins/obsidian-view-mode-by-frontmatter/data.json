@@ -4,41 +4,25 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "Calendar & Review/Monthly Notes",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "X/Templates",
+      "folder": "X/Template",
       "viewMode": "obsidianEditingMode: source"
     },
     {
-      "folder": "Calendar & Review/Weekly Notes",
+      "folder": "Index & Bases",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "X/Assets/Dataview",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "+",
+      "viewMode": "default"
     }
   ],
   "files": [
     {
-      "filePattern": "🏠",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "Plano de Geral",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_ Audio Recording Buttons",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
       "filePattern": "@-templates",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_index_notas",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_Books",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

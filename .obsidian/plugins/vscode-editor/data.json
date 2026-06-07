@@ -12,7 +12,11 @@
     "lua",
     "php",
     "cs",
-    "txt"
+    "txt",
+    "html",
+    " txt",
+    " json",
+    " kdenlive"
   ],
   "folding": true,
   "lineNumbers": true,

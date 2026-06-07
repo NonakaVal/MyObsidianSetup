@@ -1,0 +1,467 @@
+formulas:
+  PlaceholderNotes: file.links.filter(!value.asFile().isTruthy())
+  Year Modified: created.year
+  Created (Month): created.month
+  "Outlink #": file.links.length
+  Links: file.backlinks.length
+  Parent Folder: file.folder.split("/")[-1]
+  folder_list: |-
+    [
+      ["Calendar & Review/Daily Notes",          "📅"],
+      ["Calendar & Review/Weekly Notes",         "📆"],
+      ["Calendar & Review/Monthly Notes",        "🗓️"],
+      ["Calendar & Review/Journaling",           "📓"],
+      ["Calendar & Review",                      "📅"],
+      ["Knowlegde/31 Dots",                      "•"],
+      ["Knowlegde/33 Concept",                   "💡"],
+      ["Knowlegde/37 Music & Games & Movies",    "🎬"],
+      ["Knowlegde/36 Books",                     "📚"],
+      ["Knowlegde/35 Recources",                 "🗂️"],
+      ["Knowlegde",                              "🧠"],
+      ["Index & Bases/Maps & Boards",            "🗺️"],
+      ["Index & Bases/Bases",                    "🏰"],
+      ["Index & Bases",                          "🌐"],
+      ["Write/01 Drafts",                        "✏️"],
+      ["Write/05 Task & Boards",                 "✅"],
+      ["Write/03 Concepts",                      "💡"],
+      ["Write/06 Thinking",                      "🧩"],
+      ["Write/04 References",                    "📎"],
+      ["Write",                                  "✍️"],
+      ["06 Work/Collectors Guardian",            "🛡️"],
+      ["06 Work",                                "💼"],
+      ["08 Focus Areas/Autoconhecimento",        "🪞"],
+      ["08 Focus Areas/Youtube-Videos",          "▶️"],
+      ["08 Focus Areas",                         "🎯"],
+      ["07 AI",                                  "🦾"],
+      ["Memos/Open",                             "📬"],
+      ["Memos/Archived",                         "📭"],
+      ["Memos",                                  "📝"],
+      ["01 Snippets",                            "✂️"],
+      ["X/Template/Content",                     "📝"],
+      ["X/Template/Format",                      "🎨"],
+      ["X/Template/Journaling",                  "📓"],
+      ["X/Template/Snippet",                     "✂️"],
+      ["X/Template",                             "📋"],
+      ["X/Assets",                               "🖼️"],
+      ["X/Scripts",                              "⚙️"],
+      ["X/Hubs",                                 "🗺️"],
+      ["X",                                      "𝙓"],
+      ["03 Config",                              "🔧"],
+      ["04 Workflow",                            "🔄"],
+      ["05 Toolbox",                             "🧰"],
+      ["00 Code",                                "💻"],
+      ["z-ignore",                               "💤"],
+      ["z-Media",                                "🌉"],
+      ["+",                                      "✨"],
+      ["/",                                      "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  Folder Group: if(formula.check_folders, formula.check_folders[0], "")
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  Inlinks Sum: file.inlinks.length
+  Backlinks Sum: file.backlinks.length
+  Outlinks Sum: file.links.length
+  mtime: file.mtime.relative()
+properties:
+  formula.Year Modified:
+    displayName: Created (Year)
+  file.links:
+    displayName: Outlinks
+  formula.Links:
+    displayName: "Inlink #"
+  file.backlinks:
+    displayName: Inlinks
+  formula.PlaceholderNotes:
+    displayName: Placeholder notes
+views:
+  - type: table
+    name: +
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.inFolder("+")
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - formula.✨
+      - file.name
+      - file.folder
+      - file.tags
+      - formula.mtime
+      - file.backlinks
+      - file.links
+      - file.embeds
+    sort:
+      - property: file.tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: formula.mtime
+        direction: DESC
+      - property: file.folder
+        direction: ASC
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      file.name: 427
+      file.folder: 421
+      formula.mtime: 155
+      file.tags: 135
+      note.dateCreated: 173
+      note.subject: 136
+  - type: table
+    name: No Outlinks (Calendar & Review)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.ext == "md"
+        - file.inFolder("Calendar & Review")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+      note.up: 154
+      note.related: 146
+      note.collections: 199
+  - type: table
+    name: No Outlinks (Knowlegde)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.ext == "md"
+        - file.inFolder("Knowlegde")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+      note.up: 154
+      note.related: 146
+      note.collections: 199
+  - type: table
+    name: No Outlinks (Write)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.ext == "md"
+        - file.inFolder("Write")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+      note.up: 154
+      note.related: 146
+      note.collections: 199
+  - type: table
+    name: No Outlinks (06 Work)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.ext == "md"
+        - file.inFolder("06 Work")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+      note.up: 154
+      note.related: 146
+      note.collections: 199
+  - type: table
+    name: No Outlinks (Index & Bases)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.ext == "md"
+        - file.inFolder("Index & Bases")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+      note.up: 154
+      note.related: 146
+      note.collections: 199
+  - type: table
+    name: ALL No Outlinks
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.ext == "md"
+        - '!file.inFolder("z-ignore")'
+        - '!file.inFolder("z-Media")'
+        - '!file.inFolder("X")'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.Inlinks Sum
+      - formula.Links
+      - file.folder
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: created
+        direction: DESC
+      - property: modified
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 445
+      formula.Inlinks Sum: 266
+      formula.Outlinks Sum: 286
+  - type: table
+    name: "-"
+  - type: table
+    name: Placeholder/Uncreated notes
+    filters:
+      and:
+        - formula.PlaceholderNotes
+    order:
+      - file.name
+      - formula.PlaceholderNotes
+    sort:
+      - property: formula.PlaceholderNotes
+        direction: ASC
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: --
+  - type: table
+    name: Orphans (+)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.folder.contains("+")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+  - type: table
+    name: Orphans (Calendar & Review)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.inFolder("Calendar & Review")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+  - type: table
+    name: Orphans (Knowlegde)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.inFolder("Knowlegde")
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - formula.✨
+      - file.name
+      - file.folder
+      - file.tags
+      - formula.mtime
+      - file.backlinks
+      - file.links
+      - file.embeds
+    sort:
+      - property: file.tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: formula.mtime
+        direction: DESC
+      - property: file.folder
+        direction: ASC
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      file.name: 427
+      file.folder: 421
+      formula.mtime: 155
+      file.tags: 135
+      note.dateCreated: 173
+      note.subject: 136
+  - type: table
+    name: Orphans (Write)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.inFolder("Write")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+  - type: table
+    name: Orphans (06 Work)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.inFolder("06 Work")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+  - type: table
+    name: Orphans (Index & Bases)
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - file.inFolder("Index & Bases")
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+    sort:
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+  - type: table
+    name: ALL Orphans
+    filters:
+      and:
+        - file.links.isEmpty()
+        - file.backlinks.isEmpty()
+        - '!file.inFolder("z-ignore")'
+        - '!file.inFolder("z-Media")'
+        - '!file.inFolder("X")'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - created
+      - collections
+      - up
+      - related
+      - file.backlinks
+      - formula.Backlinks Sum
+    sort:
+      - property: formula.Backlinks Sum
+        direction: DESC
+      - property: file.backlinks
+        direction: DESC
+      - property: created
+        direction: DESC
+    limit: 777
+    columnSize:
+      formula.✨: 23
+      note.created: 137
+  - type: table
+    name: ---
