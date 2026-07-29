@@ -1,5 +1,4 @@
 ---
-
 cssclasses:
   - dashboard
 subject:
@@ -11,7 +10,7 @@ subject:
 tags:
 banner: https://imgur.com/0AO9YsW.png
 kanban-plugin: board
-
+title: TEC
 ---
 
 ## 🖥️ AOC (Arquitetura e Organização de Computadores)

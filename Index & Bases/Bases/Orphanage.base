@@ -253,6 +253,8 @@ views:
       - formula.Links
       - file.folder
     sort:
+      - property: formula.Links
+        direction: ASC
       - property: file.name
         direction: DESC
       - property: created

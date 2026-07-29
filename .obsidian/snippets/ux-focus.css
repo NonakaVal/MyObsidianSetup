@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Obsidian Workspace — Focus Modes (simples, sem animações)
+   + e X sempre visíveis. Ciclo: ALL · G1 · G2 · G3
+   NÃO edite as linhas FOCUS-MODE e FOCUS-HIDE manualmente.
+   ========================================================================== */
+
+/* FOCUS-MODE: G2 */
+
+div[data-path="z-Media"] { display: none !important; }
+/* FOCUS-HIDE-END */
+
+/* --- SEMPRE OCULTAR --- */
+div[data-path^="z-"] {
+  display: none !important;
+}
+/* FOCUS-ZALL-START *//* FOCUS-ZALL-END */
+
+/* --- SEPARADORES --- */
+div[data-path="+"] {
+  border-bottom: 1px solid rgba(166, 172, 181, 0.6);
+  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+div[data-path="Daily Notes"] {
+  border-top: 1px solid rgba(166, 172, 181, 0.6);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+div[data-path="Write"] {
+  border-bottom: 1px solid rgba(166, 172, 181, 0.6);
+  padding-top: 1rem;
+  
+}
+
+
+div[data-path="X"] {
+  border-top: 1px solid rgba(166, 172, 181, 0.6);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid rgba(166, 172, 181, 0.6);
+}
+
+/* --- BARRAS LATERAIS COLORIDAS --- */
+div[data-path="+"]                 { border-left: 2px solid #90a4ae; padding-left: 6px; }
+
+div[data-path="Daily Notes"] { border-left: 2px solid #7986cb; padding-left: 6px; }
+div[data-path="Index & Bases"]     { border-left: 2px solid #7986cb; padding-left: 6px; }
+div[data-path="Knowlegde"]         { border-left: 2px solid #7789e4; padding-left: 6px; }
+div[data-path="Memos"]             { border-left: 2px solid #7986cb; padding-left: 6px; }
+div[data-path="Write"]             { border-left: 2px solid #7986cb; padding-left: 6px; }
+
+div[data-path="X"]                 { border-left: 2px solid #9e9e9e; padding-left: 6px; }
+div[data-path="z-Media"]           { border-left: 2px solid #546e7a; padding-left: 6px; }
+
+/* --- z- (visíveis apenas no modo ZALL) --- */
+div[data-path="z-ignore"] {
+  border-top: 1px solid rgba(166, 172, 181, 0.6);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+div[data-path="z-ignore"]          { border-left: 2px solid #546e7a; padding-left: 6px; }
+div[data-path="z-Media"]           { border-left: 2px solid #546e7a; padding-left: 6px; }

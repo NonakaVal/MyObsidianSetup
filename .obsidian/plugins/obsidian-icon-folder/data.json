@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiLayoutList",
+      "LiMapPin",
+      "LiMap",
+      "LiPencil",
+      "LiBrainCircuit"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +33,10 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Daily Notes": "LiCalendar",
+  "Memos": "LiArchiveRestore",
+  "Knowlegde": "LiBrainCircuit",
+  "Write": "LiPencil",
+  "Index & Bases": "LiLayoutList"
 }

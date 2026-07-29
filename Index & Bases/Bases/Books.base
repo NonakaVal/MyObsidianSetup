@@ -1,7 +1,6 @@
 filters:
   and:
-    - file.inFolder("Knowlegde/34 Books")
-    - file.ext == "md"
+    - file.inFolder("Knowlegde/03 Books")
 formulas:
   folder_list: |-
     [
@@ -102,3 +101,6 @@ views:
     columnSize:
       formula.✨: 23
       file.name: 260
+  - type: cards
+    name: View
+    cardSize: 320

@@ -1,5 +1,5 @@
 ---
-area:
+related:
   - "[[Market Concepts]]"
 summary: Board Kanban com todos os conceitos de marketing do vault
 tags:
@@ -12,7 +12,8 @@ subject:
   - "[[hub-copy]]"
 cssclasses:
   - dashboard
-banner: https://imgur.com/0AO9YsW.png
+banner: https://imgur.com/LiQZ5kk.png
+title: MKT
 ---
 
 ## 📢 Outbound & Prospecção
@@ -87,7 +88,7 @@ banner: https://imgur.com/0AO9YsW.png
 
 - [ ] ##### ▸ Definição de Público
 	- [[v4.4.persona.1|Persona]]
-	- [[grid de publico|Grid de Público]]
+	- [[z-ignore/Collectors Guardian/+/collectors-notes/grid de publico|Grid de Público]]
 - [ ] ##### ▸ Frameworks & Experiência
 	- [[v4.7.frameworks.ppa|Frameworks PPA]]
 	- [[v4.9.customer.experience|Customer Experience]]
@@ -99,26 +100,26 @@ banner: https://imgur.com/0AO9YsW.png
 	- [[concept-gestao.time.vendas|Gestão de Time de Vendas]]
 	- [[v4.15.formacao.time.vendas|Formação de Time de Vendas]]
 - [ ] ##### ▸ Operações & Logística
-	- [[1. Gestão de Produtos|Gestão de Produtos]]
-	- [[2. Ferramentas para Gestão|Ferramentas para Gestão]]
-	- [[3. Organização e Rotina Operacional|Rotina Operacional]]
-	- [[4. Logística e Operações|Logística e Operações]]
+	- [[z-ignore/Collectors Guardian/Documents/1. Gestão de Produtos|Gestão de Produtos]]
+	- [[z-ignore/Collectors Guardian/Documents/2. Ferramentas para Gestão|Ferramentas para Gestão]]
+	- [[z-ignore/Collectors Guardian/Documents/3. Organização e Rotina Operacional|Rotina Operacional]]
+	- [[z-ignore/Collectors Guardian/Documents/4. Logística e Operações|Logística e Operações]]
 - [ ] ##### ▸ Tráfego & Criativos
 	- [[concept-mkt-criativos-facebook-ads|Criativos Facebook Ads]]
 	- [[pontos-de-atencao-anti-bloqueios|Anti-Bloqueios]]
 - [ ] ##### ▸ Planejamento
-	- [[Comportamento de Compra|Comportamento de Compra]]
-	- [[planejamento-geral-arena-collectors-1|Planejamento Arena]]
+	- [[z-ignore/Collectors Guardian/+/collectors-notes/Comportamento de Compra|Comportamento de Compra]]
+	- [[z-ignore/Collectors Guardian/Roteiros/planejamento-geral-arena-collectors-1|Planejamento Arena]]
 
 
 ## 📂 Arquivos & Referências
 
 - [ ] ##### ▸ Collectors Guardian
-	- [[Clientes|Clientes]]
-	- [[Características Chave do Cliente Ideal|Características do Cliente Ideal]]
-	- [[2. Atendimento ao Cliente|Atendimento ao Cliente]]
+	- [[z-ignore/Collectors Guardian/+/collectors-notes/Clientes|Clientes]]
+	- [[z-ignore/Collectors Guardian/+/collectors-notes/Características Chave do Cliente Ideal|Características do Cliente Ideal]]
+	- [[z-ignore/Collectors Guardian/Documents/2. Atendimento ao Cliente|Atendimento ao Cliente]]
 	- [[5. Boas-vindas ao Club Collector's Guardian|Boas-vindas Collector's Guardian]]
-	- [[templates-mensagens-collectorguardian|Templates de Mensagens]]
+	- [[z-ignore/Collectors Guardian/+/collectors-notes/templates-mensagens-collectorguardian|Templates de Mensagens]]
 - [ ] ##### ▸ Recursos & Materiais
 	- [[res-checklist-produto-e-objecoes|Checklist Produto e Objeções]]
 	- [[ebook-carlos|Ebook Carlos]]

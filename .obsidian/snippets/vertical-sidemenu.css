@@ -1,0 +1,78 @@
+/* ─────────────────────────────────────────────
+   Obsidian — File Explorer actions retrátil
+   Oculta os botões: nova nota, nova pasta, sort,
+   auto reveal e expand all.
+   Expande ao passar o mouse.
+───────────────────────────────────────────── */
+
+.workspace-leaf-content[data-type="file-explorer"] .nav-header {
+  min-height: 7px !important;
+  height: 7px !important;
+  padding: 0 !important;
+  margin: 0 8px 4px 8px !important;
+  overflow: hidden !important;
+  opacity: 0.45;
+  transition:
+    height 140ms ease,
+    min-height 140ms ease,
+    opacity 140ms ease,
+    padding 140ms ease;
+}
+
+/* Pequena “alça” visual */
+.workspace-leaf-content[data-type="file-explorer"] .nav-header::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 3px;
+  margin: 2px auto 0 auto;
+  border-radius: 999px;
+  background: var(--text-faint);
+  opacity: 0.65;
+}
+
+/* Botões escondidos */
+.workspace-leaf-content[data-type="file-explorer"] .nav-buttons-container {
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    opacity 140ms ease,
+    transform 140ms ease,
+    max-height 140ms ease;
+}
+
+/* Expande ao passar o mouse ou focar */
+.workspace-leaf-content[data-type="file-explorer"] .nav-header:hover,
+.workspace-leaf-content[data-type="file-explorer"] .nav-header:focus-within {
+  min-height: 34px !important;
+  height: 34px !important;
+  padding: 3px 4px !important;
+  opacity: 1;
+}
+
+/* Remove a alça quando aberto */
+.workspace-leaf-content[data-type="file-explorer"] .nav-header:hover::before,
+.workspace-leaf-content[data-type="file-explorer"] .nav-header:focus-within::before {
+  display: none;
+}
+
+/* Mostra os botões */
+.workspace-leaf-content[data-type="file-explorer"] .nav-header:hover .nav-buttons-container,
+.workspace-leaf-content[data-type="file-explorer"] .nav-header:focus-within .nav-buttons-container {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  max-height: 34px;
+}
+
+/* Ícones um pouco mais compactos */
+.workspace-leaf-content[data-type="file-explorer"] .nav-action-button {
+  width: 26px !important;
+  height: 26px !important;
+  padding: 4px !important;
+}
+
+

@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Calendar & Review")
+    - file.inFolder("Daily Notes")
     - file.ext == "md"
 formulas:
   folder_list: |-
@@ -17,43 +17,55 @@ formulas:
   M.time: file.mtime.relative()
   C.Time: file.ctime.relative()
   Week: file.ctime.weekYear
+  "": ""
+  backlinkslength: file.backlinks.length
+  Sem título: file.links.length
+  Untitled: ""
 properties:
   file.name:
     displayName: Note
+  formula.Sem título:
+    displayName: linkslength
 views:
-  - type: table
-    name: All
-    groupBy:
-      property: file.folder
-      direction: DESC
-    order:
-      - formula.✨
-      - file.name
-      - created
-      - formula.M.time
-    sort:
-      - property: created
-        direction: DESC
-    columnSize:
-      formula.✨: 23
-      file.name: 220
-      formula.M.time: 160
   - type: table
     name: Daily Notes
     filters:
       and:
-        - file.inFolder("Calendar & Review/Daily Notes")
+        - file.inFolder("Daily Notes")
     order:
       - formula.✨
       - file.name
+      - daily-mood
+      - formula.backlinkslength
+      - formula.Sem título
       - formula.M.time
+      - file.size
     sort:
+      - property: file.name
+        direction: DESC
+      - property: file.size
+        direction: DESC
+      - property: formula.Sem título
+        direction: DESC
+      - property: formula.M.time
+        direction: DESC
+      - property: formula.backlinkslength
+        direction: DESC
+      - property: formula.
+        direction: ASC
+      - property: daily-mood
+        direction: ASC
+      - property: file.backlinks
+        direction: DESC
       - property: created
         direction: ASC
     limit: 90
     columnSize:
       formula.✨: 23
       file.name: 180
+      note.daily-mood: 132
+      formula.backlinkslength: 201
+      formula.Sem título: 104
       formula.M.time: 160
   - type: table
     name: Weekly Notes

@@ -24,11 +24,13 @@
   "max_visible_lines_in_shell_command_fields": false,
   "shell_commands": [
     {
-      "id": "8h4kfwmc31",
+      "id": "c33cawqt9j",
       "platform_specific_commands": {
         "default": "code  --goto {{vault_path}}"
       },
-      "shells": {},
+      "shells": {
+        "linux": "/bin/bash"
+      },
       "alias": ">_ Open vault in vs code",
       "icon": null,
       "confirm_execution": false,
@@ -60,7 +62,7 @@
       "variable_default_values": {}
     },
     {
-      "id": "gmvyiklnz6",
+      "id": "y8o6cn2j33",
       "platform_specific_commands": {
         "default": "code   --goto {{vault_path}}\\/.obsidian\\/snippets"
       },
@@ -96,12 +98,12 @@
       "variable_default_values": {}
     },
     {
-      "id": "d5midktrex",
+      "id": "qz7vml58so",
       "platform_specific_commands": {
-        "default": "python3 \"/home/val/Documentos/Notes/X/Scripts/file_tools/list_files.py\""
+        "default": ""
       },
       "shells": {},
-      "alias": ">_  shell list files",
+      "alias": "",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -110,7 +112,7 @@
       },
       "output_handlers": {
         "stdout": {
-          "handler": "clipboard",
+          "handler": "ignore",
           "convert_ansi_code": true
         },
         "stderr": {
@@ -139,6 +141,24 @@
     "obsidian_uri": true,
     "output_assignment": true
   },
-  "custom_shells": [],
+  "custom_shells": [
+    {
+      "id": "9y0l6gf3qj",
+      "name": "",
+      "description": "",
+      "binary_path": "",
+      "shell_arguments": [
+        "-c",
+        "{{!shell_command_content}}"
+      ],
+      "host_platform": "linux",
+      "host_platform_configurations": {},
+      "shell_platform": null,
+      "escaper": "UnixShell",
+      "path_translator": null,
+      "shell_command_wrapper": null,
+      "shell_command_test": null
+    }
+  ],
   "output_wrappers": []
 }

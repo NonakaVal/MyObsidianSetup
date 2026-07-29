@@ -1,41 +1,19 @@
 {
   "main": {
-    "id": "ab14a04a9f2a87b7",
+    "id": "19aeabd00ba2f454",
     "type": "split",
     "children": [
       {
-        "id": "d16792fe7779e796",
+        "id": "8463dd54f3a2ac50",
         "type": "tabs",
         "children": [
           {
-            "id": "222078a5471f6e19",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Nova aba"
-            }
-          },
-          {
-            "id": "61e91ea6d7a023e8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
-            "id": "7d26fedf4ba51755",
+            "id": "5482a560b2eb4080",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "INDEX.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -50,25 +28,24 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "INDEX"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9744652ee2a62c91",
+    "id": "ebb936bc022ced90",
     "type": "split",
     "children": [
       {
-        "id": "b3cff5a2134729f6",
+        "id": "0254073145514ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "c4bf9727dc540e94",
+            "id": "71194f9f2abdd277",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,16 +54,16 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
-            "id": "53a2bd1729d79b05",
+            "id": "b8f21169b1c16867",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\":image]",
+                "query": "2026-05-22",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,11 +71,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
-            "id": "214f4755f92b96ce",
+            "id": "fa8e6207d4436e98",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -108,39 +85,145 @@
             }
           },
           {
-            "id": "2050bd583807549c",
+            "id": "8296e001c9d94628",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {},
               "icon": "clock",
-              "title": "Recent Files"
+              "title": "Recent files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 530.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
-    "id": "6bb94bbe4841a0e7",
+    "id": "aa36e3c75244bb45",
     "type": "split",
     "children": [
       {
-        "id": "1afad4f052527720",
+        "id": "48b593b66fe17886",
         "type": "tabs",
-        "dimension": 45.63953488372093,
         "children": [
           {
-            "id": "44a4f9c800a95267",
+            "id": "f4ec2a6880597c61",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "366c98c1e33b8cc6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Index & Bases/board-market-concepts.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of board-market-concepts"
+            }
+          },
+          {
+            "id": "6c4de6bc2959ec64",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "INDEX.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for INDEX"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b98c4af6ca430e05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09e2f28fea16dc87",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "INDEX.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.7,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4444444444444444,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of INDEX"
+            }
+          },
+          {
+            "id": "df054c974a88ca06",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "584659f42fdaaf04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Index & Bases/board-market-concepts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from board-market-concepts"
+            }
+          },
+          {
+            "id": "fc33c3198f0194fe",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases/+.base",
+                "file": "Index & Bases/board-market-concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,40 +233,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for +"
+              "title": "Backlinks for board-market-concepts"
             }
           },
           {
-            "id": "6916855200b5046b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Index & Bases/Main-Board.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Main-Board"
-            }
-          },
-          {
-            "id": "8ea8eb610694615d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "75d9bef01d00c297",
+            "id": "ac5a9ab97eef26be",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -195,194 +249,85 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "ff30d87bb106f2b7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "819a166de01f364d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "4b02229fbe7c0c55",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Index & Bases/Main-Board.md"
-              },
-              "icon": "lucide-info",
-              "title": "Propriedades do arquivo Main-Board"
-            }
-          },
-          {
-            "id": "98ced5e584f23d1f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "0d3e5a0b6847b80e",
-            "type": "leaf",
-            "state": {
-              "type": "opencode-view",
-              "state": {},
-              "icon": "opencode-logo",
-              "title": "OpenCode"
-            }
-          }
-        ],
-        "currentTab": 8
-      },
-      {
-        "id": "09578198c9bb9d94",
-        "type": "tabs",
-        "dimension": 54.360465116279066,
-        "children": [
-          {
-            "id": "a2564b582a324815",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "README.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": -1.6,
-                  "nodeSizeMultiplier": 1.5546875,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.359375,
-                  "repelStrength": 5.9375,
-                  "linkStrength": 0.875,
-                  "linkDistance": 427,
-                  "scale": 0.6666666666666666,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de README"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 435.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "audio-recorder:Começar/parar a gravação de áudio": false,
-      "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "bases:Criar nova base": false,
-      "obsidian-kanban:Criar um novo quadro": false,
-      "opencode-obsidian:OpenCode": false,
-      "obsidian42-brat:BRAT": true,
-      "pomodoro-timer:Toggle timer panel": false,
-      "widgets:Add widget": true,
-      "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-shellcommands:Shell commands: Custom variables": true,
-      "vscode-editor:Create Code File": true
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "7d26fedf4ba51755",
+  "active": "f4ec2a6880597c61",
   "lastOpenFiles": [
-    "X/Captura_de_tela_20260607_150441.png",
-    "Calendar & Review/Daily Notes/2026-06-07.md",
-    "X/Captura_de_tela_20260607_150347.png",
+    "Daily Notes/2026-07-29.md",
+    "Index & Bases/Bases/Calendar.base",
+    "Daily Notes/2026-06-01.md",
+    "Daily Notes/2026-06-06.md",
+    "Daily Notes/2026-06-07.md",
+    "Daily Notes/2023-05-21.md",
+    "Daily Notes/2023-05-23.md",
+    "Daily Notes/2026-05-31.md",
     "README.md",
-    "X/Captura_de_tela_20260607_150204.png",
-    "Sem título.md",
-    "Sem título.base",
-    "X/Shell Commands/transcription.py",
-    "X/Shell Commands/show_folders.py",
-    "X/Shell Commands/set_templater_folder.py",
-    "X/Shell Commands/quick-transcriptor.py",
-    "X/Shell Commands/localserver.py",
-    "X/Shell Commands/git_push.py",
-    "X/Shell Commands/git_pull.py",
-    "X/Shell Commands/cycle_focus.py",
-    "X/Shell Commands/config.py",
-    "Write/05 Task & Boards/Kanban - Concepts.md",
-    "Memos/Open/Terminar lista de compra aniversário bb.md",
-    "Memos/Open/22.1 2025-10-08-harry.md",
-    "Memos/Open/Planejamento Aniversário bb.md",
-    "Memos/Archived/memo-escrever sobre braking the habit.md",
-    "Memos/Archived/responsabilidade-constancia-convivencia.md",
-    "Memos/Archived/2026-02-08-memo-curso-carlos.md",
-    "Memos/Archived/2025-12-23-memo-what-if.md",
-    "Memos/Archived/2025-11-26-memo-quotes.md",
-    "Memos/Archived/2025-10-25-memo-video-susane-ribeiro.md",
-    "Knowledge/35 Music & Games & Movies/2025-10-02-Lista dos meus filmes favoritos.md",
-    "Knowledge/35 Music & Games & Movies/2025-11-01-memo-house of gold - top.md",
-    "Knowledge/35 Music & Games & Movies/Clancy - Twenty One Pilots.md",
-    "Knowledge/35 Music & Games & Movies/HUMAN SADNESS LYRICS.md",
-    "Knowledge/35 Music & Games & Movies/just_music_lines.md",
-    "Knowledge/35 Music & Games & Movies/Les Failles - Pomme.md",
-    "Knowledge/35 Music & Games & Movies/Mulberry Street - Twenty One Pilots.md",
-    "Knowledge/35 Music & Games & Movies/reddit-nen-system.md",
-    "Knowledge/35 Music & Games & Movies/track-full-moon-lyrics.md",
-    "Knowledge/33 Recources/res-github-commit-message-convention.md",
-    "Knowledge/33 Recources/res-checklist-produto-e-objecoes.md",
-    "Knowledge/33 Recources/doc-vault-snippet-dataview.md",
+    "Index & Bases/Maps & Boards/board-computer-science.md",
+    "X/Media/wall_040.png",
+    "X/Media/just.gif",
+    "INDEX.md",
+    "X/Media/Captura_de_tela_20260607_150441.png",
+    "X/Media/Captura_de_tela_20260607_150347.png",
+    "Index & Bases/Bases/Media.base",
+    "X/hubs/hub-css.md",
+    "X/hubs/hub-aoc.md",
+    "X/Captura_de_tela_20260607_150441.png",
+    "X/Captura_de_tela_20260607_150347.png",
+    "Index & Bases/Maps & Boards/Write Map.md",
+    "Index & Bases/Bases/MOC.base",
+    "Index & Bases/Maps & Boards/board-market-concepts.md",
+    "Index & Bases/Maps & Boards/Datascience Learned.md",
     "Index & Bases/Maps & Boards/Pipeline_Producao_YouTube.canvas",
-    "Index & Bases/Maps & Boards/mapa-pkm.canvas",
-    "09 Focus Areas/Learning/Video-Introduction to DaVinci Resolve - Full Course for Beginners 2026 from Casey Faris.canvas",
-    "z-Media/Media/Images/Acessar Pro.png",
-    "z-Media/Media/🏠.png",
-    "z-Media/Media/banners/anxiety-2019928_1920.jpg",
-    "dataviewallnotesview.canvas",
-    "Index & Bases/Maps & Boards/Mood-Tracker.canvas",
+    "Index & Bases/Bases/Boards.base",
+    "Index & Bases/Bases/Resources.base",
+    "Index & Bases/Bases/ShareNotes.base",
+    "Knowlegde/02 Concept/+ ACE Pack - framework.md",
+    "Knowlegde/04 Code/04.5 Workflow/flow-whatsApp-arena-report.md",
+    "Knowlegde/04 Code/04.1 Configs/i3config.md",
+    "Knowlegde/05 Work/Collectors Guardian/+/collectors-notes/!_guia-de-formatos.md",
+    "Index & Bases/Bases/Memos.base",
+    "Index & Bases/Bases/Knowlegde.base",
+    "Index & Bases/Bases/Concepts.base",
+    "Index & Bases/Bases/Books.base",
+    "Daily Notes/2026-07-14.md",
+    "Daily Notes/2026-06-16.md",
+    "Daily Notes/2023-05-22.md",
+    "Daily Notes/2023-05-17.md",
+    "Daily Notes/2023-05-15.md",
+    "Daily Notes/2023-05-14.md",
     "Index & Bases/Maps & Boards/Logs-V-View.canvas",
-    "08 Focus Areas/Learning/Video-Introduction to DaVinci Resolve - Full Course for Beginners 2026 from Casey Faris.canvas",
-    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/piano-7629023_1920.jpg",
-    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/painting-911804_1920.jpg",
-    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/sunset-8331285_1920.jpg",
-    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/apple-1282241_1920.jpg",
-    "06 Work/Obsidian Vaults/to-opencode/dist/core_vault/Defaut Theme/X/Media/banners/student-865073_1920.jpg",
-    "Sem título.canvas",
-    "V-04-Edicao/Templater/templater-video.canvas"
+    "X/Captura_de_tela_20260607_150204.png",
+    "Index & Bases/Pipeline_Producao_YouTube.canvas",
+    "Index & Bases/Logs-V-View.canvas",
+    "Index & Bases/Bases/Pipeline_Producao_YouTube.canvas",
+    "Index & Bases/Bases/Logs-V-View.canvas",
+    "Index & Bases/Maps/Logs-V-View.canvas",
+    "X/Media/Pasted image 20260714121041.png",
+    "X/Media/NotADev_Gallery/catmeme/media-iv-text.gif",
+    "X/Media/NotADev_Gallery/catmeme/IMG_4569.png",
+    "Index & Bases/Maps/Pipeline_Producao_YouTube.canvas",
+    "Index & Bases/mapa-pkm.canvas",
+    "Index & Bases/Mood-Tracker.canvas"
   ]
 }

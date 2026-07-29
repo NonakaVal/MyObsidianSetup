@@ -1,7 +1,7 @@
 <%*
 // --- CONFIGURAÇÃO ---
-const dailyNoteFolder = "Calendar & Review/Daily Notes";
-const dailyNoteTemplate = "X/Template/A-Daily Note Template.md";
+const dailyNoteFolder = "Daily Notes";
+const dailyNoteTemplate = "X/Template/Format/B-Daily Note Template.md";
 const captureSection = "# Capture";
 // --------------------
 

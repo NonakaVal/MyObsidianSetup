@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.hasProperty("share_link")
+formulas:
+  Mtime: file.mtime.relative()
+views:
+  - type: table
+    name: Tabela
+    order:
+      - dateCreated
+      - file.name
+      - share_updated
+      - share_link
+      - tags
+      - formula.Mtime
+    columnSize:
+      file.name: 416
+      note.share_link: 369
+      note.tags: 324

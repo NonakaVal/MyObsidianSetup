@@ -1,6 +1,6 @@
 /*───────────────────────────────────────────────────────
 THINGS
-Version 2.1.20
+Version 2.2.4
 Created by @colineckert
 
 Readme:
@@ -27,7 +27,7 @@ body {
   --accent-l: 60%; /* Accent lightness Light Mode */
 
   --blue: #2e80f2;
-  --pink: #6cf2f7;
+  --pink: #ff82b2;
   --green: #3eb4bf;
   --yellow: #e5b567;
   --orange: #e87d3e;
@@ -61,15 +61,20 @@ body {
   --progress-color-5: #768399;
 
   /* Font families */
-  --font-text-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Inter, Ubuntu, sans-serif;
-  --font-editor-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Inter, Ubuntu, sans-serif;
-  --font-monospace-theme: 'JetBrains Mono', 'Fira Code', Menlo, SFMono-Regular,
-    Consolas, 'Roboto Mono', monospace;
-  --font-interface-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Inter, Ubuntu, sans-serif;
-  --font-editor: var(--font-editor-override), var(--font-text-override),
+  --font-text-theme:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu,
+    sans-serif;
+  --font-editor-theme:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu,
+    sans-serif;
+  --font-monospace-theme:
+    'JetBrains Mono', 'Fira Code', Menlo, SFMono-Regular, Consolas,
+    'Roboto Mono', monospace;
+  --font-interface-theme:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu,
+    sans-serif;
+  --font-editor:
+    var(--font-editor-override), var(--font-text-override),
     var(--font-editor-theme);
 
   --h1-size: 1.7rem;
@@ -100,6 +105,12 @@ body {
 
   --line-width-adaptive: var(--line-width);
   --line-width-wide: calc(var(--line-width) + 12.5%);
+
+  --code-background-l: #eceef1;
+  --code-background-d: #303540;
+  --code-block-background-l: #f0f2f5;
+  --code-block-background-d: #282c34;
+  --quote-background: transparent;
 }
 
 /* COLOR SCHEMES
@@ -152,16 +163,20 @@ body.theme-light.is-mobile {
   --text-highlight-bg-l: rgba(255, 208, 0, 0.4);
   --text-highlight-bg: var(--text-highlight-bg-l);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-  --input-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
-    0 2px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 1.5px 0 rgba(0, 0, 0, 0.03),
-    0 1px 2px 0 rgba(0, 0, 0, 0.04), 0 0 0 0 transparent;
-  --input-shadow-hover: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
-    0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.03),
-    0 1px 2px 0 rgba(0, 0, 0, 0.04), 0 0 0 0 transparent;
-  --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
-    0px 3.4px 6.7px rgba(0, 0, 0, 0.042), 0px 15px 30px rgba(0, 0, 0, 0.07);
-  --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
-    0px 6.3px 24.7px rgba(0, 0, 0, 0.112), 0px 30px 90px rgba(0, 0, 0, 0.2);
+  --input-shadow:
+    inset 0 0 0 1px rgba(0, 0, 0, 0.12), 0 2px 3px 0 rgba(0, 0, 0, 0.05),
+    0 1px 1.5px 0 rgba(0, 0, 0, 0.03), 0 1px 2px 0 rgba(0, 0, 0, 0.04),
+    0 0 0 0 transparent;
+  --input-shadow-hover:
+    inset 0 0 0 1px rgba(0, 0, 0, 0.17), 0 2px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 1.5px 0 rgba(0, 0, 0, 0.03), 0 1px 2px 0 rgba(0, 0, 0, 0.04),
+    0 0 0 0 transparent;
+  --shadow-s:
+    0px 1px 2px rgba(0, 0, 0, 0.028), 0px 3.4px 6.7px rgba(0, 0, 0, 0.042),
+    0px 15px 30px rgba(0, 0, 0, 0.07);
+  --shadow-l:
+    0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 30px 90px rgba(0, 0, 0, 0.2);
 
   --tag-background: var(--tag-background-color-l);
   --tag-color: var(--tag-font-color-l);
@@ -188,6 +203,9 @@ body.theme-light.is-mobile {
     var(--accent-s),
     calc(var(--accent-l) - 10%)
   );
+
+  --titlebar-background: var(--color-base-10);
+  --titlebar-background-focused: var(--color-base-25);
 
   --atom-gray-1: #383a42;
   --atom-gray-2: #383a42;
@@ -239,7 +257,8 @@ body.theme-dark.is-mobile {
     var(--accent-s),
     calc(var(--accent-l) + 3.8%)
   );
-  --titlebar-background-focused: var(--color-base-10);
+  --titlebar-background: var(--color-base-10);
+  --titlebar-background-focused: var(--color-base-20);
   --background-modifier-form-field: var(--color-base-25);
   --background-secondary-alt: var(--color-base-30);
   --interactive-normal: var(--color-base-30);
@@ -248,16 +267,20 @@ body.theme-dark.is-mobile {
   --text-highlight-bg: var(--text-highlight-bg-d);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
   --text-selection: hsla(var(--interactive-accent-hsl), 0.25);
-  --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.09),
+  --input-shadow:
+    inset 0 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.09),
     0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 1px 1.5px 0 rgba(0, 0, 0, 0.1),
     0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 transparent;
-  --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
+  --input-shadow-hover:
+    inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
     0 2px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 1.5px 0 rgba(0, 0, 0, 0.2),
     0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 0 0 0 transparent;
-  --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.121),
-    0px 3.4px 6.7px rgba(0, 0, 0, 0.179), 0px 15px 30px rgba(0, 0, 0, 0.3);
-  --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
-    0px 6.3px 24.7px rgba(0, 0, 0, 0.112), 0px 30px 90px rgba(0, 0, 0, 0.2);
+  --shadow-s:
+    0px 1px 2px rgba(0, 0, 0, 0.121), 0px 3.4px 6.7px rgba(0, 0, 0, 0.179),
+    0px 15px 30px rgba(0, 0, 0, 0.3);
+  --shadow-l:
+    0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 30px 90px rgba(0, 0, 0, 0.2);
 
   --tag-background: var(--tag-background-color-d);
   --tag-color: var(--tag-font-color-d);
@@ -301,12 +324,147 @@ body.is-mobile.theme-dark.mobile-black-background {
   }
 }
 
+/* Breadcrumb: hidden by default, visible on hover */
+.view-header .view-header-title-container {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.view-header:hover .view-header-title-container {
+  opacity: 1;
+}
+
 /* H2 styling */
-body.h2-underline h2,
-body.h2-underline .HyperMD-header.HyperMD-header-2.cm-line {
+.markdown-preview-view h2,
+.markdown-rendered h2 {
   border-bottom: 2px solid var(--background-modifier-border);
   width: 100%;
   padding-bottom: 2px;
+  margin-bottom: 8px !important;
+}
+.HyperMD-header.HyperMD-header-2.cm-line {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+body.h2-no-underline .markdown-preview-view h2,
+body.h2-no-underline .markdown-rendered h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: revert;
+}
+body.h2-no-underline .HyperMD-header.HyperMD-header-2.cm-line {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Heading small-caps */
+body.h1-small-caps h1,
+body.h1-small-caps .HyperMD-header.HyperMD-header-1.cm-line {
+  font-variant-caps: small-caps;
+}
+body.h2-small-caps h2,
+body.h2-small-caps .HyperMD-header.HyperMD-header-2.cm-line {
+  font-variant-caps: small-caps;
+}
+body.h3-small-caps h3,
+body.h3-small-caps .HyperMD-header.HyperMD-header-3.cm-line {
+  font-variant-caps: small-caps;
+}
+body.h4-small-caps h4,
+body.h4-small-caps .HyperMD-header.HyperMD-header-4.cm-line {
+  font-variant-caps: small-caps;
+}
+body.h5-small-caps h5,
+body.h5-small-caps .HyperMD-header.HyperMD-header-5.cm-line {
+  font-variant-caps: small-caps;
+}
+body.h6-small-caps h6,
+body.h6-small-caps .HyperMD-header.HyperMD-header-6.cm-line {
+  font-variant-caps: small-caps;
+}
+
+/* Heading underlines (H1, H3-H6) */
+body.h1-underline h1 {
+  border-bottom: 2px solid var(--background-modifier-border);
+  width: 100%;
+  padding-bottom: 2px;
+  margin-bottom: 8px !important;
+}
+body.h1-underline .HyperMD-header.HyperMD-header-1.cm-line {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+body.h3-underline h3 {
+  border-bottom: 2px solid var(--background-modifier-border);
+  width: 100%;
+  padding-bottom: 2px;
+  margin-bottom: 8px !important;
+}
+body.h3-underline .HyperMD-header.HyperMD-header-3.cm-line {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+body.h4-underline h4 {
+  border-bottom: 2px solid var(--background-modifier-border);
+  width: 100%;
+  padding-bottom: 2px;
+  margin-bottom: 8px !important;
+}
+body.h4-underline .HyperMD-header.HyperMD-header-4.cm-line {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+body.h5-underline h5 {
+  border-bottom: 2px solid var(--background-modifier-border);
+  width: 100%;
+  padding-bottom: 2px;
+  margin-bottom: 8px !important;
+}
+body.h5-underline .HyperMD-header.HyperMD-header-5.cm-line {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+body.h6-underline h6 {
+  border-bottom: 2px solid var(--background-modifier-border);
+  width: 100%;
+  padding-bottom: 2px;
+  margin-bottom: 8px !important;
+}
+body.h6-underline .HyperMD-header.HyperMD-header-6.cm-line {
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 2px;
+}
+
+/* Heading underline color matches heading color */
+body.heading-underline-color.h1-underline h1,
+body.heading-underline-color.h1-underline
+  .HyperMD-header.HyperMD-header-1.cm-line {
+  border-bottom-color: var(--h1-color);
+}
+body.heading-underline-color:not(.h2-no-underline) .markdown-preview-view h2,
+body.heading-underline-color:not(.h2-no-underline) .markdown-rendered h2,
+body.heading-underline-color:not(.h2-no-underline)
+  .HyperMD-header.HyperMD-header-2.cm-line {
+  border-bottom-color: var(--h2-color);
+}
+body.heading-underline-color.h3-underline h3,
+body.heading-underline-color.h3-underline
+  .HyperMD-header.HyperMD-header-3.cm-line {
+  border-bottom-color: var(--h3-color);
+}
+body.heading-underline-color.h4-underline h4,
+body.heading-underline-color.h4-underline
+  .HyperMD-header.HyperMD-header-4.cm-line {
+  border-bottom-color: var(--h4-color);
+}
+body.heading-underline-color.h5-underline h5,
+body.heading-underline-color.h5-underline
+  .HyperMD-header.HyperMD-header-5.cm-line {
+  border-bottom-color: var(--h5-color);
+}
+body.heading-underline-color.h6-underline h6,
+body.heading-underline-color.h6-underline
+  .HyperMD-header.HyperMD-header-6.cm-line {
+  border-bottom-color: var(--h6-color);
 }
 
 /* Hashtags font */
@@ -320,6 +478,12 @@ body:not(.default-font-color) .markdown-preview-view blockquote,
 body:not(.default-font-color) span.cm-quote.cm-quote-1 {
   font-style: italic;
   color: var(--quote-color);
+}
+body .markdown-preview-view blockquote {
+  background-color: var(--quote-background);
+}
+body .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+  background-color: var(--quote-background);
 }
 
 /* Bold font */
@@ -343,6 +507,7 @@ body:not(.default-font-color) mark em {
 /* Fancy highlight */
 body.fancy-highlight span.cm-highlight,
 body.fancy-highlight .markdown-preview-view mark,
+body.fancy-highlight .markdown-rendered mark,
 body.fancy-highlight span.search-result-file-matched-text {
   background-image: linear-gradient(
     0deg,
@@ -375,7 +540,9 @@ body.fancy-highlight span.search-result-file-matched-text {
 /* Image card */
 img {
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .theme-dark .modal-container .suggestion-item.is-selected {
@@ -394,9 +561,50 @@ body.active-line .cm-active.HyperMD-quote::before {
   opacity: 0.85;
 }
 
-/* Code blocks horizontal scroll */
-.markdown-reading-view .markdown-preview-view pre:not(.frontmatter) code {
+/* Inline code background (separate from block code) */
+.theme-light .markdown-rendered code:not(pre code),
+.theme-light .markdown-preview-view code:not(pre code) {
+  background-color: var(--code-background-l);
+}
+.theme-dark .markdown-rendered code:not(pre code),
+.theme-dark .markdown-preview-view code:not(pre code) {
+  background-color: var(--code-background-d);
+}
+.theme-light .cm-s-obsidian span.cm-inline-code {
+  background-color: var(--code-background-l);
+}
+.theme-dark .cm-s-obsidian span.cm-inline-code {
+  background-color: var(--code-background-d);
+}
+
+/* Copy button stays fixed at top-right while code scrolls horizontally */
+.markdown-reading-view .el-pre {
+  position: relative;
+}
+.markdown-reading-view .el-pre pre {
+  position: static;
+  overflow-x: auto;
   white-space: pre;
+}
+.markdown-reading-view .el-pre pre code {
+  white-space: pre;
+}
+.markdown-reading-view .el-pre .copy-code-button {
+  position: absolute;
+}
+
+/* Code block background (separate from inline code) */
+.theme-light .markdown-preview-view pre:not(.frontmatter) {
+  background-color: var(--code-block-background-l);
+}
+.theme-dark .markdown-preview-view pre:not(.frontmatter) {
+  background-color: var(--code-block-background-d);
+}
+.theme-light .cm-s-obsidian div.HyperMD-codeblock-bg {
+  background-color: var(--code-block-background-l);
+}
+.theme-dark .cm-s-obsidian div.HyperMD-codeblock-bg {
+  background-color: var(--code-block-background-d);
 }
 
 /* Fancy code blocks */
@@ -438,7 +646,7 @@ body.fancy-code
 }
 
 body.fancy-code
-  .HyperMD-codeblock.cm-line:not(
+  .HyperMD-codeblock.HyperMD-codeblock-bg.cm-line:not(
     .HyperMD-codeblock-begin,
     .HyperMD-codeblock-end
   ) {
@@ -518,7 +726,7 @@ body.fancy-code .markdown-preview-view pre code {
   color: #ababab;
 }
 .theme-dark .token.comment,
-.theme-dark .cm-comment,
+.theme-dark .cm-comment:not(.cm-hashtag),
 .token.prolog,
 .token.doctype,
 .token.cdata {
@@ -610,52 +818,79 @@ code .cm-tag {
 /* Mobile toolbar button */
 /* --------------------- */
 
-body.is-mobile:not(.floating-button-off):not(.advanced-toolbar)
-  .view-action:nth-last-of-type(2),
-body.is-mobile:not(.floating-button-off):not(.advanced-toolbar)
-  .view-action:nth-last-of-type(2) {
+/* iOS glass: style button in-place within the glass pill */
+body.is-mobile.is-ios:not(.floating-button-off)
+  .view-actions
+  .view-action:not(.mod-bookmark):not([aria-label='More options']) {
   color: white;
   background-color: var(--blue);
   opacity: 1;
-  top: calc(90vh - 110px);
   display: flex;
   padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50% !important;
+  box-shadow:
+    1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
+    2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028),
+    5px 1.3px 10px rgba(0, 0, 0, 0.035),
+    8.9px 2.2px 17.9px rgba(0, 0, 0, 0.042),
+    16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05),
+    40px 10px 80px rgba(0, 0, 0, 0.07);
+}
+
+/* Non-iOS mobile (Android): floating button at bottom-right */
+body.is-mobile:not(.is-ios):not(.floating-button-off):not(.advanced-toolbar)
+  .view-actions
+  .view-action:not(.mod-bookmark):not([aria-label='More options']) {
+  color: white;
+  background-color: var(--blue);
+  opacity: 1;
   position: fixed;
-  left: 86vw;
+  top: calc(90vh - 110px);
+  /*left: 80vw;*/
   transform: translate(-40%, 5%);
+  display: flex;
+  padding: 5px;
   justify-content: center;
   align-items: center;
   width: 53px;
   height: 53px;
   border-radius: 50% !important;
-  box-shadow: 1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
-    2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028), 5px 1.3px 10px rgba(0, 0, 0, 0.035),
+  box-shadow:
+    1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
+    2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028),
+    5px 1.3px 10px rgba(0, 0, 0, 0.035),
     8.9px 2.2px 17.9px rgba(0, 0, 0, 0.042),
-    16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
+    16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05),
+    40px 10px 80px rgba(0, 0, 0, 0.07);
 }
-
-body.is-mobile:not(.floating-button-off).advanced-toolbar
-  .view-action:nth-last-of-type(2),
-body.is-mobile:not(.floating-button-off).advanced-toolbar
-  .view-action:nth-last-of-type(2) {
+body.is-mobile:not(.is-ios):not(.floating-button-off).advanced-toolbar
+  .view-actions
+  .view-action:not(.mod-bookmark):not([aria-label='More options']) {
   color: white;
   background-color: var(--blue);
   opacity: 1;
   position: fixed;
   top: calc(100vh - 138px);
+  /*left: 80vw;*/
+  transform: translate(-40%, -115%);
   display: flex;
   padding: 5px;
-  left: 86vw;
-  transform: translate(-40%, -115%);
   justify-content: center;
   align-items: center;
   width: 53px;
   height: 53px;
   border-radius: 50% !important;
-  box-shadow: 1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
-    2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028), 5px 1.3px 10px rgba(0, 0, 0, 0.035),
+  box-shadow:
+    1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
+    2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028),
+    5px 1.3px 10px rgba(0, 0, 0, 0.035),
     8.9px 2.2px 17.9px rgba(0, 0, 0, 0.042),
-    16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
+    16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05),
+    40px 10px 80px rgba(0, 0, 0, 0.07);
 }
 
 /* ------------------- */
@@ -1294,138 +1529,163 @@ settings:
         type: heading
         level: 2
         collapsed: true
-    - 
+    -
         id: default-font-color
         title: Default font colors
         description: Use the default font color styling for bold, italics, and quotes
         type: class-toggle
         default:  false
-    - 
+    -
         id: text-highlight-bg-l
         title: Highlight color (light)
         type: variable-color
         format: rgb
         default: 'rgba(255, 208, 0, 0.4)'
-    - 
+    -
         id: text-highlight-bg-d
         title: Highlight color (dark)
         type: variable-color
         format: rgb
         default: 'rgba(255, 208, 0, 0.4)'
-    - 
+    -
         id: strong-color
         title: Bold font color
         type: variable-color
         format: hex
-        default: '#FF82B2' 
-    - 
+        default: '#FF82B2'
+    -
         id: em-color
         title: Italics font color
         type: variable-color
         format: hex
-        default: '#FF82B2' 
-    - 
+        default: '#FF82B2'
+    -
         id: quote-color
         title: Blockquotes font color
         type: variable-color
         format: hex
-        default: '#3EB4BF' 
+        default: '#3EB4BF'
     -
-        id: code-normal
-        title: Inline code blocks font color (Light mode)
+        id: quote-background
+        title: Blockquote background color
+        type: variable-color
+        opacity: true
+        format: rgb
+        default: 'rgba(0,0,0,0)'
+    -
+        id: code-block-background-l
+        title: Code block background (Light mode)
         type: variable-color
         format: hex
-        default: '#BEC6CF'
+        default: '#f0f2f5'
     -
-        id: code-color-d
-        title: Inline code blocks font color (Dark mode)
+        id: code-block-background-d
+        title: Code block background (Dark mode)
         type: variable-color
         format: hex
-        default: '#555E68'
-    - 
+        default: '#282c34'
+    -
+        id: code-background-l
+        title: Inline code background (Light mode)
+        type: variable-color
+        format: hex
+        default: '#eceef1'
+    -
+        id: code-background-d
+        title: Inline code background (Dark mode)
+        type: variable-color
+        format: hex
+        default: '#303540'
+    -
         id: tag-background-color-l
         title: Tag background color (Light mode)
         type: variable-color
         format: hex
-        default: '#BDE1D3' 
-    - 
+        default: '#BDE1D3'
+    -
         id: tag-font-color-l
         title: Tag font color (Light mode)
         type: variable-color
         format: hex
-        default: '#1D694B' 
-    - 
+        default: '#1D694B'
+    -
         id: tag-background-color-d
         title: Tag background color (Dark mode)
         type: variable-color
         format: hex
-        default: '#1D694B' 
-    - 
+        default: '#1D694B'
+    -
         id: tag-font-color-d
         title: Tag font color (Dark mode)
         type: variable-color
         format: hex
-        default: '#FFFFFF' 
-    - 
+        default: '#FFFFFF'
+    -
         id: progress-color
         title: Progress colorful mode switcher
         description: Toggle progress color scheme
         type: class-toggle
         default: false
-    - 
+    -
         id: progress-color-1
         title: progress 2-39% color
         type: variable-color
         opacity: true
         format: hex
         default: '#ad5758'
-    - 
+    -
         id: progress-color-2
         title: progress 40-59% color
         type: variable-color
         opacity: true
         format: hex
         default: '#b87f4c'
-    - 
+    -
         id: progress-color-3
         title: progress 60-79% color
         type: variable-color
         opacity: true
         format: hex
         default: '#d2b874'
-    - 
+    -
         id: progress-color-4
         title: progress 80-99% color
         type: variable-color
         opacity: true
         format: hex
         default: '#b0c07e'
-    - 
+    -
         id: progress-color-5
         title: progress 1,100% color
         type: variable-color
         opacity: true
         format: hex
         default: '#768399'
-    - 
+    -
         id: headings
         title: Headings
         type: heading
         level: 2
         collapsed: true
-    - 
+    -
+        id: heading-underline-color
+        title: Match underline color to heading color
+        description: When enabled, heading border-bottom uses the heading's own color
+        type: class-toggle
+        default: false
+    -
         id: level-1-headings
         title: Level 1 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -
         id: h1-size
         title: H1 font size
         description: Accepts any CSS font-size value
         type: variable-text
         default: 1.7em
-    - 
+    -
         id: h1-weight
         title: H1 font weight
         description: Accepts numbers representing the CSS font-weight
@@ -1437,49 +1697,67 @@ settings:
         type: variable-color
         format: hex
         default: '#'
-    - 
+    -
+        id: h1-small-caps
+        title: H1 small caps
+        description: Toggle H1 small caps
+        type: class-toggle
+        default: false
+    -
+        id: h1-underline
+        title: H1 underline
+        description: Toggle H1 underline (border-bottom)
+        type: class-toggle
+        default: false
+    -
         id: level-2-headings
         title: Level 2 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -
         id: h2-size
         title: H2 font size
         description: Accepts any CSS font-size value
         type: variable-text
         default: 1.5em
-    - 
+    -
         id: h2-weight
         title: H2 font weight
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 700
-    - 
+    -
         id: h2-color
         title: H2 color
         type: variable-color
         format: hex
         default: '#2E80F2'
-    - 
-        id: h2-underline
+    -
+        id: h2-no-underline
         title: H2 underline
-        description: Toggle H2 underline (border-bottom)
+        description: Disable H2 underline (border-bottom)
         type: class-toggle
-        default: true
+        default: false
+    -
+        id: h2-small-caps
+        title: H2 small caps
+        description: Toggle H2 small caps
+        type: class-toggle
+        default: false
     -
         id: level-3-headings
         title: Level 3 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -
         id: h3-size
         title: H3 font size
         description: Accepts any CSS font-size value
         type: variable-text
         default: 1.2em
-    - 
+    -
         id: h3-weight
         title: H3 font weight
         description: Accepts numbers representing the CSS font-weight
@@ -1491,25 +1769,37 @@ settings:
         type: variable-color
         format: hex
         default: '#2E80F2'
-    - 
+    -
+        id: h3-small-caps
+        title: H3 small caps
+        description: Toggle H3 small caps
+        type: class-toggle
+        default: false
+    -
+        id: h3-underline
+        title: H3 underline
+        description: Toggle H3 underline (border-bottom)
+        type: class-toggle
+        default: false
+    -
         id: level-4-headings
         title: Level 4 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -
         id: h4-size
         title: H4 font size
         description: Accepts any CSS font-size value
         type: variable-text
         default: 1.1em
-    - 
+    -
         id: h4-weight
         title: H4 font weight
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 500
-    - 
+    -
         id: h4-color
         title: H4 color
         type: variable-color
@@ -1528,43 +1818,67 @@ settings:
             -
                 label: None
                 value: none
-    - 
+    -
+        id: h4-small-caps
+        title: H4 small caps
+        description: Toggle H4 small caps
+        type: class-toggle
+        default: false
+    -
+        id: h4-underline
+        title: H4 underline
+        description: Toggle H4 underline (border-bottom)
+        type: class-toggle
+        default: false
+    -
         id: level-5-headings
         title: Level 5 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -
         id: h5-size
         title: H5 font size
         description: Accepts any CSS font-size value
         type: variable-text
         default: 1em
-    - 
+    -
         id: h5-weight
         title: H5 font weight
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 500
-    - 
+    -
         id: h5-color
         title: H5 color
         type: variable-color
         format: hex
         default: '#E83E3E'
-    - 
+    -
+        id: h5-small-caps
+        title: H5 small caps
+        description: Toggle H5 small caps
+        type: class-toggle
+        default: false
+    -
+        id: h5-underline
+        title: H5 underline
+        description: Toggle H5 underline (border-bottom)
+        type: class-toggle
+        default: false
+    -
         id: level-6-headings
         title: Level 6 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -
         id: h6-size
         title: H6 font size
         description: Accepts any CSS font-size value
         type: variable-text
         default: 0.9em
-    - 
+    -
         id: h6-weight
         title: H6 font weight
         description: Accepts numbers representing the CSS font-weight
@@ -1576,6 +1890,18 @@ settings:
         type: variable-color
         format: hex
         default: '#'
+    -
+        id: h6-small-caps
+        title: H6 small caps
+        description: Toggle H6 small caps
+        type: class-toggle
+        default: false
+    -
+        id: h6-underline
+        title: H6 underline
+        description: Toggle H6 underline (border-bottom)
+        type: class-toggle
+        default: false
     -
         id: credits
         title: Credits

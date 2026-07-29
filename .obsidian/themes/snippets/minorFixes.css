@@ -1,0 +1,49 @@
+
+.hover-popover .inline-title, .inline-embed .inline-title {
+	display: inline;
+}
+
+
+.nav-file-title, .nav-folder-title, .nav-file-title-content {
+    white-space: normal;
+}
+
+ .dn-td-frontmatter {
+  padding: 4px;
+}
+
+.dn-frontmatter-value {
+  margin-bottom: 5px;
+  padding: 2px 4px;
+  line-height: 1.3;
+  font-size: 0.9em;
+  border-radius: 3px;
+  background-color: var(--background-secondary);
+}
+
+.dn-frontmatter-value:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.dn-frontmatter-value:last-child {
+  margin-bottom: 0;
+}
+
+
+.book-suggestion-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.book-cover-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.book-text-info {
+  flex-grow: 1;
+}

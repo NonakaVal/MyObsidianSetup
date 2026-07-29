@@ -60,15 +60,6 @@
       "key": "K"
     }
   ],
-  "graph:open": [],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "G"
-    }
-  ],
   "workspace:goto-tab-1": [
     {
       "modifiers": [
@@ -926,6 +917,31 @@
         "Shift"
       ],
       "key": "I"
+    }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "share-note:share": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:INDEX.md-new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
     }
   ]
 }

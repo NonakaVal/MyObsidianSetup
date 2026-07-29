@@ -36,7 +36,6 @@ views:
     order:
       - formula.✨
       - file.name
-      - status
       - file.backlinks
       - formula.M.time
     sort:
@@ -145,3 +144,5 @@ views:
     columnSize:
       formula.✨: 23
       file.name: 280
+  - type: table
+    name: Transcriptions

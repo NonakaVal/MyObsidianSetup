@@ -1,0 +1,28 @@
+/* 
+Last updated 2026-07-02
+Refactor: cleaned corrupted background-image line and added fallback color.
+Original solution by TfT Hacker (https://tfthacker.com)
+*/
+
+/* Embed an image to the right of the div */
+div[data-path="0-Vault-Logo"] * {
+  display: none;
+}
+
+div[data-path="0-Vault-Logo"] {
+  order: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 15px;
+  border: 2px solid rgba(155, 155, 155, 0.546);
+
+  /* Use hosted image as background (Imgur) */
+  background-image: url("https://i.imgur.com/xZwpbbv.png");
+  /* subtle fallback color if image fails to load */
+  background-color: rgba(0, 0, 0, 0.04);
+}

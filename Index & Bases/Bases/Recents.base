@@ -76,37 +76,18 @@ properties:
     displayName: Inlinks
 views:
   - type: table
-    name: Created
-    order:
-      - formula.✨
-      - file.name
-      - formula.C.Time
-      - formula.Parent Folder
-      - collections
-      - up
-      - related
-    sort:
-      - property: created
-        direction: DESC
-    limit: 77
-    columnSize:
-      formula.✨: 23
-      file.name: 244
-      formula.C.Time: 157
-  - type: table
     name: Recents
     order:
       - formula.✨
       - file.name
-      - formula.M.time
       - formula.Parent Folder
-      - collections
-      - up
-      - related
+      - file.backlinks
+      - file.tags
+      - formula.M.time
     sort:
-      - property: formula.✨
-        direction: ASC
       - property: formula.M.time
+        direction: DESC
+      - property: formula.✨
         direction: ASC
       - property: file.mtime
         direction: DESC
@@ -116,7 +97,28 @@ views:
     columnSize:
       formula.✨: 23
       file.name: 244
-      formula.M.time: 175
+      formula.M.time: 202
+  - type: table
+    name: Created
+    order:
+      - formula.✨
+      - file.name
+      - formula.C.Time
+      - formula.Parent Folder
+      - tags
+    sort:
+      - property: formula.Parent Folder
+        direction: DESC
+      - property: collections
+        direction: ASC
+      - property: created
+        direction: DESC
+    limit: 77
+    columnSize:
+      formula.✨: 23
+      file.name: 244
+      formula.C.Time: 157
+      note.collections: 155
   - type: table
     name: +
     filters:

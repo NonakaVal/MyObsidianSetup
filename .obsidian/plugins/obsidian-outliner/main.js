@@ -1665,7 +1665,8 @@ class CreateNewItem {
         const childIsFolded = list.isFoldRoot();
         const endPos = list.getLastLineContentEnd();
         const endOfLine = cursor.line === endPos.line && cursor.ch === endPos.ch;
-        const onChildLevel = listIsZoomingRoot || (hasChildren && !childIsFolded && endOfLine);
+        const onChildLevel = this.after &&
+            (listIsZoomingRoot || (hasChildren && !childIsFolded && endOfLine));
         const indent = onChildLevel
             ? hasChildren
                 ? list.getChildren()[0].getFirstLineIndent()
@@ -1689,7 +1690,7 @@ class CreateNewItem {
             list.addBeforeAll(newList);
         }
         else {
-            if (!childIsFolded || !endOfLine) {
+            if (this.after && (!childIsFolded || !endOfLine)) {
                 const children = list.getChildren();
                 for (const child of children) {
                     list.removeChild(child);
@@ -2751,7 +2752,7 @@ class VimOBehaviourOverride {
         this.operationPerformer = operationPerformer;
         this.inited = false;
         this.handleSettingsChange = () => {
-            if (!this.settings.overrideVimOBehaviour) {
+            if (this.inited || !this.settings.overrideVimOBehaviour) {
                 return;
             }
             if (!window.CodeMirrorAdapter || !window.CodeMirrorAdapter.Vim) {
@@ -2765,28 +2766,22 @@ class VimOBehaviourOverride {
             const operationPerformer = this.operationPerformer;
             const settings = this.settings;
             vim.defineAction("insertLineAfterBullet", (cm, operatorArgs) => {
-                // Move the cursor to the end of the line
-                vim.handleEx(cm, "normal! A");
-                if (!settings.overrideVimOBehaviour) {
-                    if (operatorArgs.after) {
-                        vim.handleEx(cm, "normal! o");
-                    }
-                    else {
-                        vim.handleEx(cm, "normal! O");
-                    }
+                const view = plugin.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+                const obsidianEditor = view === null || view === void 0 ? void 0 : view.editor;
+                if (!obsidianEditor) {
                     vim.enterInsertMode(cm);
                     return;
                 }
-                const view = plugin.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
-                const editor = new MyEditor(view.editor);
+                this.moveCursorToLineEnd(obsidianEditor);
+                if (!settings.overrideVimOBehaviour) {
+                    this.openPlainLine(obsidianEditor, operatorArgs.after);
+                    vim.enterInsertMode(cm);
+                    return;
+                }
+                const editor = new MyEditor(obsidianEditor);
                 const root = parser.parse(editor);
                 if (!root) {
-                    if (operatorArgs.after) {
-                        vim.handleEx(cm, "normal! o");
-                    }
-                    else {
-                        vim.handleEx(cm, "normal! O");
-                    }
+                    this.openPlainLine(obsidianEditor, operatorArgs.after);
                     vim.enterInsertMode(cm);
                     return;
                 }
@@ -2822,6 +2817,31 @@ class VimOBehaviourOverride {
             this.settings.onChange(this.handleSettingsChange);
             this.handleSettingsChange();
         });
+    }
+    moveCursorToLineEnd(editor) {
+        const cursor = editor.getCursor();
+        editor.setCursor({
+            line: cursor.line,
+            ch: editor.getLine(cursor.line).length,
+        });
+    }
+    getLineIndent(line) {
+        return line.match(/^[ \t]*/)[0];
+    }
+    openPlainLine(editor, after) {
+        const cursor = editor.getCursor();
+        const line = editor.getLine(cursor.line);
+        const indent = this.getLineIndent(line);
+        if (after) {
+            const insertAt = { line: cursor.line, ch: line.length };
+            editor.replaceRange(`\n${indent}`, insertAt, insertAt);
+            editor.setCursor({ line: cursor.line + 1, ch: indent.length });
+        }
+        else {
+            const insertAt = { line: cursor.line, ch: 0 };
+            editor.replaceRange(`${indent}\n`, insertAt, insertAt);
+            editor.setCursor({ line: cursor.line, ch: indent.length });
+        }
     }
     unload() {
         return __awaiter(this, void 0, void 0, function* () {

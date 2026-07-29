@@ -1,0 +1,38 @@
+.no-inline .inline-title {
+    display: none;
+}
+
+
+.hide-properties_reading {
+    --metadata-display-reading: none;
+}
+
+
+.hide-properties_editing {
+    --metadata-display-editing: none;
+}
+
+
+
+/* THIS IS FOR AUTO HIDING PROPERTIES AND EXPANDING ON CURSOR HOVER */
+/* .metadata-properties-title {
+    transition: 500ms;
+    opacity: 0.75;
+    margin-bottom: 20px;
+}
+
+.metadata-container:hover .metadata-properties-title {
+    opacity: 1;
+}
+
+.metadata-content {
+    transition: 200ms cubic-bezier(0.25, 1, 0.5, 1);
+    opacity: 0;
+    height: 0;
+    margin-bottom: -1.8em;
+}
+
+.metadata-container:hover .metadata-content {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 0.5em; */

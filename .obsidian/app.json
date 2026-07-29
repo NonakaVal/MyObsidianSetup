@@ -1,19 +1,12 @@
 {
-  "pdfExportSettings": {
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "2",
-    "downscalePercent": 100
-  },
-  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "X/Media",
   "alwaysUpdateLinks": true,
-  "promptDelete": true,
   "userIgnoreFilters": [
-    "06 Work/Obsidian Vaults/to-opencode/",
-    "01 Snippets/Repos/gsd/"
+    "X/Template/"
   ],
-  "showLineNumber": false
+  "propertiesInDocument": "visible",
+  "showUnsupportedFiles": true
 }

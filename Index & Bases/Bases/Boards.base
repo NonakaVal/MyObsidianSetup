@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("Index & Bases/Maps & Boards")
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.ext != "canvas"
+    order:
+      - title
+    sort: []
+    image: note.banner
+    cardSize: 110

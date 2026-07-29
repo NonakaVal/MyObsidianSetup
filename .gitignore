@@ -1,9 +1,2 @@
-.virtual_documents/
-
-.ipynb_checkpoints/
-.anaconda_projects/
-.anaconda_projects/db/
-
-.Social/PEOPLE/
-
-
+# Aperant data directory
+.auto-claude/

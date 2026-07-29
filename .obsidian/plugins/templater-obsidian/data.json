@@ -15,28 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "/",
-      "template": "X/Template/Format/A-new-note.md"
-    },
-    {
-      "folder": "V-01-Ideia",
-      "template": "X/Template/Format/V-01-Ideia-Video-Youtube.md"
-    },
-    {
-      "folder": "V-02-Inspiracoes",
-      "template": "X/Template/Content/V-02-Estrutura.md"
-    },
-    {
-      "folder": "V-03-Roteiro",
-      "template": "X/Template/Content/V-03-Roteiro.md"
-    },
-    {
-      "folder": "V-04-Edicao",
-      "template": "X/Template/Content/V-04-Edicao.md"
-    },
-    {
-      "folder": "06 Work/Obsidian Vaults/+",
-      "template": "X/Template/Format/knowldge-forge-new-note.md"
+      "folder": "",
+      "template": ""
     }
   ],
   "enable_file_templates": false,

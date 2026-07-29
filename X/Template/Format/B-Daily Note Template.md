@@ -15,28 +15,24 @@ if (!selectedMood) {
 ---
 dateCreated: <% tp.date.now("YYYY-MM-DD @ HH:mm") %>
 tags:
-  - calendar/daily
+  - dailynote
 week: '[[<% tp.date.now("YYYY [Week] WW") %>]]'
 daily-mood: "<% selectedMood %>"
 ---
-<% tp.date.now("YYYY-MM-DD") %>’s Note
-[[<% tp.date.yesterday("YYYY-MM-DD") %>|↶ Previous Day]] | [[<% tp.date.tomorrow("YYYY-MM-DD") %>|Following Day ↷]]
-
-<%*
-  const elixirConfDate = new Date('2026-06-14');
-  const now = new Date();
-  const diff = elixirConfDate - now;
-  const days = Math.floor(diff / (1000 * 3600 * 24));
-%># Faltam <font color="red"> <% days %></font>  dias - [[Planejamento Aniversário bb]]
-
-
 
 // Daily quote
 <% await tp.web.daily_quote() %>
 
+[[<% tp.date.yesterday("YYYY-MM-DD") %>|↶ Previous Day]] | [[<% tp.date.tomorrow("YYYY-MM-DD") %>|Following Day ↷]]
 
+<% tp.date.now("YYYY-MM-DD") %>’s Note
 
 <%tp.file.cursor()%>
+
+
+
+
+
 
 ---
 

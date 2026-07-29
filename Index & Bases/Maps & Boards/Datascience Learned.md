@@ -1,5 +1,4 @@
 ---
-
 tags:
   - dashboard
   - architect/renovate
@@ -13,11 +12,11 @@ subject:
   - "[[hub-ml-models]]"
   - "[[hub-tec]]"
   - "[[hub-growth]]"
-banner: tec.png
+banner: https://imgur.com/kfCotHu.png
 kanban-plugin: board
 cssclasses:
   - dashboard
-
+title: DATA
 ---
 
 ## 🧮 Matemática

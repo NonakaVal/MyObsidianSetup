@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Knowlegde/32 Concept")
+    - file.inFolder("Knowlegde/02 Concept")
     - file.ext == "md"
 formulas:
   Parent Folder: file.folder.split("/")[-1]

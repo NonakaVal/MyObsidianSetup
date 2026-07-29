@@ -1,6 +1,0 @@
-# snippet-holder — configuração
-NOTES_DIR="/home/val/Documentos/Notes/01 Snippets"
-EDITOR_APP="mousepad"
-DEFAULT_SORT="recent"
-HISTORY_LIMIT="40"
-PREVIEW_LINES="15"

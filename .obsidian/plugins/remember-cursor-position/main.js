@@ -46,6 +46,7 @@ const DEFAULT_SETTINGS = {
     pruneOrphans: false,
     maxAgeDays: 0,
     maxCount: 0,
+    defaultPosition: 'default',
 };
 class RememberCursorPosition extends obsidian.Plugin {
     constructor() {
@@ -94,9 +95,10 @@ class RememberCursorPosition extends obsidian.Plugin {
         if (!fileName || !this.lastLoadedFileName || fileName != this.lastLoadedFileName || this.loadingFile)
             return;
         let st = this.getEphemeralState();
+        let hadPriorState = this.lastEphemeralState && Object.keys(this.lastEphemeralState).length > 0;
         if (!this.lastEphemeralState)
             this.lastEphemeralState = st;
-        if (!isNaN(st.scroll) && !this.isEphemeralStatesEquals(st, this.lastEphemeralState)) {
+        if (!isNaN(st.scroll) && (!hadPriorState || !this.isEphemeralStatesEquals(st, this.lastEphemeralState))) {
             this.saveEphemeralState(st);
             this.lastEphemeralState = st;
         }
@@ -167,6 +169,22 @@ class RememberCursorPosition extends obsidian.Plugin {
                         if (!containsFlashingSpan) {
                             yield this.delay(10);
                             this.setEphemeralState(st);
+                        }
+                    }
+                    else if (this.settings.defaultPosition !== 'default') {
+                        yield this.delay(this.settings.delayAfterFileOpening);
+                        let containsFlashingSpan = this.app.workspace.containerEl.querySelector('.is-flashing');
+                        if (!containsFlashingSpan) {
+                            yield this.delay(10);
+                            if (this.settings.defaultPosition === 'beginning') {
+                                yield this.setCursorToBeginning(file || this.app.workspace.getActiveFile());
+                            }
+                            else if (this.settings.defaultPosition === 'end') {
+                                this.setCursorToEnd();
+                            }
+                            else if (this.settings.defaultPosition === 'beforeFootnotes') {
+                                yield this.setCursorToBeforeFootnotes(file || this.app.workspace.getActiveFile());
+                            }
                         }
                     }
                 }
@@ -265,6 +283,71 @@ class RememberCursorPosition extends obsidian.Plugin {
             // view.sourceMode.applyScroll(state.scroll);
         }
     }
+    setCursorToBeginning(file) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let content = yield this.app.vault.read(file);
+            let lines = content.split('\n');
+            let startLine = 0;
+            if (lines.length > 0 && lines[0].trim() === '---') {
+                for (let i = 1; i < lines.length; i++) {
+                    if (lines[i].trim() === '---') {
+                        startLine = i + 1;
+                        break;
+                    }
+                }
+            }
+            let editor = this.getEditor();
+            if (editor) {
+                if (startLine >= editor.lineCount()) {
+                    startLine = Math.max(0, editor.lineCount() - 1);
+                }
+                editor.setCursor({ line: startLine, ch: 0 });
+                editor.scrollIntoView({ from: { line: startLine, ch: 0 }, to: { line: startLine, ch: 0 } }, true);
+            }
+        });
+    }
+    setCursorToEnd() {
+        let editor = this.getEditor();
+        if (editor) {
+            let lastLine = editor.lastLine();
+            let lastLineLength = editor.getLine(lastLine).length;
+            editor.setCursor({ line: lastLine, ch: lastLineLength });
+            editor.scrollIntoView({ from: { line: lastLine, ch: 0 }, to: { line: lastLine, ch: lastLineLength } }, true);
+        }
+    }
+    setCursorToBeforeFootnotes(file) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let content = yield this.app.vault.read(file);
+            let lines = content.split('\n');
+            let footnoteLine = -1;
+            for (let i = 0; i < lines.length; i++) {
+                if (/^\s*\[\^[^\]]+\]:\s/.test(lines[i])) {
+                    footnoteLine = i;
+                    break;
+                }
+            }
+            if (footnoteLine === -1) {
+                this.setCursorToEnd();
+                return;
+            }
+            let targetLine = footnoteLine - 1;
+            while (targetLine >= 0 && lines[targetLine].trim() === '') {
+                targetLine--;
+            }
+            if (targetLine < 0) {
+                targetLine = 0;
+            }
+            let editor = this.getEditor();
+            if (editor) {
+                if (targetLine >= editor.lineCount()) {
+                    targetLine = Math.max(0, editor.lineCount() - 1);
+                }
+                let ch = editor.getLine(targetLine).length;
+                editor.setCursor({ line: targetLine, ch: ch });
+                editor.scrollIntoView({ from: { line: targetLine, ch: 0 }, to: { line: targetLine, ch: ch } }, true);
+            }
+        });
+    }
     getEditor() {
         var _a;
         return (_a = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView)) === null || _a === void 0 ? void 0 : _a.editor;
@@ -302,6 +385,19 @@ class SettingTab extends obsidian.PluginSettingTab {
         containerEl.empty();
         containerEl.createEl('h2', { text: 'Remember cursor position - Settings' });
         new obsidian.SettingGroup(containerEl)
+            .addSetting((setting) => setting
+            .setName('Default cursor position')
+            .setDesc('When no saved position exists for a file, jump to this position. "Default" means do nothing.')
+            .addDropdown((drop) => drop
+            .addOption('beginning', 'Beginning')
+            .addOption('end', 'End')
+            .addOption('beforeFootnotes', 'Before footnotes')
+            .addOption('default', 'Default (do nothing)')
+            .setValue(this.plugin.settings.defaultPosition)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.defaultPosition = value;
+            yield this.plugin.saveSettings();
+        }))))
             .addSetting((setting) => setting
             .setName('Data file name')
             .setDesc('Save positions to this file')
@@ -369,13 +465,13 @@ class SettingTab extends obsidian.PluginSettingTab {
         }))))
             .addSetting((setting) => setting
             .setName('Maximum number of entries to keep')
-            .setDesc('On startup, if the number of saved positions exceeds this limit, the oldest entries are removed. Most-recently visited files are kept.')
+            .setDesc('On startup, if the number of saved positions exceeds this limit, the oldest entries are removed. Most-recently visited files are kept. "None" means no maximum limit.')
             .addDropdown((drop) => drop
             .addOption('50', '50')
             .addOption('100', '100')
             .addOption('250', '250')
             .addOption('500', '500')
-            .addOption('0', 'Never')
+            .addOption('0', 'None')
             .setValue(String(this.plugin.settings.maxCount))
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.maxCount = Number(value);

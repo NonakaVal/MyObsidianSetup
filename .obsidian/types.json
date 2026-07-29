@@ -3,7 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "idea": "multitext",
-    "video-assets": "multitext"
+    "dateCreated": "date"
   }
 }

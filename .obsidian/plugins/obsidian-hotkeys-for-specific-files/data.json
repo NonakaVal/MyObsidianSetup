@@ -2,9 +2,9 @@
   "files": [
     {
       "useMoment": false,
-      "file": "+/Code.base"
+      "file": "INDEX.md"
     }
   ],
-  "useExistingPane": false,
+  "useExistingPane": true,
   "useHoverEditor": false
 }

@@ -6,23 +6,19 @@
     {
       "folder": "X/Template",
       "viewMode": "obsidianEditingMode: source"
-    },
-    {
-      "folder": "Index & Bases",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "X/Assets/Dataview",
-      "viewMode": "obsidianEditingMode: live"
-    },
-    {
-      "folder": "+",
-      "viewMode": "default"
     }
   ],
   "files": [
     {
-      "filePattern": "@-templates",
+      "filePattern": "INDEX",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Write Map",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "README",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

@@ -2,29 +2,21 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "tag:#calendar/daily  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    }
-  ],
-  "collapse-display": true,
+  "colorGroups": [],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.9,
-  "nodeSizeMultiplier": 2.78287760416667,
-  "lineSizeMultiplier": 1.13758138020833,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 2.06690756602427,
   "collapse-forces": false,
-  "centerStrength": 0.23046875,
-  "repelStrength": 15,
-  "linkStrength": 0.382568359375,
-  "linkDistance": 308,
-  "scale": 0.03753728693488856,
-  "close": true
+  "centerStrength": 0.182815845824411,
+  "repelStrength": 1.63454675231977,
+  "linkStrength": 0.503033547466096,
+  "linkDistance": 209,
+  "scale": 0.1692024994142043,
+  "close": false
 }

@@ -1,0 +1,3 @@
+div[data-path^="X"] {
+  display: none !important;
+}

@@ -1,0 +1,153 @@
+filters:
+  and:
+    - file.inFolder("Index & Bases")
+formulas:
+  Parent Folder: file.folder.split("/")[-1]
+  folder_list: |-
+    [
+      ["Calendar & Review/Daily Notes",                    "📅"],
+      ["Calendar & Review/Weekly Notes",                   "📆"],
+      ["Calendar & Review/Monthly Notes",                  "🗓️"],
+      ["Calendar & Review/Journaling",                     "📓"],
+      ["Calendar & Review",                                "📅"],
+      ["Knowlegde/33 Concept/Dev & TI",                    "💻"],
+      ["Knowlegde/33 Concept/marketing",                   "📣"],
+      ["Knowlegde/33 Concept",                             "💡"],
+      ["Knowlegde/35 Recources/PROMPTS-LLM",               "📢"],
+      ["Knowlegde/35 Recources/NotebookLM-Notes",          "🗒️"],
+      ["Knowlegde/35 Recources/PDFs",                      "📓"],
+      ["Knowlegde/35 Recources",                           "🗂️"],
+      ["Knowlegde/36 Books",                               "📚"],
+      ["Knowlegde/37 Music & Games & Movies",              "🎬"],
+      ["Knowlegde/31 Dots",                                "•"],
+      ["Knowlegde",                                        "🧠"],
+      ["Index & Bases/Maps & Boards",                      "🗺️"],
+      ["Index & Bases/Bases",                              "🏰"],
+      ["Index & Bases",                                    "🌐"],
+      ["Write/01 Drafts",                                  "✏️"],
+      ["Write/05 Task & Boards",                           "✅"],
+      ["Write/03 Concepts",                                "💡"],
+      ["Write/06 Thinking",                                "🧩"],
+      ["Write/04 References/03.3 Inspirations",            "✨"],
+      ["Write/04 References/03.1 Researches",              "🔬"],
+      ["Write/04 References",                              "📎"],
+      ["Write",                                            "✍️"],
+      ["08 Focus Areas/Youtube-Videos/Val Channel",        "📺"],
+      ["08 Focus Areas/Youtube-Videos/Not A Dev",          "🎙️"],
+      ["08 Focus Areas/Youtube-Videos",                    "▶️"],
+      ["08 Focus Areas/Autoconhecimento",                  "🪞"],
+      ["08 Focus Areas",                                   "🎯"],
+      ["06 Work/Collectors Guardian/Documents",            "📄"],
+      ["06 Work/Collectors Guardian/Roteiros",             "🎬"],
+      ["06 Work/Collectors Guardian",                      "🛡️"],
+      ["06 Work",                                          "💼"],
+      ["07 AI",                                            "🦾"],
+      ["01 Snippets/blender",                              "🎨"],
+      ["01 Snippets/bash commands",                        "🖥️"],
+      ["01 Snippets/Templaper Snippets",                   "📋"],
+      ["01 Snippets",                                      "✂️"],
+      ["00 Code/Projects",                                 "🚀"],
+      ["00 Code",                                          "💻"],
+      ["Memos/Open",                                       "📬"],
+      ["Memos/Archived",                                   "📭"],
+      ["Memos",                                            "📝"],
+      ["X/Template/Content",                               "📝"],
+      ["X/Template/Format",                                "🎨"],
+      ["X/Template/Journaling",                            "📓"],
+      ["X/Template/Snippet",                               "✂️"],
+      ["X/Template",                                       "📋"],
+      ["X/Assets",                                         "🖼️"],
+      ["X/Scripts",                                        "⚙️"],
+      ["X/Hubs",                                           "🗺️"],
+      ["X",                                                "𝙓"],
+      ["03 Config",                                        "🔧"],
+      ["04 Workflow",                                      "🔄"],
+      ["05 Toolbox",                                       "🧰"],
+      ["z-ignore",                                         "💤"],
+      ["z-Media",                                          "🌉"],
+      ["+",                                                "✨"],
+      ["/",                                                "🏡"]
+    ]
+  check_folders: formula.folder_list.filter(file.folder.contains(value[0]))[0]
+  Folder Group: if(formula.check_folders, formula.check_folders[0], "")
+  ✨: if(formula.check_folders, formula.check_folders[1], "")
+  M.time: file.mtime.relative()
+properties:
+  file.name:
+    displayName: Note
+  file.backlinks:
+    displayName: Inlinks
+views:
+  - type: table
+    name: All
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - formula.M.time
+      - file.size
+    sort:
+      - property: file.size
+        direction: DESC
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+      file.backlinks: 124
+      formula.M.time: 160
+  - type: table
+    name: Maps & Boards
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - formula.M.time
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+      formula.M.time: 160
+  - type: table
+    name: Bases
+    filters:
+      and:
+        - file.inFolder("Index & Bases/Bases")
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - formula.M.time
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+      formula.M.time: 160
+  - type: table
+    name: Most Linked
+    order:
+      - formula.✨
+      - file.name
+      - file.backlinks
+      - file.folder
+      - formula.M.time
+    sort:
+      - property: file.backlinks
+        direction: DESC
+    limit: 50
+    columnSize:
+      formula.✨: 23
+      file.name: 300
+      formula.M.time: 160

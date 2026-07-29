@@ -1,0 +1,185 @@
+formulas:
+  Size (kB): (file.size/1024).round(1)
+  Referrer: file.backlinks.map(file(value))
+  Image_File: image(file)
+  "Outlink #": file.links.length
+  Links: file.backlinks.length
+properties:
+  file.name:
+    displayName: file name
+  file.ext:
+    displayName: Extension
+  formula.Image_File:
+    displayName: Preview
+  file.links:
+    displayName: Outlinks
+  formula.Links:
+    displayName: "Inlink #"
+  file.backlinks:
+    displayName: Inlinks
+views:
+  - type: cards
+    name: Images (Table)
+    filters:
+      and:
+        - |-
+          ["gif","jpeg", "jpg", "png","svg","webp"
+          ].contains(file.ext)
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order: []
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: formula.Size (kB)
+        direction: DESC
+      - property: file.ext
+        direction: DESC
+    columnSize:
+      formula.Image_File: 86
+      file.ext: 105
+    imageFit: ""
+    cardSize: 160
+    imageAspectRatio: 1
+    image: file.file
+  - type: cards
+    name: Images (Cards)
+    filters:
+      and:
+        - |-
+          ["gif","jpeg", "jpg", "png","svg","webp"
+          ].contains(file.ext)
+    order:
+      - file.name
+      - file.ext
+      - formula.Size (kB)
+      - file.folder
+    sort:
+      - property: file.ext
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.ext: 105
+    rowHeight: medium
+    imageFit: ""
+    cardSize: 230
+    imageAspectRatio: 1
+    image: file.file
+  - type: table
+    name: Orphaned Images (Table)
+    filters:
+      and:
+        - formula.Referrer.isEmpty()
+        - |-
+          ["gif","jpeg", "jpg", "png","svg","webp"
+          ].contains(file.ext)
+    order:
+      - file.name
+      - formula.Image_File
+      - file.ext
+      - formula.Size (kB)
+      - file.folder
+    sort:
+      - property: formula.Size (kB)
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.ext: 105
+    imageFit: ""
+    cardSize: 230
+    imageAspectRatio: 1
+    image: file.file
+  - type: cards
+    name: Orphaned Images (Cards)
+    filters:
+      and:
+        - formula.Referrer.isEmpty()
+        - |-
+          ["gif","jpeg", "jpg", "png","svg","webp"
+          ].contains(file.ext)
+    order:
+      - file.name
+      - file.ext
+      - formula.Size (kB)
+      - file.folder
+    sort:
+      - property: file.ext
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.ext: 105
+    rowHeight: medium
+    imageFit: ""
+    cardSize: 230
+    imageAspectRatio: 1
+    image: file.file
+  - type: table
+    name: Excalidrawings
+    filters:
+      or:
+        - file.hasTag("x/excalidraw")
+        - and:
+            - file.folder != "x/Visuals/Excalidraw/assets"
+            - file.folder == "x/Visuals/Excalidraw"
+    order:
+      - file.name
+      - rank
+      - created
+      - file.mtime
+    sort:
+      - property: rank
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      note.created: 116
+      file.mtime: 93
+  - type: table
+    name: Canvases
+    filters:
+      and:
+        - '["canvas"].contains(file.ext)'
+    order:
+      - file.name
+      - file.ctime
+      - created
+      - file.mtime
+      - rank
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.mtime: 101
+      note.created: 116
+      file.ctime: 101
+  - type: table
+    name: PDFs
+    filters:
+      and:
+        - '["pdf"].contains(file.ext)'
+    order:
+      - file.name
+      - file.mtime
+      - rank
+      - created
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+      - property: rank
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 570
+      file.mtime: 101
+      note.created: 116
