@@ -1,7 +1,7 @@
 ---
 tags:
   - learning
-HUB:
+subject:
   - "[[hub-python]]"
   - "[[hub-tratamento-de-dados]]"
 ---

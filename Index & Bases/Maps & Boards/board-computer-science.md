@@ -1,4 +1,5 @@
 ---
+
 cssclasses:
   - dashboard
 subject:
@@ -11,6 +12,7 @@ tags:
 banner: https://imgur.com/0AO9YsW.png
 kanban-plugin: board
 title: TEC
+
 ---
 
 ## 🖥️ AOC (Arquitetura e Organização de Computadores)
@@ -162,6 +164,22 @@ title: TEC
 	- [[1.1--introducao-a-engenharia-secao|Introdução à Engenharia]]
 	- [[1.2--responsabilidades-legais-e-sociais-secao|Responsabilidades Legais e Sociais]]
 	- [[Informações perceptivas|Informações Perceptivas]]
+
+
+## 📄 Regex Básico
+
+- [ ] [[basic-regex-busca-com-variações-simples|Busca com Variações Simples]]
+- [ ] [[basic-regex-busca-por-dígitos-numéricos|Busca por Dígitos Numéricos]]
+- [ ] [[basic-regex-busca-por-letras-maiúsculas|Busca por Letras Maiúsculas]]
+- [ ] [[basic-regex-busca-por-palavras-específicas|Busca por Palavras Específicas]]
+- [ ] [[basic-regex-busca-por-palavras-inteiras|Busca por Palavras Inteiras]]
+- [ ] [[basic-regex-busca-por-qualquer-caractere|Busca por Qualquer Caractere]]
+- [ ] [[basic-regex-busca-por-vogais|Busca por Vogais]]
+- [ ] [[basic-regex-componentes-basicos|Componentes Básicos]]
+- [ ] [[basic-regex-exemplos-praticos|Exemplos Práticos]]
+- [ ] [[basic-regex-validaçao-de-datas-simples|Validação de Datas Simples]]
+- [ ] [[basic-regex-validaçao-de-e-mail-simples|Validação de E-mail Simples]]
+- [ ] [[basic-regex-validaçao-de-senha-simples|Validação de Senha Simples]]
 
 
 ## 🖥️ SO (Sistemas Operacionais)
@@ -326,26 +344,10 @@ title: TEC
 	  - [[sql-criar-schema|Schema Creation]]
 
 
-## 📄 Regex Básico
-
-- [ ] [[basic-regex-busca-com-variações-simples|Busca com Variações Simples]]
-- [ ] [[basic-regex-busca-por-dígitos-numéricos|Busca por Dígitos Numéricos]]
-- [ ] [[basic-regex-busca-por-letras-maiúsculas|Busca por Letras Maiúsculas]]
-- [ ] [[basic-regex-busca-por-palavras-específicas|Busca por Palavras Específicas]]
-- [ ] [[basic-regex-busca-por-palavras-inteiras|Busca por Palavras Inteiras]]
-- [ ] [[basic-regex-busca-por-qualquer-caractere|Busca por Qualquer Caractere]]
-- [ ] [[basic-regex-busca-por-vogais|Busca por Vogais]]
-- [ ] [[basic-regex-componentes-basicos|Componentes Básicos]]
-- [ ] [[basic-regex-exemplos-praticos|Exemplos Práticos]]
-- [ ] [[basic-regex-validaçao-de-datas-simples|Validação de Datas Simples]]
-- [ ] [[basic-regex-validaçao-de-e-mail-simples|Validação de E-mail Simples]]
-- [ ] [[basic-regex-validaçao-de-senha-simples|Validação de Senha Simples]]
-
-
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","lane-width":340,"list-collapse":[true,false,false,true,null,true]}
+{"kanban-plugin":"board","lane-width":340,"list-collapse":[true,false,null,false,true,null,true]}
 ```
 %%

@@ -3,7 +3,7 @@ tags:
   - book
   - desenvolvimento-pessoal
   - psicologia
-created: "[[2026-07-29]]"
+dateCreated: "[[2026-07-29]]"
 aliases:
   - Desapegue-se!
 title: Desapegue-se!

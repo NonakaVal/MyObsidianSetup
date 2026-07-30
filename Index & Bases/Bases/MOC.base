@@ -87,8 +87,8 @@ views:
       - formula.✨
       - file.name
       - file.backlinks
-      - formula.M.time
       - file.size
+      - formula.M.time
     sort:
       - property: file.size
         direction: DESC
@@ -97,7 +97,8 @@ views:
     columnSize:
       formula.✨: 23
       file.name: 300
-      file.backlinks: 124
+      file.backlinks: 139
+      file.size: 447
       formula.M.time: 160
   - type: table
     name: Maps & Boards

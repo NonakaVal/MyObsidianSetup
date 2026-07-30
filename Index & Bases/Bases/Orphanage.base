@@ -120,7 +120,7 @@ views:
       and:
         - file.links.isEmpty()
         - file.ext == "md"
-        - file.inFolder("Calendar & Review")
+        - file.inFolder("Daily Notes")
     order:
       - formula.✨
       - file.name
@@ -172,44 +172,17 @@ views:
     order:
       - formula.✨
       - file.name
-      - created
-      - collections
-      - up
-      - related
       - file.backlinks
+      - link
+      - dateCreated
     sort:
       - property: created
         direction: DESC
     columnSize:
       formula.✨: 23
-      note.created: 137
-      note.up: 154
+      file.name: 427
+      file.backlinks: 201
       note.related: 146
-      note.collections: 199
-  - type: table
-    name: No Outlinks (06 Work)
-    filters:
-      and:
-        - file.links.isEmpty()
-        - file.ext == "md"
-        - file.inFolder("06 Work")
-    order:
-      - formula.✨
-      - file.name
-      - created
-      - collections
-      - up
-      - related
-      - file.backlinks
-    sort:
-      - property: created
-        direction: DESC
-    columnSize:
-      formula.✨: 23
-      note.created: 137
-      note.up: 154
-      note.related: 146
-      note.collections: 199
   - type: table
     name: No Outlinks (Index & Bases)
     filters:
@@ -249,8 +222,8 @@ views:
     order:
       - formula.✨
       - file.name
-      - formula.Inlinks Sum
       - formula.Links
+      - formula.Backlinks Sum
       - file.folder
     sort:
       - property: formula.Links
@@ -311,7 +284,7 @@ views:
       and:
         - file.links.isEmpty()
         - file.backlinks.isEmpty()
-        - file.inFolder("Calendar & Review")
+        - file.inFolder("Daily Notes")
     order:
       - formula.✨
       - file.name
@@ -374,28 +347,6 @@ views:
         - file.links.isEmpty()
         - file.backlinks.isEmpty()
         - file.inFolder("Write")
-    order:
-      - formula.✨
-      - file.name
-      - created
-      - collections
-      - up
-      - related
-      - file.backlinks
-    sort:
-      - property: created
-        direction: DESC
-    limit: 777
-    columnSize:
-      formula.✨: 23
-      note.created: 137
-  - type: table
-    name: Orphans (06 Work)
-    filters:
-      and:
-        - file.links.isEmpty()
-        - file.backlinks.isEmpty()
-        - file.inFolder("06 Work")
     order:
       - formula.✨
       - file.name

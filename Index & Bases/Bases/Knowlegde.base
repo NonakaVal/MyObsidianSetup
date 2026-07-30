@@ -1,7 +1,7 @@
 filters:
   and:
     - file.inFolder("Knowlegde")
-    - file.ext == "md"
+    - "!file.ext.isEmpty()"
 formulas:
   Parent Folder: file.folder.split("/")[-1]
   folder_list: |-
@@ -59,30 +59,28 @@ views:
       file.backlinks: 601
       formula.M.time: 160
   - type: table
-    name: 31 Dots
+    name: 00 Dots
     filters:
       and:
-        - file.inFolder("Knowlegde/31 Dots")
+        - file.inFolder("Knowlegde/00 Dots")
     order:
       - formula.✨
       - file.name
-      - file.backlinks
       - file.links
       - formula.M.time
+      - file.backlinks
     sort:
       - property: file.name
         direction: ASC
-      - property: file.backlinks
-        direction: DESC
     columnSize:
       formula.✨: 23
       file.name: 280
       formula.M.time: 160
   - type: table
-    name: 33 Concepts
+    name: 02 Resources
     filters:
       and:
-        - subject.contains(link("hub-mkt"))
+        - file.inFolder("Knowlegde/01 Recources")
     groupBy:
       property: subject
       direction: ASC
@@ -104,10 +102,10 @@ views:
       file.backlinks: 601
       formula.M.time: 160
   - type: table
-    name: 36 Books
+    name: 02 Concept
     filters:
       and:
-        - file.inFolder("Knowlegde/36 Books")
+        - file.inFolder("Knowlegde/02 Concept")
     order:
       - formula.✨
       - file.name
@@ -124,14 +122,14 @@ views:
       file.name: 280
       formula.M.time: 160
   - type: table
-    name: 37 Media
+    name: 03 Books
     filters:
       and:
-        - file.inFolder("Knowlegde/37 Music & Games & Movies")
+        - file.inFolder("Knowlegde/03 Books")
     order:
       - formula.✨
       - file.name
-      - file.backlinks
+      - author
       - formula.M.time
     sort:
       - property: file.name
@@ -140,15 +138,15 @@ views:
         direction: DESC
     columnSize:
       formula.✨: 23
-      file.name: 280
+      file.name: 494
       formula.M.time: 160
   - type: table
-    name: 35 Resources
+    name: 04 Code
     filters:
       and:
-        - file.inFolder("Knowlegde/35 Recources")
+        - file.inFolder("Knowlegde/04 Code")
     groupBy:
-      property: file.folder
+      property: file.ext
       direction: ASC
     order:
       - formula.✨
@@ -176,3 +174,22 @@ views:
     columnSize:
       formula.✨: 23
       file.name: 280
+  - type: table
+    name: 05 Work
+    filters:
+      and:
+        - file.inFolder("Knowlegde/05 Work")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.✨
+      - file.name
+      - formula.M.time
+    sort:
+      - property: formula.M.time
+        direction: DESC
+    columnSize:
+      formula.✨: 120
+      file.name: 280
+      formula.M.time: 160

@@ -1,16 +1,136 @@
 {
   "recentFiles": [
     {
+      "basename": "AOC",
+      "path": "X/Media/AOC.png"
+    },
+    {
       "basename": "INDEX",
       "path": "INDEX.md"
     },
     {
-      "basename": "2026-07-29",
-      "path": "Daily Notes/2026-07-29.md"
+      "basename": "+_CANVAS-MENTORIA.CARLOS",
+      "path": "Index & Bases/Maps & Boards/+_CANVAS-MENTORIA.CARLOS.canvas"
+    },
+    {
+      "basename": "+_CANVAS-Fluxograma-de-decisoes-de-anuncios",
+      "path": "Index & Bases/Maps & Boards/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas"
+    },
+    {
+      "basename": "+_CANVAS_AOC",
+      "path": "Index & Bases/Maps & Boards/+_CANVAS_AOC.canvas"
+    },
+    {
+      "basename": "Pipeline_Producao_YouTube",
+      "path": "Index & Bases/Maps & Boards/Pipeline_Producao_YouTube.canvas"
+    },
+    {
+      "basename": "Write Map",
+      "path": "Index & Bases/Maps & Boards/Write Map.md"
+    },
+    {
+      "basename": "Datascience Learned",
+      "path": "Index & Bases/Maps & Boards/Datascience Learned.md"
+    },
+    {
+      "basename": "board-market-concepts",
+      "path": "Index & Bases/Maps & Boards/board-market-concepts.md"
+    },
+    {
+      "basename": "board-computer-science",
+      "path": "Index & Bases/Maps & Boards/board-computer-science.md"
+    },
+    {
+      "basename": "Write",
+      "path": "Index & Bases/Bases/Write.base"
+    },
+    {
+      "basename": "ShareNotes",
+      "path": "Index & Bases/Bases/ShareNotes.base"
+    },
+    {
+      "basename": "Recents",
+      "path": "Index & Bases/Bases/Recents.base"
+    },
+    {
+      "basename": "Orphanage",
+      "path": "Index & Bases/Bases/Orphanage.base"
+    },
+    {
+      "basename": "MOC",
+      "path": "Index & Bases/Bases/MOC.base"
+    },
+    {
+      "basename": "Memos",
+      "path": "Index & Bases/Bases/Memos.base"
+    },
+    {
+      "basename": "Media",
+      "path": "Index & Bases/Bases/Media.base"
+    },
+    {
+      "basename": "Knowlegde",
+      "path": "Index & Bases/Bases/Knowlegde.base"
+    },
+    {
+      "basename": "Books",
+      "path": "Index & Bases/Bases/Books.base"
     },
     {
       "basename": "Calendar",
       "path": "Index & Bases/Bases/Calendar.base"
+    },
+    {
+      "basename": "Concepts",
+      "path": "Index & Bases/Bases/Concepts.base"
+    },
+    {
+      "basename": "res-checklist-produto-e-objecoes",
+      "path": "Knowlegde/01 Recources/res-checklist-produto-e-objecoes.md"
+    },
+    {
+      "basename": "2023-05-23",
+      "path": "Daily Notes/2023-05-23.md"
+    },
+    {
+      "basename": "2023-05-22",
+      "path": "Daily Notes/2023-05-22.md"
+    },
+    {
+      "basename": "Boards",
+      "path": "Index & Bases/Bases/Boards.base"
+    },
+    {
+      "basename": "resposta sobre obsidian",
+      "path": "Knowlegde/00 Dots/resposta sobre obsidian.md"
+    },
+    {
+      "basename": "simplicidade",
+      "path": "Knowlegde/00 Dots/simplicidade.md"
+    },
+    {
+      "basename": "basic-regex-busca-com-variações-simples",
+      "path": "Knowlegde/02 Concept/basic-regex-busca-com-variações-simples.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "Knowlegde/02 Concept/ARC Framework.md"
+    },
+    {
+      "basename": "+ ACE Pack - framework",
+      "path": "Knowlegde/02 Concept/+ ACE Pack - framework.md"
+    },
+    {
+      "basename": "2026-02-08-memo-curso-carlos",
+      "path": "Memos/Archived/2026-02-08-memo-curso-carlos.md"
+    },
+    {
+      "basename": "1-Notas de Agradecimento",
+      "path": "Write/1-Notas de Agradecimento.md"
+    },
+    {
+      "basename": "2026-07-29",
+      "path": "Daily Notes/2026-07-29.md"
     },
     {
       "basename": "2026-06-01",
@@ -29,20 +149,12 @@
       "path": "Daily Notes/2023-05-21.md"
     },
     {
-      "basename": "2023-05-23",
-      "path": "Daily Notes/2023-05-23.md"
-    },
-    {
       "basename": "2026-05-31",
       "path": "Daily Notes/2026-05-31.md"
     },
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "board-computer-science",
-      "path": "Index & Bases/Maps & Boards/board-computer-science.md"
     },
     {
       "basename": "wall_040",
@@ -61,10 +173,6 @@
       "path": "X/Media/Captura_de_tela_20260607_150347.png"
     },
     {
-      "basename": "Media",
-      "path": "Index & Bases/Bases/Media.base"
-    },
-    {
       "basename": "hub-css",
       "path": "X/hubs/hub-css.md"
     },
@@ -81,38 +189,6 @@
       "path": "X/Captura_de_tela_20260607_150347.png"
     },
     {
-      "basename": "Write Map",
-      "path": "Index & Bases/Maps & Boards/Write Map.md"
-    },
-    {
-      "basename": "MOC",
-      "path": "Index & Bases/Bases/MOC.base"
-    },
-    {
-      "basename": "board-market-concepts",
-      "path": "Index & Bases/Maps & Boards/board-market-concepts.md"
-    },
-    {
-      "basename": "Datascience Learned",
-      "path": "Index & Bases/Maps & Boards/Datascience Learned.md"
-    },
-    {
-      "basename": "Pipeline_Producao_YouTube",
-      "path": "Index & Bases/Maps & Boards/Pipeline_Producao_YouTube.canvas"
-    },
-    {
-      "basename": "Boards",
-      "path": "Index & Bases/Bases/Boards.base"
-    },
-    {
-      "basename": "ShareNotes",
-      "path": "Index & Bases/Bases/ShareNotes.base"
-    },
-    {
-      "basename": "+ ACE Pack - framework",
-      "path": "Knowlegde/02 Concept/+ ACE Pack - framework.md"
-    },
-    {
       "basename": "flow-whatsApp-arena-report",
       "path": "Knowlegde/04 Code/04.5 Workflow/flow-whatsApp-arena-report.md"
     },
@@ -123,82 +199,6 @@
     {
       "basename": "!_guia-de-formatos",
       "path": "Knowlegde/05 Work/Collectors Guardian/+/collectors-notes/!_guia-de-formatos.md"
-    },
-    {
-      "basename": "Memos",
-      "path": "Index & Bases/Bases/Memos.base"
-    },
-    {
-      "basename": "Knowlegde",
-      "path": "Index & Bases/Bases/Knowlegde.base"
-    },
-    {
-      "basename": "Concepts",
-      "path": "Index & Bases/Bases/Concepts.base"
-    },
-    {
-      "basename": "Books",
-      "path": "Index & Bases/Bases/Books.base"
-    },
-    {
-      "basename": "2026-07-14",
-      "path": "Daily Notes/2026-07-14.md"
-    },
-    {
-      "basename": "2026-06-16",
-      "path": "Daily Notes/2026-06-16.md"
-    },
-    {
-      "basename": "2023-05-22",
-      "path": "Daily Notes/2023-05-22.md"
-    },
-    {
-      "basename": "2023-05-17",
-      "path": "Daily Notes/2023-05-17.md"
-    },
-    {
-      "basename": "2023-05-15",
-      "path": "Daily Notes/2023-05-15.md"
-    },
-    {
-      "basename": "2023-05-14",
-      "path": "Daily Notes/2023-05-14.md"
-    },
-    {
-      "basename": "B-Daily Note Template",
-      "path": "X/Template/Format/B-Daily Note Template.md"
-    },
-    {
-      "basename": "A-Weekly Note Template",
-      "path": "X/Template/Format/A-Weekly Note Template.md"
-    },
-    {
-      "basename": "1-Notas de Agradecimento",
-      "path": "Write/1-Notas de Agradecimento.md"
-    },
-    {
-      "basename": "2-Contexto Inicial",
-      "path": "Write/2-Contexto Inicial.md"
-    },
-    {
-      "basename": "Crop images 295x257",
-      "path": "Knowlegde/04 Code/04.4 Toolbox/Image Wag/Crop images 295x257.md"
-    },
-    {
-      "basename": "crop 2x2 Grid",
-      "path": "Knowlegde/04 Code/04.4 Toolbox/Image Wag/crop 2x2 Grid.md"
-    },
-    {
-      "basename": "INDEX-CODE",
-      "path": "Knowlegde/04 Code/04.3 Projects/INDEX-CODE.md"
-    },
-    {
-      "basename": "clipa instal",
-      "path": "Knowlegde/04 Code/04.1 Configs/clipa instal.md"
-    },
-    {
-      "basename": "arch-git-config",
-      "path": "Knowlegde/04 Code/04.1 Configs/arch-git-config.md"
     }
   ],
   "omittedPaths": [],

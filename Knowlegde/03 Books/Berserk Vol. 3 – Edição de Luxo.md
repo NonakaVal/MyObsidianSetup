@@ -15,7 +15,7 @@ isbn: "9788542601794"
 cover: https://m.media-amazon.com/images/I/51NCmbbAgBL._SY300_.jpg
 localCover: ""
 status: Finished
-created: "[[2025-10-20]]"
+dateCreated: "[[2025-10-20]]"
 ---
 
 

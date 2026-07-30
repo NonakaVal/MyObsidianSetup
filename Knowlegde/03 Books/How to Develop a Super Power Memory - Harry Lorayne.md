@@ -16,7 +16,7 @@ isbn: 0883910500 9780883910504
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0vA-J_RW-Y-hLUKoRlRQVPXuC93Qb-6tR6Q&s
 localCover: ""
 status: Finished
-created: "[[2025-10-29]]"
+dateCreated: "[[2025-10-29]]"
 ---
 
 

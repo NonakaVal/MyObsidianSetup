@@ -1,6 +1,6 @@
 ---
-created: "[[2025-07-10]]"
-HUB:
+dateCreated: "[[2025-07-10]]"
+subject:
   - "[[hub-pkm]]"
 tags:
   - learning

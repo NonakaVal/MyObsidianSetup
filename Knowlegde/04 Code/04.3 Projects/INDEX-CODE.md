@@ -1,5 +1,5 @@
 ---
-created: "[[2025-06-28]]"
+dateCreated: "[[2025-06-28]]"
 cssclasses:
   - dashboard
 ---

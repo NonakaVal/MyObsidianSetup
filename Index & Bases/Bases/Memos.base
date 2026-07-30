@@ -15,7 +15,7 @@ views:
       - file.name
       - formula.M-time
     columnSize:
-      file.name: 466
+      file.name: 694
   - type: table
     name: Table
     filters:

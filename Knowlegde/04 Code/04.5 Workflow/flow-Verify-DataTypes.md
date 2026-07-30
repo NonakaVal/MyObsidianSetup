@@ -2,7 +2,7 @@
 tags:
   - learning
   - component
-HUB:
+subject:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"
 ---

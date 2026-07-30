@@ -15,7 +15,7 @@ isbn: 989564129X 9789895641291
 cover: http://books.google.com/books/content?id=NZZWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 localCover: ""
 status: Finished
-created: "[[2025-10-20]]"
+dateCreated: "[[2025-10-20]]"
 ---
 
 

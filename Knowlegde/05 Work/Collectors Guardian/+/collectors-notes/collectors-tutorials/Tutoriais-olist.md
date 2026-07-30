@@ -2,7 +2,7 @@
 project: collectors-tutorials
 summary: Tutoriais do olist
 tags:
-connections:
+related:
   - "[[EFFORTS/11_ARCHIVES/collectorsGuardian/collectors-notes/collectors-tutorials/collectors-tutorials|collectors-tutorials]]"
 status: Finished
 ---

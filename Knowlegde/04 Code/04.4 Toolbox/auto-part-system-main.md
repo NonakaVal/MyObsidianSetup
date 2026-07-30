@@ -1,7 +1,7 @@
 ---
 tags:
   - code
-created: '[[2025-12-26]]'
+dateCreated: "[[2025-12-26]]"
 ---
 ```python
 from google import genai

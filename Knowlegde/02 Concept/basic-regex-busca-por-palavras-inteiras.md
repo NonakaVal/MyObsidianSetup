@@ -1,13 +1,13 @@
 ---
-created: "[[2025-06-11]]"
+dateCreated: "[[2025-06-11]]"
 tags:
   - learning/review
   - learning
-HUB:
+subject:
   - "[[hub-regex]]"
   - "[[hub-tec]]"
   - "[[hub-linux]]"
-connections:
+related:
   - "[[draft-regex-rg-all-notes]]"
   - "[[cmp-first-ripgrep-regex-queries]]"
   - "[[draft-code-search-ripgrap-functions]]"

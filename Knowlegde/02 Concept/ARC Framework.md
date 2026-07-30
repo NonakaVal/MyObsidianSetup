@@ -1,6 +1,6 @@
 ---
-created: "[[2025-07-10]]"
-HUB:
+dateCreated: "[[2025-07-10]]"
+subject:
   - "[[hub-pkm]]"
 share_link: https://share.note.sx/rkfa9h1c#tOdFDpN4YRKWaMUZM9ce/UDWvhm3AeqxVUgS2eDBq6M
 share_updated: 2025-07-10T19:01:40-03:00

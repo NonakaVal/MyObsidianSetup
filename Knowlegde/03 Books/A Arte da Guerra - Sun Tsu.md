@@ -1,7 +1,7 @@
 ---
 tags:
   - book
-created: "[[2025-12-09]]"
+dateCreated: "[[2025-12-09]]"
 aliases:
   - A Arte da Guerra
 title: A Arte da Guerra

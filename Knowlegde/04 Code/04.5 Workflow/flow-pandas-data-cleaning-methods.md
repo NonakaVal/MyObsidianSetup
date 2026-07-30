@@ -2,10 +2,10 @@
 tags:
   - learning
   - workflow
-HUB:
+subject:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"
-created: "[[10-02-2024]]"
+dateCreated: "[[10-02-2024]]"
 dg-publish: true
 ---
 ### [[possible-issues-w-categorical-data|Possíveis Problemas com Dados Categóricos]]

@@ -85,6 +85,8 @@ views:
       - file.tags
       - formula.M.time
     sort:
+      - property: formula.Parent Folder
+        direction: ASC
       - property: formula.M.time
         direction: DESC
       - property: formula.✨
@@ -96,7 +98,7 @@ views:
     limit: 77
     columnSize:
       formula.✨: 23
-      file.name: 244
+      file.name: 343
       formula.M.time: 202
   - type: table
     name: Created
@@ -149,7 +151,7 @@ views:
     name: Calendar & Review
     filters:
       and:
-        - file.inFolder("Calendar & Review")
+        - file.inFolder("Daily Notes")
     groupBy:
       property: file.folder
       direction: ASC
@@ -252,84 +254,6 @@ views:
       file.name: 244
       formula.M.time: 175
   - type: table
-    name: 06 Work
-    filters:
-      and:
-        - file.inFolder("06 Work")
-    groupBy:
-      property: file.folder
-      direction: ASC
-    order:
-      - formula.✨
-      - file.name
-      - formula.M.time
-      - formula.Parent Folder
-      - collections
-      - up
-      - related
-    sort:
-      - property: file.mtime
-        direction: DESC
-      - property: created
-        direction: DESC
-    limit: 77
-    columnSize:
-      formula.✨: 23
-      file.name: 244
-      formula.M.time: 175
-  - type: table
-    name: 07 AI
-    filters:
-      and:
-        - file.inFolder("07 AI")
-    groupBy:
-      property: file.folder
-      direction: ASC
-    order:
-      - formula.✨
-      - file.name
-      - formula.M.time
-      - formula.Parent Folder
-      - collections
-      - up
-      - related
-    sort:
-      - property: file.mtime
-        direction: DESC
-      - property: created
-        direction: DESC
-    limit: 77
-    columnSize:
-      formula.✨: 23
-      file.name: 244
-      formula.M.time: 175
-  - type: table
-    name: 08 Focus Areas
-    filters:
-      and:
-        - file.inFolder("08 Focus Areas")
-    groupBy:
-      property: file.folder
-      direction: ASC
-    order:
-      - formula.✨
-      - file.name
-      - formula.M.time
-      - formula.Parent Folder
-      - collections
-      - up
-      - related
-    sort:
-      - property: file.mtime
-        direction: DESC
-      - property: created
-        direction: DESC
-    limit: 77
-    columnSize:
-      formula.✨: 23
-      file.name: 244
-      formula.M.time: 175
-  - type: table
     name: Memos
     filters:
       and:
@@ -349,27 +273,6 @@ views:
       - property: file.mtime
         direction: DESC
       - property: created
-        direction: DESC
-    limit: 77
-    columnSize:
-      formula.✨: 23
-      file.name: 244
-      formula.M.time: 175
-  - type: table
-    name: 01 Snippets
-    filters:
-      and:
-        - file.inFolder("01 Snippets")
-    groupBy:
-      property: file.folder
-      direction: ASC
-    order:
-      - formula.✨
-      - file.name
-      - formula.M.time
-      - formula.Parent Folder
-    sort:
-      - property: file.mtime
         direction: DESC
     limit: 77
     columnSize:

@@ -11,24 +11,12 @@
             "id": "5482a560b2eb4080",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "INDEX.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "X/Media/AOC.png"
               },
-              "icon": "lucide-file",
-              "title": "INDEX"
+              "icon": "lucide-image",
+              "title": "AOC"
             }
           }
         ]
@@ -157,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "INDEX.md",
+                "file": "X/Media/AOC.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,7 +173,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of INDEX"
+              "title": "Graph of AOC"
             }
           },
           {
@@ -272,62 +260,62 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "f4ec2a6880597c61",
+  "active": "5482a560b2eb4080",
   "lastOpenFiles": [
+    "INDEX.md",
+    "Index & Bases/Maps & Boards/+_CANVAS-MENTORIA.CARLOS.canvas",
+    "Index & Bases/Maps & Boards/+_CANVAS-Fluxograma-de-decisoes-de-anuncios.canvas",
+    "Index & Bases/Maps & Boards/+_CANVAS_AOC.canvas",
+    "+/+_CANVAS-DATASCIENCE.canvas",
+    "mapa-pkm.canvas",
+    "Não confirmado 72779.crdownload",
+    "+/+_CANVAS_AOC 1.canvas",
+    "X/Media/AOC.png",
+    "Não confirmado 718184.crdownload",
+    "Index & Bases/Maps & Boards/Pipeline_Producao_YouTube.canvas",
+    "Index & Bases/Maps & Boards/Write Map.md",
+    "Index & Bases/Maps & Boards/Datascience Learned.md",
+    "Index & Bases/Maps & Boards/board-market-concepts.md",
+    "Index & Bases/Maps & Boards/board-computer-science.md",
+    "Index & Bases/Bases/Write.base",
+    "Index & Bases/Bases/ShareNotes.base",
+    "Index & Bases/Bases/Snippets.base",
+    "Index & Bases/Bases/Recents.base",
+    "Index & Bases/Bases/Orphanage.base",
+    "Index & Bases/Bases/MOC.base",
+    "Index & Bases/Bases/Memos.base",
+    "Index & Bases/Bases/Media.base",
+    "Knowlegde/01 Recources/res-checklist-produto-e-objecoes.md",
+    "Daily Notes/2023-05-23.md",
+    "Daily Notes/2023-05-22.md",
+    "Knowlegde/00 Dots/resposta sobre obsidian.md",
+    "Knowlegde/00 Dots/simplicidade.md",
+    "Knowlegde/02 Concept/basic-regex-busca-com-variações-simples.md",
+    "Knowlegde/02 Concept/ARC Framework.md",
+    "Knowlegde/02 Concept/+ ACE Pack - framework.md",
+    "Memos/Archived/2026-02-08-memo-curso-carlos.md",
+    "Write/1-Notas de Agradecimento.md",
     "Daily Notes/2026-07-29.md",
-    "Index & Bases/Bases/Calendar.base",
     "Daily Notes/2026-06-01.md",
     "Daily Notes/2026-06-06.md",
     "Daily Notes/2026-06-07.md",
     "Daily Notes/2023-05-21.md",
-    "Daily Notes/2023-05-23.md",
     "Daily Notes/2026-05-31.md",
     "README.md",
-    "Index & Bases/Maps & Boards/board-computer-science.md",
     "X/Media/wall_040.png",
     "X/Media/just.gif",
-    "INDEX.md",
     "X/Media/Captura_de_tela_20260607_150441.png",
     "X/Media/Captura_de_tela_20260607_150347.png",
-    "Index & Bases/Bases/Media.base",
     "X/hubs/hub-css.md",
     "X/hubs/hub-aoc.md",
     "X/Captura_de_tela_20260607_150441.png",
     "X/Captura_de_tela_20260607_150347.png",
-    "Index & Bases/Maps & Boards/Write Map.md",
-    "Index & Bases/Bases/MOC.base",
-    "Index & Bases/Maps & Boards/board-market-concepts.md",
-    "Index & Bases/Maps & Boards/Datascience Learned.md",
-    "Index & Bases/Maps & Boards/Pipeline_Producao_YouTube.canvas",
-    "Index & Bases/Bases/Boards.base",
-    "Index & Bases/Bases/Resources.base",
-    "Index & Bases/Bases/ShareNotes.base",
-    "Knowlegde/02 Concept/+ ACE Pack - framework.md",
     "Knowlegde/04 Code/04.5 Workflow/flow-whatsApp-arena-report.md",
-    "Knowlegde/04 Code/04.1 Configs/i3config.md",
-    "Knowlegde/05 Work/Collectors Guardian/+/collectors-notes/!_guia-de-formatos.md",
-    "Index & Bases/Bases/Memos.base",
-    "Index & Bases/Bases/Knowlegde.base",
-    "Index & Bases/Bases/Concepts.base",
-    "Index & Bases/Bases/Books.base",
-    "Daily Notes/2026-07-14.md",
-    "Daily Notes/2026-06-16.md",
-    "Daily Notes/2023-05-22.md",
-    "Daily Notes/2023-05-17.md",
-    "Daily Notes/2023-05-15.md",
-    "Daily Notes/2023-05-14.md",
     "Index & Bases/Maps & Boards/Logs-V-View.canvas",
     "X/Captura_de_tela_20260607_150204.png",
     "Index & Bases/Pipeline_Producao_YouTube.canvas",
     "Index & Bases/Logs-V-View.canvas",
-    "Index & Bases/Bases/Pipeline_Producao_YouTube.canvas",
-    "Index & Bases/Bases/Logs-V-View.canvas",
-    "Index & Bases/Maps/Logs-V-View.canvas",
     "X/Media/Pasted image 20260714121041.png",
-    "X/Media/NotADev_Gallery/catmeme/media-iv-text.gif",
-    "X/Media/NotADev_Gallery/catmeme/IMG_4569.png",
-    "Index & Bases/Maps/Pipeline_Producao_YouTube.canvas",
-    "Index & Bases/mapa-pkm.canvas",
-    "Index & Bases/Mood-Tracker.canvas"
+    "X/Media/NotADev_Gallery/catmeme/media-iv-text.gif"
   ]
 }

@@ -3,10 +3,10 @@ tags:
   - resources
   - learning/review
   - workflow
-HUB:
+subject:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"
-created: "[[07-02-2024]]"
+dateCreated: "[[07-02-2024]]"
 ---
 [Pandas](https://pandas.pydata.org/docs/reference/index.html)
 

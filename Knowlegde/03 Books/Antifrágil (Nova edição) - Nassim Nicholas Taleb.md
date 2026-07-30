@@ -16,7 +16,7 @@ isbn: 855451744X 9788554517441
 cover: http://books.google.com/books/content?id=h1bgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 localCover: ""
 status: Finished
-created: "[[2026-01-27]]"
+dateCreated: "[[2026-01-27]]"
 ---
 
 

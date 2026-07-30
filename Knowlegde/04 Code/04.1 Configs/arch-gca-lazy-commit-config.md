@@ -1,5 +1,5 @@
 ---
-connections:
+related:
   - "[[Lazy Commits]]"
 subject:
   - "[[hub-git]]"

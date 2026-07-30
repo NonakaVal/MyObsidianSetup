@@ -15,7 +15,7 @@ isbn: "9788542617092"
 cover: https://m.media-amazon.com/images/I/51J9tn7W3jL._SY300_.jpg
 localCover: ""
 status: Finished
-created: "[[2025-10-20]]"
+dateCreated: "[[2025-10-20]]"
 cssclasses:
   - imagegallery
 ---

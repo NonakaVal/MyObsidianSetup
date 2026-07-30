@@ -15,7 +15,7 @@ isbn: "9788542601749"
 cover: https://m.media-amazon.com/images/I/61z1aWBTm7L._SL1000_.jpg
 localCover: ""
 status: Finished
-created: "[[2025-10-20]]"
+dateCreated: "[[2025-10-20]]"
 ---
 
 

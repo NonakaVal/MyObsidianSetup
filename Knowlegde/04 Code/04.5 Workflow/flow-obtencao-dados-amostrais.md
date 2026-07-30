@@ -1,9 +1,9 @@
 ---
 tags:
   - learning/book
-HUB:
+subject:
   - "[[hub-statistic]]"
-created: "[[2024-05-10]]"
+dateCreated: "[[2024-05-10]]"
 origin: "[[book-introducao-estatistica-12edicao-mario-f-triola-2017]]"
 ---
 

@@ -4,7 +4,7 @@ tags:
 subject:
   - "[[hub-work]]"
   - "[[hub-social-midia]]"
-connections:
+related:
   - "[[roteitos-reels-collectors-2024]]"
 area:
   - "[[Collectors Guardian]]"

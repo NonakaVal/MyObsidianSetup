@@ -2,7 +2,7 @@
 tags:
   - learning
   - workflow
-HUB:
+subject:
   - "[[hub-python]]"
   - "[[hub-data-wrangling]]"
 ---

@@ -61,23 +61,7 @@ views:
     name: Dev & TI
     filters:
       and:
-        - file.inFolder("Knowlegde/33 Concept/Dev & TI")
-    order:
-      - formula.✨
-      - file.name
-      - file.backlinks
-      - formula.M.time
-    sort:
-      - property: file.backlinks
-        direction: DESC
-    columnSize:
-      formula.✨: 23
-      file.name: 280
-  - type: table
-    name: Marketing
-    filters:
-      and:
-        - file.inFolder("Knowlegde/33 Concept/marketing")
+        - subject.contains(link("hub-tec"))
     order:
       - formula.✨
       - file.name

@@ -1,7 +1,7 @@
 ---
 tags:
-  - null
-created: '[[2025-12-09]]'
+  - 
+dateCreated: "[[2025-12-09]]"
 ---
 <<< [[1-Notas de Agradecimento]]
 

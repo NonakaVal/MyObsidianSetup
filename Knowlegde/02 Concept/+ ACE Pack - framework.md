@@ -1,5 +1,5 @@
 ---
-created: "[[2025-07-10]]"
+dateCreated: "[[2025-07-10]]"
 share_link: https://share.note.sx/0i9hh31d#pdi2BWiu7B9jAMLvGWCQ1OQn/1VR6R/v3DWkfO6pfHg
 share_updated: 2025-07-10T19:14:57-03:00
 ---

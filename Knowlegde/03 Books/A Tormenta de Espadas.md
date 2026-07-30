@@ -3,7 +3,7 @@ tags:
   - book
   - fantasy
   - asoiaf
-created: "[[2026-07-29]]"
+dateCreated: "[[2026-07-29]]"
 aliases:
   - A Tormenta de Espadas
   - A Storm of Swords
